@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+    <plurals name="N_additional_songs">
+        <item quantity="other">y %d canciones similares</item>
+        <item quantity="one">y 1 canción similar</item>
+    </plurals>
+    <plurals name="N_delete_songs">
+        <item quantity="other">¿Estás seguro de que deseas borrar permanentemente estas %d canciones?</item>
+        <item quantity="one">¿Estás seguro de que deseas borrar permanentemente esta canción?</item>
+    </plurals>
+    <plurals name="N_playlists_deleted">
+        <item quantity="other">%d listas borradas.</item>
+        <item quantity="one">Lista borrada.</item>
+    </plurals>
+    <plurals name="N_songs_purchased">
+        <item quantity="other">%d canciones compradas exitosamente y agregadas a la cola de descargas.</item>
+        <item quantity="one">Canción comprada exitosamente y agregada a la cola de descargas.</item>
+    </plurals>
+    <plurals name="N_songs_purchased_wifi_blocked">
+        <item quantity="other">%d canciones compradas con éxito. La descarga iniciará cuando te conectes a Wi-Fi.</item>
+        <item quantity="one">Canción comprada exitosamente. La descarga iniciará cuando te conectes a Wi-Fi.</item>
+    </plurals>
+    <plurals name="N_tracks_added_playlist">
+        <item quantity="other">Se han agregado %d canciones a la lista de reproducción.</item>
+        <item quantity="one">1 canción agregada a la lista de reproducción.</item>
+    </plurals>
+    <plurals name="N_tracks_deleted_from_playlist">
+        <item quantity="other">%d canciones borradas de la lista de reproducción.</item>
+        <item quantity="one">Se ha borrado 1 canción de la lista de reproducción.</item>
+    </plurals>
+    <plurals name="N_tracks_deleted_from_storage">
+        <item quantity="other">Se han eliminado %d canciones del teléfono.</item>
+        <item quantity="one">1 canción borrada del teléfono.</item>
+    </plurals>
+    <plurals name="song_will_start_N_seconds">
+        <item quantity="other">La canción se reproducirá en %d segundos</item>
+        <item quantity="one">La canción se reproducirá en 1 segundo</item>
+    </plurals>
+</resources>

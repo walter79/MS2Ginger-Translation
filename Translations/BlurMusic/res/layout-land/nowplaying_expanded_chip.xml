@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="256.0dip" android:layout_height="200.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="horizontal" android:id="@id/badge" android:background="@blur.res:drawable/dashboard_badge_bg" android:layout_width="256.0dip" android:layout_height="86.0dip" android:layout_weight="0.0">
+        <ImageView android:id="@id/icon" android:background="#e7ffffff" android:visibility="gone" android:layout_width="86.0dip" android:layout_height="86.0dip" android:layout_marginRight="6.0dip" android:scaleType="centerCrop" android:layout_weight="0.0" />
+        <LinearLayout android:orientation="vertical" android:id="@id/badge_text_area" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0">
+            <TextView android:textSize="14.0sp" android:textColor="#ffcccccc" android:ellipsize="end" android:gravity="left" android:id="@id/text_top" android:layout_width="fill_parent" android:layout_height="fill_parent" android:maxLines="1" android:layout_weight="1.0" />
+            <TextView android:textSize="18.0sp" android:textStyle="bold" android:textColor="#ffffffff" android:ellipsize="end" android:gravity="left" android:id="@id/text_middle" android:layout_width="fill_parent" android:layout_height="fill_parent" android:maxLines="1" android:layout_weight="1.0" />
+            <TextView android:textSize="16.0sp" android:textColor="#ffffffff" android:ellipsize="end" android:gravity="left" android:id="@id/text_bottom" android:layout_width="fill_parent" android:layout_height="fill_parent" android:maxLines="1" android:layout_weight="1.0" />
+            <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_weight="1.0">
+                <TextView android:textSize="14.0sp" android:textColor="#ffffffff" android:ellipsize="end" android:id="@id/text_date" android:layout_width="fill_parent" android:layout_height="wrap_content" android:maxLines="1" android:layout_weight="1.0" />
+                <ImageView android:gravity="right" android:layout_gravity="right" android:id="@id/provider_logo" android:layout_width="14.0dip" android:layout_height="14.0dip" android:src="@blur.res:drawable/ic_launcher_account" android:baselineAlignBottom="true" android:layout_weight="0.0" />
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+    <FrameLayout android:id="@id/card_body" android:layout_width="256.0dip" android:layout_height="114.0dip">
+        <ImageView android:gravity="center" android:layout_gravity="top" android:id="@id/background" android:background="@color/dashboard_card_bg" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginBottom="5.0dip" android:scaleType="centerCrop" />
+        <LinearLayout android:orientation="vertical" android:id="@id/card_text" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_weight="1.0">
+            <TextView android:textSize="14.0sp" android:textStyle="bold" android:textColor="#ff000000" android:id="@id/text_body_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="5.0dip" android:layout_marginRight="5.0dip" android:maxLines="3" android:layout_weight="0.0" />
+            <TextView android:textSize="14.0sp" android:textColor="#ff000000" android:id="@id/text_body" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="5.0dip" android:layout_marginTop="5.0dip" android:layout_marginRight="5.0dip" android:maxLines="2" android:layout_weight="1.0" />
+        </LinearLayout>
+        <ImageView android:gravity="center" android:layout_gravity="bottom|right|center" android:id="@id/action_btn" android:background="@blur.res:drawable/btn_dashboard_bg" android:layout_width="36.0dip" android:layout_height="36.0dip" android:layout_marginRight="12.0dip" android:layout_marginBottom="10.0dip" android:shadowColor="#e7000000" android:shadowDx="0.0" android:shadowDy="0.65" android:shadowRadius="3.0" />
+        <ImageView android:gravity="center" android:layout_gravity="center" android:id="@id/video_overlay" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@blur.res:drawable/ic_media_play_stream" />
+    </FrameLayout>
+</LinearLayout>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:background="@color/listview_selector" android:layout_width="fill_parent" android:layout_height="?listPreferredHeight"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textAppearance="@style/textMajor" android:ellipsize="end" android:id="@id/text1" android:paddingLeft="?listPaddingLeft" android:paddingRight="?listPaddingRight" android:layout_width="0.0dip" android:layout_height="wrap_content" android:maxLines="2" android:layout_weight="1.0" android:layout_centerVertical="true"
+      xmlns:android="http://schemas.android.com/apk/res/android" />
+    <ImageView android:gravity="center" android:id="@id/now_playing_icon" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="?listPreferredHeight" android:src="@drawable/playing_song_indicator" android:scaleType="centerInside" />
+</LinearLayout>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LinearLayout android:orientation="vertical" android:id="@id/container" android:background="@com.motorola.android.widget:drawable/header_bkg" android:layout_width="fill_parent" android:layout_height="wrap_content" style="@com.motorola.android.widget:style/Interactive_Titlebar"
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:moto.res="http://schemas.android.com/apk/res/com.motorola.android.widget">
+    <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginRight="2.0dip">
+        <ImageView android:id="@id/icon" android:background="@drawable/ic_album_generic_list" android:layout_width="60.0dip" android:layout_height="60.0dip" android:layout_marginRight="6.0dip" android:scaleType="centerCrop" android:layout_weight="0.0" android:layout_alignParentTop="true" android:layout_alignParentBottom="true" />
+        <LinearLayout android:orientation="vertical" android:id="@id/textArea" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_weight="1.0">
+            <TextView android:textSize="14.0dip" android:textStyle="bold" android:textColor="#ffffffff" android:ellipsize="end" android:id="@id/top_text" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="22.0dip" android:maxLines="1" android:layout_toRightOf="@id/icon" />
+            <TextView android:textSize="20.0dip" android:textStyle="bold" android:textColor="#ffffffff" android:ellipsize="end" android:id="@id/bottom_text" android:layout_width="180.0dip" android:layout_height="wrap_content" android:maxLines="1" />
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

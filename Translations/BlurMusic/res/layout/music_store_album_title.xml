@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LinearLayout android:orientation="vertical" android:id="@id/container" android:background="@com.motorola.android.widget:drawable/header_bkg" android:layout_width="fill_parent" android:layout_height="@dimen/track_list_item_icon_h" style="@com.motorola.android.widget:style/Interactive_Titlebar"
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:moto.res="http://schemas.android.com/apk/res/com.motorola.android.widget">
+    <LinearLayout android:orientation="horizontal" android:id="@id/title_area" android:clickable="true" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <ImageView android:id="@id/icon" android:background="@blur.res:drawable/ic_single_list_generic_music" android:layout_width="@dimen/track_list_item_icon_w" android:layout_height="@dimen/track_list_item_icon_h" android:layout_marginRight="6.0dip" android:scaleType="centerCrop" android:layout_weight="0.0" android:layout_alignParentTop="true" android:layout_alignParentBottom="true" />
+        <LinearLayout android:orientation="vertical" android:id="@id/textArea" android:layout_width="180.0dip" android:layout_height="fill_parent" android:layout_weight="1.0">
+            <TextView android:textSize="20.0dip" android:textStyle="bold" android:textColor="#ffffffff" android:ellipsize="end" android:id="@id/top_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="3.0dip" android:maxLines="1" android:scrollHorizontally="true" android:layout_toRightOf="@id/icon" />
+            <TextView android:textSize="14.0dip" android:textColor="#ffffffff" android:ellipsize="end" android:id="@id/bottom_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxLines="1" android:scrollHorizontally="true" />
+        </LinearLayout>
+        <ImageView android:id="@id/line_divider" android:background="@com.motorola.android.widget:drawable/header_divider" android:layout_width="1.0dip" android:layout_height="fill_parent" />
+        <RelativeLayout android:orientation="horizontal" android:layout_width="60.0dip" android:layout_height="fill_parent" android:layout_alignParentRight="true">
+            <TextView android:textSize="12.0sp" android:textColor="#ffffffff" android:gravity="center" android:id="@id/price_text" android:layout_width="60.0dip" android:layout_height="fill_parent" android:maxLines="1" android:layout_centerInParent="true" />
+            <ProgressBar android:id="@id/price_progress" android:layout_width="25.0dip" android:layout_height="25.0dip" android:layout_centerInParent="true" />
+        </RelativeLayout>
+    </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+    <public type="drawable" name="battery_charge_background" id="0x7f020000" />
+    <public type="drawable" name="battery_green_img" id="0x7f020001" />
+    <public type="drawable" name="battery_orange_img" id="0x7f020002" />
+    <public type="drawable" name="battery_red_img" id="0x7f020003" />
+    <public type="drawable" name="ic_pane_battery_charge" id="0x7f020004" />
+    <public type="drawable" name="ic_pane_battery_complete" id="0x7f020005" />
+    <public type="drawable" name="ic_pane_battery_error" id="0x7f020006" />
+    <public type="drawable" name="number_0" id="0x7f020007" />
+    <public type="drawable" name="number_1" id="0x7f020008" />
+    <public type="drawable" name="number_2" id="0x7f020009" />
+    <public type="drawable" name="number_3" id="0x7f02000a" />
+    <public type="drawable" name="number_4" id="0x7f02000b" />
+    <public type="drawable" name="number_5" id="0x7f02000c" />
+    <public type="drawable" name="number_6" id="0x7f02000d" />
+    <public type="drawable" name="number_7" id="0x7f02000e" />
+    <public type="drawable" name="number_8" id="0x7f02000f" />
+    <public type="drawable" name="number_9" id="0x7f020010" />
+    <public type="drawable" name="percentage" id="0x7f020011" />
+    <public type="string" name="chargeonlymode_label" id="0x7f030000" />
+</resources>

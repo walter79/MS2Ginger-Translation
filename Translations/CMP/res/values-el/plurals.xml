@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+    <plurals name="N_additional_songs">
+        <item quantity="other">και %d παρόμοια τραγούδια</item>
+        <item quantity="one">και 1 παρόμοιο τραγούδι</item>
+    </plurals>
+    <plurals name="N_delete_songs">
+        <item quantity="other">Είστε βέβαιοι ότι θέλετε να διαγράψετε οριστικά αυτά τα %d τραγούδια;</item>
+        <item quantity="one">Είστε βέβαιοι ότι θέλετε να διαγράψετε οριστικά αυτό το τραγούδι;</item>
+    </plurals>
+    <plurals name="N_playlists_deleted">
+        <item quantity="other">%d λίστες αναπαραγωγής διαγράφηκαν.</item>
+        <item quantity="one">Η λίστα αναπαραγωγής διαγράφηκε.</item>
+    </plurals>
+    <plurals name="N_songs_purchased">
+        <item quantity="other">%d τραγούδια αγοράστηκαν επιτυχώς και προστέθηκαν στην ουρά λήψης.</item>
+        <item quantity="one">Το τραγούδι αγοράστηκε επιτυχώς και προστέθηκε στην ουρά λήψης.</item>
+    </plurals>
+    <plurals name="N_songs_purchased_wifi_blocked">
+        <item quantity="other">%d τραγούδια αγοράστηκαν με επιτυχία. Η λήψη θα ξεκινήσει μόλις συνδεθείτε με το Wifi.</item>
+        <item quantity="one">Η αγορά του τραγουδιού ολοκληρώθηκε με επιτυχία. Η λήψη θα ξεκινήσει μόλις συνδεθείτε με το Wifi.</item>
+    </plurals>
+    <plurals name="N_tracks_added_playlist">
+        <item quantity="other">%d τραγούδια προστέθηκαν στη λίστα αναπαραγωγής.</item>
+        <item quantity="one">1 τραγούδι προστέθηκε στη λίστα αναπαραγωγής.</item>
+    </plurals>
+    <plurals name="N_tracks_deleted_from_playlist">
+        <item quantity="other">%d τραγούδια διαγράφηκαν από τη λίστα αναπαραγωγής.</item>
+        <item quantity="one">1 τραγούδι διαγράφηκε από τη λίστα αναπαραγωγής.</item>
+    </plurals>
+    <plurals name="N_tracks_deleted_from_storage">
+        <item quantity="other">%d τραγούδια διαγράφηκαν από τη συσκευή.</item>
+        <item quantity="one">1 τραγούδι διαγράφηκε από τη συσκευή.</item>
+    </plurals>
+    <plurals name="song_will_start_N_seconds">
+        <item quantity="other">Η αναπαραγωγή του τραγουδιού θα ξεκινήσει σε %d δευτερόλεπτα</item>
+        <item quantity="one">Η αναπαραγωγή του τραγουδιού θα ξεκινήσει σε 1 δευτερόλεπτο</item>
+    </plurals>
+</resources>

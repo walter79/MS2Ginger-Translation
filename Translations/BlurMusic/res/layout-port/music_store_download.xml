@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LinearLayout android:orientation="vertical" android:background="#ff191919" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:moto.res="http://schemas.android.com/apk/res/com.motorola.android.widget">
+    <RelativeLayout android:background="@com.motorola.android.widget:drawable/header_bkg" android:layout_width="fill_parent" android:layout_height="37.5dip" style="@com.motorola.android.widget:style/Interactive_Titlebar">
+        <TextView android:textAppearance="?android:textAppearanceMedium" android:textSize="14.0sp" android:textStyle="bold" android:textColor="#ffffffff" android:id="@id/line1" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="8.0dip" android:layout_marginTop="8.0dip" android:text="@string/purchase_screen_title" />
+        <ImageView android:id="@id/store_icon" android:layout_width="wrap_content" android:layout_height="25.0dip" android:layout_marginRight="2.0dip" android:layout_alignParentTop="true" android:layout_alignParentRight="true" android:layout_alignParentBottom="true" />
+    </RelativeLayout>
+    <LinearLayout android:background="@com.motorola.android.widget:drawable/header_bkg" android:layout_width="fill_parent" android:layout_height="wrap_content" style="@com.motorola.android.widget:style/Interactive_Titlebar">
+        <ImageView android:id="@id/icon" android:background="@drawable/ic_album_generic_stream" android:layout_width="70.0dip" android:layout_height="70.0dip" />
+        <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="70.0dip">
+            <TextView android:textSize="20.0dip" android:textStyle="bold" android:textColor="#ffffffff" android:ellipsize="end" android:id="@id/top_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="8.0dip" android:maxLines="1" android:scrollHorizontally="true" />
+            <TextView android:textSize="15.0dip" android:textColor="#ffffffff" android:ellipsize="end" android:id="@id/middle_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="8.0dip" android:maxLines="1" android:scrollHorizontally="true" />
+            <TextView android:textSize="15.0dip" android:textColor="#ffffffff" android:ellipsize="end" android:id="@id/bottom_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="8.0dip" android:maxLines="1" android:scrollHorizontally="true" />
+        </LinearLayout>
+    </LinearLayout>
+    <include layout="@layout/music_store_download_item" />
+</LinearLayout>

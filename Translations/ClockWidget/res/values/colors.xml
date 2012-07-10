@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+    <color name="Purple">#ff9f79ee</color>
+    <color name="Green">#a103d407</color>
+    <color name="Blue">#ff4876ff</color>
+    <color name="Orange">#b8ff7918</color>
+    <color name="grey">#ff939393</color>
+    <color name="black">#ff000000</color>
+    <color name="white">#ffffffff</color>
+    <color name="monthview_currentday">#ffeb2227</color>
+    <color name="monthview_weekdays">#ff858585</color>
+    <color name="monthview_monthnum">#ff4c4c4c</color>
+</resources>

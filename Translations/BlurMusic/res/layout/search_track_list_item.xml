@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RelativeLayout android:gravity="center_vertical" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="14.0sp" android:textStyle="bold" android:textColor="#ffffffff" android:gravity="center_vertical" android:id="@id/section_header" android:background="#ff696969" android:paddingLeft="10.0dip" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="27.0sp" android:layout_marginBottom="1.0dip" android:maxLines="1" />
+    <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="@dimen/track_list_item_icon_h" android:layout_below="@id/section_header"
+      xmlns:android="http://schemas.android.com/apk/res/android">
+        <include layout="@layout/track_list_item_common" />
+    </LinearLayout>
+</RelativeLayout>

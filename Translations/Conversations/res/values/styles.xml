@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+    <style name="MsgItemList">
+        <item name="android:visibility">gone</item>
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">fill_parent</item>
+        <item name="android:layout_marginBottom">1.0dip</item>
+        <item name="android:listSelector">@blur.res:drawable/msg_item_bg_focused</item>
+        <item name="android:drawSelectorOnTop">false</item>
+        <item name="android:stackFromBottom">true</item>
+        <item name="android:transcriptMode">alwaysScroll</item>
+        <item name="android:divider">#00000000</item>
+        <item name="android:layout_weight">1.0</item>
+    </style>
+    <style name="MsgItemImage">
+        <item name="android:layout_gravity">left</item>
+        <item name="android:visibility">gone</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:adjustViewBounds">true</item>
+        <item name="android:maxWidth">@dimen/msgItemImgCntSize</item>
+        <item name="android:maxHeight">@dimen/msgItemImgCntSize</item>
+    </style>
+    <style name="MsgItemImageCnt">
+        <item name="android:paddingTop">7.0dip</item>
+        <item name="android:paddingBottom">7.0dip</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">fill_parent</item>
+    </style>
+    <style name="MsgItemStatusIndicator">
+        <item name="android:paddingLeft">3.0dip</item>
+        <item name="android:paddingRight">5.0dip</item>
+        <item name="android:visibility">gone</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_alignParentLeft">true</item>
+        <item name="android:layout_alignWithParentIfMissing">true</item>
+    </style>
+    <style name="TxtMsgItem">
+        <item name="android:textSize">16.0sp</item>
+        <item name="android:typeface">sans</item>
+        <item name="android:autoLink">all</item>
+        <item name="android:linksClickable">false</item>
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+    <style name="TxtDateTimeStamp">
+        <item name="android:textSize">14.0sp</item>
+        <item name="android:typeface">sans</item>
+        <item name="android:gravity">right</item>
+        <item name="android:layout_gravity">right</item>
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+    <style name="MultipleReplyContactsLabel">
+        <item name="android:textSize">14.0sp</item>
+        <item name="android:typeface">sans</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:gravity">left</item>
+        <item name="android:layout_gravity">left</item>
+        <item name="android:background">@drawable/msg_in_item_mms_selector</item>
+        <item name="android:paddingLeft">5.0dip</item>
+        <item name="android:paddingTop">3.0dip</item>
+        <item name="android:paddingRight">5.0dip</item>
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+    <style name="SentToItem">
+        <item name="android:textSize">14.0sp</item>
+        <item name="android:typeface">sans</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:gravity">left</item>
+        <item name="android:layout_gravity">left</item>
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+    <style name="SlideshowActionBar">
+        <item name="android:background">@com.motorola.android.widget:drawable/zz_moto_actionbar_bkg</item>
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+    <style name="SlideshowButtonLeft">
+        <item name="android:background">@com.motorola.android.widget:drawable/zz_moto_actionbar_btn_left</item>
+        <item name="android:layout_width">0.0dip</item>
+        <item name="android:layout_height">fill_parent</item>
+        <item name="android:layout_weight">1.0</item>
+    </style>
+    <style name="SlideshowButtonMid">
+        <item name="android:background">@com.motorola.android.widget:drawable/zz_moto_actionbar_btn_mid</item>
+        <item name="android:layout_width">0.0dip</item>
+        <item name="android:layout_height">fill_parent</item>
+        <item name="android:layout_weight">1.0</item>
+    </style>
+    <style name="SlideshowButtonRight">
+        <item name="android:background">@com.motorola.android.widget:drawable/zz_moto_actionbar_btn_right</item>
+        <item name="android:layout_width">0.0dip</item>
+        <item name="android:layout_height">fill_parent</item>
+        <item name="android:layout_weight">1.0</item>
+    </style>
+</resources>

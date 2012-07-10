@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<merge
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:orientation="vertical" android:id="@id/optin_screen_4" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_below="@id/status_title">
+        <ScrollView android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <TextView android:textSize="22.0dip" android:gravity="center" android:layout_gravity="center" android:id="@id/page_title" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="10.0dip" android:text="@string/opt_in_page_title_screen4" />
+                <TextView android:textSize="18.0dip" android:id="@id/feature_explanation" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="8.0dip" android:layout_marginTop="10.0dip" android:layout_marginBottom="65.0dip" android:text="@string/opt_in_message_screen4" android:layout_below="@id/page_title" />
+            </LinearLayout>
+        </ScrollView>
+        <LinearLayout android:gravity="bottom" android:orientation="horizontal" android:background="@null" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_alignParentBottom="true">
+            <com.motorola.android.widget.ActionBar android:id="@id/abwidget4" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_alignParentBottom="true" />
+        </LinearLayout>
+    </RelativeLayout>
+</merge>

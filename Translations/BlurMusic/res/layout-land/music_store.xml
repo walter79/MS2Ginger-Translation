@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RelativeLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:moto.res="http://schemas.android.com/apk/res/com.motorola.android.widget">
+    <com.motorola.android.widget.MotoFlowView android:id="@id/blur_motoflowwidget_musicstore" android:nextFocusUp="@id/tumblerLauncher" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_weight="0.0" moto.res:isMainItemLive="true" moto.res:mainItemOffsetY="-10.0dip" moto.res:mainItemWidth="185.0dip" moto.res:mainItemHeight="185.0dip" moto.res:backgroundImage="@drawable/card_wall" moto.res:shadowImage="@blur.res:drawable/card_shadow" moto.res:lightX="0.0dip" moto.res:lightY="450.0dip" moto.res:lightZ="1000.0dip" moto.res:itemSpacing="20.0dip" moto.res:shadowOffset="4.0dip" />
+    <RelativeLayout android:layout_width="fill_parent" android:layout_height="35.0dip" android:layout_marginTop="12.0dip">
+        <ImageView android:id="@id/store_icon" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="-15.0dip" android:layout_marginTop="0.0dip" android:scaleType="centerCrop" android:layout_alignParentLeft="true" />
+        <TextView android:textSize="20.0sp" android:textStyle="normal" android:textColor="#ffffffff" android:gravity="center" android:id="@id/tumblerLauncher" android:focusable="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:shadowColor="#cc000000" android:shadowDx="2.0" android:shadowDy="2.0" android:shadowRadius="3.0" android:drawableLeft="@drawable/ic_tumbler_controller_normal" android:drawablePadding="5.0dip" android:layout_centerInParent="true" />
+        <Spinner android:textSize="16.0sp" android:textStyle="bold" android:textColor="#ffffffff" android:id="@id/title" android:background="@null" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@blur.res:style/Blur.TitleBar" />
+        <ImageView android:id="@id/search_icon" android:background="@blur.res:drawable/ic_msg_aw_gal_search" android:layout_width="35.0dip" android:layout_height="35.0dip" android:layout_marginRight="3.0dip" android:scaleType="center" android:layout_alignParentRight="true" />
+        <ProgressBar android:id="@id/progress" android:visibility="gone" android:layout_width="35.0dip" android:layout_height="35.0dip" android:layout_marginRight="10.0dip" android:layout_toLeftOf="@id/search_icon" style="@android:style/Widget.ProgressBar" />
+    </RelativeLayout>
+</RelativeLayout>

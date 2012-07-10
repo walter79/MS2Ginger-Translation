@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+    <attr name="backButton" format="boolean" />
+    <attr name="menuButton" format="boolean" />
+    <attr name="closeButton" format="boolean" />
+    <attr name="title" format="string" />
+    <attr name="titleTextSize" format="integer" />
+    <attr name="titleImage" format="reference" />
+    <attr name="clickURI" format="string" />
+    <attr name="defaultImage" format="integer" />
+    <attr name="imageUrl" format="string" />
+    <attr name="showProgressLoading" format="boolean" />
+    <attr name="enableCache" format="boolean" />
+    <attr name="messageLimit" format="integer" />
+    <attr name="userKey" format="string" />
+    <attr name="userLabel" format="string" />
+    <attr name="passwordKey" format="string" />
+    <attr name="icon" format="reference" />
+    <attr name="datamode">
+        <flag name="store" value="0x00000001" />
+        <flag name="cache" value="0x00000002" />
+        <flag name="net" value="0x00000004" />
+    </attr>
+    <attr name="transform">
+        <enum name="none" value="0" />
+        <enum name="thumb" value="1" />
+        <enum name="reflected" value="2" />
+    </attr>
+    <attr name="cacheImage" format="boolean" />
+    <attr name="defaultArt" format="reference" />
+    <attr name="lines" format="integer" />
+    <attr name="listPaddingLeft" format="dimension" />
+    <attr name="listPaddingRight" format="dimension" />
+    <attr name="listPreferredHeight" format="dimension" />
+    <attr name="albumThumbSize" format="dimension" />
+    <attr name="samplePlayButtonSize" format="dimension" />
+    <attr name="adViewHeight" format="dimension" />
+    <attr name="landscapeLyricsHeight" format="dimension" />
+</resources>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LinearLayout android:orientation="horizontal" android:id="@id/recipients_read_only_linear_layout" android:layout_width="fill_parent" android:layout_height="wrap_content" style="@blur.res:style/Blur.ReadAddressingWidget"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:paddingRight="@blur.res:dimen/msg_aw_hspacing" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/to_address_label" />
+    <com.motorola.blur.conversations.ui.view.address.read.ConversationsReadAddressingWidget android:orientation="vertical" android:id="@id/recipients_read_only" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+</LinearLayout>

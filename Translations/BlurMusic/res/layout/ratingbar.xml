@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RatingBar android:numStars="5" style="@style/ratingBarStyle"
+  xmlns:android="http://schemas.android.com/apk/res/android" />

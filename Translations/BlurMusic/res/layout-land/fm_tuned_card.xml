@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<FrameLayout android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/fm_card_bkground" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/fm_radio_card_freq" />
+    <LinearLayout android:layout_gravity="center_vertical" android:orientation="vertical" android:paddingLeft="10.0dip" android:paddingTop="2.0dip" android:paddingRight="10.0dip" android:paddingBottom="2.0dip" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <TextView android:textAppearance="@style/textFMRDSSmall" android:layout_gravity="center_horizontal" android:id="@id/fm_card_stereo" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="0.0dip" android:text="@string/stereo" android:layout_alignParentTop="true" android:layout_centerHorizontal="true" android:lineSpacingExtra="0.0dip" />
+        <TextView android:textAppearance="@style/textFMPresetBlackLand" android:gravity="center_vertical" android:layout_gravity="center_horizontal" android:id="@id/fm_card_freq" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="-15.0dip" android:layout_marginBottom="-2.0dip" android:lineSpacingExtra="-10.0dip" />
+        <TextView android:textAppearance="@style/textFMRDSSmallBlackBold" android:ellipsize="end" android:gravity="center" android:layout_gravity="center_horizontal" android:id="@id/fm_card_rds_pi" android:layout_width="fill_parent" android:layout_height="wrap_content" android:maxLines="1" android:singleLine="true" android:lineSpacingExtra="0.0dip" />
+        <TextView android:textAppearance="@style/textFMRDSSmallBlack" android:ellipsize="end" android:gravity="center" android:layout_gravity="center_horizontal" android:id="@id/fm_card_rds_ps" android:layout_width="fill_parent" android:layout_height="wrap_content" android:maxLines="1" android:singleLine="true" android:lineSpacingExtra="0.0dip" />
+        <TextView android:textAppearance="@style/textFMRDSSmallBlack" android:ellipsize="marquee" android:gravity="center" android:layout_gravity="center_horizontal" android:id="@id/fm_card_rds_rt" android:focusable="true" android:focusableInTouchMode="true" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="1.0dip" android:singleLine="true" android:lineSpacingExtra="0.0dip" android:marqueeRepeatLimit="1" />
+    </LinearLayout>
+    <RelativeLayout android:id="@id/fm_seek_container" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <ProgressBar android:id="@id/fm_seek_icon" android:visibility="gone" android:layout_width="25.0dip" android:layout_height="25.0dip" android:layout_marginLeft="15.0dip" android:layout_marginTop="10.0dip" android:layout_alignParentLeft="true" style="\?android:attr/progressBarStyleInverse" />
+    </RelativeLayout>
+    <RelativeLayout android:gravity="right" android:id="@id/fm_favorite_icon_container" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <ImageView android:id="@id/fm_fav_icon" android:paddingTop="5.0dip" android:paddingRight="10.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@blur.res:drawable/ic_control_not_favorites" />
+    </RelativeLayout>
+</FrameLayout>

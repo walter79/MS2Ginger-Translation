@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<FrameLayout android:gravity="center" android:layout_gravity="center" android:orientation="horizontal" android:id="@id/dlna_land_title_layout" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="45.0dip" android:layout_weight="0.0"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="18.0sp" android:textStyle="bold" android:textColor="#ffffffff" android:gravity="center" android:layout_gravity="center" android:id="@id/dlna_land_title_tv" android:layout_width="wrap_content" android:layout_height="wrap_content" android:shadowColor="#c0000000" android:shadowDx="2.0" android:shadowDy="2.0" android:shadowRadius="2.0" android:layout_weight="1.0"
+      xmlns:android="http://schemas.android.com/apk/res/android" />
+    <ProgressBar android:layout_gravity="top|right|center" android:id="@id/land_prog" android:visibility="invisible" android:layout_width="30.0dip" android:layout_height="30.0dip" android:layout_margin="5.0dip" style="@android:style/Widget.ProgressBar.Small" />
+</FrameLayout>

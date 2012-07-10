@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+    <string name="app_name">ContactsData</string>
+    <string name="mms_body">Te han enviado un MMS</string>
+    <string name="motoBlurProfileName">Libreta de direcciones</string>
+    <string name="motoBlurUnconnectedProfileName">Libreta de direcciones de Lite</string>
+    <string name="phoneContactsProfileName">Contactos del teléfono</string>
+    <string name="simContactsProfileName">Contactos de tarjeta SIM</string>
+    <string name="call_restiction_addcontact">Llamadas restringidas. No se pueden añadir contactos a la agenda.</string>
+    <string name="call_restiction_editcontact">Llamadas restringidas. No se pueden editar contactos de la agenda.</string>
+    <string name="call_restiction_deletecontact">Llamadas restringidas. No se pueden eliminar contactos de la agenda.</string>
+    <string name="call_restiction_updatecontact_tools">Llamadas restringidas. No se puede actualizar la agenda.</string>
+</resources>

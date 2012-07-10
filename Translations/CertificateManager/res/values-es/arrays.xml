@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+    <string-array name="filter_labels">
+        <item>Todos los certificados</item>
+        <item>Certificados añadidos por el usuario</item>
+        <item>Certificados precargados</item>
+    </string-array>
+    <string-array name="details_options_labels">
+        <item>Eliminar</item>
+        <item>Exportar contactos a la tarjeta SD</item>
+    </string-array>
+</resources>

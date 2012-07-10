@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LinearLayout android:background="@drawable/widget_bg_shoutcast" android:layout_width="213.0px" android:layout_height="106.0px"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <FrameLayout android:layout_width="79.0px" android:layout_height="106.0px" />
+    <LinearLayout android:orientation="vertical" android:layout_width="119.0px" android:layout_height="96.0px" android:layout_marginTop="9.0px">
+        <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="57.0px" android:layout_marginLeft="11.0px" android:layout_marginBottom="2.0px">
+            <TextView android:textAppearance="@style/textWidgetBold" android:gravity="left" android:id="@id/station_name" android:layout_width="fill_parent" android:layout_height="wrap_content" android:singleLine="true" />
+            <TextView android:textAppearance="@style/textWidgetDarkGray" android:gravity="left" android:id="@id/song" android:layout_width="fill_parent" android:layout_height="wrap_content" android:singleLine="true" />
+            <TextView android:id="@id/artist" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+        </LinearLayout>
+        <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="34.0px" android:layout_marginLeft="5.0px">
+            <ImageButton android:id="@id/btn_pause" android:background="@android:color/transparent" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginLeft="12.0px" android:src="@drawable/widget_button_prev" android:scaleType="center" />
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

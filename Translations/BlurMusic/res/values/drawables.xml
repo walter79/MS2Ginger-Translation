@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+    <item type="drawable" name="transparent_background">#00000000</item>
+    <item type="drawable" name="black">#ff000000</item>
+    <item type="drawable" name="newbg">#ff191919</item>
+    <item type="drawable" name="bg_ads">#96333333</item>
+    <item type="drawable" name="bg_progress_gradient">#aa0d0d0d</item>
+    <item type="drawable" name="list_header_gradient">#ff333333</item>
+    <item type="drawable" name="APKTOOL_DUMMY_004b">false</item>
+    <item type="drawable" name="APKTOOL_DUMMY_005b">false</item>
+    <item type="drawable" name="APKTOOL_DUMMY_005c">false</item>
+    <item type="drawable" name="APKTOOL_DUMMY_005d">false</item>
+    <item type="drawable" name="APKTOOL_DUMMY_006d">false</item>
+    <item type="drawable" name="APKTOOL_DUMMY_0080">false</item>
+    <item type="drawable" name="APKTOOL_DUMMY_008c">false</item>
+    <item type="drawable" name="APKTOOL_DUMMY_0093">false</item>
+    <item type="drawable" name="APKTOOL_DUMMY_00bb">false</item>
+    <item type="drawable" name="APKTOOL_DUMMY_00d4">false</item>
+    <item type="drawable" name="APKTOOL_DUMMY_00d6">false</item>
+    <item type="drawable" name="APKTOOL_DUMMY_0144">false</item>
+    <item type="drawable" name="APKTOOL_DUMMY_0145">false</item>
+    <item type="drawable" name="APKTOOL_DUMMY_0147">false</item>
+    <item type="drawable" name="APKTOOL_DUMMY_0148">false</item>
+    <item type="drawable" name="APKTOOL_DUMMY_0162">false</item>
+    <item type="drawable" name="APKTOOL_DUMMY_0163">false</item>
+    <item type="drawable" name="APKTOOL_DUMMY_01ba">false</item>
+</resources>

@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+    <string-array name="sleep_timer_entries">
+        <item>15 minuti</item>
+        <item>30 minuti</item>
+        <item>45 minuti</item>
+        <item>1 ora</item>
+        <item>Nessun timeout</item>
+    </string-array>
+    <string-array name="lyrics_language_entries">
+        <item>Lingua di origine</item>
+        <item>Albanese</item>
+        <item>Arabo</item>
+        <item>Bulgaro</item>
+        <item>Catalano</item>
+        <item>Cinese (semplificato)</item>
+        <item>Cinese (tradizionale)</item>
+        <item>Croato</item>
+        <item>Ceco</item>
+        <item>Danese</item>
+        <item>Olandese</item>
+        <item>Inglese</item>
+        <item>Finlandese</item>
+        <item>Francese</item>
+        <item>Tedesco</item>
+        <item>Greco</item>
+        <item>Ebraico</item>
+        <item>Hindi</item>
+        <item>Indonesiano</item>
+        <item>Italiano</item>
+        <item>Giapponese</item>
+        <item>Coreano</item>
+        <item>Lettone</item>
+        <item>Lituano</item>
+        <item>Norvegese</item>
+        <item>Polacco</item>
+        <item>Portoghese</item>
+        <item>Rumeno</item>
+        <item>Russo</item>
+        <item>Serbo</item>
+        <item>Slovacco</item>
+        <item>Sloveno</item>
+        <item>Spagnolo</item>
+        <item>Svedese</item>
+        <item>Ucraino</item>
+    </string-array>
+    <string-array name="lyrics_language_values">
+        <item>di origine</item>
+        <item>sq</item>
+        <item>ar</item>
+        <item>bg</item>
+        <item>ca</item>
+        <item>zh-CN</item>
+        <item>zh-TW</item>
+        <item>hr</item>
+        <item>cs</item>
+        <item>da</item>
+        <item>nl</item>
+        <item>en</item>
+        <item>fi</item>
+        <item>fr</item>
+        <item>de</item>
+        <item>el</item>
+        <item>iw</item>
+        <item>hi</item>
+        <item>id</item>
+        <item>it</item>
+        <item>ja</item>
+        <item>ko</item>
+        <item>lv</item>
+        <item>lt</item>
+        <item>no</item>
+        <item>pl</item>
+        <item>pt-PT</item>
+        <item>ro</item>
+        <item>ru</item>
+        <item>sr</item>
+        <item>sk</item>
+        <item>sl</item>
+        <item>es</item>
+        <item>sv</item>
+        <item>uk</item>
+    </string-array>
+    <string-array name="download_rule_entries">
+        <item>Qualsiasi connettività</item>
+        <item>Wi-Fi</item>
+        <item>3G</item>
+        <item>Edge</item>
+    </string-array>
+    <string-array name="download_rule_values">
+        <item>qualsiasi</item>
+        <item>wi-fi</item>
+        <item>3G</item>
+        <item>edge</item>
+    </string-array>
+    <string-array name="are_you_going">
+        <item>Partecipanti</item>
+        <item>Forse parteciperò</item>
+        <item>Non parteciperò</item>
+    </string-array>
+    <string-array name="music_tumbler_items">
+        <item>Artisti</item>
+        <item>Album</item>
+        <item>Brani</item>
+        <item>Playlist</item>
+        <item>Generi</item>
+    </string-array>
+    <string-array name="music_tumbler_items_with_folder">
+        <item>Artisti</item>
+        <item>Album</item>
+        <item>Brani</item>
+        <item>Playlist</item>
+        <item>Generi</item>
+        <item>Cartelle</item>
+    </string-array>
+    <string-array name="fm_region_entries">
+        <item>Africa</item>
+        <item>Asia</item>
+        <item>Asia - Indonesia</item>
+        <item>Asia - Giappone</item>
+        <item>Asia - Corea del Sud</item>
+        <item>Asia - Thailandia</item>
+        <item>Australia</item>
+        <item>Europa</item>
+        <item>Europa - Germania</item>
+        <item>Europa - Grecia</item>
+        <item>Europa - Italia</item>
+        <item>Europa - Svizzera</item>
+        <item>India</item>
+        <item>America Latina</item>
+        <item>Medio Oriente</item>
+        <item>Russia</item>
+        <item>USA</item>
+    </string-array>
+    <string-array name="music_store_spinner_values">
+        <item>Tutti i risultati</item>
+        <item>Artisti</item>
+        <item>Album</item>
+        <item>Brani</item>
+    </string-array>
+    <string-array name="att_music_store_spinner_values">
+        <item>Tutti i risultati</item>
+        <item>Artisti</item>
+        <item>Album</item>
+        <item>Brani</item>
+        <item>Suonerie</item>
+    </string-array>
+    <string-array name="CONF_MML_EXE_PATHS">
+        <item>/data/install/</item>
+        <item>/sdcard/install/</item>
+    </string-array>
+    <string-array name="weeklist">
+        <item>1 settimana</item>
+        <item>2 settimane</item>
+        <item>3 settimane</item>
+        <item>4 settimane</item>
+        <item>5 settimane</item>
+        <item>6 settimane</item>
+        <item>7 settimane</item>
+        <item>8 settimane</item>
+        <item>9 settimane</item>
+        <item>10 sett.</item>
+        <item>11 sett.</item>
+        <item>12 sett.</item>
+    </string-array>
+</resources>

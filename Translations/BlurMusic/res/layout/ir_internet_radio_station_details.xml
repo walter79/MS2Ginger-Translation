@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:textAppearance="?android:textAppearanceMedium" android:id="@id/ir_station_name_ll" android:paddingLeft="10.0dip" android:paddingRight="10.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="5.0dip" android:layout_marginBottom="5.0dip">
+        <TextView android:textAppearance="?android:textAppearanceMedium" android:id="@id/ir_station_name" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_weight="1.0" />
+    </LinearLayout>
+    <LinearLayout android:id="@id/ir_bit_rate_ll" android:paddingLeft="10.0dip" android:paddingRight="10.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="5.0dip" android:layout_marginBottom="5.0dip">
+        <TextView android:textAppearance="?android:textAppearanceMedium" android:textStyle="bold" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/bit_rate" />
+        <TextView android:textAppearance="?android:textAppearanceMedium" android:id="@id/ir_station_bitrate" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_weight="1.0" />
+    </LinearLayout>
+    <LinearLayout android:textAppearance="?android:textAppearanceMedium" android:id="@id/ir_provider_ll" android:paddingLeft="10.0dip" android:paddingRight="10.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="5.0dip" android:layout_marginBottom="5.0dip">
+        <TextView android:textAppearance="?android:textAppearanceMedium" android:textStyle="bold" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/provider" />
+        <TextView android:textAppearance="?android:textAppearanceMedium" android:id="@id/ir_station_provider" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_weight="1.0" />
+    </LinearLayout>
+    <LinearLayout android:textAppearance="?android:textAppearanceMedium" android:id="@id/ir_format_ll" android:paddingLeft="10.0dip" android:paddingRight="10.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="5.0dip" android:layout_marginBottom="5.0dip">
+        <TextView android:textAppearance="?android:textAppearanceMedium" android:textStyle="bold" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/format" />
+        <TextView android:textAppearance="?android:textAppearanceMedium" android:id="@id/ir_station_format" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_weight="1.0" />
+    </LinearLayout>
+</LinearLayout>

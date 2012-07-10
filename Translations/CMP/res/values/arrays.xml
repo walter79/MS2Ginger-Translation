@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+    <string-array name="data_usage_options">
+        <item>Unlimited Data</item>
+        <item>Limited Data</item>
+        <item>No data</item>
+    </string-array>
+    <string-array name="data_usage_values">
+        <item>2</item>
+        <item>1</item>
+        <item>0</item>
+    </string-array>
+</resources>

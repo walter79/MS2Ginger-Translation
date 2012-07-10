@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+    <string name="app_name">Compass Kalibráló</string>
+    <string name="calibrator_inst_title">Kalibrálás</string>
+    <string name="calibrator_inst">Körözz nyolcas irányba a telefonnal az ábra szerint mind a három tengely mentén. A compass akkor van kariblálva, ha a kép zöldre vált.</string>
+    <string name="calibrator_face_title">Kijelző kalibrálva!</string>
+    <string name="calibrator_horizontal_inst">Csúsztasd ki a billentyűzetet, a kalibrálás nyitott billentyűzettel ajánlott.</string>
+    <string name="calibrator_vertical_inst">Csúsztasd be a billentyűzetet, a kalibrálás csukott billentyűzettel ajánlott.</string>
+    <string name="calibrator_quit_inst">Vagy nyomja meg a Kilépés gombot, ha már minden irányba elvégezte a kalibrálást.</string>
+    <string name="calibrator_start_button">Kalibrálás</string>
+    <string name="calibrator__otherface_button">Kalibrálás\n Másik oldal</string>
+    <string name="calibrator_quit_button">Kilépés</string>
+    <string name="calibrator_done_quit_inst">A kalibrálás kész! Nyomd meg a Kilépés gombot.</string>
+    <string name="calibrator_fail_message">A kalbrálás sikertelen. Próbálja újra!</string>
+    <string name="calibrator_ani_inst">Forgassa a telefont előre és hátra mind a három tengely mentén, amíg a kép zöldre vált.</string>
+</resources>

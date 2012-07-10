@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<appwidget-provider android:minWidth="220.0dip" android:minHeight="146.0dip" android:updatePeriodMillis="86400000" android:initialLayout="@layout/recentlyadded_checking_widget_3x2" blur:description="@string/widget_description2"
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:blur="http://schemas.android.com/apk/res/blur.res">
+    <appwidget-layout blur:minSpanX="4" blur:maxSpanX="4" blur:minSpanY="2" blur:maxSpanY="2" blur:sizeInitialLayout="@layout/recentlyadded_checking_widget_4x2" />
+    <appwidget-layout blur:minSpanX="3" blur:maxSpanX="3" blur:minSpanY="2" blur:maxSpanY="2" blur:sizeInitialLayout="@layout/recentlyadded_checking_widget_3x2" />
+    <appwidget-layout blur:minSpanX="3" blur:maxSpanX="3" blur:minSpanY="3" blur:maxSpanY="3" blur:sizeInitialLayout="@layout/recentlyadded_checking_widget_3x3" />
+    <appwidget-layout blur:minSpanX="4" blur:maxSpanX="4" blur:minSpanY="3" blur:maxSpanY="3" blur:sizeInitialLayout="@layout/recentlyadded_checking_widget_4x3" />
+</appwidget-provider>

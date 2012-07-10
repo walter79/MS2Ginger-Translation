@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RelativeLayout android:gravity="center_vertical" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.motorola.blur.music.widget.CollageImageLayout android:id="@id/genre_collage" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_weight="1.0" android:layout_alignParentTop="true" android:layout_alignParentRight="true" />
+    <TextView android:textAppearance="?android:textAppearanceMedium" android:ellipsize="marquee" android:id="@id/genre_name" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxLines="1" android:scrollHorizontally="true" android:layout_weight="1.0" android:layout_toLeftOf="@id/genre_collage" android:layout_alignParentLeft="true" android:layout_alignParentTop="true" />
+    <TextView android:textAppearance="?android:textAppearanceSmall" android:textColor="#ff555555" android:ellipsize="marquee" android:id="@id/genere_artists" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxLines="1" android:scrollHorizontally="true" android:layout_weight="1.0" android:layout_toLeftOf="@id/genre_collage" android:layout_below="@id/genre_name" android:layout_alignParentLeft="true" android:layout_alignParentBottom="true" />
+</RelativeLayout>

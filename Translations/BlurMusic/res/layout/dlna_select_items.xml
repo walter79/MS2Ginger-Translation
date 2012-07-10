@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<merge
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/i1" android:layout_width="48.0dip" android:layout_height="48.0dip" android:scaleType="centerCrop" android:layout_weight="0.0" />
+    <LinearLayout android:gravity="center_vertical" android:orientation="vertical" android:paddingLeft="5.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_weight="1.0">
+        <TextView android:textAppearance="?android:textAppearanceMedium" android:textColor="#ffffffff" android:ellipsize="marquee" android:id="@id/l1" android:layout_width="wrap_content" android:layout_height="0.0px" android:maxLines="1" android:scrollHorizontally="true" android:layout_weight="1.0" />
+        <TextView android:textAppearance="?android:textAppearanceSmall" android:textColor="#ffffffff" android:ellipsize="marquee" android:id="@id/l2" android:layout_width="wrap_content" android:layout_height="0.0px" android:maxLines="1" android:scrollHorizontally="true" android:layout_weight="1.0" />
+    </LinearLayout>
+    <LinearLayout android:gravity="center_vertical" android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_weight="0.0">
+        <TextView android:textSize="12.0sp" android:textColor="#ffffffff" android:ellipsize="marquee" android:id="@id/d1" android:paddingLeft="4.0dip" android:paddingRight="11.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxLines="1" android:layout_weight="0.0" android:layout_alignBaseline="@id/l1" />
+    </LinearLayout>
+    <CheckedTextView android:textAppearance="?android:textAppearanceLarge" android:gravity="center" android:id="@id/chk1" android:paddingLeft="3.0dip" android:paddingRight="3.0dip" android:focusable="false" android:clickable="false" android:layout_width="wrap_content" android:layout_height="?android:listPreferredItemHeight" android:checkMark="?android:listChoiceIndicatorMultiple" android:layout_alignParentRight="true" />
+</merge>

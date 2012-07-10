@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+    <string name="create_playlist_create_text_prompt">Ouvrez le clavier afin de saisir un nom pour votre nouvelle playlist ou sélectionnez Enregistrer pour la nommer \"%1$s\".</string>
+    <string name="rename_playlist_same_prompt">Ouvrez le clavier pour renommer la playlist \"%1$s\".</string>
+    <string name="rename_playlist_diff_prompt">Ouvrez le clavier pour renommer la playlist \"%1$s\" ou sélectionnez \"Enregistrer\" pour la nommer \"%2$s\".</string>
+</resources>

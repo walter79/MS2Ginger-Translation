@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RelativeLayout android:gravity="center_vertical" android:orientation="vertical" android:id="@id/playlist_layout" android:background="@android:color/transparent" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <com.motorola.blur.music.TouchInterceptor android:textSize="18.0sp" android:id="@android:id/list" android:layout_width="fill_parent" android:layout_height="fill_parent" android:drawSelectorOnTop="false" android:fastScrollEnabled="true" />
+    </LinearLayout>
+    <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <include layout="@layout/simple_title" />
+        <include layout="@layout/tumbler_title" />
+        <ProgressBar android:layout_gravity="center" android:id="@id/mixthis_progress" android:background="@android:color/transparent" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="240.0dip" android:indeterminate="true" style="\?android:attr/progressBarStyleLarge" />
+        <TextView android:textColor="#ff00ff00" android:layout_gravity="center" android:id="@id/mixing_text" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/mixing" android:layout_below="@id/mixthis_progress" />
+    </LinearLayout>
+    <include layout="@layout/sd_error" />
+</RelativeLayout>

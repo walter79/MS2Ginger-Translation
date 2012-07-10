@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LinearLayout android:orientation="vertical" android:id="@id/rl_player" android:background="@color/gingerbread_white" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:app="http://schemas.android.com/apk/res/com.motorola.cmp">
+    <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" style="\?android:attr/windowTitleBackgroundStyle">
+        <com.motorola.cmp.views.TextScroller android:textAppearance="@android:style/TextAppearance.WindowTitle" android:id="@id/music_text_title" android:layout_width="0.0dip" android:layout_height="30.0sp" android:layout_weight="1.0" />
+        <ProgressBar android:id="@id/music_progress_buffering" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="4.0dip" android:layout_marginRight="3.0dip" style="\?android:attr/progressBarStyleSmall" />
+    </LinearLayout>
+    <LinearLayout android:id="@id/main" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <com.motorola.cmp.views.AlbumView android:id="@id/music_album_art" android:layout_width="wrap_content" android:layout_height="fill_parent" android:src="@drawable/no_coverart" android:scaleType="fitCenter" app:datamode="store|cache|net" app:defaultArt="@drawable/no_coverart" />
+        <LinearLayout android:gravity="bottom" android:orientation="vertical" android:id="@id/left" android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <com.motorola.cmp.views.LyricView android:id="@id/music_lyric_view" android:layout_width="fill_parent" android:layout_height="90.0dip" app:lines="4" />
+            <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/song_duration" android:layout_width="fill_parent" android:layout_height="50.0dip" android:layout_marginBottom="-1.0dip">
+                <TextView android:textColor="@color/black" android:gravity="center" android:id="@id/music_text_position" android:paddingTop="1.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="10.0px" android:minWidth="30.0dip" android:text="0:00" android:layout_centerVertical="true" />
+                <com.motorola.cmp.views.HorizontalSlider android:id="@id/music_progress" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_marginLeft="5.0dip" android:layout_marginRight="5.0dip" android:layout_weight="1.0" />
+                <TextView android:textColor="@color/black" android:gravity="center" android:id="@id/music_text_duration" android:paddingTop="1.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="10.0px" android:minWidth="30.0dip" android:text="0:00" android:layout_centerVertical="true" />
+            </LinearLayout>
+            <LinearLayout android:orientation="horizontal" android:id="@id/ll_controls" android:background="@drawable/play_bar_bottom2" android:layout_width="fill_parent" android:layout_height="63.0dip">
+                <ImageView android:id="@id/music_skip_backward" android:background="@drawable/bg_nowplaying" android:layout_width="0.0dip" android:layout_height="fill_parent" android:src="@drawable/button_prev_off" android:scaleType="center" android:layout_weight="1.0" />
+                <ImageView android:id="@id/music_pause_play" android:background="@drawable/bg_nowplaying" android:layout_width="0.0dip" android:layout_height="fill_parent" android:src="@drawable/button_pause_off" android:scaleType="center" android:layout_weight="1.0" />
+                <ImageView android:id="@id/music_skip_forward" android:background="@drawable/bg_nowplaying" android:layout_width="0.0dip" android:layout_height="fill_parent" android:src="@drawable/button_next_off" android:scaleType="center" android:layout_weight="1.0" />
+            </LinearLayout>
+            <LinearLayout android:orientation="horizontal" android:id="@id/extra_controls" android:background="@drawable/play_bar_bottom" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="63.0dip" android:layout_marginTop="-1.0px">
+                <ImageView android:id="@id/music_top_song" android:background="@drawable/bg_nowplaying" android:layout_width="0.0dip" android:layout_height="fill_parent" android:src="@drawable/top_song_selector" android:scaleType="center" android:layout_weight="1.0" />
+                <ImageView android:id="@id/music_video" android:background="@drawable/bg_nowplaying" android:layout_width="0.0dip" android:layout_height="fill_parent" android:src="@drawable/button_video" android:scaleType="center" android:layout_weight="1.0" />
+                <ImageView android:id="@id/music_nearby" android:background="@drawable/bg_nowplaying" android:layout_width="0.0dip" android:layout_height="fill_parent" android:src="@drawable/button_neardy" android:scaleType="center" android:layout_weight="1.0" />
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

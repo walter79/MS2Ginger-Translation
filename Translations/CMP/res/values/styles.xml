@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+    <style name="Theme" parent="@android:style/Theme" />
+    <style name="Theme.Player" parent="@style/Theme.PlayerInternal" />
+    <style name="Theme.PlayerInternal" parent="@style/Theme">
+        <item name="android:windowNoTitle">true</item>
+        <item name="adViewHeight">53.0dip</item>
+        <item name="landscapeLyricsHeight">62.0dip</item>
+    </style>
+    <style name="Theme.Map" parent="@style/Theme.Player" />
+    <style name="Theme.VideoPlayer" parent="@style/Theme.twDefault">
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowFullscreen">true</item>
+    </style>
+    <style name="twListView" parent="@android:style/Widget.ListView">
+        <item name="android:cacheColorHint">@android:color/transparent</item>
+        <item name="android:divider">@android:drawable/divider_horizontal_bright</item>
+    </style>
+    <style name="Theme.twImageButton" parent="@style/Theme" />
+    <style name="Theme.twDefault" parent="@style/Theme.twDefaultInternal" />
+    <style name="Theme.FMPlayer" parent="@android:style/Theme">
+        <item name="android:windowNoTitle">true</item>
+        <item name="listPreferredHeight">58.0dip</item>
+    </style>
+    <style name="Theme.twDefaultInternal" parent="@android:style/Theme.Light">
+        <item name="android:buttonStyle">@style/twButton</item>
+        <item name="android:windowTitleStyle">@style/twWindowTitle</item>
+        <item name="android:imageButtonStyle">@style/twImageButton</item>
+        <item name="android:listViewStyle">@style/twListView</item>
+        <item name="listPaddingLeft">9.0dip</item>
+        <item name="listPaddingRight">9.0dip</item>
+        <item name="listPreferredHeight">58.0dip</item>
+        <item name="albumThumbSize">50.0dip</item>
+        <item name="samplePlayButtonSize">40.0dip</item>
+        <item name="adViewHeight">53.0px</item>
+    </style>
+    <style name="PreferencesTheme" parent="@android:style/Theme.Light">
+        <item name="android:background">@color/gingerbread_white</item>
+        <item name="android:cacheColorHint">@android:color/transparent</item>
+    </style>
+    <style name="twTitleBackground">
+        <item name="android:background">@drawable/title_bar</item>
+    </style>
+    <style name="twButton" parent="@android:style/Widget.Button" />
+    <style name="twImageButton" parent="@android:style/Widget.ImageButton" />
+    <style name="Theme.twCreatAccount" parent="@style/Theme.twDefault">
+        <item name="android:textColor">#ffffffff</item>
+    </style>
+    <style name="Theme.NextLyricLine" parent="@style/Theme">
+        <item name="android:textColor">#ffff0000</item>
+    </style>
+    <style name="Theme.twDialog" parent="@android:style/Theme.Dialog" />
+    <style name="TextAppearance.Theme.PlainText" parent="@android:style/TextAppearance.Theme">
+        <item name="android:textColor">#ff000000</item>
+    </style>
+    <style name="Theme.Transparent" parent="@style/Theme">
+        <item name="android:windowBackground">@drawable/transparent_background</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowIsTranslucent">true</item>
+    </style>
+    <style name="textMajor" parent="@android:style/TextAppearance">
+        <item name="android:textSize">18.0dip</item>
+        <item name="android:textColor">@android:color/black</item>
+    </style>
+    <style name="textMajorXL" parent="@android:style/TextAppearance">
+        <item name="android:textSize">22.0dip</item>
+        <item name="android:textColor">@android:color/black</item>
+    </style>
+    <style name="textMajorBold" parent="@style/textMajor">
+        <item name="android:textStyle">bold</item>
+    </style>
+    <style name="textMinor" parent="@android:style/TextAppearance">
+        <item name="android:textSize">16.0dip</item>
+        <item name="android:textColor">@android:color/black</item>
+    </style>
+    <style name="textMinorGrey" parent="@style/textMinor">
+        <item name="android:textColor">#ff808080</item>
+    </style>
+    <style name="textMinorBold" parent="@style/textMinor">
+        <item name="android:textStyle">bold</item>
+    </style>
+    <style name="textMinorBlackBold" parent="@style/textMinorBold">
+        <item name="android:textColor">@android:color/black</item>
+    </style>
+    <style name="textWidget" parent="@style/textMinor">
+        <item name="android:textColor">@android:color/black</item>
+    </style>
+    <style name="textWidgetBold" parent="@style/textWidget">
+        <item name="android:textStyle">bold</item>
+    </style>
+    <style name="textWidgetDarkGray" parent="@style/textWidget">
+        <item name="android:textColor">@color/dark_gray</item>
+    </style>
+    <style name="textWidgetRadio" parent="@android:style/TextAppearance">
+        <item name="android:textSize">14.0dip</item>
+        <item name="android:textColor">@android:color/black</item>
+    </style>
+    <style name="textFMSmallDial" parent="@android:style/TextAppearance">
+        <item name="android:textSize">16.0dip</item>
+        <item name="android:textColor">#ffbcbcbc</item>
+    </style>
+    <style name="listHeaderTextMajor" parent="@style/textMajor" />
+    <style name="listHeaderTextMajorBold" parent="@style/listHeaderTextMajor">
+        <item name="android:textStyle">bold</item>
+    </style>
+    <style name="listHeaderTextMinor" parent="@style/textMinor" />
+    <style name="listHeaderTextMinorBold" parent="@style/listHeaderTextMinor">
+        <item name="android:textStyle">bold</item>
+    </style>
+    <style name="listTextSeparatorText" parent="@android:style/TextAppearance">
+        <item name="android:textSize">14.0dip</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">@android:color/primary_text_dark</item>
+    </style>
+    <style name="textViewListSeparator">
+        <item name="android:textAppearance">@style/listTextSeparatorText</item>
+        <item name="android:background">@color/list_text_sep_bg</item>
+        <item name="android:paddingLeft">8.0dip</item>
+        <item name="android:paddingTop">6.0dip</item>
+        <item name="android:paddingBottom">6.0dip</item>
+    </style>
+    <style name="textPrevLyric">
+        <item name="android:textSize">16.0dip</item>
+        <item name="android:textColor">@color/gray</item>
+    </style>
+    <style name="textNextLyric">
+        <item name="android:textSize">16.0dip</item>
+        <item name="android:textColor">@color/black</item>
+    </style>
+    <style name="twWindowTitle">
+        <item name="android:textAppearance">@android:style/TextAppearance.WindowTitle</item>
+        <item name="android:paddingLeft">2.0dip</item>
+        <item name="android:singleLine">true</item>
+        <item name="android:shadowColor">#bb000000</item>
+        <item name="android:shadowRadius">2.75</item>
+    </style>
+    <style name="textFMFreqLarge">
+        <item name="android:textSize">60.0dip</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">@color/white</item>
+    </style>
+    <style name="textFMFreqSmall">
+        <item name="android:textSize">15.0dip</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">@color/white</item>
+    </style>
+    <style name="textFMRDSLarge">
+        <item name="android:textSize">40.0dip</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">@color/white</item>
+    </style>
+    <style name="textFMRDSMed">
+        <item name="android:textSize">30.0dip</item>
+        <item name="android:textColor">@color/white</item>
+    </style>
+    <style name="textFMRDSSmall">
+        <item name="android:textSize">16.0dip</item>
+        <item name="android:textColor">@color/white</item>
+    </style>
+    <style name="textFMPresetGrey">
+        <item name="android:textSize">30.0dip</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">#ff595959</item>
+    </style>
+    <style name="lyricsTextActive" parent="@style/textMinor">
+        <item name="android:textColor">#ff000000</item>
+    </style>
+    <style name="lyricsTextNext" parent="@style/textMinor">
+        <item name="android:textColor">#ffcdcdcd</item>
+    </style>
+</resources>

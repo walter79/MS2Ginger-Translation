@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<FrameLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:gravity="top" android:layout_gravity="top" android:id="@id/icon" android:layout_width="fill_parent" android:layout_height="320.0dip" android:scaleType="centerCrop" />
+    <ImageView android:id="@id/gradient" android:layout_width="fill_parent" android:layout_height="fill_parent" android:src="@drawable/editorial_list_bg" android:scaleType="fitXY" />
+    <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <include layout="@layout/title2" />
+        <ListView android:id="@android:id/list" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    </LinearLayout>
+</FrameLayout>

@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<searchable android:label="@string/search_title" android:hint="@string/search_hint_musicstore" android:searchMode="queryRewriteFromText" android:searchSuggestAuthority="com.motorola.blur.music.musicstore.emptysearch" android:searchSuggestSelection="\u0020?\u0020" android:searchSuggestIntentAction="android.intent.action.VIEW" android:searchSuggestThreshold="0" android:includeInGlobalSearch="true" android:searchSettingsDescription="@string/search_desc_musicstore"
+  xmlns:android="http://schemas.android.com/apk/res/android" />

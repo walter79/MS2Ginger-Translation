@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="@dimen/dashboard_card_w" android:layout_height="@dimen/dashboard_card_h"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="horizontal" android:id="@id/badge" android:background="@blur.res:drawable/card_cap_full_bg" android:layout_width="@dimen/dashboard_card_badge_w" android:layout_height="@dimen/dashboard_card_badge_h" android:layout_weight="0.0">
+        <ImageView android:id="@id/icon" android:background="#e7ffffff" android:visibility="gone" android:layout_width="@dimen/dashboard_card_badge_h" android:layout_height="@dimen/dashboard_card_badge_h" android:layout_marginRight="0.0dip" android:scaleType="centerCrop" android:layout_weight="0.0" />
+    </LinearLayout>
+    <FrameLayout android:id="@id/card_body" android:background="@blur.res:drawable/card_body_bg" android:layout_width="@dimen/dashboard_card_body_w" android:layout_height="@dimen/dashboard_card_body_h">
+        <ImageView android:gravity="center" android:layout_gravity="center" android:id="@id/background" android:background="@blur.res:drawable/card_body_bg" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginLeft="2.0dip" android:layout_marginRight="2.0dip" android:layout_marginBottom="1.0dip" android:scaleType="centerCrop" />
+        <ImageView android:gravity="center" android:layout_gravity="top" android:id="@id/dashboard_shadow" android:background="@drawable/card_cap_shadow" android:layout_width="@dimen/dashboard_card_w" android:layout_height="8.0dip" android:layout_marginBottom="@dimen/dashboard_card_shadow_margin_bottom" android:scaleType="fitXY" />
+        <TextView android:textColor="@color/black" android:layout_gravity="center" android:id="@id/loading" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/podcast_loading" />
+    </FrameLayout>
+</LinearLayout>

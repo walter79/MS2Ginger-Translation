@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LinearLayout android:layout_gravity="center_vertical" android:orientation="vertical" android:id="@id/blurmusic_att_auth_group" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:id="@id/title" android:layout_width="fill_parent" style="@blur.res:style/Blur.TitleBar">
+        <TextView android:textAppearance="?android:textAppearanceMedium" android:textSize="14.0sp" android:textStyle="bold" android:textColor="#ffffffff" android:gravity="left" android:id="@id/line1" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="8.0dip" android:text="@string/att_reg" android:layout_alignParentLeft="true" />
+        <ImageView android:gravity="center" android:id="@id/store_icon" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="6.0dip" android:layout_alignParentRight="true" />
+    </RelativeLayout>
+    <ScrollView android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="8.0dip" android:layout_weight="1.0" android:layout_below="@id/title">
+        <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@blur.res:dimen/formitem_hspacing" android:layout_marginRight="@blur.res:dimen/formitem_hspacing">
+            <RelativeLayout android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <TextView android:textSize="16.0sp" android:textColor="#ff000000" android:id="@id/blurmusic_att_auth_phonenum_text" android:layout_marginLeft="8.0dip" android:text="@string/att_auth_activation_code" style="@blur.res:style/Blur.FormItemTxt.A" />
+            </RelativeLayout>
+            <EditText android:id="@id/blurmusic_att_auth_activation_code_edit" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="8.0dip" android:hint="@string/att_auth_activation_code_hint" android:maxLines="1" android:inputType="textVisiblePassword" />
+            <TextView android:textSize="16.0sp" android:textColor="#ff000000" android:id="@id/blurmusic_att_auth_text_1" android:layout_marginLeft="8.0dip" android:text="@string/att_auth_activation_code_1" android:singleLine="false" android:layout_below="@id/blurmusic_att_auth_activation_code_edit" style="@blur.res:style/Blur.FormItemTxt.A" />
+            <TextView android:textSize="16.0sp" android:textColor="#ff000000" android:id="@id/blurmusic_att_auth_text_2" android:layout_marginLeft="8.0dip" android:text="@string/att_auth_activation_code_2" android:singleLine="false" android:layout_below="@id/blurmusic_att_auth_text_1" style="@blur.res:style/Blur.FormItemTxt.A" />
+        </LinearLayout>
+    </ScrollView>
+    <LinearLayout android:gravity="bottom" android:orientation="horizontal" android:background="@null" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <com.motorola.android.widget.ActionBar android:id="@id/abwidget" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_alignParentBottom="true" />
+    </LinearLayout>
+</LinearLayout>

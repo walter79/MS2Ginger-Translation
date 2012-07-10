@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ViewFlipper android:id="@id/flipper" android:visibility="invisible" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="horizontal" android:id="@id/flipper_layout" android:background="@drawable/player_badge_composite" android:paddingLeft="1.0dip" android:paddingTop="1.0dip" android:paddingBottom="1.0dip" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="60.0dip">
+        <ImageView android:id="@id/track_chip_icon" android:background="@drawable/ic_thb_generic_album_teaser" android:visibility="gone" android:layout_width="60.0dip" android:layout_height="60.0dip" android:layout_marginRight="10.0dip" android:layout_weight="0.0" />
+        <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_weight="1.0">
+            <TextView android:textSize="14.0sp" android:textColor="#ffffffff" android:gravity="top" android:id="@id/track_chip_artist_name" android:layout_width="fill_parent" android:layout_height="fill_parent" android:maxLines="1" android:layout_weight="1.0" />
+            <TextView android:textSize="14.0sp" android:textStyle="bold" android:textColor="#ffffffff" android:gravity="top" android:id="@id/track_chip_name" android:layout_width="fill_parent" android:layout_height="fill_parent" android:maxLines="1" android:layout_weight="1.0" />
+            <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginBottom="1.0dip" android:layout_weight="1.0">
+                <TextView android:textSize="13.0sp" android:textColor="#ffffffff" android:gravity="top" android:layout_gravity="top" android:id="@id/track_chip_album_name" android:layout_width="fill_parent" android:layout_height="fill_parent" android:maxLines="1" android:layout_weight="1.0" />
+                <TextView android:textSize="13.0sp" android:textColor="#ffffffff" android:gravity="bottom|right|center" android:layout_gravity="bottom|right|center" android:id="@id/track_chip_count" android:paddingRight="5.0dip" android:layout_width="wrap_content" android:layout_height="fill_parent" android:maxLines="1" android:layout_weight="0.0" />
+            </LinearLayout>
+        </LinearLayout>
+        <TextView android:id="@id/recommendation_type" android:visibility="gone" android:layout_width="0.0dip" android:layout_height="0.0dip" android:layout_weight="0.0" />
+    </LinearLayout>
+</ViewFlipper>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<appwidget-provider android:minWidth="294.0dip" android:minHeight="72.0dip" android:updatePeriodMillis="86400000" android:initialLayout="@layout/nowplaying_init_widget_4x1" blur:description="@string/widget_description1"
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:blur="http://schemas.android.com/apk/res/blur.res">
+    <appwidget-layout blur:minSpanX="4" blur:maxSpanX="4" blur:minSpanY="1" blur:maxSpanY="1" blur:sizeInitialLayout="@layout/nowplaying_init_widget_4x1" />
+    <appwidget-layout blur:minSpanX="3" blur:maxSpanX="3" blur:minSpanY="2" blur:maxSpanY="2" blur:sizeInitialLayout="@layout/nowplaying_init_widget_3x2" />
+    <appwidget-layout blur:minSpanX="3" blur:maxSpanX="3" blur:minSpanY="3" blur:maxSpanY="3" blur:sizeInitialLayout="@layout/nowplaying_init_widget_3x3" />
+</appwidget-provider>

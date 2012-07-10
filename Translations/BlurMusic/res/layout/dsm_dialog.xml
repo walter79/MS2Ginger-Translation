@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ScrollView android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:app="http://schemas.android.com/apk/res/com.motorola.gallery">
+    <LinearLayout android:orientation="vertical" android:id="@id/LinearLayout012" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <TextView android:id="@id/dsm_agreement" android:padding="5.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="5.0dip" android:text="@string/dsm_is_on_are_you_sure" />
+        <ImageView android:layout_width="fill_parent" android:layout_height="1.0dip" android:layout_marginLeft="6.0dip" android:layout_marginTop="5.0dip" android:layout_marginRight="6.0dip" android:src="@android:drawable/divider_horizontal_dark" android:scaleType="fitXY" />
+        <CheckBox android:id="@id/dsm_checkbox" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="5.0dip" android:layout_marginTop="5.0dip" android:checked="false" android:text="@string/dsm_notify" />
+    </LinearLayout>
+</ScrollView>

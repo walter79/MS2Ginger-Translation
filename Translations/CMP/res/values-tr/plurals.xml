@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+    <plurals name="N_additional_songs">
+        <item quantity="other">ve benzer %d şarkı</item>
+        <item quantity="one">ve benzer 1 şarkı</item>
+    </plurals>
+    <plurals name="N_delete_songs">
+        <item quantity="other">Bu %d şarkıyı kalıcı olarak silmek istediğinizden emin misiniz?</item>
+        <item quantity="one">Bu şarkıyı kalıcı olarak silmek istediğinizden emin misiniz?</item>
+    </plurals>
+    <plurals name="N_playlists_deleted">
+        <item quantity="other">%d şarkı listesi kaldırıldı.</item>
+        <item quantity="one">Şarkı listesi silindi.</item>
+    </plurals>
+    <plurals name="N_songs_purchased">
+        <item quantity="other">%d şarkı satın alındı ve indirme kuyruğuna eklendi.</item>
+        <item quantity="one">Şarkı satın alındı ve indirme kuyruğuna eklendi.</item>
+    </plurals>
+    <plurals name="N_songs_purchased_wifi_blocked">
+        <item quantity="other">%d şarkı başarıyla satın alındı. İndirme işlemi, kablosuz ağa bağlandığınızda başlayacak.</item>
+        <item quantity="one">Şarkı başarıyla satın alındı. İndirme işlemi, kablosuz ağa bağlandığınızda başlayacak.</item>
+    </plurals>
+    <plurals name="N_tracks_added_playlist">
+        <item quantity="other">%d şarkı listeye eklendi.</item>
+        <item quantity="one">1 şarkı listeye eklendi.</item>
+    </plurals>
+    <plurals name="N_tracks_deleted_from_playlist">
+        <item quantity="other">Şarkı listesinden %d şarkı silindi.</item>
+        <item quantity="one">Şarkı listesinden 1 şarkı silindi.</item>
+    </plurals>
+    <plurals name="N_tracks_deleted_from_storage">
+        <item quantity="other">Cihazdan %d şarkı silindi.</item>
+        <item quantity="one">Cihazdan 1 şarkı silindi.</item>
+    </plurals>
+    <plurals name="song_will_start_N_seconds">
+        <item quantity="other">Şarkı %d saniye içinde çalmaya başlayacak</item>
+        <item quantity="one">Şarkı 1 saniye içinde çalmaya başlayacak</item>
+    </plurals>
+</resources>

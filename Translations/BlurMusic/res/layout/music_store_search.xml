@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RelativeLayout android:gravity="top" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:moto.res="http://schemas.android.com/apk/res/com.motorola.android.widget">
+    <ListView android:textSize="16.0sp" android:id="@android:id/list" android:paddingTop="87.0dip" android:layout_width="fill_parent" android:layout_height="fill_parent" android:drawSelectorOnTop="false" android:layout_weight="1.0" android:fastScrollEnabled="true" />
+    <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <RelativeLayout android:background="@com.motorola.android.widget:drawable/header_bkg" android:layout_width="fill_parent" android:layout_height="27.0dip" style="@com.motorola.android.widget:style/Interactive_Titlebar">
+            <TextView android:textAppearance="?android:textAppearanceMedium" android:textSize="14.0sp" android:textStyle="bold" android:textColor="#ffffffff" android:id="@id/line1" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="8.0dip" android:text="@string/search_music_store_title" android:layout_centerVertical="true" />
+            <ImageView android:id="@id/store_icon" android:layout_width="wrap_content" android:layout_height="25.0dip" android:layout_marginRight="8.0dip" android:layout_alignParentTop="true" android:layout_alignParentRight="true" android:layout_alignParentBottom="true" />
+        </RelativeLayout>
+        <include layout="@layout/music_store_tumbler_title" />
+        <LinearLayout android:orientation="horizontal" android:id="@id/searchagainlayout" android:background="@null" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="60.0dip" style="@com.motorola.android.widget:style/Interactive_Titlebar"
+          xmlns:android="http://schemas.android.com/apk/res/android">
+            <ImageView android:layout_gravity="center_vertical" android:id="@id/searchicon" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip" android:src="@blur.res:drawable/ic_msg_aw_gal_search" android:layout_weight="0.0" />
+            <TextView android:textAppearance="?android:textAppearanceMedium" android:textColor="#ff000000" android:layout_gravity="center_vertical" android:id="@id/searchagain" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="8.0dip" android:text="@string/search_again" />
+        </LinearLayout>
+        <LinearLayout android:gravity="top|center" android:orientation="horizontal" android:id="@id/loadinglayout" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="15.0dip">
+            <ProgressBar android:layout_gravity="center" android:id="@id/searchprogress" android:visibility="gone" android:layout_width="25.0dip" android:layout_height="25.0dip" style="@android:style/Widget.ProgressBar.Small" />
+            <TextView android:textSize="18.0sp" android:gravity="top|center" android:layout_gravity="center" android:id="@android:id/empty" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip" />
+        </LinearLayout>
+    </LinearLayout>
+</RelativeLayout>

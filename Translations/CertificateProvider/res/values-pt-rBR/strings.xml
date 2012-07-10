@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+    <string name="package_name">Provedor de conteúdo de certificado</string>
+    <string name="permlab_read">Certificados de leitura</string>
+    <string name="permdesc_read">Certificados raíz de leitura</string>
+    <string name="permlab_write">Certificados de escrita</string>
+    <string name="permdesc_write">Certificados raíz de escrita</string>
+</resources>

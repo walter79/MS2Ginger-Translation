@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LinearLayout android:id="@id/dlna_main_parent_layout" android:background="@null" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:id="@id/dlna_tracks_parent_layout" android:layout_width="fill_parent" android:layout_height="fill_parent"
+      xmlns:android="http://schemas.android.com/apk/res/android"
+      xmlns:moto.res="http://schemas.android.com/apk/res/com.motorola.android.widget">
+        <com.motorola.android.widget.MotoFlowView android:id="@id/blur_dlna_motoflowwidget_3dart" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_weight="0.0" moto.res:isMainItemLive="false" moto.res:mainItemWidth="170.0dip" moto.res:mainItemHeight="170.0dip" moto.res:backgroundImage="@drawable/card_wall" moto.res:shadowImage="@blur.res:drawable/card_shadow" moto.res:lightX="0.0dip" moto.res:lightY="350.0dip" moto.res:lightZ="1000.0dip" moto.res:floorX="0.0dip" moto.res:floorY="-90.0dip" moto.res:floorZ="0.0dip" moto.res:floorWidth="1557.0dip" moto.res:floorHeight="1824.0dip" moto.res:itemSpacing="5.0dip" moto.res:shadowOffset="3.0dip" />
+        <LinearLayout android:orientation="vertical" android:id="@id/parent_layout" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <include layout="@layout/dlna_title" />
+            <include layout="@layout/dlna_land_title" />
+            <include layout="@layout/sd_error" />
+            <ListView android:textSize="18.0sp" android:gravity="top|center" android:id="@android:id/list" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:drawSelectorOnTop="false" android:fastScrollEnabled="true" />
+        </LinearLayout>
+        <LinearLayout android:orientation="vertical" android:id="@id/bottom_layout" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_alignParentBottom="true">
+            <TextView android:textSize="20.0sp" android:textStyle="bold" android:textColor="#ffffffff" android:ellipsize="end" android:gravity="center" android:layout_gravity="center" android:id="@id/top_text_3d" android:visibility="gone" android:layout_width="360.0dip" android:layout_height="wrap_content" android:singleLine="true" />
+            <TextView android:textSize="16.0sp" android:textColor="#ffffffff" android:ellipsize="end" android:gravity="center" android:layout_gravity="center" android:id="@id/bottom_text_3d" android:visibility="gone" android:layout_width="360.0dip" android:layout_height="wrap_content" android:layout_marginBottom="10.0dip" android:singleLine="true" android:layout_below="@id/top_text_3d" />
+        </LinearLayout>
+        <include layout="@layout/dlna_select_multiple_layout" />
+    </RelativeLayout>
+    <RelativeLayout android:id="@id/dlna_artist_album_parent_layout" android:layout_width="fill_parent" android:layout_height="wrap_content"
+      xmlns:android="http://schemas.android.com/apk/res/android"
+      xmlns:moto.res="http://schemas.android.com/apk/res/com.motorola.android.widget">
+        <include layout="@layout/dlna_album_songs" />
+    </RelativeLayout>
+</LinearLayout>

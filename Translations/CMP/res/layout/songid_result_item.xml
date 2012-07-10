@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:background="@color/listview_selector" android:paddingLeft="9.0dip" android:layout_width="fill_parent" android:layout_height="?listPreferredHeight"
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:app="http://schemas.android.com/apk/res/com.motorola.cmp">
+    <com.motorola.cmp.views.RemoteImageView android:id="@id/albumcover" android:paddingTop="0.0dip" android:paddingRight="10.0dip" android:paddingBottom="0.0dip" android:layout_width="?albumThumbSize" android:layout_height="?albumThumbSize" app:defaultImage="@drawable/no_coverart_sm" app:showProgressLoading="false" app:enableCache="false" />
+    <LinearLayout android:orientation="vertical" android:paddingRight="20.0dip" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0" android:layout_centerVertical="true">
+        <TextView android:textAppearance="@style/textMajorBold" android:id="@id/text1" android:layout_width="wrap_content" android:layout_height="wrap_content" android:singleLine="true" />
+        <TextView android:textAppearance="@style/textMinor" android:id="@id/text2" android:layout_width="wrap_content" android:layout_height="wrap_content" android:singleLine="true" />
+    </LinearLayout>
+    <ImageView android:id="@id/img_error" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="9.0dip" android:src="@drawable/download_error" />
+</LinearLayout>

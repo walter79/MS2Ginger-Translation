@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<PreferenceScreen
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <Preference android:title="@string/audio_fx_title" android:key="@string/audio_fx_key" android:summary="@string/audio_fx_summary" />
+    <ListPreference android:entries="@array/sleep_timer_entries" android:title="@string/sleep_timer_title" android:key="@string/sleep_timer_key" android:summary="@string/sleep_timer_summary" android:defaultValue="0" android:entryValues="@array/sleep_timer_entry_values" />
+    <CheckBoxPreference android:title="@string/live_music_info_title" android:key="@string/live_music_info_key" android:summary="@string/live_music_info_summary" android:defaultValue="true" />
+    <PreferenceScreen android:title="@string/live_music_info_prefs_title" android:key="@string/live_music_info_prefs_key" android:summary="@string/live_music_info_prefs_summary" android:dependency="@string/live_music_info_key">
+        <CheckBoxPreference android:title="@string/share_data_title" android:key="@string/share_data_key" android:summary="@string/share_data_summary" android:defaultValue="true" />
+        <CheckBoxPreference android:title="@string/recom_title" android:key="@string/recom_key" android:summary="@string/recom_summary" android:defaultValue="true" />
+        <CheckBoxPreference android:title="@string/friend_activity_title" android:key="@string/friend_activity_key" android:summary="@string/friend_activity_summary" android:defaultValue="true" />
+        <CheckBoxPreference android:title="@string/news_title" android:key="@string/news_key" android:summary="@string/news_summary" android:defaultValue="true" />
+        <CheckBoxPreference android:title="@string/LFM_Scrobbling_title" android:key="@string/LFM_Scrobbling_key" android:summary="@string/LFM_Scrobbling_summary" android:defaultValue="true" />
+        <CheckBoxPreference android:title="@string/lyrics_title" android:key="@string/lyrics_key" android:summary="@string/lyrics_summary" android:defaultValue="true" />
+        <ListPreference android:entries="@array/lyrics_language_entries" android:title="@string/lyrics_language_title" android:key="@string/lyrics_language_key" android:summary="@string/lyrics_language_summary" android:dependency="@string/lyrics_key" android:defaultValue="native" android:entryValues="@array/lyrics_language_values" />
+    </PreferenceScreen>
+    <CheckBoxPreference android:title="@string/auto_download_title" android:key="@string/auto_download_key" android:summary="@string/auto_download_summary" android:defaultValue="true" />
+    <Preference android:title="@string/dlna_title" android:key="@string/dlna_key" android:summary="@string/dlna_summary" />
+    <ListPreference android:entries="@array/fm_region_entries" android:title="@string/fm_title" android:key="@string/fm_key" android:summary="@string/fm_summary" android:defaultValue="16" android:entryValues="@array/fm_region_entry_values" />
+</PreferenceScreen>

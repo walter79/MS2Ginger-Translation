@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+    <string name="app_name">Kalibratieapparaat voor kompassen</string>
+    <string name="calibrator_inst_title">Kalibratie</string>
+    <string name="calibrator_inst">Beweeg uw telefoon in alle mogelijke richtingen, alsof u het cijfer 8 wilt schrijven. Het kompas wordt gekalibreerd zodra de afbeelding groen wordt.</string>
+    <string name="calibrator_face_title">Gekalibreerd.</string>
+    <string name="calibrator_horizontal_inst">Schuif het toetsenbord uit om de telefoon ook met geopend toetsenbord te kalibreren.</string>
+    <string name="calibrator_vertical_inst">Schuif het toetsenbord in om de telefoon ook met gesloten toetsenbord te kalibreren.</string>
+    <string name="calibrator_quit_inst">Of druk op Sluiten als u beide zijden al heeft gekalibreerd.</string>
+    <string name="calibrator_start_button">Kalibreren</string>
+    <string name="calibrator__otherface_button">\n Andere zijde kalibreren</string>
+    <string name="calibrator_quit_button">Sluiten</string>
+    <string name="calibrator_done_quit_inst">Kalibreren is voltooid. Druk op Sluiten.</string>
+    <string name="calibrator_fail_message">Kalibreren is mislukt. Probeer het opnieuw.</string>
+    <string name="calibrator_ani_inst">Draai de telefoon voor- en achterwaarts langs alle drie de assen totdat het kompas groen wordt.</string>
+</resources>

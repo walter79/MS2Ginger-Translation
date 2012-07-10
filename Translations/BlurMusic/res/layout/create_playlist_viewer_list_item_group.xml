@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="@dimen/track_list_item_icon_h"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <CheckBox android:id="@id/create_playlist_check_box" android:focusable="false" android:layout_marginLeft="10.0dip" android:layout_marginRight="10.0dip" style="@blur.res:style/Blur.FormItemTxt.A" />
+    <RelativeLayout android:layout_width="wrap_content" android:layout_height="wrap_content">
+        <ImageView android:id="@id/playlist_icon" android:visibility="gone" android:layout_width="60.0dip" android:layout_height="60.0dip" android:scaleType="fitXY" />
+        <ImageView android:id="@id/cover_icon" android:paddingTop="5.0dip" android:paddingRight="5.0dip" android:visibility="gone" android:layout_width="60.0dip" android:layout_height="60.0dip" android:scaleType="centerCrop" android:layout_weight="0.0" />
+    </RelativeLayout>
+    <ImageView android:id="@id/icon" android:layout_width="@dimen/track_list_item_icon_w" android:layout_height="@dimen/track_list_item_icon_h" android:scaleType="centerCrop" android:layout_weight="0.0" />
+    <LinearLayout android:gravity="center_vertical" android:orientation="vertical" android:paddingLeft="10.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_weight="1.0">
+        <TextView android:textAppearance="?android:textAppearanceMedium" android:ellipsize="marquee" android:id="@id/line1" android:layout_width="wrap_content" android:layout_height="0.0px" android:maxLines="1" android:scrollHorizontally="true" android:layout_weight="1.0" />
+        <TextView android:textAppearance="?android:textAppearanceSmall" android:ellipsize="marquee" android:id="@id/line2" android:layout_width="wrap_content" android:layout_height="0.0px" android:maxLines="1" android:scrollHorizontally="true" android:layout_weight="1.0" />
+        <TextView android:textAppearance="?android:textAppearanceSmall" android:ellipsize="marquee" android:id="@id/line3" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="0.0px" android:maxLines="1" android:scrollHorizontally="true" android:layout_weight="1.0" />
+        <TextView android:textColor="#ffffffff" android:ellipsize="marquee" android:gravity="center" android:id="@id/concert_label" android:background="@drawable/event_tag" android:paddingRight="10.0dip" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="0.0px" android:text="@string/in_concert" android:maxLines="1" android:layout_weight="1.0" />
+    </LinearLayout>
+    <LinearLayout android:gravity="center_vertical" android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_weight="0.0">
+        <TextView android:textSize="16.0sp" android:textColor="#ffffffff" android:ellipsize="marquee" android:id="@id/duration" android:paddingLeft="4.0dip" android:paddingRight="11.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxLines="1" android:layout_weight="0.0" android:layout_alignBaseline="@id/line1" />
+        <ImageView android:id="@id/play_indicator" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="10.0dip" android:layout_marginRight="12.0dip" />
+    </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RelativeLayout android:background="@color/fm_disabled_overlay" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.motorola.cmp.views.fm.ScrollableDialView android:id="@id/dial_tuner" android:layout_width="fill_parent" android:layout_height="102.0dip" android:layout_alignParentBottom="true" />
+    <com.motorola.cmp.views.fm.TunedStationView android:id="@id/card_tuned" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="55.0dip" android:layout_alignParentBottom="true" android:layout_centerHorizontal="true" />
+</RelativeLayout>

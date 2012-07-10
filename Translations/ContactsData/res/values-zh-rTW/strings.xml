@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+    <string name="app_name">聯絡人資料</string>
+    <string name="mms_body">向您發送 MMS 簡訊</string>
+    <string name="motoBlurProfileName">通訊錄</string>
+    <string name="motoBlurUnconnectedProfileName">簡易版通訊錄</string>
+    <string name="phoneContactsProfileName">手機聯絡人</string>
+    <string name="simContactsProfileName">SIM 卡聯絡人</string>
+    <string name="call_restiction_addcontact">通話受限。 無法將聯絡人新增至電話簿。</string>
+    <string name="call_restiction_editcontact">通話受限。 無法編輯電話簿聯絡人。</string>
+    <string name="call_restiction_deletecontact">通話受限。 無法刪除電話簿聯絡人。</string>
+    <string name="call_restiction_updatecontact_tools">通話受限。 不允許更新電話簿。</string>
+</resources>

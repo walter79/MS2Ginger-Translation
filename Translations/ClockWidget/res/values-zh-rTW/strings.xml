@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+    <string name="widget_name">日期和時間</string>
+    <string name="app_name">日期和時間</string>
+    <string name="title">日期和時間小工具</string>
+    <string name="done">完成</string>
+    <string name="text_24_hr_format">使用 24 小時格式</string>
+    <string name="Widget_type">時鐘類型</string>
+    <string name="Clock_background_color">時鐘背景顏色</string>
+    <string name="choose_color">選擇顏色</string>
+    <string name="select">選擇</string>
+    <string name="PURPLE">紫色</string>
+    <string name="GREEN">綠色</string>
+    <string name="BLUE">藍色</string>
+    <string name="ORANGE">橙色</string>
+    <string name="DARKBLUE">深藍</string>
+    <string name="LIGHTBLUE">淺藍</string>
+    <string name="Green">綠色</string>
+    <string name="Grey">灰色</string>
+    <string name="Clock_styles_screen">0</string>
+    <string name="clock_color_selection_screen">1</string>
+    <string name="description">目前日期和時間一覽</string>
+    <string name="colon">:</string>
+</resources>

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RelativeLayout android:orientation="vertical" android:id="@id/bg" android:background="@drawable/card_wall" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:moto.res="http://schemas.android.com/apk/res/com.motorola.android.widget"
+  xmlns:app="http://schemas.android.com/apk/res/com.motorola.blur.music">
+    <FrameLayout android:id="@id/dashboard" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_weight="1.0">
+        <com.motorola.android.widget.MotoFlowView android:id="@id/blur_motoflowwidget_3d" android:focusable="true" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" moto.res:isMainItemLive="true" moto.res:mainItemOffsetY="60.0dip" moto.res:mainItemWidth="@dimen/dashboard_card_w" moto.res:mainItemHeight="@dimen/dashboard_card_h" moto.res:backgroundImage="@drawable/card_wall" moto.res:shadowImage="@blur.res:drawable/card_shadow" moto.res:lightX="0.0dip" moto.res:lightY="450.0dip" moto.res:lightZ="1000.0dip" moto.res:defaultItemView="@layout/music_dashboard_loadingcard" moto.res:shadowOffset="4.0dip" />
+        <include layout="@layout/introduction" />
+        <com.motorola.blur.music.MotoCollageView android:id="@id/moto_collage_view" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_weight="0.2" app:chipSize="200.0dip" app:mode="DASHBOARD_PORTRAIT" />
+        <LinearLayout android:orientation="horizontal" android:id="@id/bluescreen" android:background="@drawable/card_wall" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_alignParentTop="true" />
+        <ImageView android:id="@id/empty_message" android:background="@drawable/ic_widget_cmp_now_playing" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+        <ProgressBar android:layout_gravity="center" android:id="@id/progress" android:layout_width="32.0dip" android:layout_height="32.0dip" />
+        <RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <RelativeLayout android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_alignParentBottom="true">
+                <ImageView android:id="@id/dock_sheen_image" android:background="@blur.res:drawable/btn_4_dashboard" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_alignLeft="@id/dock" android:layout_alignTop="@id/dock" android:layout_alignRight="@id/dock" android:layout_alignBottom="@id/dock" />
+                <LinearLayout android:layout_gravity="bottom|center" android:orientation="vertical" android:id="@id/dock" android:paddingLeft="5.0dip" android:paddingBottom="1.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_alignParentBottom="true">
+                    <LinearLayout android:layout_gravity="center" android:orientation="horizontal" android:id="@id/now_playing" android:focusable="true" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="43.0dip" style="@style/Dashboard_Button_Portrait">
+                        <TextView android:gravity="center" android:layout_gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/now_playing" style="@style/Dashboard_Button_text_Portrait" />
+                        <ImageView android:gravity="center" android:layout_gravity="center" android:id="@id/now_playing_icon" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="5.0dip" android:src="@drawable/ic_now_playing_mp3" />
+                    </LinearLayout>
+                    <LinearLayout android:layout_gravity="center" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                        <Button android:id="@id/my_lib" android:layout_width="fill_parent" android:layout_height="43.0dip" android:text="@string/my_lib" style="@style/Dashboard_Button_Portrait" />
+                        <Button android:id="@id/podcast" android:layout_width="fill_parent" android:layout_height="43.0dip" android:text="@string/podcast" style="@style/Dashboard_Button_Portrait" />
+                    </LinearLayout>
+                    <LinearLayout android:layout_gravity="center" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                        <Button android:id="@id/web_rad" android:layout_width="fill_parent" android:layout_height="43.0dip" android:text="@string/web_rad" style="@style/Dashboard_Button_Portrait" />
+                        <Button android:id="@id/fm_rad" android:layout_width="fill_parent" android:layout_height="43.0dip" android:text="@string/fm_rad" style="@style/Dashboard_Button_Portrait" />
+                    </LinearLayout>
+                </LinearLayout>
+            </RelativeLayout>
+        </RelativeLayout>
+    </FrameLayout>
+</RelativeLayout>

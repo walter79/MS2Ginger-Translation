@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+    <string name="package_name">Inhoudsleverancier certificaatbeheer</string>
+    <string name="permlab_read">Certificaten lezen</string>
+    <string name="permdesc_read">Root-certificaten lezen</string>
+    <string name="permlab_write">Certificaten schrijven</string>
+    <string name="permdesc_write">Root-certificaten schrijven</string>
+</resources>

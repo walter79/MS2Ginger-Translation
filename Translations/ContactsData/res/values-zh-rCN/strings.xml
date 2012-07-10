@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+    <string name="app_name">联系人数据</string>
+    <string name="mms_body">向您发送彩信</string>
+    <string name="motoBlurProfileName">地址簿</string>
+    <string name="motoBlurUnconnectedProfileName">简明地址簿</string>
+    <string name="phoneContactsProfileName">手机联系人</string>
+    <string name="simContactsProfileName">SIM卡联系人</string>
+    <string name="call_restiction_addcontact">呼叫受限。无法将联系人添加到通讯录。</string>
+    <string name="call_restiction_editcontact">呼叫受限。无法编辑通讯录联系人。</string>
+    <string name="call_restiction_deletecontact">呼叫受限。无法删除通讯录联系人。</string>
+    <string name="call_restiction_updatecontact_tools">呼叫受限。不支持通讯录更新。</string>
+</resources>

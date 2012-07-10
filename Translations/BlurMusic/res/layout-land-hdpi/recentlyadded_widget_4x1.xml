@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RelativeLayout android:background="@drawable/base_4x1" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <FrameLayout android:id="@id/FrameAlbumArt" android:layout_width="73.0dip" android:layout_height="fill_parent">
+        <ImageView android:id="@id/sleeve" android:layout_width="fill_parent" android:layout_height="fill_parent" android:src="@drawable/sleeve_ra_4x1" />
+        <FrameLayout android:id="@id/FrameLayout01" android:layout_width="65.0dip" android:layout_height="fill_parent" android:layout_marginLeft="7.0dip" android:layout_marginTop="15.0dip" android:layout_marginRight="8.0dip" android:layout_marginBottom="15.0dip">
+            <ImageView android:id="@id/album_appwidget_bg1" android:layout_width="fill_parent" android:layout_height="fill_parent" android:scaleType="fitXY" />
+        </FrameLayout>
+    </FrameLayout>
+    <LinearLayout android:orientation="vertical" android:id="@id/LinearLayout01" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginTop="15.0dip" android:layout_marginRight="17.0dip" android:layout_marginBottom="15.0dip" android:layout_toRightOf="@id/FrameAlbumArt">
+        <LinearLayout android:orientation="horizontal" android:id="@id/album_appwidget2" android:fadingEdge="none" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <TextView android:textSize="16.0sp" android:typeface="sans" android:textStyle="normal" android:textColor="#ff000000" android:ellipsize="marquee" android:id="@id/artist1" android:layout_width="wrap_content" android:layout_height="wrap_content" android:singleLine="true" android:marqueeRepeatLimit="marquee_forever" />
+            <TextView android:textSize="14.0sp" android:typeface="sans" android:textStyle="normal" android:textColor="#ff808080" android:gravity="top|right|center" android:layout_gravity="top|right|center" android:id="@id/addedtime" android:layout_width="86.0dip" android:layout_height="wrap_content" android:layout_marginLeft="15.0dip" />
+        </LinearLayout>
+        <LinearLayout android:id="@id/album_appwidget1" android:fadingEdge="none" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <TextView android:textSize="18.0sp" android:typeface="sans" android:textStyle="bold" android:textColor="#ff000000" android:id="@id/title1" android:layout_width="fill_parent" android:layout_height="wrap_content" android:singleLine="true" />
+        </LinearLayout>
+    </LinearLayout>
+</RelativeLayout>

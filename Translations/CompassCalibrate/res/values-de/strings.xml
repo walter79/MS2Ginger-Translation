@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+    <string name="app_name">Kompasskalibrierung</string>
+    <string name="calibrator_inst_title">Kalibrierung</string>
+    <string name="calibrator_inst">Führen Sie mit dem Telefon in alle Richtungen Bewegungen in der Form von Achtern aus. Der Kompass ist kalibriert, wenn das Bild grün wird.</string>
+    <string name="calibrator_face_title">Front kalibriert!</string>
+    <string name="calibrator_horizontal_inst">Schieben Sie die Tastatur heraus, um auch die Kalibrierung bei offenem Schieber vorzunehmen.</string>
+    <string name="calibrator_vertical_inst">Ziehen Sie die Tastatur ein, um auch die Kalibrierung bei geschlossenem Schieber vorzunehmen.</string>
+    <string name="calibrator_quit_inst">Wählen Sie \"Beenden\", wenn Sie bereits beide Ausrichtungen kalibriert haben.</string>
+    <string name="calibrator_start_button">Kalibrieren</string>
+    <string name="calibrator__otherface_button">Andere Ausrichtung\n kalibrieren</string>
+    <string name="calibrator_quit_button">Beenden</string>
+    <string name="calibrator_done_quit_inst">Kalibrierung abgeschlossen! Auf \"Beenden\" tippen.</string>
+    <string name="calibrator_fail_message">Die Kalibrierung ist fehlgeschlagen. Bitte versuchen Sie es erneut!</string>
+    <string name="calibrator_ani_inst">Drehen Sie das Telefon in allen drei Raumachsen hin und her, bis das Kompasssymbol grün wird.</string>
+</resources>

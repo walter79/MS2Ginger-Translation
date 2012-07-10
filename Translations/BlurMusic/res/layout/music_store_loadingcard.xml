@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LinearLayout android:orientation="vertical" android:id="@id/container" android:layout_width="185.0dip" android:layout_height="185.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="horizontal" android:id="@id/badge" android:background="@blur.res:drawable/card_cap_full_bg" android:layout_width="185.0dip" android:layout_height="60.0dip" android:layout_weight="0.0">
+        <LinearLayout android:orientation="vertical" android:id="@id/badge_text_area" android:layout_width="fill_parent" android:layout_height="60.0dip" android:layout_marginLeft="10.0dip" android:layout_marginTop="10.0dip" android:layout_marginRight="10.0dip" android:layout_weight="1.0">
+            <TextView android:textSize="18.0sp" android:textColor="#ffcccccc" android:ellipsize="end" android:gravity="left" android:id="@id/text_top" android:layout_width="fill_parent" android:layout_height="wrap_content" android:maxLines="1" android:layout_weight="1.0" />
+        </LinearLayout>
+    </LinearLayout>
+    <FrameLayout android:orientation="vertical" android:id="@id/card_body" android:background="@blur.res:drawable/card_body_bg" android:layout_width="181.0dip" android:layout_height="120.0dip">
+        <ImageView android:gravity="center" android:layout_gravity="center" android:id="@id/cardbody" android:background="@blur.res:drawable/card_body_bg" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginLeft="2.0dip" android:layout_marginRight="2.0dip" android:layout_marginBottom="1.0dip" android:scaleType="centerCrop" />
+        <ImageView android:gravity="center" android:layout_gravity="top" android:id="@id/dashboard_shadow" android:background="@blur.res:drawable/card_cap_shadow" android:layout_width="fill_parent" android:layout_height="8.0dip" android:layout_marginLeft="2.0dip" android:layout_marginRight="2.0dip" android:layout_marginBottom="202.0dip" android:scaleType="fitXY" />
+    </FrameLayout>
+</LinearLayout>

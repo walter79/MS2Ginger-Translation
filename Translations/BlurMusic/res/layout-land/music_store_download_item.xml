@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LinearLayout android:orientation="vertical" android:background="@drawable/song_dialog_body_bg" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:id="@id/verify_account" android:layout_width="fill_parent" android:layout_height="50.0dip" android:layout_marginTop="10.0dip">
+        <TextView android:textSize="18.0sp" android:textStyle="bold" android:textColor="#ff000000" android:id="@id/verify_account_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="8.0dip" android:text="@string/verify_account" android:layout_alignParentTop="true" android:layout_alignParentBottom="true" />
+        <ProgressBar android:id="@id/verify_account_progress" android:visibility="gone" android:layout_width="25.0dip" android:layout_height="25.0dip" android:layout_marginRight="10.0dip" android:indeterminate="true" android:layout_alignParentRight="true" />
+        <ImageView android:id="@id/verify_account_check" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="10.0dip" android:src="@blur.res:drawable/button_indicator_finish" android:layout_toLeftOf="@id/verify_account_text" android:layout_alignParentRight="true" />
+    </RelativeLayout>
+    <RelativeLayout android:id="@id/credit_card" android:layout_width="fill_parent" android:layout_height="50.0dip" android:layout_marginTop="10.0dip">
+        <TextView android:textSize="18.0sp" android:textStyle="bold" android:textColor="#ff000000" android:id="@id/credit_card_charged" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="8.0dip" android:text="@string/credit_card_check" android:layout_alignParentTop="true" android:layout_alignParentBottom="true" />
+        <ProgressBar android:id="@id/credit_card_progress" android:visibility="gone" android:layout_width="25.0dip" android:layout_height="25.0dip" android:layout_marginRight="10.0dip" android:indeterminate="true" android:layout_alignParentRight="true" />
+        <ImageView android:id="@id/credit_card_check" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="10.0dip" android:src="@blur.res:drawable/button_indicator_finish" android:layout_toLeftOf="@id/credit_card_charged" android:layout_alignParentRight="true" />
+    </RelativeLayout>
+    <RelativeLayout android:layout_width="fill_parent" android:layout_height="50.0dip" android:layout_marginTop="10.0dip">
+        <TextView android:textSize="18.0sp" android:textStyle="bold" android:textColor="#ff000000" android:id="@id/download_started" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="8.0dip" android:text="@string/download_started" android:layout_alignParentTop="true" android:layout_alignParentBottom="true" />
+        <ProgressBar android:id="@id/download_progress" android:visibility="gone" android:layout_width="25.0dip" android:layout_height="25.0dip" android:layout_marginRight="10.0dip" android:indeterminate="true" android:layout_alignParentRight="true" />
+        <ImageView android:id="@id/download_started_check" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="10.0dip" android:src="@blur.res:drawable/button_indicator_finish" android:layout_toLeftOf="@id/download_started" android:layout_alignParentRight="true" />
+    </RelativeLayout>
+</LinearLayout>

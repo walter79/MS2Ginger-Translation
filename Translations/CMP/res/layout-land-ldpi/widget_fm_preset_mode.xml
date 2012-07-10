@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LinearLayout android:background="@drawable/widget_bg_radio_presets" android:layout_width="237.0px" android:layout_height="92.0px"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:layout_gravity="fill_vertical" android:id="@id/radio_icon" android:clickable="true" android:layout_width="87.0px" android:layout_height="92.0px">
+        <LinearLayout android:gravity="center" android:orientation="horizontal" android:layout_width="32.0px" android:layout_height="19.0px" android:layout_marginLeft="22.0px" android:layout_marginTop="24.0px">
+            <ImageView android:id="@id/preset_digit_1" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/widget_preset_0" />
+            <ImageView android:id="@id/preset_digit_2" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/widget_preset_1" />
+        </LinearLayout>
+    </LinearLayout>
+    <LinearLayout android:orientation="vertical" android:layout_width="147.0px" android:layout_height="84.0px" android:layout_marginTop="9.0px" android:layout_marginRight="2.0px">
+        <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="30.0px" android:layout_marginLeft="11.0px">
+            <TextView android:textAppearance="@style/textWidgetBold" android:gravity="left" android:id="@id/freq" android:layout_width="fill_parent" android:layout_height="wrap_content" android:singleLine="true" />
+            <TextView android:textAppearance="@style/textWidgetDarkGray" android:gravity="left" android:id="@id/station_name" android:layout_width="fill_parent" android:layout_height="wrap_content" android:singleLine="true" />
+        </LinearLayout>
+        <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="34.0px" android:layout_marginLeft="4.0px" android:layout_marginTop="5.0px">
+            <ImageButton android:id="@id/btn_rwd" android:background="@android:color/transparent" android:layout_width="44.0px" android:layout_height="fill_parent" android:src="@drawable/widget_button_prev" android:scaleType="center" />
+            <ImageButton android:id="@id/btn_pause" android:background="@android:color/transparent" android:layout_width="44.0px" android:layout_height="fill_parent" android:layout_marginLeft="2.0px" android:src="@drawable/widget_button_prev" android:scaleType="center" />
+            <ImageButton android:id="@id/btn_ffw" android:background="@android:color/transparent" android:paddingRight="8.0px" android:layout_width="52.0px" android:layout_height="fill_parent" android:src="@drawable/widget_button_next" android:scaleType="center" />
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

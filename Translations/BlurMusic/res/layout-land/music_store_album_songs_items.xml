@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RelativeLayout android:orientation="horizontal" android:id="@id/container" android:background="#ffefefef" android:layout_width="fill_parent" android:layout_height="@dimen/track_list_item_icon_h"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="18.0sp" android:textColor="#ff000000" android:ellipsize="end" android:id="@id/line1" android:focusable="true" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="8.0dip" android:layout_marginTop="10.0dip" android:layout_marginRight="61.0dip" android:maxLines="1" android:scrollHorizontally="true" android:layout_weight="1.0" android:layout_alignWithParentIfMissing="true" />
+    <TextView android:textSize="12.0sp" android:textStyle="bold" android:id="@id/media_dur" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="8.0dip" android:maxLines="1" android:layout_below="@id/line1" />
+    <TextView android:textSize="12.0sp" android:textColor="#ff000000" android:id="@id/album_only" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="8.0dip" android:layout_marginTop="2.0dip" android:layout_marginBottom="5.0dip" android:text="@string/website_only" android:maxLines="1" android:layout_below="@id/media_dur" />
+    <LinearLayout android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="8.0dip" android:layout_toRightOf="@id/icon" android:layout_below="@id/line1">
+        <ProgressBar android:id="@id/progress" android:visibility="gone" android:layout_width="25.0dip" android:layout_height="25.0dip" android:layout_alignParentLeft="true" />
+        <ImageView android:id="@id/play_indicator" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ic_play_list" android:layout_alignParentLeft="true" />
+        <TextView android:textSize="14.0sp" android:textStyle="bold" android:textColor="?android:textColorTertiary" android:id="@id/duration" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxLines="1" />
+    </LinearLayout>
+    <RelativeLayout android:orientation="horizontal" android:layout_width="61.0dip" android:layout_height="60.0dip" android:layout_alignParentRight="true">
+        <ImageView android:id="@id/line_divider" android:background="@drawable/divider_vertical_bright" android:layout_width="1.0dip" android:layout_height="fill_parent" android:layout_alignParentLeft="true" />
+        <TextView android:textSize="12.0sp" android:textColor="#ff000000" android:gravity="center" android:id="@id/price_text" android:focusable="true" android:layout_width="60.0dip" android:layout_height="fill_parent" android:maxLines="1" android:layout_centerInParent="true" />
+        <ImageView android:id="@id/album_check" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@blur.res:drawable/button_indicator_finish" android:layout_centerInParent="true" />
+    </RelativeLayout>
+</RelativeLayout>

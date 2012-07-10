@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+    <string name="app_name">行事曆服務</string>
+    <string name="format_accepted">已接受： %1$s</string>
+    <string name="format_canceled">已取消： %1$s</string>
+    <string name="format_declined">已拒絕： %1$s</string>
+    <string name="format_new">%1$s</string>
+    <string name="format_tentative">暫訂： %1$s</string>
+    <string name="format_updated">已更新： %1$s</string>
+    <string name="no_such_event">此活動無法使用。</string>
+    <string name="no_such_message">無法找到活動。</string>
+</resources>

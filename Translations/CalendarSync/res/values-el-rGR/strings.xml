@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+    <string name="app_name">Υπηρεσία ημερολογίου</string>
+    <string name="format_accepted">Έγινε αποδεκτό: %1$s</string>
+    <string name="format_canceled">Ακυρώθηκε: %1$s</string>
+    <string name="format_declined">Απορρίφθηκε: %1$s</string>
+    <string name="format_new">%1$s</string>
+    <string name="format_tentative">Αβέβαιος: %1$s</string>
+    <string name="format_updated">Ενημερώθηκε: %1$s</string>
+    <string name="no_such_event">Αυτό το συμβάν δεν είναι διαθέσιμο.</string>
+    <string name="no_such_message">Δεν είναι δυνατός ο εντοπισμός του συμβάντος.</string>
+</resources>

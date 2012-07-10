@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+    <string name="app_name">Calendar service</string>
+    <string name="format_accepted">Accepted: %1$s</string>
+    <string name="format_canceled">Cancelled: %1$s</string>
+    <string name="format_declined">Declined: %1$s</string>
+    <string name="format_new">%1$s</string>
+    <string name="format_tentative">Undecided: %1$s</string>
+    <string name="format_updated">Updated: %1$s</string>
+    <string name="no_such_event">This event is not available.</string>
+    <string name="no_such_message">Can\'t locate the event.</string>
+</resources>

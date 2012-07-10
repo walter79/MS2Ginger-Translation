@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<FrameLayout android:id="@id/audioplayer_container_baton" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:background="@drawable/player_control_bg" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <LinearLayout android:gravity="center" android:orientation="horizontal" android:id="@id/seekbar_container" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="@dimen/seekbar_h">
+            <TextView android:textAppearance="?android:textAppearanceMedium" android:textSize="14.0sp" android:textStyle="bold" android:layout_gravity="left|center" android:id="@id/currenttime" android:paddingLeft="10.0px" android:layout_width="wrap_content" android:layout_height="wrap_content" android:shadowColor="#ff000000" android:shadowDx="0.0" android:shadowDy="0.0" android:shadowRadius="3.0" />
+            <SeekBar android:layout_gravity="center" android:id="@android:id/progress" android:paddingLeft="15.0dip" android:paddingRight="15.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_weight="1.0" />
+            <TextView android:textAppearance="?android:textAppearanceMedium" android:textSize="14.0sp" android:textStyle="bold" android:layout_gravity="right|center" android:id="@id/remaining_time" android:paddingRight="5.0px" android:layout_width="wrap_content" android:layout_height="wrap_content" android:shadowColor="#ff000000" android:shadowDx="0.0" android:shadowDy="0.0" android:shadowRadius="3.0" />
+        </LinearLayout>
+        <LinearLayout android:gravity="center" android:orientation="horizontal" android:id="@id/audioplayer_controller" android:background="@drawable/bg_nowplaying" android:layout_width="fill_parent" android:layout_height="@dimen/controls_h">
+            <ImageView android:id="@id/playback_mix_this" android:background="@drawable/btn_dashboard" android:focusable="true" android:layout_width="fill_parent" android:layout_height="fill_parent" android:src="@drawable/ic_btn_media_mix_this_normal" android:scaleType="center" android:layout_weight="1.0" />
+            <com.motorola.blur.music.RepeatingImageButton android:id="@id/prev" android:background="@drawable/btn_dashboard" android:layout_width="fill_parent" android:layout_height="fill_parent" android:src="@blur.res:drawable/ic_btn_media_prev_normal" android:scaleType="center" android:layout_weight="1.0" />
+            <ImageView android:id="@id/pause" android:background="@drawable/btn_dashboard" android:focusable="true" android:layout_width="fill_parent" android:layout_height="fill_parent" android:src="@blur.res:drawable/ic_btn_media_pause_normal" android:scaleType="center" android:layout_weight="1.0" />
+            <com.motorola.blur.music.RepeatingImageButton android:id="@id/next" android:background="@drawable/btn_dashboard" android:layout_width="fill_parent" android:layout_height="fill_parent" android:src="@blur.res:drawable/ic_btn_media_next_normal" android:scaleType="center" android:layout_weight="1.0" />
+            <ImageView android:id="@id/playback_queue" android:background="@drawable/btn_dashboard" android:focusable="true" android:layout_width="fill_parent" android:layout_height="fill_parent" android:src="@drawable/ic_btn_media_play_queue_normal" android:scaleType="center" android:layout_weight="1.0" />
+        </LinearLayout>
+    </LinearLayout>
+    <ImageView android:id="@id/playback_sheen" android:background="@drawable/player_control_bg_sheen" android:layout_width="fill_parent" android:layout_height="@dimen/controls_h" />
+</FrameLayout>

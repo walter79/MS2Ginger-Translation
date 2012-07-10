@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+    <plurals name="N_additional_songs">
+        <item quantity="other">e %d músicas semelhantes</item>
+        <item quantity="one">e 1 música semelhante</item>
+    </plurals>
+    <plurals name="N_delete_songs">
+        <item quantity="other">Tem a certeza de que pretende eliminar permanentemente estas %d músicas?</item>
+        <item quantity="one">Tem a certeza de que pretende eliminar permanentemente esta música?</item>
+    </plurals>
+    <plurals name="N_playlists_deleted">
+        <item quantity="other">%d listas de reprodução removidas.</item>
+        <item quantity="one">Lista de reprodução eliminada.</item>
+    </plurals>
+    <plurals name="N_songs_purchased">
+        <item quantity="other">%d músicas compradas com sucesso e adicionadas à fila de transferências.</item>
+        <item quantity="one">Música comprada com sucesso e adicionada à fila de transferências.</item>
+    </plurals>
+    <plurals name="N_songs_purchased_wifi_blocked">
+        <item quantity="other">%d músicas compradas com sucesso. A transferência começará assim que estiver ligado através de WiFi.</item>
+        <item quantity="one">Música comprada com sucesso. A transferência começará assim que estiver ligado através de WiFi.</item>
+    </plurals>
+    <plurals name="N_tracks_added_playlist">
+        <item quantity="other">%d músicas adicionadas à lista de reprodução.</item>
+        <item quantity="one">1 música adicionada à lista de reprodução.</item>
+    </plurals>
+    <plurals name="N_tracks_deleted_from_playlist">
+        <item quantity="other">%d músicas eliminadas da lista de reprodução.</item>
+        <item quantity="one">1 música eliminada da lista de reprodução.</item>
+    </plurals>
+    <plurals name="N_tracks_deleted_from_storage">
+        <item quantity="other">%d músicas eliminadas do dispositivo.</item>
+        <item quantity="one">1 música eliminada do dispositivo.</item>
+    </plurals>
+    <plurals name="song_will_start_N_seconds">
+        <item quantity="other">A música vai começar a tocar em %d segundos</item>
+        <item quantity="one">A música vai começar a tocar em 1 segundo</item>
+    </plurals>
+</resources>

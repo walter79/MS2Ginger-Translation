@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+    <plurals name="N_additional_songs">
+        <item quantity="other">و%d أغانٍ مشابهة</item>
+        <item quantity="one">وأغنية مشابهة</item>
+    </plurals>
+    <plurals name="N_delete_songs">
+        <item quantity="other">هل تريد بالتأكيد حذف هذه الأغاني %d بشكل دائم؟</item>
+        <item quantity="one">هل تريد بالتأكيد حذف هذه الأغنية بشكل دائم؟</item>
+    </plurals>
+    <plurals name="N_playlists_deleted">
+        <item quantity="other">تمت إزالة %d قوائم تشغيل.</item>
+        <item quantity="one">تم حذف قائمة التشغيل.</item>
+    </plurals>
+    <plurals name="N_songs_purchased">
+        <item quantity="other">تم شراء %d أغنية بنجاح وإضافتها إلى قائمة انتظار التنزيل.</item>
+        <item quantity="one">تم شراء أغنية بنجاح وإضافتها إلى قائمة انتظار التنزيل.</item>
+    </plurals>
+    <plurals name="N_songs_purchased_wifi_blocked">
+        <item quantity="other">تم شراء %d أغانٍ بنجاح. سيبدأ تنزيل بعد الاتصال بـ Wifi.</item>
+        <item quantity="one">تم شراء الأغنية بنجاح. سيبدأ تنزيل بعد الاتصال بـ Wifi.</item>
+    </plurals>
+    <plurals name="N_tracks_added_playlist">
+        <item quantity="other">تمت إضافية %d أغانٍ إلى قائمة التشغيل.</item>
+        <item quantity="one">تمت إضافة أغنية واحدة إلى قائمة التشغيل.</item>
+    </plurals>
+    <plurals name="N_tracks_deleted_from_playlist">
+        <item quantity="other">تم حذف %d أغانٍ من قائمة التشغيل.</item>
+        <item quantity="one">تم حذف أغنية واحدة من قائمة التشغيل.</item>
+    </plurals>
+    <plurals name="N_tracks_deleted_from_storage">
+        <item quantity="other">تم حذف %d أغانٍ من الجهاز.</item>
+        <item quantity="one">تم حذف أغنية واحدة من الجهاز.</item>
+    </plurals>
+    <plurals name="song_will_start_N_seconds">
+        <item quantity="other">سيبدأ تشغيل الأغنية في %d ثانية</item>
+        <item quantity="one">سيبدأ تشغيل أغنية خلال ثانية</item>
+    </plurals>
+</resources>

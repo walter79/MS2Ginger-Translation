@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<merge
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:layout_gravity="center" android:id="@id/move_handle" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip" android:layout_marginRight="5.0dip" android:src="@blur.res:drawable/ic_list_reorder" android:layout_weight="0.0" />
+    <CheckBox android:id="@id/chk" android:paddingLeft="3.0dip" android:focusable="false" android:visibility="gone" android:clickable="false" style="@blur.res:style/Blur.FormItemTxt.A" />
+    <RelativeLayout android:layout_width="wrap_content" android:layout_height="wrap_content">
+        <ImageView android:id="@id/dlna_playlist_icon" android:visibility="gone" android:layout_width="@dimen/track_list_item_icon_w" android:layout_height="@dimen/track_list_item_icon_h" android:layout_marginLeft="3.0dip" android:layout_alignBaseline="@id/dlna_icon" />
+        <ImageView android:id="@id/dlna_cover_icon" android:visibility="gone" android:layout_width="@dimen/track_list_item_icon_w" android:layout_height="@dimen/track_list_item_icon_h" android:layout_marginTop="5.0dip" android:scaleType="centerCrop" android:layout_weight="0.0" />
+    </RelativeLayout>
+    <ImageView android:gravity="center" android:id="@id/dlna_icon" android:paddingTop="3.0dip" android:visibility="gone" android:layout_width="65.0dip" android:layout_height="65.0dip" android:scaleType="fitXY" android:layout_weight="0.0" />
+    <LinearLayout android:gravity="left|center" android:layout_gravity="left|center" android:orientation="vertical" android:id="@id/dlna_song_badge" android:paddingLeft="10.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_weight="1.0">
+        <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_weight="1.0">
+            <TextView android:textAppearance="?android:textAppearanceMediumInverse" android:textColor="#ff000000" android:ellipsize="end" android:id="@id/dlna_line1" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxLines="1" android:scrollHorizontally="true" android:layout_weight="1.0" />
+            <ImageView android:id="@id/dlna_play_indicator" android:paddingLeft="5.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ic_play_list" />
+        </LinearLayout>
+        <TextView android:textColor="#ff555555" android:gravity="center" android:id="@id/dlna_songs_count" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="0.0px" android:layout_weight="1.0" android:layout_alignParentRight="true" />
+        <TextView android:textAppearance="?android:textAppearanceSmallInverse" android:textColor="#ff555555" android:ellipsize="end" android:id="@id/dlna_line2" android:layout_width="wrap_content" android:layout_height="0.0px" android:maxLines="1" android:scrollHorizontally="true" android:layout_weight="1.0" />
+        <TextView android:textAppearance="?android:textAppearanceSmallInverse" android:ellipsize="marquee" android:id="@id/dlna_line3" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="0.0px" android:maxLines="1" android:scrollHorizontally="true" android:layout_weight="1.0" />
+        <TextView android:id="@id/dlna_concert_label" android:visibility="gone" style="@style/concert_label" />
+    </LinearLayout>
+    <LinearLayout android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_weight="0.0">
+        <TextView android:textSize="16.0sp" android:textColor="#ff555555" android:ellipsize="marquee" android:id="@id/dlna_duration" android:paddingLeft="4.0dip" android:paddingRight="11.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxLines="1" android:layout_weight="0.0" />
+    </LinearLayout>
+    <ImageButton android:gravity="center" android:id="@id/dlna_plus_sign" android:focusable="false" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/zz_moto_btn_add_selector" android:layout_alignParentRight="true" />
+</merge>

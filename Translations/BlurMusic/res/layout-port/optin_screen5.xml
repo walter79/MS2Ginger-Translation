@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<merge
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:id="@id/optin_screen_5" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_weight="1.0" android:layout_below="@id/status_title">
+            <RelativeLayout android:gravity="center_horizontal" android:id="@id/toggle_image" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="40.0dip" android:layout_alignParentTop="true">
+                <ImageView android:id="@id/setup_progress_icon_selected" android:background="@drawable/progress_bar_segment_selected" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_toLeftOf="@id/setup_progress_icon_normal_1" />
+                <ImageView android:id="@id/setup_progress_icon_normal_1" android:background="@drawable/progress_bar_segment_normal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerInParent="true" />
+                <ImageView android:id="@id/setup_progress_icon_normal_2" android:background="@drawable/progress_bar_segment_normal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_toRightOf="@id/setup_progress_icon_normal_1" />
+            </RelativeLayout>
+            <TextView android:textSize="24.0sp" android:gravity="center" android:layout_gravity="center" android:id="@id/page_title" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="10.0dip" android:text="@string/opt_in_page_title_screen5" android:layout_below="@id/toggle_image" />
+            <ImageView android:layout_gravity="center" android:id="@id/tutorial_icon" android:background="@drawable/ic_pane_mml_sync_1" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="40.0dip" android:layout_below="@id/page_title" android:layout_centerHorizontal="true" />
+            <TextView android:textSize="16.0sp" android:id="@id/feature_explanation" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip" android:layout_marginTop="25.0dip" android:layout_marginRight="10.0dip" android:text="@string/opt_in_message_screen5" android:layout_below="@id/tutorial_icon" />
+            <ImageButton android:id="@id/sync_page_next" android:background="@null" android:layout_width="40.0dip" android:layout_height="180.0dip" android:src="@drawable/optin_selector_right" android:layout_alignParentRight="true" android:layout_centerVertical="true" />
+        </RelativeLayout>
+        <com.motorola.android.widget.ActionBar android:id="@id/abwidget5" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_alignParentBottom="true" />
+    </LinearLayout>
+</merge>

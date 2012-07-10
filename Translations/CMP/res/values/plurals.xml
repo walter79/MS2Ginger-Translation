@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+    <plurals name="N_additional_songs">
+        <item quantity="other">and %d similar songs</item>
+        <item quantity="one">and 1 similar song</item>
+    </plurals>
+    <plurals name="N_delete_songs">
+        <item quantity="other">Are you sure you would like to permanently delete these %d songs?</item>
+        <item quantity="one">Are you sure you would like to permanently delete this song?</item>
+    </plurals>
+    <plurals name="N_playlists_deleted">
+        <item quantity="other">%d playlists removed.</item>
+        <item quantity="one">Playlist deleted.</item>
+    </plurals>
+    <plurals name="N_songs_purchased">
+        <item quantity="other">%d songs successfully purchased and added to the download queue.</item>
+        <item quantity="one">Song successfully purchased and added to the download queue.</item>
+    </plurals>
+    <plurals name="N_songs_purchased_wifi_blocked">
+        <item quantity="other">%d songs successfully purchased. The download will begin once you connect to Wifi.</item>
+        <item quantity="one">Song successfully purchased. The download will begin once you connect to Wifi.</item>
+    </plurals>
+    <plurals name="N_tracks_added_playlist">
+        <item quantity="other">%d songs added to playlist.</item>
+        <item quantity="one">1 song added to playlist.</item>
+    </plurals>
+    <plurals name="N_tracks_deleted_from_playlist">
+        <item quantity="other">%d songs deleted from playlist.</item>
+        <item quantity="one">1 song deleted from playlist.</item>
+    </plurals>
+    <plurals name="N_tracks_deleted_from_storage">
+        <item quantity="other">%d songs deleted from device.</item>
+        <item quantity="one">1 song deleted from device.</item>
+    </plurals>
+    <plurals name="song_will_start_N_seconds">
+        <item quantity="other">Song will begin to play in %d seconds</item>
+        <item quantity="one">Song will begin to play in 1 second</item>
+    </plurals>
+</resources>

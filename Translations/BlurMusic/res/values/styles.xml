@@ -1,0 +1,300 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+    <style name="cardFMRadio">
+        <item name="android:paddingLeft">10.0dip</item>
+        <item name="android:paddingTop">5.0dip</item>
+        <item name="android:paddingRight">10.0dip</item>
+        <item name="android:paddingBottom">5.0dip</item>
+    </style>
+    <style name="textFMFreqLarge">
+        <item name="android:textSize">60.0sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">@color/white</item>
+    </style>
+    <style name="textFMRDSLarge">
+        <item name="android:textSize">40.0sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">@color/white</item>
+    </style>
+    <style name="textFMRDSMed">
+        <item name="android:textSize">30.0sp</item>
+        <item name="android:textColor">@color/white</item>
+    </style>
+    <style name="textFMRDSSmall">
+        <item name="android:textSize">12.0sp</item>
+        <item name="android:textColor">#ff808080</item>
+        <item name="android:shadowColor">#ffffffff</item>
+        <item name="android:shadowDx">0.0</item>
+        <item name="android:shadowDy">1.0</item>
+        <item name="android:shadowRadius">0.0</item>
+    </style>
+    <style name="textFMRDSSmallWhite">
+        <item name="android:textSize">16.0sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">@color/white</item>
+    </style>
+    <style name="textFMSmallWhite">
+        <item name="android:textSize">20.0sp</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:shadowColor">#c0000000</item>
+        <item name="android:shadowDx">1.0</item>
+        <item name="android:shadowDy">1.0</item>
+        <item name="android:shadowRadius">2.0</item>
+    </style>
+    <style name="textFMRDSSmallBlack">
+        <item name="android:textSize">14.0sp</item>
+        <item name="android:textColor">#ff000000</item>
+        <item name="android:shadowColor">#ffffffff</item>
+        <item name="android:shadowDx">0.0</item>
+        <item name="android:shadowDy">1.0</item>
+        <item name="android:shadowRadius">0.0</item>
+    </style>
+    <style name="textFMRDSSmallBlackBold" parent="@style/textFMRDSSmallBlack">
+        <item name="android:textStyle">bold</item>
+    </style>
+    <style name="textFMPresetGrey">
+        <item name="android:textSize">30.0sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">#ff595959</item>
+    </style>
+    <style name="textFMPresetBlackLand">
+        <item name="android:textSize">52.0sp</item>
+        <item name="android:textColor">@android:color/black</item>
+        <item name="android:shadowColor">#ffffffff</item>
+        <item name="android:shadowDx">0.0</item>
+        <item name="android:shadowDy">1.0</item>
+        <item name="android:shadowRadius">0.0</item>
+    </style>
+    <style name="textFMPresetBlackPort">
+        <item name="android:textSize">72.0sp</item>
+        <item name="android:textColor">@android:color/black</item>
+        <item name="android:shadowColor">#ffffffff</item>
+        <item name="android:shadowDx">0.0</item>
+        <item name="android:shadowDy">1.0</item>
+        <item name="android:shadowRadius">0.0</item>
+    </style>
+    <style name="textMinor" parent="@android:style/TextAppearance">
+        <item name="android:textSize">16.0sp</item>
+        <item name="android:textColor">@android:color/primary_text_dark</item>
+    </style>
+    <style name="textMinorGrey" parent="@style/textMinor">
+        <item name="android:textColor">#ff808080</item>
+    </style>
+    <style name="textFMSmallDial" parent="@android:style/TextAppearance">
+        <item name="android:textSize">16.0sp</item>
+        <item name="android:textColor">#ffbcbcbc</item>
+    </style>
+    <style name="textMinorBlackBold" parent="@style/textMinorBold">
+        <item name="android:textColor">@android:color/black</item>
+    </style>
+    <style name="textMinorBold" parent="@style/textMinor">
+        <item name="android:textStyle">bold</item>
+    </style>
+    <style name="BackgroundOnly">
+        <item name="android:windowBackground">@null</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowIsFloating">true</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:windowAnimationStyle">@null</item>
+        <item name="android:windowNoDisplay">true</item>
+    </style>
+    <style name="Widget" />
+    <style name="Widget.SeekBar" parent="@style/Widget">
+        <item name="android:focusable">true</item>
+        <item name="android:maxHeight">9.0dip</item>
+        <item name="android:indeterminateOnly">false</item>
+        <item name="android:indeterminateDrawable">@drawable/progress_horizontal</item>
+        <item name="android:progressDrawable">@drawable/progress_horizontal</item>
+        <item name="android:minHeight">9.0dip</item>
+        <item name="android:thumb">@drawable/scrubber</item>
+        <item name="android:thumbOffset">8.0px</item>
+    </style>
+    <style name="Happenings" parent="@android:style/Theme">
+        <item name="android:windowNoTitle">true</item>
+    </style>
+    <style name="Title">
+        <item name="android:textSize">18.0sp</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+    <style name="Label">
+        <item name="android:textStyle">bold</item>
+    </style>
+    <style name="TxtDateTimeStamp" parent="@blur.res:style/Blur">
+        <item name="android:textSize">12.0sp</item>
+        <item name="android:textColor">#ff919395</item>
+    </style>
+    <style name="CommentArea" parent="@blur.res:style/Blur.TxtImgContainer">
+        <item name="android:textColor">@blur.res:color/white</item>
+        <item name="android:background">@drawable/caption_bg</item>
+        <item name="android:padding">10.0dip</item>
+    </style>
+    <style name="TitleBar" parent="@android:style/TextAppearance.WindowTitle">
+        <item name="android:gravity">left|center</item>
+        <item name="android:layout_gravity">left|center</item>
+        <item name="android:background">@blur.res:drawable/title_bar_focus</item>
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+    <style name="DlnaTitleBar">
+        <item name="android:textStyle">normal</item>
+        <item name="android:gravity">center_vertical</item>
+        <item name="android:padding">5.0dip</item>
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">30.0dip</item>
+    </style>
+    <style name="Btn.Previous" parent="@blur.res:style/Blur.Btn.Previous">
+        <item name="android:paddingLeft">@dimen/nav_btn_pad_h</item>
+        <item name="android:paddingRight">@dimen/nav_btn_pad_h</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">fill_parent</item>
+        <item name="android:layout_marginRight">0.0dip</item>
+    </style>
+    <style name="Btn.Next" parent="@blur.res:style/Blur.Btn.Next">
+        <item name="android:paddingLeft">@dimen/nav_btn_pad_h</item>
+        <item name="android:paddingRight">@dimen/nav_btn_pad_h</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">fill_parent</item>
+        <item name="android:layout_marginRight">0.0dip</item>
+    </style>
+    <style name="StatusTxt">
+        <item name="android:textSize">16.0sp</item>
+        <item name="android:typeface">sans</item>
+        <item name="android:textColor">#ffffffff</item>
+        <item name="android:gravity">left|center</item>
+        <item name="android:singleLine">false</item>
+    </style>
+    <style name="DateTimeStampTxt">
+        <item name="android:textSize">14.0sp</item>
+        <item name="android:typeface">sans</item>
+        <item name="android:textColor">#ffffffff</item>
+        <item name="android:gravity">right|center</item>
+        <item name="android:singleLine">true</item>
+    </style>
+    <style name="DataMeter">
+        <item name="android:background">@drawable/meter_data_bkg</item>
+        <item name="android:padding">2.0dip</item>
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginTop">10.0dip</item>
+        <item name="android:layout_marginRight">10.0dip</item>
+        <item name="android:maxHeight">22.0dip</item>
+        <item name="android:max">100</item>
+        <item name="android:progress">50</item>
+        <item name="android:indeterminateOnly">false</item>
+        <item name="android:minHeight">22.0dip</item>
+    </style>
+    <style name="DataMeter.Green" parent="@style/DataMeter">
+        <item name="android:progressDrawable">@drawable/meter_data_green</item>
+    </style>
+    <style name="Title_Style">
+        <item name="android:textSize">18.0sp</item>
+        <item name="android:typeface">sans</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">#ff000000</item>
+        <item name="android:ellipsize">marquee</item>
+    </style>
+    <style name="Album_Style">
+        <item name="android:textSize">16.0sp</item>
+        <item name="android:typeface">sans</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:textColor">#ff000000</item>
+        <item name="android:ellipsize">marquee</item>
+    </style>
+    <style name="Artist_Style">
+        <item name="android:textSize">16.0sp</item>
+        <item name="android:typeface">sans</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:textColor">#ff000000</item>
+        <item name="android:ellipsize">marquee</item>
+    </style>
+    <style name="Dashboard_Button_text">
+        <item name="android:textSize">14.0sp</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:textColor">#ffffffff</item>
+        <item name="android:gravity">left|center</item>
+    </style>
+    <style name="Dashboard_Button_text_Portrait" parent="@style/Dashboard_Button_text">
+        <item name="android:gravity">center</item>
+        <item name="android:maxLines">1</item>
+    </style>
+    <style name="Dashboard_Button" parent="@style/Dashboard_Button_text">
+        <item name="android:gravity">left|center</item>
+        <item name="android:background">@drawable/btn_dashboard</item>
+        <item name="android:paddingLeft">5.0dip</item>
+        <item name="android:paddingRight">5.0dip</item>
+        <item name="android:layout_marginLeft">@dimen/dashboard_btn_margin_left</item>
+        <item name="android:layout_marginTop">@dimen/dashboard_btn_margin_top</item>
+        <item name="android:layout_marginRight">@dimen/dashboard_btn_margin_right</item>
+        <item name="android:layout_marginBottom">@dimen/dashboard_btn_margin_bottom</item>
+        <item name="android:layout_weight">1.0</item>
+    </style>
+    <style name="Dashboard_Button_Portrait" parent="@style/Dashboard_Button">
+        <item name="android:gravity">center</item>
+        <item name="android:maxLines">1</item>
+    </style>
+    <style name="Music_Store_Tab_Style" parent="@android:style/Widget.TabWidget">
+        <item name="android:ellipsize">none</item>
+        <item name="android:singleLine">false</item>
+    </style>
+    <style name="concert_label">
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">#ff06bf00</item>
+        <item name="android:ellipsize">marquee</item>
+        <item name="android:gravity">center</item>
+        <item name="android:layout_gravity">bottom|right|center</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:text">@string/in_concert</item>
+        <item name="android:maxLines">1</item>
+        <item name="android:layout_weight">1.0</item>
+    </style>
+    <style name="concert_button">
+        <item name="android:textSize">14.0sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">#ffffffff</item>
+        <item name="android:gravity">center</item>
+        <item name="android:layout_gravity">bottom|right|center</item>
+        <item name="android:background">@drawable/btn_dashboard_bg_green</item>
+        <item name="android:padding">5.0dip</item>
+        <item name="android:layout_width">48.0dip</item>
+        <item name="android:layout_height">48.0dip</item>
+        <item name="android:layout_marginRight">8.0dip</item>
+        <item name="android:layout_marginBottom">8.0dip</item>
+        <item name="android:text">@string/in_concert</item>
+        <item name="android:maxLines">2</item>
+    </style>
+    <style name="Browse_Station_Button">
+        <item name="android:textSize">17.0sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">#ffffffff</item>
+        <item name="android:gravity">center</item>
+        <item name="android:background">@drawable/btn_browse_stations</item>
+        <item name="android:paddingLeft">5.0dip</item>
+        <item name="android:paddingRight">5.0dip</item>
+        <item name="android:maxLines">1</item>
+    </style>
+    <style name="partner_logo">
+        <item name="android:gravity">bottom|right|center</item>
+        <item name="android:layout_gravity">bottom|right|center</item>
+        <item name="android:layout_margin">10.0dip</item>
+    </style>
+    <style name="concert_image">
+        <item name="android:gravity">center</item>
+        <item name="android:layout_gravity">bottom|right|center</item>
+        <item name="android:background">@drawable/btn_dashboard_bg_green</item>
+        <item name="android:padding">5.0dip</item>
+        <item name="android:layout_width">48.0dip</item>
+        <item name="android:layout_height">48.0dip</item>
+        <item name="android:layout_marginRight">8.0dip</item>
+        <item name="android:layout_marginBottom">8.0dip</item>
+        <item name="android:src">@drawable/ic_card_in_town_event</item>
+    </style>
+    <style name="ratingBarStyle" parent="@android:style/Widget.RatingBar">
+        <item name="android:maxHeight">57.0dip</item>
+        <item name="android:indeterminateOnly">false</item>
+        <item name="android:indeterminateDrawable">@drawable/ratingbar_full</item>
+        <item name="android:progressDrawable">@drawable/ratingbar_full</item>
+        <item name="android:minHeight">57.0dip</item>
+    </style>
+</resources>

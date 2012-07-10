@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+    <string-array name="filter_labels">
+        <item>Alle certificaten</item>
+        <item>Door gebruiker toegevoegde certificaten</item>
+        <item>Vooraf geladen certificaten</item>
+    </string-array>
+    <string-array name="details_options_labels">
+        <item>Verwijderen</item>
+        <item>Naar SD-kaart exporteren</item>
+    </string-array>
+</resources>

@@ -1,0 +1,261 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+    <item type="id" name="download_notify_id" />
+    <item type="id" name="merchant_login_dialog" />
+    <item type="id" name="wifi_warning_dialog" />
+    <item type="id" name="music_skip_forward" />
+    <item type="id" name="music_skip_backward" />
+    <item type="id" name="music_pause_play" />
+    <item type="id" name="music_stop" />
+    <item type="id" name="music_lyric_view" />
+    <item type="id" name="music_ad_view" />
+    <item type="id" name="music_progress" />
+    <item type="id" name="music_progress_buffering" />
+    <item type="id" name="music_album_art" />
+    <item type="id" name="music_text_duration" />
+    <item type="id" name="music_text_position" />
+    <item type="id" name="music_text_title" />
+    <item type="id" name="music_show_pressed" />
+    <item type="id" name="music_hide_pressed" />
+    <item type="id" name="fm_card_freq" />
+    <item type="id" name="fm_card_preset" />
+    <item type="id" name="fm_card_stereo" />
+    <item type="id" name="fm_card_rds_rt" />
+    <item type="id" name="fm_card_rds_ps" />
+    <item type="id" name="dialog_create_playlist" />
+    <item type="id" name="dialog_add_to_playlist" />
+    <item type="id" name="notification_fm_service" />
+    <item type="id" name="albumcover">false</item>
+    <item type="id" name="text1">false</item>
+    <item type="id" name="text2">false</item>
+    <item type="id" name="layout_love_it">false</item>
+    <item type="id" name="button_love_it">false</item>
+    <item type="id" name="txt_love_it">false</item>
+    <item type="id" name="layout_hate_it">false</item>
+    <item type="id" name="button_hate_it">false</item>
+    <item type="id" name="txt_hate_it">false</item>
+    <item type="id" name="TextView03">false</item>
+    <item type="id" name="edit_custom">false</item>
+    <item type="id" name="TextView04">false</item>
+    <item type="id" name="spinner_blip_via">false</item>
+    <item type="id" name="button_say_it">false</item>
+    <item type="id" name="main_layout">false</item>
+    <item type="id" name="progress">false</item>
+    <item type="id" name="brand_logo">false</item>
+    <item type="id" name="preview_button">false</item>
+    <item type="id" name="preview_button_progress">false</item>
+    <item type="id" name="song_title">false</item>
+    <item type="id" name="song_album_title">false</item>
+    <item type="id" name="purchase_song_button">false</item>
+    <item type="id" name="album_art_thumbnail">false</item>
+    <item type="id" name="album_title">false</item>
+    <item type="id" name="artist_name">false</item>
+    <item type="id" name="purchase_album_button">false</item>
+    <item type="id" name="prefs_icon">false</item>
+    <item type="id" name="prefs_header">false</item>
+    <item type="id" name="changes">false</item>
+    <item type="id" name="community_webview">false</item>
+    <item type="id" name="lyrics_view">false</item>
+    <item type="id" name="info_ll">false</item>
+    <item type="id" name="infomessage">false</item>
+    <item type="id" name="controls">false</item>
+    <item type="id" name="songArtist">false</item>
+    <item type="id" name="songTitle">false</item>
+    <item type="id" name="status_left">false</item>
+    <item type="id" name="status_right">false</item>
+    <item type="id" name="btn_prev">false</item>
+    <item type="id" name="btn_pause">false</item>
+    <item type="id" name="btn_play">false</item>
+    <item type="id" name="btn_next">false</item>
+    <item type="id" name="country">false</item>
+    <item type="id" name="edit_email">false</item>
+    <item type="id" name="edit_username">false</item>
+    <item type="id" name="text_password">false</item>
+    <item type="id" name="edit_password">false</item>
+    <item type="id" name="text_password_confirm">false</item>
+    <item type="id" name="edit_password_confirm">false</item>
+    <item type="id" name="button_sign_up">false</item>
+    <item type="id" name="parentPanel">false</item>
+    <item type="id" name="checkbox_disable_data_charge_warning">false</item>
+    <item type="id" name="checkbox_disable_warnings">false</item>
+    <item type="id" name="stub_preset_small">false</item>
+    <item type="id" name="stub_preset_medium">false</item>
+    <item type="id" name="stub_preset_large">false</item>
+    <item type="id" name="presets">false</item>
+    <item type="id" name="dial_small">false</item>
+    <item type="id" name="touch_switch_mode">false</item>
+    <item type="id" name="stub_fm_tuner">false</item>
+    <item type="id" name="button_seek_minus">false</item>
+    <item type="id" name="fm_on_off">false</item>
+    <item type="id" name="button_seek_plus">false</item>
+    <item type="id" name="dial_tuner">false</item>
+    <item type="id" name="card_tuned">false</item>
+    <item type="id" name="text_preset_num">false</item>
+    <item type="id" name="avatar">false</item>
+    <item type="id" name="img_tuned">false</item>
+    <item type="id" name="img_icon">false</item>
+    <item type="id" name="LinearLayout01">false</item>
+    <item type="id" name="logo_image">false</item>
+    <item type="id" name="searchBox">false</item>
+    <item type="id" name="btnSearch">false</item>
+    <item type="id" name="container">false</item>
+    <item type="id" name="img_indicator">false</item>
+    <item type="id" name="text_no_results">false</item>
+    <item type="id" name="img_thumb">false</item>
+    <item type="id" name="albumHeader">false</item>
+    <item type="id" name="fast_scroll">false</item>
+    <item type="id" name="lyric_view">false</item>
+    <item type="id" name="loading">false</item>
+    <item type="id" name="button_pause">false</item>
+    <item type="id" name="button_cancel">false</item>
+    <item type="id" name="edit_artist">false</item>
+    <item type="id" name="edit_title">false</item>
+    <item type="id" name="edit_phrase">false</item>
+    <item type="id" name="button_search">false</item>
+    <item type="id" name="text_handle">false</item>
+    <item type="id" name="text_song">false</item>
+    <item type="id" name="balloon_close_button">false</item>
+    <item type="id" name="balloon_video_button">false</item>
+    <item type="id" name="balloon_world_button">false</item>
+    <item type="id" name="balloon_shout_button">false</item>
+    <item type="id" name="text_nearby">false</item>
+    <item type="id" name="top_bar">false</item>
+    <item type="id" name="downloads_completed">false</item>
+    <item type="id" name="active_download_row">false</item>
+    <item type="id" name="download_title">false</item>
+    <item type="id" name="download_progress">false</item>
+    <item type="id" name="percent_complete">false</item>
+    <item type="id" name="download_queue_header">false</item>
+    <item type="id" name="download_percentage">false</item>
+    <item type="id" name="text_artist">false</item>
+    <item type="id" name="text_title">false</item>
+    <item type="id" name="img_album">false</item>
+    <item type="id" name="rl_player">false</item>
+    <item type="id" name="ll_controls">false</item>
+    <item type="id" name="extra_controls">false</item>
+    <item type="id" name="music_top_song">false</item>
+    <item type="id" name="music_video">false</item>
+    <item type="id" name="music_nearby">false</item>
+    <item type="id" name="main">false</item>
+    <item type="id" name="left">false</item>
+    <item type="id" name="song_duration">false</item>
+    <item type="id" name="BackImageButton">false</item>
+    <item type="id" name="PlayPauseImageButton">false</item>
+    <item type="id" name="SkipBackwardImageButton">false</item>
+    <item type="id" name="SkipForwardImageButton">false</item>
+    <item type="id" name="ShuffleAllImageButton">false</item>
+    <item type="id" name="RepeatToggleButton">false</item>
+    <item type="id" name="ArtistTextView">false</item>
+    <item type="id" name="SongTextView">false</item>
+    <item type="id" name="PositionTextView">false</item>
+    <item type="id" name="PlayStopImageButton">false</item>
+    <item type="id" name="Preset1ToggleButton">false</item>
+    <item type="id" name="Preset1TextView">false</item>
+    <item type="id" name="Preset2ToggleButton">false</item>
+    <item type="id" name="Preset2TextView">false</item>
+    <item type="id" name="Preset3ToggleButton">false</item>
+    <item type="id" name="Preset3TextView">false</item>
+    <item type="id" name="Preset4ToggleButton">false</item>
+    <item type="id" name="Preset4TextView">false</item>
+    <item type="id" name="EmptyShoutcastPresetsTextView">false</item>
+    <item type="id" name="partner_logo">false</item>
+    <item type="id" name="username_label">false</item>
+    <item type="id" name="username">false</item>
+    <item type="id" name="password">false</item>
+    <item type="id" name="submit">false</item>
+    <item type="id" name="cancel">false</item>
+    <item type="id" name="ok">false</item>
+    <item type="id" name="text_message">false</item>
+    <item type="id" name="button_single">false</item>
+    <item type="id" name="button2">false</item>
+    <item type="id" name="button1">false</item>
+    <item type="id" name="root_layout">false</item>
+    <item type="id" name="progress_status">false</item>
+    <item type="id" name="img_status">false</item>
+    <item type="id" name="text_user">false</item>
+    <item type="id" name="everything_layout">false</item>
+    <item type="id" name="img_top">false</item>
+    <item type="id" name="top_text1">false</item>
+    <item type="id" name="top_text2">false</item>
+    <item type="id" name="top_scroller">false</item>
+    <item type="id" name="table_actions">false</item>
+    <item type="id" name="row_add_friend">false</item>
+    <item type="id" name="button_add_friend">false</item>
+    <item type="id" name="text_add_friend">false</item>
+    <item type="id" name="row_watch_video">false</item>
+    <item type="id" name="button_watch_video">false</item>
+    <item type="id" name="text_watch_video">false</item>
+    <item type="id" name="row_playlists">false</item>
+    <item type="id" name="button_playlists">false</item>
+    <item type="id" name="text_playlists">false</item>
+    <item type="id" name="shoutwall">false</item>
+    <item type="id" name="description">false</item>
+    <item type="id" name="download_status">false</item>
+    <item type="id" name="download_failed_icon">false</item>
+    <item type="id" name="edit_shout">false</item>
+    <item type="id" name="button_shout">false</item>
+    <item type="id" name="text3">false</item>
+    <item type="id" name="text_loading">false</item>
+    <item type="id" name="btnBuy">false</item>
+    <item type="id" name="lyricView">false</item>
+    <item type="id" name="layout_main">false</item>
+    <item type="id" name="progress_space">false</item>
+    <item type="id" name="now_playing_icon">false</item>
+    <item type="id" name="text">false</item>
+    <item type="id" name="btnRunSearch">false</item>
+    <item type="id" name="txtResultsHeader">false</item>
+    <item type="id" name="img_error">false</item>
+    <item type="id" name="lstResults">false</item>
+    <item type="id" name="LinearLayout02">false</item>
+    <item type="id" name="TextView01">false</item>
+    <item type="id" name="switcher">false</item>
+    <item type="id" name="tab_img">false</item>
+    <item type="id" name="tabcontent">false</item>
+    <item type="id" name="tabs">false</item>
+    <item type="id" name="slider">false</item>
+    <item type="id" name="handle">false</item>
+    <item type="id" name="text_empty_message">false</item>
+    <item type="id" name="surface">false</item>
+    <item type="id" name="img_branding">false</item>
+    <item type="id" name="loading_video">false</item>
+    <item type="id" name="ratingbar">false</item>
+    <item type="id" name="other_stream_icon">false</item>
+    <item type="id" name="message">false</item>
+    <item type="id" name="additional_message">false</item>
+    <item type="id" name="ringer_stream_icon">false</item>
+    <item type="id" name="level">false</item>
+    <item type="id" name="img_album_default">false</item>
+    <item type="id" name="song">false</item>
+    <item type="id" name="artist">false</item>
+    <item type="id" name="txt_now_playing">false</item>
+    <item type="id" name="btn_rwd">false</item>
+    <item type="id" name="btn_ffw">false</item>
+    <item type="id" name="button_container">false</item>
+    <item type="id" name="radio_icon">false</item>
+    <item type="id" name="freq">false</item>
+    <item type="id" name="station_name">false</item>
+    <item type="id" name="widget_radio_bg">false</item>
+    <item type="id" name="preset_digit_1">false</item>
+    <item type="id" name="preset_digit_2">false</item>
+    <item type="id" name="show_warning_checkbox">false</item>
+    <item type="id" name="menu_all_presets">false</item>
+    <item type="id" name="menu_clear_preset">false</item>
+    <item type="id" name="menu_blip">false</item>
+    <item type="id" name="menu_music_home">false</item>
+    <item type="id" name="menu_videos">false</item>
+    <item type="id" name="menu_music_maps">false</item>
+    <item type="id" name="menu_resync">false</item>
+    <item type="id" name="menu_add_playlist">false</item>
+    <item type="id" name="menu_settings">false</item>
+    <item type="id" name="menu_delete_song">false</item>
+    <item type="id" name="menu_set_ringtone">false</item>
+    <item type="id" name="menu_clear_presets">false</item>
+    <item type="id" name="menu_buy_song">false</item>
+    <item type="id" name="menu_add_favorites">false</item>
+    <item type="id" name="menu_remove_favorites">false</item>
+    <item type="id" name="menu_recently_added">false</item>
+    <item type="id" name="mydownloadsCMenuRemove">false</item>
+    <item type="id" name="menu_song_downloads">false</item>
+    <item type="id" name="menu_gotv_channels">false</item>
+    <item type="id" name="menu_add_library">false</item>
+</resources>

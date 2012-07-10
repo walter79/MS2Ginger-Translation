@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LinearLayout android:orientation="vertical" android:background="@color/gingerbread_white" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:app="http://schemas.android.com/apk/res/com.motorola.cmp">
+    <ImageView android:id="@id/logo_image" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="?listPaddingLeft" android:layout_marginTop="5.0dip" android:layout_marginRight="?listPaddingRight" android:layout_marginBottom="5.0dip" android:src="@drawable/logo_youtube" />
+    <EditText android:id="@id/text_artist" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="?listPaddingLeft" android:layout_marginTop="5.0dip" android:layout_marginRight="?listPaddingRight" android:hint="@string/artist" android:singleLine="true" android:maxLength="250" />
+    <EditText android:id="@id/text_title" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="?listPaddingLeft" android:layout_marginTop="8.0dip" android:layout_marginRight="?listPaddingRight" android:hint="@string/title" android:singleLine="true" android:maxLength="250" />
+    <Button android:id="@id/button_search" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="?listPaddingLeft" android:layout_marginTop="12.0dip" android:layout_marginRight="?listPaddingRight" android:text="@string/search" />
+</LinearLayout>

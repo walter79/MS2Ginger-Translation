@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RelativeLayout android:id="@id/main_layout" android:padding="5.0sp" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="20.0sp" android:textStyle="bold" android:textColor="@android:color/white" android:id="@id/data_meter_label" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/data_meter" android:layout_alignParentLeft="true" android:layout_alignParentTop="true" />
+    <ProgressBar android:id="@id/progressbar" android:layout_below="@id/data_meter_label" android:layout_alignLeft="@id/data_meter_label" style="@style/DataMeter.Green" />
+</RelativeLayout>

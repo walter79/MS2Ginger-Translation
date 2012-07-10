@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+    <plurals name="successfull_save_message">
+        <item quantity="other">Archivos adjuntos guardados</item>
+        <item quantity="one">Archivo adjunto guardado</item>
+    </plurals>
+    <plurals name="sdcard_error_message">
+        <item quantity="other">No se pueden guardar los archivos adjuntos porque falta la tarjeta SD.\n\nVuelve a introducir una tarjeta SD.</item>
+        <item quantity="one">No se puede guardar el archivo adjunto porque falta la tarjeta SD.\n\nVuelve a introducir una tarjeta SD.</item>
+    </plurals>
+    <plurals name="generic_error_message">
+        <item quantity="other">No ha sido posible guardar uno o varios archivos adjuntos.\n\nInténtalo de nuevo.</item>
+        <item quantity="one">No se ha podido guardar el archivo adjunto.\n\nIntenta guardarlo de nuevo.</item>
+    </plurals>
+    <plurals name="confirm_delete_multiple_message">
+        <item quantity="other">Se eliminarán %1$d mensajes.</item>
+        <item quantity="one">Se eliminará un mensaje.</item>
+    </plurals>
+    <plurals name="messages_protected_toast">
+        <item quantity="other">%1$d mensajes protegidos.</item>
+        <item quantity="one">1 mensaje protegido.</item>
+    </plurals>
+    <plurals name="messages_unprotected_toast">
+        <item quantity="other">%1$d mensajes desprotegidos.</item>
+        <item quantity="one">1 mensaje desprotegido.</item>
+    </plurals>
+</resources>

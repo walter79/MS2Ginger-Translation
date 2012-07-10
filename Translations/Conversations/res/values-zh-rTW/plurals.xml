@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+    <plurals name="successfull_save_message">
+        <item quantity="other">已儲存附件</item>
+        <item quantity="one">已儲存附件</item>
+    </plurals>
+    <plurals name="sdcard_error_message">
+        <item quantity="other">找不到 SD 卡，無法儲存附件。\n\n請重新插入 SD 卡。</item>
+        <item quantity="one">找不到 SD 卡，無法儲存附件。\n\n請重新插入 SD 卡。</item>
+    </plurals>
+    <plurals name="generic_error_message">
+        <item quantity="other">一個或多個附件無法儲存。\n\n請重新儲存。</item>
+        <item quantity="one">附件無法儲存。\n\n請重新儲存。</item>
+    </plurals>
+    <plurals name="confirm_delete_multiple_message">
+        <item quantity="other">將刪除 %1$d 條訊息。</item>
+        <item quantity="one">將刪除 1 條訊息。</item>
+    </plurals>
+    <plurals name="messages_protected_toast">
+        <item quantity="other">%1$d 條受保護訊息。</item>
+        <item quantity="one">1 條受保護訊息。</item>
+    </plurals>
+    <plurals name="messages_unprotected_toast">
+        <item quantity="other">%1$d 條未受保護訊息。</item>
+        <item quantity="one">1 條未受保護訊息。</item>
+    </plurals>
+</resources>

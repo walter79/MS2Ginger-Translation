@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<FrameLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:gravity="left" android:layout_gravity="left" android:id="@id/icon" android:layout_width="320.0dip" android:layout_height="fill_parent" android:scaleType="centerCrop" />
+    <ImageView android:id="@id/gradient" android:layout_width="fill_parent" android:layout_height="fill_parent" android:src="@drawable/editorial_list_bg" android:scaleType="centerCrop" />
+    <LinearLayout android:gravity="right" android:layout_gravity="right" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginLeft="@dimen/editorial_land_left_margin">
+        <include layout="@layout/title2" />
+        <ScrollView android:id="@id/scroll_view" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_weight="1.0">
+            <LinearLayout android:gravity="left" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent">
+                <TextView android:textSize="18.0sp" android:textColor="#ff000000" android:gravity="left" android:layout_gravity="left" android:id="@id/content" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_marginLeft="5.0dip" android:bufferType="spannable" android:layout_weight="1.0" />
+            </LinearLayout>
+        </ScrollView>
+        <Button android:id="@id/sync_button" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/next" />
+    </LinearLayout>
+    <ImageView android:gravity="bottom|right|center" android:layout_gravity="bottom|right|center" android:id="@id/partner_logo" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_margin="10.0dip" />
+</FrameLayout>

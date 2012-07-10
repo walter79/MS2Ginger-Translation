@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LinearLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:app="http://schemas.android.com/apk/res/com.motorola.cmp">
+    <LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:id="@id/main_layout" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <include layout="@layout/list_activity" />
+    </LinearLayout>
+    <LinearLayout android:gravity="center" android:orientation="vertical" android:id="@id/progress" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <ProgressBar android:layout_width="wrap_content" android:layout_height="wrap_content" style="\?android:attr/progressBarStyleLarge" />
+        <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/loading_list" android:layout_centerInParent="true" />
+    </LinearLayout>
+</LinearLayout>

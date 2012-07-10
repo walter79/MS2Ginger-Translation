@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+    <string name="package_name">Proveedor cont. admin. certificado</string>
+    <string name="permlab_read">Leer certificados</string>
+    <string name="permdesc_read">Leer certificados raíz</string>
+    <string name="permlab_write">Guardar certificados</string>
+    <string name="permdesc_write">Guardar certificados raíz</string>
+</resources>

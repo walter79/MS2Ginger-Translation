@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+    <string name="app_name">Kalibrator kompasu</string>
+    <string name="calibrator_inst_title">Kalibracja</string>
+    <string name="calibrator_inst">Obróć telefon, wykonując ruch w kształcie ósemki we wszystkich możliwych osiach. Kompas zostanie skalibrowany, gdy obraz zmieni kolor na zielony.</string>
+    <string name="calibrator_face_title">Strona skalibrowana!</string>
+    <string name="calibrator_horizontal_inst">Wysuń klawiaturę, aby skalibrować także przy otwartej klawiaturze.</string>
+    <string name="calibrator_vertical_inst">Wsuń klawiaturę, aby skalibrować także przy zamkniętej klawiaturze.</string>
+    <string name="calibrator_quit_inst">Możesz też nacisnąć przycisk Zamknij, jeśli oba położenia są już skalibrowane.</string>
+    <string name="calibrator_start_button">Kalibruj</string>
+    <string name="calibrator__otherface_button">Kalibruj\n inną stronę</string>
+    <string name="calibrator_quit_button">Zakończ</string>
+    <string name="calibrator_done_quit_inst">Kalibracja ukończona! Naciśnij przycisk Zamknij.</string>
+    <string name="calibrator_fail_message">Kalibracja nie powiodła się. Spróbuj ponownie.</string>
+    <string name="calibrator_ani_inst">Obróć telefonem tam i z powrotem w kierunku wszystkich trzech osi, aż pojawi się zielony obraz kompasu.</string>
+</resources>

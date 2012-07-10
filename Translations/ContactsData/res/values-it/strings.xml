@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+    <string name="app_name">Dati contatti</string>
+    <string name="mms_body">Ti ha inviato un MMS</string>
+    <string name="motoBlurProfileName">Rubrica</string>
+    <string name="motoBlurUnconnectedProfileName">Rubrica Lite</string>
+    <string name="phoneContactsProfileName">Contatti telefono</string>
+    <string name="simContactsProfileName">Contatti SIM</string>
+    <string name="call_restiction_addcontact">Chiamate limitate. Impossibile aggiungere contatto a rubrica.</string>
+    <string name="call_restiction_editcontact">Chiamate limitate. Impossibile modificare il contatto in rubrica.</string>
+    <string name="call_restiction_deletecontact">Chiamate limitate. Impossibile eliminare il contatto in rubrica.</string>
+    <string name="call_restiction_updatecontact_tools">Chiamate limitate. Aggiornamento rubrica non autorizzato.</string>
+</resources>

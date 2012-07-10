@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:app="http://schemas.android.com/apk/res/com.motorola.cmp">
+    <ImageView android:id="@id/logo_image" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="?listPaddingLeft" />
+    <RelativeLayout android:id="@id/albumHeader" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="?albumThumbSize" style="\?android:attr/windowTitleBackgroundStyle">
+        <com.motorola.cmp.views.AlbumView android:id="@id/albumcover" android:padding="0.0dip" android:layout_width="?albumThumbSize" android:layout_height="?albumThumbSize" android:src="@drawable/empty" android:scaleType="fitCenter" android:layout_alignParentLeft="true" app:datamode="store|cache" app:defaultArt="@drawable/no_coverart_sm" />
+        <TextView android:textAppearance="@style/textMajorBold" android:textColor="@android:color/white" android:id="@id/text1" android:paddingLeft="10.0dip" android:paddingRight="20.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:singleLine="true" android:layout_toRightOf="@id/albumcover" />
+        <TextView android:textAppearance="@style/textMinor" android:textColor="@android:color/white" android:id="@id/text2" android:paddingLeft="10.0dip" android:paddingRight="20.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:lines="1" android:layout_toRightOf="@id/albumcover" android:layout_below="@id/text1" />
+    </RelativeLayout>
+    <com.motorola.cmp.views.FastScrollView android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <ListView android:id="@android:id/list" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+        <TextView android:textSize="16.0sp" android:layout_gravity="center" android:id="@android:id/empty" android:paddingLeft="20.0dip" android:paddingRight="20.0dip" android:paddingBottom="20.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="" />
+    </com.motorola.cmp.views.FastScrollView>
+</LinearLayout>

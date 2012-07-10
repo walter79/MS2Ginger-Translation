@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<FrameLayout android:gravity="center" android:background="@drawable/card_wall" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="horizontal" android:id="@id/browser" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_weight="1.0">
+        <LinearLayout android:gravity="center" android:layout_gravity="center" android:orientation="vertical" android:id="@id/albumartwithshadow" android:layout_width="190.0dip" android:layout_height="fill_parent" android:layout_marginTop="25.0dip" android:layout_marginBottom="25.0dip" android:layout_weight="0.0">
+            <FrameLayout android:gravity="bottom|center" android:layout_gravity="bottom|center" android:layout_width="170.0dip" android:layout_height="170.0dip">
+                <ImageView android:id="@id/icon" android:background="@blur.res:drawable/ic_single_stream_generic_music" android:layout_width="170.0dip" android:layout_height="170.0dip" android:src="@drawable/ic_album_generic_stream" android:scaleType="centerCrop" />
+                <ImageView android:gravity="top|right|center" android:layout_gravity="top|right|center" android:id="@id/playback_details_overlay" android:focusable="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_margin="3.0dip" android:src="@blur.res:drawable/ic_control_music_info" />
+            </FrameLayout>
+            <ImageView android:gravity="top|center" android:layout_gravity="top|center" android:id="@id/playback_album_art_shadow" android:layout_width="fill_parent" android:layout_height="wrap_content" android:src="@drawable/song_list_shadow" />
+        </LinearLayout>
+        <LinearLayout android:gravity="center" android:layout_gravity="center" android:orientation="vertical" android:id="@id/list_container" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_margin="5.0dip" android:layout_weight="1.0">
+            <FrameLayout android:layout_width="fill_parent" android:layout_height="55.0dip">
+                <LinearLayout android:orientation="vertical" android:id="@id/container" android:background="@drawable/song_dialog_header_bg" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_weight="0.0">
+                    <TextView android:textSize="20.0sp" android:textColor="#ffffffff" android:gravity="left|center" android:id="@id/top_text" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip" android:maxLines="1" android:shadowColor="#ff000000" android:shadowDx="0.0" android:shadowDy="-2.0" android:shadowRadius="1.0" android:layout_weight="0.0" />
+                    <TextView android:textSize="14.0sp" android:textColor="#ffaaaaaa" android:ellipsize="marquee" android:gravity="left|center" android:id="@id/bottom_text" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip" android:maxLines="1" android:shadowColor="#ff000000" android:shadowDx="0.0" android:shadowDy="-2.0" android:shadowRadius="1.0" />
+                </LinearLayout>
+                <ImageView android:gravity="left" android:layout_gravity="left" android:background="@drawable/song_dialog_header_sheen_bg" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+            </FrameLayout>
+            <ListView android:id="@android:id/list" android:background="@drawable/song_dialog_body_bg" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginLeft="1.0dip" android:layout_marginRight="1.0dip" android:cacheColorHint="#00000000" android:layout_weight="1.0" />
+        </LinearLayout>
+    </LinearLayout>
+    <include layout="@layout/sd_error" />
+</FrameLayout>

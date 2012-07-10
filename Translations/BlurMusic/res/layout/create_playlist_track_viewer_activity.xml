@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RelativeLayout android:gravity="center_vertical" android:orientation="vertical" android:id="@id/playlist_layout" android:background="@android:color/transparent" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent">
+`
+<ListView android:textSize="18.0sp" android:id="@android:id/list" android:focusable="true" android:fadingEdge="vertical" android:nextFocusDown="@id/cancel" android:layout_width="fill_parent" android:layout_height="fill_parent" android:drawSelectorOnTop="false" android:layout_weight="1.0" android:fastScrollEnabled="true" />
+    </LinearLayout>
+    <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <include layout="@layout/simple_title" />
+        <LinearLayout android:orientation="horizontal" android:id="@id/tumbler" android:background="@com.motorola.android.widget:drawable/header_bkg" android:layout_width="fill_parent" android:layout_height="60.0dip" style="@com.motorola.android.widget:style/Interactive_Titlebar"
+          xmlns:android="http://schemas.android.com/apk/res/android">
+            <Spinner android:textStyle="bold" android:gravity="left|center" android:layout_gravity="left|center" android:id="@id/tumbler_spinner" android:background="@com.motorola.android.widget:drawable/int_titlebar_btn_bkg" android:paddingLeft="10.0px" android:nextFocusDown="@android:id/list" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_weight="1.0" />
+        </LinearLayout>
+        <include layout="@layout/sd_error" />
+    </LinearLayout>
+    <LinearLayout android:gravity="bottom" android:orientation="horizontal" android:background="#ff000000" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_weight="0.0" android:layout_alignParentBottom="true">
+        <com.motorola.android.widget.ActionBar android:id="@id/abwidget" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_alignParentBottom="true">
+            <Button android:id="@id/add_button" android:focusable="true" android:visibility="gone" android:nextFocusUp="@android:id/list" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_marginTop="5.0dip" android:text="@string/add_string" android:layout_weight="1.0" />
+            <Button android:id="@id/back" android:focusable="true" android:visibility="gone" android:nextFocusUp="@android:id/list" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_marginTop="5.0dip" android:text="@string/back" android:layout_weight="1.0" />
+            <Button android:id="@id/cancel" android:focusable="true" android:visibility="gone" android:nextFocusUp="@android:id/list" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_marginTop="5.0dip" android:text="@string/cancel" android:layout_weight="1.0" />
+        </com.motorola.android.widget.ActionBar>
+    </LinearLayout>
+</RelativeLayout>

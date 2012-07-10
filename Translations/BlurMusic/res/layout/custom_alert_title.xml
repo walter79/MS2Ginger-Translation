@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RelativeLayout android:orientation="horizontal" android:id="@id/layout_root" android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:orientation="horizontal" android:id="@id/lchild" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignParentLeft="true"
+      xmlns:android="http://schemas.android.com/apk/res/android">
+        <ImageView android:gravity="bottom|center" android:id="@id/custom_title_icon" android:visibility="visible" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignParentLeft="true" />
+        <TextView android:textSize="18.0dip" android:textColor="#ffffffff" android:gravity="center_vertical" android:id="@id/devices_title" android:paddingRight="4.0dip" android:visibility="visible" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_toRightOf="@id/custom_title_icon" android:layout_centerVertical="true" />
+    </RelativeLayout>
+    <RelativeLayout android:layout_gravity="center_vertical" android:orientation="vertical" android:id="@id/rchild" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignParentRight="true"
+      xmlns:android="http://schemas.android.com/apk/res/android">
+        <ProgressBar android:gravity="center_vertical" android:id="@id/pbar" android:visibility="visible" android:layout_width="30.0dip" android:layout_height="30.0dip" android:layout_toRightOf="@id/devices_title" android:layout_alignTop="@id/custom_title_icon" />
+    </RelativeLayout>
+</RelativeLayout>

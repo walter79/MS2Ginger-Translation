@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<merge
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:orientation="vertical" android:id="@id/optin_screen_1" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_below="@id/status_title">
+        <ScrollView android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <TextView android:textSize="24.0sp" android:gravity="center" android:layout_gravity="center" android:id="@id/page_title" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="10.0dip" android:text="@string/opt_in_page_title" android:layout_weight="1.0" />
+                <RelativeLayout android:id="@id/video" android:clickable="true" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_margin="10.0dip">
+                    <ImageView android:id="@id/video_icon" android:background="@blur.res:drawable/ic_card_dashboard_generic_video" android:layout_width="fill_parent" android:layout_height="140.0dip" android:layout_marginTop="10.0dip" android:layout_below="@id/page_title" android:layout_centerInParent="true" />
+                    <ImageView android:id="@id/video_overlay" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@blur.res:drawable/btn_play" android:layout_below="@id/page_title" android:layout_centerInParent="true" />
+                </RelativeLayout>
+                <TextView android:textSize="14.0sp" android:id="@id/feature_explanation" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="8.0dip" android:layout_marginBottom="65.0dip" android:text="@string/opt_in_blur_music_explanation" android:layout_weight="1.0" android:layout_below="@id/message" />
+            </LinearLayout>
+        </ScrollView>
+        <LinearLayout android:gravity="bottom" android:orientation="horizontal" android:background="@null" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_alignParentBottom="true">
+            <com.motorola.android.widget.ActionBar android:id="@id/abwidget1" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_alignParentBottom="true" />
+        </LinearLayout>
+    </RelativeLayout>
+</merge>

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RelativeLayout android:orientation="horizontal" android:id="@id/bg" android:background="@drawable/card_wall" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:moto.res="http://schemas.android.com/apk/res/com.motorola.android.widget"
+  xmlns:app="http://schemas.android.com/apk/res/com.motorola.blur.music">
+    <FrameLayout android:id="@id/dashboard" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <com.motorola.android.widget.MotoFlowView android:id="@id/blur_motoflowwidget_3d" android:focusable="true" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" moto.res:isMainItemLive="true" moto.res:mainItemOffsetX="-125.0dip" moto.res:mainItemWidth="@dimen/dashboard_card_w" moto.res:mainItemHeight="@dimen/dashboard_card_h" moto.res:backgroundImage="@drawable/card_wall" moto.res:shadowImage="@blur.res:drawable/card_shadow" moto.res:lightX="-125.0dip" moto.res:lightY="233.0dip" moto.res:lightZ="500.0dip" moto.res:itemSpacing="7.0dip" moto.res:defaultItemView="@layout/music_dashboard_loadingcard" moto.res:shadowOffset="3.0dip" />
+        <com.motorola.blur.music.MotoCollageView android:id="@id/moto_collage_view" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_weight="0.2" app:chipSize="200.0dip" app:mode="DASHBOARD_LANDSCAPE" />
+        <LinearLayout android:orientation="horizontal" android:id="@id/bluescreen" android:background="@drawable/card_wall" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_alignParentTop="true" />
+        <ImageView android:id="@id/empty_message" android:background="@drawable/ic_widget_cmp_now_playing" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+        <ProgressBar android:layout_gravity="center" android:id="@id/progress" android:layout_width="32.0dip" android:layout_height="32.0dip" />
+        <RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <include layout="@layout/introduction" />
+            <RelativeLayout android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_alignParentRight="true">
+                <ImageView android:id="@id/dock_sheen_image" android:background="@blur.res:drawable/btn_4_dashboard" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_alignLeft="@id/dock" android:layout_alignTop="@id/dock" android:layout_alignRight="@id/dock" android:layout_alignBottom="@id/dock" />
+                <LinearLayout android:orientation="vertical" android:id="@id/dock" android:paddingBottom="5.0dip" android:focusable="true" android:layout_width="115.0dip" android:layout_height="fill_parent" android:layout_alignParentRight="true">
+                    <LinearLayout android:orientation="horizontal" android:id="@id/now_playing" android:focusable="true" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="0.0dip" style="@style/Dashboard_Button">
+                        <TextView android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/now_playing" android:layout_weight="1.0" style="@style/Dashboard_Button_text" />
+                        <ImageView android:id="@id/now_playing_icon" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="5.0dip" android:src="@drawable/ic_now_playing_mp3" android:layout_weight="0.0" />
+                    </LinearLayout>
+                    <Button android:id="@id/my_lib" android:focusable="true" android:nextFocusLeft="@id/blur_motoflowwidget_3d" android:layout_width="fill_parent" android:layout_height="0.0dip" android:text="@string/my_lib" style="@style/Dashboard_Button" />
+                    <Button android:id="@id/podcast" android:focusable="true" android:nextFocusLeft="@id/blur_motoflowwidget_3d" android:layout_width="fill_parent" android:layout_height="0.0dip" android:text="@string/podcast" style="@style/Dashboard_Button" />
+                    <Button android:id="@id/web_rad" android:focusable="true" android:nextFocusLeft="@id/blur_motoflowwidget_3d" android:layout_width="fill_parent" android:layout_height="0.0dip" android:text="@string/web_rad" style="@style/Dashboard_Button" />
+                    <Button android:id="@id/fm_rad" android:focusable="true" android:nextFocusLeft="@id/blur_motoflowwidget_3d" android:layout_width="fill_parent" android:layout_height="0.0dip" android:text="@string/fm_rad" style="@style/Dashboard_Button" />
+                </LinearLayout>
+            </RelativeLayout>
+        </RelativeLayout>
+    </FrameLayout>
+</RelativeLayout>

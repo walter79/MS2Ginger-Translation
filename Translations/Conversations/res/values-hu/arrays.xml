@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+    <string-array name="default_smiley_texts">
+        <item>:-)</item>
+        <item>:-(</item>
+        <item>;-)</item>
+        <item>:-P</item>
+        <item>=-O</item>
+        <item>:-*</item>
+        <item>:O</item>
+        <item>B-)</item>
+        <item>:-$</item>
+        <item>:-!</item>
+        <item>:-[</item>
+        <item>O:-)</item>
+        <item>:-\\</item>
+        <item>:\'(</item>
+        <item>:-X</item>
+        <item>:-D</item>
+        <item>o_O</item>
+    </string-array>
+    <string-array name="default_smiley_names">
+        <item>Vidám</item>
+        <item>Szomorú</item>
+        <item>Kacsint</item>
+        <item>Nyelvöltés</item>
+        <item>Meglepődött</item>
+        <item>Csók</item>
+        <item>Csodálkozik</item>
+        <item>Zsír</item>
+        <item>Pénzes száj</item>
+        <item>Láb a szájban</item>
+        <item>Feszélyezett</item>
+        <item>Angyal</item>
+        <item>Döntésképtelen</item>
+        <item>Síró</item>
+        <item>Ajkak zárva</item>
+        <item>Nevet</item>
+        <item>Zavart</item>
+    </string-array>
+    <string-array name="sms_priority_modes">
+        <item>Normál</item>
+        <item>Sürgős</item>
+    </string-array>
+</resources>

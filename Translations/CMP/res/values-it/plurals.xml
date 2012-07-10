@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+    <plurals name="N_additional_songs">
+        <item quantity="other">e %d brani simili</item>
+        <item quantity="one">e 1 brano simile</item>
+    </plurals>
+    <plurals name="N_delete_songs">
+        <item quantity="other">Eliminare definitivamente questi %d brani?</item>
+        <item quantity="one">Eliminare definitivamente il brano?</item>
+    </plurals>
+    <plurals name="N_playlists_deleted">
+        <item quantity="other">%d playlist rimosse.</item>
+        <item quantity="one">Playlist eliminata.</item>
+    </plurals>
+    <plurals name="N_songs_purchased">
+        <item quantity="other">%d brani sono stati acquistati e aggiunti alla coda di download.</item>
+        <item quantity="one">Il brano è stato acquistato e aggiunto alla coda di download.</item>
+    </plurals>
+    <plurals name="N_songs_purchased_wifi_blocked">
+        <item quantity="other">%d brani acquistati. Il download verrà avviato dopo la connessione alla rete Wi-Fi.</item>
+        <item quantity="one">Il brano è stato acquistato. Il download verrà avviato dopo la connessione Wi-Fi.</item>
+    </plurals>
+    <plurals name="N_tracks_added_playlist">
+        <item quantity="other">%d brani aggiunti alla playlist.</item>
+        <item quantity="one">1 brano aggiunto alla playlist.</item>
+    </plurals>
+    <plurals name="N_tracks_deleted_from_playlist">
+        <item quantity="other">%d brani eliminati dalla playlist.</item>
+        <item quantity="one">1 brano eliminato dalla playlist.</item>
+    </plurals>
+    <plurals name="N_tracks_deleted_from_storage">
+        <item quantity="other">%d brani eliminati dal dispositivo.</item>
+        <item quantity="one">1 brano eliminato dal dispositivo.</item>
+    </plurals>
+    <plurals name="song_will_start_N_seconds">
+        <item quantity="other">La riproduzione del brano inizierà tra %d secondi</item>
+        <item quantity="one">La riproduzione del brano inizierà tra 1 secondo</item>
+    </plurals>
+</resources>

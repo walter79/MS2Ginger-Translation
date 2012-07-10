@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LinearLayout android:orientation="vertical" android:paddingLeft="8.0px" android:paddingRight="8.0px" android:layout_width="290.0dip" android:layout_height="125.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/new_shout" />
+    <EditText android:gravity="top" android:id="@id/edit_shout" android:layout_width="fill_parent" android:layout_height="wrap_content" android:lines="2" android:maxLength="250" />
+    <Button android:layout_gravity="right" android:id="@id/button_shout" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/shout" />
+</LinearLayout>

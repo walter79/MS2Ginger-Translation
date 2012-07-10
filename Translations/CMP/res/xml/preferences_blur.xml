@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<PreferenceScreen
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:app="http://schemas.android.com/apk/res/com.motorola.cmp">
+    <CheckBoxPreference android:title="@string/auto_repeat" android:key="repeat" android:summary="@string/auto_repeat_summary" android:defaultValue="false" />
+    <com.motorola.cmp.preferences.SleepTimerPreference android:title="@string/sleep_timer" android:key="sleep_timer" android:summary="@string/off" />
+    <PreferenceScreen android:title="@string/song_downloads" android:key="my_downloads" android:summary="@string/song_downloads_summary" />
+    <PreferenceScreen android:title="@string/display_lyrics" android:key="display_lyrics_screen">
+        <intent android:targetPackage="com.motorola.cmp" android:action="android.intent.action.VIEW" android:targetClass="com.motorola.cmp.preferences.LyricsPreferenceActivity" />
+    </PreferenceScreen>
+    <PreferenceScreen android:title="@string/preferences_set_username" android:key="tw_account_settings" android:summary="@string/preferences_set_username_summary">
+        <intent android:targetPackage="com.motorola.cmp" android:action="android.intent.action.VIEW" android:targetClass="com.motorola.cmp.preferences.TWAccountPrefsActivity" />
+    </PreferenceScreen>
+    <PreferenceScreen android:title="@string/data_usage" android:key="data_usage_section" android:summary="@string/data_usage_summary">
+        <intent android:targetPackage="com.motorola.cmp" android:action="android.intent.action.VIEW" android:targetClass="com.motorola.cmp.preferences.DataUsagePreferenceActivity" />
+    </PreferenceScreen>
+    <com.motorola.cmp.preferences.FmRadioDialogPreference android:title="@string/preferences_set_fm_radio_region" android:key="fm_radio_dlg_pref" android:dialogTitle="@string/fm_radio_pref_dlg_title" android:positiveButtonText="@string/setting" android:negativeButtonText="@string/ok" />
+    <Preference android:title="@string/about" android:key="about_cmp" android:summary="@string/about_cmp_summary" />
+</PreferenceScreen>

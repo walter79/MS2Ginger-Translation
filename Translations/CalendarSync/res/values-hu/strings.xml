@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+    <string name="app_name">Naptár Szolgáltatás</string>
+    <string name="format_accepted">Elfogadva: %1$s</string>
+    <string name="format_canceled">Megszakítva: %1$s</string>
+    <string name="format_declined">Elutasítva: %1$s</string>
+    <string name="format_new">%1$s</string>
+    <string name="format_tentative">Átmeneti: %1$s</string>
+    <string name="format_updated">Frissített: %1$s</string>
+    <string name="no_such_event">Az esemény nem elérhető.</string>
+    <string name="no_such_message">Esemény helye nem észlelhető.</string>
+</resources>

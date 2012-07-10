@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:id="@id/widget29" android:layout_width="fill_parent" android:layout_height="fill_parent"
+      xmlns:android="http://schemas.android.com/apk/res/android">
+        <LinearLayout android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_toRightOf="@id/podcast_icon"
+          xmlns:android="http://schemas.android.com/apk/res/android">
+            <TextView android:textSize="18.0sp" android:typeface="sans" android:textStyle="bold" android:ellipsize="end" android:id="@id/podcast_title_text" android:paddingRight="5.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:singleLine="true" />
+            <TextView android:textSize="14.0sp" android:ellipsize="end" android:id="@id/podcast_description_text" android:paddingRight="5.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxLines="2" />
+        </LinearLayout>
+        <ImageView android:id="@id/podcast_icon" android:paddingRight="5.0dip" android:layout_width="60.0dip" android:layout_height="60.0dip" android:src="@blur.res:drawable/ic_single_stream_generic_podcast" android:layout_alignParentLeft="true" android:layout_alignParentTop="true" />
+    </RelativeLayout>
+    <TextView android:textSize="14.0sp" android:gravity="bottom|right|center" android:layout_gravity="bottom|right|center" android:id="@id/no_of_episodes_text" android:paddingRight="7.0dip" android:paddingBottom="5.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+</LinearLayout>

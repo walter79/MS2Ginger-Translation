@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RelativeLayout android:id="@id/widget29" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="18.0sp" android:textColor="#ffffffff" android:id="@id/num_of_episodes_text" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_below="@id/podcast_description_text" android:layout_alignParentRight="true" android:layout_alignParentBottom="true" />
+    <TextView android:textSize="14.0sp" android:textColor="#ffffffff" android:id="@id/podcast_description_text" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxLines="2" android:minLines="2" android:layout_toRightOf="@id/podcast_icon" android:layout_below="@id/podcast_title_text" />
+    <TextView android:textSize="24.0sp" android:textStyle="bold" android:textColor="#ffffffff" android:ellipsize="end" android:id="@id/podcast_title_text" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:singleLine="true" android:shadowColor="#c0000000" android:shadowDx="2.0" android:shadowDy="2.0" android:shadowRadius="2.0" android:layout_toRightOf="@id/podcast_icon" android:layout_alignParentTop="true" />
+    <ImageView android:id="@id/podcast_icon" android:layout_width="fill_parent" android:layout_height="fill_parent" android:src="@drawable/ic_thb_generic_podcast" android:scaleType="centerCrop" />
+    <ImageView android:layout_gravity="right" android:id="@id/pod_info_podcast_fav_icon" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@blur.res:drawable/ic_control_favorites" android:layout_toRightOf="@id/podcast_title_text" />
+</RelativeLayout>

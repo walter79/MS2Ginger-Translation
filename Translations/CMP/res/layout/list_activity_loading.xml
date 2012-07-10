@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RelativeLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:app="http://schemas.android.com/apk/res/com.motorola.cmp">
+    <ImageView android:id="@id/logo_image" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="?listPaddingLeft" />
+    <ListView android:id="@android:id/list" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_below="@id/logo_image" />
+    <LinearLayout android:gravity="center" android:orientation="vertical" android:id="@android:id/empty" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <ProgressBar android:layout_width="wrap_content" android:layout_height="wrap_content" style="\?android:attr/progressBarStyleLarge" />
+        <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/loading_list" android:layout_centerInParent="true" />
+    </LinearLayout>
+    <TextView android:gravity="center" android:id="@id/text_no_results" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" android:text="@string/no_results" />
+</RelativeLayout>

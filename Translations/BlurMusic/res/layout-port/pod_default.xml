@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include android:id="@id/searchresult" android:visibility="gone" layout="@layout/music_searchresults_title" />
+    <LinearLayout android:orientation="horizontal" android:id="@id/searchagainlayout" android:background="@null" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="60.0dip" style="@com.motorola.android.widget:style/Interactive_Titlebar"
+      xmlns:android="http://schemas.android.com/apk/res/android">
+        <ImageView android:layout_gravity="center_vertical" android:id="@id/searchicon" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip" android:src="@blur.res:drawable/ic_msg_aw_gal_search" android:layout_weight="0.0" />
+        <TextView android:textAppearance="?android:textAppearanceMedium" android:textColor="#ff000000" android:layout_gravity="center_vertical" android:id="@id/searchagain" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="8.0dip" android:text="@string/search_again" />
+    </LinearLayout>
+    <LinearLayout android:gravity="top|center" android:orientation="horizontal" android:id="@id/loadinglayout" android:paddingTop="10.0dip" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <ProgressBar android:layout_gravity="top" android:id="@id/searchprogress" android:visibility="gone" android:layout_width="25.0dip" android:layout_height="25.0dip" style="@android:style/Widget.ProgressBar.Small" />
+        <TextView android:textSize="18.0sp" android:gravity="top|center" android:layout_gravity="top" android:id="@id/empty" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip" />
+    </LinearLayout>
+    <ListView android:id="@android:id/list" android:layout_width="fill_parent" android:layout_height="fill_parent" android:drawSelectorOnTop="false" android:layout_weight="1.0" android:layout_below="@id/searchresult" />
+</LinearLayout>

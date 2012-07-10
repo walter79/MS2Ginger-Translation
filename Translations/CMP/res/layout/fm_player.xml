@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:app="http://schemas.android.com/apk/res/com.motorola.cmp">
+    <RelativeLayout android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0">
+        <com.motorola.cmp.views.fm.PresetsGallery android:id="@id/presets" android:background="@drawable/fm_background" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_above="@id/dial_small" />
+        <com.motorola.cmp.views.fm.SmallAnalogDial android:id="@id/dial_small" android:layout_width="fill_parent" android:layout_height="22.0dip" android:layout_alignParentBottom="true" />
+        <View android:id="@id/touch_switch_mode" android:layout_width="fill_parent" android:layout_height="60.0dip" android:layout_alignParentBottom="true" />
+        <ViewStub android:id="@id/stub_fm_tuner" android:layout="@layout/fm_player_tuner" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_centerInParent="true" />
+    </RelativeLayout>
+    <LinearLayout android:orientation="horizontal" android:background="@drawable/play_bar_bottom2" android:layout_width="fill_parent" android:layout_height="74.0dip">
+        <LinearLayout android:gravity="center" android:orientation="vertical" android:id="@id/button_seek_minus" android:background="@drawable/bg_nowplaying" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0">
+            <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/fm_seek_down_button" android:scaleType="center" />
+            <TextView android:textAppearance="@style/textMinor" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/seek" />
+        </LinearLayout>
+        <ImageView android:id="@id/fm_on_off" android:background="@drawable/bg_nowplaying" android:layout_width="0.0dip" android:layout_height="fill_parent" android:src="@drawable/fm_muted" android:scaleType="center" android:layout_weight="1.0" />
+        <LinearLayout android:gravity="center" android:orientation="vertical" android:id="@id/button_seek_plus" android:background="@drawable/bg_nowplaying" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0">
+            <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/fm_seek_up_button" android:scaleType="center" />
+            <TextView android:textAppearance="@style/textMinor" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/seek" />
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

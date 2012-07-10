@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+    <string-array name="filter_labels">
+        <item>Tutti i certificati</item>
+        <item>Certificati aggiunti dall\'utente</item>
+        <item>Certificati precaricati</item>
+    </string-array>
+    <string-array name="details_options_labels">
+        <item>Elimina</item>
+        <item>Esporta su scheda SD</item>
+    </string-array>
+</resources>

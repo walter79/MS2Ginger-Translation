@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+    <string-array name="gamsAccountTypeToDefaultMapping">
+        <item>com.motorola.blur.service.bsutils.MOTHER_USER_CREDS_TYPE:blurDefaults</item>
+        <item>com.motorola.blur.contacts.UNCONNECTED_ACCOUNT:blurUnconnectedDefaults</item>
+        <item>com.google:nativeGoogleDefaults</item>
+        <item>com.facebook.auth.login:nativeFacebookDefaults</item>
+        <item>com.android.exchange:nativeExchangeDefaults</item>
+        <item>com.motorola.android.buacontactadapter:phoneContactsDefaults</item>
+        <item>com.motorola.android.simcontactadapter:simContactsDefaults</item>
+    </string-array>
+    <string-array name="defaults">
+        <item>prettyName:refVal:accountType</item>
+        <item>secondaryName:refVal:accountName</item>
+        <item>allowOutOfContext:intVal:0</item>
+        <item>activeSyncSource:intVal:0</item>
+        <item>blurSourceName:strVal:</item>
+        <item>capability:capabilityVal:contacts</item>
+        <item>pictureSource:intVal:0</item>
+    </string-array>
+    <string-array name="blurDefaults">
+        <item>prettyName:resVal:motoBlurProfileName</item>
+        <item>secondaryName:refVal:accountName</item>
+        <item>allowOutOfContext:intVal:1</item>
+        <item>activeSyncSource:intVal:2</item>
+        <item>blurSourceName:strVal:blur</item>
+        <item>capability:capabilityVal:contacts</item>
+        <item>pictureSource:intVal:0</item>
+    </string-array>
+    <string-array name="blurUnconnectedDefaults">
+        <item>prettyName:resVal:motoBlurUnconnectedProfileName</item>
+        <item>secondaryName:strVal:</item>
+        <item>allowOutOfContext:intVal:1</item>
+        <item>activeSyncSource:intVal:2</item>
+        <item>blurSourceName:strVal:</item>
+        <item>capability:capabilityVal:contacts</item>
+        <item>pictureSource:intVal:0</item>
+    </string-array>
+    <string-array name="nativeGoogleDefaults">
+        <item>prettyName:strVal:Google</item>
+        <item>secondaryName:refVal:accountName</item>
+        <item>allowOutOfContext:intVal:1</item>
+        <item>activeSyncSource:intVal:1</item>
+        <item>blurSourceName:strVal:</item>
+        <item>capability:capabilityVal:contacts</item>
+        <item>pictureSource:intVal:0</item>
+    </string-array>
+    <string-array name="nativeFacebookDefaults">
+        <item>prettyName:strVal:nativeFacebook</item>
+        <item>secondaryName:refVal:accountName</item>
+        <item>allowOutOfContext:intVal:0</item>
+        <item>activeSyncSource:intVal:0</item>
+        <item>blurSourceName:strVal:</item>
+        <item>capability:capabilityVal:contacts</item>
+        <item>pictureSource:intVal:0</item>
+    </string-array>
+    <string-array name="nativeExchangeDefaults">
+        <item>prettyName:strVal:nativeExchange</item>
+        <item>secondaryName:refVal:accountName</item>
+        <item>allowOutOfContext:intVal:1</item>
+        <item>activeSyncSource:intVal:1</item>
+        <item>blurSourceName:strVal:</item>
+        <item>capability:capabilityVal:contacts</item>
+        <item>pictureSource:intVal:0</item>
+    </string-array>
+    <string-array name="phoneContactsDefaults">
+        <item>prettyName:resVal:phoneContactsProfileName</item>
+        <item>secondaryName:refVal:accountName</item>
+        <item>allowOutOfContext:intVal:1</item>
+        <item>activeSyncSource:intVal:2</item>
+        <item>blurSourceName:strVal:</item>
+        <item>capability:capabilityVal:contacts</item>
+        <item>pictureSource:intVal:0</item>
+    </string-array>
+    <string-array name="simContactsDefaults">
+        <item>prettyName:resVal:simContactsProfileName</item>
+        <item>secondaryName:refVal:accountName</item>
+        <item>allowOutOfContext:intVal:1</item>
+        <item>activeSyncSource:intVal:1</item>
+        <item>blurSourceName:strVal:</item>
+        <item>capability:capabilityVal:contacts</item>
+        <item>pictureSource:intVal:0</item>
+    </string-array>
+</resources>

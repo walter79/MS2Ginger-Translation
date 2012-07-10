@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+    <string name="widget_name">Date et heure</string>
+    <string name="app_name">Date et heure</string>
+    <string name="title">Widget Date et heure</string>
+    <string name="done">Terminé</string>
+    <string name="text_24_hr_format">Utiliser format sur 24 h</string>
+    <string name="Widget_type">Style d\'horloge</string>
+    <string name="Clock_background_color">Couleur d\'arrière-plan</string>
+    <string name="choose_color">Choix de la couleur</string>
+    <string name="select">Sélectionner</string>
+    <string name="PURPLE">Violet</string>
+    <string name="GREEN">Vert</string>
+    <string name="BLUE">Bleu</string>
+    <string name="ORANGE">Orange</string>
+    <string name="DARKBLUE">Bleu foncé</string>
+    <string name="LIGHTBLUE">Bleu clair</string>
+    <string name="Green">Vert</string>
+    <string name="Grey">Gris</string>
+    <string name="description">Consulter la date et l\'heure en un clin d\'œil</string>
+    <string name="colon">:</string>
+</resources>

@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:app="http://schemas.android.com/apk/res/com.motorola.cmp">
+    <LinearLayout android:gravity="left" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <ImageView android:id="@id/brand_logo" android:layout_width="86.0dip" android:layout_height="30.0dip" android:layout_marginLeft="7.0dip" android:layout_marginTop="5.0dip" android:layout_marginBottom="5.0dip" />
+    </LinearLayout>
+    <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <ImageButton android:id="@id/preview_button" android:layout_width="?samplePlayButtonSize" android:layout_height="?samplePlayButtonSize" android:layout_marginLeft="10.0dip" android:src="@drawable/button_play_sample" />
+        <ProgressBar android:id="@id/preview_button_progress" android:visibility="gone" android:layout_width="?samplePlayButtonSize" android:layout_height="?samplePlayButtonSize" android:layout_marginLeft="10.0dip" />
+        <LinearLayout android:gravity="center_vertical" android:orientation="vertical" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip" android:layout_weight="1.0">
+            <TextView android:textAppearance="@style/textMinorBold" android:ellipsize="end" android:id="@id/song_title" android:layout_width="fill_parent" android:layout_height="wrap_content" android:maxLines="2" />
+            <TextView android:textAppearance="@style/textMinor" android:ellipsize="end" android:id="@id/song_album_title" android:layout_width="fill_parent" android:layout_height="wrap_content" android:maxLines="2" />
+        </LinearLayout>
+        <Button android:id="@id/purchase_song_button" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="10.0dip" android:minWidth="100.0dip" />
+    </LinearLayout>
+    <TextView android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/buy_album" style="@style/textViewListSeparator" />
+    <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <com.motorola.cmp.views.RemoteImageView android:id="@id/album_art_thumbnail" android:layout_width="?albumThumbSize" android:layout_height="?albumThumbSize" android:layout_marginLeft="8.0dip" />
+        <LinearLayout android:orientation="vertical" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip" android:layout_weight="1.0">
+            <TextView android:textAppearance="@style/textMinorBold" android:ellipsize="end" android:id="@id/album_title" android:layout_width="fill_parent" android:layout_height="wrap_content" android:maxLines="2" />
+            <TextView android:textAppearance="@style/textMinor" android:ellipsize="end" android:id="@id/artist_name" android:layout_width="fill_parent" android:layout_height="wrap_content" android:maxLines="2" />
+        </LinearLayout>
+        <Button android:id="@id/purchase_album_button" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="10.0dip" android:minWidth="100.0dip" />
+    </LinearLayout>
+</LinearLayout>

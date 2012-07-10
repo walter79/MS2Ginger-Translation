@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<FrameLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:moto.res="http://schemas.android.com/apk/res/com.motorola.android.widget">
+    <ImageView android:id="@id/dlna_playback_bg" android:layout_width="fill_parent" android:layout_height="fill_parent" android:src="@drawable/overlay" android:scaleType="centerCrop" />
+    <com.motorola.android.widget.MotoFlowView android:id="@id/dlna_motoflowwidget_3dnowplaying" android:layout_width="fill_parent" android:layout_height="wrap_content" moto.res:isMainItemLive="true" moto.res:mainItemOffsetY="60.0dip" moto.res:mainItemWidth="256.0dip" moto.res:mainItemHeight="300.0dip" moto.res:backgroundImage="@drawable/card_wall" moto.res:shadowImage="@blur.res:drawable/card_shadow" moto.res:lightX="0.0dip" moto.res:lightY="450.0dip" moto.res:lightZ="1000.0dip" moto.res:shadowOffset="0.0dip" />
+    <LinearLayout android:gravity="top|center" android:layout_gravity="top|center" android:orientation="vertical" android:id="@id/dlna_player_main" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <LinearLayout android:layout_gravity="bottom|center" android:id="@id/dlna_player_updates_container" android:layout_width="fill_parent" android:layout_height="60.0dip" android:layout_marginLeft="10.0dip" android:layout_marginTop="10.0dip" android:layout_marginRight="10.0dip" android:layout_marginBottom="10.0dip" />
+        <TextView android:textSize="16.0sp" android:textColor="#ffffffff" android:gravity="center" android:layout_gravity="center" android:id="@id/dlna_playback_artist_name" android:layout_width="fill_parent" android:layout_height="wrap_content" android:shadowColor="#cc000000" android:shadowDx="2.0" android:shadowDy="2.0" android:shadowRadius="3.0" android:layout_weight="0.0" />
+        <TextView android:textSize="18.0sp" android:textStyle="bold" android:textColor="#ffffffff" android:gravity="center" android:layout_gravity="center" android:id="@id/dlna_playback_track_name" android:layout_width="fill_parent" android:layout_height="wrap_content" android:shadowColor="#cc000000" android:shadowDx="2.0" android:shadowDy="2.0" android:shadowRadius="3.0" android:layout_weight="0.0" />
+        <TextView android:textSize="16.0sp" android:textColor="#ffffffff" android:gravity="center" android:layout_gravity="center" android:id="@id/dlna_playback_album_name" android:layout_width="fill_parent" android:layout_height="wrap_content" android:includeFontPadding="false" android:shadowColor="#cc000000" android:shadowDx="2.0" android:shadowDy="2.0" android:shadowRadius="3.0" android:layout_weight="0.0" />
+        <FrameLayout android:layout_gravity="center" android:id="@id/dlna_album_art" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_margin="5.0dip">
+            <ImageView android:id="@id/dlna_playback_album_art" android:background="@drawable/ic_album_generic_stream" android:layout_width="220.0dip" android:layout_height="220.0dip" android:src="@drawable/ic_album_generic_stream" android:scaleType="centerCrop" />
+            <ImageView android:gravity="top|right|center" android:layout_gravity="top|right|center" android:id="@id/dlna_playback_details_overlay" android:focusable="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_margin="3.0dip" android:src="@blur.res:drawable/ic_control_music_info" />
+            <ProgressBar android:gravity="center" android:id="@id/dlna_progress" android:visibility="gone" android:layout_width="32.0dip" android:layout_height="32.0dip" android:layout_weight="0.0" />
+        </FrameLayout>
+        <LinearLayout android:orientation="vertical" android:id="@id/dlna_player_shadow" android:background="@drawable/player_shadow_port" android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <TextView android:textSize="16.0sp" android:textStyle="bold" android:textColor="#ffffffff" android:gravity="top|center" android:layout_gravity="top|center" android:id="@id/dlna_play_on_text" android:paddingTop="5.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:shadowColor="#cc000000" android:shadowDx="2.0" android:shadowDy="2.0" android:shadowRadius="3.0" />
+            <LinearLayout android:gravity="center" android:layout_gravity="center" android:orientation="vertical" android:id="@id/dlna_player_lyrics_container" android:layout_width="fill_parent" android:layout_height="64.0dip" android:layout_marginTop="3.0dip" android:layout_marginBottom="5.0dip" android:layout_weight="1.0">
+                <LinearLayout android:gravity="center" android:layout_gravity="center" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                    <TextView android:textSize="16.0sp" android:textStyle="bold" android:textColor="#ffffffff" android:gravity="center" android:layout_gravity="center" android:id="@id/dlna_player_lyrics_line1" android:focusable="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:shadowColor="#cc000000" android:shadowDx="2.0" android:shadowDy="2.0" android:shadowRadius="3.0" />
+                    <ImageView android:gravity="left" android:layout_gravity="left" android:id="@id/dlna_resync_icon" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="5.0dip" android:src="@drawable/ic_lyric_out_of_sync" android:layout_weight="0.0" />
+                </LinearLayout>
+                <TextView android:textSize="14.0sp" android:textStyle="normal" android:textColor="#ffffffff" android:gravity="center" android:id="@id/dlna_player_lyrics_line2" android:layout_width="fill_parent" android:layout_height="wrap_content" android:shadowColor="#cc000000" android:shadowDx="2.0" android:shadowDy="2.0" android:shadowRadius="3.0" />
+            </LinearLayout>
+            <ListView android:id="@android:id/list" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+        </LinearLayout>
+    </LinearLayout>
+    <LinearLayout android:gravity="bottom" android:layout_gravity="bottom" android:orientation="vertical" android:id="@id/dlna_player_controls_container" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <include layout="@layout/audio_player_common" />
+    </LinearLayout>
+    <LinearLayout android:gravity="bottom" android:layout_gravity="bottom" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <include android:layout_weight="0.0" layout="@layout/live_feed_badge" />
+    </LinearLayout>
+</FrameLayout>

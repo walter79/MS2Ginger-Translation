@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+    <string name="app_name">Βαθμονόμηση πυξίδας</string>
+    <string name="calibrator_inst_title">Βαθμονόμηση</string>
+    <string name="calibrator_inst">Περιστρέψτε το τηλέφωνο σχηματίζοντας νοητά τον αριθμό οκτώ σε όλους τους πιθανούς άξονες. Η πυξίδα έχει βαθμονομηθεί, όταν η εικόνα γίνει πράσινη.</string>
+    <string name="calibrator_face_title">Η όψη βαθμονομήθηκε!</string>
+    <string name="calibrator_horizontal_inst">Ανοίξτε το συρόμενο πληκτρολόγιο, για να βαθμονομήσετε επίσης το τηλέφωνο στην ανοιχτή θέση.</string>
+    <string name="calibrator_vertical_inst">Κλείστε το συρόμενο πληκτρολόγιο, για να βαθμονομήσετε επίσης το τηλέφωνο στην κλειστή θέση.</string>
+    <string name="calibrator_quit_inst">Ή πατήστε \"Τερματισμός\", αν έχετε βαθμονομήσει ήδη και τις δύο κατευθύνσεις.</string>
+    <string name="calibrator_start_button">Βαθμονόμηση</string>
+    <string name="calibrator__otherface_button">Βαθμονόμηση\n άλλης όψης</string>
+    <string name="calibrator_quit_button">Τερματισμός</string>
+    <string name="calibrator_done_quit_inst">Η βαθμονόμηση ολοκληρώθηκε! Πατήστε \"Τερματισμός\".</string>
+    <string name="calibrator_fail_message">Η βαθμονόμηση απέτυχε. Προσπαθήστε ξανά!</string>
+    <string name="calibrator_ani_inst">Περιστρέψτε το τηλέφωνο εμπρός και πίσω και προς τους τρεις άξονες, μέχρι η εικόνα της πυξίδας να γίνει πράσινη.</string>
+</resources>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<com.motorola.blur.conversations.ui.slideshow.SlideListItemView android:layout_height="?android:listPreferredItemHeight" style="@blur.res:style/Blur.ListItem"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout style="@blur.res:style/Blur.ListItemCol2">
+        <ImageView android:id="@id/image_video_preview" android:visibility="gone" android:layout_width="@blur.res:dimen/listitem_contact_photo_size" android:layout_height="@blur.res:dimen/listitem_contact_photo_size" android:layout_marginRight="@blur.res:dimen/listitem_photo_hspacing" />
+        <ImageView android:id="@id/sound_icon" android:visibility="gone" android:layout_width="@blur.res:dimen/listitem_contact_photo_size" android:layout_height="@blur.res:dimen/listitem_contact_photo_size" android:layout_marginRight="@blur.res:dimen/listitem_photo_hspacing" />
+    </LinearLayout>
+    <LinearLayout android:orientation="vertical" android:layout_weight="1.0" style="@blur.res:style/Blur.ListItemCol3">
+        <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="@blur.res:dimen/listitem_vspacing">
+            <TextView android:id="@id/slide_number_text" android:layout_marginRight="@blur.res:dimen/listitem_hspacing" android:layout_weight="1.0" style="@blur.res:style/Blur.TxtListItemA" />
+        </LinearLayout>
+        <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@blur.res:dimen/listitem_vspacing">
+            <TextView android:id="@id/text_preview" android:layout_marginRight="@blur.res:dimen/listitem_hspacing" android:layout_weight="1.0" style="@blur.res:style/Blur.TxtListItemB.SingleLine" />
+        </LinearLayout>
+    </LinearLayout>
+</com.motorola.blur.conversations.ui.slideshow.SlideListItemView>

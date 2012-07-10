@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <FrameLayout android:id="@id/FrameAlbumArt" android:background="@drawable/sleeve_vert" android:layout_width="fill_parent" android:layout_height="128.0dip">
+        <ImageView android:layout_gravity="left" android:id="@id/album_appwidget_bg5" android:layout_width="123.0dip" android:layout_height="fill_parent" android:layout_marginLeft="228.0dip" android:src="@drawable/ic_single_list_generic_music" android:scaleType="fitXY" />
+        <ImageView android:layout_gravity="left" android:id="@id/album_appwidget_bg4_shadow" android:layout_width="8.0dip" android:layout_height="fill_parent" android:layout_marginLeft="294.0dip" android:src="@drawable/shadow_v" android:scaleType="fitXY" />
+        <ImageView android:layout_gravity="left" android:id="@id/album_appwidget_bg4" android:layout_width="123.0dip" android:layout_height="fill_parent" android:layout_marginLeft="171.0dip" android:src="@drawable/ic_single_list_generic_music" android:scaleType="fitXY" />
+        <ImageView android:layout_gravity="left" android:id="@id/album_appwidget_bg3_shadow" android:layout_width="8.0dip" android:layout_height="fill_parent" android:layout_marginLeft="237.0dip" android:src="@drawable/shadow_v" android:scaleType="fitXY" />
+        <ImageView android:layout_gravity="left" android:id="@id/album_appwidget_bg3" android:layout_width="123.0dip" android:layout_height="fill_parent" android:layout_marginLeft="114.0dip" android:src="@drawable/ic_single_list_generic_music" android:scaleType="fitXY" />
+        <ImageView android:layout_gravity="left" android:id="@id/album_appwidget_bg2_shadow" android:layout_width="8.0dip" android:layout_height="fill_parent" android:layout_marginLeft="180.0dip" android:src="@drawable/shadow_v" android:scaleType="fitXY" />
+        <ImageView android:layout_gravity="left" android:id="@id/album_appwidget_bg2" android:layout_width="123.0dip" android:layout_height="fill_parent" android:layout_marginLeft="57.0dip" android:src="@drawable/ic_single_list_generic_music" android:scaleType="fitXY" />
+        <ImageView android:layout_gravity="left" android:id="@id/album_appwidget_bg1_shadow" android:layout_width="8.0dip" android:layout_height="fill_parent" android:layout_marginLeft="123.0dip" android:src="@drawable/shadow_v" android:scaleType="fitXY" />
+        <ImageView android:layout_gravity="left" android:id="@id/album_appwidget_bg1" android:layout_width="123.0dip" android:layout_height="fill_parent" android:src="@drawable/ic_single_list_generic_music" android:scaleType="fitXY" />
+    </FrameLayout>
+    <RelativeLayout android:background="@blur.res:drawable/base_vert" android:paddingLeft="10.0dip" android:paddingTop="5.0dip" android:paddingRight="10.0dip" android:paddingBottom="5.0dip" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_weight="1.0" android:layout_below="@id/FrameAlbumArt">
+        <LinearLayout android:orientation="vertical" android:id="@id/LinearLayout01" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_below="@id/FrameAlbumArt">
+            <LinearLayout android:orientation="vertical" android:id="@id/album_appwidget1" android:fadingEdge="none" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <TextView android:textSize="14.0sp" android:typeface="sans" android:textStyle="normal" android:textColor="#ff558bc9" android:ellipsize="marquee" android:layout_gravity="top" android:id="@id/recently" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/recently_added" android:singleLine="true" android:marqueeRepeatLimit="marquee_forever" />
+                <TextView android:textSize="16.0sp" android:typeface="sans" android:textStyle="normal" android:textColor="#ff000000" android:ellipsize="marquee" android:id="@id/artist1" android:layout_width="fill_parent" android:layout_height="wrap_content" android:singleLine="true" android:marqueeRepeatLimit="marquee_forever" />
+                <TextView android:textSize="16.0sp" android:typeface="sans" android:textStyle="bold" android:textColor="#ff000000" android:id="@id/title1" android:layout_width="fill_parent" android:layout_height="wrap_content" android:singleLine="true" />
+            </LinearLayout>
+            <LinearLayout android:orientation="vertical" android:id="@id/album_appwidget2" android:fadingEdge="none" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="12.0dip">
+                <TextView android:textSize="16.0sp" android:typeface="sans" android:textStyle="normal" android:textColor="#ff000000" android:ellipsize="none" android:id="@id/artist2" android:layout_width="fill_parent" android:layout_height="wrap_content" android:singleLine="true" />
+                <TextView android:textSize="16.0sp" android:typeface="sans" android:textStyle="bold" android:textColor="#ff000000" android:id="@id/title2" android:layout_width="fill_parent" android:layout_height="wrap_content" android:singleLine="true" />
+            </LinearLayout>
+            <LinearLayout android:orientation="vertical" android:id="@id/album_appwidget3" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="12.0dip">
+                <TextView android:textSize="16.0sp" android:typeface="sans" android:textStyle="normal" android:textColor="#ff000000" android:ellipsize="none" android:id="@id/artist3" android:layout_width="fill_parent" android:layout_height="wrap_content" android:singleLine="true" />
+                <TextView android:textSize="16.0sp" android:typeface="sans" android:textStyle="bold" android:textColor="#ff000000" android:id="@id/title3" android:layout_width="fill_parent" android:layout_height="wrap_content" android:singleLine="true" />
+            </LinearLayout>
+        </LinearLayout>
+        <FrameLayout android:id="@id/album_time" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_alignParentBottom="true">
+            <TextView android:textSize="14.0sp" android:typeface="sans" android:textStyle="normal" android:textColor="#ff838484" android:layout_gravity="bottom|left|center" android:id="@id/addedtime" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+        </FrameLayout>
+        <FrameLayout android:layout_gravity="bottom|right|center" android:id="@id/progress_wrapper" android:visibility="gone" android:layout_width="35.0dip" android:layout_height="35.0dip" />
+    </RelativeLayout>
+</RelativeLayout>

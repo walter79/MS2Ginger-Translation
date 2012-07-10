@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="horizontal" android:id="@id/textAreaItem" android:background="@com.motorola.android.widget:drawable/header_bkg" android:layout_width="fill_parent" android:layout_height="60.0dip" style="@com.motorola.android.widget:style/Interactive_Titlebar">
+        <ImageView android:layout_gravity="left" android:id="@id/event_image" android:background="@blur.res:drawable/ic_single_list_generic_artist" android:padding="0.0dip" android:layout_width="60.0dip" android:layout_height="fill_parent" android:layout_marginRight="10.0dip" android:scaleType="centerCrop" android:layout_weight="0.0" />
+        <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_weight="0.0">
+            <TextView android:textAppearance="?android:textAppearanceLarge" android:textSize="20.0sp" android:textStyle="bold" android:textColor="#ffffffff" android:gravity="center_vertical" android:layout_gravity="center_vertical" android:id="@id/top_text_item" android:paddingBottom="3.0dip" android:layout_width="fill_parent" android:layout_height="fill_parent" android:maxLines="2" android:includeFontPadding="false" android:shadowColor="#ff000000" android:shadowDx="0.0" android:shadowDy="-2.0" android:shadowRadius="1.0" />
+        </LinearLayout>
+    </LinearLayout>
+    <RelativeLayout android:orientation="vertical" android:background="#ffffffff" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_weight="1.0"
+      xmlns:android="http://schemas.android.com/apk/res/android">
+        <ScrollView android:gravity="center_horizontal" android:orientation="vertical" android:scrollbars="horizontal|vertical" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_weight="1.0"
+          xmlns:android="http://schemas.android.com/apk/res/android">
+            <LinearLayout android:orientation="vertical" android:background="#ffffffff" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_weight="1.0">
+                <RelativeLayout android:orientation="horizontal" android:background="#ffffffff" android:layout_width="fill_parent" android:layout_height="fill_parent">
+                    <TextView android:textSize="20.0sp" android:textStyle="bold" android:textColor="#ff000000" android:ellipsize="marquee" android:layout_gravity="left" android:id="@id/event_title_text" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginLeft="10.0dip" android:layout_marginTop="10.0dip" android:maxLines="2" android:layout_alignParentLeft="true" />
+                    <TextView android:textSize="16.0sp" android:textColor="#ff000000" android:ellipsize="marquee" android:layout_gravity="left" android:id="@id/bottom_text_item" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginLeft="10.0dip" android:layout_marginTop="10.0dip" android:maxLines="1" android:layout_weight="0.0" android:layout_below="@id/event_title_text" />
+                    <TextView android:textSize="16.0sp" android:textColor="#ff000000" android:ellipsize="marquee" android:id="@id/event_time" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginLeft="10.0dip" android:maxLines="1" android:layout_weight="0.0" android:layout_below="@id/bottom_text_item" />
+                </RelativeLayout>
+                <TextView android:textSize="16.0sp" android:textColor="#ff000000" android:id="@id/event_place" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip" android:maxLines="2" />
+                <TextView android:textSize="16.0sp" android:textColor="#ff000000" android:id="@id/event_address" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginLeft="10.0dip" android:maxLines="2" android:layout_below="@id/event_place" />
+                <View android:id="@id/title_separator" android:background="@android:drawable/divider_horizontal_textfield" android:layout_width="fill_parent" android:layout_height="1.0dip" android:layout_marginTop="10.0dip" android:layout_weight="0.0" />
+                <RelativeLayout android:orientation="horizontal" android:background="#ffffffff" android:layout_width="fill_parent" android:layout_height="50.0dip" android:layout_weight="1.0">
+                    <ImageView android:id="@id/event_place_map_image" android:layout_width="60.0dip" android:layout_height="40.0dip" android:layout_marginTop="5.0dip" android:layout_marginBottom="5.0dip" android:layout_alignParentRight="true" />
+                    <TextView android:textSize="16.0sp" android:textColor="#ff000000" android:gravity="left" android:layout_gravity="left" android:id="@id/event_place_locator" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginLeft="10.0dip" android:layout_marginTop="10.0dip" android:layout_marginBottom="10.0dip" android:maxLines="2" android:layout_toLeftOf="@id/event_place_map_image" />
+                </RelativeLayout>
+                <View android:id="@id/title_separator" android:background="@android:drawable/divider_horizontal_textfield" android:layout_width="fill_parent" android:layout_height="1.0dip" android:layout_marginBottom="10.0dip" android:layout_weight="0.0" />
+                <LinearLayout android:gravity="fill_horizontal" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="10.0dip">
+                    <Button android:textColor="#ff000000" android:id="@id/rsvpbutton" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="5.0dip" android:text="@string/are_you_going" android:layout_weight="1.0" />
+                    <RelativeLayout android:id="@id/sendbutton_layout" android:layout_width="110.0dip" android:layout_height="wrap_content" android:layout_marginTop="5.0dip" android:layout_weight="1.0">
+                        <Button android:textColor="#ff000000" android:id="@id/sendbutton" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/send" android:layout_weight="1.0" android:layout_centerInParent="true" />
+                        <ProgressBar android:gravity="center" android:layout_gravity="center" android:id="@id/progress" android:visibility="gone" android:layout_width="25.0dip" android:layout_height="25.0dip" android:layout_centerInParent="true" style="@android:style/Widget.ProgressBar.Small" />
+                    </RelativeLayout>
+                </LinearLayout>
+                <RelativeLayout android:layout_width="fill_parent" android:layout_height="wrap_content">
+                    <ImageView android:layout_gravity="right" android:id="@id/provider_logo" android:layout_width="200.0dip" android:layout_height="fill_parent" android:src="@blur.res:drawable/ic_launcher_account" android:layout_alignParentRight="true" />
+                </RelativeLayout>
+            </LinearLayout>
+        </ScrollView>
+    </RelativeLayout>
+    <RelativeLayout android:layout_gravity="bottom" android:id="@id/event_action_bar" android:background="#ff000000" android:layout_width="fill_parent" android:layout_height="50.0dip">
+        <com.motorola.android.widget.ActionBar android:id="@id/abwidget" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="0.0dip" android:layout_alignParentBottom="true" />
+        <LinearLayout android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_weight="1.0">
+                <ProgressBar android:id="@id/addcalendarprogress" android:visibility="gone" android:layout_width="25.0dip" android:layout_height="25.0dip" android:layout_centerInParent="true" style="\?android:attr/progressBarStyleInverse" />
+            </RelativeLayout>
+            <RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_weight="1.0">
+                <ProgressBar android:id="@id/buy_progress" android:visibility="gone" android:layout_width="25.0dip" android:layout_height="25.0dip" android:layout_centerInParent="true" style="\?android:attr/progressBarStyleInverse" />
+            </RelativeLayout>
+        </LinearLayout>
+    </RelativeLayout>
+</LinearLayout>

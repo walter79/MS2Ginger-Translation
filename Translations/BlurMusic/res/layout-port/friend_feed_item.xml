@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="horizontal" android:id="@id/friendfeed_name_date_parent" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <TextView android:id="@id/friendfeed_list_item_name" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginRight="3.0dip" android:layout_weight="1.0" style="@blur.res:style/Blur.TxtListItemA" />
+        <TextView android:id="@id/friendfeed_list_item_date" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@blur.res:style/Blur.TxtListItemD" />
+    </LinearLayout>
+    <TextView android:id="@id/friendfeed_list_item_text" android:layout_width="fill_parent" android:layout_height="wrap_content" style="@style/TitleTxt" />
+    <TextView android:id="@id/friendfeed_list_item_content" android:layout_width="fill_parent" android:layout_height="wrap_content" android:maxLines="4" style="@blur.res:style/Blur.TxtListItemE" />
+    <ImageView android:id="@id/friend_feed_music_icon" android:background="@drawable/album_border_large" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+</LinearLayout>

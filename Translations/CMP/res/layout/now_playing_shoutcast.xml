@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RelativeLayout android:id="@id/rl_player" android:background="@color/gingerbread_white" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:app="http://schemas.android.com/apk/res/com.motorola.cmp">
+    <com.motorola.cmp.views.TextScroller android:textAppearance="@android:style/TextAppearance.WindowTitle" android:id="@id/music_text_title" android:background="@drawable/title_bar" android:layout_width="fill_parent" android:layout_height="25.0sp" style="\?android:attr/windowTitleBackgroundStyle" />
+    <com.motorola.cmp.views.AlbumView android:id="@id/music_album_art" android:layout_width="fill_parent" android:layout_height="wrap_content" android:src="@drawable/no_coverart" android:scaleType="fitCenter" android:layout_below="@id/music_text_title" app:datamode="net" app:cacheImage="false" app:defaultArt="@drawable/no_coverart" />
+    <ProgressBar android:id="@id/music_progress_buffering" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="4.0dip" android:layout_marginRight="3.0dip" android:layout_alignParentRight="true" style="\?android:attr/progressBarStyleSmall" />
+    <LinearLayout android:orientation="vertical" android:background="@color/gingerbread_white" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_alignParentBottom="true">
+        <com.motorola.cmp.views.LyricView android:id="@id/music_lyric_view" android:layout_width="fill_parent" android:layout_height="85.0dip" />
+        <LinearLayout android:orientation="horizontal" android:id="@id/ll_controls" android:background="@drawable/play_bar_bottom2" android:layout_width="fill_parent" android:layout_height="63.0dip" android:layout_marginTop="-1.0px" android:layout_alignParentBottom="true">
+            <ImageView android:layout_width="0.0dip" android:layout_height="fill_parent" android:src="@drawable/empty" android:scaleType="center" android:layout_weight="1.0" />
+            <ImageView android:id="@id/music_stop" android:background="@drawable/bg_nowplaying" android:layout_width="0.0dip" android:layout_height="fill_parent" android:src="@drawable/button_stop_off" android:scaleType="center" android:layout_weight="1.0" />
+            <ImageView android:layout_width="0.0dip" android:layout_height="fill_parent" android:src="@drawable/empty" android:scaleType="center" android:layout_weight="1.0" />
+        </LinearLayout>
+    </LinearLayout>
+</RelativeLayout>

@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ScrollView android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:app="http://schemas.android.com/apk/res/com.motorola.cmp">
+    <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <com.motorola.cmp.views.TopBar android:id="@id/top_bar" android:layout_width="fill_parent" android:layout_height="42.0px" android:layout_marginTop="0.0dip" app:closeButton="false" app:title="@string/tunewiki_community" />
+        <LinearLayout android:orientation="vertical" android:id="@id/everything_layout" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <LinearLayout android:orientation="vertical" android:paddingLeft="10.0px" android:paddingTop="10.0px" android:paddingBottom="10.0px" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="10.0px" android:layout_marginTop="15.0px" android:layout_marginRight="10.0px" android:minHeight="160.0px">
+                <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                    <com.motorola.cmp.views.RemoteImageView android:id="@id/img_top" android:layout_width="100.0px" android:layout_height="100.0px" />
+                    <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="10.0px" android:layout_marginRight="10.0px">
+                        <TextView android:textSize="18.0sp" android:textStyle="bold" android:textColor="#ffffffff" android:gravity="center" android:id="@id/top_text1" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+                        <TextView android:textSize="15.0sp" android:textColor="#ffffffff" android:id="@id/top_text2" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+                    </LinearLayout>
+                </LinearLayout>
+                <com.motorola.cmp.views.TextArraySwitcher android:id="@id/top_scroller" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="5.0px" android:layout_marginBottom="5.0px" />
+                <TableLayout android:id="@id/table_actions" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                    <TableRow android:gravity="center_vertical" android:id="@id/row_add_friend" android:layout_marginTop="10.0px">
+                        <ImageButton android:id="@id/button_add_friend" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+                        <TextView android:id="@id/text_add_friend" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="5.0px" android:text="@string/send_friend_request" />
+                    </TableRow>
+                    <TableRow android:gravity="center_vertical" android:id="@id/row_watch_video" android:layout_marginTop="10.0px">
+                        <ImageButton android:id="@id/button_watch_video" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+                        <TextView android:id="@id/text_watch_video" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_marginLeft="5.0px" android:layout_marginRight="5.0px" android:lines="2" android:layout_weight="1.0" />
+                    </TableRow>
+                    <TableRow android:gravity="center_vertical" android:id="@id/row_playlists" android:layout_marginTop="10.0px">
+                        <ImageButton android:id="@id/button_playlists" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+                        <TextView android:id="@id/text_playlists" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="5.0px" android:text="" />
+                    </TableRow>
+                </TableLayout>
+            </LinearLayout>
+            <com.motorola.cmp.views.ShoutwallGroup android:id="@id/shoutwall" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="10.0px" />
+        </LinearLayout>
+    </LinearLayout>
+</ScrollView>

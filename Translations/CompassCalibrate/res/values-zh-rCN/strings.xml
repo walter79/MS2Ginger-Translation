@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+    <string name="app_name">校准指南针</string>
+    <string name="calibrator_inst_title">校准</string>
+    <string name="calibrator_inst">在任意轴上沿 8 字形运动旋转手机。 图像变成绿色后表示指南针已校准。</string>
+    <string name="calibrator_face_title">此面已校准!</string>
+    <string name="calibrator_horizontal_inst">滑出键盘也可以校准打开的滑道.</string>
+    <string name="calibrator_vertical_inst">滑入键盘也可以校准关闭的滑道.</string>
+    <string name="calibrator_quit_inst">如果两个方向都已校准,可按退出.</string>
+    <string name="calibrator_start_button">校准</string>
+    <string name="calibrator__otherface_button">校准\n另一面</string>
+    <string name="calibrator_quit_button">退出</string>
+    <string name="calibrator_done_quit_inst">校准完成！ 按退出。</string>
+    <string name="calibrator_fail_message">校准失败。请重试！</string>
+    <string name="calibrator_ani_inst">沿3个轴来回旋转手机,直到指南针图像变成绿色.</string>
+</resources>

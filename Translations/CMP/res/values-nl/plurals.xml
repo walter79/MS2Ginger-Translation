@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+    <plurals name="N_additional_songs">
+        <item quantity="other">en %d soortgelijke nummers</item>
+        <item quantity="one">en één soortgelijk nummer</item>
+    </plurals>
+    <plurals name="N_delete_songs">
+        <item quantity="other">Wilt u deze %d nummers definitief verwijderen?</item>
+        <item quantity="one">Wilt u dit nummer definitief verwijderen?</item>
+    </plurals>
+    <plurals name="N_playlists_deleted">
+        <item quantity="other">%d afspeellijsten verwijderd.</item>
+        <item quantity="one">Afspeellijst verwijderd.</item>
+    </plurals>
+    <plurals name="N_songs_purchased">
+        <item quantity="other">%d nummers aangeschaft en in de downloadwachtrij geplaatst.</item>
+        <item quantity="one">Nummer aangeschaft en in de downloadwachtrij geplaatst.</item>
+    </plurals>
+    <plurals name="N_songs_purchased_wifi_blocked">
+        <item quantity="other">%d nummers aangeschaft. Het downloaden begint zodra u een Wi-Fi-verbinding maakt.</item>
+        <item quantity="one">Nummer aangeschaft. Het downloaden begint zodra u een Wi-Fi-verbinding maakt.</item>
+    </plurals>
+    <plurals name="N_tracks_added_playlist">
+        <item quantity="other">%d nummers aan afspeellijst toegevoegd.</item>
+        <item quantity="one">Eén nummer toegevoegd aan de afspeellijst.</item>
+    </plurals>
+    <plurals name="N_tracks_deleted_from_playlist">
+        <item quantity="other">%d nummers uit de afspeellijst verwijderd.</item>
+        <item quantity="one">Eén nummer uit afspeellijst verwijderd.</item>
+    </plurals>
+    <plurals name="N_tracks_deleted_from_storage">
+        <item quantity="other">%d nummers van apparaat verwijderd.</item>
+        <item quantity="one">Eén nummer van apparaat verwijderd.</item>
+    </plurals>
+    <plurals name="song_will_start_N_seconds">
+        <item quantity="other">Het nummer wordt over %d seconden afgespeeld</item>
+        <item quantity="one">Het nummer wordt over één seconde afgespeeld</item>
+    </plurals>
+</resources>

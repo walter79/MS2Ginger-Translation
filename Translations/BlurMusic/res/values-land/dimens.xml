@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+    <dimen name="dashboard_btn_margin_top">5.0dip</dimen>
+    <dimen name="dashboard_btn_margin_bottom">0.0dip</dimen>
+    <dimen name="dashboard_btn_margin_left">0.0dip</dimen>
+    <dimen name="dashboard_btn_margin_right">5.0dip</dimen>
+    <dimen name="dashboard_card_w">256.0dip</dimen>
+    <dimen name="dashboard_card_h">256.0dip</dimen>
+    <item type="dimen" name="dashboard_card_badge_w">@dimen/dashboard_card_w</item>
+    <dimen name="dashboard_card_badge_h">100.0dip</dimen>
+    <item type="dimen" name="dashboard_card_body_w">@dimen/dashboard_card_w</item>
+    <dimen name="dashboard_card_body_h">156.0dip</dimen>
+    <dimen name="dashboard_card_shadow_margin_bottom">162.0dip</dimen>
+    <dimen name="now_playing_card_w">256.0dip</dimen>
+    <dimen name="now_playing_card_h">215.0dip</dimen>
+    <item type="dimen" name="now_playing_card_badge_w">@dimen/now_playing_card_w</item>
+    <dimen name="now_playing_card_badge_h">70.0dip</dimen>
+    <item type="dimen" name="now_playing_card_body_w">@dimen/now_playing_card_w</item>
+    <dimen name="now_playing_card_body_h">145.0dip</dimen>
+</resources>

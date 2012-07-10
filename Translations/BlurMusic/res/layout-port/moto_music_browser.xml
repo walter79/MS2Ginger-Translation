@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<FrameLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.motorola.blur.music.TouchInterceptor android:textSize="18.0sp" android:id="@android:id/list" android:layout_width="fill_parent" android:layout_height="fill_parent" android:drawSelectorOnTop="false" android:layout_weight="1.0" android:fastScrollEnabled="true" />
+    <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <include android:visibility="gone" layout="@layout/simple_title" />
+        <include layout="@layout/tumbler_title" />
+        <include android:visibility="gone" layout="@layout/title" />
+    </LinearLayout>
+    <include layout="@layout/sd_error" />
+</FrameLayout>

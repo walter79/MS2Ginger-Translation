@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+    <string-array name="entries_list_preference">
+        <item>Analóg (csak nagyobb képernyőn)</item>
+        <item>Digitális</item>
+    </string-array>
+    <string-array name="entryvalues_list_preference">
+        <item>Analóg</item>
+        <item>Digitális</item>
+    </string-array>
+    <string-array name="clock_sort_options_values">
+        <item>0</item>
+        <item>1</item>
+    </string-array>
+    <array name="Colors" />
+    <array name="Colors_values" />
+</resources>

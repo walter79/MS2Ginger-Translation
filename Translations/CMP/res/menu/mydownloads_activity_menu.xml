@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<menu
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:icon="@drawable/menu_add_library" android:id="@id/menu_recently_added" android:title="@string/recently_added_songs" />
+</menu>

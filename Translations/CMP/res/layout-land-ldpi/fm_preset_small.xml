@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LinearLayout android:gravity="top|center" android:orientation="horizontal" android:background="@drawable/fm_preset_info_box_short" android:paddingTop="20.0px" android:layout_width="wrap_content" android:layout_height="252.0dip" android:minWidth="175.0px"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textAppearance="@style/textFMPresetGrey" android:gravity="top" android:id="@id/fm_card_preset" android:paddingTop="10.0px" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_marginRight="7.0px" />
+    <TextView android:textAppearance="@style/textFMFreqLarge" android:gravity="top" android:id="@id/fm_card_freq" android:layout_width="wrap_content" android:layout_height="fill_parent" />
+    <ImageView android:id="@id/fm_card_stereo" android:paddingTop="27.0px" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="7.0px" android:src="@drawable/fm_stereo_indicator" />
+</LinearLayout>

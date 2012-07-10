@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RelativeLayout android:paddingRight="?android:scrollbarSize" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/download_icon" android:background="@blur.res:drawable/ic_single_list_generic_music" android:layout_width="60.0dip" android:layout_height="60.0dip" android:scaleType="centerCrop" android:layout_alignParentLeft="true" />
+    <ImageView android:id="@id/item_action_button" android:layout_width="40.0dip" android:layout_height="40.0dip" android:layout_marginLeft="10.0dip" android:scaleType="center" android:layout_alignParentRight="true" android:layout_centerHorizontal="true" android:layout_centerVertical="true" />
+    <TextView android:id="@id/group_position_text" android:visibility="invisible" android:layout_width="0.0dip" android:layout_height="0.0dip" />
+    <TextView android:id="@id/child_position_text" android:visibility="invisible" android:layout_width="0.0dip" android:layout_height="0.0dip" />
+    <ImageView android:id="@id/line_divider" android:background="@drawable/divider_vertical_bright" android:layout_width="1.0dip" android:layout_height="60.0dip" android:layout_toLeftOf="@id/item_action_button" />
+    <LinearLayout android:orientation="vertical" android:id="@id/text_area" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="5.0dip" android:layout_toLeftOf="@id/line_divider" android:layout_toRightOf="@id/download_icon">
+        <TextView android:textAppearance="?android:textAppearanceMedium" android:textSize="16.0sp" android:textStyle="normal" android:textColor="#ff000000" android:ellipsize="marquee" android:id="@id/download_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="4.0dip" android:maxLines="1" android:scrollHorizontally="true" android:layout_toRightOf="@id/download_icon" android:layout_alignWithParentIfMissing="true" />
+        <RelativeLayout android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <TextView android:textSize="14.0sp" android:textColor="#ff555555" android:id="@id/text_info" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxLines="1" android:layout_alignParentLeft="true" android:layout_alignParentRight="true" />
+            <TextView android:textSize="14.0sp" android:textColor="#ff555555" android:id="@id/text_info_time" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="5.0dip" android:maxLines="1" android:layout_alignParentRight="true" />
+        </RelativeLayout>
+    </LinearLayout>
+</RelativeLayout>

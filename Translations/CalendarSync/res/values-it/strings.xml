@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+    <string name="app_name">Servizio di calendario</string>
+    <string name="format_accepted">Accettata: %1$s</string>
+    <string name="format_canceled">Annullata: %1$s</string>
+    <string name="format_declined">Rifiutata: %1$s</string>
+    <string name="format_new">%1$s</string>
+    <string name="format_tentative">Forse: %1$s</string>
+    <string name="format_updated">Aggiornamento: %1$s</string>
+    <string name="no_such_event">Questo evento non è disponibile.</string>
+    <string name="no_such_message">Impossibile trovare evento.</string>
+</resources>

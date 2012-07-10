@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+    <string name="create_playlist_create_text_prompt">Abre el teclado para nombrar tu nueva Playlist, o selecciona Guardar para nombrarla \"%1$s\".</string>
+    <string name="rename_playlist_same_prompt">Abre el teclado para cambiar el nombre de la lista de reproducción \"%1$s\".</string>
+    <string name="rename_playlist_diff_prompt">Abre el teclado para acmbiar el nombre de la lista de reproducción \"%1$s\" o selecciona Guardar para nombrarlo \"%2$s\".</string>
+</resources>

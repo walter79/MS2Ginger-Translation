@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+    <public type="drawable" name="app_icon" id="0x7f020000" />
+    <public type="string" name="app_name" id="0x7f030000" />
+    <public type="string" name="provider_label" id="0x7f030001" />
+    <public type="string" name="upgrade_out_of_memory_notification_ticker" id="0x7f030002" />
+    <public type="string" name="upgrade_out_of_memory_notification_title" id="0x7f030003" />
+    <public type="string" name="upgrade_out_of_memory_notification_text" id="0x7f030004" />
+    <public type="array" name="unrestricted_packages" id="0x7f040000" />
+</resources>

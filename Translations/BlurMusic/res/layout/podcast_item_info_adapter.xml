@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RelativeLayout android:id="@id/pod_item_layout" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/episode_download_icon" android:paddingLeft="5.0dip" android:paddingRight="5.0dip" android:visibility="gone" android:layout_width="60.0dip" android:layout_height="60.0dip" android:src="@drawable/ic_stream_podcast" android:layout_alignParentLeft="true" />
+    <RelativeLayout android:id="@id/pod_episode_layout" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_toRightOf="@id/episode_download_icon">
+        <TextView android:textSize="14.0sp" android:id="@id/episode_puddate_text" android:paddingRight="5.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_below="@id/episode_description_text" android:layout_alignParentRight="true" android:layout_alignParentBottom="true" />
+        <TextView android:textSize="14.0sp" android:id="@id/episode_downloaded_status" android:paddingRight="5.0dip" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/downloaded" android:layout_toRightOf="@id/episode_fresh_icon" android:layout_below="@id/episode_description_text" android:layout_alignLeft="@id/episode_description_text" android:layout_alignParentBottom="true" android:layout_alignWithParentIfMissing="true" />
+        <TextView android:textSize="14.0sp" android:ellipsize="end" android:id="@id/episode_description_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxLines="2" android:minLines="2" android:layout_toRightOf="@id/episode_fresh_icon" android:layout_below="@id/episode_title_text" />
+        <TextView android:textSize="18.0sp" android:textStyle="bold" android:ellipsize="end" android:id="@id/episode_title_text" android:layout_width="wrap_content" android:layout_height="23.0dip" android:singleLine="true" android:layout_toRightOf="@id/episode_fresh_icon" android:layout_alignParentTop="true" />
+        <ImageView android:id="@id/episode_fresh_icon" android:paddingLeft="5.0dip" android:paddingTop="5.0dip" android:paddingRight="5.0dip" android:visibility="invisible" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/player_podcast_fresh_episode" android:layout_alignParentLeft="true" android:layout_alignParentTop="true" />
+    </RelativeLayout>
+</RelativeLayout>

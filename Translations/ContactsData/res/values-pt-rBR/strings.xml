@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+    <string name="app_name">Dados dos contatos</string>
+    <string name="mms_body">Lhe enviou uma mensagem de SMS</string>
+    <string name="motoBlurProfileName">Agenda de endereços</string>
+    <string name="motoBlurUnconnectedProfileName">Agenda de endereços lite</string>
+    <string name="phoneContactsProfileName">Contatos do telefone</string>
+    <string name="simContactsProfileName">Contatos do SIM</string>
+    <string name="call_restiction_addcontact">As ligações estão restritas. Não é possível adicionar contato à agenda de contatos.</string>
+    <string name="call_restiction_editcontact">As ligações estão restritas. Não é possível editar a agenda de contatos.</string>
+    <string name="call_restiction_deletecontact">As ligações estão restritas. Não é possível excluir contato da agenda.</string>
+    <string name="call_restiction_updatecontact_tools">As ligações estão restritas. A atualização da agenda de contatos não é permitida.</string>
+</resources>

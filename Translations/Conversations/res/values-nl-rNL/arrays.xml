@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+    <string-array name="default_smiley_texts">
+        <item>:-)</item>
+        <item>:-(</item>
+        <item>;-)</item>
+        <item>:-P</item>
+        <item>=-O</item>
+        <item>:-*</item>
+        <item>:O</item>
+        <item>B-)</item>
+        <item>:-$</item>
+        <item>:-!</item>
+        <item>:-[</item>
+        <item>O:-)</item>
+        <item>:-\\</item>
+        <item>:\'(</item>
+        <item>:-X</item>
+        <item>:-D</item>
+        <item>o_O</item>
+    </string-array>
+    <string-array name="default_smiley_names">
+        <item>Blij</item>
+        <item>Bedroefd</item>
+        <item>Knipoog</item>
+        <item>Tong uitsteken</item>
+        <item>Verrast</item>
+        <item>Kussend</item>
+        <item>Schreeuwend</item>
+        <item>Cool</item>
+        <item>Geldzoeker</item>
+        <item>Mond vol tanden</item>
+        <item>Beschaamd</item>
+        <item>Engel</item>
+        <item>Twijfelend</item>
+        <item>Huilend</item>
+        <item>Lippen op elkaar</item>
+        <item>Lachend</item>
+        <item>Verward</item>
+    </string-array>
+    <string-array name="sms_priority_modes">
+        <item>Normaal</item>
+        <item>Dringend</item>
+    </string-array>
+    <string-array name="pref_national_language_table_settings_entries">
+        <item>Enkelvoudige Shift-methode</item>
+        <item>Shift-methode vergrendelen</item>
+    </string-array>
+</resources>

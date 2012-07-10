@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RelativeLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include layout="@layout/title" />
+    <LinearLayout android:gravity="center_vertical" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+      xmlns:android="http://schemas.android.com/apk/res/android">
+        <com.motorola.blur.music.widget.LeftSnakeGallery android:layout_gravity="center" android:id="@id/gallery" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginTop="60.0dip" android:spacing="2.0dip" android:layout_alignParentLeft="true" alexey:selectionScaleRate="1.3"
+          xmlns:alexey="http://schemas.android.com/apk/res/com.motorola.blur.music" />
+        <TextView android:textStyle="bold" android:id="@id/playback_artist_name" android:layout_width="fill_parent" android:layout_height="26.0dip" android:layout_marginLeft="20.0dip" android:layout_marginTop="5.0dip" android:layout_marginBottom="40.0dip" android:layout_alignParentBottom="true" />
+    </LinearLayout>
+</RelativeLayout>

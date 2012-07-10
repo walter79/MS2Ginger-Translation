@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+    <string name="app_name">ContactsData</string>
+    <string name="mms_body">Hat Ihnen eine MMS gesendet</string>
+    <string name="motoBlurProfileName">Adressbuch</string>
+    <string name="motoBlurUnconnectedProfileName">Lite-Adressbuch</string>
+    <string name="phoneContactsProfileName">Telefonkontakte</string>
+    <string name="simContactsProfileName">SIM-Kontakte</string>
+    <string name="call_restiction_addcontact">Anrufe beschränkt. Kontakt kann nicht zu Telefonbuch hinzugefügt werden.</string>
+    <string name="call_restiction_editcontact">Anrufe beschränkt. Kontakt kann nicht bearbeitet werden.</string>
+    <string name="call_restiction_deletecontact">Anrufe beschränkt. Kontakt kann nicht gelöscht werden.</string>
+    <string name="call_restiction_updatecontact_tools">Anrufe beschränkt. Telefonbuch darf nicht aktualisiert werden.</string>
+</resources>

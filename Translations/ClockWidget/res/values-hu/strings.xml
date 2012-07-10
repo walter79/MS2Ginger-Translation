@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+    <string name="widget_name">Dátum és Idő</string>
+    <string name="app_name">Dátum és Idő</string>
+    <string name="title">Dátum és Idő widget</string>
+    <string name="done">Kész</string>
+    <string name="text_24_hr_format">24 órás formátum</string>
+    <string name="Widget_type">Óra stílusa</string>
+    <string name="Clock_background_color">Óra hátterének színe</string>
+    <string name="choose_color">Válasszon színt</string>
+    <string name="select">Kiválaszt</string>
+    <string name="PURPLE">Lila</string>
+    <string name="GREEN">Zöld</string>
+    <string name="BLUE">Kék</string>
+    <string name="ORANGE">Narancs</string>
+    <string name="DARKBLUE">Sötétkék</string>
+    <string name="LIGHTBLUE">Világoskék</string>
+    <string name="Green">Zöld</string>
+    <string name="Grey">Szürke</string>
+    <string name="Clock_styles_screen">0</string>
+    <string name="clock_color_selection_screen">1</string>
+    <string name="description">Az aktuális dátum és idő</string>
+    <string name="colon">:</string>
+</resources>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RelativeLayout android:background="@drawable/base_4x2" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <FrameLayout android:id="@id/FramePodcastArt" android:layout_width="113.0dip" android:layout_height="fill_parent">
+        <ImageView android:id="@id/sleeve" android:layout_width="113.0dip" android:layout_height="fill_parent" android:src="@drawable/sleeve_4x2" />
+        <ImageView android:layout_gravity="center" android:id="@id/podcast_appwidget_bg" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ic_mp_podcast_large" android:scaleType="centerInside" />
+        <ImageView android:layout_gravity="center" android:id="@id/Podcast_art_bg" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" android:scaleType="centerCrop" />
+    </FrameLayout>
+    <FrameLayout android:id="@id/FramePodcastText" android:layout_width="fill_parent" android:layout_height="84.0dip" android:layout_marginTop="17.0dip" android:layout_marginRight="17.0dip" android:layout_toRightOf="@id/FramePodcastArt">
+        <ImageView android:id="@id/container" android:layout_width="fill_parent" android:layout_height="fill_parent" android:src="@drawable/widget_music_info" android:scaleType="fitXY" />
+        <LinearLayout android:orientation="vertical" android:id="@id/Podcast_appwidget" android:paddingLeft="8.0dip" android:paddingTop="3.0dip" android:paddingRight="8.0dip" android:paddingBottom="3.0dip" android:fadingEdge="none" android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <TextView android:textSize="16.0sp" android:typeface="sans" android:textStyle="normal" android:textColor="#ff000000" android:ellipsize="none" android:id="@id/Podcast_name" android:layout_width="fill_parent" android:layout_height="wrap_content" android:singleLine="true" />
+            <TextView android:textSize="18.0sp" android:typeface="sans" android:textStyle="bold" android:textColor="#ff000000" android:ellipsize="none" android:id="@id/title" android:layout_width="fill_parent" android:layout_height="wrap_content" android:maxLines="2" />
+            <TextView android:textSize="14.0sp" android:typeface="sans" android:textColor="#ff808080" android:gravity="bottom|right|center" android:id="@id/remtime" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+        </LinearLayout>
+    </FrameLayout>
+    <LinearLayout android:orientation="horizontal" android:id="@id/ButtonControl" android:paddingLeft="59.0dip" android:paddingRight="59.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="17.0dip" android:layout_toRightOf="@id/FramePodcastArt" android:layout_below="@id/FramePodcastText">
+        <ImageButton android:layout_gravity="left" android:id="@id/control_prev" android:background="@android:color/transparent" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/prev_selector" />
+        <ImageView android:id="@id/container" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_marginLeft="19.0dip" android:src="@drawable/widget_music_divider" />
+        <ImageButton android:layout_gravity="center" android:id="@id/control_pause" android:background="@android:color/transparent" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="19.0dip" android:src="@drawable/pause_selector" />
+        <ImageView android:id="@id/container" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_marginLeft="19.0dip" android:src="@drawable/widget_music_divider" />
+        <ImageButton android:layout_gravity="right" android:id="@id/control_next" android:background="@android:color/transparent" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="19.0dip" android:layout_marginRight="2.0dip" android:src="@drawable/next_selector" />
+    </LinearLayout>
+</RelativeLayout>

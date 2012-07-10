@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+    <string name="widget_name">Ημερομηνία και ώρα</string>
+    <string name="app_name">Ημερομηνία και ώρα</string>
+    <string name="title">Γραφικό στοιχείο ημερομηνίας και ώρας</string>
+    <string name="done">Τέλος</string>
+    <string name="text_24_hr_format">Χρήση μορφής 24ώρου</string>
+    <string name="Widget_type">Στυλ ρολογιού</string>
+    <string name="Clock_background_color">Χρώμα φόντου ρολογιού</string>
+    <string name="choose_color">Επιλογή χρώματος</string>
+    <string name="select">Επιλογή</string>
+    <string name="PURPLE">Μοβ</string>
+    <string name="GREEN">Πράσινο</string>
+    <string name="BLUE">Μπλε</string>
+    <string name="ORANGE">Πορτοκαλί</string>
+    <string name="DARKBLUE">Σκούρο μπλε</string>
+    <string name="LIGHTBLUE">Ανοιχτό μπλε</string>
+    <string name="Green">Πράσινο</string>
+    <string name="Grey">Γκρι</string>
+    <string name="description">Η τρέχουσα ημερομηνία και ώρα με μια ματιά</string>
+    <string name="colon">:</string>
+</resources>

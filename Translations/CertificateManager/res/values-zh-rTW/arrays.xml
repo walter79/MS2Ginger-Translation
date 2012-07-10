@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+    <string-array name="filter_labels">
+        <item>所有憑證</item>
+        <item>用戶新增的憑證</item>
+        <item>預載入的憑證</item>
+    </string-array>
+    <string-array name="details_options_labels">
+        <item>刪除</item>
+        <item>匯出至 SD 卡</item>
+    </string-array>
+</resources>

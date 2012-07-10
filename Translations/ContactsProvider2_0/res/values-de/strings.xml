@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+    <string name="app_name">Kontakte-Speicher</string>
+    <string name="provider_label">Kontakte</string>
+    <string name="upgrade_out_of_memory_notification_ticker">Kontaktaktualisierung benötigt mehr Speicher</string>
+    <string name="upgrade_out_of_memory_notification_title">Kontaktspeicher wird aktualisiert</string>
+    <string name="upgrade_out_of_memory_notification_text">Auswählen, um die Aktualisierung abzuschließen.</string>
+</resources>

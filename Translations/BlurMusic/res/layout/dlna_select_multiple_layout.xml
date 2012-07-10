@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<merge
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:gravity="bottom" android:layout_gravity="bottom" android:orientation="horizontal" android:background="@null" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_weight="1.0" android:layout_alignParentBottom="true">
+        <com.motorola.android.widget.ActionBar android:id="@id/abwidget" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_alignParentBottom="true">
+            <Button android:id="@id/copy_to_phone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/download_title" />
+            <Button android:id="@id/cancel_download" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/cancel" />
+        </com.motorola.android.widget.ActionBar>
+    </LinearLayout>
+</merge>

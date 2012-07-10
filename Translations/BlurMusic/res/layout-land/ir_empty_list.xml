@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<FrameLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/ir_empty_list_bg" android:background="@drawable/card_wall" android:layout_width="fill_parent" android:layout_height="fill_parent" android:scaleType="centerCrop" />
+    <include layout="@layout/collage_overlay" />
+    <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <TextView android:textSize="17.0sp" android:textStyle="bold" android:textColor="#ffffffff" android:gravity="center" android:layout_gravity="center" android:id="@id/ir_empty_list_title_text" android:paddingLeft="10.0dip" android:layout_width="wrap_content" android:layout_height="60.0dip" android:shadowColor="#c0000000" android:shadowDx="2.0" android:shadowDy="2.0" android:shadowRadius="2.0" />
+        <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <LinearLayout android:gravity="center" android:layout_gravity="center" android:orientation="vertical" android:layout_width="190.0dip" android:layout_height="fill_parent" android:layout_marginTop="5.0dip" android:layout_marginBottom="25.0dip">
+                <ImageView android:id="@id/ir_empty_image" android:background="#ffffffff" android:layout_width="170.0dip" android:layout_height="170.0dip" android:src="@blur.res:drawable/ic_single_stream_generic_internet_radio" android:scaleType="centerCrop" />
+                <LinearLayout android:gravity="top|center" android:layout_gravity="top|center" android:id="@id/empty_image_shadow" android:background="@drawable/song_list_shadow" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="5.0dip" />
+            </LinearLayout>
+            <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent">
+                <LinearLayout android:layout_gravity="top|center" android:id="@id/ir_browse_container" android:background="@blur.res:drawable/player_badge_sheen" android:layout_width="fill_parent" android:layout_height="70.0dip" android:layout_marginLeft="10.0dip" android:layout_marginTop="5.0dip" android:layout_marginRight="10.0dip" android:layout_marginBottom="10.0dip">
+                    <FrameLayout android:layout_width="fill_parent" android:layout_height="fill_parent">
+                        <Button android:id="@id/browse_stations" android:layout_width="fill_parent" android:layout_height="fill_parent" android:text="@string/browse_stations" style="@style/Browse_Station_Button" />
+                        <ImageView android:background="@blur.res:drawable/player_badge_sheen" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+                        <ImageView android:background="@blur.res:drawable/player_badge_edge" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+                    </FrameLayout>
+                </LinearLayout>
+                <TextView android:textSize="16.0sp" android:textStyle="normal" android:textColor="#ffffffff" android:gravity="left" android:layout_gravity="top|left|center" android:id="@id/ir_empty_list_text" android:paddingLeft="30.0dip" android:paddingTop="10.0dip" android:paddingRight="30.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:shadowColor="#c0000000" android:shadowDx="2.0" android:shadowDy="2.0" android:shadowRadius="2.0" />
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+</FrameLayout>

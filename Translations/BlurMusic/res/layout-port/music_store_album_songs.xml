@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RelativeLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:moto.res="http://schemas.android.com/apk/res/com.motorola.android.widget">
+    <ListView android:id="@android:id/list" android:background="#ff191919" android:paddingTop="87.0dip" android:layout_width="fill_parent" android:layout_height="fill_parent" android:cacheColorHint="#00000000" android:layout_weight="1.0" />
+    <LinearLayout android:orientation="vertical" android:id="@id/titlebar" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <RelativeLayout android:background="@com.motorola.android.widget:drawable/header_bkg" android:layout_width="fill_parent" android:layout_height="27.0dip" style="@com.motorola.android.widget:style/Interactive_Titlebar">
+            <TextView android:textAppearance="?android:textAppearanceMedium" android:textSize="14.0sp" android:textStyle="bold" android:textColor="#ffffffff" android:id="@id/line1" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="8.0dip" android:text="@string/album_detail_title" android:layout_alignParentLeft="true" android:layout_centerVertical="true" />
+            <ProgressBar android:id="@id/progress" android:visibility="gone" android:layout_width="25.0dip" android:layout_height="25.0dip" android:layout_marginRight="8.0dip" android:layout_alignParentRight="true" android:layout_centerVertical="true" android:layout_alignWithParentIfMissing="true" style="@android:style/Widget.ProgressBar.Small" />
+            <ImageView android:id="@id/store_icon" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="8.0dip" android:layout_toRightOf="@id/progress" android:layout_alignParentRight="true" android:layout_centerVertical="true" />
+        </RelativeLayout>
+        <include layout="@layout/music_store_album_title" />
+    </LinearLayout>
+</RelativeLayout>

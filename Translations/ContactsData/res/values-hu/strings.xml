@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+    <string name="app_name">Kapcsolati Adatok</string>
+    <string name="mms_body">Egy MMS üzenet érkezett tőle</string>
+    <string name="motoBlurProfileName">Címtár</string>
+    <string name="motoBlurUnconnectedProfileName">Egyszerű Címtár</string>
+    <string name="phoneContactsProfileName">Telefon Kapcsolatok</string>
+    <string name="simContactsProfileName">SIM Kapcsolatok</string>
+    <string name="call_restiction_addcontact">Hívásai korlátozottak. Nem tud kapcsolatot hozzáadni telefonkönyvhöz.</string>
+    <string name="call_restiction_editcontact">Hívásai korlátozottak. Nem módosítható a kapcsolat a telefonkönyvben.</string>
+    <string name="call_restiction_deletecontact">Hívásai korlátozottak. Nem törölhet a telefonkönyvből kapcsolatot.</string>
+    <string name="call_restiction_updatecontact_tools">Hívásai korlátozottak. Telefonkönyv frissítése nem lehetséges.</string>
+</resources>

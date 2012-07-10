@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+    <string name="app_name">Opslagruimte voor contacten</string>
+    <string name="provider_label">Contacten</string>
+    <string name="upgrade_out_of_memory_notification_ticker">Voor upgrade van contacten is meer geheugen vereist</string>
+    <string name="upgrade_out_of_memory_notification_title">Upgrade van contactenopslag uitvoeren</string>
+    <string name="upgrade_out_of_memory_notification_text">Selecteer dit om de upgrade te voltooien.</string>
+</resources>

@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+    <string-array name="default_smiley_texts">
+        <item>:-)</item>
+        <item>:-(</item>
+        <item>;-)</item>
+        <item>:-P</item>
+        <item>=-O</item>
+        <item>:-*</item>
+        <item>:O</item>
+        <item>B-)</item>
+        <item>:-$</item>
+        <item>:-!</item>
+        <item>:-[</item>
+        <item>O:-)</item>
+        <item>:-\\</item>
+        <item>:\'(</item>
+        <item>:-X</item>
+        <item>:-D</item>
+        <item>o_O</item>
+    </string-array>
+    <string-array name="default_smiley_names">
+        <item>Feliz</item>
+        <item>Triste</item>
+        <item>Piscando</item>
+        <item>Mostrando a língua</item>
+        <item>Surpreso</item>
+        <item>Beijo</item>
+        <item>Gritando</item>
+        <item>De óculos escuros</item>
+        <item>Boca rica</item>
+        <item>Com medo</item>
+        <item>Envergonhado</item>
+        <item>Anjo</item>
+        <item>Indeciso</item>
+        <item>Chorando</item>
+        <item>Boca fechada</item>
+        <item>Rindo</item>
+        <item>Confuso</item>
+    </string-array>
+    <string-array name="sms_priority_modes">
+        <item>Normal</item>
+        <item>Urgente</item>
+    </string-array>
+</resources>

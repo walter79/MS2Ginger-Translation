@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<FrameLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <FrameLayout android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <com.motorola.blur.conversations.ui.ConversationListView android:id="@android:id/list" android:divider="@android:drawable/divider_horizontal_bright" style="@blur.res:style/Blur.ScrollingList.Long" />
+            <ViewStub android:id="@id/button_bar_stub" android:nextFocusUp="@android:id/list" android:layout="@blur.res:layout/multi_select_list_button_bar" android:inflatedId="@id/button_bar" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+        </LinearLayout>
+        <TextView android:id="@id/empty" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/no_messages" style="@blur.res:style/Blur.PaneAreaTxt" />
+        <ProgressBar android:layout_gravity="center" android:id="@id/conversations_progressbar" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" style="\?android:attr/progressBarStyleLarge" />
+    </FrameLayout>
+    <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <include android:id="@id/list_header" android:layout_width="fill_parent" android:layout_height="wrap_content" layout="@blur.res:layout/titlebar_list_mode_header" />
+        <View android:id="@id/header_shadow" android:background="@android:drawable/title_bar_shadow" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+    </LinearLayout>
+</FrameLayout>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<merge
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:orientation="vertical" android:id="@id/optin_screen_3" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_below="@id/status_title">
+        <TextView android:textSize="16.0dip" android:textStyle="bold" android:textColor="#ffffffff" android:gravity="left|center" android:layout_gravity="left|center" android:id="@id/page_title" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/opt_in_music_consent" android:maxLines="1" style="@blur.res:style/Blur.TitleBar" />
+        <ScrollView android:id="@id/page_content" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_above="@id/page_footer" android:layout_below="@id/page_title">
+            <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <TextView android:textSize="16.0sp" android:id="@id/feature_explanation" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="8.0dip" android:layout_marginTop="10.0dip" android:layout_marginBottom="5.0dip" android:text="@string/opt_in_message_screen3" android:layout_below="@id/page_title" />
+                <RadioGroup android:layout_gravity="center_horizontal" android:orientation="vertical" android:id="@id/opt_in_radio_group" android:layout_width="wrap_content" android:layout_height="wrap_content">
+                    <RadioButton android:id="@id/opt_in_agreement" android:checked="false" android:text="@string/music_consent_option1" />
+                    <RadioButton android:id="@id/no_thanks" android:checked="false" android:text="@string/music_consent_option2" />
+                </RadioGroup>
+            </LinearLayout>
+        </ScrollView>
+        <LinearLayout android:gravity="bottom" android:orientation="horizontal" android:id="@id/page_footer" android:background="@null" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_alignParentBottom="true">
+            <com.motorola.android.widget.ActionBar android:id="@id/abwidget3" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_alignParentBottom="true" />
+        </LinearLayout>
+    </RelativeLayout>
+</merge>

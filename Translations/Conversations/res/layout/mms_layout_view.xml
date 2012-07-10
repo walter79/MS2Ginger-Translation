@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<FrameLayout android:id="@id/mms_view" style="@style/MsgItemImageCnt"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/image_view" style="@style/MsgItemImage" />
+</FrameLayout>

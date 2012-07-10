@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LinearLayout android:orientation="vertical" android:id="@id/updates_wrapper_container" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" style="@blur.res:style/Blur.TitleBar">
+        <TextView android:id="@id/news_screen_title" android:layout_width="fill_parent" android:layout_height="wrap_content" android:singleLine="false" android:layout_weight="1.0" style="@blur.res:style/Blur.TxtTitleBar" />
+        <TextView android:layout_gravity="right" android:id="@id/article_n_of_n" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_weight="0.0" style="@blur.res:style/Blur.TxtTitleBar" />
+    </LinearLayout>
+    <FrameLayout android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_weight="1.0">
+        <ImageView android:id="@id/article_bg" android:layout_width="fill_parent" android:layout_height="fill_parent" android:scaleType="centerCrop" android:layout_weight="1.0" />
+        <View android:background="#77000000" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_weight="1.0" />
+        <ScrollView android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_weight="1.0">
+            <LinearLayout android:orientation="vertical" android:paddingLeft="15.0dip" android:paddingRight="10.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                    <ImageView android:id="@id/article_image" android:layout_width="wrap_content" android:layout_height="wrap_content" android:adjustViewBounds="true" />
+                    <LinearLayout android:orientation="vertical" android:paddingLeft="10.0dip" android:paddingRight="5.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                        <TextView android:id="@id/article_title" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@blur.res:style/Blur.TxtReadScreen" />
+                        <TextView android:id="@id/article_date" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@blur.res:style/Blur.TxtReadBody" />
+                        <LinearLayout android:gravity="left|center" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                            <ImageView android:id="@id/article_feed_image" android:paddingRight="5.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:adjustViewBounds="true" android:maxWidth="32.0dip" android:maxHeight="32.0dip" />
+                            <TextView android:id="@id/article_feed_name" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@blur.res:style/Blur.TxtReadBody" />
+                        </LinearLayout>
+                    </LinearLayout>
+                </LinearLayout>
+                <LinearLayout android:orientation="vertical" android:id="@id/article_body_vertical_layout" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                    <LinearLayout android:gravity="left|center" android:orientation="horizontal" android:id="@id/article_body_horizontal_layout" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                        <ImageView android:id="@id/article_pic" android:paddingRight="5.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+                    </LinearLayout>
+                </LinearLayout>
+            </LinearLayout>
+        </ScrollView>
+    </FrameLayout>
+    <LinearLayout android:id="@id/acticle_action_bar" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_weight="0.0" style="@blur.res:style/Blur.ActionBar">
+        <ImageButton android:id="@id/news_previous_article_button" android:layout_width="fill_parent" android:layout_height="wrap_content" android:src="@blur.res:drawable/ic_control_previous" android:layout_weight="0.25" />
+        <ImageButton android:id="@id/news_next_article_button" android:layout_width="fill_parent" android:layout_height="wrap_content" android:src="@blur.res:drawable/ic_control_next" android:layout_weight="0.25" />
+        <Button android:id="@id/article_link_button" android:background="@blur.res:drawable/btn_actionbar" android:paddingLeft="10.0dip" android:paddingTop="5.0dip" android:paddingRight="10.0dip" android:paddingBottom="5.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/full_article" android:layout_weight="0.5" />
+    </LinearLayout>
+</LinearLayout>

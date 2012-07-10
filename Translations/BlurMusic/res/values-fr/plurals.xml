@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+    <plurals name="Nsongs">
+        <item quantity="other">%1$d morceaux</item>
+    </plurals>
+    <plurals name="Nsongscomp">
+        <item quantity="other">%2$d chansons sur %1$d</item>
+    </plurals>
+    <plurals name="Nalbums">
+        <item quantity="other">%1$d albums</item>
+        <item quantity="one">1 album</item>
+    </plurals>
+    <plurals name="NNNtracksdeleted">
+        <item quantity="other">%1$d morceaux ont été supprimés.</item>
+        <item quantity="one">1 chanson a été supprimée.</item>
+    </plurals>
+    <plurals name="NNNtrackstoplaylist">
+        <item quantity="other">%1$d chansons ajoutées à</item>
+        <item quantity="one">1 chanson a été ajoutée à la playlist.</item>
+    </plurals>
+    <plurals name="NNNtrackstoplayqueue">
+        <item quantity="other">%1$d chansons ajoutées à la file d\'attente de lecture.</item>
+        <item quantity="one">1 chanson a été ajoutée à la file d\'attente de lecture.</item>
+    </plurals>
+    <plurals name="notification_download_completed_message">
+        <item quantity="other">%1$d éléments sur %2$d téléchargés</item>
+        <item quantity="one">%1$d élément sur %2$d téléchargé</item>
+    </plurals>
+    <plurals name="notification_download_failed_message">
+        <item quantity="other">Échec du téléchargement des %1$d éléments</item>
+        <item quantity="one">Échec du téléchargement de %1$d élément</item>
+    </plurals>
+</resources>

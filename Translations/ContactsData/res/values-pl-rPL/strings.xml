@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+    <string name="app_name">ContactsData</string>
+    <string name="mms_body">Wysłał(a) Ci wiadomość MMS</string>
+    <string name="motoBlurProfileName">Książka adresowa</string>
+    <string name="motoBlurUnconnectedProfileName">Książka adresowa Lite</string>
+    <string name="phoneContactsProfileName">Kontakty telefoniczne</string>
+    <string name="simContactsProfileName">Kontakty na karcie SIM</string>
+    <string name="call_restiction_addcontact">Połączenia zostały ograniczone. Nie można dodać do książki telefonicznej.</string>
+    <string name="call_restiction_editcontact">Połączenia zostały ograniczone. Nie można edytować kontaktu w książce telefonicznej.</string>
+    <string name="call_restiction_deletecontact">Połączenia zostały ograniczone. Nie można usunąć kontaktu w książce telefonicznej.</string>
+    <string name="call_restiction_updatecontact_tools">Połączenia zostały ograniczone. Aktualizowanie książki telefonicznej jest zabronione.</string>
+</resources>

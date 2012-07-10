@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+    <string name="app_name">日历服务</string>
+    <string name="format_accepted">已接受：%1$s</string>
+    <string name="format_canceled">已取消：%1$s</string>
+    <string name="format_declined">已取消：%1$s</string>
+    <string name="format_new">%1$s</string>
+    <string name="format_tentative">不确定:%1$s</string>
+    <string name="format_updated">更新:%1$s</string>
+    <string name="no_such_event">该活动不可用。</string>
+    <string name="no_such_message">无法找到该活动。</string>
+</resources>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+    <string-array name="filter_labels">
+        <item>Όλα τα πιστοποιητικά</item>
+        <item>Πιστοποιητικά του χρήστη</item>
+        <item>Προφορτωμένα πιστοποιητικά</item>
+    </string-array>
+    <string-array name="details_options_labels">
+        <item>Διαγραφή</item>
+        <item>Εξαγωγή σε κάρτα SD</item>
+    </string-array>
+</resources>

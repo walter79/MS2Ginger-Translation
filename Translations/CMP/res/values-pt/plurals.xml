@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+    <plurals name="N_additional_songs">
+        <item quantity="other">e %d músicas similares</item>
+        <item quantity="one">e 1 música similar</item>
+    </plurals>
+    <plurals name="N_delete_songs">
+        <item quantity="other">Tem certeza de que deseja excluir permanentemente estas %d músicas?</item>
+        <item quantity="one">Tem certeza de que deseja excluir permanentemente esta música?</item>
+    </plurals>
+    <plurals name="N_playlists_deleted">
+        <item quantity="other">%d playlists removidas.</item>
+        <item quantity="one">Playlist removida.</item>
+    </plurals>
+    <plurals name="N_songs_purchased">
+        <item quantity="other">%d músicas foram adquiridas e adicionadas à fila de download.</item>
+        <item quantity="one">A música foi adquirida e adicionada à fila de download.</item>
+    </plurals>
+    <plurals name="N_songs_purchased_wifi_blocked">
+        <item quantity="other">%d músicas adquiridas. O download será iniciado assim que a conexão Wi-Fi for estabelecida.</item>
+        <item quantity="one">A música foi adquirida. O download será iniciado assim que a conexão Wi-Fi for estabelecida.</item>
+    </plurals>
+    <plurals name="N_tracks_added_playlist">
+        <item quantity="other">%d músicas foram adicionadas à playlist.</item>
+        <item quantity="one">1 música foi adicionada à playlist.</item>
+    </plurals>
+    <plurals name="N_tracks_deleted_from_playlist">
+        <item quantity="other">%d músicas foram excluídas da playlist.</item>
+        <item quantity="one">1 música foi excluída da playlist.</item>
+    </plurals>
+    <plurals name="N_tracks_deleted_from_storage">
+        <item quantity="other">%d músicas foram excluídas do dispositivo.</item>
+        <item quantity="one">1 música foi excluída do dispositivo.</item>
+    </plurals>
+    <plurals name="song_will_start_N_seconds">
+        <item quantity="other">A música será reproduzida em %d segundos</item>
+        <item quantity="one">A música será reproduzida em 1 segundo</item>
+    </plurals>
+</resources>

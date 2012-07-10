@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<menu
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:icon="@drawable/menu_blip" android:id="@id/menu_blip" android:title="@string/send_blip" />
+    <item android:icon="@drawable/menu_music_home" android:id="@id/menu_music_home" android:title="@string/music_home" />
+    <item android:icon="@drawable/menu_video" android:id="@id/menu_videos" android:title="@string/music_videos" />
+    <item android:icon="@drawable/menu_music_map" android:id="@id/menu_music_maps" android:title="@string/music_maps" />
+    <item android:icon="@drawable/menu_buy_song" android:id="@id/menu_buy_song" android:title="@string/buy_song" />
+    <item android:icon="@drawable/menu_add_favorite" android:id="@id/menu_add_favorites" android:title="@string/add_favorites" />
+    <item android:icon="@drawable/menu_del_favorite" android:id="@id/menu_remove_favorites" android:title="@string/remove_from_favorites" />
+    <item android:icon="@drawable/menu_preferences" android:id="@id/menu_settings" android:title="@string/settings" />
+</menu>

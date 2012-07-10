@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+    <string name="app_name">ContactsData</string>
+    <string name="mms_body">Σας έστειλε μήνυμα MMS</string>
+    <string name="motoBlurProfileName">Βιβλίο διευθύνσεων</string>
+    <string name="motoBlurUnconnectedProfileName">Βιβλίο διευθύνσεων Lite</string>
+    <string name="phoneContactsProfileName">Επαφές τηλεφώνου</string>
+    <string name="simContactsProfileName">Επαφές SIM</string>
+    <string name="call_restiction_addcontact">Περιορισμός κλήσεων. Δεν είναι δυνατή η προσθήκη της επαφής στον τηλεφωνικό κατάλογο.</string>
+    <string name="call_restiction_editcontact">Περιορισμός κλήσεων. Δεν είναι δυνατή η επεξεργασία της επαφής τηλεφωνικού καταλόγου.</string>
+    <string name="call_restiction_deletecontact">Περιορισμός κλήσεων. Δεν είναι δυνατή η διαγραφή της επαφής τηλεφωνικού καταλόγου.</string>
+    <string name="call_restiction_updatecontact_tools">Περιορισμός κλήσεων. Δεν επιτρέπεται η ενημέρωση του τηλεφωνικού καταλόγου.</string>
+</resources>

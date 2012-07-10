@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<FrameLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:app="http://schemas.android.com/apk/res/com.motorola.blur.music">
+    <LinearLayout android:gravity="center_vertical" android:orientation="vertical" android:id="@id/playlist_layout" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <include layout="@layout/simple_title" />
+        <include layout="@layout/tumbler_title" />
+        <ProgressBar android:layout_gravity="center" android:id="@id/mixthis_progress" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="240.0dip" android:indeterminate="true" style="\?android:attr/progressBarStyleLarge" />
+        <TextView android:textColor="#ff00ff00" android:layout_gravity="center" android:id="@id/mixing_text" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/mixing" android:layout_below="@id/mixthis_progress" />
+        <include layout="@layout/play_queue_header" />
+        <com.motorola.blur.music.MotoCollageView android:id="@id/moto_collage_view" android:layout_width="fill_parent" android:layout_height="40.0dip" android:layout_weight="0.2" app:chipSize="120.0dip" app:mode="PLAYLIST_PORTRAIT" />
+        <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="0.8">
+            <com.motorola.blur.music.TouchInterceptor android:textSize="18.0sp" android:id="@android:id/list" android:fadingEdge="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent" android:drawSelectorOnTop="false" android:fastScrollEnabled="true" />
+        </LinearLayout>
+        <LinearLayout android:gravity="bottom" android:orientation="horizontal" android:id="@id/play_queue_action_bar" android:background="#ff000000" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <com.motorola.android.widget.ActionBar android:id="@id/abwidget" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_alignParentBottom="true">
+                <ImageButton android:id="@id/add_songs_play_queue" android:layout_width="fill_parent" android:layout_height="wrap_content" android:src="@drawable/ic_control_add_new_song_normal" />
+                <ImageButton android:id="@id/shuffle_list_play_queue" android:layout_width="fill_parent" android:layout_height="wrap_content" android:src="@drawable/ic_control_shuffle_normal" />
+                <ImageButton android:id="@id/repeat_list_play_queue" android:layout_width="fill_parent" android:layout_height="wrap_content" android:src="@drawable/ic_control_repeat_normal" />
+            </com.motorola.android.widget.ActionBar>
+        </LinearLayout>
+    </LinearLayout>
+    <include layout="@layout/sd_error" />
+</FrameLayout>

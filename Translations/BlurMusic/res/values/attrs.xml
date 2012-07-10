@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+    <attr name="selectionScaleRate" format="float" />
+    <attr name="firstLabel" format="string" />
+    <attr name="secondLabel" format="string" />
+    <attr name="thirdLabel" format="string" />
+    <attr name="chipSize" format="dimension" />
+    <attr name="mode" format="string" />
+    <attr name="backgroundZ" format="dimension" />
+    <attr name="backgroundHeight" format="dimension" />
+    <attr name="backgroundWidth" format="dimension" />
+</resources>

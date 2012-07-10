@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+    <style name="Blur">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+    <style name="Blur.TxtGridItem" parent="@style/Blur">
+        <item name="android:textSize">14.0sp</item>
+        <item name="android:textColor">#ffffffff</item>
+        <item name="android:ellipsize">end</item>
+        <item name="android:layout_gravity">center_horizontal</item>
+        <item name="android:focusable">false</item>
+        <item name="android:shadowColor">#ff000000</item>
+        <item name="android:shadowDx">1.2</item>
+        <item name="android:shadowDy">1.2</item>
+    </style>
+    <style name="BigPM">
+        <item name="android:textSize">16.0sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">#ffffffff</item>
+    </style>
+    <style name="BigTime">
+        <item name="android:textSize">56.0sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">#ffffffff</item>
+    </style>
+    <style name="BigDay">
+        <item name="android:textSize">64.0sp</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:textColor">#ff000000</item>
+        <item name="android:height">68.0dip</item>
+    </style>
+    <style name="BigWeek">
+        <item name="android:textSize">32.0sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">#ff000000</item>
+    </style>
+    <style name="BigMOnYear">
+        <item name="android:textSize">24.0sp</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:textColor">#ff000000</item>
+        <item name="android:height">28.0dip</item>
+    </style>
+    <style name="MedPM">
+        <item name="android:textSize">16.0sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">#ffffffff</item>
+    </style>
+    <style name="MedTime">
+        <item name="android:textSize">38.0sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">#ffffffff</item>
+        <item name="android:paddingTop">8.0dip</item>
+    </style>
+    <style name="MedDay">
+        <item name="android:textSize">50.0sp</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:textColor">#ff212121</item>
+    </style>
+    <style name="MedWeek">
+        <item name="android:textSize">24.0sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">#ff212121</item>
+    </style>
+    <style name="MedMOnYear">
+        <item name="android:textSize">17.0sp</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:textColor">#ff4b4b4b</item>
+    </style>
+    <style name="SmallPM">
+        <item name="android:textSize">16.0sp</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:textColor">#ffffffff</item>
+    </style>
+    <style name="SmallTime">
+        <item name="android:textSize">40.0sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">#ffffffff</item>
+    </style>
+    <style name="Small_PM">
+        <item name="android:textSize">14.0sp</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:textColor">#ffffffff</item>
+    </style>
+    <style name="Small_Time">
+        <item name="android:textSize">30.0sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">#ffffffff</item>
+    </style>
+    <style name="Small_Day">
+        <item name="android:textSize">40.0sp</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:textColor">#ff212121</item>
+    </style>
+    <style name="SmallDay">
+        <item name="android:textSize">36.0sp</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:textColor">#ff000000</item>
+    </style>
+    <style name="SmallWeek">
+        <item name="android:textSize">20.0sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">#ff000000</item>
+    </style>
+    <style name="Small_Week">
+        <item name="android:textSize">17.0sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">#ff212121</item>
+    </style>
+    <style name="SmallMOnYear">
+        <item name="android:textSize">16.0sp</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:textColor">#ff000000</item>
+    </style>
+    <style name="Small_MOnYear">
+        <item name="android:textSize">16.0sp</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:textColor">#ff4b4b4b</item>
+    </style>
+    <style name="DateDay">
+        <item name="android:textSize">60.0sp</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:textColor">#ff000000</item>
+    </style>
+    <style name="DateWeek">
+        <item name="android:textSize">24.0sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">#ff000000</item>
+        <item name="android:paddingTop">11.0dip</item>
+    </style>
+    <style name="DateMonth">
+        <item name="android:textSize">20.0sp</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:textColor">#ff4b4b4b</item>
+    </style>
+    <style name="Sleeve">
+        <item name="android:layout_width">119.0dip</item>
+    </style>
+    <style name="Sleeve.land" parent="@style/Sleeve">
+        <item name="android:layout_width">240.0px</item>
+    </style>
+    <style name="Sleeve.land.2x2" parent="@style/Sleeve.land">
+        <item name="android:layout_width">160.0px</item>
+    </style>
+    <style name="Sleeve.land.2x3" parent="@style/Sleeve.land">
+        <item name="android:layout_height">174.0px</item>
+    </style>
+    <style name="Sleeve.land.4x3" parent="@style/Sleeve.land">
+        <item name="android:layout_width">248.0px</item>
+    </style>
+    <style name="Sleeve.port" parent="@style/Sleeve">
+        <item name="android:layout_height">111.0dip</item>
+    </style>
+    <style name="Sleeve.port.3x2" parent="@style/Sleeve.port">
+        <item name="android:layout_height">119.0dip</item>
+    </style>
+    <style name="Sleeve.port.3x3" parent="@style/Sleeve.port">
+        <item name="android:layout_height">187.0dip</item>
+    </style>
+    <style name="Sleeve.port.4x2" parent="@style/Sleeve.port">
+        <item name="android:layout_width">127.0dip</item>
+    </style>
+</resources>

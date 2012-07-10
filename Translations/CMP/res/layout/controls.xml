@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.motorola.cmp.views.LyricView_old android:id="@id/lyrics_view" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="170.0dip" android:layout_centerHorizontal="true" />
+    <LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:id="@id/info_ll" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_alignParentTop="true">
+        <TextView android:textSize="14.0sp" android:textStyle="bold" android:gravity="center" android:id="@id/infomessage" android:visibility="invisible" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="0.0dip" android:layout_marginBottom="5.0dip" android:text="" android:shadowColor="#ff000000" android:shadowDx="2.0" android:shadowDy="2.0" android:shadowRadius="1.5" />
+    </LinearLayout>
+    <LinearLayout android:gravity="bottom" android:orientation="vertical" android:id="@id/controls" android:layout_width="fill_parent" android:layout_height="152.0dip" android:layout_alignParentBottom="true" android:layout_centerHorizontal="true">
+        <TextView android:textSize="14.0sp" android:textStyle="bold" android:textColor="#ffffffff" android:gravity="center" android:id="@id/songArtist" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="5.0dip" android:lines="1" android:shadowColor="#ff000000" android:shadowDx="2.0" android:shadowDy="2.0" android:shadowRadius="1.5" />
+        <TextView android:textSize="12.0sp" android:textStyle="italic" android:textColor="#ffffffff" android:gravity="center" android:id="@id/songTitle" android:layout_width="fill_parent" android:layout_height="wrap_content" android:lines="2" android:shadowColor="#ff000000" android:shadowDx="2.0" android:shadowDy="2.0" android:shadowRadius="1.5" />
+        <LinearLayout android:gravity="bottom" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="0.0dip" android:layout_marginBottom="25.0dip" android:layout_alignParentBottom="true">
+            <TextView android:gravity="center" android:id="@id/status_left" android:paddingTop="2.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:minWidth="30.0dip" android:text="" android:layout_centerVertical="true" />
+            <com.motorola.cmp.views.HorizontalSlider android:id="@id/progress" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="5.0dip" android:layout_marginRight="5.0dip" android:layout_weight="1.0" />
+            <TextView android:gravity="center" android:id="@id/status_right" android:paddingTop="2.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:minWidth="30.0dip" android:text="" android:layout_centerVertical="true" />
+        </LinearLayout>
+        <TableLayout android:gravity="center" android:layout_width="fill_parent" android:layout_height="wrap_content" android:stretchColumns="0,1,2,3">
+            <TableRow>
+                <ImageButton android:id="@id/btn_prev" android:background="@drawable/empty" android:paddingTop="4.0dip" android:focusable="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/empty" android:layout_centerVertical="true" />
+                <ImageButton android:id="@id/btn_pause" android:background="@drawable/empty" android:focusable="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/empty" />
+                <ImageButton android:id="@id/btn_play" android:background="@drawable/empty" android:focusable="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/empty" />
+                <ImageButton android:id="@id/btn_next" android:background="@drawable/empty" android:paddingTop="4.0dip" android:focusable="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/empty" android:layout_centerVertical="true" />
+            </TableRow>
+        </TableLayout>
+    </LinearLayout>
+</RelativeLayout>

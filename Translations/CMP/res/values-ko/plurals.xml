@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+    <plurals name="N_additional_songs">
+        <item quantity="other">및 %d 비슷한 음악</item>
+        <item quantity="one">그리고 1 비슷한 곡</item>
+    </plurals>
+    <plurals name="N_delete_songs">
+        <item quantity="other">%d 노래를 휴대폰에서 삭제하시겠습니까?</item>
+        <item quantity="one">이 노래를 휴대폰에서 삭제하시겠습니까?</item>
+    </plurals>
+    <plurals name="N_playlists_deleted">
+        <item quantity="other">%d 재생 목록이 제거되었습니다.</item>
+        <item quantity="one">재생 목록이 삭제되었습니다.</item>
+    </plurals>
+    <plurals name="N_songs_purchased">
+        <item quantity="other">%d 음악을 성공적으로 구매했으며 다운로드 순서에 추가했습니다.</item>
+        <item quantity="one">노래를 성공적으로 구매하셨으며 다운로드 순서에 추가되었습니다.</item>
+    </plurals>
+    <plurals name="N_songs_purchased_wifi_blocked">
+        <item quantity="other">%d 곡을 성공적으로 구매했습니다. Wifi에 연결되면 다운로드가 시작됩니다.</item>
+        <item quantity="one">음악을 성공적으로 구매했습니다. Wifi에 연결하면 다운로드가 시작됩니다.</item>
+    </plurals>
+    <plurals name="N_tracks_added_playlist">
+        <item quantity="other">%d 곡이 재생 목록에 추가되었습니다.</item>
+        <item quantity="one">1곡이 재생 목록에 추가되었습니다.</item>
+    </plurals>
+    <plurals name="N_tracks_deleted_from_playlist">
+        <item quantity="other">%d 곡이 재생 목록에서 삭제되었습니다.</item>
+        <item quantity="one">재생 목록에서 한 곡이 삭제되었습니다.</item>
+    </plurals>
+    <plurals name="N_tracks_deleted_from_storage">
+        <item quantity="other">장치에서 %d 곡이 삭제되었습니다.</item>
+        <item quantity="one">1곡이 삭제되었습니다.</item>
+    </plurals>
+    <plurals name="song_will_start_N_seconds">
+        <item quantity="other">%d초 후 음악이 재생됩니다.</item>
+        <item quantity="one">1초 후 음악이 재생됩니다.</item>
+    </plurals>
+</resources>

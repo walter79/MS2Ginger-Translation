@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+    <string name="app_name">聯絡人儲存空間</string>
+    <string name="provider_label">聯絡人</string>
+    <string name="upgrade_out_of_memory_notification_ticker">聯絡人升級需要更多記憶體</string>
+    <string name="upgrade_out_of_memory_notification_title">升級聯絡人儲存空間</string>
+    <string name="upgrade_out_of_memory_notification_text">選擇後即可完成升級。</string>
+</resources>

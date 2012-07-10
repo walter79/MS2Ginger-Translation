@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TableLayout android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="5.0dip" android:layout_weight="1.0">
+        <TableRow android:layout_weight="1.0">
+            <LinearLayout android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_weight="1.0">
+                <ImageButton android:id="@id/BackImageButton" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+                <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="-95.0dip" android:layout_weight="0.0">
+                    <ImageView android:layout_width="fill_parent" android:layout_height="wrap_content" android:src="@drawable/car_icon_back" android:scaleType="centerInside" />
+                    <TextView android:textSize="30.0sp" android:textStyle="bold" android:textColor="@color/car_dock_button_text_color" android:gravity="center" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="-5.0sp" android:text="@string/back" />
+                </LinearLayout>
+            </LinearLayout>
+            <LinearLayout android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_weight="1.0">
+                <ToggleButton android:id="@id/Preset1ToggleButton" android:background="@drawable/car_btn_toggle" android:layout_width="fill_parent" android:layout_height="fill_parent" android:textOn="" android:textOff="" />
+                <TextView android:textSize="23.0sp" android:textStyle="bold" android:textColor="@color/car_dock_button_text_color" android:gravity="left" android:id="@id/Preset1TextView" android:paddingLeft="30.0sp" android:paddingRight="10.0sp" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="-90.0sp" android:maxWidth="40.0sp" android:text="@string/not_set" android:lines="2" />
+            </LinearLayout>
+            <LinearLayout android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_weight="1.0">
+                <ToggleButton android:id="@id/Preset2ToggleButton" android:background="@drawable/car_btn_toggle" android:layout_width="fill_parent" android:layout_height="fill_parent" android:textOn="" android:textOff="" />
+                <TextView android:textSize="23.0sp" android:textStyle="bold" android:textColor="@color/car_dock_button_text_color" android:gravity="left" android:id="@id/Preset2TextView" android:paddingLeft="30.0sp" android:paddingRight="10.0sp" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="-90.0sp" android:maxWidth="40.0sp" android:text="@string/not_set" android:lines="2" />
+            </LinearLayout>
+        </TableRow>
+        <TableRow android:layout_weight="1.0">
+            <LinearLayout android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_weight="1.0">
+                <ImageButton android:id="@id/PlayStopImageButton" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+                <ImageView android:layout_gravity="center" android:background="@drawable/car_icon_stop" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="-80.0dip" />
+            </LinearLayout>
+            <LinearLayout android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_weight="1.0">
+                <ToggleButton android:id="@id/Preset3ToggleButton" android:background="@drawable/car_btn_toggle" android:layout_width="fill_parent" android:layout_height="fill_parent" android:textOn="" android:textOff="" />
+                <TextView android:textSize="23.0sp" android:textStyle="bold" android:textColor="@color/car_dock_button_text_color" android:gravity="left" android:id="@id/Preset3TextView" android:paddingLeft="30.0sp" android:paddingRight="10.0sp" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="-90.0sp" android:maxWidth="40.0sp" android:text="@string/not_set" android:lines="2" />
+            </LinearLayout>
+            <LinearLayout android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_weight="1.0">
+                <ToggleButton android:id="@id/Preset4ToggleButton" android:background="@drawable/car_btn_toggle" android:layout_width="fill_parent" android:layout_height="fill_parent" android:textOn="" android:textOff="" />
+                <TextView android:textSize="23.0sp" android:textStyle="bold" android:textColor="@color/car_dock_button_text_color" android:gravity="left" android:id="@id/Preset4TextView" android:paddingLeft="30.0sp" android:paddingRight="10.0sp" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="-90.0sp" android:maxWidth="40.0sp" android:text="@string/not_set" android:lines="2" />
+            </LinearLayout>
+        </TableRow>
+    </TableLayout>
+    <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <TextView android:textSize="25.0sp" android:id="@id/EmptyShoutcastPresetsTextView" android:paddingLeft="10.0sp" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/error_shoutcast_empty_presets" android:lines="2" />
+        <TextView android:textSize="30.0sp" android:textStyle="bold" android:ellipsize="end" android:id="@id/ArtistTextView" android:paddingLeft="10.0sp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:lines="1" />
+        <TextView android:textSize="30.0sp" android:ellipsize="end" android:id="@id/SongTextView" android:paddingLeft="10.0sp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:lines="1" />
+    </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+    <string name="widget_name">Data i godzina</string>
+    <string name="app_name">Data i godzina</string>
+    <string name="title">Widżet daty i godziny</string>
+    <string name="done">Gotowe</string>
+    <string name="text_24_hr_format">Format 24-godzinny</string>
+    <string name="Widget_type">Styl zegara</string>
+    <string name="Clock_background_color">Kolor tła zegara</string>
+    <string name="choose_color">Wybierz kolor</string>
+    <string name="select">Wybierz</string>
+    <string name="PURPLE">Fioletowy</string>
+    <string name="GREEN">Zielony</string>
+    <string name="BLUE">Niebieski</string>
+    <string name="ORANGE">Pomarańczowy</string>
+    <string name="DARKBLUE">Ciemnoniebieski</string>
+    <string name="LIGHTBLUE">Jasnoniebieski</string>
+    <string name="Green">Zielony</string>
+    <string name="Grey">Szary</string>
+    <string name="description">Rzut oka na aktualną datę i godzinę</string>
+    <string name="colon">:</string>
+</resources>

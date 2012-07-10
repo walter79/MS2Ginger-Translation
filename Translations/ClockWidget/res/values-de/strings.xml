@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+    <string name="widget_name">Datum und Uhrzeit</string>
+    <string name="app_name">Datum und Uhrzeit</string>
+    <string name="title">Datum/Uhrzeit-Widget</string>
+    <string name="done">Fertig</string>
+    <string name="text_24_hr_format">24-Stunden-Format verwenden</string>
+    <string name="Widget_type">Uhrformat</string>
+    <string name="Clock_background_color">Hintergrundfarbe</string>
+    <string name="choose_color">Farbe auswählen</string>
+    <string name="select">Auswählen</string>
+    <string name="PURPLE">Violett</string>
+    <string name="GREEN">Grün</string>
+    <string name="BLUE">Blau</string>
+    <string name="ORANGE">Orange</string>
+    <string name="DARKBLUE">Dunkelblau</string>
+    <string name="LIGHTBLUE">Hellblau</string>
+    <string name="Green">Grün</string>
+    <string name="Grey">Grau</string>
+    <string name="description">Aktuelles Datum und Uhrzeit auf einen Blick</string>
+    <string name="colon">:</string>
+</resources>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RelativeLayout android:visibility="visible" android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:id="@id/text_day" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/DateDay" />
+    <TextView android:id="@id/text_weekday" android:visibility="visible" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_toRightOf="@id/text_day" android:layout_alignTop="@id/text_day" style="@style/DateWeek" />
+    <TextView android:id="@id/text_month" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_toRightOf="@id/text_day" android:layout_below="@id/text_weekday" android:layout_alignBaseline="@id/text_day" style="@style/DateMonth" />
+</RelativeLayout>

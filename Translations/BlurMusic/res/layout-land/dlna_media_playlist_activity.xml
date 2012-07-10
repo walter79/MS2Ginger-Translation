@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:app="http://schemas.android.com/apk/res/com.motorola.blur.music">
+    <LinearLayout android:gravity="center_vertical" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_weight="0.8">
+        <include layout="@layout/simple_title" />
+        <include layout="@layout/tumbler_title" />
+        <include layout="@layout/dlna_play_queue_header" />
+        <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0">
+            <com.motorola.blur.music.TouchInterceptor android:textSize="18.0sp" android:id="@android:id/list" android:fadingEdge="none" android:layout_width="fill_parent" android:layout_height="fill_parent" android:drawSelectorOnTop="false" android:fastScrollEnabled="true" />
+        </LinearLayout>
+        <LinearLayout android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content">
+            <include layout="@layout/sd_error" />
+        </LinearLayout>
+        <LinearLayout android:gravity="bottom" android:orientation="horizontal" android:id="@id/play_queue_action_bar_remote" android:background="#ff000000" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_weight="0.0">
+            <com.motorola.android.widget.ActionBar android:id="@id/play_queue_action_widget_remote" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_alignParentBottom="true">
+                <ImageButton android:id="@id/shuffle_list_play_queue" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_marginTop="5.0dip" android:src="@drawable/ic_control_shuffle_normal" android:layout_weight="1.0" />
+                <ImageButton android:id="@id/repeat_list_play_queue" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_marginTop="5.0dip" android:src="@drawable/ic_control_repeat_normal" android:layout_weight="1.0" />
+            </com.motorola.android.widget.ActionBar>
+        </LinearLayout>
+        <LinearLayout android:gravity="bottom" android:orientation="horizontal" android:id="@id/play_queue_action_bar_local" android:background="#ff000000" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_weight="0.0">
+            <com.motorola.android.widget.ActionBar android:id="@id/play_queue_action_widget_local" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_alignParentBottom="true">
+                <ImageButton android:id="@id/add_songs_play_queue" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_marginTop="5.0dip" android:src="@drawable/ic_control_add_new_song_normal" android:layout_weight="1.0" />
+                <ImageButton android:id="@id/shuffle_list_play_queue" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_marginTop="5.0dip" android:src="@drawable/ic_control_shuffle_normal" android:layout_weight="1.0" />
+                <ImageButton android:id="@id/repeat_list_play_queue" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_marginTop="5.0dip" android:src="@drawable/ic_control_repeat_normal" android:layout_weight="1.0" />
+            </com.motorola.android.widget.ActionBar>
+        </LinearLayout>
+    </LinearLayout>
+    <com.motorola.blur.music.MotoCollageView android:id="@id/moto_collage_view" android:layout_width="220.0dip" android:layout_height="fill_parent" android:layout_weight="0.2" app:chipSize="120.0dip" app:mode="PLAYLIST_LANDSCAPE" />
+</LinearLayout>

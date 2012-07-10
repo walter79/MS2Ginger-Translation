@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+    <item type="id" name="analogclock">false</item>
+    <item type="id" name="color_container">false</item>
+    <item type="id" name="color">false</item>
+    <item type="id" name="sticky_color_picker_root">false</item>
+    <item type="id" name="sticky_background_linear_layout">false</item>
+    <item type="id" name="sticky_color_picker_title_root">false</item>
+    <item type="id" name="sticky_color_title_region">false</item>
+    <item type="id" name="color_picker_title_icon">false</item>
+    <item type="id" name="sticky_color_picker_title">false</item>
+    <item type="id" name="color_picker_grid">false</item>
+    <item type="id" name="action_bar">false</item>
+    <item type="id" name="text_day">false</item>
+    <item type="id" name="text_weekday">false</item>
+    <item type="id" name="text_month">false</item>
+    <item type="id" name="text_time_hr">false</item>
+    <item type="id" name="text_colon">false</item>
+    <item type="id" name="text_time_min">false</item>
+    <item type="id" name="text_ampm">false</item>
+    <item type="id" name="base">false</item>
+    <item type="id" name="LinearLayout01">false</item>
+    <item type="id" name="FrameLayout01">false</item>
+    <item type="id" name="sleeve">false</item>
+    <item type="id" name="digitalclock">false</item>
+    <item type="id" name="RelativeLayout01">false</item>
+    <item type="id" name="datelayout">false</item>
+    <item type="id" name="datelayout_base">false</item>
+    <item type="id" name="image_cal">false</item>
+    <item type="id" name="FrameLayout02">false</item>
+    <item type="id" name="base_image">false</item>
+</resources>

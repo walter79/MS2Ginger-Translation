@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+    <plurals name="N_additional_songs">
+        <item quantity="other">и %d похожих песен</item>
+        <item quantity="one">и 1 похожая песня</item>
+    </plurals>
+    <plurals name="N_delete_songs">
+        <item quantity="other">Удалить выбранные %d песен навсегда?</item>
+        <item quantity="one">Удалить эту песню навсегда?</item>
+    </plurals>
+    <plurals name="N_playlists_deleted">
+        <item quantity="other">Удалено %d списков воспроизведения.</item>
+        <item quantity="one">Список воспроизведения удален.</item>
+    </plurals>
+    <plurals name="N_songs_purchased">
+        <item quantity="other">%d песен успешно приобретено и добавлено в очередь загрузки.</item>
+        <item quantity="one">Песни успешно приобретены и добавлены в очередь загрузки.</item>
+    </plurals>
+    <plurals name="N_songs_purchased_wifi_blocked">
+        <item quantity="other">Успешно куплено %d песен Загрузка начнется после подключения к Wi-Fi.</item>
+        <item quantity="one">Песня успешно куплена. Загрузка начнется после подключения к Wi-Fi.</item>
+    </plurals>
+    <plurals name="N_tracks_added_playlist">
+        <item quantity="other">%d песен добавлено в список воспроизведения.</item>
+        <item quantity="one">1 песня добавлена в список воспроизведения.</item>
+    </plurals>
+    <plurals name="N_tracks_deleted_from_playlist">
+        <item quantity="other">%d песен удалено из списка воспроизведения.</item>
+        <item quantity="one">1 песня удалена из списка воспроизведения.</item>
+    </plurals>
+    <plurals name="N_tracks_deleted_from_storage">
+        <item quantity="other">%d песен удалено с устройства.</item>
+        <item quantity="one">1 песня удалена из устройства.</item>
+    </plurals>
+    <plurals name="song_will_start_N_seconds">
+        <item quantity="other">Песня начнет воспроизводиться через %d секунд</item>
+        <item quantity="one">Песня начнет воспроизводиться через 1 секунду</item>
+    </plurals>
+</resources>

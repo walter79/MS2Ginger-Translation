@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+    <string name="app_name">Serviço do calendário</string>
+    <string name="format_accepted">Aceitou: %1$s</string>
+    <string name="format_canceled">Cancelou: %1$s</string>
+    <string name="format_declined">Recusou: %1$s</string>
+    <string name="format_new">%1$s</string>
+    <string name="format_tentative">Tentativa: %1$s</string>
+    <string name="format_updated">Atualizada: %1$s</string>
+    <string name="no_such_event">Este evento está indisponível.</string>
+    <string name="no_such_message">Não é possível localizar o evento.</string>
+</resources>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LinearLayout android:background="@blur.res:drawable/stream_menu_highlight_pressed" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:layout_width="210.0dip" android:layout_height="fill_parent">
+        <LinearLayout android:layout_width="210.0dip" android:layout_height="25.0dip">
+            <ImageView android:id="@id/store_icon" android:layout_width="wrap_content" android:layout_height="25.0dip" android:layout_marginLeft="6.0dip" android:layout_weight="0.0" android:layout_alignParentTop="true" android:layout_alignParentBottom="true" />
+            <ProgressBar android:layout_gravity="right" android:id="@id/progress" android:visibility="gone" android:layout_width="25.0dip" android:layout_height="25.0dip" android:layout_marginLeft="6.0dip" style="@android:style/Widget.ProgressBar.Small" />
+        </LinearLayout>
+        <LinearLayout android:orientation="vertical" android:layout_width="210.0dip" android:layout_height="fill_parent" android:layout_weight="0.0">
+            <ImageView android:gravity="bottom|center" android:layout_gravity="bottom|center" android:id="@id/icon" android:background="@drawable/ic_album_generic_stream" android:layout_width="180.0dip" android:layout_height="180.0dip" android:layout_marginTop="25.0dip" android:layout_marginBottom="5.0dip" android:scaleType="centerCrop" />
+            <ImageView android:gravity="top|center" android:layout_gravity="top|center" android:id="@id/playback_album_art_shadow" android:layout_width="fill_parent" android:layout_height="wrap_content" android:src="@drawable/song_list_shadow" />
+        </LinearLayout>
+    </LinearLayout>
+    <LinearLayout android:gravity="center" android:layout_gravity="center" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_margin="5.0dip" android:layout_weight="1.0">
+        <RelativeLayout android:layout_gravity="top" android:id="@id/title_area" android:background="@drawable/song_dialog_header_bg" android:clickable="true" android:layout_width="fill_parent" android:layout_height="70.0dip" android:layout_marginTop="3.0dip">
+            <LinearLayout android:layout_gravity="top|center" android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="fill_parent">
+                <TextView android:textSize="20.0dip" android:textStyle="bold" android:textColor="#ffffffff" android:ellipsize="end" android:id="@id/top_text" android:layout_width="270.0dip" android:layout_height="wrap_content" android:layout_marginLeft="12.0dip" android:layout_marginTop="12.0dip" android:layout_marginRight="2.0dip" android:maxLines="1" android:scrollHorizontally="true" />
+                <TextView android:textSize="20.0dip" android:textStyle="bold" android:textColor="#ffffffff" android:ellipsize="end" android:id="@id/bottom_text" android:layout_width="270.0dip" android:layout_height="wrap_content" android:layout_marginLeft="8.0dip" android:maxLines="1" android:scrollHorizontally="true" />
+            </LinearLayout>
+        </RelativeLayout>
+        <ListView android:id="@android:id/list" android:background="@drawable/song_dialog_body_bg" android:layout_width="fill_parent" android:layout_height="fill_parent" android:cacheColorHint="#00000000" />
+    </LinearLayout>
+</LinearLayout>

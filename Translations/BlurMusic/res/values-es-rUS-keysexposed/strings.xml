@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+    <string name="create_playlist_create_text_prompt">Nombre de playlist</string>
+    <string name="rename_playlist_same_prompt">Cambiar nombre \"%1$s\" a</string>
+    <string name="rename_playlist_diff_prompt">Cambiar nombre \"%1$s\" a</string>
+</resources>

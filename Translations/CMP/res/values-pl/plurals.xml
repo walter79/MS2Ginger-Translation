@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+    <plurals name="N_additional_songs">
+        <item quantity="other">i podobnych utworów: %d</item>
+        <item quantity="one">i 1 podobny utwór</item>
+    </plurals>
+    <plurals name="N_delete_songs">
+        <item quantity="other">Czy na pewno chcesz trwale usunąć utwory: %d?</item>
+        <item quantity="one">Czy na pewno chcesz trwale usunąć ten utwór?</item>
+    </plurals>
+    <plurals name="N_playlists_deleted">
+        <item quantity="other">usunięto playlist: %d</item>
+        <item quantity="one">Usunięto playlistę.</item>
+    </plurals>
+    <plurals name="N_songs_purchased">
+        <item quantity="other">Utwory, które udało się nabyć i dodać do kolejki pobierania: %d.</item>
+        <item quantity="one">Utwór został kupiony i dodany do kolejki pobierania.</item>
+    </plurals>
+    <plurals name="N_songs_purchased_wifi_blocked">
+        <item quantity="other">Kupiono utworów: %d. Pobieranie rozpocznie się po połączeniu z Wi-Fi.</item>
+        <item quantity="one">Utwór został kupiony. Pobieranie rozpocznie się po połączeniu z Wi-Fi.</item>
+    </plurals>
+    <plurals name="N_tracks_added_playlist">
+        <item quantity="other">Do playlisty dodano utworów: %d.</item>
+        <item quantity="one">1 utwór dodany do playlisty.</item>
+    </plurals>
+    <plurals name="N_tracks_deleted_from_playlist">
+        <item quantity="other">Z playlisty usunięto utworów: %d</item>
+        <item quantity="one">Usunięto 1 utwór z playlisty.</item>
+    </plurals>
+    <plurals name="N_tracks_deleted_from_storage">
+        <item quantity="other">Z urządzenia usunięto utworów: %d.</item>
+        <item quantity="one">Usunięto 1 utwór z urządzenia.</item>
+    </plurals>
+    <plurals name="song_will_start_N_seconds">
+        <item quantity="other">Odtwarzanie utworu rozpocznie się za sekund: %d</item>
+        <item quantity="one">Odtwarzanie utworu rozpocznie się za sekundę</item>
+    </plurals>
+</resources>

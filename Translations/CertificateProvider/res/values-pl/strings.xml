@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+    <string name="package_name">Dostawca treści menedżera certyfikatu</string>
+    <string name="permlab_read">Odczytywanie certyfikatów</string>
+    <string name="permdesc_read">Odczytywanie certyfikatów rdzennych</string>
+    <string name="permlab_write">Zapisywanie certyfikatów</string>
+    <string name="permdesc_write">Zapisywanie certyfikatów rdzennych</string>
+</resources>

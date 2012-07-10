@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<PreferenceScreen
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <PreferenceCategory android:layout="@blur.res:layout/preference_title" android:title="@string/preferences_title" />
+    <PreferenceCategory android:title="@string/pref_general_settings_title" android:key="pref_key_general_settings">
+        <CheckBoxPreference android:title="@string/pref_title_delivery_reports" android:key="pref_key_delivery_reports" android:summary="@string/pref_summary_delivery_reports" android:defaultValue="false" />
+        <Preference android:persistent="false" android:title="@string/pref_title_msg_delete" android:key="pref_key_msg_delete_limit" android:summary="@string/pref_summary_delete_limit" />
+        <com.motorola.blur.conversations.ui.ManageSimPreference android:title="@string/pref_title_manage_sim_messages" android:key="pref_key_manage_sim_messages" android:summary="@string/pref_summary_manage_sim_messages" />
+        <CheckBoxPreference android:title="@string/pref_title_msg_suggestions" android:key="pref_key_msg_suggestions" android:summary="@string/pref_summary_msg_suggestions" android:defaultValue="true" />
+        <CheckBoxPreference android:title="@string/pref_title_mms_auto_retrieval" android:key="pref_key_mms_auto_retrieval" android:summary="@string/pref_summary_mms_auto_retrieval" android:defaultValue="true" />
+        <CheckBoxPreference android:layout="?android:preferenceLayoutChild" android:title="@string/pref_title_mms_retrieval_during_roaming" android:key="pref_key_mms_retrieval_during_roaming" android:summary="@string/pref_summary_mms_retrieval_during_roaming" android:dependency="pref_key_mms_auto_retrieval" android:defaultValue="false" />
+        <CheckBoxPreference android:persistent="true" android:title="@string/pref_msg_signature_title" android:key="pref_key_enable_signature" android:summary="@string/summary_signature_preference" android:defaultValue="false" />
+        <EditTextPreference android:persistent="true" android:singleLine="false" android:maxLength="32" android:capitalize="sentences" android:title="@string/Edit_signature" android:key="pref_key_message_signature" android:dependency="pref_key_enable_signature" android:defaultValue="" android:dialogTitle="@string/pref_msg_signature_title" />
+        <CheckBoxPreference android:persistent="true" android:title="@string/pref_title_sms_mms_callback_number" android:key="pref_key_enable_callback_number" android:summary="@string/pref_summary_sms_mms_callback_number" android:defaultValue="true" />
+        <EditTextPreference android:persistent="true" android:maxLength="20" android:title="@string/edit_callback_number" android:key="pref_key_sms_mms_callback_number" android:summary="@string/pref_summary_edit_callback_number" android:dependency="pref_key_enable_callback_number" android:defaultValue="" android:dialogTitle="@string/enter_callback_number" android:inputType="phone" />
+    </PreferenceCategory>
+    <PreferenceCategory android:title="@string/pref_notification_settings_title">
+        <CheckBoxPreference android:title="@string/pref_title_notification_enabled" android:key="pref_key_enable_notifications" android:summary="@string/pref_summary_notification_enabled" android:defaultValue="true" />
+        <com.motorola.blur.util.pref.BlurRingtonePreference android:layout="?android:preferenceLayoutChild" android:title="@string/pref_title_notification_ringtone" android:key="pref_key_ringtone" android:dependency="pref_key_enable_notifications" android:defaultValue="content://settings/system/notification_sound" android:ringtoneType="notification" />
+        <com.motorola.blur.util.pref.VibratePreference android:layout="?android:preferenceLayoutChild" android:title="@string/pref_title_notification_vibrate" android:key="pref_key_vibrate" android:summary="@string/pref_summary_notification_vibrate" android:dependency="pref_key_enable_notifications" android:defaultValue="false" />
+    </PreferenceCategory>
+</PreferenceScreen>

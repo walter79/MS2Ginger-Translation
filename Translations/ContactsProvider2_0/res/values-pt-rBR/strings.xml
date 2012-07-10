@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+    <string name="app_name">Armaz. de contatos</string>
+    <string name="provider_label">Contatos</string>
+    <string name="upgrade_out_of_memory_notification_ticker">Aprimoramento de contatos requer mais memória</string>
+    <string name="upgrade_out_of_memory_notification_title">Aprimorando armazenamento de contatos</string>
+    <string name="upgrade_out_of_memory_notification_text">Selecione para concluir o aprimoramento.</string>
+</resources>

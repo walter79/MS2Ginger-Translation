@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LinearLayout android:background="@drawable/widget_bg_local" android:layout_width="228.0px" android:layout_height="85.0px"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <FrameLayout android:clickable="true" android:layout_width="85.0px" android:layout_height="85.0px">
+        <ImageView android:layout_gravity="center" android:id="@id/img_album_default" android:clickable="true" android:layout_width="fill_parent" android:layout_height="fill_parent" android:src="@drawable/widget_no_album_art" android:scaleType="center" />
+        <ImageView android:id="@id/img_album" android:clickable="true" android:layout_width="fill_parent" android:layout_height="fill_parent" android:scaleType="centerCrop" />
+    </FrameLayout>
+    <LinearLayout android:orientation="vertical" android:layout_width="147.0px" android:layout_height="77.0px" android:layout_marginTop="9.0px" android:layout_marginRight="2.0px">
+        <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="39.0px" android:layout_marginLeft="11.0px">
+            <TextView android:textAppearance="@style/textWidgetBold" android:gravity="left" android:id="@id/song" android:layout_width="fill_parent" android:layout_height="wrap_content" android:singleLine="true" />
+            <TextView android:textAppearance="@style/textWidgetDarkGray" android:gravity="left" android:id="@id/artist" android:layout_width="fill_parent" android:layout_height="wrap_content" android:singleLine="true" />
+            <TextView android:gravity="left" android:id="@id/txt_now_playing" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:singleLine="true" style="@style/textWidget" />
+        </LinearLayout>
+        <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="34.0px" android:layout_marginLeft="8.0px">
+            <ImageButton android:id="@id/btn_rwd" android:background="@android:color/transparent" android:layout_width="44.0px" android:layout_height="fill_parent" android:src="@drawable/widget_button_prev" android:scaleType="center" />
+            <ImageButton android:id="@id/btn_pause" android:background="@android:color/transparent" android:layout_width="44.0px" android:layout_height="fill_parent" android:layout_marginLeft="2.0px" android:src="@drawable/widget_button_pause" android:scaleType="center" />
+            <ImageButton android:id="@id/btn_ffw" android:background="@android:color/transparent" android:paddingRight="8.0px" android:layout_width="52.0px" android:layout_height="fill_parent" android:src="@drawable/widget_button_next" android:scaleType="center" />
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

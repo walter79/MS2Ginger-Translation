@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+    <dimen name="colorPicker_width">312.0dip</dimen>
+    <dimen name="colorPicker_height">125.0dip</dimen>
+    <dimen name="colorPicker_titleLeftPadding">10.0dip</dimen>
+    <dimen name="colorPicker_titleTopPadding">15.0px</dimen>
+    <dimen name="colorPicker_titleBottomPadding">10.0px</dimen>
+    <dimen name="colorPicker_titleIcon_width">35.0dip</dimen>
+    <dimen name="colorPicker_title_textSize">18.0sp</dimen>
+    <dimen name="colorPicker_select_padiing">3.0dip</dimen>
+    <dimen name="deviderPaddingLeft">20.0dip</dimen>
+    <dimen name="deviderPaddingRight">20.0dip</dimen>
+    <dimen name="gridView_PaddingRight">15.0dip</dimen>
+    <dimen name="gridView_PaddingLeft">15.0dip</dimen>
+    <dimen name="gridView_PaddingTop">5.0dip</dimen>
+    <dimen name="gridView_HorizontalSpacing">20.0dip</dimen>
+    <dimen name="gridView_VerticalSpacing">10.0dip</dimen>
+</resources>

@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+    <plurals name="N_additional_songs">
+        <item quantity="other">ועוד %d שירים דומים</item>
+        <item quantity="one">ועוד שיר אחד דומה</item>
+    </plurals>
+    <plurals name="N_delete_songs">
+        <item quantity="other">האם אתה בטוח שברצונך למחוק לצמיתות את %d השירים האלה?</item>
+        <item quantity="one">האם אתה בטוח שברצונך למחוק לצמיתות את השיר הזה?</item>
+    </plurals>
+    <plurals name="N_playlists_deleted">
+        <item quantity="other">%d רשימות השמעה הוסרו.</item>
+        <item quantity="one">רשימת ההשמעה נמחקה.</item>
+    </plurals>
+    <plurals name="N_songs_purchased">
+        <item quantity="other">בוצעה בהצלחה רכישה של %d שירים; פריטים אלה נוספו לתור ההורדה.</item>
+        <item quantity="one">רכישת השיר בוצעה בהצלחה והוא נוסף לתור ההורדה</item>
+    </plurals>
+    <plurals name="N_songs_purchased_wifi_blocked">
+        <item quantity="other">%d שירים נרכשו בהצלחה. ההורדה תחל ברגע שתתחבר ל-Wi-Fi.</item>
+        <item quantity="one">רכישת השיר בוצעה בהצלחה. ההורדה תחל ברגע שתתחבר ל-Wi-Fi.</item>
+    </plurals>
+    <plurals name="N_tracks_added_playlist">
+        <item quantity="other">%d שירים נוספו לרשימת ההשמעה.</item>
+        <item quantity="one">שיר אחד נוסף לרשימת ההשמעה.</item>
+    </plurals>
+    <plurals name="N_tracks_deleted_from_playlist">
+        <item quantity="other">%d שירים נמחקו מרשימת ההשמעה.</item>
+        <item quantity="one">שיר אחד נמחק מרשימת ההשמעה.</item>
+    </plurals>
+    <plurals name="N_tracks_deleted_from_storage">
+        <item quantity="other">%d שירים נמחקו מהמכשיר.</item>
+        <item quantity="one">שיר אחד נמחק מהמכשיר.</item>
+    </plurals>
+    <plurals name="song_will_start_N_seconds">
+        <item quantity="other">השמעת השיר תחל בעוד %d שניות</item>
+        <item quantity="one">השמעת השיר תחל בעוד שנייה אחת</item>
+    </plurals>
+</resources>

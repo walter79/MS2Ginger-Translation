@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+    <plurals name="successfull_save_message">
+        <item quantity="other">Allegati salvati</item>
+        <item quantity="one">Allegato salvato</item>
+    </plurals>
+    <plurals name="sdcard_error_message">
+        <item quantity="other">Impossibile salvare gli allegati. Scheda SD mancante.\n\nReinserisci scheda SD.</item>
+        <item quantity="one">Impossibile salvare l\'allegato. Scheda SD mancante.\n\nReinserisci scheda SD.</item>
+    </plurals>
+    <plurals name="generic_error_message">
+        <item quantity="other">Impossibile salvare uno o più allegati.\n\nRiprova.</item>
+        <item quantity="one">Impossibile salvare l\'allegato.\n\nRiprova.</item>
+    </plurals>
+    <plurals name="confirm_delete_multiple_message">
+        <item quantity="other">%1$d messaggi verranno eliminati.</item>
+        <item quantity="one">1 messaggio verrà eliminato.</item>
+    </plurals>
+    <plurals name="messages_protected_toast">
+        <item quantity="other">%1$d messaggi protetti.</item>
+        <item quantity="one">1 messaggio protetto.</item>
+    </plurals>
+    <plurals name="messages_unprotected_toast">
+        <item quantity="other">Protezione rimossa da %1$d messaggi.</item>
+        <item quantity="one">Protezione rimossa da 1 messaggio.</item>
+    </plurals>
+</resources>

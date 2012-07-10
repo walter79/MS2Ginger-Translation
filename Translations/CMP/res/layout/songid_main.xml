@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:layout_gravity="left" android:id="@id/logo_image" android:layout_width="wrap_content" android:layout_height="17.0dip" android:layout_marginLeft="12.0dip" android:layout_marginTop="5.0dip" android:layout_marginBottom="5.0dip" />
+    <Button android:id="@id/btnRunSearch" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="9.0dip" android:layout_marginTop="3.0dip" android:layout_marginRight="9.0dip" android:layout_marginBottom="4.0dip" android:text="@string/run_search" />
+    <TextView android:id="@id/txtResultsHeader" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/results_header" style="@style/textViewListSeparator" />
+    <ListView android:id="@android:id/list" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+</LinearLayout>

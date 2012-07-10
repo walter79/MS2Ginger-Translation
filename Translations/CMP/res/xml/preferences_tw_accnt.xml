@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<PreferenceScreen android:title="@string/preferences_set_username" android:key="tw_account_settings" android:summary="@string/preferences_set_username_summary"
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:app="http://schemas.android.com/apk/res/com.motorola.cmp">
+    <com.motorola.cmp.preferences.AccountDialogPreference android:title="@string/preferences_tunewiki_set_user_email" android:key="wikiuser" android:summary="@string/preferences_set_username_summary" app:userKey="wikiuser" app:passwordKey="wikipass" />
+    <com.motorola.cmp.preferences.CreateAccountPreference android:title="@string/create_account" android:key="create_account" android:summary="@string/preference_tunewiki_create_account" android:dependency="wikiuser" />
+</PreferenceScreen>

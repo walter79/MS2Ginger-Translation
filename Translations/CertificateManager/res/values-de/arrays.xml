@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+    <string-array name="filter_labels">
+        <item>Alle Zertifikate</item>
+        <item>Vom Benutzer hinzugefügt</item>
+        <item>Vorinstalliert</item>
+    </string-array>
+    <string-array name="details_options_labels">
+        <item>Löschen</item>
+        <item>Auf SD-Karte exportieren</item>
+    </string-array>
+</resources>

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LinearLayout android:background="@drawable/card_wall" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:layout_width="210.0dip" android:layout_height="fill_parent">
+        <LinearLayout android:layout_width="210.0dip" android:layout_height="25.0dip">
+            <ImageView android:id="@id/store_icon" android:layout_width="wrap_content" android:layout_height="25.0dip" android:layout_marginLeft="6.0dip" android:layout_weight="0.0" android:layout_alignParentTop="true" android:layout_alignParentBottom="true" />
+            <ProgressBar android:layout_gravity="right" android:id="@id/progress" android:visibility="gone" android:layout_width="25.0dip" android:layout_height="25.0dip" android:layout_marginLeft="6.0dip" android:layout_weight="0.0" android:layout_toLeftOf="@id/store_icon" style="@android:style/Widget.ProgressBar.Small" />
+        </LinearLayout>
+        <LinearLayout android:orientation="vertical" android:layout_width="210.0dip" android:layout_height="fill_parent" android:layout_weight="0.0">
+            <ImageView android:gravity="bottom|center" android:layout_gravity="bottom|center" android:id="@id/icon" android:background="@blur.res:drawable/ic_single_stream_generic_music" android:layout_width="170.0dip" android:layout_height="170.0dip" android:layout_marginTop="25.0dip" android:layout_marginBottom="5.0dip" android:scaleType="centerCrop" />
+            <ImageView android:gravity="top|center" android:layout_gravity="top|center" android:id="@id/playback_album_art_shadow" android:layout_width="fill_parent" android:layout_height="wrap_content" android:src="@drawable/song_list_shadow" />
+        </LinearLayout>
+    </LinearLayout>
+    <LinearLayout android:gravity="center" android:layout_gravity="center" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_margin="5.0dip" android:layout_weight="1.0">
+        <RelativeLayout android:layout_gravity="top" android:id="@id/title_area" android:background="@drawable/song_dialog_header_bg" android:clickable="true" android:layout_width="fill_parent" android:layout_height="55.0dip">
+            <LinearLayout android:layout_gravity="top|center" android:orientation="vertical" android:id="@id/title_text" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginRight="61.0dip">
+                <TextView android:textSize="20.0sp" android:textColor="#ffffffff" android:ellipsize="end" android:gravity="left|center" android:id="@id/top_text" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip" android:maxLines="1" android:scrollHorizontally="true" android:shadowColor="#ff000000" android:shadowDx="0.0" android:shadowDy="-2.0" android:shadowRadius="1.0" android:layout_weight="0.0" />
+                <TextView android:textSize="14.0sp" android:textColor="#ffaaaaaa" android:ellipsize="end" android:gravity="left|center" android:id="@id/bottom_text" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip" android:maxLines="1" android:scrollHorizontally="true" android:shadowColor="#ff000000" android:shadowDx="0.0" android:shadowDy="-2.0" android:shadowRadius="1.0" />
+            </LinearLayout>
+            <RelativeLayout android:orientation="horizontal" android:layout_width="63.0dip" android:layout_height="fill_parent" android:layout_alignParentRight="true">
+                <ImageView android:id="@id/line_divider" android:background="@drawable/divider_vertical_bright" android:layout_width="1.0dip" android:layout_height="fill_parent" android:layout_alignParentLeft="true" />
+                <TextView android:textSize="12.0sp" android:textColor="#ffffffff" android:gravity="center" android:id="@id/price_text" android:focusable="true" android:layout_width="62.0dip" android:layout_height="fill_parent" android:maxLines="1" android:layout_centerInParent="true" />
+                <ProgressBar android:id="@id/price_progress" android:layout_width="25.0dip" android:layout_height="25.0dip" android:layout_marginRight="24.0dip" android:layout_alignParentRight="true" android:layout_centerVertical="true" />
+            </RelativeLayout>
+            <ImageView android:gravity="left" android:layout_gravity="left" android:background="@drawable/song_dialog_header_sheen_bg" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+        </RelativeLayout>
+        <ListView android:id="@android:id/list" android:background="@drawable/song_dialog_body_bg" android:layout_width="fill_parent" android:layout_height="fill_parent" android:cacheColorHint="#00000000" />
+    </LinearLayout>
+</LinearLayout>

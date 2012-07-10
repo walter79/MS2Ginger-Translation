@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+    <string name="app_name">Compass Calibrator</string>
+    <string name="calibrator_inst_title">Calibration</string>
+    <string name="calibrator_inst">Rotate phone in a figure eight motion in all possible axes. Compass will be calibrated when the image turns green.</string>
+    <string name="calibrator_face_title">Face Calibrated!</string>
+    <string name="calibrator_horizontal_inst">Slide out keyboard to calibrate the slide opened as well.</string>
+    <string name="calibrator_vertical_inst">Slide in keyboard to calibrate the slide closed as well.</string>
+    <string name="calibrator_quit_inst">Or press Quit if you have already calibrated both orientations.</string>
+    <string name="calibrator_start_button">Calibrate</string>
+    <string name="calibrator__otherface_button">Calibrate\n Other Face</string>
+    <string name="calibrator_quit_button">Quit</string>
+    <string name="calibrator_done_quit_inst">Calibration is completed! Press Quit.</string>
+    <string name="calibrator_fail_message">Calibration failed. Please retry!</string>
+    <string name="calibrator_ani_inst">Rotate the phone back and forth in all three axes until the compass image turns green.</string>
+</resources>

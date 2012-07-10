@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+    <plurals name="N_additional_songs">
+        <item quantity="other">und %d ähnliche Titel</item>
+        <item quantity="one">und 1 ähnlicher Titel</item>
+    </plurals>
+    <plurals name="N_delete_songs">
+        <item quantity="other">Möchten Sie diese %d Titel wirklich dauerhaft löschen?</item>
+        <item quantity="one">Möchten Sie diesen Titel wirklich dauerhaft löschen?</item>
+    </plurals>
+    <plurals name="N_playlists_deleted">
+        <item quantity="other">%d Playlists wurden entfernt.</item>
+        <item quantity="one">Playlist gelöscht</item>
+    </plurals>
+    <plurals name="N_songs_purchased">
+        <item quantity="other">%d Titel wurden erfolgreich gekauft und der Download-Warteschlange hinzugefügt.</item>
+        <item quantity="one">Der Titel wurde erfolgreich gekauft und der Download-Warteschlange hinzugefügt.</item>
+    </plurals>
+    <plurals name="N_songs_purchased_wifi_blocked">
+        <item quantity="other">%d Titel wurden erfolgreich gekauft. Der Download beginnt, sobald eine WLAN-Verbindung hergestellt wurde.</item>
+        <item quantity="one">Titel erfolgreich gekauft. Der Download beginnt, sobald eine WLAN-Verbindung hergestellt wurde.</item>
+    </plurals>
+    <plurals name="N_tracks_added_playlist">
+        <item quantity="other">%d Titel zur Playlist hinzugefügt</item>
+        <item quantity="one">1 Titel zu Playlist hinzugefügt</item>
+    </plurals>
+    <plurals name="N_tracks_deleted_from_playlist">
+        <item quantity="other">%d Titel wurden aus der Playlist gelöscht.</item>
+        <item quantity="one">1 Titel wurde aus der Playlist gelöscht.</item>
+    </plurals>
+    <plurals name="N_tracks_deleted_from_storage">
+        <item quantity="other">%d Titel wurden vom Gerät gelöscht.</item>
+        <item quantity="one">1 Titel wurde vom Gerät gelöscht.</item>
+    </plurals>
+    <plurals name="song_will_start_N_seconds">
+        <item quantity="other">Der Titel wird in %d Sekunden wiedergegeben</item>
+        <item quantity="one">Der Titel wird in 1 Sekunde wiedergegeben</item>
+    </plurals>
+</resources>

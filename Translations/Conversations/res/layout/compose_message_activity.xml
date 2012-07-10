@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<FrameLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:gravity="bottom" android:orientation="vertical" android:background="#ffb0b0b0" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <com.motorola.blur.conversations.ui.CheckableMessagingListView android:id="@id/history" android:visibility="gone" android:layout_marginBottom="1.0dip" android:scrollingCache="false" android:transcriptMode="normal" android:cacheColorHint="#ffb0b0b0" android:divider="#00000000" android:layout_weight="1.0" android:fastScrollEnabled="true" style="@blur.res:style/Blur.ScrollingList" />
+        <LinearLayout android:gravity="center_vertical" android:id="@id/bottom_bar" android:background="@drawable/bottom_bar" android:paddingTop="5.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="fill_parent">
+                <LinearLayout android:layout_gravity="bottom" android:orientation="vertical" android:id="@id/attachment_editor" android:layout_width="wrap_content" android:layout_height="wrap_content">
+                    <ViewStub android:id="@id/attachment_view_stub" android:layout="@layout/attachment_view" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+                    <ViewStub android:id="@id/slideshow_attachment_view_stub" android:layout="@layout/slideshow_attachment_view" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+                </LinearLayout>
+                <LinearLayout android:orientation="horizontal" android:id="@id/bottom_panel" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                    <EditText android:gravity="top" android:layout_gravity="bottom" android:id="@id/embedded_text_editor" android:nextFocusRight="@id/send_button" android:layout_width="wrap_content" android:layout_height="fill_parent" android:hint="@blur.res:string/compose_text_enter_hint" android:maxLines="3" android:autoText="true" android:layout_weight="1.0" />
+                    <LinearLayout android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_marginLeft="5.0dip">
+                        <TextView android:textSize="11.0sp" android:textStyle="bold" android:layout_gravity="center" android:id="@id/text_counter" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="5.0dip" />
+                        <LinearLayout android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="fill_parent">
+                            <Button android:layout_gravity="bottom" android:id="@id/send_button" android:nextFocusLeft="@id/embedded_text_editor" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/send" />
+                        </LinearLayout>
+                    </LinearLayout>
+                </LinearLayout>
+            </LinearLayout>
+        </LinearLayout>
+        <ViewStub android:id="@id/button_bar_stub" android:nextFocusUp="@id/history" android:layout="@blur.res:layout/multi_select_list_button_bar" android:inflatedId="@id/button_bar" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+    </LinearLayout>
+    <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <LinearLayout android:orientation="horizontal" android:id="@id/recipient_bar_block" android:visibility="gone" style="@blur.res:style/Blur.TitleBar">
+            <TextView android:textSize="12.0px" android:id="@id/single_recipient_bar" android:visibility="gone" android:text="@string/conversation_label" style="@blur.res:style/Blur.TxtTitleBar" />
+            <TextView android:ellipsize="end" android:id="@id/multiple_recipient_bar" android:paddingLeft="10.0dip" android:paddingRight="0.0dip" android:visibility="gone" android:singleLine="true" style="@blur.res:style/Blur.TxtTitleBar" />
+        </LinearLayout>
+        <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <ViewStub android:id="@id/recipients_editor_stub" android:layout="@layout/recipients_editor" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+            <ViewStub android:id="@id/recipient_sender_box" android:layout="@layout/recipient_sender_box" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+            <ViewStub android:id="@id/subject_stub" android:layout="@layout/composer_subject" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+        </LinearLayout>
+        <View android:id="@id/header_shadow" android:background="@android:drawable/title_bar_shadow" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+    </LinearLayout>
+</FrameLayout>

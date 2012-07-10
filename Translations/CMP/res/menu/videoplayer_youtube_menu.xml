@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<menu
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:icon="@drawable/menu_blip" android:id="@id/menu_blip" android:title="@string/send_blip" />
+    <item android:icon="@drawable/menu_music_map" android:id="@id/menu_music_maps" android:title="@string/music_maps" />
+    <item android:icon="@drawable/menu_resync" android:id="@id/menu_resync" android:title="@string/resync_this_song" />
+    <item android:icon="@drawable/menu_add_library" android:id="@id/menu_add_library" android:title="@string/add_library" />
+    <item android:icon="@drawable/menu_buy_song" android:id="@id/menu_buy_song" android:title="@string/buy_song" />
+    <item android:icon="@drawable/menu_preferences" android:id="@id/menu_settings" android:title="@string/settings" />
+</menu>

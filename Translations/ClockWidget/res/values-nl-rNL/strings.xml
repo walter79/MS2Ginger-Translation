@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+    <string name="widget_name">Datum en tijd</string>
+    <string name="app_name">Datum en tijd</string>
+    <string name="title">Widget Datum en tijd</string>
+    <string name="done">Gereed</string>
+    <string name="text_24_hr_format">24-uurs notatie gebruiken</string>
+    <string name="Widget_type">Klokstijl</string>
+    <string name="Clock_background_color">Achtergrondkleur klok</string>
+    <string name="choose_color">Kleur kiezen</string>
+    <string name="select">Selecteren</string>
+    <string name="PURPLE">Paars</string>
+    <string name="GREEN">Groen</string>
+    <string name="BLUE">Blauw</string>
+    <string name="ORANGE">Oranje</string>
+    <string name="DARKBLUE">Donkerblauw</string>
+    <string name="LIGHTBLUE">Lichtblauw</string>
+    <string name="Green">Groen</string>
+    <string name="Grey">Grijs</string>
+    <string name="description">De huidige datum en tijd in één oogopslag</string>
+    <string name="colon">:</string>
+</resources>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+    <item type="id" name="header_view">false</item>
+    <item type="id" name="empty">false</item>
+    <item type="id" name="progress">false</item>
+    <item type="id" name="progress_message">false</item>
+    <item type="id" name="interactive_titlebar">false</item>
+    <item type="id" name="int_titlebar_label">false</item>
+    <item type="id" name="int_titlebar_divider">false</item>
+    <item type="id" name="int_titlebar_imagebutton">false</item>
+</resources>

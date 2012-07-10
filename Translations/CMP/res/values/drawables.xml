@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+    <item type="drawable" name="transparent_background">#00000000</item>
+    <item type="drawable" name="black">#ff000000</item>
+    <item type="drawable" name="newbg">#ff191919</item>
+    <item type="drawable" name="bg_ads">#96333333</item>
+    <item type="drawable" name="bg_progress_gradient">#aa0d0d0d</item>
+    <item type="drawable" name="list_header_gradient">#ff333333</item>
+</resources>

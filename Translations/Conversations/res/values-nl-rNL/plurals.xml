@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+    <plurals name="successfull_save_message">
+        <item quantity="other">Bijlagen opgeslagen</item>
+        <item quantity="one">Bijlage opgeslagen</item>
+    </plurals>
+    <plurals name="sdcard_error_message">
+        <item quantity="other">De bijlagen kunnen niet worden opgeslagen omdat de SD-kaart ontbreekt.\n\nPlaats de SD-kaart opnieuw.</item>
+        <item quantity="one">De bijlage kan niet worden opgeslagen omdat de SD-kaart ontbreekt.\n\nPlaats de SD-kaart opnieuw.</item>
+    </plurals>
+    <plurals name="generic_error_message">
+        <item quantity="other">Een of meer van de bijlagen zijn niet opgeslagen.\n\nProbeer opnieuw op te slaan.</item>
+        <item quantity="one">De bijlage is niet opgeslagen.\n\nProbeer opnieuw op te slaan.</item>
+    </plurals>
+    <plurals name="confirm_delete_multiple_message">
+        <item quantity="other">%1$d berichten worden verwijderd.</item>
+        <item quantity="one">1 bericht wordt verwijderd.</item>
+    </plurals>
+    <plurals name="messages_protected_toast">
+        <item quantity="other">%1$d berichten beveiligd.</item>
+        <item quantity="one">1 bericht beveiligd.</item>
+    </plurals>
+    <plurals name="messages_unprotected_toast">
+        <item quantity="other">Beveiliging van %1$d berichten opgeheven.</item>
+        <item quantity="one">Beveiliging van 1 bericht opgeheven.</item>
+    </plurals>
+</resources>

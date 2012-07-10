@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+    <plurals name="N_additional_songs">
+        <item quantity="other">和%d首類似歌曲</item>
+        <item quantity="one">和1首類似歌曲</item>
+    </plurals>
+    <plurals name="N_delete_songs">
+        <item quantity="other">確定想要永久刪除這%d首歌曲?</item>
+        <item quantity="one">確定想要永久刪除這首歌?</item>
+    </plurals>
+    <plurals name="N_playlists_deleted">
+        <item quantity="other">已移除%d個播放清單.</item>
+        <item quantity="one">播放清單已刪除.</item>
+    </plurals>
+    <plurals name="N_songs_purchased">
+        <item quantity="other">%d首歌曲購買成功並添加到下載隊列.</item>
+        <item quantity="one">歌曲購買成功並添加到下載隊列.</item>
+    </plurals>
+    <plurals name="N_songs_purchased_wifi_blocked">
+        <item quantity="other">%d首歌曲購買成功.連接到WLAN網路後將開始下載.</item>
+        <item quantity="one">歌曲購買成功.連接到WLAN網路後將開始下載.</item>
+    </plurals>
+    <plurals name="N_tracks_added_playlist">
+        <item quantity="other">%d首歌曲已添加到播放清單.</item>
+        <item quantity="one">1首歌曲已添加到播放清單.</item>
+    </plurals>
+    <plurals name="N_tracks_deleted_from_playlist">
+        <item quantity="other">已從播放清單中刪除%d首歌曲.</item>
+        <item quantity="one">已從播放清單中刪除1首歌曲.</item>
+    </plurals>
+    <plurals name="N_tracks_deleted_from_storage">
+        <item quantity="other">已從裝置中刪除%d首歌曲.</item>
+        <item quantity="one">已從設備中刪除1首歌曲.</item>
+    </plurals>
+    <plurals name="song_will_start_N_seconds">
+        <item quantity="other">歌曲將在%d秒鐘後開始播放</item>
+        <item quantity="one">歌曲將在1秒鐘後開始播放</item>
+    </plurals>
+</resources>

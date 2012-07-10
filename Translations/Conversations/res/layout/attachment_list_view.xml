@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LinearLayout android:orientation="horizontal" android:padding="5.0dip" android:descendantFocusability="blocksDescendants" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/attachment_photo_id" android:layout_width="50.0dip" android:layout_height="50.0dip" />
+    <TextView android:layout_gravity="center_vertical" android:id="@id/attachment_name_id" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip" android:layout_weight="1.0" />
+    <ImageButton android:layout_gravity="center_vertical" android:id="@id/attachment_remove_button" android:background="@blur.res:drawable/btn_circle" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@blur.res:drawable/ic_control_remove" />
+</LinearLayout>

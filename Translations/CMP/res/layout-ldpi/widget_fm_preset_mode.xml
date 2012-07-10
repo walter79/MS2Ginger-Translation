@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LinearLayout android:gravity="center" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:id="@id/widget_radio_bg" android:background="@drawable/widget_bg_radio_presets" android:layout_width="213.0px" android:layout_height="106.0px">
+        <LinearLayout android:layout_gravity="fill_vertical" android:id="@id/radio_icon" android:layout_width="75.0dip" android:layout_height="88.0dip" android:layout_marginLeft="7.0dip" android:layout_marginTop="9.0dip">
+            <LinearLayout android:gravity="center" android:orientation="horizontal" android:layout_width="30.0px" android:layout_height="30.0px" android:layout_marginLeft="13.0dip" android:layout_marginTop="27.0px">
+                <ImageView android:id="@id/preset_digit_1" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/widget_preset_0" />
+                <ImageView android:id="@id/preset_digit_2" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="2.0px" android:src="@drawable/widget_preset_1" />
+            </LinearLayout>
+        </LinearLayout>
+        <LinearLayout android:orientation="vertical" android:paddingTop="12.0dip" android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <LinearLayout android:gravity="center_vertical" android:orientation="vertical" android:paddingLeft="19.0px" android:layout_width="fill_parent" android:layout_height="60.0dip" android:layout_marginTop="3.0dip">
+                <TextView android:id="@id/freq" android:layout_width="106.0px" android:layout_height="wrap_content" android:layout_marginLeft="15.0dip" android:singleLine="true" style="@style/textWidgetBold" />
+                <TextView android:gravity="left" android:id="@id/station_name" android:layout_width="106.0px" android:layout_height="wrap_content" android:layout_marginLeft="15.0dip" android:singleLine="true" style="@style/textWidget" />
+            </LinearLayout>
+            <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:layout_width="120.0px" android:layout_height="40.0dip" android:layout_marginLeft="21.0px" android:layout_marginTop="11.0px">
+                <ImageButton android:id="@id/btn_rwd" android:background="@android:color/transparent" android:layout_width="40.0px" android:layout_height="fill_parent" android:layout_marginLeft="1.0dip" android:src="@drawable/widget_button_prev" android:scaleType="center" />
+                <ImageButton android:id="@id/btn_pause" android:background="@android:color/transparent" android:layout_width="40.0px" android:layout_height="fill_parent" android:layout_marginLeft="4.0dip" android:src="@drawable/widget_button_play" android:scaleType="center" />
+                <ImageButton android:id="@id/btn_ffw" android:background="@android:color/transparent" android:layout_width="40.0px" android:layout_height="fill_parent" android:layout_marginLeft="4.0dip" android:src="@drawable/widget_button_next" android:scaleType="center" />
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+    <TextView android:id="@id/txt_now_playing" android:layout_width="0.0dip" android:layout_height="0.0dip" />
+</LinearLayout>

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+    <dimen name="appwidget_cutout">198.0dip</dimen>
+    <dimen name="nav_btn_pad_h">20.0dip</dimen>
+    <dimen name="track_list_item_icon_w">60.0dip</dimen>
+    <dimen name="track_list_item_icon_h">60.0dip</dimen>
+    <dimen name="motoflow_card_w">170.0dip</dimen>
+    <dimen name="motoflow_card_h">170.0dip</dimen>
+    <dimen name="editorial_land_left_margin">170.0dip</dimen>
+    <dimen name="seekbar_h">40.0dip</dimen>
+    <dimen name="controls_h">54.0dip</dimen>
+    <dimen name="dashboard_btn_margin_top">0.0dip</dimen>
+    <dimen name="dashboard_btn_margin_bottom">4.0dip</dimen>
+    <dimen name="dashboard_btn_margin_left">0.0dip</dimen>
+    <dimen name="dashboard_btn_margin_right">4.0dip</dimen>
+    <dimen name="dashboard_card_w">256.0dip</dimen>
+    <dimen name="dashboard_card_h">300.0dip</dimen>
+    <item type="dimen" name="dashboard_card_badge_w">@dimen/dashboard_card_w</item>
+    <dimen name="dashboard_card_badge_h">100.0dip</dimen>
+    <item type="dimen" name="dashboard_card_body_w">@dimen/dashboard_card_w</item>
+    <dimen name="dashboard_card_body_h">200.0dip</dimen>
+    <dimen name="dashboard_card_shadow_margin_bottom">202.0dip</dimen>
+    <dimen name="now_playing_card_w">256.0dip</dimen>
+    <dimen name="now_playing_card_h">300.0dip</dimen>
+    <item type="dimen" name="now_playing_card_badge_w">@dimen/now_playing_card_w</item>
+    <dimen name="now_playing_card_badge_h">100.0dip</dimen>
+    <item type="dimen" name="now_playing_card_body_w">@dimen/now_playing_card_w</item>
+    <dimen name="now_playing_card_body_h">200.0dip</dimen>
+</resources>

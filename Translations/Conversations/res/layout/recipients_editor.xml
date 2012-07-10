@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LinearLayout android:orientation="horizontal" android:id="@id/recipients_editor_linear_layout" android:layout_width="fill_parent" android:layout_height="wrap_content" style="@blur.res:style/Blur.ComposeAddressingWidget"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:paddingRight="@blur.res:dimen/msg_aw_hspacing" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/to_address_label" />
+    <com.motorola.blur.conversations.ui.view.TMAddressScrollView android:id="@id/recipients_editor_scroll" android:fadingEdge="none" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <com.motorola.blur.conversations.ui.view.address.compose.ConversationsComposeAddressingWidget android:id="@id/recipients_editor" android:layout_width="fill_parent" android:layout_height="wrap_content" android:singleLine="true" />
+    </com.motorola.blur.conversations.ui.view.TMAddressScrollView>
+</LinearLayout>

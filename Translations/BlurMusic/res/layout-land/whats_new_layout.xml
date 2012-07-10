@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LinearLayout android:orientation="vertical" android:background="@drawable/main_content_bg" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:id="@id/whatsnew_recent_container" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0">
+        <TextView android:id="@id/whatsnew_recent_subtitle" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/recently_added" />
+        <com.motorola.blur.music.widget.CollageImageLayout android:id="@id/whatsnew_recent_collage" android:layout_width="fill_parent" android:layout_height="65.0dip" />
+    </LinearLayout>
+    <ImageView android:layout_width="fill_parent" android:layout_height="wrap_content" android:src="@drawable/dashboard_list_divider" />
+    <LinearLayout android:orientation="vertical" android:id="@id/whatsnew_recommended_container" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0">
+        <TextView android:id="@id/whatsnew_recommended_subtitle" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/recommendations_title" android:layout_alignParentLeft="true" android:layout_alignParentTop="true" />
+        <com.motorola.blur.music.widget.CollageImageLayout android:id="@id/whatsnew_recommended_collage" android:layout_width="fill_parent" android:layout_height="65.0dip" />
+    </LinearLayout>
+    <ImageView android:layout_width="fill_parent" android:layout_height="wrap_content" android:src="@drawable/dashboard_list_divider" />
+    <LinearLayout android:orientation="vertical" android:id="@id/whatsnew_updates_container" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0">
+        <TextView android:id="@id/whatsnew_updates_subtitle" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/news_n_updates" android:layout_alignParentLeft="true" android:layout_alignParentTop="true" />
+        <com.motorola.blur.music.widget.CollageImageLayout android:id="@id/whatsnew_updates_collage" android:layout_width="fill_parent" android:layout_height="65.0dip" />
+    </LinearLayout>
+    <ImageView android:layout_width="fill_parent" android:layout_height="wrap_content" android:src="@drawable/dashboard_list_divider" />
+</LinearLayout>

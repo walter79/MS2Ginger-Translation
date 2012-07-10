@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RelativeLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.google.android.maps.MapView android:id="@id/mapview" android:clickable="true" android:layout_width="fill_parent" android:layout_height="fill_parent" android:apiKey="0me4nL-Nk6Jq6AapVxlRdkNGCtW62kEQ43cBYYA" />
+    <LinearLayout android:id="@id/layout_zoom" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignParentTop="true" android:layout_centerHorizontal="true" />
+    <RelativeLayout android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignParentBottom="true"
+      xmlns:android="http://schemas.android.com/apk/res/android">
+        <com.motorola.blur.music.TransparentPanel android:gravity="bottom" android:id="@id/transparent_panel" android:paddingLeft="5.0px" android:paddingTop="5.0px" android:paddingRight="5.0px" android:paddingBottom="5.0px" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_below="@id/mapview" />
+    </RelativeLayout>
+</RelativeLayout>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+    <string name="package_name">Certificate Manager Content Provider</string>
+    <string name="permlab_read">Read certificates</string>
+    <string name="permdesc_read">Read root certificates</string>
+    <string name="permlab_write">Write certificates</string>
+    <string name="permdesc_write">Write root certificates</string>
+</resources>

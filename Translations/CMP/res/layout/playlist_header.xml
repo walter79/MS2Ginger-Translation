@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<merge
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:app="http://schemas.android.com/apk/res/com.motorola.cmp">
+    <TextView android:textAppearance="@style/textMajor" android:gravity="center_vertical" android:id="@id/text1" android:paddingLeft="?listPaddingLeft" android:paddingRight="?listPaddingRight" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_alignParentLeft="true" android:layout_centerVertical="true"
+      xmlns:android="http://schemas.android.com/apk/res/android" />
+</merge>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<menu
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:icon="@drawable/menu_blip" android:id="@id/menu_blip" android:title="@string/send_blip" />
+    <item android:icon="@drawable/menu_video" android:id="@id/menu_videos" android:title="@string/find_videos" />
+    <item android:icon="@drawable/menu_music_map" android:id="@id/menu_music_maps" android:title="@string/music_maps" />
+</menu>

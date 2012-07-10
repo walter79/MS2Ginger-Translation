@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+    <string name="package_name">Πάροχος περιεχομένου διαχείρισης πιστοποιητικών</string>
+    <string name="permlab_read">Ανάγνωση πιστοποιητικών</string>
+    <string name="permdesc_read">Ανάγνωση πιστοποιητικών ρίζας</string>
+    <string name="permlab_write">Εγγραφή πιστοποιητικών</string>
+    <string name="permdesc_write">Εγγραφή πιστοποιητικών ρίζας</string>
+</resources>

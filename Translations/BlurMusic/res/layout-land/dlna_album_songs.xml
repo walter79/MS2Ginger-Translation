@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LinearLayout android:gravity="center_vertical" android:orientation="vertical" android:id="@id/album_parent_layout" android:background="@drawable/card_wall" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_weight="1.0">
+        <LinearLayout android:gravity="center" android:layout_gravity="center" android:orientation="vertical" android:layout_width="190.0dip" android:layout_height="fill_parent" android:layout_marginTop="25.0dip" android:layout_marginBottom="25.0dip" android:layout_weight="0.0">
+            <FrameLayout android:gravity="bottom|center" android:layout_gravity="bottom|center" android:layout_width="170.0dip" android:layout_height="170.0dip">
+                <ImageView android:id="@id/dlna_ic" android:background="@blur.res:drawable/ic_single_stream_generic_music" android:layout_width="170.0dip" android:layout_height="170.0dip" android:src="@drawable/ic_album_generic_stream" android:scaleType="centerCrop" />
+                <ImageView android:gravity="top|right|center" android:layout_gravity="top|right|center" android:id="@id/dlna_playback_overlay" android:focusable="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_margin="3.0dip" android:src="@blur.res:drawable/ic_control_music_info" />
+            </FrameLayout>
+            <ImageView android:gravity="top|center" android:layout_gravity="top|center" android:id="@id/dlna_playback_album_art_shadow" android:layout_width="fill_parent" android:layout_height="wrap_content" android:src="@drawable/song_list_shadow" />
+        </LinearLayout>
+        <FrameLayout android:gravity="top" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_weight="1.0">
+            <ProgressBar android:layout_gravity="top|right|center" android:id="@id/prog2" android:visibility="gone" android:layout_width="32.0dip" android:layout_height="32.0dip" />
+            <LinearLayout android:layout_gravity="top" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_margin="5.0dip">
+                <FrameLayout android:layout_width="fill_parent" android:layout_height="55.0dip">
+                    <LinearLayout android:layout_gravity="top" android:orientation="vertical" android:id="@id/dlna_container" android:background="@drawable/song_dialog_header_bg" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_weight="0.0">
+                        <RelativeLayout android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_weight="0.0">
+                            <TextView android:textSize="20.0sp" android:textColor="#ffffffff" android:gravity="left|center" android:layout_gravity="center_vertical" android:id="@id/dlna_top_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip" android:maxLines="1" android:shadowColor="#ff000000" android:shadowDx="0.0" android:shadowDy="-2.0" android:shadowRadius="1.0" android:layout_weight="0.0" />
+                            <TextView android:textSize="16.0sp" android:textColor="#ffffffff" android:gravity="right|center" android:layout_gravity="right|center" android:id="@id/dlna_num_selected" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxLines="1" android:layout_weight="1.0" android:layout_toRightOf="@id/dlna_top_text" android:layout_alignParentTop="true" android:layout_alignParentRight="true" />
+                        </RelativeLayout>
+                        <TextView android:textSize="14.0sp" android:textColor="#ffaaaaaa" android:ellipsize="marquee" android:gravity="left|center" android:id="@id/dlna_bottom_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip" android:maxLines="1" android:shadowColor="#ff000000" android:shadowDx="0.0" android:shadowDy="-2.0" android:shadowRadius="1.0" />
+                    </LinearLayout>
+                    <ImageView android:gravity="left" android:layout_gravity="left" android:background="@drawable/song_dialog_header_sheen_bg" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+                </FrameLayout>
+                <ListView android:id="@android:id/list" android:background="@drawable/song_dialog_body_bg" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginLeft="1.0dip" android:layout_marginRight="1.0dip" android:cacheColorHint="#00000000" android:layout_weight="1.0" />
+            </LinearLayout>
+            <LinearLayout android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content">
+                <include layout="@layout/sd_error" />
+            </LinearLayout>
+            <LinearLayout android:layout_gravity="bottom" android:id="@id/abwidget_layout" android:background="@android:color/transparent" android:paddingLeft="6.0dip" android:paddingRight="6.0dip" android:visibility="visible" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="0.0dip" android:layout_marginRight="0.0dip" android:layout_marginBottom="5.0dip" android:layout_weight="1.0">
+                <com.motorola.android.widget.ActionBar android:id="@id/landabwidget" android:background="@android:color/transparent" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                    <Button android:id="@id/copy_to_phone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/download_title" />
+                    <Button android:id="@id/cancel_download" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/cancel" />
+                </com.motorola.android.widget.ActionBar>
+            </LinearLayout>
+        </FrameLayout>
+    </LinearLayout>
+</LinearLayout>

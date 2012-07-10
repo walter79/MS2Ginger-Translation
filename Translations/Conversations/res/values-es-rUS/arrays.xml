@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+    <string-array name="default_smiley_texts">
+        <item>:-)</item>
+        <item>:-(</item>
+        <item>;-)</item>
+        <item>:-P</item>
+        <item>=-O</item>
+        <item>:-*</item>
+        <item>:O</item>
+        <item>B-)</item>
+        <item>:-$</item>
+        <item>:-!</item>
+        <item>:-[</item>
+        <item>O:-)</item>
+        <item>:-\\</item>
+        <item>:\'(</item>
+        <item>:-X</item>
+        <item>:-D</item>
+        <item>o_O</item>
+    </string-array>
+    <string-array name="default_smiley_names">
+        <item>Feliz</item>
+        <item>Triste</item>
+        <item>Guiñando un ojo</item>
+        <item>Lengua afuera</item>
+        <item>Sorprendido</item>
+        <item>Besando</item>
+        <item>Gritando</item>
+        <item>En la onda</item>
+        <item>Dinero en boca</item>
+        <item>Metida de pata</item>
+        <item>Avergonzado</item>
+        <item>Ángel</item>
+        <item>Indeciso</item>
+        <item>Llorando</item>
+        <item>Boca cerrada</item>
+        <item>Riendo</item>
+        <item>Confundido</item>
+    </string-array>
+    <string-array name="sms_priority_modes">
+        <item>Normal</item>
+        <item>Urgente</item>
+    </string-array>
+    <string-array name="pref_national_language_table_settings_entries">
+        <item>Método Shift simple</item>
+        <item>Método Shift de bloqueo</item>
+    </string-array>
+</resources>

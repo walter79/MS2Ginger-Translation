@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+    <color name="white">#ffffffff</color>
+    <color name="list_text_sep_bg">#ff262626</color>
+    <color name="black">#ff000000</color>
+    <color name="gray">#ffbbbbbb</color>
+    <color name="fm_disabled_overlay">#cc000000</color>
+    <color name="dark_gray">#ff2f4f4f</color>
+    <color name="car_dock_button_text_color">#ff888888</color>
+    <color name="car_dock_button_text_color_night">#ffcf7300</color>
+    <color name="car_dock_text_color_night">#ffffffff</color>
+    <color name="car_dock_text_color_day">#ffffffff</color>
+    <color name="gingerbread_white">#fff1f1f1</color>
+    <color name="listview_selector_color">#ff5bcdd0</color>
+</resources>

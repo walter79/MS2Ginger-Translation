@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<com.motorola.blur.conversations.ui.message.MessageListItem android:orientation="horizontal" android:id="@id/message_list_item" android:descendantFocusability="blocksDescendants" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:id="@id/main_message_view" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_weight="1.0">
+        <TextView android:id="@id/mms_multiple_recipients_view" style="@style/MultipleReplyContactsLabel" />
+        <ViewStub android:id="@id/mms_layout_view_stub" android:paddingLeft="5.0dip" android:paddingTop="3.0dip" android:paddingRight="5.0dip" android:layout="@layout/mms_layout_view" android:inflatedId="@id/mms_view" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+        <RelativeLayout android:id="@id/main_body" android:paddingLeft="5.0dip" android:paddingTop="3.0dip" android:paddingRight="5.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_below="@id/mms_view" android:layout_alignParentLeft="true" android:layout_alignWithParentIfMissing="true">
+            <LinearLayout android:orientation="horizontal" android:id="@id/text_and_left_indicator" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_below="@id/text_view" android:layout_alignParentLeft="true">
+                <ImageView android:layout_gravity="center_vertical" android:id="@id/status_indicator" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/MsgItemStatusIndicator" />
+                <TextView android:id="@id/text_view" style="@style/TxtMsgItem" />
+            </LinearLayout>
+            <LinearLayout android:orientation="horizontal" android:id="@id/right_indicators" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_below="@id/text_and_left_indicator" android:layout_alignParentRight="true">
+                <ImageView android:layout_gravity="bottom" android:id="@id/delivered_indicator" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+                <ImageView android:layout_gravity="bottom" android:id="@id/protected_indicator" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+            </LinearLayout>
+            <TextView android:id="@id/callback_view" android:layout_below="@id/right_indicators" android:layout_alignParentRight="true" android:layout_alignWithParentIfMissing="true" style="@style/TxtDateTimeStamp" />
+            <TextView android:id="@id/date_view" android:layout_below="@id/callback_view" android:layout_alignLeft="@id/text_and_left_indicator" android:layout_alignWithParentIfMissing="true" style="@style/TxtDateTimeStamp" />
+        </RelativeLayout>
+        <LinearLayout android:layout_gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content">
+            <Button android:id="@id/btn_download_msg" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/download" />
+            <Button android:id="@id/btn_reject_msg" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/reject" />
+        </LinearLayout>
+        <TextView android:gravity="center" android:id="@id/label_downloading" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/downloading" />
+    </LinearLayout>
+</com.motorola.blur.conversations.ui.message.MessageListItem>

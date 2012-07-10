@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<PreferenceScreen android:key="using_categories_in_root_screen"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ListPreference android:entries="@array/entries_list_preference" android:title="@string/Widget_type" android:key="Clock_styles_screen" android:defaultValue="@string/Clock_styles_screen" android:dialogTitle="@string/Widget_type" android:entryValues="@array/clock_sort_options_values" />
+    <ListPreference android:entries="@array/entries_list_preference" android:title="@string/Clock_background_color" android:key="clock_color_selection_screen" android:summary="Purple" android:entryValues="@array/clock_sort_options_values" />
+</PreferenceScreen>

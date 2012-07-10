@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+    <string-array name="filter_labels">
+        <item>所有证书</item>
+        <item>用户添加的证书</item>
+        <item>预加载的证书</item>
+    </string-array>
+    <string-array name="details_options_labels">
+        <item>删除</item>
+        <item>导出到 SD 卡</item>
+    </string-array>
+</resources>

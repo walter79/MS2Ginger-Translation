@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<FrameLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:moto.res="http://schemas.android.com/apk/res/com.motorola.android.widget">
+    <com.motorola.blur.music.TouchInterceptor android:textSize="18.0sp" android:id="@android:id/list" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" android:drawSelectorOnTop="false" android:fastScrollEnabled="true" />
+    <com.motorola.android.widget.MotoFlowView android:id="@id/blur_motoflowwidget_3d" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_weight="0.0" moto.res:isMainItemLive="false" moto.res:mainItemWidth="170.0dip" moto.res:mainItemHeight="170.0dip" moto.res:backgroundImage="@drawable/card_wall" moto.res:shadowImage="@blur.res:drawable/card_shadow" moto.res:lightX="0.0dip" moto.res:lightY="350.0dip" moto.res:lightZ="1000.0dip" moto.res:floorX="0.0dip" moto.res:floorY="-90.0dip" moto.res:floorZ="0.0dip" moto.res:floorWidth="1557.0dip" moto.res:floorHeight="1824.0dip" moto.res:itemSpacing="5.0dip" moto.res:shadowOffset="3.0dip" />
+    <LinearLayout android:orientation="vertical" android:id="@id/title_container" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <include android:visibility="gone" android:layout_weight="0.0" layout="@layout/simple_title" />
+        <ProgressBar android:layout_gravity="center" android:id="@id/mixthis_progress" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="110.0dip" android:indeterminate="true" style="\?android:attr/progressBarStyleLarge" />
+        <TextView android:textColor="#ff00ff00" android:layout_gravity="center" android:id="@id/mixing_text" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/mixing" android:layout_weight="0.0" android:layout_below="@id/mixthis_progress" />
+        <include android:layout_weight="0.0" layout="@layout/tumbler_title" />
+        <TextView android:textSize="22.0sp" android:textStyle="bold" android:textColor="#ffffffff" android:ellipsize="end" android:gravity="center" android:layout_gravity="center" android:id="@id/playlisttitle_text" android:visibility="gone" android:layout_width="360.0dip" android:layout_height="wrap_content" android:layout_marginTop="18.0dip" android:singleLine="true" android:layout_weight="0.0" />
+        <View android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_weight="1.0" />
+        <TextView android:textSize="20.0sp" android:textStyle="bold" android:textColor="#ffffffff" android:ellipsize="end" android:gravity="center" android:layout_gravity="center" android:id="@id/titlename_text" android:visibility="gone" android:layout_width="360.0dip" android:layout_height="wrap_content" android:layout_marginTop="188.0dip" android:singleLine="true" android:layout_weight="0.0" />
+        <TextView android:textSize="16.0sp" android:textColor="#ffffffff" android:ellipsize="end" android:gravity="center" android:layout_gravity="center" android:id="@id/artistname_text" android:visibility="gone" android:layout_width="360.0dip" android:layout_height="wrap_content" android:layout_marginBottom="8.0dip" android:singleLine="true" android:layout_weight="0.0" android:layout_below="@id/titlename_text" />
+    </LinearLayout>
+    <include layout="@layout/sd_error" />
+</FrameLayout>

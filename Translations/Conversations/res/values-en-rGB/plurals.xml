@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+    <plurals name="successfull_save_message">
+        <item quantity="other">Attachments saved</item>
+        <item quantity="one">Attachment saved</item>
+    </plurals>
+    <plurals name="sdcard_error_message">
+        <item quantity="other">The attachments cannot be saved as the SD card is missing.\n\nPlease re-insert SD card.</item>
+        <item quantity="one">The attachment cannot be saved as the SD card is missing.\n\nPlease re-insert SD card.</item>
+    </plurals>
+    <plurals name="generic_error_message">
+        <item quantity="other">One or more of the attachments have failed to save.\n\nPlease re-try saving.</item>
+        <item quantity="one">The attachment failed to save.\n\nPlease re-try saving.</item>
+    </plurals>
+    <plurals name="confirm_delete_multiple_message">
+        <item quantity="other">%1$d messages will be deleted.</item>
+        <item quantity="one">1 message will be deleted.</item>
+    </plurals>
+    <plurals name="messages_protected_toast">
+        <item quantity="other">%1$d messages protected.</item>
+        <item quantity="one">1 message protected.</item>
+    </plurals>
+    <plurals name="messages_unprotected_toast">
+        <item quantity="other">%1$d messages unprotected.</item>
+        <item quantity="one">1 message unprotected.</item>
+    </plurals>
+</resources>

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+    <plurals name="successfull_save_message">
+        <item quantity="other">Pièces jointes enregistrées</item>
+        <item quantity="one">Pièce jointe enregistrée</item>
+    </plurals>
+    <plurals name="sdcard_error_message">
+        <item quantity="other">Les pièces jointes ne peuvent pas être enregistrées car la carte SD est manquante.\n\nRéinsérez la carte SD.</item>
+        <item quantity="one">La pièce jointe ne peut pas être enregistrée car la carte SD est manquante.\n\nRéinsérez la carte SD.</item>
+    </plurals>
+    <plurals name="generic_error_message">
+        <item quantity="other">Une erreur s\'est produite lors de l\'enregistrement d\'une ou plusieurs pièces jointes.\n\nRéessayez de les enregistrer.</item>
+        <item quantity="one">Une erreur s\'est produite lors de l\'enregistrement de la pièce jointe.\n\nRéessayez de l\'enregistrer.</item>
+    </plurals>
+    <plurals name="confirm_delete_multiple_message">
+        <item quantity="other">%1$d messages seront supprimés.</item>
+        <item quantity="one">1 message va être supprimé.</item>
+    </plurals>
+    <plurals name="messages_protected_toast">
+        <item quantity="other">%1$d messages protégés.</item>
+        <item quantity="one">1 message protégé.</item>
+    </plurals>
+    <plurals name="messages_unprotected_toast">
+        <item quantity="other">%1$d messages non protégés.</item>
+        <item quantity="one">1 message non protégé.</item>
+    </plurals>
+</resources>

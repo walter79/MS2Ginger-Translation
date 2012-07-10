@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+    <plurals name="N_additional_songs">
+        <item quantity="other">y %d canciones similares</item>
+        <item quantity="one">y 1 canción similar</item>
+    </plurals>
+    <plurals name="N_delete_songs">
+        <item quantity="other">¿Seguro que quieres eliminar estas %d canciones de forma permanente?</item>
+        <item quantity="one">¿Seguro que quieres eliminar esta canción de forma permanente?</item>
+    </plurals>
+    <plurals name="N_playlists_deleted">
+        <item quantity="other">Se han eliminado %d listas de reproducción.</item>
+        <item quantity="one">Se ha eliminado la lista de reproducción.</item>
+    </plurals>
+    <plurals name="N_songs_purchased">
+        <item quantity="other">Se han adquirido %d canciones correctamente y se han añadido a la cola de descarga.</item>
+        <item quantity="one">La canción se ha adquirido correctamente y se ha añadido a la cola de descarga.</item>
+    </plurals>
+    <plurals name="N_songs_purchased_wifi_blocked">
+        <item quantity="other">Se han adquirido %d canciones correctamente. La descarga comenzará cuando te conectes a la red Wi-Fi.</item>
+        <item quantity="one">La canción se ha adquirido correctamente. La descarga comenzará cuando se conecte a la red Wi-Fi.</item>
+    </plurals>
+    <plurals name="N_tracks_added_playlist">
+        <item quantity="other">Se han añadido %d canciones a la lista de reproducción.</item>
+        <item quantity="one">Se ha añadido una canción a la lista de reproducción.</item>
+    </plurals>
+    <plurals name="N_tracks_deleted_from_playlist">
+        <item quantity="other">Se han eliminado %d canciones de la lista de reproducción.</item>
+        <item quantity="one">Se ha eliminado 1 canción de la lista de reproducción.</item>
+    </plurals>
+    <plurals name="N_tracks_deleted_from_storage">
+        <item quantity="other">Se han eliminado %d canciones del dispositivo.</item>
+        <item quantity="one">Se ha eliminado 1 canción del dispositivo.</item>
+    </plurals>
+    <plurals name="song_will_start_N_seconds">
+        <item quantity="other">La canción comenzará a reproducirse en %d segundos</item>
+        <item quantity="one">La canción comenzará a reproducirse en 1 segundo</item>
+    </plurals>
+</resources>

@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+    <string-array name="default_smiley_texts">
+        <item>:-)</item>
+        <item>:-(</item>
+        <item>;-)</item>
+        <item>:-P</item>
+        <item>=-O</item>
+        <item>:-*</item>
+        <item>:O</item>
+        <item>B-)</item>
+        <item>:-$</item>
+        <item>:-!</item>
+        <item>:-[</item>
+        <item>O:-)</item>
+        <item>:-\\</item>
+        <item>:\'(</item>
+        <item>:-X</item>
+        <item>:-D</item>
+        <item>o_O</item>
+    </string-array>
+    <string-array name="default_smiley_names">
+        <item>開心</item>
+        <item>悲傷</item>
+        <item>眨眼</item>
+        <item>吐舌頭</item>
+        <item>驚訝</item>
+        <item>親吻</item>
+        <item>大喊</item>
+        <item>酷</item>
+        <item>滿嘴錢</item>
+        <item>說錯話</item>
+        <item>尷尬</item>
+        <item>天使</item>
+        <item>猶豫</item>
+        <item>哭泣</item>
+        <item>保密</item>
+        <item>大笑</item>
+        <item>困惑</item>
+    </string-array>
+    <string-array name="sms_priority_modes">
+        <item>一般</item>
+        <item>緊急</item>
+    </string-array>
+</resources>

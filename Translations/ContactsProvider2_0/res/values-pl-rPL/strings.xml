@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+    <string name="app_name">Spis kontaktów</string>
+    <string name="provider_label">Kontakty</string>
+    <string name="upgrade_out_of_memory_notification_ticker">Uaktualnienie kontaktów wymaga więcej pamięci</string>
+    <string name="upgrade_out_of_memory_notification_title">Uaktualnianie magazynu kontaktów</string>
+    <string name="upgrade_out_of_memory_notification_text">Wybierz, aby dokończyć uaktualnianie.</string>
+</resources>

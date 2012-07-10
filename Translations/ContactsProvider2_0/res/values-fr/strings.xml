@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+    <string name="app_name">Espace de stockage contacts</string>
+    <string name="provider_label">Contacts</string>
+    <string name="upgrade_out_of_memory_notification_ticker">La mise à niveau des contacts nécessite davantage de mémoire</string>
+    <string name="upgrade_out_of_memory_notification_title">Mise à niveau de l\'espace de stockage des contacts</string>
+    <string name="upgrade_out_of_memory_notification_text">Sélectionnez pour terminer la mise à niveau.</string>
+</resources>

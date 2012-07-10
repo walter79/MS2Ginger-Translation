@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+    <string name="app_name">Calibrador de brújula</string>
+    <string name="calibrator_inst_title">Calibración</string>
+    <string name="calibrator_inst">Gira el teléfono en forma de ocho en todos los ejes posibles. La brújula estará calibrada cuando la imagen cambie a verde.</string>
+    <string name="calibrator_face_title">Cara calibrada</string>
+    <string name="calibrator_horizontal_inst">Abre el teclado para calibrar también con el teclado abierto.</string>
+    <string name="calibrator_vertical_inst">Cierra el teclado para calibrar también con el teclado cerrado.</string>
+    <string name="calibrator_quit_inst">O presiona Salir si ambas orientaciones ya fueron calibradas.</string>
+    <string name="calibrator_start_button">Calibrar</string>
+    <string name="calibrator__otherface_button">Calibrar\n la otra cara</string>
+    <string name="calibrator_quit_button">Salir</string>
+    <string name="calibrator_done_quit_inst">Calibración completa. Presiona Salir.</string>
+    <string name="calibrator_fail_message">Calibración fallida. Intenta de nuevo</string>
+    <string name="calibrator_ani_inst">Rota el teléfono de un lado a otro sobre los tres ejes hasta que la imagen de la brújula cambie a verde.</string>
+</resources>

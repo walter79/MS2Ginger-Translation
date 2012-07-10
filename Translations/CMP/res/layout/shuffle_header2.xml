@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<merge
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:app="http://schemas.android.com/apk/res/com.motorola.cmp">
+    <com.motorola.cmp.views.AlbumView android:id="@id/albumcover" android:paddingTop="0.0dip" android:paddingBottom="0.0dip" android:visibility="gone" android:layout_width="?albumThumbSize" android:layout_height="?albumThumbSize" android:src="@drawable/empty" android:layout_alignParentLeft="true" android:layout_centerVertical="true" app:datamode="store|cache" app:defaultArt="@drawable/no_coverart_sm" />
+    <TextView android:textAppearance="@style/textMajorBold" android:id="@id/text1" android:paddingLeft="10.0dip" android:paddingRight="20.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:singleLine="true" android:layout_toRightOf="@id/albumcover" />
+    <TextView android:textAppearance="@style/textMinor" android:id="@id/text2" android:paddingLeft="10.0dip" android:paddingRight="20.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:lines="1" android:layout_toRightOf="@id/albumcover" android:layout_below="@id/text1" />
+    <ImageView android:id="@id/img_indicator" android:paddingLeft="5.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="20.0dip" android:src="@drawable/button_menu_shuffle" android:layout_alignParentRight="true" android:layout_centerVertical="true" />
+</merge>

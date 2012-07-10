@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+    <string-array name="unrestricted_packages">
+        <item>com.android.contacts</item>
+        <item>com.motorola.blur.quickcontact</item>
+        <item>com.motorola.dialer</item>
+        <item>com.motorola.blurgallery</item>
+    </string-array>
+</resources>

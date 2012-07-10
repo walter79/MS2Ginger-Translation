@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout style="@blur.res:style/Blur.TitleBar">
+        <TextView android:id="@id/playlist_edit_title" android:text="@string/playlist_edit_title" style="@blur.res:style/Blur.TxtTitleBar" />
+    </LinearLayout>
+    <EditText android:id="@id/playlist_edit_name_hint" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="8.0dip" android:layout_marginTop="4.0dip" android:layout_marginRight="8.0dip" android:hint="@string/playlist_edit_hint" android:maxLines="1" android:inputType="textAutoComplete" />
+    <ImageView android:background="@android:drawable/divider_horizontal_textfield" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+    <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="0.8">
+        <com.motorola.blur.music.TouchInterceptor android:textSize="18.0sp" android:id="@android:id/list" android:fadingEdge="none" android:layout_width="fill_parent" android:layout_height="fill_parent" android:drawSelectorOnTop="false" android:fastScrollEnabled="true" />
+    </LinearLayout>
+    <LinearLayout android:gravity="bottom" android:orientation="horizontal" android:background="@null" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <com.motorola.android.widget.ActionBar android:id="@id/abwidget" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_alignParentBottom="true" />
+    </LinearLayout>
+</LinearLayout>

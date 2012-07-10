@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LinearLayout android:gravity="top" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:background="@com.motorola.android.widget:drawable/header_bkg" android:layout_width="fill_parent" style="@style/DlnaTitleBar">
+        <TextView android:textAppearance="?android:textAppearanceMediumInverse" android:textSize="14.0sp" android:textStyle="bold" android:gravity="center" android:layout_gravity="center" android:id="@id/play_queue_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip" android:layout_marginTop="0.0dip" android:text="@string/play_queue_title" android:layout_alignParentLeft="true" />
+        <TextView android:textAppearance="?android:textAppearanceMediumInverse" android:textSize="14.0sp" android:textStyle="bold" android:layout_gravity="center" android:id="@id/playqueue_duration" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="0.0dip" android:layout_marginRight="10.0dip" android:layout_alignParentRight="true" />
+    </RelativeLayout>
+    <RelativeLayout android:id="@id/add_song_layout" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="?android:listPreferredItemHeight">
+        <TextView android:gravity="center" android:id="@id/add_songs" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/add_songs_txt" android:layout_alignParentLeft="true" android:layout_alignParentTop="true" android:layout_alignParentBottom="true" />
+        <ImageButton android:gravity="center" android:id="@id/plus_sign" android:background="@drawable/zz_moto_btn_add_selector" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="12.0dip" android:layout_alignParentRight="true" style="@blur.res:style/Blur.Btn.TitleBar.AddContact" />
+    </RelativeLayout>
+</LinearLayout>

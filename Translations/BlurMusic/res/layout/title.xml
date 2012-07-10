@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LinearLayout android:orientation="vertical" android:id="@id/container" android:background="@com.motorola.android.widget:drawable/header_bkg" android:layout_width="fill_parent" android:layout_height="@dimen/track_list_item_icon_h" style="@com.motorola.android.widget:style/Interactive_Titlebar"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <ImageView android:id="@id/icon" android:background="@drawable/ic_album_generic_list" android:layout_width="@dimen/track_list_item_icon_w" android:layout_height="@dimen/track_list_item_icon_h" android:layout_marginRight="10.0dip" android:scaleType="centerCrop" android:layout_weight="0.0" android:layout_alignParentTop="true" android:layout_alignParentBottom="true" />
+        <LinearLayout android:gravity="left|center" android:orientation="vertical" android:id="@id/textArea" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_weight="1.0">
+            <TextView android:textSize="20.0sp" android:textStyle="bold" android:textColor="#ffffffff" android:ellipsize="marquee" android:gravity="left|center" android:id="@id/top_text" android:layout_width="fill_parent" android:layout_height="wrap_content" android:maxLines="1" android:shadowColor="#ff000000" android:shadowDx="0.0" android:shadowDy="-2.0" android:shadowRadius="1.0" />
+            <TextView android:textSize="16.0sp" android:textColor="#ffaaaaaa" android:ellipsize="marquee" android:gravity="left|center" android:id="@id/bottom_text" android:layout_width="fill_parent" android:layout_height="wrap_content" android:maxLines="1" android:shadowColor="#ff000000" android:shadowDx="0.0" android:shadowDy="-1.0" android:shadowRadius="1.0" />
+        </LinearLayout>
+        <TextView android:id="@id/concert_label" android:visibility="gone" style="@style/concert_label" />
+        <ProgressBar android:gravity="center" android:id="@id/progress" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_weight="0.0" />
+    </LinearLayout>
+    <View android:id="@id/title_separator" android:background="#ff777777" android:layout_width="fill_parent" android:layout_height="1.0dip" android:layout_weight="0.0" />
+</LinearLayout>

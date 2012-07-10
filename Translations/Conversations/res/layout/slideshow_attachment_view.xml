@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LinearLayout android:orientation="vertical" android:id="@id/slideshow_attachment_view" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:gravity="center" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="5.0dip" android:layout_weight="1.0">
+        <ImageButton android:id="@id/preview_slideshow_button" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ic_control_slideshow" />
+    </LinearLayout>
+    <com.motorola.android.widget.ActionBar android:id="@id/header" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_alignParentBottom="true">
+        <Button android:gravity="center_vertical" android:id="@id/edit_slideshow_button" android:layout_width="wrap_content" android:layout_height="fill_parent" android:text="@string/edit_button" />
+        <Button android:gravity="center_vertical" android:id="@id/discard_slideshow_button" android:layout_width="wrap_content" android:layout_height="fill_parent" android:text="@string/discard_button" />
+        <Button android:gravity="center_vertical" android:id="@id/send_slideshow_button" android:layout_width="wrap_content" android:layout_height="fill_parent" android:text="@string/send_button" />
+    </com.motorola.android.widget.ActionBar>
+</LinearLayout>

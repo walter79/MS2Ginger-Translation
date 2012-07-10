@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+    <string name="app_name">Agendaservice</string>
+    <string name="format_accepted">Geaccepteerd: %1$s</string>
+    <string name="format_canceled">Geannuleerd: %1$s</string>
+    <string name="format_declined">Geweigerd: %1$s</string>
+    <string name="format_new">%1$s</string>
+    <string name="format_tentative">Voorlopig: %1$s</string>
+    <string name="format_updated">Bijgewerkt: %1$s</string>
+    <string name="no_such_event">Deze gebeurtenis is niet beschikbaar.</string>
+    <string name="no_such_message">Kan afspraak niet vinden.</string>
+</resources>

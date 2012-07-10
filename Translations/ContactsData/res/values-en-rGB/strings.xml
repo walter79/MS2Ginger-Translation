@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+    <string name="app_name">ContactsData</string>
+    <string name="mms_body">Sent you an MMS message</string>
+    <string name="motoBlurProfileName">Address book</string>
+    <string name="motoBlurUnconnectedProfileName">Lite address book</string>
+    <string name="phoneContactsProfileName">Phone contacts</string>
+    <string name="simContactsProfileName">SIM contacts</string>
+    <string name="call_restiction_addcontact">Calls are restricted. Cannot add contact to phonebook.</string>
+    <string name="call_restiction_editcontact">Calls are restricted. Phonebook contact cannot be edited.</string>
+    <string name="call_restiction_deletecontact">Calls are restricted. Phonebook contact cannot be deleted.</string>
+    <string name="call_restiction_updatecontact_tools">Calls are restricted. Phonebook updating is not allowed.</string>
+</resources>

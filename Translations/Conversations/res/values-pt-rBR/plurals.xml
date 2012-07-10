@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+    <plurals name="successfull_save_message">
+        <item quantity="other">Anexos salvos</item>
+        <item quantity="one">Anexo salvo</item>
+    </plurals>
+    <plurals name="sdcard_error_message">
+        <item quantity="other">Não é possível salvar os anexos, pois não há cartão SD.\n\nPor favor, reinsira o cartão SD.</item>
+        <item quantity="one">Não é possível salvar o anexo, pois não há cartão SD.\n\nPor favor, reinsira o cartão SD.</item>
+    </plurals>
+    <plurals name="generic_error_message">
+        <item quantity="other">Falha ao salvar um ou mais anexos.\n\nPor favor, tente salvá-lo(s) novamente.</item>
+        <item quantity="one">Falha ao salvar o anexo.\n\nPor favor, tente salvá-lo novamente.</item>
+    </plurals>
+    <plurals name="confirm_delete_multiple_message">
+        <item quantity="other">%1$d mensagens serão excluídas.</item>
+        <item quantity="one">1 mensagem será excluída.</item>
+    </plurals>
+    <plurals name="messages_protected_toast">
+        <item quantity="other">%1$d mensagens protegidas.</item>
+        <item quantity="one">1 mensagem protegida.</item>
+    </plurals>
+    <plurals name="messages_unprotected_toast">
+        <item quantity="other">%1$d mensagens desprotegidas.</item>
+        <item quantity="one">1 mensagem desprotegida.</item>
+    </plurals>
+</resources>

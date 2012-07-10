@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+    <string name="widget_name">Date and Time</string>
+    <string name="app_name">Date and Time</string>
+    <string name="title">Date and Time widget</string>
+    <string name="done">Done</string>
+    <string name="text_24_hr_format">Use 24-hour format</string>
+    <string name="Widget_type">Clock style</string>
+    <string name="Clock_background_color">Clock background color</string>
+    <string name="choose_color">Choose color</string>
+    <string name="select">Select</string>
+    <string name="PURPLE">Purple</string>
+    <string name="GREEN">Green</string>
+    <string name="BLUE">Blue</string>
+    <string name="ORANGE">Orange</string>
+    <string name="DARKBLUE">Dark Blue</string>
+    <string name="LIGHTBLUE">Light Blue</string>
+    <string name="Green">Green</string>
+    <string name="Grey">Grey</string>
+    <string name="Clock_styles_screen">0</string>
+    <string name="clock_color_selection_screen">1</string>
+    <string name="description">The current date and time at a glance</string>
+    <string name="colon">:</string>
+</resources>

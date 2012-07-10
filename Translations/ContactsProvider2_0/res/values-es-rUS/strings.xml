@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+    <string name="app_name">Almacenamiento de contactos</string>
+    <string name="provider_label">Contactos</string>
+    <string name="upgrade_out_of_memory_notification_ticker">La actualización de contacto necesita más memoria</string>
+    <string name="upgrade_out_of_memory_notification_title">Actualizando almacenamiento de contacto</string>
+    <string name="upgrade_out_of_memory_notification_text">Seleccionar para finalizar la actualización.</string>
+</resources>

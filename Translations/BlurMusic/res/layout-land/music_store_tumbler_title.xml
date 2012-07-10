@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RelativeLayout android:orientation="horizontal" android:id="@id/tumbler" android:background="@com.motorola.android.widget:drawable/header_bkg" android:layout_width="fill_parent" android:layout_height="60.0dip" style="@com.motorola.android.widget:style/Interactive_Titlebar"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <Spinner android:layout_gravity="left|center" android:id="@id/tumbler_spinner" android:background="@com.motorola.android.widget:drawable/int_titlebar_btn_bkg" android:layout_width="fill_parent" android:layout_height="40.0dip" android:layout_weight="1.0" />
+    <TextView android:textSize="14.0sp" android:textColor="#ffffffff" android:ellipsize="end" android:gravity="center" android:id="@id/top_text" android:paddingLeft="8.0dip" android:paddingRight="3.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:scrollHorizontally="true" android:singleLine="true" android:layout_below="@id/tumbler_spinner" />
+</RelativeLayout>

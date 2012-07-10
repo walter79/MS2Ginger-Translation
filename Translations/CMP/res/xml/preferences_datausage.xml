@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<PreferenceScreen android:title="@string/data_usage" android:key="data_usage_section" android:summary="@string/data_usage_summary"
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:app="http://schemas.android.com/apk/res/com.motorola.cmp">
+    <CheckBoxPreference android:title="@string/download_song_data" android:key="song_data_enabled" android:summary="@string/download_song_data_summary" android:defaultValue="true" />
+    <CheckBoxPreference android:title="@string/confirm_data_intensive_features" android:key="enable_data_warnings" android:summary="@string/confirm_data_intensive_features_summary" android:defaultValue="false" />
+    <com.motorola.cmp.preferences.WiFiRequiredPreference android:title="@string/download_wifi_only" android:key="wifi_download_only" android:summary="@string/wifi_download_only" android:defaultValue="false" />
+</PreferenceScreen>

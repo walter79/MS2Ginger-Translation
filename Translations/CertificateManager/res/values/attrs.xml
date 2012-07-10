@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+    <attr name="isMainItemLive" format="boolean" />
+    <attr name="mainItemOffsetX" format="dimension" />
+    <attr name="mainItemOffsetY" format="dimension" />
+    <attr name="mainItemWidth" format="dimension" />
+    <attr name="mainItemHeight" format="dimension" />
+    <attr name="backgroundImage" format="reference" />
+    <attr name="floorImage" format="reference" />
+    <attr name="shadowImage" format="reference" />
+    <attr name="lightX" format="dimension" />
+    <attr name="lightY" format="dimension" />
+    <attr name="lightZ" format="dimension" />
+    <attr name="floorX" format="dimension" />
+    <attr name="floorY" format="dimension" />
+    <attr name="floorZ" format="dimension" />
+    <attr name="floorWidth" format="dimension" />
+    <attr name="floorHeight" format="dimension" />
+    <attr name="backgroundX" format="dimension" />
+    <attr name="backgroundY" format="dimension" />
+    <attr name="backgroundZ" format="dimension" />
+    <attr name="backgroundWidth" format="dimension" />
+    <attr name="backgroundHeight" format="dimension" />
+    <attr name="defaultItemImage" format="reference" />
+    <attr name="defaultItemView" format="reference" />
+</resources>

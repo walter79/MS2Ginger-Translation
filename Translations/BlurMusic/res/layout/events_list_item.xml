@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:id="@id/text_event_area" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="5.0dip" android:layout_marginBottom="5.0dip" android:layout_weight="1.0">
+        <TextView android:textSize="18.0dip" android:textStyle="bold" android:id="@id/events_list_item_feed_date" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="5.0dip" android:baselineAligned="true" android:maxLines="1" android:includeFontPadding="false" android:layout_weight="0.0" />
+        <TextView android:textSize="14.0dip" android:id="@id/events_list_item_feed_name" android:layout_width="wrap_content" android:layout_height="wrap_content" android:baselineAligned="true" android:maxLines="1" android:includeFontPadding="false" />
+        <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <TextView android:textSize="14.0dip" android:gravity="left|center" android:layout_gravity="left|center" android:id="@id/events_list_item_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxLines="2" android:includeFontPadding="false" android:layout_weight="1.0" />
+            <TextView android:gravity="right|center" android:layout_gravity="right|center" android:id="@id/concert_label" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_weight="0.0" style="@style/concert_label" />
+        </LinearLayout>
+    </LinearLayout>
+    <ImageView android:gravity="bottom" android:layout_gravity="bottom" android:id="@id/provider_logo" android:layout_width="20.0dip" android:layout_height="20.0dip" android:layout_margin="10.0px" android:layout_weight="0.0" android:layout_alignParentRight="true" android:layout_alignParentBottom="true" />
+</LinearLayout>

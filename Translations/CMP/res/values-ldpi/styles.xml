@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+    <style name="Theme.Player" parent="@style/Theme.PlayerInternal">
+        <item name="adViewHeight">36.0px</item>
+        <item name="landscapeLyricsHeight">69.0dip</item>
+    </style>
+    <style name="Theme.twDefault" parent="@style/Theme.twDefaultInternal">
+        <item name="adViewHeight">36.0px</item>
+    </style>
+    <style name="textWidget" parent="@style/textMinor">
+        <item name="android:textSize">18.0dip</item>
+        <item name="android:textColor">@android:color/black</item>
+    </style>
+</resources>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+    <string name="app_name">Programma calibrazione bussola</string>
+    <string name="calibrator_inst_title">Calibrazione</string>
+    <string name="calibrator_inst">Ruota il telefono con un movimento a \"otto\" su tutti i possibili assi. Al termine della calibrazione della bussola, l\'immagine diventa verde.</string>
+    <string name="calibrator_face_title">Orientamento calibrato</string>
+    <string name="calibrator_horizontal_inst">Estrai la tastiera per calibrare anche l\'altro orientamento.</string>
+    <string name="calibrator_vertical_inst">Chiudi la tastiera per calibrare anche l\'altro orientamento.</string>
+    <string name="calibrator_quit_inst">In alternativa, premi Esci se entrambi gli orientamenti sono già stati calibrati.</string>
+    <string name="calibrator_start_button">Calibra</string>
+    <string name="calibrator__otherface_button">Calibra\n altro orientamento</string>
+    <string name="calibrator_quit_button">Esci</string>
+    <string name="calibrator_done_quit_inst">Calibrazione completata. Premi Esci.</string>
+    <string name="calibrator_fail_message">Calibrazione non riuscita. Riprova.</string>
+    <string name="calibrator_ani_inst">Ruota il telefono in entrambi i versi sui tre assi fino a quando l\'immagine diventa verde.</string>
+</resources>

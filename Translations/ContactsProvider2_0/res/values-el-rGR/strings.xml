@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+    <string name="app_name">Χώρος αποθήκευσης επαφών</string>
+    <string name="provider_label">Επαφές</string>
+    <string name="upgrade_out_of_memory_notification_ticker">Για την αναβάθμιση των επαφών απαιτείται περισσότερη μνήμη</string>
+    <string name="upgrade_out_of_memory_notification_title">Αναβάθμιση χώρου αποθήκευσης επαφών</string>
+    <string name="upgrade_out_of_memory_notification_text">Επιλέξτε για να ολοκληρωθεί η αναβάθμιση.</string>
+</resources>

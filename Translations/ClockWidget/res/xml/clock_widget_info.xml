@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<appwidget-provider android:minWidth="219.0dip" android:minHeight="146.0dip" android:initialLayout="@xml/clock_init_layout" android:configure="com.motorola.blur.home.clock.ClockConfigActivity" blur:description="@string/description"
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:blur="http://schemas.android.com/apk/res/blur.res">
+    <appwidget-layout blur:minSpanX="2" blur:maxSpanX="4" blur:minSpanY="2" blur:maxSpanY="3" />
+</appwidget-provider>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<FrameLayout android:gravity="center" android:orientation="horizontal" android:id="@id/dlna_title_layout" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:gravity="center" android:orientation="horizontal" android:background="@com.motorola.android.widget:drawable/header_bkg" style="@style/DlnaTitleBar"
+      xmlns:android="http://schemas.android.com/apk/res/android">
+        <ProgressBar android:gravity="top|right|center" android:layout_gravity="top|right|center" android:id="@id/prog" android:background="@android:color/transparent" android:visibility="gone" android:layout_width="20.0dip" android:layout_height="20.0dip" android:layout_marginRight="5.0dip" android:layout_alignParentRight="true" style="@android:style/Widget.ProgressBar.Small" />
+        <TextView android:textStyle="bold" android:textColor="#ffffffff" android:gravity="left" android:layout_gravity="left|center" android:id="@id/dlna_title" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginRight="50.0dip" android:maxLines="1" android:singleLine="true" android:layout_toLeftOf="@id/prog" />
+        <TextView android:textStyle="bold" android:textColor="#ffffffff" android:gravity="right|center" android:layout_gravity="right|center" android:id="@id/dlna_num_selected" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxLines="1" android:layout_alignParentRight="true"
+          xmlns:android="http://schemas.android.com/apk/res/android" />
+    </RelativeLayout>
+</FrameLayout>

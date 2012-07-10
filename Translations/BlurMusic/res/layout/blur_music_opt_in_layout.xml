@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RelativeLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="16.0dip" android:textStyle="bold" android:textColor="#ffffffff" android:gravity="left|center" android:layout_gravity="left|center" android:id="@id/status_title" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/opt_in_status_title" android:maxLines="1" style="@blur.res:style/Blur.TitleBar" />
+    <include layout="@layout/optin_screen1" />
+    <include layout="@layout/optin_screen2" />
+    <include layout="@layout/optin_screen3" />
+    <include layout="@layout/optin_screen5" />
+    <include layout="@layout/optin_screen6" />
+    <include layout="@layout/optin_screen7" />
+    <include layout="@layout/optin_screen8" />
+    <include layout="@layout/optin_screen9" />
+</RelativeLayout>

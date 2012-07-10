@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LinearLayout android:orientation="vertical" android:background="@drawable/fm_tuner_info_box" android:layout_width="255.0dip" android:layout_height="300.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textAppearance="@style/textFMRDSSmall" android:id="@id/fm_card_rds_rt" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="24.0dip" android:layout_marginTop="15.0dip" android:layout_marginRight="24.0dip" android:lines="2" />
+    <RelativeLayout android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="10.0dip">
+        <TextView android:textAppearance="@style/textFMRDSLarge" android:id="@id/fm_card_rds_ps" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerHorizontal="true" />
+        <ImageView android:id="@id/fm_card_stereo" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="12.0dip" android:layout_marginTop="15.0dip" android:src="@drawable/fm_stereo_indicator" android:layout_toRightOf="@id/fm_card_rds_ps" />
+    </RelativeLayout>
+    <TextView android:textAppearance="@style/textFMRDSMed" android:layout_gravity="center_horizontal" android:id="@id/fm_card_freq" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+</LinearLayout>

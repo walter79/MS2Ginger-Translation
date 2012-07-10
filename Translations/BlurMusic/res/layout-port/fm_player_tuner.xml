@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RelativeLayout android:background="@color/fm_disabled_overlay" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.motorola.blur.music.cmpfmradio.ScrollableDialView android:id="@id/dial_tuner" android:layout_width="fill_parent" android:layout_height="96.0dip" android:layout_marginTop="-10.0dip" android:layout_alignParentBottom="true" />
+    <ImageView android:id="@id/dial_tuner_cover" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="96.0dip" android:layout_marginTop="-10.0dip" android:layout_alignParentBottom="true" />
+    <com.motorola.blur.music.cmpfmradio.TunedStationView android:id="@id/card_tuned" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_above="@id/fm_tune_point" android:layout_centerHorizontal="true" />
+    <ImageView android:id="@id/fm_tune_point" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="-10.0dip" android:src="@drawable/fm_radio_card_pointer" android:scaleType="center" android:layout_above="@id/dial_tuner" android:layout_centerHorizontal="true" />
+</RelativeLayout>

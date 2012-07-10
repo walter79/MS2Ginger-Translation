@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+    <plurals name="N_additional_songs">
+        <item quantity="other">et %d chansons semblables</item>
+        <item quantity="one">et 1 chanson semblable</item>
+    </plurals>
+    <plurals name="N_delete_songs">
+        <item quantity="other">Voulez-vous vraiment supprimer définitivement ces %d chansons ?</item>
+        <item quantity="one">Voulez-vous vraiment supprimer définitivement cette chanson ?</item>
+    </plurals>
+    <plurals name="N_playlists_deleted">
+        <item quantity="other">%d playlists retirées.</item>
+        <item quantity="one">Playlist supprimée.</item>
+    </plurals>
+    <plurals name="N_songs_purchased">
+        <item quantity="other">%d chansons ont été achetées et ajoutées à la file d’attente de téléchargement.</item>
+        <item quantity="one">La chanson a été achetée et ajoutée à la file d’attente de téléchargement.</item>
+    </plurals>
+    <plurals name="N_songs_purchased_wifi_blocked">
+        <item quantity="other">%d chansons ont été achetées. Le téléchargement débutera une fois la connexion Wi-Fi établie.</item>
+        <item quantity="one">La chanson a été achetée. Le téléchargement débutera une fois la connexion Wi-Fi établie.</item>
+    </plurals>
+    <plurals name="N_tracks_added_playlist">
+        <item quantity="other">%d chansons ajoutées à la playlist.</item>
+        <item quantity="one">1 chanson ajoutée à la playlist.</item>
+    </plurals>
+    <plurals name="N_tracks_deleted_from_playlist">
+        <item quantity="other">%d chansons retirées de la playlist.</item>
+        <item quantity="one">1 chanson retirée de la playlist.</item>
+    </plurals>
+    <plurals name="N_tracks_deleted_from_storage">
+        <item quantity="other">%d chansons retirées de l’appareil.</item>
+        <item quantity="one">1 chanson retirée de l’appareil.</item>
+    </plurals>
+    <plurals name="song_will_start_N_seconds">
+        <item quantity="other">La lecture de la chanson débutera dans %d secondes</item>
+        <item quantity="one">La lecture de la chanson débutera dans 1 seconde</item>
+    </plurals>
+</resources>

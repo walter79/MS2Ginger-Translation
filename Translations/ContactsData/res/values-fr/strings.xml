@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+    <string name="app_name">ContactsData</string>
+    <string name="mms_body">Vous a envoyé un MMS</string>
+    <string name="motoBlurProfileName">Carnet d\'adresses</string>
+    <string name="motoBlurUnconnectedProfileName">Carnet d\'adresses Lite</string>
+    <string name="phoneContactsProfileName">Contacts téléphoniques</string>
+    <string name="simContactsProfileName">Contacts SIM</string>
+    <string name="call_restiction_addcontact">Les appels sont restreints. Impossible d\'ajouter le contact au répertoire téléphonique.</string>
+    <string name="call_restiction_editcontact">Les appels sont restreints. Impossible de modifier le contact du répertoire téléphonique.</string>
+    <string name="call_restiction_deletecontact">Les appels sont restreints. Impossible de supprimer le contact du répertoire téléphonique.</string>
+    <string name="call_restiction_updatecontact_tools">Les appels sont restreints. La mise à jour du répertoire téléphonique est interdite.</string>
+</resources>

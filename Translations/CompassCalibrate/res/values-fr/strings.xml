@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+    <string name="app_name">Étalonneur de boussole</string>
+    <string name="calibrator_inst_title">Étalonnage</string>
+    <string name="calibrator_inst">Faites pivoter le téléphone dans un mouvement en forme de huit dans tous les axes possibles. Lorsque l\'image devient verte, la boussole est étalonnée.</string>
+    <string name="calibrator_face_title">Côté étalonné !</string>
+    <string name="calibrator_horizontal_inst">Ouvrez maintenant le clavier pour étalonner également la position ouverte.</string>
+    <string name="calibrator_vertical_inst">Refermez maintenant le clavier pour étalonner également la position fermée.</string>
+    <string name="calibrator_quit_inst">Appuyez sur Quitter si vous avez déjà étalonné les deux orientations.</string>
+    <string name="calibrator_start_button">Étalonner</string>
+    <string name="calibrator__otherface_button">Étalonner\n l\'autre côté</string>
+    <string name="calibrator_quit_button">Quitter</string>
+    <string name="calibrator_done_quit_inst">Étalonnage terminé. Appuyez sur Quitter.</string>
+    <string name="calibrator_fail_message">Echec de l\'étalonnage. Veuillez réessayer !</string>
+    <string name="calibrator_ani_inst">Faites pivoter le téléphone suivant les trois axes (de gauche à droite, d\'avant en arrière, de haut en bas) jusqu\'à ce que l\'image de boussole devienne verte.</string>
+</resources>

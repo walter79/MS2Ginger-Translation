@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+    <string name="widget_name">Data e ora</string>
+    <string name="app_name">Data e ora</string>
+    <string name="title">Widget Data e ora</string>
+    <string name="done">Fine</string>
+    <string name="text_24_hr_format">Usa formato 24 ore</string>
+    <string name="Widget_type">Stile orologio</string>
+    <string name="Clock_background_color">Colore sfondo orologio</string>
+    <string name="choose_color">Scegli colore</string>
+    <string name="select">Seleziona</string>
+    <string name="PURPLE">Viola</string>
+    <string name="GREEN">Verde</string>
+    <string name="BLUE">Blu</string>
+    <string name="ORANGE">Arancione</string>
+    <string name="DARKBLUE">Blu</string>
+    <string name="LIGHTBLUE">Azzurro</string>
+    <string name="Green">Verde</string>
+    <string name="Grey">Grigio</string>
+    <string name="description">Mostra la data e l\'ora correnti</string>
+    <string name="colon">:</string>
+</resources>

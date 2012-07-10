@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+    <plurals name="successfull_save_message">
+        <item quantity="other">Anhänge gespeichert</item>
+        <item quantity="one">Anhang gespeichert</item>
+    </plurals>
+    <plurals name="sdcard_error_message">
+        <item quantity="other">Anhänge können aufgrund einer fehlenden SD-Karte nicht gespeichert werden.\n\nSetzen Sie erneut eine SD-Karte ein.</item>
+        <item quantity="one">Anhang kann aufgrund einer fehlenden SD-Karte nicht gespeichert werden.\n\nSetzen Sie erneut eine SD-Karte ein.</item>
+    </plurals>
+    <plurals name="generic_error_message">
+        <item quantity="other">Mindestens ein Anhang konnte nicht gespeichert werden.\n\nWiederholen Sie den Speichervorgang.</item>
+        <item quantity="one">Der Anhang konnte nicht gespeichert werden.\n\nWiederholen Sie den Speichervorgang.</item>
+    </plurals>
+    <plurals name="confirm_delete_multiple_message">
+        <item quantity="other">%1$d Nachrichten werden gelöscht.</item>
+        <item quantity="one">1 Nachricht wird gelöscht.</item>
+    </plurals>
+    <plurals name="messages_protected_toast">
+        <item quantity="other">%1$d Nachrichten geschützt.</item>
+        <item quantity="one">1 Nachricht geschützt.</item>
+    </plurals>
+    <plurals name="messages_unprotected_toast">
+        <item quantity="other">Schutz für %1$d Nachrichten aufgehoben.</item>
+        <item quantity="one">Schutz für 1 Nachricht aufgehoben.</item>
+    </plurals>
+</resources>

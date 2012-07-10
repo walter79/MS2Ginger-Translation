@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+    <string name="app_name">Contactgegevens</string>
+    <string name="mms_body">Heeft u een mms gestuurd</string>
+    <string name="motoBlurProfileName">Adresboek</string>
+    <string name="motoBlurUnconnectedProfileName">Lite-adresboek</string>
+    <string name="phoneContactsProfileName">Telefooncontacten</string>
+    <string name="simContactsProfileName">SIM-contacten</string>
+    <string name="call_restiction_addcontact">Oproepen beperkt. Kan contact niet toevoegen aan telefoonboek.</string>
+    <string name="call_restiction_editcontact">Oproepen beperkt. Contact in telefoonboek kan niet worden bewerkt.</string>
+    <string name="call_restiction_deletecontact">Oproepen beperkt. Contact in telefoonboek kan niet worden verwijderd.</string>
+    <string name="call_restiction_updatecontact_tools">Oproepen beperkt. Bijwerken van telefoonboek is niet toegestaan.</string>
+</resources>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<FrameLayout android:layout_gravity="center" android:id="@id/sticky_color_picker_root" android:layout_width="@dimen/colorPicker_width" android:layout_height="@dimen/colorPicker_height" android:layout_weight="1.0"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:id="@id/sticky_background_linear_layout" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <ImageView android:background="@drawable/popup_top_dark" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+        <ImageView android:background="@drawable/popup_bottom_dark" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    </LinearLayout>
+    <LinearLayout android:orientation="vertical" android:id="@id/sticky_color_picker_title_root" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <LinearLayout android:orientation="horizontal" android:id="@id/sticky_color_title_region" android:paddingLeft="@dimen/colorPicker_titleLeftPadding" android:paddingTop="@dimen/colorPicker_titleTopPadding" android:paddingBottom="@dimen/colorPicker_titleBottomPadding" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <ImageView android:id="@id/color_picker_title_icon" android:layout_width="@dimen/colorPicker_titleIcon_width" android:layout_height="fill_parent" android:src="@drawable/ic_dialog_color_picker" />
+            <TextView android:textSize="@dimen/colorPicker_title_textSize" android:gravity="left|center" android:id="@id/sticky_color_picker_title" android:paddingLeft="@dimen/colorPicker_select_padiing" android:layout_width="wrap_content" android:layout_height="fill_parent" android:text="@string/select" android:layout_weight="1.0" android:color="@color/white" />
+        </LinearLayout>
+        <ImageView android:paddingLeft="@dimen/deviderPaddingLeft" android:paddingRight="@dimen/deviderPaddingRight" android:layout_width="fill_parent" android:layout_height="wrap_content" android:src="@drawable/divider_horizontal_dark" android:scaleType="fitXY" />
+        <GridView android:gravity="center" android:id="@id/color_picker_grid" android:paddingLeft="@dimen/gridView_PaddingLeft" android:paddingTop="@dimen/gridView_PaddingTop" android:paddingRight="@dimen/gridView_PaddingRight" android:layout_width="fill_parent" android:layout_height="fill_parent" android:horizontalSpacing="@dimen/gridView_HorizontalSpacing" android:verticalSpacing="@dimen/gridView_VerticalSpacing" android:stretchMode="columnWidth" android:columnWidth="70.0dip" android:numColumns="4" />
+    </LinearLayout>
+</FrameLayout>

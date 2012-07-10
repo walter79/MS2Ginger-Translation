@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+    <string name="app_name">校準指南針</string>
+    <string name="calibrator_inst_title">校準</string>
+    <string name="calibrator_inst">沿著所有可能的軸線，以 8 字型動作旋轉手機。 影像變成綠色時，系統將校準羅盤。</string>
+    <string name="calibrator_face_title">此面已校準！</string>
+    <string name="calibrator_horizontal_inst">滑出鍵盤也可以校準打開的滑道。</string>
+    <string name="calibrator_vertical_inst">滑入鍵盤也可以校準關閉的滑道。</string>
+    <string name="calibrator_quit_inst">如果兩個方向都已校準，可按下 [退出]。</string>
+    <string name="calibrator_start_button">校準</string>
+    <string name="calibrator__otherface_button">校準\n另一面</string>
+    <string name="calibrator_quit_button">退出</string>
+    <string name="calibrator_done_quit_inst">校準已完成！ 請按下 [退出]。</string>
+    <string name="calibrator_fail_message">校準失敗。 請重試！</string>
+    <string name="calibrator_ani_inst">沿 3 個軸來回旋轉手機，直到指南針圖像變成綠色。</string>
+</resources>
