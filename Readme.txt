@@ -1,0 +1,1 @@
+Value xml files for MS2Ginger.  Android 2.3.6 for Motorola Bravo, Defy, Milestone 2
