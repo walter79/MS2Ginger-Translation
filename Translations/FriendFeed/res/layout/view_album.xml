@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RelativeLayout android:paddingLeft="@blur.res:dimen/content_area_left_padding" android:paddingRight="@blur.res:dimen/content_area_right_padding" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <Button android:id="@id/view_album_btn" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/view_album" android:layout_centerHorizontal="true" />
+</RelativeLayout>

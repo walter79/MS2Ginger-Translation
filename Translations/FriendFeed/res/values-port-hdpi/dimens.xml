@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+    <dimen name="content_pad_top">13.0dip</dimen>
+    <dimen name="content_pad_left">8.0dip</dimen>
+    <dimen name="content_pad_right">8.0dip</dimen>
+    <dimen name="content_pad_bottom">13.0dip</dimen>
+    <dimen name="shadow_offset">-6.0dip</dimen>
+    <dimen name="add_icon_right_margin">6.0dip</dimen>
+    <dimen name="add_icon_bottom_margin">6.0dip</dimen>
+    <dimen name="vertical_img_pad_left">4.0dip</dimen>
+    <dimen name="vertical_img_pad_top">4.0dip</dimen>
+    <dimen name="vertical_img_pad_right">4.0dip</dimen>
+    <dimen name="horizontal_img_pad_left">4.0dip</dimen>
+    <dimen name="horizontal_img_pad_right">8.0dip</dimen>
+    <dimen name="horizontal_img_pad_top">4.0dip</dimen>
+    <dimen name="horizontal_img_pad_bottom">4.0dip</dimen>
+    <dimen name="img_height_2x2">111.0dip</dimen>
+    <dimen name="img_height_2x3">180.0dip</dimen>
+    <dimen name="img_height_3x1">100.0dip</dimen>
+    <dimen name="img_height_3x2">111.0dip</dimen>
+    <dimen name="img_height_3x3">180.0dip</dimen>
+    <dimen name="img_height_4x2">218.0dip</dimen>
+</resources>

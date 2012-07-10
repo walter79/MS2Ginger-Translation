@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+    <string name="app_name">FOTA</string>
+    <string name="atc_title">Comprobación automática</string>
+    <string name="warn_auto_check_on_title">Comprobación automática activada</string>
+    <string name="warn_auto_check_off_title">Desactivación de la comprobación automática</string>
+    <string name="warn_auto_check_on_message">Puede que se apliquen los ratios de datos normales durante la comprobación de actualizaciones del sistema.</string>
+    <string name="warn_auto_check_off_message">El teléfono no buscará actualizaciones de forma automática. Para disfrutar de un mejor rendimiento, se recomienda buscar actualizaciones asiduamente.</string>
+    <string name="fota_alert_dialog_ok">Aceptar</string>
+    <string name="test_check_progress">Actualización iniciada por el usuario</string>
+    <string name="test_check_timer_progress">Actualización iniciada por el usuario con tiempo de espera</string>
+    <string name="hi_fota_plugin">APP de prueba FOTA</string>
+    <string name="click_me">salir</string>
+</resources>

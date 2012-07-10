@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+    <plurals name="other_count">
+        <item quantity="other">Otros %1$d</item>
+        <item quantity="one">otro más</item>
+    </plurals>
+</resources>

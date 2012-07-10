@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+    <string name="app_name">Motorola-dockservice</string>
+    <string name="mot_dock_apps">Motorola-docktoepassingen</string>
+    <string name="TitleForWebtop">WebTop</string>
+    <string name="TitleForEASport">EASports</string>
+    <string name="TitleWidgetClock">Klokwidget</string>
+    <string name="TitleForEntertainmentCenter">Entertainment Center</string>
+    <string name="TitleForBigClock">GroteKlok</string>
+    <string name="TitleForHome">Kiezer negeren</string>
+    <string name="description">beschrijving onder titel komt hier en hier</string>
+    <string name="detailed_description">gedetailleerde beschrijving komt hier en hier</string>
+    <string name="dock_notification_title">Verbonden met multimediastation</string>
+    <string name="hall_effect_dock_only">Multimediastation is momenteel aangesloten</string>
+    <string name="dock_notification_message">Selecteer om andere toepassing te kiezen</string>
+    <string name="hdmi_notification_title">HDMI-aansluiting</string>
+    <string name="hdmi_notification_message">Selecteer dit om uw HDMI-verbinding te beheren</string>
+    <string name="hdmi_only_message">HDMI is momenteel aangesloten</string>
+    <string name="dock_hdmi_notification_title">Verbonden met HD-dock</string>
+    <string name="hall_effect_dock_notification">HD-dock is momenteel aangesloten</string>
+    <string name="dock_hdmi_notification_message">Selecteer om andere toepassing te kiezen</string>
+    <string name="descrip_webtop">Verander uw telefoon in een pc</string>
+    <string name="descrip_entertainmentcenter">Ervaar uw muziek, foto\'s en films op HD-televisie</string>
+    <string name="descrip_bigclock">Een elegante klok en wekker</string>
+    <string name="descrip_widgetdock">Stel uw eigen dock-ervaring in, vergelijkbaar met uw beginscherm</string>
+    <string name="descrip_home">Zorg dat uw huidige toepassing in beeld blijft terwijl de telefoon in het dock is geplaatst</string>
+    <string name="descrip_easport">Spelbeschrijving</string>
+    <string name="str_ok">OK</string>
+    <string name="detail_descrip_webtop">Beschrijving komt hier. Wordt toegevoegd</string>
+    <string name="detail_descrip_entertainmentcenter">Via het TV Media Center kunt u bladeren door alle multimediagegevens op uw telefoon. Terwijl u in het Media Center bent, fungeert uw telefoon als een gestroomlijnde controller waarmee u eenvoudig muziek kunt afspelen en foto\'s of een video kunt bekijken</string>
+    <string name="detail_descrip_bigclock">Verander uw telefoonscherm in een grote klok met handige extra\'s. Bekijk de tijd van veraf, zet de wekker, speel muziek af, bekijk foto\'s en haal het laatste weerbericht binnen. Deze klok is ontworpen voor op het nachtkastje, maar is uiteraard ook bruikbaar in de keuken of op uw bureau.</string>
+    <string name="detail_descrip_widgetdock">U heeft toegang tot dezelfde Android-widgets, toepassingen en snelkoppelingen als op het beginscherm van uw telefoon. Rangschik ze en wijzig de achtergrond naar uw voorkeur. Alle wijzigingen worden opgeslagen en toegepast de volgende keer dat u uw telefoon aansluit.</string>
+    <string name="detail_descrip_home">Selecteer deze modus om de huidige toepassing in beeld te houden op de telefoon. Selecteer de overige docktoepassingen op eenvoudige wijze via het meldingengordijn.</string>
+    <string name="detail_descrip_easport">Gedetailleerde beschrijving entertainment komt hier. Wordt later toegevoegd.</string>
+    <string name="prompt_RememberMySelection">Mijn keuze onthouden</string>
+    <string name="title">Toepassing kiezen om te starten</string>
+    <string name="detecting">Detecteren...</string>
+    <string name="TitleForMirrorMode">Spiegel telefoon op scherm</string>
+    <string name="descrip_mirrormode">Alle toepassingen van de telefoon op een groter scherm openen en weergeven</string>
+    <string name="TitleForOther">Overig</string>
+    <string name="descrip_other">Geeft de niet-slimme toepassingen van het dockstation weer</string>
+    <string name="TitleForGallery">Galerij</string>
+    <string name="descrip_gallery">Foto\'s en video\'s bekijken</string>
+    <string name="TitleForMusicPlayer">Muziek</string>
+    <string name="descrip_musicplayer">Muziek openen, beluisteren en delen</string>
+</resources>

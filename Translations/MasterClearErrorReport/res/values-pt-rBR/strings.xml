@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+    <string name="app_name">Relatório de Erro Master Clear</string>
+    <string name="master_clear_error_continue_button_text">Continuar</string>
+    <string name="master_clear_error_sd_erase_failed_title">Erro ao excluir o cartão SD</string>
+    <string name="master_clear_error_phone_erase_failed_title">Erro Master Clear</string>
+    <string name="master_clear_error_generic">Problema desconhecido</string>
+    <string name="master_clear_error_sd_nodevice">Cartão SD não encontrado</string>
+    <string name="master_clear_error_sd_readonly">Cartão protegido contra escrita</string>
+    <string name="master_clear_error_sd_write">Operação de escrita falhou</string>
+    <string name="master_clear_error_sd_read">Operação de leitura falhou</string>
+    <string name="master_clear_error_sd_large">Cartão muito largo</string>
+    <string name="master_clear_error_phone_generic">Falha de operação</string>
+    <string name="master_clear_error_sd_activity_name">Relatório erro cartão SD</string>
+    <string name="master_clear_error_phone_activity_name">Relatório de erro Master Clear</string>
+</resources>

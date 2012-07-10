@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+    <string name="status_bar_priority_events_title">优先级</string>
+    <string name="app_label">状态栏</string>
+    <string name="status_bar_clear_all_button">清除</string>
+    <string name="status_bar_no_notifications_title">无通知</string>
+    <string name="status_bar_ongoing_events_title">正在进行的</string>
+    <string name="status_bar_latest_events_title">通知</string>
+    <string name="battery_low_title">请连接充电器</string>
+    <string name="battery_low_subtitle">电量所剩不多：</string>
+    <string name="battery_low_percent_format">%d%% 或更少剩余电量。</string>
+    <string name="battery_low_why">电量使用情况</string>
+    <string name="usb_accessory_permission_prompt">允许应用程序 %1$s 访问此 USB 配件？</string>
+    <string name="usb_device_confirm_prompt">连接此 USB 设备后打开 %1$s？</string>
+    <string name="usb_accessory_confirm_prompt">连接此 USB 配件后打开 %1$s？</string>
+    <string name="usb_accessory_uri_prompt">安装的应用程序无法适用于此 USB 配件。登录%1$s了解关于此配件的更多信息</string>
+    <string name="title_usb_accessory">USB 配件</string>
+    <string name="label_view">查看</string>
+    <string name="always_use_accessory">默认用于此 USB 配件</string>
+</resources>

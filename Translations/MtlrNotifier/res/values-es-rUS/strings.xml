@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+    <string name="app_name">DiálogoMtlr</string>
+    <string name="location_mtlr_notification">está solicitando tu ubicación</string>
+    <string name="location_mtlr_ver_prefix">La solicitud será</string>
+    <string name="location_mtlr_ver_postfix">si no respondes.</string>
+    <string name="location_mtlr_default_allow">Permitida: Solicitud de ubicación</string>
+    <string name="location_mtlr_default_deny">Denegada: Solicitud de ubicación</string>
+    <string name="location_mtlr_network_fail">Solicitud terminada por la red</string>
+    <string name="notification_msg_content">Ubicación solicitada</string>
+    <string name="notification_msg_type_notification">Ubicación solicitada</string>
+    <string name="notification_msg_type_missed">Ubicación solicitada perdida</string>
+    <string name="notification_msg_type_title">Ubicación solicitada</string>
+    <string name="notification_request_postfix">ha solicitado tu ubicación.</string>
+    <string name="notification_dialog_middlefix">ha solicitado tu ubicación. Tu ubicación</string>
+    <string name="verification_dialog_middlefix">ha solicitado tu ubicación. Aceptar esta solicitud de ubicación permitirá</string>
+    <string name="notification_dialog_postfix">identificar tu ubicación.</string>
+    <string name="missed_verification_dialog_prefix">Una solicitud de ubicación de</string>
+    <string name="missed_verification_dialog_middlefix">se ha perdido. Tu ubicación</string>
+    <string name="share_status_yes">ha sido</string>
+    <string name="share_status_no">no ha sido</string>
+    <string name="share_string">compartida con</string>
+    <string name="toast_accept">ahora podrá determinar tu ubicación.</string>
+    <string name="toast_deny">no se le permitirá determinar tu ubicación.</string>
+    <string name="connect_terminate_msg">La solicitud de ubicación ha sido cancelada por la red.</string>
+    <string name="accept_ok">Aceptar</string>
+    <string name="button_allow">Permitir</string>
+    <string name="button_deny">Denegar</string>
+</resources>

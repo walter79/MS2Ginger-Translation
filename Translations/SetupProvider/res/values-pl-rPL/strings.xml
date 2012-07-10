@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+    <string name="app_name">Przechowywanie kont</string>
+    <string name="blur_accounts">Konta Usługi Motorola</string>
+    <string name="as_pretty_name">Poczta firmowa</string>
+    <string name="blur_pretty_name">Usługi Motorola</string>
+    <string name="yahoo_pretty_name">Yahoo! Mail</string>
+    <string name="email_login_label">E-mail|adres_email@domena.com</string>
+    <string name="as_login_label">Domena\\Nazwa użytkownika|Domena\\Nazwa użytkownika</string>
+    <string name="blur_login_label">E-mail|adres_email@domena.com</string>
+    <string name="yahoo_login_label">E-mail|adres_email@yahoo.com</string>
+</resources>

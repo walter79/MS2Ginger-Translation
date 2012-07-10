@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RelativeLayout android:id="@id/datamanager_widget" android:background="@blur.res:drawable/base_1x1" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:id="@id/top_view" android:background="@drawable/sleeve_vert" android:layout_width="fill_parent" android:layout_height="50.0dip" android:layout_marginTop="-2.0dip">
+        <TextView android:id="@id/data_usage" android:layout_marginTop="0.0dip" android:layout_centerHorizontal="true" style="@style/WidgetDataUsageText.WVGA" />
+        <TextView android:id="@id/size_matrix" android:layout_marginBottom="-2.0dip" android:layout_alignRight="@id/data_usage" android:layout_alignParentBottom="true" style="@style/WidgetSizeMatrixText.WVGA" />
+    </RelativeLayout>
+    <TextView android:id="@id/last_checked" android:layout_marginLeft="15.0dip" android:layout_marginRight="8.0dip" android:layout_marginBottom="15.0dip" android:maxLines="2" android:layout_below="@id/top_view" style="@style/WidgetLastCheckedText.WVGA" />
+</RelativeLayout>

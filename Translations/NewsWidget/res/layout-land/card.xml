@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LinearLayout android:orientation="horizontal" android:paddingLeft="@blur.res:dimen/card_content_padding_left" android:paddingTop="@blur.res:dimen/card_content_padding_top" android:paddingRight="@blur.res:dimen/card_content_padding_right" android:paddingBottom="@blur.res:dimen/card_content_padding_bottom" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:paddingLeft="@blur.res:dimen/card_badge_padding" android:paddingTop="@blur.res:dimen/card_badge_padding" android:paddingRight="@blur.res:dimen/card_hgap1" android:paddingBottom="@blur.res:dimen/card_vgap1" android:layout_width="wrap_content" android:layout_height="fill_parent">
+        <ImageView android:id="@id/card_feed_image" android:paddingTop="@blur.res:dimen/card_badge_padding" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ic_thb_news_defaultfeed" android:scaleType="centerInside" android:adjustViewBounds="false" android:height="@blur.res:dimen/card_badge_height" android:width="@blur.res:dimen/card_badge_height" />
+        <TextView android:textSize="12.0sp" android:textColor="@color/card_text" android:gravity="left" android:id="@id/card_feed_name" android:paddingTop="@blur.res:dimen/card_badge_padding" android:layout_width="100.0dip" android:layout_height="wrap_content" />
+        <TextView android:textSize="12.0sp" android:textColor="@color/card_secondary_text" android:id="@id/card_date" android:paddingTop="@blur.res:dimen/card_badge_padding" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+    </LinearLayout>
+    <ImageView android:background="@blur.res:drawable/card_divider_vert" android:layout_width="wrap_content" android:layout_height="fill_parent" />
+    <ScrollView android:id="@id/card_scroll" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <include layout="@layout/card_body" />
+    </ScrollView>
+</LinearLayout>

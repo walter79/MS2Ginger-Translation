@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+    <string name="loading_wallpaper_failed">Ładowanie tapety nieudane!</string>
+    <string name="application_name">Live Wallpaper Picker</string>
+    <string name="live_wallpaper_picker_title">Aktywne tapety</string>
+    <string name="live_wallpaper_preview_title">Podgląd animowanej tapety</string>
+    <string name="configure_wallpaper">Ustawienia…</string>
+    <string name="wallpaper_instructions">Ustaw tapetę</string>
+    <string name="live_wallpaper_empty">Brak aktywnych tapet.</string>
+    <string name="set_live_wallpaper">Ustaw tapetę</string>
+    <string name="wallpaper_title_and_author">%1$s, autor: %2$s</string>
+    <string name="live_wallpaper_loading">Wczytywanie aktywnej tapety…</string>
+</resources>

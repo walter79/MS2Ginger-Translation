@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+    <dimen name="sleeve_width_land_3_2">102.0dip</dimen>
+    <dimen name="sleeve_width_land_3_3">156.0dip</dimen>
+    <dimen name="widget_land_height_2_2">70.0dip</dimen>
+    <dimen name="widget_sleeve_height_port_2_2">113.0dip</dimen>
+    <dimen name="widget_sleeve_vert_content_right_land_2_2">8.0dip</dimen>
+    <dimen name="widget_sleeve_vert_content_top_land_2_2">7.0dip</dimen>
+    <dimen name="widget_content_vert_top">-5.0dip</dimen>
+    <dimen name="widget_content_horiz_left">3.0dip</dimen>
+    <dimen name="widget_timestamp_small_size">12.0dip</dimen>
+    <dimen name="widget_empty_text_padding_bottom">8.0dip</dimen>
+</resources>

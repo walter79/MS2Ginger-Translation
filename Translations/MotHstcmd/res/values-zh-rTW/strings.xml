@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+    <string name="app_name">HSTcmd</string>
+    <string name="send">執行</string>
+    <string name="request">要求</string>
+    <string name="response">回應</string>
+    <string name="menu_item_setting">設定</string>
+    <string name="set_path">設定</string>
+    <string name="set_default_path">還原成預設值</string>
+    <string name="setting_notice">「附註： \n1. 僅支援預設目錄和 SD 卡中的目錄。 無法設定無效目錄，並會發出警示。」</string>
+    <string name="log_response">記錄回應</string>
+    <string name="log_error">記錄錯誤（包含錯誤回應）</string>
+    <string name="log_command">記錄命令</string>
+</resources>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+    <string name="yes">Sí</string>
+    <string name="no">No</string>
+    <string name="ok">Aceptar</string>
+    <string name="please_wait">Espera, por favor</string>
+    <string name="widget_title">Marco de fotos Plus</string>
+    <string name="widget_description">Muestra una presentación de tus fotografías recientes y te permite realizar capturas con facilidad</string>
+    <string name="error_dialog">Conflicto de widgets</string>
+    <string name="view_label">Ver imagen</string>
+    <string name="error_description">Conflicto de widgets. Solo se puede añadir un widget de presentación de fotografías al escritorio.</string>
+    <string name="app_name">Presentación de fotografías</string>
+    <string name="gallery_photo_set_failed">No se puede mostrar la imagen seleccionada.</string>
+    <string name="camera_photo_set_failed">No se puede mostrar la última imagen capturada.</string>
+</resources>

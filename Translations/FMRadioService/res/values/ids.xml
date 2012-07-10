@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+    <item type="id" name="bind">false</item>
+    <item type="id" name="unbind">false</item>
+    <item type="id" name="tune">false</item>
+    <item type="id" name="currentFreq">false</item>
+    <item type="id" name="getAudioMode">false</item>
+    <item type="id" name="setAudioMode">false</item>
+    <item type="id" name="setMute">false</item>
+    <item type="id" name="isMute">false</item>
+    <item type="id" name="seek">false</item>
+    <item type="id" name="stopSeek">false</item>
+    <item type="id" name="setVolume">false</item>
+    <item type="id" name="getVolume">false</item>
+    <item type="id" name="getBand">false</item>
+    <item type="id" name="setBand">false</item>
+    <item type="id" name="getMinFreq">false</item>
+    <item type="id" name="getMaxFreq">false</item>
+    <item type="id" name="getStepUnit">false</item>
+    <item type="id" name="setRdsEnable">false</item>
+    <item type="id" name="isRdsEnable">false</item>
+    <item type="id" name="getAudioType">false</item>
+    <item type="id" name="getRSSI">false</item>
+    <item type="id" name="getRdsPS">false</item>
+    <item type="id" name="getRdsRT">false</item>
+    <item type="id" name="getRdsRTPLUS">false</item>
+    <item type="id" name="getRdsPI">false</item>
+    <item type="id" name="getRdsPTY">false</item>
+    <item type="id" name="scan">false</item>
+    <item type="id" name="stopScan">false</item>
+</resources>

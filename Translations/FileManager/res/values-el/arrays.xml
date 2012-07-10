@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+    <string-array name="select_add_server_way">
+        <item>Εισαγωγή ονόματος ή διεύθυνσης IP</item>
+        <item>Σάρωση για διακομιστή</item>
+    </string-array>
+    <string-array name="add_server_indicater">
+        <item>Προσθήκη διακομιστή</item>
+    </string-array>
+    <string-array name="progress_dialog_indicater">
+        <item>Σάρωση για τομείς...</item>
+        <item>Σάρωση για διακομιστές...</item>
+        <item>Σύνδεση στο διακομιστή...</item>
+        <item>φόρτωση...</item>
+    </string-array>
+    <string-array name="sort_by_method_selector">
+        <item>Κατά όνομα</item>
+        <item>Κατά τύπο</item>
+        <item>Κατά ώρα</item>
+        <item>Κατά μέγεθος</item>
+    </string-array>
+</resources>

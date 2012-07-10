@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<FrameLayout style="@style/WidgetParent.Root"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout style="@style/WidgetParent.Horz">
+        <FrameLayout android:background="@drawable/orange_sleeve_horiz" android:layout_width="wrap_content" android:layout_height="fill_parent">
+            <ImageView style="@style/WidgetSleeveIcon.HorzNoPhoto" />
+            <TextView style="@style/WidgetSleeveName.Hidden" />
+        </FrameLayout>
+        <include layout="@layout/widget_empty_horz" />
+    </LinearLayout>
+</FrameLayout>

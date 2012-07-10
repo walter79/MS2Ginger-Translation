@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+    <string name="app_name">FOTA</string>
+    <string name="atc_title">Controllo automatico</string>
+    <string name="warn_auto_check_on_title">Controllo automatico attivato</string>
+    <string name="warn_auto_check_off_title">Controllo automatico disattivato</string>
+    <string name="warn_auto_check_on_message">Durante il controllo automatico del sistema potrebbero essere applicate le normali tariffe per il traffico dati.</string>
+    <string name="warn_auto_check_off_message">Il telefono non verificherà più automaticamente la disponibilità di aggiornamenti. Per ottenere prestazioni ottimali si consiglia di eseguire periodicamente questa verifica.</string>
+    <string name="fota_alert_dialog_ok">OK</string>
+    <string name="test_check_progress">Aggiornamento avviato dall\'utente</string>
+    <string name="test_check_timer_progress">Aggiornamento con timeout</string>
+    <string name="hi_fota_plugin">APP test Fota</string>
+    <string name="click_me">esci</string>
+</resources>

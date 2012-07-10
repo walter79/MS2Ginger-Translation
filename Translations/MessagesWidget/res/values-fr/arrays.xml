@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+    <string-array name="default_smiley_texts">
+        <item>:-)</item>
+        <item>:-(</item>
+        <item>;-)</item>
+        <item>:-P</item>
+        <item>=-O</item>
+        <item>:-*</item>
+        <item>:O</item>
+        <item>B-)</item>
+        <item>:-$</item>
+        <item>:-!</item>
+        <item>:-[</item>
+        <item>O:-)</item>
+        <item>:-\\</item>
+        <item>:\'(</item>
+        <item>:-X</item>
+        <item>:-D</item>
+        <item>o_O</item>
+    </string-array>
+    <string-array name="default_smiley_names">
+        <item>Content</item>
+        <item>Triste</item>
+        <item>Clin d\'œil</item>
+        <item>Tire la langue</item>
+        <item>Surpris</item>
+        <item>Bisous</item>
+        <item>Hurle</item>
+        <item>Cool</item>
+        <item>Argent</item>
+        <item>Embarrassé</item>
+        <item>Gêné</item>
+        <item>Ange</item>
+        <item>Indécis</item>
+        <item>Pleure</item>
+        <item>Motus et bouche cousue</item>
+        <item>Rire</item>
+        <item>Confus</item>
+    </string-array>
+    <string-array name="show_items">
+        <item>1 jour</item>
+        <item>2 jours</item>
+        <item>3 jours</item>
+        <item>1 semaine</item>
+        <item>1 mois</item>
+        <item>Selon la mémoire disponible</item>
+    </string-array>
+</resources>

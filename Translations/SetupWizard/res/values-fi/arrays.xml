@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+    <string-array name="security_questions">
+        <item>Lempiruoka?</item>
+        <item>Syntymäkaupunki?</item>
+        <item>Parhaan lapsuudenystävän nimi?</item>
+        <item>Lukion nimi?</item>
+    </string-array>
+    <string-array name="passwordStrength">
+        <item>huono</item>
+        <item>kohtalainen</item>
+        <item>hyvä</item>
+        <item>vahva</item>
+    </string-array>
+</resources>

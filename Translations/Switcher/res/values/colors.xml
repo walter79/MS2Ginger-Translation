@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+    <color name="hwblue">#ff0000ff</color>
+    <color name="hwyellow">#ffffff00</color>
+    <color name="hwchoc">#ffec870e</color>
+    <color name="hwblack">#ff363636</color>
+    <color name="hwred">#ffff0000</color>
+    <color name="hwgreen">#ff00ff00</color>
+    <color name="hwgray">#ffc2c2c2</color>
+</resources>

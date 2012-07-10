@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+    <string-array name="identity_types">
+        <item>DN</item>
+        <item>FQDN</item>
+        <item>ID</item>
+        <item>IPv4-adres</item>
+        <item>FQDN gebruiker</item>
+    </string-array>
+</resources>

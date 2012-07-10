@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+    <style name="SOCIALSHARING_SetProfile" />
+    <style name="SOCIALSHARING_UploadErrorDlg" />
+    <style name="SOCIALSHARING_UploadErrorDlg_TextMessage" parent="@blur.res:style/Blur.TxtFormItemA" />
+    <style name="SOCIALSHARING_UploadErrorDlg_ImageThumb" />
+    <style name="SOCIALSHARING_NotifyUploadProgress_Message">
+        <item name="android:textSize">14.0sp</item>
+        <item name="android:textColor">?android:textColorPrimaryInverse</item>
+        <item name="android:ellipsize">end</item>
+    </style>
+    <style name="SOCIALSHARING_TextCounter">
+        <item name="android:textSize">11.0sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">#ffffffff</item>
+        <item name="android:gravity">center</item>
+        <item name="android:layout_gravity">bottom|right|center</item>
+        <item name="android:background">@blur.res:drawable/counter_bg</item>
+        <item name="android:paddingLeft">2.0dip</item>
+        <item name="android:paddingTop">1.0dip</item>
+        <item name="android:paddingRight">2.0dip</item>
+        <item name="android:paddingBottom">1.0dip</item>
+        <item name="android:visibility">gone</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginLeft">3.0dip</item>
+        <item name="android:layout_marginTop">3.0dip</item>
+        <item name="android:layout_marginRight">3.0dip</item>
+        <item name="android:layout_marginBottom">3.0dip</item>
+        <item name="android:includeFontPadding">false</item>
+    </style>
+    <style name="ProviderIcon">
+        <item name="android:layout_gravity">top</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:adjustViewBounds">true</item>
+        <item name="android:maxHeight">@dimen/edit_status_status_height</item>
+    </style>
+</resources>

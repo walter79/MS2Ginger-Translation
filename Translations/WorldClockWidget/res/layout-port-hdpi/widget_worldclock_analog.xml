@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LinearLayout android:gravity="center" android:layout_gravity="center" android:orientation="horizontal" android:id="@id/widgetRoot" android:background="@drawable/wclock_base_4x2" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:id="@id/Clock1" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_weight="1.0">
+        <RelativeLayout android:gravity="center_vertical" android:id="@id/analogwithampm1" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <TextView android:textSize="16.0px" android:typeface="sans" android:textColor="@color/ampm_default" android:ellipsize="end" android:gravity="center" android:layout_gravity="center_horizontal" android:id="@id/analogAMPM1" android:background="@drawable/ampmbase" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="45.0px" android:maxLines="1" android:shadowColor="@color/shadow_color" android:layout_alignBottom="@id/analog1" android:layout_centerHorizontal="true" />
+            <ImageView android:id="@id/analog1" android:paddingTop="30.0px" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+        </RelativeLayout>
+        <LinearLayout android:orientation="vertical" android:id="@id/DateCity1" android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <TextView android:textSize="19.0px" android:typeface="sans" android:textColor="@color/city_default" android:ellipsize="end" android:gravity="center" android:layout_gravity="center_horizontal" android:id="@id/City1" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="20.0px" android:layout_marginBottom="5.0px" android:maxLines="1" android:shadowColor="@color/shadow_color" />
+            <TextView android:textSize="17.0px" android:typeface="sans" android:textColor="@color/date_default" android:gravity="center" android:layout_gravity="center_horizontal" android:id="@id/Date1" android:layout_width="wrap_content" android:layout_height="wrap_content" android:shadowColor="@color/shadow_color" />
+        </LinearLayout>
+    </LinearLayout>
+    <TextView android:textSize="19.0px" android:typeface="sans" android:textColor="@color/city_default" android:gravity="center" android:layout_gravity="center" android:id="@id/CityNotSelected1" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/Touch_to_select_a_city" android:shadowColor="@color/shadow_color" android:layout_weight="1.0" />
+    <ImageView android:id="@id/wclock_divider" android:layout_width="wrap_content" android:layout_height="fill_parent" android:src="@drawable/wclock_divider_4x2" />
+    <LinearLayout android:orientation="vertical" android:id="@id/Clock2" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_weight="1.0">
+        <RelativeLayout android:gravity="center_vertical" android:id="@id/analogwithampm2" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <TextView android:textSize="16.0px" android:typeface="sans" android:textColor="@color/ampm_default" android:ellipsize="end" android:gravity="center" android:layout_gravity="center_horizontal" android:id="@id/analogAMPM2" android:background="@drawable/ampmbase" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="45.0px" android:maxLines="1" android:shadowColor="@color/shadow_color" android:layout_alignBottom="@id/analog2" android:layout_centerHorizontal="true" />
+            <ImageView android:id="@id/analog2" android:paddingTop="30.0px" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+        </RelativeLayout>
+        <LinearLayout android:orientation="vertical" android:id="@id/DateCity2" android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <TextView android:textSize="19.0px" android:typeface="sans" android:textColor="@color/city_default" android:ellipsize="end" android:gravity="center" android:layout_gravity="center_horizontal" android:id="@id/City2" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="20.0px" android:layout_marginBottom="5.0px" android:maxLines="1" android:shadowColor="@color/shadow_color" />
+            <TextView android:textSize="17.0px" android:typeface="sans" android:textColor="@color/date_default" android:gravity="center" android:layout_gravity="center_horizontal" android:id="@id/Date2" android:layout_width="wrap_content" android:layout_height="wrap_content" android:shadowColor="@color/shadow_color" />
+        </LinearLayout>
+    </LinearLayout>
+    <TextView android:textSize="19.0px" android:typeface="sans" android:textColor="@color/city_default" android:gravity="center" android:layout_gravity="center" android:id="@id/CityNotSelected2" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/Touch_to_select_a_city" android:shadowColor="@color/shadow_color" android:layout_weight="1.0" />
+</LinearLayout>

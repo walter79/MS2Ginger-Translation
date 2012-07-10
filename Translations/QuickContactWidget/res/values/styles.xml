@@ -1,0 +1,204 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+    <style name="actionContainerStyle">
+        <item name="android:orientation">vertical</item>
+        <item name="android:paddingLeft">@dimen/actionContainerPadding</item>
+        <item name="android:paddingTop">@dimen/actionContainerPaddingSmall</item>
+        <item name="android:paddingRight">@dimen/actionContainerPadding</item>
+        <item name="android:paddingBottom">@dimen/actionContainerPadding</item>
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">fill_parent</item>
+    </style>
+    <style name="actionContainerStyleLand">
+        <item name="android:orientation">vertical</item>
+        <item name="android:paddingLeft">@dimen/actionContainerPaddingSmall</item>
+        <item name="android:paddingTop">@dimen/actionContainerPadding</item>
+        <item name="android:paddingRight">@dimen/actionContainerPadding</item>
+        <item name="android:paddingBottom">@dimen/actionContainerPadding</item>
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">fill_parent</item>
+    </style>
+    <style name="actionLinearLayout">
+        <item name="android:layout_gravity">center</item>
+        <item name="android:orientation">horizontal</item>
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">fill_parent</item>
+        <item name="android:layout_weight">1.0</item>
+    </style>
+    <style name="actionStyle">
+        <item name="android:layout_gravity">center</item>
+        <item name="android:orientation">vertical</item>
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">fill_parent</item>
+        <item name="android:layout_weight">1.0</item>
+    </style>
+    <style name="actionImageStyle">
+        <item name="android:layout_gravity">center_horizontal</item>
+        <item name="android:paddingBottom">28.0dip</item>
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">fill_parent</item>
+        <item name="android:scaleType">center</item>
+    </style>
+    <style name="actionTextStyle">
+        <item name="android:textSize">@dimen/actionTextSize</item>
+        <item name="android:typeface">sans</item>
+        <item name="android:textColor">#ff858585</item>
+        <item name="android:ellipsize">none</item>
+        <item name="android:gravity">center_vertical</item>
+        <item name="android:layout_gravity">center_horizontal</item>
+        <item name="android:paddingTop">30.0dip</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">fill_parent</item>
+        <item name="android:singleLine">true</item>
+    </style>
+    <style name="actionTextStyleNoimage">
+        <item name="android:textSize">@dimen/actionTextSize</item>
+        <item name="android:typeface">sans</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">#ff858585</item>
+        <item name="android:ellipsize">none</item>
+        <item name="android:layout_gravity">center</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:singleLine">true</item>
+    </style>
+    <style name="sleeveTextStyleHorizontal">
+        <item name="android:textSize">@dimen/sleeveTextSize</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">#ffffffff</item>
+        <item name="android:ellipsize">none</item>
+        <item name="android:layout_gravity">top|left|center</item>
+        <item name="android:paddingLeft">12.0dip</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginLeft">@dimen/sleeveTextMarginStandard</item>
+        <item name="android:layout_marginRight">@dimen/sleeveTextMarginShadow</item>
+        <item name="android:singleLine">true</item>
+    </style>
+    <style name="sleeveTextStyleVertical">
+        <item name="android:textSize">@dimen/sleeveTextSize</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">#ffffffff</item>
+        <item name="android:ellipsize">none</item>
+        <item name="android:layout_gravity">top|left|center</item>
+        <item name="android:paddingLeft">12.0dip</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginLeft">@dimen/sleeveTextMarginStandard</item>
+        <item name="android:layout_marginRight">@dimen/sleeveTextMarginShadow</item>
+        <item name="android:singleLine">true</item>
+    </style>
+    <style name="sleeveDummyImageStyle">
+        <item name="android:paddingTop">10.0dip</item>
+        <item name="android:paddingRight">10.0dip</item>
+        <item name="android:paddingBottom">0.0dip</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:scaleType">center</item>
+    </style>
+    <style name="sleeveDummyImageStyleLand4x2">
+        <item name="android:layout_gravity">bottom|center</item>
+        <item name="android:paddingLeft">@dimen/dummyImagePaddingLeft</item>
+        <item name="android:paddingRight">@dimen/dummyImagePaddingRight</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+    <style name="sleeveDummyImageStyleSmall">
+        <item name="android:layout_gravity">bottom|center</item>
+        <item name="android:paddingLeft">@dimen/dummyImagePaddingSmall</item>
+        <item name="android:paddingRight">@dimen/actionContainerPaddingSmall</item>
+        <item name="android:paddingBottom">@dimen/dummyImagePaddingVerySmall</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+    <style name="sleeveDummyImageStyleLand">
+        <item name="android:layout_gravity">bottom|center</item>
+        <item name="android:paddingBottom">@dimen/dummyImagePaddingSmall</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+    <style name="sleeveDummyImageStyleLandSmall">
+        <item name="android:layout_gravity">bottom|center</item>
+        <item name="android:paddingTop">@dimen/dummyImagePaddingSmall</item>
+        <item name="android:paddingBottom">@dimen/dummyImagePadding</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+    <style name="sleeveContainerStyle">
+        <item name="android:layout_gravity">fill</item>
+        <item name="android:background">@drawable/blue_sleeve_vert</item>
+        <item name="android:padding">0.0dip</item>
+        <item name="android:foregroundGravity">fill</item>
+    </style>
+    <style name="horizSleeveContainerStyle">
+        <item name="android:layout_gravity">fill</item>
+        <item name="android:background">@drawable/blue_sleeve_horiz</item>
+        <item name="android:padding">0.0dip</item>
+        <item name="android:foregroundGravity">fill</item>
+    </style>
+    <style name="sleeveContactImageStyleHorizontal">
+        <item name="android:layout_gravity">center</item>
+        <item name="android:paddingLeft">@dimen/ContactImagePaddingBorder</item>
+        <item name="android:paddingTop">@dimen/ContactImagePaddingBorder</item>
+        <item name="android:paddingBottom">@dimen/ContactImagePaddingBorder</item>
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">fill_parent</item>
+        <item name="android:scaleType">centerCrop</item>
+        <item name="android:adjustViewBounds">true</item>
+        <item name="android:cropToPadding">true</item>
+    </style>
+    <style name="sleeveContactImageStyleVertical">
+        <item name="android:layout_gravity">center</item>
+        <item name="android:paddingLeft">@dimen/ContactImagePaddingBorder</item>
+        <item name="android:paddingTop">@dimen/ContactImagePaddingBorder</item>
+        <item name="android:paddingRight">@dimen/ContactImagePaddingBorder</item>
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">fill_parent</item>
+        <item name="android:scaleType">centerCrop</item>
+        <item name="android:adjustViewBounds">true</item>
+        <item name="android:cropToPadding">true</item>
+    </style>
+    <style name="sleeveContactImageStyleVerticalLand">
+        <item name="android:layout_gravity">center</item>
+        <item name="android:paddingLeft">@dimen/ContactImagePaddingPort</item>
+        <item name="android:paddingTop">@dimen/ContactImagePaddingPort</item>
+        <item name="android:paddingRight">@dimen/ContactImagePaddingPort</item>
+        <item name="android:paddingBottom">@dimen/ContactImageHoriPadding</item>
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">fill_parent</item>
+        <item name="android:scaleType">centerCrop</item>
+        <item name="android:adjustViewBounds">false</item>
+        <item name="android:cropToPadding">true</item>
+    </style>
+    <style name="deletedTextStyle">
+        <item name="android:textSize">@dimen/deletedTextSizeLarge</item>
+        <item name="android:textColor">#ff212121</item>
+        <item name="android:gravity">center</item>
+        <item name="android:layout_gravity">center</item>
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">fill_parent</item>
+    </style>
+    <style name="deletedTextStyleSmall">
+        <item name="android:textSize">@dimen/deletedTextSize</item>
+        <item name="android:textColor">#ff212121</item>
+        <item name="android:gravity">center</item>
+        <item name="android:layout_gravity">center</item>
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">fill_parent</item>
+    </style>
+    <style name="deletedTextStyle3">
+        <item name="android:textSize">@dimen/deletedTextSize</item>
+        <item name="android:textColor">#ff212121</item>
+        <item name="android:gravity">center</item>
+        <item name="android:layout_gravity">center</item>
+        <item name="android:paddingLeft">9.0dip</item>
+        <item name="android:paddingRight">9.0dip</item>
+        <item name="android:paddingBottom">5.0dip</item>
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">fill_parent</item>
+    </style>
+    <style name="Theme_NoTitle_Translucen" parent="@android:style/Theme.Translucent">
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowContentOverlay">@null</item>
+    </style>
+</resources>

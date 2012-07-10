@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+    <style name="sleeveDummyImageStyle">
+        <item name="android:layout_gravity">bottom|center</item>
+        <item name="android:paddingBottom">@dimen/dummyImagePaddingPort</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+    <style name="sleeveDummyImageStyleLand4x2">
+        <item name="android:layout_gravity">bottom|center</item>
+        <item name="android:paddingLeft">@dimen/dummyImagePaddingLeft</item>
+        <item name="android:paddingRight">@dimen/dummyImagePaddingRight</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+    <style name="sleeveDummyImageStyleSmall">
+        <item name="android:layout_gravity">bottom|center</item>
+        <item name="android:paddingLeft">@dimen/dummyImagePaddingSmall</item>
+        <item name="android:paddingRight">@dimen/actionContainerPaddingSmall</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+    <style name="sleeveDummyImageStyleLand">
+        <item name="android:layout_gravity">bottom|center</item>
+        <item name="android:paddingBottom">@dimen/dummyImagePaddingLand</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+    <style name="sleeveDummyImageStyleLandSmall">
+        <item name="android:layout_gravity">bottom|center</item>
+        <item name="android:paddingTop">@dimen/dummyImagePaddingSmall</item>
+        <item name="android:paddingBottom">@dimen/dummyImagePadding</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+    <style name="sleeveDummyImageStylePort2x2">
+        <item name="android:layout_gravity">bottom|right|center</item>
+        <item name="android:paddingTop">10.0dip</item>
+        <item name="android:paddingRight">@dimen/dummyImagePaddingPort</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+    <style name="sleeveDummyImageStylePort2x1">
+        <item name="android:layout_gravity">center</item>
+        <item name="android:paddingLeft">3.0dip</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+    <style name="sleeveDummyImageStylePort1x1">
+        <item name="android:layout_gravity">center</item>
+        <item name="android:paddingTop">6.0dip</item>
+        <item name="android:paddingBottom">6.0dip</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+    <style name="addContactIconStyleMedium">
+        <item name="android:layout_gravity">bottom|right|center</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:src">@drawable/widget_add_medium</item>
+    </style>
+    <style name="addContactIconStyleSmall">
+        <item name="android:layout_gravity">bottom|right|center</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:src">@drawable/widget_add_small</item>
+    </style>
+    <style name="addContactIconStyleLarge">
+        <item name="android:layout_gravity">bottom|right|center</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:src">@drawable/widget_add_large</item>
+    </style>
+    <style name="SelectContactFramelayoutStyle">
+        <item name="android:paddingLeft">4.0dip</item>
+        <item name="android:paddingTop">4.0dip</item>
+        <item name="android:paddingRight">4.0dip</item>
+        <item name="android:paddingBottom">4.0dip</item>
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">fill_parent</item>
+    </style>
+</resources>

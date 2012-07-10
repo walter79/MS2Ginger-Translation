@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RelativeLayout android:id="@id/layout_usage_by_app" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:app="http://schemas.android.com/apk/res/com.motorola.blur.datamanager.app">
+    <TextView android:id="@id/data_usage_title" style="@style/DataUsageTitleText" />
+    <TextView android:id="@id/last_seven_days" style="@style/LastSevenDaysText" />
+    <ImageView android:id="@id/app1_image" android:layout_below="@id/last_seven_days" style="@style/AppImage" />
+    <TextView android:id="@id/app1_label" android:layout_toRightOf="@id/app1_image" android:layout_alignTop="@id/app1_image" style="@style/AppText" />
+    <ImageView android:id="@id/app2_image" android:layout_below="@id/app1_image" style="@style/AppImage" />
+    <TextView android:id="@id/app2_label" android:layout_toRightOf="@id/app2_image" android:layout_alignTop="@id/app2_image" style="@style/AppText" />
+    <ImageView android:id="@id/app3_image" android:layout_below="@id/app2_image" style="@style/AppImage" />
+    <TextView android:id="@id/app3_label" android:layout_toRightOf="@id/app3_image" android:layout_alignTop="@id/app3_image" style="@style/AppText" />
+    <ImageView android:id="@id/app4_image" android:layout_below="@id/app3_image" style="@style/AppImage" />
+    <TextView android:id="@id/app4_label" android:layout_toRightOf="@id/app4_image" android:layout_alignTop="@id/app4_image" style="@style/AppText" />
+    <ImageView android:id="@id/app5_image" android:layout_below="@id/app4_image" style="@style/AppImage" />
+    <TextView android:id="@id/app5_label" android:layout_marginBottom="30.0sp" android:layout_toRightOf="@id/app5_image" android:layout_alignTop="@id/app5_image" style="@style/AppText" />
+    <RelativeLayout android:id="@id/bar_layout" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_margin="10.0dip" android:layout_below="@id/app5_label">
+        <com.motorola.blur.datamanager.app.graph.PieGraphImagesView android:id="@id/pie_graph" android:layout_width="wrap_content" android:layout_height="wrap_content" app:height="200" />
+    </RelativeLayout>
+</RelativeLayout>

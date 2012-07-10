@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+    <dimen name="key_height">90.0px</dimen>
+    <dimen name="key_height_2">90.0px</dimen>
+    <dimen name="candidate_bar_height">100.0px</dimen>
+</resources>

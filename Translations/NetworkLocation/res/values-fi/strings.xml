@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+    <string name="app_label">Verkon sijainti</string>
+    <string name="location_warning_title">Sijaintilupa</string>
+    <string name="location_warning_message">Salli Googlen sijaintitietopalvelun kerätä nimettömiä sijaintitietoja. Tietoja kerätään myös silloin, kun sovelluksia ei ole käynnissä!</string>
+    <string name="agree">Hyväksyn</string>
+    <string name="disagree">En hyväksy</string>
+</resources>

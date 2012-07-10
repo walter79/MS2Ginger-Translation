@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+    <string name="app_label">VPN-szolgáltatások</string>
+    <string name="vpn_notification_title_connected">Kapcsolódva a(z) %s virtuális magánhálózathoz</string>
+    <string name="vpn_notification_title_disconnected">Kapcsolat bontva a(z) %s virtuális magánhálózattal</string>
+    <string name="vpn_notification_hint_disconnected">Érintse meg az újracsatlakozáshoz.</string>
+</resources>

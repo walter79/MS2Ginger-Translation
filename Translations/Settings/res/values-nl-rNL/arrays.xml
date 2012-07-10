@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+    <string-array name="wifi_ap_channel">
+        <item>Kanaal 1</item>
+        <item>Kanaal 2</item>
+        <item>Kanaal 3</item>
+        <item>Kanaal 4</item>
+        <item>Kanaal 5</item>
+        <item>Kanaal 6</item>
+        <item>Kanaal 7</item>
+        <item>Kanaal 8</item>
+        <item>Kanaal 9</item>
+        <item>Kanaal 10</item>
+        <item>Kanaal 11</item>
+        <item>Kanaal 12</item>
+        <item>Kanaal 13</item>
+        <item>Kanaal 14</item>
+    </string-array>
+    <string-array name="timer">
+        <item>15 minuten</item>
+        <item>30 minuten</item>
+        <item>60 minuten</item>
+        <item>Altijd aan</item>
+    </string-array>
+    <string-array name="num_devices">
+        <item>2 apparaten</item>
+        <item>3 apparaten</item>
+        <item>4 apparaten</item>
+        <item>5 apparaten</item>
+        <item>Maximum aantal apparaten</item>
+    </string-array>
+    <string-array name="wifi_security_for_adhoc_entries">
+        <item>Auto</item>
+        <item>Geen</item>
+        <item>WEP</item>
+    </string-array>
+    <string-array name="wifi_security_without_auto_for_adhoc_entries">
+        <item>Geen</item>
+        <item>WEP</item>
+    </string-array>
+    <string-array name="hdmi_format_entries">
+        <item>Automatisch</item>
+        <item>480P bij 60Hz</item>
+        <item>720P bij 60Hz</item>
+        <item>576P bij 50Hz</item>
+        <item>720P bij 50Hz</item>
+    </string-array>
+    <string-array name="apn_protocol_entries">
+        <item>IPv4</item>
+    </string-array>
+    <string-array name="double_tap_entries">
+        <item>Browser</item>
+        <item>Camera</item>
+        <item>Contacten</item>
+        <item>Kiezer</item>
+        <item>Gmail</item>
+        <item>Maps</item>
+        <item>Berichten</item>
+        <item>Muziek</item>
+        <item>Nieuws</item>
+        <item>Sociale netwerken</item>
+        <item>Sms/mms-berichten</item>
+        <item>Spraakopdrachten</item>
+        <item>Voice Search</item>
+        <item>Geen</item>
+    </string-array>
+    <string-array name="double_tap_deblur_entries">
+        <item>Browser</item>
+        <item>Camera</item>
+        <item>Contacten</item>
+        <item>Kiezer</item>
+        <item>Gmail</item>
+        <item>Kaarten</item>
+        <item>Berichten</item>
+        <item>Muziek</item>
+        <item>Sms/mms-berichten</item>
+        <item>Spraakgestuurde opdrachten</item>
+        <item>Spraakgestuurd zoeken</item>
+        <item>Geen</item>
+    </string-array>
+    <string-array name="location_privacy_policy_entries">
+        <item>Alleen E911</item>
+        <item>Basislocatie aan</item>
+        <item>Voorkeurslocatie aan</item>
+    </string-array>
+    <string-array name="location_privacy_policy_summaries">
+        <item>Uitsluitend gebruikt voor noodoproepen</item>
+        <item>Locatie wordt vastgesteld via GPS-satelliet en/of mobiele netwerken</item>
+        <item>Uitgebreide locatieverstrekker via ondersteunde GPS, voorkeursservice</item>
+    </string-array>
+    <string-array name="media_sync_storage_items">
+        <item>Intern geheugen</item>
+        <item>SD-kaart</item>
+    </string-array>
+    <string-array name="double_tap_entries_german_region">
+        <item>Browser</item>
+        <item>Camera</item>
+        <item>Contacten</item>
+        <item>Kiezer</item>
+        <item>Gmail</item>
+        <item>Kaarten</item>
+        <item>Berichten</item>
+        <item>Music</item>
+        <item>Nieuws</item>
+        <item>Sociale netwerken</item>
+        <item>SMS-berichten</item>
+        <item>Spraakopdrachten</item>
+        <item>Spraakgestuurd zoeken</item>
+        <item>Geen</item>
+    </string-array>
+    <string-array name="location_settings_entries">
+        <item>Instelling ontgrendelen</item>
+        <item>Instelling vergrendelen</item>
+    </string-array>
+    <string-array name="call_restriction_settings_entries">
+        <item>Alle oproepen toestaan</item>
+        <item>Alleen oproepen van contacten toestaan</item>
+        <item>Alle oproepen blokkeren</item>
+    </string-array>
+    <string-array name="message_restriction_settings_entries">
+        <item>Alle berichten toestaan</item>
+        <item>Alle berichten blokkeren</item>
+    </string-array>
+    <string-array name="dialup_restriction_entries">
+        <item>Inbelmodem toestaan</item>
+        <item>Inbelmodem blokkeren</item>
+    </string-array>
+    <string-array name="unlock_methods_entries">
+        <item>Geen</item>
+        <item>Patroonvergrendeling</item>
+        <item>Vergrendeling via toegangscode</item>
+    </string-array>
+    <string-array name="lock_timer_entries">
+        <item>Als scherm uit is</item>
+        <item>1 minuut</item>
+        <item>2 minuten</item>
+        <item>3 minuten</item>
+        <item>5 minuten</item>
+        <item>10 minuten</item>
+        <item>15 minuten</item>
+        <item>20 minuten</item>
+    </string-array>
+    <string-array name="external_keyboard_entries">
+        <item>Portugees (Brazilië)</item>
+        <item>Frans (Canada)</item>
+        <item>Duits</item>
+        <item>Frans</item>
+        <item>Spaans (Latijns-Amerika)</item>
+        <item>Engels (GB)</item>
+        <item>Engels (VS)</item>
+        <item>VS (internationaal)</item>
+    </string-array>
+</resources>

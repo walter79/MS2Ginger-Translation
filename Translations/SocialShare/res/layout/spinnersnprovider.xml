@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<FrameLayout android:id="@id/grid_item_new" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:gravity="center_horizontal" android:layout_gravity="center_horizontal" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <RelativeLayout android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <ImageView android:id="@id/PhotoProviderIcon" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerHorizontal="true" />
+            <ImageView android:id="@id/grid_item_checkbox" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ic_check" android:layout_alignRight="@id/PhotoProviderIcon" android:layout_alignBottom="@id/PhotoProviderIcon" />
+        </RelativeLayout>
+        <TextView android:gravity="center_horizontal" android:id="@id/PhotoProviderName" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:minLines="2" style="@blur.res:style/Blur.TxtGridItem" />
+    </LinearLayout>
+</FrameLayout>

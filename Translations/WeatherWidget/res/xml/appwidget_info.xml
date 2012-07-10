@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<appwidget-provider android:minWidth="146.0dip" android:minHeight="72.0dip" android:updatePeriodMillis="86400000" android:initialLayout="@layout/widget_empty_2x1" android:configure="com.motorola.blur.weather.WeatherSettingsActivity" blur:description="@string/widget_description"
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:blur="http://schemas.android.com/apk/res/blur.res">
+    <appwidget-layout blur:minSpanX="1" blur:maxSpanX="1" blur:minSpanY="1" blur:maxSpanY="1" blur:sizeInitialLayout="@layout/widget_empty_1x1" />
+    <appwidget-layout blur:minSpanX="2" blur:maxSpanX="2" blur:minSpanY="1" blur:maxSpanY="1" blur:sizeInitialLayout="@layout/widget_empty_2x1" />
+    <appwidget-layout blur:minSpanX="3" blur:maxSpanX="4" blur:minSpanY="1" blur:maxSpanY="1" blur:sizeInitialLayout="@layout/widget_empty_3x1" />
+</appwidget-provider>

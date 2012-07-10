@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+    <string name="app_name">Sticky note</string>
+    <string name="widget_body_hint">Touch to edit ...</string>
+    <string name="sticky_note">Sticky note</string>
+    <string name="widget_description">Save a quick little note on the Home Screen</string>
+    <string name="title">Title</string>
+    <string name="note">Note</string>
+    <string name="menu_discard">Discard changes</string>
+    <string name="menu_save">Save</string>
+    <string name="menu_edit">Edit</string>
+    <string name="menu_share">Share</string>
+    <string name="select">Select</string>
+    <string name="widget_load_error">Problem with Sticky Note. Kindly delete it.</string>
+    <string name="widget_body_elipse">...</string>
+    <string name="share_note">Share Note</string>
+    <string name="cannot_share">Error while sharing note!</string>
+</resources>

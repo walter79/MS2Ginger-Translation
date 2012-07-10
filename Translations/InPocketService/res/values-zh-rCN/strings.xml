@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+    <string name="enable_inpocket">启用InPocket</string>
+    <string name="disable_inpocket">禁用InPocket</string>
+    <string name="app_name">InPocket</string>
+    <string name="force_lock">强制锁定</string>
+</resources>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+    <plurals name="media_files_deleted">
+        <item quantity="other">Διαγράφηκαν στοιχεία από τη λίστα ανεβασμένων αρχείων.</item>
+        <item quantity="one">Ένα στοιχείο της λίστας ανεβασμένων αρχείων διαγράφηκε.</item>
+    </plurals>
+</resources>

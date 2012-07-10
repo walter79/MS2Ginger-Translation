@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+    <color name="header_background">#ffb9b9b9</color>
+    <color name="message_header">#ffe5edfa</color>
+    <color name="secondary">#ff888888</color>
+    <color name="date">#ff4884a8</color>
+    <color name="focus">#ffb5b717</color>
+    <color name="med_gray">#ff9c9e9c</color>
+    <color name="light_gray">#ffb0b0b0</color>
+    <color name="header_blue">#ff6666ff</color>
+    <color name="bright_green">#ff00ff33</color>
+    <color name="dark_green">#ff696901</color>
+    <color name="transparent">#00000000</color>
+    <color name="white">#ffffffff</color>
+    <color name="black">#ff000000</color>
+    <color name="brown">#ffa52a2a</color>
+    <color name="counter">#ffffffff</color>
+</resources>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+    <string name="status_bar_priority_events_title">Priorytet</string>
+    <string name="app_label">Pasek stanu</string>
+    <string name="status_bar_clear_all_button">Wyczyść</string>
+    <string name="status_bar_no_notifications_title">Brak powiadomień</string>
+    <string name="status_bar_ongoing_events_title">Bieżące</string>
+    <string name="status_bar_latest_events_title">Powiadomienia</string>
+    <string name="battery_low_title">Podłącz ładowarkę</string>
+    <string name="battery_low_subtitle">Bateria się rozładowuje:</string>
+    <string name="battery_low_percent_format">Pozostało: %d%% lub mniej.</string>
+    <string name="battery_low_why">Użycie baterii</string>
+    <string name="usb_accessory_permission_prompt">Czy chcesz, aby program %1$s miał dostęp do tego urządzenia USB?</string>
+    <string name="usb_device_confirm_prompt">Czy chcesz otworzyć %1$s, gdy to urządzenie USB jest podłączone?</string>
+    <string name="usb_accessory_confirm_prompt">Czy chcesz otworzyć %1$s, gdy to urządzenie USB jest podłączone?</string>
+    <string name="usb_accessory_uri_prompt">Żaden zainstalowany program nie korzysta z urządzenia USB. Więcej informacji: %1$s</string>
+    <string name="title_usb_accessory">Akcesoria USB</string>
+    <string name="label_view">Wyświetl</string>
+    <string name="always_use_accessory">Korzystaj z domyślnych ustawień dla akcesoriów USB</string>
+</resources>

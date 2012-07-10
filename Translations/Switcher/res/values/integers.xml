@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+    <integer name="linear_vibrate_duration_ms">40</integer>
+    <integer name="rotary_vibrate_duration_ms">50</integer>
+    <integer name="pref_fuzzy">0</integer>
+    <integer name="pref_hw_speed">2</integer>
+    <integer name="pref_hw_color">0</integer>
+    <integer name="pref_hw_brush">1</integer>
+    <integer name="pref_selected_im">0</integer>
+    <integer name="hwbrush_smallest">6</integer>
+    <integer name="hwbrush_smaller">8</integer>
+    <integer name="hwbrush_larger">10</integer>
+    <integer name="hwbrush_largest">12</integer>
+    <integer name="pref_hw_speed_min">2</integer>
+    <integer name="pref_hw_speed_max">8</integer>
+    <integer name="pref_hw_speed_step">4</integer>
+    <integer name="pref_hw_speed_rate">10</integer>
+</resources>

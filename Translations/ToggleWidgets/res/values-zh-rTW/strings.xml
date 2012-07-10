@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+    <string name="app_name">小工具開關</string>
+    <string name="gps_app_name">GPS 開關</string>
+    <string name="airplane_app_name">飛航模式開關</string>
+    <string name="wifi_app_name">Wi-Fi 開關</string>
+    <string name="bluetooth_app_name">藍牙開關</string>
+    <string name="widget_description">檢視和控制飛航模式狀態</string>
+    <string name="widget_description_bt">檢視和控制藍牙狀態</string>
+    <string name="widget_description_wifi">檢視並控制 Wi-Fi 狀態</string>
+    <string name="widget_description_gps">檢視和控制 GPS 狀態</string>
+    <string name="StatusOn">開啟</string>
+    <string name="StatusOff">關閉</string>
+    <string name="AirplanetoastText">飛航模式無法使用</string>
+    <string name="BluetoothtoastText">藍牙無法使用</string>
+    <string name="GPStoastText">GPS 無法使用</string>
+    <string name="WifitoastText">Wi-Fi 無法使用</string>
+    <string name="location_restriction_enabled">定位限制已啟用。</string>
+</resources>

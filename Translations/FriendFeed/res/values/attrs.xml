@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+    <attr name="detailView" format="boolean" />
+    <attr name="imageSize">
+        <enum name="thumb" value="0" />
+        <enum name="full" value="1" />
+    </attr>
+    <attr name="maxImageDimension" format="dimension" />
+    <attr name="resizeImageIfNeeded" format="boolean" />
+    <attr name="title" format="string" />
+    <attr name="defaultValue" format="string" />
+    <attr name="state_fresh" format="boolean" />
+</resources>

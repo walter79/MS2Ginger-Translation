@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<appwidget-provider android:minWidth="400.0dip" android:minHeight="100.0dip" android:updatePeriodMillis="0" android:initialLayout="@layout/widget_worldclock_analog" android:configure="com.motorola.widgetapp.worldclock.WorldClockPreferenceActivity" blur:description="@string/description"
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:blur="http://schemas.android.com/apk/res/blur.res" />

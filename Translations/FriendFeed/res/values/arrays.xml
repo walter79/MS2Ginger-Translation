@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+    <string-array name="show_items">
+        <item>1 day</item>
+        <item>2 days</item>
+        <item>3 days</item>
+        <item>1 week</item>
+    </string-array>
+    <string-array name="show_items_values">
+        <item>24</item>
+        <item>48</item>
+        <item>72</item>
+        <item>168</item>
+    </string-array>
+    <string-array name="show_updates_for">
+        <item>All contacts</item>
+        <item>Choose contacts</item>
+        <item>Choose groups</item>
+        <item>Me</item>
+    </string-array>
+    <string-array name="show_updates_for_values">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+    </string-array>
+</resources>

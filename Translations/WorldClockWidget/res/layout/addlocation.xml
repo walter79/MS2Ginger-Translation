@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="horizontal" android:paddingLeft="3.0dip" android:paddingTop="10.0dip" android:paddingBottom="10.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <EditText android:id="@id/addlocation_term" android:layout_width="wrap_content" android:layout_height="wrap_content" android:hint="@string/addLocationHint" android:singleLine="true" android:layout_weight="1.0" android:inputType="textCapSentences|textNoSuggestions" android:imeOptions="actionDone" />
+    </LinearLayout>
+    <TextView android:id="@id/result_string_view" android:paddingLeft="5.0dip" android:paddingTop="2.0dip" android:paddingBottom="2.0dip" android:visibility="invisible" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+    <ListView android:id="@android:id/list" android:focusable="false" android:layout_width="fill_parent" android:layout_height="fill_parent" android:drawSelectorOnTop="false" android:layout_weight="1.0" />
+</LinearLayout>

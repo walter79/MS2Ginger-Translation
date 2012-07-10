@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+    <string name="app_name">Πρόγραμμα αναπαραγωγής βίντεο</string>
+    <string name="Share_menu">Κοινή χρήση</string>
+    <string name="Tags_menu">Ετικέτες</string>
+    <string name="Delete_menu">Διαγραφή</string>
+    <string name="FullScreen_menu">Προσαρμογή σε οθόνη</string>
+    <string name="ActualSize_menu">Πραγματικό μέγεθος</string>
+    <string name="Camera_menu">Φωτογραφική μηχανή</string>
+    <string name="Edit_menu">Επεξεργασία</string>
+    <string name="AdvancedEdit_menu">Σύνθετη επεξεργασία</string>
+    <string name="info_menu">Πληροφορίες βίντεο</string>
+    <string name="TV_menu">Εμφάνιση σε τηλεόραση</string>
+    <string name="Settings_menu">Ρυθμίσεις</string>
+    <string name="hdmi_waiting_message">Σύνδεση σε HDMI</string>
+    <string name="loading_video">Φόρτωση βίντεο…</string>
+    <string name="sendVideo">Κοινή χρήση βίντεο μέσω</string>
+    <string name="no_way_to_share_video">Δεν είναι δυνατή η κοινή χρήση αυτού του βίντεο.</string>
+    <string name="no_way_to_edit_video">Δεν βρέθηκε πρόγραμμα επεξεργασίας βίντεο.</string>
+    <string name="resume_playing_title">Συνέχιση βίντεο</string>
+    <string name="resume_playing_message">Θέλετε να συνεχιστεί η αναπαραγωγή από το %1$s;</string>
+    <string name="resume_playing_resume">Συνέχιση αναπαραγωγής</string>
+    <string name="resume_playing_restart">Έναρξη από την αρχή</string>
+    <string name="details_ms">%1$02d:%2$02d</string>
+    <string name="details_hms">%1$d:%2$02d:%3$02d</string>
+    <string name="Error_msg">Δεν είναι δυνατή η εμφάνιση ή η αναπαραγωγή του αρχείου.</string>
+    <string name="Error_title">Σφάλμα</string>
+    <string name="Delete_title">Διαγραφή</string>
+    <string name="confirm_delete_1_video">Διαγραφή 1 βίντεο;</string>
+    <string name="VIDEO">βίντεο</string>
+    <string name="OK_button">OK</string>
+    <string name="CANCEL_button">Άκυρο</string>
+    <string name="connecting">Σύνδεση σε εξέλιξη. Περιμένετε...</string>
+    <string name="cable_is_not_connected">Το καλώδιο HDMI δεν έχει συνδεθεί.</string>
+    <string name="incoming_call_setting_title">Ρύθμιση εισερχόμενης κλήσης</string>
+    <string name="always_check_incoming_call">Να ελέγχονται πάντα οι εισερχόμενες κλήσεις</string>
+    <string name="always_ignore_incoming_call">Να παραβλέπονται πάντα οι εισερχόμενες κλήσεις</string>
+    <string name="ok">OΚ</string>
+    <string name="discard">Απόρριψη</string>
+    <string name="hdmi_blocked_toast">Αυτό το περιεχόμενο δεν έχει δυνατότητα αναπαραγωγής HDMI</string>
+</resources>

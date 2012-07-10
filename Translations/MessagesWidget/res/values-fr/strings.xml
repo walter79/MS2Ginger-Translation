@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+    <string name="app_name">Messages</string>
+    <string name="loading_widget_name">MESSAGES</string>
+    <string name="settings_title">Widget Messages</string>
+    <string name="checking">Recherche de nouveaux messages...</string>
+    <string name="checking_short">Vérification...</string>
+    <string name="delete">Supprimer</string>
+    <string name="go_to_messages">Accéder à la messagerie</string>
+    <string name="go_to_inbox">Accéder à la boîte de réception</string>
+    <string name="no_messages">Aucun nouveau message</string>
+    <string name="no_messages_short">Aucune nouveauté</string>
+    <string name="select_account">Sélectionner un compte</string>
+    <string name="no_subject">(Aucun objet)</string>
+    <string name="reply">Répondre</string>
+    <string name="reply_all">Répondre à tous</string>
+    <string name="show_items">Afficher éléments pour</string>
+    <string name="services">Services</string>
+    <string name="all_services">Tous les services</string>
+    <string name="subject_re_prefix">Re :</string>
+    <string name="text_message">SMS/MMS</string>
+    <string name="widget_name">Nom du widget</string>
+    <string name="widget_description">Lire les derniers messages des amis, de la famille et des collègues</string>
+    <string name="msg_did_you_know_title">Widgets de messages</string>
+    <string name="msg_did_you_know_info">Les widgets de messages affichent vos derniers e-mails, SMS et messages de réseaux sociaux, dans un même widget. \n\nVous pouvez modifier le contenu de chaque widget. Appuyez sur la touche Menu et sélectionnez \"Paramètres\".</string>
+    <string name="message_download_failed_body">Sélectionnez un message, puis réessayez.</string>
+    <string name="message_widget_touch_to_view">Appuyez pour afficher le message.</string>
+    <string name="message_not_available_touch_to_read">Aperçu du message non disponible.\nAppuyez ici pour lire le message.</string>
+    <string name="message_thread_information">%1$d sur %2$d non lu</string>
+    <string name="view_message">Afficher le message</string>
+    <string name="mark_read">Marquer \"lu\"</string>
+    <string name="mark_unread">Marquer \"non lu\"</string>
+    <string name="contact_info">Infos du contact</string>
+    <string name="inbox">Boîte de réception</string>
+    <string name="compose">Composer</string>
+    <string name="more">Plus</string>
+    <string name="hide">Masquer</string>
+</resources>

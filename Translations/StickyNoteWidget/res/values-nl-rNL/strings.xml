@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+    <string name="app_name">Plaknotitie</string>
+    <string name="widget_body_hint">Aanraken om te bewerken...</string>
+    <string name="sticky_note">Plaknotitie</string>
+    <string name="widget_description">Een snelle notitie opslaan op het startscherm</string>
+    <string name="title">Titel</string>
+    <string name="note">Opmerking</string>
+    <string name="menu_discard">Wijzigingen annuleren</string>
+    <string name="menu_save">Opslaan</string>
+    <string name="menu_edit">Bewerken</string>
+    <string name="menu_share">Delen</string>
+    <string name="select">Selecteren</string>
+    <string name="widget_load_error">Probleem met plaknotitie. Verwijder deze.</string>
+    <string name="widget_body_elipse">...</string>
+    <string name="share_note">Notitie delen</string>
+    <string name="cannot_share">Fout bij delen van notitie!</string>
+</resources>

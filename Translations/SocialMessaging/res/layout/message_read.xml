@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LinearLayout android:orientation="vertical" android:id="@id/read_root" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout style="@blur.res:style/Blur.TitleBar">
+        <TextView android:id="@id/account_label" android:layout_weight="1.0" style="@blur.res:style/Blur.TxtTitleBar" />
+    </LinearLayout>
+    <ScrollView android:id="@id/read_scroller" style="@style/MessageScrollView">
+        <RelativeLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <include android:orientation="vertical" android:id="@id/msg_read_header" android:layout_width="fill_parent" android:layout_height="wrap_content" layout="@layout/message_read_header" />
+            <FrameLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_weight="1.0" android:layout_below="@id/msg_read_header" style="@style/EmailReadBodySection">
+                <TextView android:autoLink="all" android:id="@id/msg_body_text" android:visibility="gone" style="@style/EmailReadTextBody" />
+                <WebView android:autoLink="all" android:id="@id/msg_body_html" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+            </FrameLayout>
+            <View android:background="@android:drawable/title_bar_shadow" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_below="@id/msg_read_header" />
+        </RelativeLayout>
+    </ScrollView>
+    <com.motorola.android.widget.ActionBar android:layout_gravity="bottom" android:id="@id/button_bar" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+</LinearLayout>

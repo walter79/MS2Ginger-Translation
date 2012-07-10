@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LinearLayout android:id="@id/actionContainer" android:background="@drawable/base_horiz" android:paddingLeft="5.0dip" android:paddingRight="10.0dip" android:visibility="gone" style="@style/actionContainerStyleLand"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout style="@style/actionLinearLayout">
+        <FrameLayout android:id="@id/action1Container" style="@style/actionStyle">
+            <ImageButton android:id="@id/actionImage1" android:background="@drawable/transparent_background" android:src="@drawable/menu_add" style="@style/actionImageStyle" />
+            <TextView android:id="@id/actionTextLabel1" android:visibility="gone" android:text="@string/actionTextLabel" style="@style/actionTextStyle" />
+            <TextView android:id="@id/actionTextLabel11" android:paddingTop="37.0dip" android:visibility="gone" android:text="@string/actionTextLabel" style="@style/actionTextStyle" />
+            <TextView android:id="@id/actionText1" android:text="@string/add" android:maxLength="8" style="@style/actionTextStyle" />
+        </FrameLayout>
+    </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+    <string name="label_toggle_enter_next">下一个</string>
+    <string name="label_toggle_enter_done">完成</string>
+    <string name="label_toggle_enter_send">发送</string>
+    <string name="label_toggle_enter_go">开始</string>
+</resources>

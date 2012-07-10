@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+    <string name="hello">Hello World</string>
+    <string name="app_name">Service gestion données</string>
+    <string name="perm_label">Activer la définition de l\'abonnement données</string>
+    <string name="perm_desc">Permet à une application de définir son abonnement données sur DataManagerService</string>
+    <string name="backgrounddata_warning_message">Pour protéger votre abonnement données, votre administrateur a désactivé les données en arrière-plan en mode Itinérance.\n\nSi besoin, vous pouvez synchroniser les données manuellement lorsque vous êtes en itinérance.</string>
+    <string name="backgrounddata_notification_title">Données en arrière-plan désactivées</string>
+    <string name="backgrounddata_dialog_title">Remarque sur les données en arrière-plan</string>
+    <string name="backgrounddata_dialog_message">Votre administrateur a désactivé les données en arrière-plan en mode Itinérance.\nSi besoin, vous pouvez synchroniser les données manuellement lorsque vous êtes en itinérance.</string>
+    <string name="ok">OK</string>
+</resources>

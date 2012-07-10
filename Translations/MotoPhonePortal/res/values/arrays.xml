@@ -1,0 +1,270 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+    <integer-array name="green_tint">
+        <item>-16711936</item>
+        <item>65280</item>
+    </integer-array>
+    <integer-array name="alpha_tint">
+        <item>2004318071</item>
+        <item>0</item>
+    </integer-array>
+    <integer-array name="clear">
+        <item>0</item>
+        <item>0</item>
+    </integer-array>
+    <string-array name="WEBDAV_VIRT_PATH">
+        <item>/webfolder</item>
+        <item>/webfolder-ext</item>
+    </string-array>
+    <string-array name="SERVER_CACHE_CONTROLS_BY_TYPE">
+        <item>.html,0,true,false,true,0</item>
+        <item>.html.gz,0,true,false,true,0</item>
+    </string-array>
+    <string-array name="SERVER_REALM_TO_AUTH_METHOD">
+        <item>GET|POST|HEAD|OPTIONS|PROPFIND,^/$,0,0</item>
+        <item>GET|POST|HEAD|OPTIONS,^/css/.*,0,0</item>
+        <item>GET|POST|HEAD|OPTIONS,^/images/.*,0,0</item>
+        <item>GET|POST|HEAD|OPTIONS,^/javascripts/.*,0,0</item>
+        <item>GET|POST|HEAD|OPTIONS,/favicon.ico,0,0</item>
+        <item>GET|POST|HEAD|OPTIONS,.*/j_security_check$,1,2</item>
+        <item>GET|POST|HEAD|OPTIONS,^/logout$,1,2</item>
+        <item>GET|POST|HEAD|OPTIONS,^/login/.*,0,1</item>
+        <item>OPTIONS,.*,0,0</item>
+        <item>GET|POST|HEAD|OPTIONS,^/personalportal.*,1,2</item>
+        <item>PROPFIND,^/$,2,0</item>
+        <item>GET|POST|PROPFIND|PROPPATCH|MKCOL|COPY|MOVE|LOCK|UNLOCK|DELETE|OPTIONS|PUT|HEAD,^/webfolder.*,2,0</item>
+        <item>GET|POST|PROPFIND|PROPPATCH|MKCOL|COPY|MOVE|LOCK|UNLOCK|DELETE|OPTIONS|PUT|HEAD,^/webfolder-ext.*,2,0</item>
+        <item>.*,.*,1,2</item>
+    </string-array>
+    <string-array name="SERVER_URL_TO_HANDLER_MAPPING">
+        <item>StatusHandler,com.motorola.android.motophoneportal.handlers.status.StatusHandler,/personalportal/status</item>
+        <item>ContactHandler,com.motorola.android.motophoneportal.handlers.contact.ContactHandler,/personalportal/contact</item>
+        <item>SmsHandler,com.motorola.android.motophoneportal.handlers.messaging.SmsHandler,/personalportal/sms</item>
+        <item>CallLogHandler,com.motorola.android.motophoneportal.handlers.calllog.CallLogHandler,/personalportal/calllog</item>
+        <item>MobileInboxHandler,com.motorola.android.motophoneportal.handlers.mobileinbox.MobileInboxHandler,/personalportal/mobileinbox</item>
+        <item>PictureViewHandler,com.motorola.android.motophoneportal.handlers.pictureview.PictureViewHandler,/personalportal/pictureview</item>
+        <item>BookmarkHandler,com.motorola.android.motophoneportal.handlers.bookmarks.BookmarkHandler,/personalportal/bookmark</item>
+        <item>SettingHandler,com.motorola.android.motophoneportal.handlers.settings.SettingHandler,/personalportal/setting</item>
+        <item>MusicHandler,com.motorola.android.motophoneportal.handlers.music.MusicHandler,/personalportal/music</item>
+        <item>MMLInstallHandler,com.motorola.android.motophoneportal.handlers.mmlinstall.MMLInstallHandler,/personalportal/mmlinstall</item>
+    </string-array>
+    <string-array name="CONF_MML_EXE_PATHS">
+        <item>/data/install/</item>
+        <item>/sdcard/install/</item>
+    </string-array>
+    <string-array name="SERVER_CONTENT_TYPES">
+        <item>doc,application/msword</item>
+        <item>dot,application/msword</item>
+        <item>bin,application/octet-stream</item>
+        <item>pdf,application/pdf</item>
+        <item>ps,application/postscript</item>
+        <item>ai,application/postscript</item>
+        <item>eps,application/postscript</item>
+        <item>rtf,application/rtf</item>
+        <item>zip,application/zip</item>
+        <item>xls,application/vnd.ms-excel</item>
+        <item>xlb,application/vnd.ms-excel</item>
+        <item>ppt,application/vnd.ms-powerpoint</item>
+        <item>pps,application/vnd.ms-powerpoint</item>
+        <item>pot,application/vnd.ms-powerpoint</item>
+        <item>dvi,application/x-dvi</item>
+        <item>pfa,application/x-font</item>
+        <item>pfb,application/x-font</item>
+        <item>gsf,application/x-font</item>
+        <item>pcf,application/x-font</item>
+        <item>pcf.Z,application/x-font</item>
+        <item>gtar,application/x-gtar</item>
+        <item>tgz,application/x-gtar</item>
+        <item>taz,application/x-gtar</item>
+        <item>phtml,application/x-httpd-php</item>
+        <item>pht,application/x-httpd-php</item>
+        <item>php,application/x-httpd-php</item>
+        <item>phps,application/x-httpd-php-source</item>
+        <item>php3,application/x-httpd-php3</item>
+        <item>php3p,application/x-httpd-php3-preprocessed</item>
+        <item>php4,application/x-httpd-php4</item>
+        <item>jar,application/x-java-archive</item>
+        <item>jnlp,application/x-java-jnlp-file</item>
+        <item>ser,application/x-java-serialized-object</item>
+        <item>class,application/x-java-vm</item>
+        <item>js,application/x-javascript; charset=UTF-8</item>
+        <item>latex,application/x-latex</item>
+        <item>com,application/x-msdos-program</item>
+        <item>exe,application/x-msdos-program</item>
+        <item>bat,application/x-msdos-program</item>
+        <item>dll,application/x-msdos-program</item>
+        <item>o,application/x-object</item>
+        <item>pl,application/x-perl</item>
+        <item>pm,application/x-perl</item>
+        <item>qtl,application/x-quicktimeplayer</item>
+        <item>rpm,application/x-redhat-package-manager</item>
+        <item>swf,application/x-shockwave-flash</item>
+        <item>swfl,application/x-shockwave-flash</item>
+        <item>sh,application/x-sh</item>
+        <item>tar,application/x-tar</item>
+        <item>tcl,application/x-tcl</item>
+        <item>tex,application/x-tex</item>
+        <item>texinfo,application/x-texinfo</item>
+        <item>texi,application/x-texinfo</item>
+        <item>~,application/x-trash</item>
+        <item>%,application/x-trash</item>
+        <item>bak,application/x-trash</item>
+        <item>old,application/x-trash</item>
+        <item>sik,application/x-trash</item>
+        <item>src,application/x-wais-source</item>
+        <item>au,audio/basic</item>
+        <item>snd,audio/basic</item>
+        <item>mid,audio/midi</item>
+        <item>midi,audio/midi</item>
+        <item>kar,audio/midi</item>
+        <item>mpga,audio/mpeg</item>
+        <item>mpega,audio/mpeg</item>
+        <item>mp2,audio/mpeg</item>
+        <item>mp3,audio/mpeg</item>
+        <item>aif,audio/x-aiff</item>
+        <item>aiff,audio/x-aiff</item>
+        <item>aifc,audio/x-aiff</item>
+        <item>gsm,audio/x-gsm</item>
+        <item>m3u,audio/x-mpegurl</item>
+        <item>rpm,audio/x-pn-realaudio-plugin</item>
+        <item>ra,audio/x-pn-realaudio</item>
+        <item>rm,audio/x-pn-realaudio</item>
+        <item>ram,audio/x-pn-realaudio</item>
+        <item>ra,audio/x-realaudio</item>
+        <item>wav,audio/x-wav</item>
+        <item>wma,audio/x-ms-wma</item>
+        <item>bmp,image/bmp</item>
+        <item>gif,image/gif</item>
+        <item>jpeg,image/jpeg</item>
+        <item>jpg,image/jpeg</item>
+        <item>jpe,image/jpeg</item>
+        <item>pcx,image/pcx</item>
+        <item>png,image/png</item>
+        <item>svg,image/svg+xml</item>
+        <item>svgz,image/svg+xml</item>
+        <item>tiff,image/tiff</item>
+        <item>tif,image/tiff</item>
+        <item>ras,image/x-cmu-raster</item>
+        <item>psd,image/x-photoshop</item>
+        <item>pgm,image/x-portable-graymap</item>
+        <item>ppm,image/x-portable-pixmap</item>
+        <item>rgb,image/x-rgb</item>
+        <item>xbm,image/x-xbitmap</item>
+        <item>xpm,image/x-xpixmap</item>
+        <item>igs,model/iges</item>
+        <item>iges,model/iges</item>
+        <item>msh,model/mesh</item>
+        <item>mesh,model/mesh</item>
+        <item>silo,model/mesh</item>
+        <item>wrl,model/vrml</item>
+        <item>vrml,model/vrml</item>
+        <item>csv,text/comma-separated-values</item>
+        <item>css,text/css; charset=UTF-8</item>
+        <item>htm,text/html</item>
+        <item>html,text/html; charset=UTF-8</item>
+        <item>xhtml,text/html</item>
+        <item>uls,text/iuls</item>
+        <item>mml,text/mathml</item>
+        <item>asc,text/plain</item>
+        <item>txt,text/plain</item>
+        <item>text,text/plain</item>
+        <item>diff,text/plain</item>
+        <item>json,application/json</item>
+        <item>rtx,text/richtext</item>
+        <item>rtf,text/rtf</item>
+        <item>sct,text/scriptlet</item>
+        <item>wsc,text/scriptlet</item>
+        <item>tsv,text/tab-separated-values</item>
+        <item>wml,text/vnd.wap.wml</item>
+        <item>wmls,text/vnd.wap.wmlscript</item>
+        <item>xml,text/xml</item>
+        <item>xsl,text/xml</item>
+        <item>h++,text/x-c++hdr</item>
+        <item>hpp,text/x-c++hdr</item>
+        <item>hxx,text/x-c++hdr</item>
+        <item>hh,text/x-c++hdr</item>
+        <item>c++,text/x-c++src</item>
+        <item>cpp,text/x-c++src</item>
+        <item>cxx,text/x-c++src</item>
+        <item>cc,text/x-c++src</item>
+        <item>h,text/x-chdr</item>
+        <item>csh,text/x-csh</item>
+        <item>c,text/x-csrc</item>
+        <item>java,text/x-java</item>
+        <item>moc,text/x-moc</item>
+        <item>p,text/x-pascal</item>
+        <item>pas,text/x-pascal</item>
+        <item>etx,text/x-setext</item>
+        <item>sh,text/x-sh</item>
+        <item>tcl,text/x-tcl</item>
+        <item>tk,text/x-tcl</item>
+        <item>tex,text/x-tex</item>
+        <item>ltx,text/x-tex</item>
+        <item>sty,text/x-tex</item>
+        <item>cls,text/x-tex</item>
+        <item>vcs,text/x-vcalendar</item>
+        <item>vcf,text/x-vcard</item>
+        <item>mpeg,video/mpeg</item>
+        <item>mpg,video/mpeg</item>
+        <item>mpe,video/mpeg</item>
+        <item>qt,video/quicktime</item>
+        <item>mov,video/quicktime</item>
+        <item>mxu,video/vnd.mpegurl</item>
+        <item>dif,video/x-dv</item>
+        <item>dv,video/x-dv</item>
+        <item>lsf,video/x-la-asf</item>
+        <item>lsx,video/x-la-asf</item>
+        <item>mng,video/x-mng</item>
+        <item>asf,video/x-ms-asf</item>
+        <item>asx,video/x-ms-asf</item>
+        <item>avi,video/x-msvideo</item>
+        <item>movie,video/x-sgi-movie</item>
+        <item>vrm,x-world/x-vrml</item>
+        <item>vrml,x-world/x-vrml</item>
+        <item>wrl,x-world/x-vrml</item>
+        <item>cer,application/x-x509-ca-cert</item>
+    </string-array>
+    <string-array name="HELP_LIST_INTENTS">
+        <item>HELP_CONNECTING_USB_INTENT</item>
+        <item>HELP_CONNECTING_WIFI_INTENT</item>
+    </string-array>
+    <string-array name="INTRO_USB_CONNECTED_TEXT">
+        <item>You are currently connected over USB</item>
+        <item>Press \"Menu\" to view connection help</item>
+    </string-array>
+    <string-array name="INTRO_USB_NOT_CONNECTED_TEXT">
+        <item>Plug in USB to launch\n(Windows only)</item>
+        <item>Press \"Menu\" to view connection help</item>
+    </string-array>
+    <string-array name="INTRO_WIFI_CONNECTED_TEXT">
+        <item>You are currently connected over Wi-Fi</item>
+        <item>Connection settings</item>
+    </string-array>
+    <string-array name="INTRO_WIFI_NOT_CONNECTED_TEXT">
+        <item>Touch the button to access\nMoto Phone Portal</item>
+        <item>Connect with Wi-Fi</item>
+    </string-array>
+    <string-array name="INTRO_USB_WIFI_NOT_CONNECTED_TEXT">
+        <item>Plug in USB to launch</item>
+        <item>Connect with Wi-Fi</item>
+    </string-array>
+    <string-array name="INTRO_USB_WIFI_CONNECTED_TEXT">
+        <item>Plug in USB to launch</item>
+        <item>Connection settings</item>
+    </string-array>
+    <string-array name="INTRO_USB_CONNECTED_WIFI_TEXT">
+        <item>Enter this address into your PC browser</item>
+        <item></item>
+    </string-array>
+    <string-array name="HELP_LIST">
+        <item>Connecting over USB</item>
+        <item>Connecting over Wi-Fi</item>
+    </string-array>
+    <string-array name="HELP_LIST_SUM">
+        <item>Windows only</item>
+        <item>Windows, Mac, or Linux</item>
+    </string-array>
+    <string-array name="SERVER_VIRTUAL_PATHS">
+        <item>/install,/data/install</item>
+    </string-array>
+</resources>

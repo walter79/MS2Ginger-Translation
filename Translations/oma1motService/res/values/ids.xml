@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+    <item type="id" name="tv_title">false</item>
+    <item type="id" name="tv_message">false</item>
+    <item type="id" name="buttonPanel">false</item>
+    <item type="id" name="btn_yes">false</item>
+    <item type="id" name="btn_no">false</item>
+    <item type="id" name="download_icon">false</item>
+    <item type="id" name="download_title">false</item>
+    <item type="id" name="domain">false</item>
+    <item type="id" name="complete_date">false</item>
+    <item type="id" name="complete_text">false</item>
+    <item type="id" name="download_progress">false</item>
+    <item type="id" name="progress_text">false</item>
+    <item type="id" name="list">false</item>
+    <item type="id" name="drmRcvRoListText">false</item>
+    <item type="id" name="drmplayList">false</item>
+    <item type="id" name="base_layout">false</item>
+    <item type="id" name="multiple_ro_received_screen_title_textview">false</item>
+    <item type="id" name="multiple_ro_received_screen_listview">false</item>
+    <item type="id" name="multiple_ro_received_screen_OK_Button">false</item>
+    <item type="id" name="bind">false</item>
+    <item type="id" name="unbind">false</item>
+    <item type="id" name="version">false</item>
+    <item type="id" name="isdrm">false</item>
+    <item type="id" name="convert">false</item>
+    <item type="id" name="callback">false</item>
+    <item type="id" name="download_menu_clear_all">false</item>
+    <item type="id" name="download_menu_cancel_all">false</item>
+    <item type="id" name="download_menu_clear">false</item>
+    <item type="id" name="download_menu_open">false</item>
+    <item type="id" name="download_menu_cancel">false</item>
+</resources>

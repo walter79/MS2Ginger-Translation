@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RelativeLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.motorola.android.widget.ActionBar android:id="@id/btn_bar" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_alignParentBottom="true">
+        <Button android:gravity="center_vertical" android:id="@id/saveButton" android:layout_width="0.0dip" android:layout_height="wrap_content" android:text="@string/save" />
+    </com.motorola.android.widget.ActionBar>
+    <ScrollView android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_above="@id/btn_bar">
+        <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <CheckBox android:textAppearance="?android:textAppearanceLarge" android:id="@id/autoConnect" android:paddingLeft="50.0dip" android:layout_width="wrap_content" android:layout_height="?android:listPreferredItemHeight" android:text="@string/auto_connect" />
+            <TextView android:textSize="0.5dip" android:id="@id/topText" android:background="#40404040" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+            <CheckBox android:textAppearance="?android:textAppearanceLarge" android:id="@id/minimizeOnConnect" android:paddingLeft="50.0dip" android:layout_width="wrap_content" android:layout_height="?android:listPreferredItemHeight" android:text="@string/minimize_on_connect" />
+            <TextView android:textSize="0.5dip" android:id="@id/topText" android:background="#40404040" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+            <TextView android:textAppearance="?android:textAppearanceLarge" android:id="@id/certFolderLabel" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip" android:layout_marginTop="10.0dip" android:layout_marginBottom="10.0dip" android:text="@string/certificates_folder" />
+            <LinearLayout android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="20.0dip" android:layout_marginTop="5.0dip" android:layout_marginRight="5.0dip">
+                <EditText android:id="@id/certFolderEdit" android:layout_width="fill_parent" android:layout_height="fill_parent" android:text="@string/certFolder" android:layout_weight="1.0" />
+                <Button android:id="@id/browseButton" android:paddingLeft="20.0dip" android:paddingRight="20.0dip" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_marginLeft="5.0dip" android:text="@string/browse_dots" />
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+</RelativeLayout>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+    <string name="app_name">Καθολική αποσύνδεση</string>
+    <string name="global_unplug_t">Αποσυνδέθηκε</string>
+    <string name="global_unplug">Αποσυνδέστε το φορτιστή από την πρίζα για εξοικονόμηση ενέργειας.</string>
+</resources>

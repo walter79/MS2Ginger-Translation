@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+    <string name="hello">Hello World!</string>
+    <string name="app_name">Gerenciador de dados</string>
+    <string name="perm_label">Ativar configuração plano de dados</string>
+    <string name="perm_desc">Permite que o aplicativo defina o plano de dados para o Gerenciador de dados</string>
+    <string name="backgrounddata_warning_message">Para economizar o uso do seu plano de dados, seu administrador desativou os dados em segundo plano em roaming.\n\nCaso preciso, é possível sincronizar dados manualmente em roaming.</string>
+    <string name="backgrounddata_notification_title">Envio de dados desativado</string>
+    <string name="backgrounddata_dialog_title">Aviso de dados em segundo plano</string>
+    <string name="backgrounddata_dialog_message">Seu administrador desativou os dados em segundo plano em roaming.\nCaso preciso, é possível sincronizar dados manualmente em roaming.</string>
+    <string name="ok">OK</string>
+</resources>

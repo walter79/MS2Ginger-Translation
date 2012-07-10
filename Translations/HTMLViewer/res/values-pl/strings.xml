@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+    <string name="app_label">Przeglądarka HTML</string>
+    <string name="permlab_accessDrm">Dostęp do treści chronionych mechanizmem DRM.</string>
+    <string name="permdesc_accessDrm">Umożliwia programom dostęp do treści chronionych mechanizmem DRM.</string>
+</resources>

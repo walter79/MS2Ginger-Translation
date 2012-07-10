@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+    <string name="app_name">Boîte universelle</string>
+    <string name="edit_activity_name">Modifier boîte univ.</string>
+    <string name="no_messages">Aucun message</string>
+    <string name="loading_list">Chargement...</string>
+    <string name="multi_media_message">Message multimédia</string>
+    <string name="menu_edit_accounts">Modifier boîte univ.</string>
+    <string name="menu_settings">Paramètres</string>
+    <string name="delete_threads_confirm_title">Supprimer les conversations</string>
+    <string name="delete_threads_confirm_message">Votre sélection contient des conversations. Voulez-vous les supprimer également ?</string>
+    <string name="move_error_title">Impossible de déplacer les éléments</string>
+    <string name="move_error_message">Seuls les éléments e-mail d\'un même compte peuvent être déplacés vers un fichier.</string>
+</resources>

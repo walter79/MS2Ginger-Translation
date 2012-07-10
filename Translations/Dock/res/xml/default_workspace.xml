@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<favorites
+  xmlns:launcher="http://schemas.android.com/apk/res/com.motorola.dlauncher">
+    <favorite launcher:className="com.motorola.blur.contacts.ViewIdentitiesFacetActivity" launcher:packageName="com.motorola.blur.contacts" launcher:screen="0" launcher:x="2" launcher:y="0" />
+    <favorite launcher:className="com.android.calendar.LaunchActivity" launcher:packageName="com.android.calendar" launcher:screen="0" launcher:x="3" launcher:y="0" />
+    <weather launcher:screen="1" launcher:x="0" launcher:y="0" />
+    <favorite launcher:className="com.android.music.MusicBrowserActivity" launcher:packageName="com.android.music" launcher:screen="1" launcher:x="2" launcher:y="0" />
+    <favorite launcher:className="com.motorola.gallery.TopScreen" launcher:packageName="com.motorola.gallery" launcher:screen="1" launcher:x="3" launcher:y="0" />
+    <favorite launcher:className="com.motorola.Dlna.DlnaMainMenu" launcher:packageName="com.motorola.Dlna" launcher:screen="2" launcher:x="0" launcher:y="0" />
+    <favorite launcher:className="com.motorola.cgallery.Dashboard" launcher:packageName="com.motorola.blurgallery" launcher:screen="2" launcher:x="1" launcher:y="0" />
+`
+<favorite launcher:className="com.motorola.blur.music.DashboardActivity" launcher:packageName="com.motorola.blur.music" launcher:screen="2" launcher:x="2" launcher:y="0" />
+`
+</favorites>

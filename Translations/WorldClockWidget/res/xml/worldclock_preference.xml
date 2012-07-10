@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<PreferenceScreen android:title="@string/World_Clock_Setting_Title"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ListPreference android:entries="@array/clock_style_entries" android:title="@string/clock_style" android:key="clock_style" android:summary="@string/Analog" android:entryValues="@array/clock_style_values" />
+    <PreferenceCategory android:title="@string/City_A">
+        <PreferenceScreen android:title="@string/City" android:key="select_city_a" android:summary="@string/City" />
+        <CheckBoxPreference android:title="@string/daylight_savings_time" android:key="dst_checkbox_a" android:summary="@string/adjust_daylight_savings_time" android:defaultValue="true" />
+    </PreferenceCategory>
+    <PreferenceCategory android:title="@string/City_B">
+        <CheckBoxPreference android:title="@string/current_location" android:key="use_current_location" android:summary="@string/Scanning_location" android:defaultValue="false" />
+        <PreferenceScreen android:title="@string/City" android:key="select_city_b" android:summary="@string/City" />
+        <CheckBoxPreference android:title="@string/daylight_savings_time" android:key="dst_checkbox_b" android:summary="@string/adjust_daylight_savings_time" android:defaultValue="true" />
+    </PreferenceCategory>
+</PreferenceScreen>

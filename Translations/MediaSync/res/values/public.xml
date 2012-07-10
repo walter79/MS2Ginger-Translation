@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+    <public type="drawable" name="icon" id="0x7f020000" />
+    <public type="drawable" name="mtp" id="0x7f020001" />
+    <public type="drawable" name="stat_notify_sync_anim0" id="0x7f020002" />
+    <public type="drawable" name="stat_notify_sync_anim1" id="0x7f020003" />
+    <public type="drawable" name="stat_notify_sync_anim2" id="0x7f020004" />
+    <public type="drawable" name="stat_notify_sync_anim3" id="0x7f020005" />
+    <public type="drawable" name="stat_notify_sync_anim4" id="0x7f020006" />
+    <public type="drawable" name="stat_notify_sync_anim5" id="0x7f020007" />
+    <public type="drawable" name="stat_notify_sync_done" id="0x7f020008" />
+    <public type="drawable" name="stat_notify_syncing" id="0x7f020009" />
+    <public type="layout" name="main" id="0x7f030000" />
+    <public type="layout" name="status_bar_ongoing_event_progress_bar" id="0x7f030001" />
+    <public type="raw" name="cablist" id="0x7f040000" />
+    <public type="raw" name="defaultcab" id="0x7f040001" />
+    <public type="raw" name="devicon" id="0x7f040002" />
+    <public type="raw" name="devlogo" id="0x7f040003" />
+    <public type="raw" name="service" id="0x7f040004" />
+    <public type="string" name="hello" id="0x7f050000" />
+    <public type="string" name="app_name" id="0x7f050001" />
+    <public type="string" name="mtpconnecting" id="0x7f050002" />
+    <public type="string" name="unmount_ticker" id="0x7f050003" />
+    <public type="string" name="unmount_notify_title" id="0x7f050004" />
+    <public type="string" name="unmount_notify_detail" id="0x7f050005" />
+    <public type="string" name="unmount_notify" id="0x7f050006" />
+    <public type="string" name="notification_sent" id="0x7f050007" />
+    <public type="string" name="notification_sent_complete" id="0x7f050008" />
+    <public type="string" name="mtp_connected_title" id="0x7f050009" />
+    <public type="string" name="mtp_connected_body" id="0x7f05000a" />
+    <public type="string" name="unmount_notify_detail_external" id="0x7f05000b" />
+    <public type="string" name="unmount_notify_detail_internal" id="0x7f05000c" />
+    <public type="string" name="unmount_notify_detail_auto" id="0x7f05000d" />
+    <public type="id" name="appIcon" id="0x7f060000" />
+    <public type="id" name="progress_text" id="0x7f060001" />
+    <public type="id" name="description" id="0x7f060002" />
+    <public type="id" name="progress_bar" id="0x7f060003" />
+</resources>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+    <string name="app_name">Universeller Posteingang</string>
+    <string name="edit_activity_name">Bearbeiten</string>
+    <string name="no_messages">Keine Nachrichten</string>
+    <string name="loading_list">Laden ...</string>
+    <string name="multi_media_message">Multimedia-Nachricht</string>
+    <string name="menu_edit_accounts">Bearbeiten</string>
+    <string name="menu_settings">Einstellungen</string>
+    <string name="delete_threads_confirm_title">Konversationen löschen</string>
+    <string name="delete_threads_confirm_message">Ihre Auswahl enthält Konversationen. Möchten Sie diese auch löschen?</string>
+    <string name="move_error_title">Elemente können nicht verschoben werden</string>
+    <string name="move_error_message">Es können nur E-Mails desselben Kontos in einen Ordner verschoben werden.</string>
+</resources>

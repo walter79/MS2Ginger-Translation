@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+    <item type="id" name="photo_viewimage">false</item>
+    <item type="id" name="frame">false</item>
+    <item type="id" name="photo">false</item>
+    <item type="id" name="button_section">false</item>
+    <item type="id" name="bt_layout">false</item>
+    <item type="id" name="buttons">false</item>
+    <item type="id" name="camera">false</item>
+    <item type="id" name="play">false</item>
+    <item type="id" name="gallery">false</item>
+    <item type="id" name="main">false</item>
+    <item type="id" name="filled">false</item>
+    <item type="id" name="unfilled">false</item>
+</resources>

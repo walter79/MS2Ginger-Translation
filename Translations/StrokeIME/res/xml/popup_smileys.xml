@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Keyboard android:keyWidth="14.286005%p" android:keyHeight="@dimen/key_height_symbol" android:horizontalGap="0.0px" android:verticalGap="0.0px"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <Row android:rowEdgeFlags="top">
+        <Key android:codes="3000" android:keyEdgeFlags="left" android:iconPreview="@drawable/emotion_icon_00_popup" android:keyOutputText=":)" android:keyIcon="@drawable/emotion_icon_00" />
+        <Key android:codes="3000" android:iconPreview="@drawable/emotion_icon_01_popup" android:keyOutputText=";)" android:keyIcon="@drawable/emotion_icon_01" />
+        <Key android:codes="3000" android:iconPreview="@drawable/emotion_icon_02_popup" android:keyOutputText=":P" android:keyIcon="@drawable/emotion_icon_02" />
+        <Key android:codes="3000" android:iconPreview="@drawable/emotion_icon_03_popup" android:keyOutputText=":D" android:keyIcon="@drawable/emotion_icon_03" />
+        <Key android:codes="3000" android:iconPreview="@drawable/emotion_icon_04_popup" android:keyOutputText="^_^" android:keyIcon="@drawable/emotion_icon_04" />
+        <Key android:codes="3000" android:iconPreview="@drawable/emotion_icon_05_popup" android:keyOutputText="^O^" android:keyIcon="@drawable/emotion_icon_05" />
+        <Key android:codes="3000" android:keyEdgeFlags="right" android:iconPreview="@drawable/emotion_icon_06_popup" android:keyOutputText=":-*" android:keyIcon="@drawable/emotion_icon_06" />
+    </Row>
+    <Row>
+        <Key android:codes="3000" android:keyEdgeFlags="left" android:iconPreview="@drawable/emotion_icon_10_popup" android:keyOutputText=":(" android:keyIcon="@drawable/emotion_icon_10" />
+        <Key android:codes="3000" android:iconPreview="@drawable/emotion_icon_11_popup" android:keyOutputText=":\'(" android:keyIcon="@drawable/emotion_icon_11" />
+        <Key android:codes="3000" android:iconPreview="@drawable/emotion_icon_12_popup" android:keyOutputText=":S" android:keyIcon="@drawable/emotion_icon_12" />
+        <Key android:codes="3000" android:iconPreview="@drawable/emotion_icon_13_popup" android:keyOutputText=":O" android:keyIcon="@drawable/emotion_icon_13" />
+        <Key android:codes="3000" android:iconPreview="@drawable/emotion_icon_14_popup" android:keyOutputText="-_-" android:keyIcon="@drawable/emotion_icon_14" />
+        <Key android:codes="3000" android:iconPreview="@drawable/emotion_icon_15_popup" android:keyOutputText="-_-z" android:keyIcon="@drawable/emotion_icon_15" />
+        <Key android:codes="3000" android:keyEdgeFlags="right" android:iconPreview="@drawable/emotion_icon_16_popup" android:keyOutputText="-_-||" android:keyIcon="@drawable/emotion_icon_16" />
+    </Row>
+    <Row>
+        <Key android:codes="3000" android:keyEdgeFlags="left" android:iconPreview="@drawable/emotion_icon_20_popup" android:keyOutputText="¬_¬" android:keyIcon="@drawable/emotion_icon_20" />
+        <Key android:codes="3000" android:iconPreview="@drawable/emotion_icon_21_popup" android:keyOutputText="\@_@" android:keyIcon="@drawable/emotion_icon_21" />
+        <Key android:codes="3000" android:iconPreview="@drawable/emotion_icon_22_popup" android:keyOutputText=">_&amp;lt;" android:keyIcon="@drawable/emotion_icon_22" />
+        <Key android:codes="3000" android:iconPreview="@drawable/emotion_icon_23_popup" android:keyOutputText="T_T" android:keyIcon="@drawable/emotion_icon_23" />
+        <Key android:codes="3000" android:iconPreview="@drawable/emotion_icon_24_popup" android:keyOutputText="囧" android:keyIcon="@drawable/emotion_icon_24" />
+        <Key android:keyWidth="28.570997%p" android:codes="-5" android:keyEdgeFlags="right" android:isRepeatable="true" android:iconPreview="@drawable/moto_delete_popup_icon" android:keyIcon="@drawable/moto_delete_icon" />
+    </Row>
+    <Row android:keyWidth="20.000004%p" android:keyHeight="@dimen/key_height_symbol_function" android:rowEdgeFlags="bottom">
+        <Key android:codes="-2002" android:keyEdgeFlags="left" android:iconPreview="@drawable/moto_chinese_symbol_icon_press" android:keyIcon="@drawable/moto_chinese_symbol_icon" />
+        <Key android:codes="-2003" android:iconPreview="@drawable/moto_english_symbol_icon_press" android:keyIcon="@drawable/moto_english_symbol_icon" />
+        <Key android:codes="-2005" android:iconPreview="@drawable/moto_smiley_popup_icon" android:keyIcon="@drawable/moto_smiley_icon" />
+        <Key android:codes="-2004" android:iconPreview="@drawable/moto_www_icon_press" android:keyIcon="@drawable/moto_www_icon" />
+        <Key android:codes="-280" android:keyEdgeFlags="right" android:iconPreview="@drawable/moto_return_blk" android:keyIcon="@drawable/moto_return" />
+    </Row>
+</Keyboard>

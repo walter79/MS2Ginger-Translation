@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Keyboard android:keyWidth="8.700001%p" android:keyHeight="15.400004%p" android:horizontalGap="1.3000011%p" android:verticalGap="0.49999952%p"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <Row android:rowEdgeFlags="top">
+        <Key android:horizontalGap="0.8000016%p" android:keyEdgeFlags="left" android:keyLabel=":" />
+        <Key android:keyLabel="/" />
+        <Key android:keyLabel="&amp;amp;" />
+        <Key android:keyLabel="(" />
+        <Key android:keyLabel=")" />
+        <Key android:keyLabel="-" />
+        <Key android:keyEdgeFlags="right" android:keyLabel="+" />
+    </Row>
+    <Row android:rowEdgeFlags="bottom">
+        <Key android:horizontalGap="0.8000016%p" android:keyEdgeFlags="left" android:keyLabel=";" />
+        <Key android:keyLabel="\@" />
+        <Key android:keyLabel="\'" />
+        <Key android:keyLabel="\&quot;" />
+        <Key android:keyLabel="\?" />
+        <Key android:keyLabel="!" />
+        <Key android:keyEdgeFlags="right" android:keyLabel="," />
+    </Row>
+</Keyboard>

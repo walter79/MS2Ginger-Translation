@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:background="#ff404041" android:paddingBottom="3.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <LinearLayout android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content">
+            <ImageView android:id="@id/performanceIcon" android:layout_width="32.0dip" android:layout_height="32.0dip" android:layout_weight="1.0" />
+            <TextView android:textSize="14.0dip" android:textStyle="bold" android:id="@id/topheading" android:paddingTop="5.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/EasyViewHead1" android:layout_weight="1.0" />
+        </LinearLayout>
+        <LinearLayout android:orientation="horizontal" android:paddingTop="2.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <TextView android:textStyle="bold" android:id="@id/fixcpu" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_marginLeft="4.0dip" android:text="@string/cputext1" android:layout_weight="1.65" />
+            <ProgressBar android:id="@id/cpuProgressRed" android:paddingTop="3.0dip" android:visibility="gone" android:layout_width="0.0dip" android:layout_height="wrap_content" android:maxHeight="20.0dip" android:indeterminateOnly="false" android:progressDrawable="@drawable/progress_red" android:minHeight="20.0dip" android:layout_weight="4.0" />
+            <ProgressBar android:id="@id/cpuProgressYellow" android:paddingTop="3.0dip" android:visibility="gone" android:layout_width="0.0dip" android:layout_height="wrap_content" android:maxHeight="20.0dip" android:indeterminateOnly="false" android:progressDrawable="@drawable/progress_yellow" android:minHeight="20.0dip" android:layout_weight="4.0" />
+            <ProgressBar android:id="@id/cpuProgressGreen" android:paddingTop="3.0dip" android:visibility="gone" android:layout_width="0.0dip" android:layout_height="wrap_content" android:maxHeight="20.0dip" android:indeterminateOnly="false" android:progressDrawable="@drawable/progress_green" android:minHeight="20.0dip" android:layout_weight="4.0" />
+            <TextView android:textStyle="bold" android:id="@id/cpuheading" android:paddingLeft="7.0dip" android:paddingTop="5.0dip" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="2.0" />
+        </LinearLayout>
+        <LinearLayout android:orientation="horizontal" android:paddingTop="4.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <TextView android:textStyle="bold" android:id="@id/fixmem" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_marginLeft="4.0dip" android:text="@string/memfull" android:layout_weight="1.65" />
+            <ProgressBar android:id="@id/memProgressGreen" android:paddingTop="4.0dip" android:visibility="gone" android:layout_width="0.0dip" android:layout_height="wrap_content" android:maxHeight="20.0dip" android:indeterminateOnly="false" android:progressDrawable="@drawable/progress_green" android:minHeight="20.0dip" android:layout_weight="4.0" />
+            <ProgressBar android:id="@id/memProgressYellow" android:paddingTop="4.0dip" android:visibility="gone" android:layout_width="0.0dip" android:layout_height="wrap_content" android:maxHeight="20.0dip" android:indeterminateOnly="false" android:progressDrawable="@drawable/progress_yellow" android:minHeight="20.0dip" android:layout_weight="4.0" />
+            <ProgressBar android:id="@id/memProgressRed" android:paddingTop="4.0dip" android:visibility="gone" android:layout_width="0.0dip" android:layout_height="wrap_content" android:maxHeight="20.0dip" android:indeterminateOnly="false" android:progressDrawable="@drawable/progress_red" android:minHeight="20.0dip" android:layout_weight="4.0" />
+            <TextView android:textStyle="bold" android:id="@id/memheading" android:paddingLeft="5.0dip" android:paddingTop="5.0dip" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="2.0" />
+        </LinearLayout>
+    </LinearLayout>
+    <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <View android:id="@id/divideritem_bottom_divider" android:background="?android:listDivider" android:layout_width="fill_parent" android:layout_height="1.0px" />
+        <TextView android:textStyle="bold" android:id="@id/AvialMemCpuUsage" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/ListHeading" />
+        <View android:id="@id/divideritem_bottom_divider" android:background="?android:listDivider" android:layout_width="fill_parent" android:layout_height="1.0px" />
+    </LinearLayout>
+    <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <TextView android:textStyle="bold" android:id="@id/NoAppFound" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/NoappFound" />
+        <ListView android:id="@android:id/list" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_weight="1.0" />
+        <LinearLayout android:gravity="bottom" android:orientation="horizontal" android:id="@id/buttonGroups" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <Button android:id="@id/Butkill" android:layout_width="105.0dip" android:layout_height="50.0dip" android:text="@string/butkill" android:layout_weight="1.0" />
+            <Button android:id="@id/Butcancel" android:layout_width="105.0dip" android:layout_height="50.0dip" android:text="@string/butcancel" android:layout_weight="1.0" />
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

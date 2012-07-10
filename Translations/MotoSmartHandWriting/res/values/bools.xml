@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+    <bool name="pref_userdir">true</bool>
+    <bool name="pref_fuzzy_On">false</bool>
+    <bool name="pref_fuzzy_Zh">false</bool>
+    <bool name="pref_fuzzy_Ch">false</bool>
+    <bool name="pref_fuzzy_Sh">false</bool>
+    <bool name="pref_fuzzy_L">false</bool>
+    <bool name="pref_fuzzy_G">false</bool>
+    <bool name="pref_fuzzy_H">false</bool>
+    <bool name="pref_fuzzy_ang">false</bool>
+    <bool name="pref_fuzzy_eng">false</bool>
+    <bool name="pref_fuzzy_ing">false</bool>
+    <bool name="pref_fuzzy_iang">false</bool>
+    <bool name="pref_fuzzy_uang">false</bool>
+    <bool name="pref_hw_watermark">true</bool>
+    <bool name="pref_kp_mixedmode">false</bool>
+</resources>

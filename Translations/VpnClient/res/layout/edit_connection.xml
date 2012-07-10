@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ScrollView android:layout_width="fill_parent" android:layout_height="1.0px" android:fillViewport="true" android:layout_weight="1.0">
+        <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <TextView android:textAppearance="?android:textAppearanceLarge" android:id="@id/connection_label" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip" android:layout_marginTop="5.0dip" android:text="@string/connection_name" android:singleLine="true" />
+            <EditText android:id="@id/connection_name" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="20.0dip" android:layout_marginTop="10.0dip" android:layout_marginRight="20.0dip" android:layout_marginBottom="20.0dip" />
+            <TextView android:textAppearance="?android:textAppearanceLarge" android:id="@id/label_conn_template" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip" android:text="@string/connection_template" android:singleLine="true" />
+            <Spinner android:id="@id/templates" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="20.0dip" android:layout_marginTop="10.0dip" android:layout_marginRight="20.0dip" android:layout_marginBottom="15.0dip" android:prompt="@string/choose_template" />
+            <TextView android:textAppearance="?android:textAppearanceLarge" android:id="@id/gateway_label" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip" android:layout_marginTop="5.0dip" android:text="@string/gateway" android:singleLine="true" />
+            <EditText android:id="@id/gateway" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="20.0dip" android:layout_marginTop="10.0dip" android:layout_marginRight="20.0dip" android:layout_marginBottom="20.0dip" android:singleLine="true" android:digits=".0123456789" android:inputType="phone" />
+            <LinearLayout android:orientation="vertical" android:id="@id/certificates" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <TextView android:textAppearance="?android:textAppearanceLarge" android:id="@id/label4" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip" android:text="@string/certificate" android:singleLine="true" />
+                <Spinner android:id="@id/cert_spinner" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="20.0dip" android:layout_marginTop="10.0dip" android:layout_marginRight="20.0dip" android:layout_marginBottom="20.0dip" android:prompt="@string/choose_certificate" />
+                <TextView android:textAppearance="?android:textAppearanceLarge" android:id="@id/label5" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip" android:text="@string/certificate_authority" android:singleLine="true" />
+                <Spinner android:id="@id/ca_cert_spinner" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="20.0dip" android:layout_marginTop="10.0dip" android:layout_marginRight="20.0dip" android:layout_marginBottom="20.0dip" android:prompt="@string/choose_certificate_authority" />
+            </LinearLayout>
+            <LinearLayout android:orientation="vertical" android:id="@id/psk" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <TextView android:textAppearance="?android:textAppearanceLarge" android:id="@id/psk_label" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip" android:text="@string/pre_shared_key_type" android:singleLine="true" />
+                <RadioGroup android:orientation="horizontal" android:id="@id/pskType" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip" android:layout_marginBottom="10.0dip">
+                    <RadioButton android:id="@id/pskTextRadio" android:layout_width="wrap_content" android:layout_height="wrap_content" android:checked="true" android:text="@string/text" />
+                    <RadioButton android:id="@id/pskHexRadio" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="30.0dip" android:text="@string/hexadecimal" />
+                </RadioGroup>
+                <TextView android:textAppearance="?android:textAppearanceLarge" android:id="@id/label7" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip" android:text="@string/pre_shared_key" android:singleLine="true" />
+                <EditText android:id="@id/pre_shared_key" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="20.0dip" android:layout_marginTop="10.0dip" android:layout_marginRight="20.0dip" android:layout_marginBottom="20.0dip" android:inputType="textPassword" />
+                <TextView android:textAppearance="?android:textAppearanceLarge" android:id="@id/identity_label" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip" android:text="@string/identity_type" android:singleLine="true" />
+                <Spinner android:id="@id/id_types" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="20.0dip" android:layout_marginTop="10.0dip" android:layout_marginRight="20.0dip" android:layout_marginBottom="20.0dip" android:prompt="@string/choose_identity_type" />
+                <LinearLayout android:orientation="vertical" android:id="@id/id_request" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                    <TextView android:textAppearance="?android:textAppearanceLarge" android:id="@id/id_label" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip" android:text="@string/identity" android:singleLine="true" />
+                    <EditText android:id="@id/identity" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="20.0dip" android:layout_marginTop="10.0dip" android:layout_marginRight="20.0dip" android:layout_marginBottom="20.0dip" />
+                </LinearLayout>
+            </LinearLayout>
+            <LinearLayout android:orientation="vertical" android:id="@id/user" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <TextView android:textAppearance="?android:textAppearanceLarge" android:id="@id/username_label" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip" android:text="@string/username" android:singleLine="true" />
+                <EditText android:id="@id/username" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="20.0dip" android:layout_marginTop="10.0dip" android:layout_marginRight="20.0dip" android:layout_marginBottom="20.0dip" />
+                <TextView android:textAppearance="?android:textAppearanceLarge" android:id="@id/password_label" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip" android:text="@string/password" android:singleLine="true" />
+                <EditText android:id="@id/password" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="20.0dip" android:layout_marginTop="10.0dip" android:layout_marginRight="20.0dip" android:layout_marginBottom="20.0dip" android:inputType="textPassword" />
+            </LinearLayout>
+            <TextView android:textAppearance="?android:textAppearanceLarge" android:id="@id/label11" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip" android:layout_marginBottom="10.0dip" android:text="@string/subnet_ip" android:singleLine="true" />
+            <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <EditText android:id="@id/subnet1" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="20.0dip" android:singleLine="true" android:digits=".0123456789" android:layout_weight="1.0" android:inputType="phone" />
+                <TextView android:textAppearance="?android:textAppearanceLarge" android:id="@id/label12" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip" android:layout_marginRight="10.0dip" android:text="@string/slash" android:singleLine="true" />
+                <EditText android:id="@id/bits1" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginRight="20.0dip" android:singleLine="true" android:digits="0123456789" android:layout_weight="2.0" android:inputType="phone" />
+            </LinearLayout>
+            <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <EditText android:id="@id/subnet2" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="20.0dip" android:singleLine="true" android:digits=".0123456789" android:layout_weight="1.0" android:inputType="phone" />
+                <TextView android:textAppearance="?android:textAppearanceLarge" android:id="@id/label13" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip" android:layout_marginRight="10.0dip" android:text="@string/slash" android:singleLine="true" />
+                <EditText android:id="@id/bits2" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginRight="20.0dip" android:singleLine="true" android:digits="0123456789" android:layout_weight="2.0" android:inputType="phone" />
+            </LinearLayout>
+            <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <EditText android:id="@id/subnet3" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="20.0dip" android:singleLine="true" android:digits=".0123456789" android:layout_weight="1.0" android:inputType="phone" />
+                <TextView android:textAppearance="?android:textAppearanceLarge" android:id="@id/label14" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip" android:layout_marginRight="10.0dip" android:text="@string/slash" android:singleLine="true" />
+                <EditText android:id="@id/bits3" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginRight="20.0dip" android:singleLine="true" android:digits="0123456789" android:layout_weight="2.0" android:inputType="phone" />
+            </LinearLayout>
+            <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <EditText android:id="@id/subnet4" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="20.0dip" android:singleLine="true" android:digits=".0123456789" android:layout_weight="1.0" android:inputType="phone" />
+                <TextView android:textAppearance="?android:textAppearanceLarge" android:id="@id/label15" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip" android:layout_marginRight="10.0dip" android:text="@string/slash" android:singleLine="true" />
+                <EditText android:id="@id/bits4" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginRight="20.0dip" android:singleLine="true" android:digits="0123456789" android:layout_weight="2.0" android:inputType="phone" />
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+    <com.motorola.android.widget.ActionBar android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <Button android:gravity="center_vertical" android:id="@id/okButton" android:layout_width="0.0dip" android:layout_height="wrap_content" android:text="@string/finish" />
+    </com.motorola.android.widget.ActionBar>
+</LinearLayout>

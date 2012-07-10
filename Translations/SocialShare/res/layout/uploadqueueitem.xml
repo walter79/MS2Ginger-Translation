@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LinearLayout android:orientation="horizontal" android:id="@id/UploadQueueItem" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/UploadQueueItem_Photo" android:layout_width="@dimen/SOCIALSHARING_NotifyUploadProgress_ImgThumbWidth" android:layout_height="@dimen/SOCIALSHARING_NotifyUploadProgress_ImgThumbHeight" android:layout_marginRight="@dimen/SOCIALSHARING_WidgetGroupPad" />
+    <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <TextView android:id="@id/UploadItemTitle" style="@blur.res:style/Blur.TxtListItemB" />
+        <TextView android:id="@id/UploadItemMessage" style="@blur.res:style/Blur.TxtListItemB" />
+    </LinearLayout>
+</LinearLayout>

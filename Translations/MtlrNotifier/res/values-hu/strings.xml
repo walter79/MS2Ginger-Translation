@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+    <string name="app_name">MtlrDialog</string>
+    <string name="location_mtlr_notification">kéri a tartózkodási helyét</string>
+    <string name="location_mtlr_ver_prefix">Kérni fogja</string>
+    <string name="location_mtlr_ver_postfix">ha nem válaszolsz.</string>
+    <string name="location_mtlr_default_allow">Engedélyezve: Tartózkodási hely lehérés</string>
+    <string name="location_mtlr_default_deny">Megtagadva: Tartózkodási hely lehérés</string>
+    <string name="location_mtlr_network_fail">Megszünt a kapcsolat</string>
+    <string name="notification_msg_content">Tartózkodási hely lekérve</string>
+    <string name="notification_msg_type_notification">Tartózkodási hely lekérve</string>
+    <string name="notification_msg_type_missed">Hiányzó tartózkodási hely</string>
+    <string name="notification_msg_type_title">Tartózkodási hely lekérve</string>
+    <string name="notification_request_postfix">lekérte a tartózkodási helyét</string>
+    <string name="notification_dialog_middlefix">has requested your location. Your location</string>
+    <string name="verification_dialog_middlefix">has requested your location. Accepting this location request will allow</string>
+    <string name="notification_dialog_postfix">to identify your location.</string>
+    <string name="missed_verification_dialog_prefix">A location request from</string>
+    <string name="missed_verification_dialog_middlefix">has been missed. Your location</string>
+    <string name="share_status_yes">has been</string>
+    <string name="share_status_no">has not been</string>
+    <string name="share_string">shared with</string>
+    <string name="toast_accept">will now be able to determine your location.</string>
+    <string name="toast_deny">will not be allowed to determine your location.</string>
+    <string name="connect_terminate_msg">The location request has been cancelled by the network</string>
+    <string name="accept_ok">OK</string>
+    <string name="button_allow">Allow</string>
+    <string name="button_deny">Deny</string>
+</resources>

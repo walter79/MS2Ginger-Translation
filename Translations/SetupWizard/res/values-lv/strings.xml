@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+    <string name="default_device_name">Android</string>
+    <string name="welcome_message">Laipni lūdzam pakalpojumā ^1!</string>
+    <string name="setup_wizard_title">Iestatīšanas vednis</string>
+    <string name="error_dialog_title">Uzmanību!</string>
+    <string name="next_button_label">Tālāk</string>
+    <string name="back_button_label">Atpakaļ</string>
+    <string name="sign_in_button_label">Pierakstīties</string>
+    <string name="create_button_label">Izveidot</string>
+    <string name="skip_button_label">Izlaist</string>
+    <string name="first_name">Vārds</string>
+    <string name="last_name">Uzvārds</string>
+    <string name="done">Labi</string>
+    <string name="cancel_button_label">Atcelt</string>
+    <string name="done_button_label">Pabeigt iestatīšanu</string>
+    <string name="try_again_button_label">Mēģināt vēlreiz</string>
+    <string name="close_button_label">Aizvērt</string>
+    <string name="edit_text_help">Pieskarieties jebkuram tekstlodziņam, lai sāktu datu ievadi.</string>
+    <string name="add_a_google_account">Google konta pievienošana</string>
+    <string name="no_sim_setup_wireless">Tālrunī nav ievietota SIM karte, tāpēc nevar izveidot tālruņa savienojumu ar mobilo tīklu, lai izmantotu balss vai datu pakalpojumus. Bez SIM kartes var izveidot savienojumu ar Wi-Fi tīklu.</string>
+    <string name="wifi_only_setup_wireless">Vai vēlaties izveidot savienojumu ar Wi-Fi tīklu tūlīt?</string>
+    <string name="setup_wifi_button_label">Izveidot savienojumu ar Wi-Fi</string>
+    <string name="no_network">Nav tīkla savienojuma.</string>
+    <string name="no_network_help">Iespējams, šī ir īslaicīga problēma, vai arī jūsu tālrunis neatbalsta datu pakalpojumu izmantošanu. Lūdzu, mēģiniet vēlreiz, kad ir izveidots savienojums ar mobilo tīklu, vai izveidojiet savienojumu ar Wi-Fi tīklu. Ja šī problēma atkārtojas, zvaniet klientu atbalsta dienestam.</string>
+    <string name="server_error">Sazinoties ar Google serveriem, radās problēma.</string>
+    <string name="server_error_help">Lūdzu, vēlāk mēģiniet vēlreiz.</string>
+    <string name="network_unreliable">Nevar izveidot uzticamu datu savienojumu ar serveri.</string>
+    <string name="network_unreliable_help">Iespējams, šī ir īslaicīga problēma, vai arī jūsu tālrunis neatbalsta datu pakalpojumu izmantošanu. Ja šī problēma atkārtojas, zvaniet klientu atbalsta dienestam.</string>
+    <string name="invalid_login_character">Rakstzīme nav derīga. Drīkst izmantot tikai ciparus 0–9, burtus a–z un A–Z, kā arī punktus.</string>
+    <string name="invalid_password_character">Paroles rakstzīme nav derīga.</string>
+    <string name="add_apn">Bezvadu savienojuma iestatījumi</string>
+    <string name="setup_google_account_title">Google konta iestatīšana</string>
+    <string name="cant_be_blank">Lauks nedrīkst būt tukšs.</string>
+    <string name="calendar">Google kalendārs</string>
+    <string name="talk">Google Talk</string>
+    <string name="email">Google Mail</string>
+    <string name="url_load_unsuccessful_message">Nav izveidots tālruņa savienojums ar datu pakalpojumu. Lai skatītu šo informāciju tūlīt, apmeklējiet vietni %s, izmantojot jebkuru datoru ar interneta savienojumu.</string>
+    <string name="field_cant_be_blank">Šis lauks nedrīkst būt tukšs.</string>
+    <string name="field_invalid_domain">Šis domēna nosaukums nav derīgs.</string>
+    <string name="field_invalid_user">Šis lietotājvārds nav derīgs.</string>
+    <string name="field_invalid_user_domain">Ievadiet tikai lietotājvārdu, nevis e-pasta adresi.</string>
+    <string name="field_invalid_login">Šis konta nosaukums nav derīgs.</string>
+    <string name="about_accounts_message"><font size="17">Iestatīt tālruni ir ļoti vienkārši. Jums ir nepieciešams tikai Google konts.\n<font height="17">\n</font><b>Kāpēc izmantot Google kontu?</b>\n<font height="3">\n</font>Izmantojot Google kontu, neatkarīgi no tā, kur tiek veikta atjaunināšana, datorā un tālrunī tiek automātiski sinhronizētas Google lietojumprogrammas.\n<font height="17">\n</font><b>Vai jums jau ir Google konts?</b>\n<font height="3">\n</font>Tad jums ir viss nepieciešamais. Nākamajā ekrānā vienkārši pieskarieties pogai Pierakstīties.\n<font height="17">\n</font><b>Vai jums nav Google konta?</b>\n<font height="3">\n</font>Tā nav problēma. Nākamajā ekrānā pieskarieties pogai Izveidot, un mēs jums palīdzēsim iestatīt kontu.\n<font height="17">\n</font><b>Pieskarieties pogai Tālāk, lai sāktu darbu.</b>\n</font></string>
+    <string name="fling_help_message">Slidiniet pirkstu uz augšu vai uz leju pa ekrānu, lai ritinātu.\n(Pieskarieties šim ziņojumam, lai to vairs nerādītu.)</string>
+    <string name="setup_device_title">^1 iestatīšana</string>
+    <string name="dont_have_an_account">Vai jums nav Google konta?</string>
+    <string name="create_one_now">Izveidojiet kontu tūlīt! Tas ir vienkārši.</string>
+    <string name="already_have_an_account">Vai jums jau ir Google konts?</string>
+    <string name="sign_in_with_google_account">Pierakstieties, izmantojot to Google kontu, kuru vēlaties saistīt ar šo tālruni.</string>
+    <string name="have_enterprise_account">Vai jums jau ir uzņēmuma konts?</string>
+    <string name="sign_in_with_enterprise_account">Pierakstieties, izmantojot uzņēmuma kontu, kas ir konfigurēts Google pakalpojumu izmantošanai.</string>
+    <string name="skip_message">Vai vēlaties iestatīt kontu vēlāk?</string>
+    <string name="touch_to_begin">Pieskarieties androīdam, lai sāktu.</string>
+    <string name="delayed_gaia_agreement">Turpinot darbu, jūs piekrītat <annotation id="google_privacy">Google</annotation> un <annotation id="android_privacy">papildu</annotation> konfidencialitātes politikai.</string>
+    <string name="open_keyboard_message">Lai sāktu darbu, izbīdiet tastatūru.</string>
+    <string name="open_keyboard_message_to_continue">Lai turpinātu, izbīdiet tastatūru.</string>
+    <string name="emergency_dial">Ārkārtas zvans</string>
+    <string name="change_language">Mainīt valodu</string>
+    <string name="signing_in">Notiek pierakstīšanās…</string>
+    <string name="close_keyboard_message">Lai turpinātu, iebīdiet tastatūru.</string>
+    <string name="communicating_message">Lai iestatītu kontu, tālrunim ir jāsazinās ar Google serveriem. Tas var ilgt līdz pat piecām minūtēm.</string>
+    <string name="communicating_message_domain">Lai atrastu domēna informāciju, tālrunim ir jāsazinās ar Google serveriem. Tas var ilgt līdz pat piecām minūtēm.</string>
+    <string name="username">Lietotājvārds</string>
+    <string name="domain_name">example.com</string>
+    <string name="password">Parole</string>
+    <string name="sign_in_agreement">Pierakstoties jūs piekrītat <annotation id="google_privacy">Google</annotation> un <annotation id="android_privacy">papildu</annotation> konfidencialitātes politikai.</string>
+    <string name="create">Izveidot</string>
+    <string name="create_message">Vai jums ir nepieciešams Google konts?</string>
+    <string name="now_signing_in">Notiek pierakstīšanās…</string>
+    <string name="now_verifying_domain">Notiek domēna meklēšana…</string>
+    <string name="sign_in_with_google_account_short">Pierakstieties savā Google kontā:</string>
+    <string name="enter_domain_name">Ievadiet uzņēmuma domēna nosaukumu:</string>
+    <string name="enter_user_name">Ievadiet domēna ^1 lietotājvārdu un paroli:</string>
+    <string name="inactive_domain">Tālrunī nevar izmantot šo kontu, jo tas ir iekļauts neaktīvā domēnā. Lūdzu, sazinieties ar domēna <b>^1</b> administratoru vai pierakstieties, izmantojot citu kontu.</string>
+    <string name="invalid_username">Ievadītais teksts nav derīgs lietotājvārds.</string>
+    <string name="web_login_error_title">Atvainojiet...</string>
+    <string name="web_login_error_desc">Veidojot savienojumu ar uzņēmuma serveriem domēnā ^1, radās problēma.\n\nInformācija par kļūdu:\n</string>
+    <string name="web_login_error_redirects">Tīmekļa pieteikšanās lapā pārāk daudz reižu ir veikta novirzīšana.</string>
+    <string name="web_login_error_http">HTTP kļūda ^1: ^2</string>
+    <string name="name_device_label">Norādiet tālruņa numuru:</string>
+    <string name="device_name_hint">Tālruņa nosaukums</string>
+    <string name="registering_device">Notiek tālruņa reģistrēšana...</string>
+    <string name="error_account_disabled">Šis konts ir atspējots. \n\n(Lai iegūtu plašāku informāciju, apmeklējiet vietni http://google.com/accounts/?hl=lv, izmantojot datoru.)</string>
+    <string name="error_login_failed">Lietotājvārds un parole neatbilst. Lūdzu, mēģiniet vēlreiz. \n\n(Lai atgūtu konta informāciju, apmeklējiet vietni http://google.com/accounts/?hl=lv, izmantojot datoru.)</string>
+    <string name="error_account_not_verified">Šis konts nav apstiprināts. Lūdzu, datorā pārbaudiet e-pastu un atveriet norādīto saiti, lai apstiprinātu kontu. \n\n(Lai atgūtu konta informāciju, apmeklējiet vietni http://google.com/accounts/?hl=lv, izmantojot datoru.)</string>
+    <string name="captcha_message_string">Ievadiet tālāk sniegtajā attēlā redzamās rakstzīmes.</string>
+    <string name="create_google_account">Jauna Google konta izveide</string>
+    <string name="example_usernames">piem., JOzols, Janis.Ozols</string>
+    <string name="create_account_agreement">Izveidojot šo kontu, jūs piekrītat <annotation id="google_privacy">Google</annotation> un <annotation id="android_privacy">papildu</annotation> konfidencialitātes politikai.</string>
+    <string name="account_already_has_gmail">Kontam jau ir pakalpojums Gmail.</string>
+    <string name="creating_account">Notiek konta izveide...</string>
+    <string name="checking_account">Notiek lietotājvārda pieejamības pārbaude...</string>
+    <string name="try_a_different_username">Izmantojiet citu lietotājvārdu</string>
+    <string name="is_not_available">Lietotājvārds <b>^1</b> nav pieejams.</string>
+    <string name="hint_size"><b>^1</b> ietver mazāk par 6 vai vairāk par 30 rakstzīmēm.</string>
+    <string name="hint_numbers_only"><b>^1</b> neietver burtus.</string>
+    <string name="hint_illegal_chars"><b>^1</b> drīkst ietvert tikai burtus,\nciparus un punktus.</string>
+    <string name="doesnt_use_gmail"><b>^1</b> neizmanto pakalpojumu Gmail.</string>
+    <string name="sign_in">Pierakstīties</string>
+    <string name="sign_in_enterprise">Pierakstīšanās uzņēmuma kontā</string>
+    <string name="here_are_alternatives">Tālāk ir norādītas dažas alternatīvas:</string>
+    <string name="choose_a_password"><b>Ievadiet\nparoli</b></string>
+    <string name="confirm_password"><b>Apstipriniet\nparoli</b></string>
+    <string name="password_strength"><b>Paroles\ndrošums</b></string>
+    <string name="too_short">Pārāk īsa</string>
+    <string name="security_question"><b>Drošības\njautājums</b></string>
+    <string name="answer"><b>Atbildēt</b></string>
+    <string name="password_mismatch">Paroles neatbilst. Lūdzu, ievadiet tās atkārtoti.</string>
+    <string name="your_account_was_created">Konts ir izveidots.</string>
+    <string name="eight_chars_min">(vismaz 8 rakstzīmes)</string>
+    <string name="just_in_case">Paroles pazaudēšanas gadījumā.</string>
+    <string name="verify_your_profile">Profila apstiprināšana</string>
+    <string name="signed_in">Esat pierakstījies!</string>
+    <string name="error_not_logged_in">Lietotājs nav pierakstījies.</string>
+    <string name="error_username_unavailable">Lietotājvārds nav pieejams.</string>
+    <string name="error_bad_password">Parole ir pārāk vāja vai ietver nederīgas rakstzīmes. Lūdzu, mēģiniet vēlreiz.</string>
+    <string name="error_bad_username">Lietotājvārds nav derīgs.</string>
+    <string name="submission_title">Atvainojiet...</string>
+    <string name="submission_error_text">Radās kļūda. Lūdzu, mēģiniet vēlreiz.</string>
+    <string name="account_linked_message"><font height="24">Google konts tagad ir saistīts ar šo tālruni.</font></string>
+    <string name="syncing_message"><font size="17">Pašlaik notiek Google lietojumprogrammu datu sinhronizācija. \n<font height="17">\n</font>%i Kad ekrāna augšpusē esošajā statusa joslā vairs nav redzama sinhronizācijas ikona, lejupielāde ir pabeigta.\n<font height="17">\n</font><b>Par statusa joslu</b>\n<font height="3">\n</font>Ikreiz, kad saņemat jaunu ziņojumu vai citu paziņojumu, statusa joslā tiek parādīta ikona.\n<font height="17">\n</font>Ar pirkstu velciet statusa joslu uz leju, lai atvērtu paneli Paziņojumi, kurā ir sniegta detalizēta informācija par visiem pašlaik aktīvajiem paziņojumiem.</font></string>
+    <string name="i_agree_next">Es piekrītu, tālāk</string>
+    <string name="android_privacy_policy_title">Papildu konfidencialitātes politika</string>
+    <string name="google_terms_of_service_title">Google pakalpojumu sniegšanas noteikumi</string>
+    <string name="google_privacy_policy_title">Google konfidencialitātes politika</string>
+    <string name="notification_update_title">Nepieciešams atjaunināt kontu</string>
+    <string name="notification_update_message">Pieskarieties šeit, lai atkārtoti palaistu iestatīšanas vedni.</string>
+    <string name="common_message"><font fgcolor="#ffffffff">Ātrā iestatīšana</font> \nJūs atvērāt lietojumprogrammu, kuras izmantošanai tālrunim ir jāpiesaista Google konts. Tas ir vienkārši izdarāms un ietver tikai dažas darbības. \n\nGoogle lietojumprogrammas tālrunī un datorā vienmēr tiks sinhronizētas. \n\nPieskarieties pogai Tālāk, lai turpinātu, vai nospiediet pogu Atpakaļ, lai izietu.</string>
+    <string name="add_account_message"><font fgcolor="#ffffffff">Konta pievienošana</font> \n\nTālrunī var izmantot vairākus Google kontus (piemēram, mājas un darba kontu). Lai pievienotu Google kontu, ir jāveic tikai dažas darbības. \n\nPieskarieties pogai Tālāk, lai turpinātu, vai nospiediet tālruņa pogu Atpakaļ, lai izietu.</string>
+    <string name="reactivate_account_message">Šim tālrunim ir jāpiesaista Google Mail konts. \n\nJums jau ir ar šo kontu saistīts Google Mail lietotājvārds (<b>^1</b>), taču pašlaik tas nav aktīvs. \n\nPieskarieties Tālāk, lai atkārtoti aktivizētu šo lietotājvārdu un izmantotu to ar tālruni. \n\nJa vēlaties izmantot citu kontu, nospiediet pogu Atpakaļ un pierakstieties, izmantojot citu kontu, vai izveidojiet jaunu kontu.</string>
+    <string name="reactivating_account">Notiek konta atkārtota aktivizēšana…</string>
+    <string name="your_account_was_reactivated">Konts ir aktivizēts.</string>
+    <string name="account_recovery_info">Tālāk sniegtā informācija palīdzēs atgūt paroli, ja tā tiks pazaudēta.</string>
+    <string name="secondary_email_label"><b>Papildu\ne-pasta adrese</b></string>
+    <string name="invalid_email">Ievadītā e-pasta adrese nav derīga.\n Piemērs: janis@example.com</string>
+    <string name="invalid_email_primary">Papildu e-pasta adrese nedrīkst būt vienāda ar izveidoto e-pasta adresi.</string>
+    <string name="tutorial_intro_title">Informācija par to, kā izmantot ierīci ^1</string>
+    <string name="begin_button_label">Sākt</string>
+    <string name="tutorial_intro_message_generic">Lai pilnībā izmantotu visas tālruņa iespējas, ir jāizprot dažas būtiskas lietas. <font size="17">\n</font> \n<li>Ekrāna tastatūras izmantošana</li> <font size="17">\n</font> \nPieskarieties pogai Sākt, lai sāktu mācības un iegūtu plašāku informāciju.</string>
+    <string name="tutorial_intro_message_setupwizard">Lai pilnībā izmantotu tālruņa iespējas, ir jāizprot dažas būtiskas lietas. <font size="17">\n</font> \n<li>Ekrāna tastatūras izmantošana</li> \n<li>Google konta iestatīšana</li> <font size="17">\n</font> \nPieskarieties pogai Sākt, lai sāktu mācības un iegūtu plašāku informāciju, vai pieskarieties pogai Izlaist, lai izlaistu šīs mācības un turpinātu darbu.</string>
+    <string name="keyboard_tutorial_title">Ekrāna tastatūras izmantošana</string>
+    <string name="keyboard_tutorial_message">Pieskarieties jebkuram teksta laukam, lai atvērtu tastatūru un sāktu informācijas ievadi. Izmēģiniet šeit!</string>
+    <string name="keyboard_tutorial_edittext_hint">Pieskarieties šeit, lai sāktu ievadi.</string>
+    <string name="done_typing_message">Vai pabeidzāt ievadi? Nospiediet tālruņa pogu Atpakaļ, lai aizvērtu tastatūru.</string>
+    <string name="done_button_label_in_tutorial">Gatavs</string>
+    <string name="location_sharing_title">Google atrašanās vietas izmantošana</string>
+    <string name="location_sharing_message">Google atrašanās vietas pakalpojums nodrošina lietojumprogrammām informāciju par jūsu aptuveno atrašanās vietu, neizmantojot GPS.</string>
+    <string name="location_disable_message">Šīs funkcijas var atspējot sadaļās Iestatījumi, Atrašanās vieta un drošība, Konfidencialitāte.</string>
+    <string name="yes_agree">Ļaut Google atrašanās vietas pakalpojumam apkopot anonīmus atrašanās vietas datus. Dati tiek apkopoti pat tad, ja nedarbojas neviena lietojumprogramma.</string>
+    <string name="yes_agree_use_location">Izmantot manu atrašanās vietu Google meklēšanas rezultātos un citos Google pakalpojumos.</string>
+    <string name="backup_consent_title">Dublēšana un atjaunošana</string>
+    <string name="backup_consent_message">Varat izmantot savu Google kontu, lai dublētu lietotnes, iestatījumus (piemēram, grāmatzīmes un Wi-Fi paroles) un citus datus. Ja iepriekš veicāt dublēšanu ar šo kontu, varat veikt atjaunošanu šajā ierīcē tūlīt.</string>
+    <string name="backup_consent_howto_disable_message">Dublēšanas iestatījumus var jebkurā brīdi mainīt, izmantojot lietojumprogrammas Iestatījumi sadaļu Konfidencialitāte.</string>
+    <string name="backup_consent_yes_agree">Nepārtraukti dublēt šo ierīci ar manu Google kontu</string>
+    <string name="restore_consent_yes_agree">Veikt atjaunošanu no mana Google konta šajā ierīcē</string>
+    <string name="restore_disable">Atspējot atjaunošanu</string>
+    <string name="restore_enable">Iespējot atjaunošanu</string>
+    <string name="restore_enabled">Ja iepriekš dublējāt iestatījumus, tie tiks atjaunoti.</string>
+    <string name="restore_disabled">Iestatījumi netiks atjaunoti no dublējuma.</string>
+    <string name="webview_progress_title">Notiek savienojuma izveide ar domēnu...</string>
+    <string name="webview_progress_verbose_message">No uzņēmuma serveriem uz tālruni tiek sūtīta pierakstīšanās informācija. Tas var ilgt dažas minūtes.\nPēc šīs darbības pabeigšanas tiks parādīta uzņēmuma pierakstīšanās lapa.</string>
+    <string name="enterprise_unmanaged_domain">Šis domēns neizmanto pakalpojumu Google Apps. Lūdzu, pārbaudiet domēna nosaukumu un mēģiniet vēlreiz.</string>
+</resources>

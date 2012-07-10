@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+    <string name="app_name">Bandeja universal</string>
+    <string name="edit_activity_name">Editar Bandeja universal</string>
+    <string name="no_messages">No hay mensajes</string>
+    <string name="loading_list">Cargando...</string>
+    <string name="multi_media_message">Mensaje multimedia</string>
+    <string name="menu_edit_accounts">Editar Bandeja univ.</string>
+    <string name="menu_settings">Ajustes</string>
+    <string name="delete_threads_confirm_title">Eliminar conversaciones</string>
+    <string name="delete_threads_confirm_message">La selección contiene conversaciones. ¿Las quieres eliminar también?</string>
+    <string name="move_error_title">No se pueden mover los elementos</string>
+    <string name="move_error_message">Solo se pueden mover elementos de correo de la misma cuenta a una carpeta.</string>
+</resources>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+    <string name="app_name">Reporte de error de borrado total</string>
+    <string name="master_clear_error_continue_button_text">Continuar</string>
+    <string name="master_clear_error_sd_erase_failed_title">Error de borrado de SD</string>
+    <string name="master_clear_error_phone_erase_failed_title">Error de borrado general</string>
+    <string name="master_clear_error_generic">Problema desconocido</string>
+    <string name="master_clear_error_sd_nodevice">No se encontró tarjeta SD</string>
+    <string name="master_clear_error_sd_readonly">Tarjeta protegida contra escritura</string>
+    <string name="master_clear_error_sd_write">Operación de escritura fallida</string>
+    <string name="master_clear_error_sd_read">Operación de lectura fallida</string>
+    <string name="master_clear_error_sd_large">Tarjeta muy grande</string>
+    <string name="master_clear_error_phone_generic">Operación fallida</string>
+    <string name="master_clear_error_sd_activity_name">Reporte de borrado de SD</string>
+    <string name="master_clear_error_phone_activity_name">Reporte de borrado general</string>
+</resources>

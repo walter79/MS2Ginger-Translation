@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+    <plurals name="media_files_deleted">
+        <item quantity="other">上传列表中的多个条目已删除。</item>
+        <item quantity="one">上传列表中的一个条目已删除。</item>
+    </plurals>
+</resources>

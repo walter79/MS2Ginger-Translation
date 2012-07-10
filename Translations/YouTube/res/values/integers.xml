@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+    <integer name="upload_max_title_length">50</integer>
+    <integer name="upload_max_description_length">5000</integer>
+    <integer name="upload_max_keywords_length">200</integer>
+    <integer name="playlist_thumbnail_stack_size">3</integer>
+    <integer name="playlist_thumbnail_scale">80</integer>
+</resources>

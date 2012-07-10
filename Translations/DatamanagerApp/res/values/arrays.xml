@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+    <array name="day_labels">
+        <item>@string/Sunday</item>
+        <item>@string/Monday</item>
+        <item>@string/Tuesday</item>
+        <item>@string/Wednesday</item>
+        <item>@string/Thursday</item>
+        <item>@string/Friday</item>
+        <item>@string/Saturday</item>
+    </array>
+    <array name="blur_app_check_frequency_entries">
+        <item>@string/blur_app_options_check_frequency_automatic</item>
+        <item>@string/blur_app_options_check_frequency_10min</item>
+        <item>@string/blur_app_options_check_frequency_15min</item>
+        <item>@string/blur_app_options_check_frequency_30min</item>
+        <item>@string/blur_app_options_check_frequency_60min</item>
+    </array>
+    <string-array name="blur_app__check_frequency_values">
+        <item>0</item>
+        <item>10</item>
+        <item>15</item>
+        <item>30</item>
+        <item>60</item>
+    </string-array>
+</resources>

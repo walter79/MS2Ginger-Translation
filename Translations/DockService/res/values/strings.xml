@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+    <string name="app_name">Motorola Dock Service</string>
+    <string name="mot_dock_apps">Motorola Dock Apps</string>
+    <string name="TitleForWebtop">WebTop</string>
+    <string name="TitleForEASport">EASport</string>
+    <string name="TitleWidgetClock">Widget clock</string>
+    <string name="TitleForEntertainmentCenter">Entertainment Center</string>
+    <string name="TitleForBigClock">BigClock</string>
+    <string name="TitleForHome">Dismiss Picker</string>
+    <string name="description">description under title go here and here</string>
+    <string name="detailed_description">detailed description go here and here</string>
+    <string name="dock_notification_title">Connected to multimedia station</string>
+    <string name="hall_effect_dock_only">Multimedia station is currently connected</string>
+    <string name="dock_notification_message">Select to switch application</string>
+    <string name="hdmi_notification_title">HDMI connection</string>
+    <string name="hdmi_notification_message">Select to manage your HDMI connection</string>
+    <string name="hdmi_only_message">HDMI is currently connected</string>
+    <string name="dock_hdmi_notification_title">Connected to HD dock</string>
+    <string name="hall_effect_dock_notification">HD dock is currently connected</string>
+    <string name="dock_hdmi_notification_message">Select to switch application</string>
+    <string name="descrip_webtop">Turn your phone into a PC</string>
+    <string name="descrip_entertainmentcenter">Experience your music, pictures, and video on HDTV</string>
+    <string name="descrip_bigclock">An elegant clock and alarm</string>
+    <string name="descrip_widgetdock">Setup your own custom dock experience, similar to your Home screen</string>
+    <string name="descrip_home">Keep your current application in focus while your phone is in the dock</string>
+    <string name="descrip_easport">Game description</string>
+    <string name="str_ok">OK</string>
+    <string name="detail_descrip_webtop">Description goes here. To be added</string>
+    <string name="detail_descrip_entertainmentcenter">The TV media center allows you to browse all of the multimedia content on your phone. While in the media center, your phone turns into a sleek controller which allows you to easily play music, look at pictures or watch a video</string>
+    <string name="detail_descrip_bigclock">Transform your phone screen into a big clock with perks. See the time from afar, set alarms, play music, view photos and get live weather information. This mode was designed for your bedside but is useful in the kitchen and as a desk clock too.</string>
+    <string name="detail_descrip_widgetdock">Get access to the same Android widgets, apps and shortcuts as on your phone home screen. Arrange them and change the wallpaper to your liking. All of which will be saved and applied the next time your dock your phone.</string>
+    <string name="detail_descrip_home">When you select this mode, the phone will keep your current application in view on the phone. You can easily access the other dock applications by selecting on the notification curtain.</string>
+    <string name="detail_descrip_easport">Entertainment detailed description goes here. To be added later.</string>
+    <string name="prompt_RememberMySelection">Remember my selection</string>
+    <string name="title">Select an application to launch</string>
+    <string name="detecting">Detecting...</string>
+    <string name="TitleForMirrorMode">Mirror phone on display</string>
+    <string name="descrip_mirrormode">Access and display all of the phone applications on a larger display</string>
+    <string name="TitleForOther">Other</string>
+    <string name="descrip_other">Displays non-smart mode dock apps</string>
+    <string name="TitleForGallery">Gallery</string>
+    <string name="descrip_gallery">View photos and videos</string>
+    <string name="TitleForMusicPlayer">Music</string>
+    <string name="descrip_musicplayer">Access, listen, and share music</string>
+</resources>

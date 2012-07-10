@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RelativeLayout android:id="@blur.res:id/widget_root" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:id="@id/sleeve_layout" android:layout_width="wrap_content" android:layout_height="fill_parent">
+        <include layout="@layout/image_horiz" />
+    </RelativeLayout>
+    <FrameLayout android:id="@blur.res:id/content_layout" android:background="@blur.res:drawable/base_horiz" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_toRightOf="@id/sleeve_layout" />
+    <ImageView android:id="@id/widget_karat_icon" android:layout_toRightOf="@id/sleeve_layout" style="@style/Karat.H" />
+</RelativeLayout>

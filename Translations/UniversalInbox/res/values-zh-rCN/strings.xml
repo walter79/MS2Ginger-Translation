@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+    <string name="app_name">通用收件箱</string>
+    <string name="edit_activity_name">编辑通用收件箱</string>
+    <string name="no_messages">无信息</string>
+    <string name="loading_list">正在加载...</string>
+    <string name="multi_media_message">彩信</string>
+    <string name="menu_edit_accounts">编辑通用收件箱</string>
+    <string name="menu_settings">设置</string>
+    <string name="delete_threads_confirm_title">删除会话</string>
+    <string name="delete_threads_confirm_message">所选内容包含会话。是否删除这些会话？</string>
+    <string name="move_error_title">无法移动条目</string>
+    <string name="move_error_message">仅同一帐户的电子邮件条目可以移至一个文件夹。</string>
+    <string name="cmae_unknown">未知</string>
+</resources>

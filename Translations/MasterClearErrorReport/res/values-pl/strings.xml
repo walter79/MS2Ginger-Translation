@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+    <string name="app_name">Globalne odłączenie</string>
+    <string name="master_clear_error_continue_button_text">Dalej</string>
+    <string name="master_clear_error_sd_erase_failed_title">Błąd wymazywania karty SD</string>
+    <string name="master_clear_error_phone_erase_failed_title">Błąd funkcji Master Clear</string>
+    <string name="master_clear_error_generic">Nieznany problem</string>
+    <string name="master_clear_error_sd_nodevice">Nie znaleziono karty SD</string>
+    <string name="master_clear_error_sd_readonly">Karta jest zabezpieczona przed zapisem</string>
+    <string name="master_clear_error_sd_write">Operacja zapisu nie powiodła się</string>
+    <string name="master_clear_error_sd_read">Operacja odczytu nie powiodła się</string>
+    <string name="master_clear_error_sd_large">Zbyt duża karta</string>
+    <string name="master_clear_error_phone_generic">Operacja nie powiodła się</string>
+    <string name="master_clear_error_sd_activity_name">Raport wymazywania karty SD</string>
+    <string name="master_clear_error_phone_activity_name">Raport wymazywania przez funkcję Master Clear</string>
+</resources>

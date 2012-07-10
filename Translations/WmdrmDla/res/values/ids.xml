@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+    <item type="id" name="tv_title">false</item>
+    <item type="id" name="tv_message">false</item>
+    <item type="id" name="buttonPanel">false</item>
+    <item type="id" name="btn_ok">false</item>
+    <item type="id" name="btn_yes">false</item>
+    <item type="id" name="btn_no">false</item>
+    <item type="id" name="drmRcvRoListText">false</item>
+    <item type="id" name="drmplayList">false</item>
+    <item type="id" name="DRM_DOWNLOAD_CONTENT">false</item>
+    <item type="id" name="rcvROSucBtn">false</item>
+    <item type="id" name="ringToneExpireBtn">false</item>
+    <item type="id" name="playListWithDRMBtn">false</item>
+    <item type="id" name="playSingleExpiredDRMBtn">false</item>
+    <item type="id" name="ProgressBar01">false</item>
+    <item type="id" name="TextView01">false</item>
+</resources>

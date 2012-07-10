@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+    <string name="app_name">帐户存储</string>
+    <string name="blur_accounts">摩托罗拉服务帐户</string>
+    <string name="as_pretty_name">公司同步</string>
+    <string name="blur_pretty_name">摩托罗拉服务</string>
+    <string name="yahoo_pretty_name">Yahoo!邮箱</string>
+    <string name="email_login_label">电子邮件|myemail@domain.com</string>
+    <string name="as_login_label">域\\用户名|域\\用户名</string>
+    <string name="blur_login_label">电子邮件|myemail@domain.com</string>
+    <string name="yahoo_login_label">电子邮件|myemail@yahoo.com</string>
+</resources>

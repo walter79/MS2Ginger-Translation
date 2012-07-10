@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<com.motorola.inputmethod.gpinyin.CandidatesContainer android:orientation="horizontal" android:id="@id/candidates_container" android:background="@drawable/cands_container_bg" android:layout_width="0.0px" android:layout_height="0.0px"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageButton android:id="@id/arrow_left_btn" android:background="@drawable/arrow_bg" android:clickable="true" android:layout_width="@dimen/candidate_arrow_width" android:layout_height="fill_parent" android:src="@drawable/arrow_left_selector" android:layout_alignParentLeft="true" />
+    <ImageButton android:id="@id/arrow_right_btn" android:background="@drawable/arrow_bg" android:clickable="true" android:layout_width="@dimen/candidate_arrow_width" android:layout_height="fill_parent" android:src="@drawable/arrow_right_selector" android:layout_alignParentRight="true" />
+    <ViewFlipper android:id="@id/candidate_flipper" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_toLeftOf="@id/arrow_right_btn" android:layout_toRightOf="@id/arrow_left_btn">
+        <view android:id="@id/candidate_view1" android:layout_width="fill_parent" android:layout_height="fill_parent" class="com.motorola.inputmethod.gpinyin.CandidateView" />
+        <view android:padding="2.0px" android:layout_width="fill_parent" android:layout_height="fill_parent" class="com.motorola.inputmethod.gpinyin.CandidateView" />
+    </ViewFlipper>
+</com.motorola.inputmethod.gpinyin.CandidatesContainer>

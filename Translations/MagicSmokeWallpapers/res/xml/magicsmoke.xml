@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wallpaper android:description="@string/magicsmoke_desc" android:settingsActivity="com.android.magicsmoke.MagicSmokeSelector" android:thumbnail="@drawable/magicsmoke_thumb" android:author="@string/author"
+  xmlns:android="http://schemas.android.com/apk/res/android" />

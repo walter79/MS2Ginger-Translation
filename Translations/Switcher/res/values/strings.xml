@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+    <string name="pref_traditional_chinese_habit_def">HK</string>
+    <string name="pref_userdir">pref_userdir</string>
+    <string name="pref_fuzzy_all">pref_fuzzy_all</string>
+    <string name="pref_fuzzy">ime_config_fuzzy</string>
+    <string name="pref_fuzzy_Zh">pref_fuzzy_Zh</string>
+    <string name="pref_fuzzy_Ch">pref_fuzzy_Ch</string>
+    <string name="pref_fuzzy_Sh">pref_fuzzy_Sh</string>
+    <string name="pref_fuzzy_L">pref_fuzzy_L</string>
+    <string name="pref_fuzzy_G">pref_fuzzy_G</string>
+    <string name="pref_fuzzy_R">pref_fuzzy_R</string>
+    <string name="pref_fuzzy_H">pref_fuzzy_H</string>
+    <string name="pref_fuzzy_ang">pref_fuzzy_ang</string>
+    <string name="pref_fuzzy_eng">pref_fuzzy_eng</string>
+    <string name="pref_fuzzy_ing">pref_fuzzy_ing</string>
+    <string name="pref_fuzzy_iang">pref_fuzzy_iang</string>
+    <string name="pref_fuzzy_uang">pref_fuzzy_uang</string>
+    <string name="pref_hw_speed">ime_config_hwspeed</string>
+    <string name="pref_hw_color">ime_config_hwcolor</string>
+    <string name="pref_hw_brush">ime_config_hwbrush</string>
+    <string name="pref_hw_watermark">ime_config_hwwatermark</string>
+    <string name="pref_enable_fshw">pref_enable_fshw</string>
+    <string name="pref_enable_ibhw">pref_enable_ibhw</string>
+    <string name="pref_enable_qwerty">pref_enable_qwerty</string>
+    <string name="pref_enable_bell">pref_enable_bell</string>
+    <string name="pref_enable_motosoftkeyboard">pref_enable_motosoftkeyboard</string>
+    <string name="pref_selected_im">pref_selected_im</string>
+    <string name="pref_traditional_chinese_habit">pref_traditional_chinese_habit</string>
+    <string name="pref_enable_vibrate">ime_config_vibrate</string>
+    <string name="pref_enable_sound">ime_config_sound</string>
+    <string name="pref_enable_auto_cap">ime_config_autocap</string>
+    <string name="pref_enable_quick_fixes">ime_config_quickfixes</string>
+    <string name="pref_enable_show_suggestions">ime_config_showsuggestions</string>
+    <string name="pref_enable_auto_complete">ime_config_autocomplete</string>
+    <string name="ime_layout_default_bell">ime_layout_default_bell</string>
+    <string name="ime_layout_default_qwerty">ime_layout_default_qwerty</string>
+    <string name="ime_layout_default">pinyin</string>
+    <string name="app_name">IMESetup</string>
+    <string name="clear">Clear</string>
+    <string name="clear_succeed">User Dictionary \nis cleared successfully!</string>
+    <string name="clear_failed">User Dictionary \ncannot be cleared!</string>
+    <string name="handwriting_setup">Handwriting setup</string>
+    <string name="user_dirctory">User directory</string>
+    <string name="fuzzy_pinyin">Fuzzy pinYin</string>
+    <string name="input_method">Input Method</string>
+    <string name="hw_setup">Handwriting setup</string>
+    <string name="hw_speed">Handwriting speed</string>
+    <string name="kp_setup">Keypad input method setup</string>
+    <string name="hw_color">Handwriting color</string>
+    <string name="hw_brush">Brush</string>
+    <string name="spinner_second_lang_prompt">Please select Second Language</string>
+    <string name="spinner_first_lang_prompt">Please select First Language</string>
+    <string name="spinner_user_dirctory_prompt">Please select user dirctory</string>
+    <string name="alert_dialog_save">Save</string>
+    <string name="alert_dialog_cancel">Cancel</string>
+    <string name="alert_dialog_ok">OK</string>
+    <string name="alert_dialog_fuzzy_pinyin">Fuzzy pinyin</string>
+    <string name="alert_dialog_input_method">Input method</string>
+    <string name="water_mark">Watermarks</string>
+    <string name="mixed_mode">Mixed Mode</string>
+    <string name="hw_speed_slow">slow</string>
+    <string name="hw_speed_fast">fast</string>
+    <string name="gesture_shortcuts">Gesture shortcuts</string>
+    <string name="clearUAD_dialog_warning">The user dictionary will be cleared.</string>
+    <string name="clearUAD_dialog_title">Clear</string>
+    <string name="vibrate">Vibrate on keypress</string>
+    <string name="sound">Sound on keypress</string>
+    <string name="auto_cap">Auto-capitalization</string>
+    <string name="quick_fixes">Quick fixes</string>
+    <string name="show_suggestions">Show suggestions</string>
+    <string name="auto_complete">Auto-complete</string>
+    <string name="gesture_dlg_title">Gesture instruction</string>
+    <string name="confirm">OK</string>
+    <string name="backspace">Delete</string>
+    <string name="space">Space</string>
+    <string name="enter">Enter</string>
+    <string name="do_not_show_again">Do not show this dialog again</string>
+    <string name="pinyin">拼音</string>
+    <string name="english">English</string>
+    <string name="lian_xiang">联想输入</string>
+    <string name="hw_setting_label">Handwriting settings</string>
+    <string name="fuzzy_setting_label">Fuzzy pinyin settings</string>
+    <string name="enable_fuzzy">Fuzzy Pinyin</string>
+    <string name="kp_setting_label">Keyboard settings</string>
+    <string name="chinese_im_title">Chinese input method</string>
+    <string name="traditional_chinese_habit_title">Traditional Chinese region</string>
+    <string name="fuzzy_title">Fuzzy pinyin</string>
+    <string name="fuzzy_screen">fuzzy_screen</string>
+    <string name="enable_sound_title">Sound on keypress</string>
+    <string name="enable_vibrate_title">Vibrate on keypress</string>
+    <string name="enable_auto_cap_title">Auto-cap</string>
+    <string name="enable_auto_cap_summary">Capitalize first letter in sentences.</string>
+    <string name="english_setting_label">Word suggestion for English qwerty</string>
+    <string name="enable_quick_fixes_title">Quick fixes</string>
+    <string name="enable_quick_fixes_summary">Correct commonly typed mistakes.</string>
+    <string name="enable_show_suggestions_title">Show suggestions</string>
+    <string name="enable_show_suggestions_summary">Display suggested words while typing.</string>
+    <string name="enable_auto_complete_title">Auto-replace</string>
+    <string name="enable_auto_complete_summary">Correct mistyped words</string>
+    <string name="imname_list_title">Select Chinese input method</string>
+    <string name="im_setting_label">Moto Chinese/English Input</string>
+    <string name="im_setting_title">Moto Chinese/English Input</string>
+    <string name="enable_fshw">Full screen handwriting</string>
+    <string name="enable_ibhw">Standard handwriting</string>
+    <string name="hw_key">handwriting_settings</string>
+    <string name="hw_title">Handwriting</string>
+    <string name="hw_summary">Handwriting settings</string>
+    <string name="enable_qwerty">Qwerty keyboard</string>
+    <string name="enable_bell">Bell keyboard</string>
+    <string name="enable_motosoftkeyboard">Moto Soft Keyboard</string>
+    <string name="kp_key">keyboard_settings</string>
+    <string name="kp_title">Keyboard</string>
+    <string name="kp_summary">Keyboard settings</string>
+    <string name="dictionary_title">Clear words learned</string>
+    <string name="dictionary_summary">Clear words learned by user\'s input habit</string>
+    <string name="dic_reset_label">Clear words learned</string>
+    <string name="dictionary_detail">Clear words learned by user\'s input habit</string>
+    <string name="dictionary_reset">Clear words learned</string>
+    <string name="default_ime_state">P01</string>
+    <string name="default_candybar_ime_state">P05</string>
+    <string name="default_ime_state_email">P07</string>
+    <string name="hw_speed_min">0.2s</string>
+    <string name="hw_speed_max">0.8s</string>
+    <string name="enable_zh_title">z=zh</string>
+    <string name="enable_ch_title">c=ch</string>
+    <string name="enable_sh_title">s=sh</string>
+    <string name="enable_l_title">n=l</string>
+    <string name="enable_g_title">k=g</string>
+    <string name="enable_r_title">r=l</string>
+    <string name="enable_h_title">f=h</string>
+    <string name="enable_ang_title">an=ang</string>
+    <string name="enable_eng_title">en=eng</string>
+    <string name="enable_ing_title">in=ing</string>
+    <string name="enable_iang_title">ian=iang</string>
+    <string name="enable_uang_title">uan=uang</string>
+    <string name="moto_manufacturer">motorola</string>
+    <string name="emulator_brand">generic</string>
+    <string name="emulator_build_type">eng</string>
+    <string name="ime_name">Moto Chinese/English Input</string>
+    <string name="version_code">1200</string>
+    <string name="version_name">1.2.0</string>
+    <string name="chinese_mode_pinyin">Pinyin</string>
+    <string name="chinese_mode_zhuyin">BoPoMoFo</string>
+    <string name="chinese_mode_stroke">Stroke (Bell)</string>
+    <string name="chinese_mode_cantonesejie">Cangjie (Qwerty)</string>
+    <string name="select_chinese_input_method">Select Chinese input method</string>
+    <string name="moto_input_method">Moto Chinese/English Input</string>
+    <string name="full_screen_handwriting">Full screen handwriting</string>
+    <string name="standard_handwriting">Standard handwriting</string>
+    <string name="qwerty">Qwerty</string>
+    <string name="bellpad">Bell</string>
+    <string name="physical_qwerty">physical qwerty</string>
+    <string name="unsupported_action">Unsupported action</string>
+    <string name="unsupported_action_content">&lt;HTML>&lt;BODY>&lt;H5 align=center >			Unsupported action			&lt;/H5>&lt;CENTER>No stroke input method for device keyboard&lt;/CENTER>&lt;/BODY>&lt;/HTML></string>
+    <string name="switching_to_input">Switching to:</string>
+    <string name="hint_header">Help</string>
+    <string name="hint_chkbox_msg">Do not show it again</string>
+    <string name="hint_ok">OK</string>
+    <string name="hint_msg">Long press A|中 to switch Moto Chinese input method.</string>
+    <string name="pref_auto_punctuate">auto_punctuate</string>
+    <string name="auto_punctuate">Auto-punctuate</string>
+    <string name="auto_punctuate_summary">Press Space key twice to insert \".\"</string>
+    <string name="on_screen_keyboard_settings">On-screen keyboard</string>
+    <string name="on_screen_english_keyboard_settings">On-screen English keyboard</string>
+</resources>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+    <string name="hello">Witaj świecie!</string>
+    <string name="app_name">Usługa menedżera danych</string>
+    <string name="perm_label">Włącz ustawianie planu danych</string>
+    <string name="perm_desc">Zezwala aplikacji na ustawienie jej planu danych w usłudze DataManagerService</string>
+    <string name="backgrounddata_warning_message">Aby zabezpieczyć Twój plan danych, administrator wyłączył dane w tle podczas korzystania z roamingu.\n\nW razie potrzeby możesz ręcznie zsynchronizować dane w roamingu.</string>
+    <string name="backgrounddata_notification_title">Dane w tle są wyłączone</string>
+    <string name="backgrounddata_dialog_title">Powiadomienie o danych w tle</string>
+    <string name="backgrounddata_dialog_message">Administrator wyłączył dane w tle podczas korzystania z roamingu.\nW razie potrzeby możesz ręcznie zsynchronizować dane w roamingu.</string>
+    <string name="ok">Ok</string>
+</resources>

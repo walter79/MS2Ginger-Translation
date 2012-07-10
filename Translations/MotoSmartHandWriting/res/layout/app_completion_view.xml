@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<com.motorola.inputmethod.motosmarthandwriting.TwoLinePredictionViewContainer android:orientation="horizontal" android:id="@id/app_completion_container" android:background="@drawable/app_completion_container_bg" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/arrow_page_backward" android:clickable="true" android:layout_width="@dimen/ms_prediction_arrow_width" android:layout_height="@dimen/app_completion_height" android:src="@drawable/moto_arrow_left_2" android:scaleType="center" />
+    <ViewFlipper android:id="@id/prediction_flipper" android:layout_width="wrap_content" android:layout_height="wrap_content">
+        <view android:layout_width="wrap_content" android:layout_height="wrap_content" class="com.motorola.inputmethod.motosmarthandwriting.AppCompletionView" />
+        <view android:layout_width="wrap_content" android:layout_height="wrap_content" class="com.motorola.inputmethod.motosmarthandwriting.AppCompletionView" />
+    </ViewFlipper>
+    <ImageView android:id="@id/arrow_page_forward" android:clickable="true" android:layout_width="@dimen/ms_prediction_arrow_width" android:layout_height="@dimen/app_completion_height" android:src="@drawable/moto_arrow_right_2" android:scaleType="center" />
+</com.motorola.inputmethod.motosmarthandwriting.TwoLinePredictionViewContainer>

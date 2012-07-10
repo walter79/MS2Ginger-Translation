@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<appwidget-provider android:minWidth="72.0dip" android:minHeight="72.0dip" android:initialLayout="@layout/layout_servicetoggle_bt_intermediate" blur:description="@string/widget_description_bt"
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:blur="http://schemas.android.com/apk/res/blur.res" />

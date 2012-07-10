@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+    <string name="app_name">Notatka</string>
+    <string name="widget_body_hint">Dotknij, aby edytować...</string>
+    <string name="sticky_note">Notatka</string>
+    <string name="widget_description">Zapisz krótką notatkę na ekranie głównym</string>
+    <string name="title">Tytuł</string>
+    <string name="note">Notatka</string>
+    <string name="menu_discard">Odrzuć zmiany</string>
+    <string name="menu_save">Zapisz</string>
+    <string name="menu_edit">Edytuj</string>
+    <string name="menu_share">Prześlij</string>
+    <string name="select">Wybierz</string>
+    <string name="widget_load_error">Problem z notatką. Prosimy ją usunąć.</string>
+    <string name="widget_body_elipse">...</string>
+    <string name="share_note">Udostępnianie notatek</string>
+    <string name="cannot_share">Wystąpił błąd podczas udostępniania notatki!</string>
+</resources>

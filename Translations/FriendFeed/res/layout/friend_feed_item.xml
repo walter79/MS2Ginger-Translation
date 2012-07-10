@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:ff="http://schemas.android.com/apk/res/com.motorola.blur.friendfeed">
+    <com.motorola.android.widget.ActionBar android:id="@id/action_bar" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_alignParentBottom="true" />
+    <ViewStub android:id="@id/friend_feed_item_content" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_above="@id/action_bar" />
+</RelativeLayout>

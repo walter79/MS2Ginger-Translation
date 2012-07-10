@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+    <string-array name="fuzzy_pinyin">
+        <item>Z = Zh</item>
+        <item>S = Sh</item>
+        <item>C = Ch</item>
+        <item>K = G</item>
+        <item>F = H</item>
+        <item>L = N</item>
+        <item>en = eng</item>
+        <item>in = ing</item>
+        <item>ian = iang</item>
+        <item>uan = uang</item>
+        <item>an = ang</item>
+    </string-array>
+    <string-array name="user_dir">
+        <item>On</item>
+        <item>Off</item>
+    </string-array>
+</resources>

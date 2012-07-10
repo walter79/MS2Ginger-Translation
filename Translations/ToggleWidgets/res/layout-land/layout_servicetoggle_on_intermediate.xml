@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<FrameLayout android:id="@id/widget" android:background="@drawable/base_1x1" android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <FrameLayout android:layout_gravity="left|center" android:id="@id/FrameImage" android:paddingRight="@dimen/sleeveLayoutRightPaddingOff" android:layout_width="wrap_content" android:layout_height="wrap_content">
+        <ImageView android:id="@id/imagebg" android:paddingLeft="@dimen/sleeveTopPadding" android:paddingTop="@dimen/sleeveImageTopPadding" android:paddingBottom="@dimen/sleeveImageBottomPadding" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/sleeve_airplane_on" />
+        <ImageView android:id="@id/togglerImage" android:paddingLeft="@dimen/ToggleImageLeftPadding" android:paddingTop="@dimen/ToggleImageTopPadding" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ic_toggle_airplane" />
+    </FrameLayout>
+    <ProgressBar android:layout_gravity="top" android:layout_width="@dimen/progressBarSize" android:layout_height="@dimen/progressBarSize" android:layout_marginLeft="@dimen/progressBarPaddingOnLeft" android:layout_marginTop="@dimen/progressBarPaddingOnTop" android:indeterminate="true" />
+</FrameLayout>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+    <string name="app_name">Χώρος αποθήκευσης λογαριασμών</string>
+    <string name="blur_accounts">Λογαριασμοί υπηρεσίας Motorola</string>
+    <string name="as_pretty_name">Εταιρικός συγχρονισμός</string>
+    <string name="blur_pretty_name">Υπηρεσία Motorola</string>
+    <string name="yahoo_pretty_name">Yahoo! Mail</string>
+    <string name="email_login_label">Ηλεκτρονικό ταχυδρομείο|myemail@domain.com</string>
+    <string name="as_login_label">Τομέας\\Όνομα χρήστη|Τομέας\\Όνομα χρήστη</string>
+    <string name="blur_login_label">Ηλεκτρονικό ταχυδρομείο|myemail@domain.com</string>
+    <string name="yahoo_login_label">Ηλεκτρονικό ταχυδρομείο|myemail@yahoo.com</string>
+</resources>

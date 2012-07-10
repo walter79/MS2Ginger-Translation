@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<merge
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <FrameLayout android:id="@id/frame" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerHorizontal="true">
+        <ImageView android:layout_gravity="center" android:id="@id/album_bg" android:background="@android:color/black" android:visibility="gone" android:layout_width="@dimen/card_photo_thumb_max_width" android:layout_height="@dimen/card_photo_thumb_max_height" />
+        <RelativeLayout android:layout_width="wrap_content" android:layout_height="wrap_content">
+            <ImageView android:id="@id/friend_feed_item_image" android:layout_width="wrap_content" android:layout_height="wrap_content" android:adjustViewBounds="true" android:maxWidth="@blur.res:dimen/card_width" android:maxHeight="@dimen/card_photo_full_max_height" android:cropToPadding="true" />
+            <ImageView android:id="@id/shadow" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:src="@blur.res:drawable/card_cap_shadow" android:scaleType="fitXY" android:layout_below="@id/friend_feed_item_image" />
+        </RelativeLayout>
+        <ImageView android:id="@id/border" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+        <ImageButton android:layout_gravity="center" android:id="@id/play" android:background="@blur.res:drawable/ic_slideshow" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+    </FrameLayout>
+    <com.motorola.blur.home.widget.CardTextView android:textColor="@blur.res:color/card_body_text_loading" android:id="@id/friend_feed_item_placeholder" android:paddingLeft="@dimen/card_content_pad_h" android:paddingTop="@dimen/card_content_pad_v" android:paddingBottom="@dimen/card_content_pad_v" android:text="@string/loading_picture" style="@style/CardTxt" />
+    <com.motorola.blur.home.widget.CardTextView android:id="@id/friend_feed_item_caption" android:visibility="gone" android:layout_below="@id/frame" style="@style/CardTxt.PhotoCaption" />
+    <ImageView android:id="@id/divider" android:visibility="gone" android:layout_marginTop="0.0dip" android:layout_below="@id/friend_feed_item_caption" style="@style/CardItemDivider" />
+</merge>

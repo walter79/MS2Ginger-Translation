@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+    <string name="app_name">Pico TTS</string>
+    <string name="eng_usa_sample">这是一个采用Pico制作的英语语音合成示例.</string>
+    <string name="eng_gbr_sample">这是一个采用Pico制作的英语语音合成示例.</string>
+    <string name="fra_fra_sample">这是一个采用 Pico 制作的法语语音合成示例。</string>
+    <string name="deu_deu_sample">这是一个采用 Pico 制作的德语语音合成示例。</string>
+    <string name="ita_ita_sample">这是一个采用 Pico 制作的意大利语语音合成示例。</string>
+    <string name="spa_esp_sample">这是一个采用 Pico 制作的西班牙语语音合成示例。</string>
+    <string name="installed">已安装</string>
+    <string name="not_installed">未安装</string>
+</resources>

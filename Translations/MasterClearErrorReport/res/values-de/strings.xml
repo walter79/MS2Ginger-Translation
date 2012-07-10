@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+    <string name="app_name">Reporter für Master-Löschfehler</string>
+    <string name="master_clear_error_continue_button_text">Fortfahren</string>
+    <string name="master_clear_error_sd_erase_failed_title">Fehler beim Löschen der SD-Karte</string>
+    <string name="master_clear_error_phone_erase_failed_title">Fehler beim Löschen des Masters</string>
+    <string name="master_clear_error_generic">Unbekanntes Problem</string>
+    <string name="master_clear_error_sd_nodevice">SD-Karte wurde nicht gefunden</string>
+    <string name="master_clear_error_sd_readonly">Karte ist schreibgeschützt</string>
+    <string name="master_clear_error_sd_write">Schreibvorgang fehlgeschlagen</string>
+    <string name="master_clear_error_sd_read">Lesevorgang fehlgeschlagen</string>
+    <string name="master_clear_error_sd_large">Karte zu groß</string>
+    <string name="master_clear_error_phone_generic">Vorgang fehlgeschlagen</string>
+    <string name="master_clear_error_sd_activity_name">Bericht zum Löschen der SD-Karte</string>
+    <string name="master_clear_error_phone_activity_name">Bericht zum Löschen des Masters</string>
+</resources>

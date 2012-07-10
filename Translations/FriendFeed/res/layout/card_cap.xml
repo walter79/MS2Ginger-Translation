@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RelativeLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:blur="http://schemas.android.com/apk/res/blur.res">
+    <com.motorola.blur.friendfeed.SocialBadge android:gravity="center_vertical" android:id="@id/social_feed_badge" android:layout_width="fill_parent" android:layout_height="@blur.res:dimen/card_cap_photo_size" android:layout_marginTop="@blur.res:dimen/card_cap_top_icon_padding_top" android:layout_alignParentLeft="true" android:layout_alignParentTop="true" blur:badgeLayoutId="@blur.res:layout/card_cap_badge" />
+</RelativeLayout>

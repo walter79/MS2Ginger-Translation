@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+    <string name="skip_blur_title_2x1">Uw account instellen</string>
+    <string name="skip_blur_title_3x1">Uw MOTOBLUR-account instellen</string>
+    <string name="skip_blur_title_3x2">Uw MOTOBLUR-account instellen</string>
+    <string name="skip_blur_title">Uw MOTOBLUR-account instellen</string>
+    <string name="skip_blur_subtitle">Hier aanraken om de instelling van uw apparaat te voltooien</string>
+</resources>

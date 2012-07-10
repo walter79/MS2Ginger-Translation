@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+    <string name="app_name">Desconexión total</string>
+    <string name="global_unplug_t">Desconectado</string>
+    <string name="global_unplug">Desenchufa el cargador para conservar la energía.</string>
+</resources>

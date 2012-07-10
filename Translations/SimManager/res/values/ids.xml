@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+    <item type="id" name="list_item_checkbox">false</item>
+    <item type="id" name="contact_data_relative_layout_item_list">false</item>
+    <item type="id" name="list_item_contact_image">false</item>
+    <item type="id" name="list_item_contact_name">false</item>
+    <item type="id" name="list_item_contact_data">false</item>
+    <item type="id" name="txtSearchField">false</item>
+    <item type="id" name="contacts_list_spinner">false</item>
+    <item type="id" name="abwidget">false</item>
+    <item type="id" name="btnExitSearch">false</item>
+    <item type="id" name="groups_spinner_text">false</item>
+    <item type="id" name="groups_spinner_selector_text">false</item>
+    <item type="id" name="main_menu_option">false</item>
+    <item type="id" name="main_menu_option_text">false</item>
+    <item type="id" name="progress_bar_status_msg">false</item>
+    <item type="id" name="progress_bar">false</item>
+    <item type="id" name="progress_bar_button_ok">false</item>
+    <item type="id" name="progress_bar_button_cancel">false</item>
+</resources>

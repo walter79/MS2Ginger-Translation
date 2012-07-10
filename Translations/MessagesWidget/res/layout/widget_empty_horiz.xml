@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RelativeLayout android:id="@id/widget_root" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:id="@id/sleeve_layout" android:background="@drawable/red_sleeve_horiz" android:layout_width="@blur.res:dimen/widget_sleeve_width" android:layout_height="fill_parent">
+        <ImageView android:id="@id/widget_sleeve_icon" android:layout_centerInParent="true" style="@style/Widget.Sleeve.Icon.Small" />
+        <TextView android:id="@id/widget_name" android:visibility="gone" android:text="@string/loading_widget_name" style="@blur.res:style/Widget.Text.Name" />
+    </RelativeLayout>
+    <RelativeLayout android:id="@blur.res:id/content_layout" android:background="@blur.res:drawable/base_horiz" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_toRightOf="@id/sleeve_layout">
+        <include layout="@layout/widget_empty" />
+    </RelativeLayout>
+</RelativeLayout>

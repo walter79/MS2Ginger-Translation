@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+    <string-array name="security_questions">
+        <item>最喜爱的食物是什么？</item>
+        <item>出生城市是哪里？</item>
+        <item>最好的儿时伙伴是谁？</item>
+        <item>高中就读于哪所学校？</item>
+    </string-array>
+    <string-array name="passwordStrength">
+        <item>弱</item>
+        <item>尚可</item>
+        <item>良好</item>
+        <item>强</item>
+    </string-array>
+</resources>

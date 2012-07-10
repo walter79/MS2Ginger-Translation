@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+    <item type="drawable" name="class_zero_background">#7f040000</item>
+    <item type="drawable" name="pref_background">#ffc3d9ff</item>
+    <item type="drawable" name="message_box_background">#88000000</item>
+    <item type="drawable" name="toolbar_label_text_color">#ffffffff</item>
+    <item type="drawable" name="toolbar_label_shadow_color">#cc000000</item>
+    <item type="drawable" name="toolbar_background">#55000000</item>
+    <item type="drawable" name="sub_toolbar_background">#33000000</item>
+    <item type="drawable" name="widget_background">#00000000</item>
+    <item type="drawable" name="red_background">#88ff0000</item>
+    <item type="drawable" name="green_background">#8800ff00</item>
+    <item type="drawable" name="white_background">#ffffffff</item>
+    <item type="drawable" name="text_color">#ffffffff</item>
+    <item type="drawable" name="text_color_red">#ffff0000</item>
+    <item type="drawable" name="text_color_black">#ff000000</item>
+    <item type="drawable" name="text_color_gray">#ff555555</item>
+    <item type="drawable" name="text_color_offwhite">#55ffffff</item>
+    <item type="drawable" name="tooltips_text_color">#80ffffff</item>
+    <item type="drawable" name="picker_empty_list_text_color">#ff555555</item>
+</resources>

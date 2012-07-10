@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+    <color name="city_default">#ffffffff</color>
+    <color name="time_default">#ffffffff</color>
+    <color name="date_default">#ffaaaaaa</color>
+    <color name="shadow_color">#cc000000</color>
+    <color name="ampm_default">#ffffffff</color>
+    <color name="solid_red">#ffff0000</color>
+    <color name="solid_black">#ff000000</color>
+</resources>

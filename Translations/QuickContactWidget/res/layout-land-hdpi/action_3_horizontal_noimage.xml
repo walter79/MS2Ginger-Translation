@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LinearLayout android:id="@id/actionContainer" android:visibility="gone" style="@style/actionContainerStyleLand"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout style="@style/actionLinearLayout">
+        <LinearLayout android:id="@id/action1Container" android:layout_height="wrap_content" style="@style/actionStyle">
+            <ImageButton android:id="@id/actionImage1" android:background="@drawable/transparent_background" android:visibility="gone" android:src="@drawable/menu_add" style="@style/actionImageStyle" />
+            <TextView android:id="@id/actionTextLabel1" android:visibility="visible" android:text="@string/actionTextLabel" style="@style/actionTextStyleNoimage" />
+            <TextView android:id="@id/actionTextLabel11" android:visibility="visible" android:text="@string/actionTextLabel" style="@style/actionTextStyleNoimage" />
+            <TextView android:id="@id/actionText1" android:visibility="gone" android:text="@string/add" style="@style/actionTextStyle" />
+        </LinearLayout>
+        <ImageView android:layout_width="wrap_content" android:layout_height="fill_parent" android:src="@drawable/widget_divider_vertical" android:scaleType="fitXY" />
+        <LinearLayout android:id="@id/action2Container" android:layout_height="wrap_content" style="@style/actionStyle">
+            <ImageButton android:id="@id/actionImage2" android:background="@drawable/transparent_background" android:visibility="gone" android:src="@drawable/menu_add" style="@style/actionImageStyle" />
+            <TextView android:id="@id/actionTextLabel2" android:visibility="visible" android:text="@string/actionTextLabel" style="@style/actionTextStyleNoimage" />
+            <TextView android:id="@id/actionTextLabel22" android:visibility="visible" android:text="@string/actionTextLabel" style="@style/actionTextStyleNoimage" />
+            <TextView android:id="@id/actionText2" android:visibility="gone" android:text="@string/add" style="@style/actionTextStyle" />
+        </LinearLayout>
+        <ImageView android:layout_width="wrap_content" android:layout_height="fill_parent" android:src="@drawable/widget_divider_vertical" android:scaleType="fitXY" />
+        <LinearLayout android:id="@id/action3Container" android:layout_height="wrap_content" style="@style/actionStyle">
+            <ImageButton android:id="@id/actionImage3" android:background="@drawable/transparent_background" android:visibility="gone" android:src="@drawable/menu_add" style="@style/actionImageStyle" />
+            <TextView android:id="@id/actionTextLabel3" android:visibility="visible" android:text="@string/actionTextLabel" style="@style/actionTextStyleNoimage" />
+            <TextView android:id="@id/actionTextLabel33" android:visibility="visible" android:text="@string/actionTextLabel" style="@style/actionTextStyleNoimage" />
+            <TextView android:id="@id/actionText3" android:visibility="gone" android:text="@string/add" style="@style/actionTextStyle" />
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

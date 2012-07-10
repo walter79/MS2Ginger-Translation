@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<menu
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:icon="@drawable/ic_menu_actual_size" android:id="@id/actual_size" android:title="@string/ActualSize_menu" />
+    <item android:icon="@drawable/ic_menu_fit_to_screen" android:id="@id/fit_to_screen" android:title="@string/FullScreen_menu" />
+    <item android:icon="@android:drawable/ic_menu_share" android:id="@id/share" android:title="@string/Share_menu" />
+    <item android:icon="@android:drawable/ic_menu_edit" android:id="@id/edit" android:title="@string/Edit_menu">
+        <menu>
+            <item android:icon="@drawable/ic_menu_tag" android:id="@id/tags" android:title="@string/Tags_menu" />
+            <item android:icon="@android:drawable/ic_menu_edit" android:id="@id/advanced_edit" android:title="@string/AdvancedEdit_menu" />
+        </menu>
+    </item>
+    <item android:icon="@drawable/ic_menu_info_details" android:id="@id/info" android:title="@string/info_menu" />
+    <item android:icon="@android:drawable/ic_menu_preferences" android:id="@id/settings" android:title="@string/Settings_menu" />
+</menu>

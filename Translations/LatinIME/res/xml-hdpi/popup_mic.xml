@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Keyboard android:keyWidth="9.599996%p" android:keyHeight="10.000002%p" android:horizontalGap="0.39999485%p" android:verticalGap="0.49999952%p"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <Row android:rowEdgeFlags="top|bottom">
+        <Key android:horizontalGap="0.19999743%p" android:codes="@integer/key_settings" android:keyEdgeFlags="left" android:keyIcon="@drawable/sym_keyboard_settings" />
+        <Key android:codes="@integer/key_voice" android:keyEdgeFlags="right" android:keyIcon="@drawable/btn_keyboard_key_voice" />
+    </Row>
+</Keyboard>

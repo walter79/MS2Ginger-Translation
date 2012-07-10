@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Keyboard android:keyWidth="10.000002%p" android:horizontalGap="0.0px" android:verticalGap="0.0px"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <Row android:keyHeight="@dimen/key_height">
+        <Key android:keyEdgeFlags="left" android:keyOutputText="；" android:keyLabel=";" />
+        <Key android:keyLabel="~" />
+        <Key android:keyOutputText="+" android:keyLabel="+" />
+        <Key android:keyLabel="×" />
+        <Key android:keyLabel="÷" />
+        <Key android:codes="38" android:keyLabel="&amp;amp;" />
+        <Key android:keyLabel="&amp;lt;" />
+        <Key android:keyLabel=">" />
+        <Key android:keyLabel="{" />
+        <Key android:keyEdgeFlags="right" android:keyLabel="}" />
+    </Row>
+    <Row android:keyHeight="@dimen/key_height">
+        <Key android:keyEdgeFlags="left" android:keyOutputText="、" android:keyLabel="、" />
+        <Key android:keyLabel="…" />
+        <Key android:keyLabel="£" />
+        <Key android:keyLabel="€" />
+        <Key android:keyLabel="￥" />
+        <Key android:keyLabel="℉" />
+        <Key android:keyLabel="℃" />
+        <Key android:keyLabel="=" />
+        <Key android:keyLabel="【" />
+        <Key android:keyEdgeFlags="right" android:keyLabel="】" />
+    </Row>
+    <Row android:keyHeight="@dimen/key_height_2">
+        <Key android:keyWidth="14.999998%p" android:codes="-1002" android:keyEdgeFlags="left" android:iconPreview="@drawable/moto_page_backward_blk_kbd" android:keyIcon="@drawable/key_page_backward" />
+        <Key android:keyLabel="™" />
+        <Key android:keyLabel="‘" />
+        <Key android:keyLabel="’" />
+        <Key android:keyLabel="|" />
+        <Key android:keyLabel="\\" />
+        <Key android:keyLabel="^" />
+        <Key android:keyLabel="√" />
+        <Key android:keyWidth="14.999998%p" android:codes="-5" android:keyEdgeFlags="right" android:isRepeatable="true" android:iconPreview="@drawable/moto_delete_icon" android:keyIcon="@drawable/moto_delete_icon" />
+    </Row>
+    <Row android:keyWidth="20.000004%p" android:keyHeight="@dimen/key_height_2" android:rowEdgeFlags="bottom">
+        <Key android:codes="-1007" android:keyEdgeFlags="left" android:iconPreview="@drawable/moto_chinese_symbol_icon" android:keyIcon="@drawable/key_chinese_symbols" />
+        <Key android:codes="-1008" android:iconPreview="@drawable/moto_english_symbol_icon" android:keyIcon="@drawable/key_english_symbols" />
+        <Key android:codes="-1003" android:iconPreview="@drawable/moto_smiley_icon" android:keyIcon="@drawable/key_smiley" />
+        <Key android:codes="-1009" android:iconPreview="@drawable/moto_www_icon" android:keyIcon="@drawable/key_www_symbols" />
+        <Key android:codes="-2" android:keyEdgeFlags="right" android:iconPreview="@drawable/moto_return" android:keyIcon="@drawable/key_return" />
+    </Row>
+</Keyboard>

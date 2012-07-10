@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+    <integer name="load_more_candidates_trigger">8</integer>
+    <integer name="pref_hw_speed">2</integer>
+    <integer name="pref_hw_color">5</integer>
+    <integer name="pref_hw_brush">1</integer>
+    <integer name="pref_hw_speed_min">2</integer>
+    <integer name="pref_hw_speed_max">8</integer>
+    <integer name="pref_hw_speed_step">4</integer>
+    <integer name="pref_hw_speed_rate">10</integer>
+    <integer name="vibration_time">40</integer>
+</resources>

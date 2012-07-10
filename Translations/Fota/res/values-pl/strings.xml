@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+    <string name="app_name">Technologia FOTA</string>
+    <string name="atc_title">Automatyczne sprawdzanie</string>
+    <string name="warn_auto_check_on_title">Automatyczne sprawdzanie włączone</string>
+    <string name="warn_auto_check_off_title">Automatyczne sprawdzanie wyłączone</string>
+    <string name="warn_auto_check_on_message">W trakcie automatycznego sprawdzania systemu mogą obowiązywać standardowe opłaty za przesyłanie danych.</string>
+    <string name="warn_auto_check_off_message">Telefon nie będzie już automatycznie sprawdzał aktualizacji. Ich regularne sprawdzanie jest zalecane w celu utrzymania optymalnej wydajności.</string>
+    <string name="fota_alert_dialog_ok">Ok</string>
+    <string name="test_check_progress">Aktualizacja zainicjowana przez użytkownika</string>
+    <string name="test_check_timer_progress">Aktualizacja inicjowana przez użytkownika z limitem czasu</string>
+    <string name="hi_fota_plugin">Aplikacja testowa Fota</string>
+    <string name="click_me">zakończ</string>
+</resources>

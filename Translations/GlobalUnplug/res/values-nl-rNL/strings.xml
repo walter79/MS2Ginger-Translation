@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+    <string name="app_name">Globale ontkoppeling</string>
+    <string name="global_unplug_t">Verbinding verbroken</string>
+    <string name="global_unplug">Koppel uw lader los van het stopcontact om stroom te sparen.</string>
+</resources>

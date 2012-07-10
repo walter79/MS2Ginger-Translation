@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RelativeLayout android:id="@id/datamanager_widget" android:background="@blur.res:drawable/base_1x1" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:id="@id/top_widget" android:background="@drawable/sleeve_horiz" android:layout_width="wrap_content" android:layout_height="fill_parent">
+        <TextView android:textSize="17.0sp" android:id="@id/data_usage" android:layout_marginTop="13.0dip" android:layout_centerHorizontal="true" style="@style/WidgetDataUsageText.WVGA" />
+        <TextView android:textSize="11.0sp" android:id="@id/size_matrix" android:layout_marginBottom="13.0dip" android:layout_alignRight="@id/data_usage" android:layout_alignParentBottom="true" style="@style/WidgetSizeMatrixText.WVGA" />
+    </RelativeLayout>
+    <RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginTop="20.0dip" android:layout_marginRight="8.0dip" android:layout_marginBottom="20.0dip" android:layout_toRightOf="@id/top_widget">
+        <TextView android:id="@id/data_label" android:visibility="gone" style="@style/WidgetDataText.WVGA" />
+        <TextView android:id="@id/meter_label" android:visibility="gone" android:layout_below="@id/data_label" android:layout_alignLeft="@id/data_label" style="@style/WidgetMeterText.WVGA" />
+        <TextView android:id="@id/last_checked" android:maxLines="2" android:layout_below="@id/meter_label" style="@style/WidgetLastCheckedText.WVGA" />
+    </RelativeLayout>
+</RelativeLayout>

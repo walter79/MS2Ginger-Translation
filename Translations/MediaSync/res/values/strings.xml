@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+    <string name="hello">Hello World, MediaSyncAct</string>
+    <string name="app_name">MediaSync</string>
+    <string name="mtpconnecting">Media Sync Connected</string>
+    <string name="unmount_ticker">NO SD Card</string>
+    <string name="unmount_notify_title">MTP notify</string>
+    <string name="unmount_notify_detail">Please insert a memory card for your media.</string>
+    <string name="unmount_notify">unmount_notify</string>
+    <string name="notification_sent">MTP Received: %1$s</string>
+    <string name="notification_sent_complete">100% complete</string>
+    <string name="mtp_connected_title">MTP Connected</string>
+    <string name="mtp_connected_body">MTP is connected</string>
+    <string name="unmount_notify_detail_external">Can not sync files. SD card is not accessible</string>
+    <string name="unmount_notify_detail_internal">Can not sync files. Internal phone memory is not accessible</string>
+    <string name="unmount_notify_detail_auto">Can not sync files. SD card and Internal phone memory are not accessible</string>
+</resources>

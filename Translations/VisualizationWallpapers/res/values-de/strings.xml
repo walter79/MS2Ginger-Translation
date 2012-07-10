@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+    <string name="wallpaper_vis1">Visualisierer</string>
+    <string name="wallpaper_vis2">Wellenform</string>
+    <string name="wallpaper_vis3">Spektrum</string>
+    <string name="wallpaper_vis4">Aussteuerungsmesser</string>
+    <string name="wallpaper_vis5">Viele</string>
+    <string name="wallpapers">Hintergrundbilder für Musikvisualisierung</string>
+    <string name="author">Google</string>
+    <string name="vis2_desc">Zeichnet die Schallwellenform des derzeit abgespielten Musiktitels</string>
+    <string name="vis3_desc">Stellt das Frequenzspektrum des derzeit abgespielten Musiktitels dar</string>
+    <string name="vis4_desc">Simuliert einen analogen Schallpegelmesser</string>
+    <string name="vis5_desc">Alle Musikvisualisierungen zusammen, langsam im 3D-Raum rotierend</string>
+</resources>

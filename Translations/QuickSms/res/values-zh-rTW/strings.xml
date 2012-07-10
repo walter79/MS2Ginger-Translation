@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+    <string name="qsms_app_name">QuickSms</string>
+    <string name="qsms_manage_title">編輯訊息</string>
+    <string name="qsms_add_msg">訊息</string>
+    <string name="qsms_label_add">新增訊息</string>
+    <string name="qsms_label_edit">編輯訊息</string>
+    <string name="qsms_add">新增</string>
+    <string name="qsms_ok">確定</string>
+    <string name="qsms_cancel">取消</string>
+    <string name="qsms_save">儲存</string>
+    <string name="qsms_yes">是</string>
+    <string name="qsms_no">否</string>
+    <string name="template_1">稍後給您回電</string>
+    <string name="template_2">請稍後再來電</string>
+    <string name="template_3">抱歉，先前無法接聽您的電話</string>
+    <string name="text_message_reply">簡訊回覆</string>
+    <string name="write_new">建立新訊息</string>
+    <string name="no_messages">無訊息</string>
+    <string name="sms_sent">訊息已發送</string>
+    <string name="message_deleted">訊息已刪除</string>
+    <string name="phone_locked">手機已鎖定</string>
+    <string name="phone_locked_message">解除鎖定手機以建立簡訊</string>
+    <string name="message_overflow">已儲存的簡訊不得超過 20 則</string>
+    <string name="turn_off_quicksms">關閉簡訊回覆</string>
+</resources>

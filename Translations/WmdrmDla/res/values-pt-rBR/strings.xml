@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+    <string name="txt_pb_reqlic">Desbloquear arquivo...</string>
+    <string name="txt_pb_uploadmet">Estatísticas de uso serão enviadas ao fundo.</string>
+    <string name="txt_content_type_video">vídeo</string>
+    <string name="txt_content_type_music">Música</string>
+    <string name="title_lic_expired">Licença Expirada.</string>
+    <string name="title_song_expired">Sons Expirados</string>
+    <string name="title_video_expired">Vídeos Expirados</string>
+    <string name="title_ringtone_expired">Campainhas Expiradas</string>
+    <string name="title_file_expired">Arquivos Expirados</string>
+    <string name="txt_lic_expired_mpart1">Uma licença para o\u0020</string>
+    <string name="txt_lic_expired_mpart2">\u0020arquivo\u0020</string>
+    <string name="txt_lic_expired_mpart3">. Você pode comprar uma nova licença para continuar reproduzindo este arquivo.</string>
+    <string name="txt_lic_expired_listview">Selecione um arquivo abaixo para comprar a licença</string>
+    <string name="txt_nt_multi_lic_expired">Licenças adicionais são necessárias para reproduzir esses arquivos.</string>
+    <string name="txt_nt_single_lic_expired">requer licença para reproduzir.</string>
+    <string name="title_delete_file">Excluir</string>
+    <string name="txt_delete_file">Deseja excluir este arquivo agora?</string>
+    <string name="txt_lic_status">expirou</string>
+    <string name="title_lic_received">Licença Recebida.</string>
+    <string name="txt_dlg_lic_received1">Uma licença para o arquivo\u0020</string>
+    <string name="txt_dlg_lic_received2">\u0020foi recebida. Você já pode reproduzir o arquivo.</string>
+    <string name="txt_nt_single_lic_received">está disponível para ser reproduzido.</string>
+    <string name="title_lic_error">Erro na Licença</string>
+    <string name="txt_lic_error">O download da lincença falhou. Tente novamente.</string>
+    <string name="title_lic_trigger">Sincr. lincenças</string>
+    <string name="txt_lic_trigger">A licença deve ser atualizada para continuar a reprodução no dispositivo. Deseja atualizar as licenças agora?</string>
+    <string name="title_met_trigger">Consentimento de uso exigido</string>
+    <string name="txt_met_trigger">O provedor do conteúdo deve solicitar a autorização para gravar a utilização deste conteúdo para os artistas\' finalidade de faturamento. Concorda em permitir isso?</string>
+    <string name="title_sync_pc_license">Sincr. lincenças</string>
+    <string name="txt_sync_pc_license">As licenças devem ser atualizadas para continuar a reprodução destes arquivos no dispositivo. Por favor, conecte seu telefone a um computador para atualizar licenças.</string>
+    <string name="alert_dialog_yes">SIM</string>
+    <string name="alert_dialog_no">Não</string>
+    <string name="alert_dialog_ok">OK</string>
+    <string name="alert_dialog_play">Reproduzir</string>
+    <string name="alert_dialog_cancel">Cancelar</string>
+    <string name="alert_dialog_buy">Comprar</string>
+    <string name="alert_dialog_close">Fechar</string>
+</resources>

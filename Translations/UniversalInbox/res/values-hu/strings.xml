@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+    <string name="app_name">Közös Postaláda</string>
+    <string name="edit_activity_name">Közös Postaláda szerkesztése</string>
+    <string name="no_messages">Nincs üzenet</string>
+    <string name="loading_list">Betöltés...</string>
+    <string name="multi_media_message">Multimédia üzenet</string>
+    <string name="menu_edit_accounts">Közös Postaláda szerkesztése</string>
+    <string name="menu_settings">Beállítások</string>
+    <string name="delete_threads_confirm_title">Beszélgetések törlése</string>
+    <string name="delete_threads_confirm_message">Beszélgetéseket jelölt ki. Biztosan törölni szeretné ezeket?</string>
+    <string name="move_error_title">Az elem nem mozgatható</string>
+    <string name="move_error_message">A levelek csak a felhasználói fiókon belül mozgathatóak másik mappába.</string>
+</resources>

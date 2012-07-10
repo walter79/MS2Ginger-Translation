@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RelativeLayout android:orientation="vertical" android:id="@id/root_layout" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:gravity="center" android:orientation="horizontal" android:id="@id/view_layout" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <LinearLayout android:orientation="vertical" android:id="@id/progress_indicator" android:visibility="invisible" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_centerInParent="true">
+        <ProgressBar android:layout_gravity="center" android:id="@android:id/progress" android:layout_width="wrap_content" android:layout_height="wrap_content" style="\?android:attr/progressBarStyleLarge" />
+        <TextView android:textSize="14.0sp" android:textColor="#ffffffff" android:layout_gravity="center" android:paddingTop="5.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/loading_video" />
+    </LinearLayout>
+    <RelativeLayout android:id="@id/video_controller" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <ImageButton android:gravity="center" android:id="@id/hdmi_button" android:background="#00000000" android:padding="8.0dip" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ic_btn_hdmi" android:layout_alignParentLeft="true" android:layout_alignParentTop="true" />
+        <LinearLayout android:orientation="horizontal" android:id="@id/controller_bar" android:background="@drawable/control_bar_tag" android:paddingTop="5.0dip" android:paddingBottom="5.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_alignParentBottom="true">
+            <ImageButton android:layout_gravity="center_vertical" android:id="@id/pause" android:background="#00000000" android:paddingLeft="10.0dip" android:paddingRight="10.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+            <ImageView android:layout_width="wrap_content" android:layout_height="fill_parent" android:src="@drawable/divider_vertical_bright" />
+            <TextView android:textSize="14.0sp" android:textColor="#ffffffff" android:layout_gravity="center_vertical" android:id="@id/time_position" android:paddingLeft="10.0dip" android:paddingRight="10.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+            <LinearLayout android:layout_gravity="center_vertical" android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="6.0dip" android:layout_marginRight="6.0dip" android:layout_weight="1.0">
+                <SeekBar android:layout_gravity="bottom" android:id="@id/progressbar1" android:paddingLeft="16.0dip" android:paddingRight="16.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:maxHeight="20.0dip" android:progressDrawable="@drawable/media_seekbar" android:minHeight="20.0dip" android:thumb="@drawable/media_progress_meter_slider" android:thumbOffset="8.0dip" style="\?android:attr/seekBarStyle" />
+            </LinearLayout>
+            <TextView android:textSize="14.0sp" android:textColor="#ffffffff" android:layout_gravity="center_vertical" android:id="@id/time_duration" android:paddingLeft="10.0dip" android:paddingRight="10.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+        </LinearLayout>
+    </RelativeLayout>
+    <ImageView android:gravity="center" android:orientation="horizontal" android:id="@id/hdmi_controls" android:background="#00000000" android:visibility="invisible" android:layout_width="fill_parent" android:layout_height="fill_parent" android:src="@drawable/hdmi_controller_video" />
+</RelativeLayout>

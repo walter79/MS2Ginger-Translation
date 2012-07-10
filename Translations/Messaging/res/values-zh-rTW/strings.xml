@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+    <string name="app_name">訊息</string>
+    <string name="menu_manage_accounts">管理帳戶</string>
+    <string name="menu_edit_universal_accounts">編輯整合收件匣</string>
+    <string name="menu_preferences">訊息設定</string>
+    <string name="preferences_title">「設定」</string>
+    <string name="pref_accounts_settings_title">訊息設定</string>
+    <string name="text_messaging_settings_label">簡訊</string>
+    <string name="email_settings_label">電子郵件</string>
+    <string name="sn_messaging_settings_label">社交訊息</string>
+</resources>

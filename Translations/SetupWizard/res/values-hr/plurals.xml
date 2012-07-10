@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+    <plurals name="error_missing_apps_plurals">
+        <item quantity="other">Ovaj se račun ne može koristiti na telefonu jer nedostaje sljedeća aplikacija: ^1. Kontaktirajte administratora domene za &lt;b>^2&lt;/b> ili se prijavite pomoću drugog računa.</item>
+        <item quantity="one">Ovaj se račun ne može koristiti na telefonu jer nedostaju sljedeće aplikacije: ^1. Kontaktirajte administratora domene za &lt;b>^2&lt;/b> ili se prijavite pomoću drugog računa.</item>
+    </plurals>
+</resources>

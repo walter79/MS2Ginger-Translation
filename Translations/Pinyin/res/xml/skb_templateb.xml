@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<skb_template skb_bg="@drawable/skb_bg" key_xmargin="0%p" key_ymargin="0%p" balloon_bg="@drawable/key_balloon_bg" popup_bg="@drawable/miniskb_bg" color="@color/label_color" color_highlight="@color/label_color" color_balloon="@color/balloon_color">
+    <key_type id="0" bg="@drawable/moto_normal_key_bg" hlbg="@drawable/moto_normal_key_hl_bg" color_highlight="@color/label_color_hl0" />
+    <key_type id="1" bg="@drawable/function_key_bg" hlbg="@drawable/moto_normal_key_hl_bg" color="@color/function_text_color" color_highlight="@color/function_text_color" />
+    <key_type id="2" bg="@drawable/moto_normal_key_hl_bg" hlbg="@drawable/function_key_bg" />
+    <key_type id="3" bg="@drawable/function_key_bg" hlbg="@drawable/moto_normal_key_hl_bg" />
+    <key_type id="4" bg="@drawable/function_key_bg" hlbg="@drawable/moto_normal_key_hl_bg" color="@color/function_text_color" color_highlight="@color/function_text_color" />
+    <key_type id="5" width="30%p" bg="@drawable/normal_key_bg" hlbg="@drawable/normal_key_hl_bg" color_highlight="@color/label_color_hl0" />
+    <key_type id="6" width="26%p" bg="@drawable/indicator_key_bg" hlbg="@drawable/indicator_key_hl_bg" color_highlight="@color/label_color_hl0" />
+    <key_icon code="66" icon="@drawable/moto_enter_icon" icon_popup="@drawable/moto_enter_popup_icon" />
+    <key_icon code="62" icon="@drawable/moto_space_icon" width="30%p" icon_popup="@drawable/moto_space_popup_icon" />
+    <key_icon code="67" icon="@drawable/moto_delete_icon" icon_popup="@drawable/moto_delete_popup_icon" />
+    <key id="1" start_pos_x="80%p" start_pos_y="75%p" width="20%p" height="25%p" code="66" key_type="1">
+        <toggle_state state_id="@string/toggle_enter_go" label="@string/label_toggle_enter_go" code="66" />
+        <toggle_state state_id="@string/toggle_enter_search" code="66" icon="@drawable/search_icon" />
+        <toggle_state state_id="@string/toggle_enter_send" label="@string/label_toggle_enter_send" code="66" />
+        <toggle_state state_id="@string/toggle_enter_next" label="@string/label_toggle_enter_next" code="66" />
+        <toggle_state state_id="@string/toggle_enter_done" label="@string/label_toggle_enter_done" code="66" />
+    </key>
+    <key id="2" start_pos_x="75%p" start_pos_y="75%p" width="25%p" height="25%p" code="66" key_type="1" balloon="false">
+        <toggle_state state_id="@string/toggle_enter_go" label="@string/label_toggle_enter_go" code="66" />
+        <toggle_state state_id="@string/toggle_enter_search" code="66" icon="@drawable/search_icon" />
+        <toggle_state state_id="@string/toggle_enter_send" label="@string/label_toggle_enter_send" code="66" />
+        <toggle_state state_id="@string/toggle_enter_next" label="@string/label_toggle_enter_next" code="66" />
+        <toggle_state state_id="@string/toggle_enter_done" label="@string/label_toggle_enter_done" code="66" />
+    </key>
+    <key id="3" width="20%p" height="25%p" code="67" key_type="1" start_pos_x="80%p" start_pos_y="50%p" repeat="true" />
+    <key id="4" code="-3" start_pos_x="80%p" start_pos_y="25%p" width="20%p" height="25%p" key_type="2" label="\?123" />
+    <key id="5" code="-3" start_pos_x="20%p" start_pos_y="75%p" width="20%p" height="25%p" key_type="3" label="\?123" />
+    <key id="6" start_pos_x="80%p" width="20%p" height="25%p" code="-2" label="中 文" key_type="1" repeat="true">
+        <toggle_state state_id="@string/toggle_en_lower" label="英 文" code="-2" />
+        <toggle_state state_id="@string/toggle_en_upper" label="英 文" code="-2" />
+    </key>
+    <key id="7" start_pos_x="60%p" start_pos_y="75%p" width="20%p" height="25%p" label="." key_type="0" icon="@drawable/period_icon" icon_popup="@drawable/period_popup_icon" />
+</skb_template>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ScrollView android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:paddingRight="5.0dip" android:layout_width="310.0dip" android:layout_height="fill_parent" android:title="any title"
+      xmlns:android="http://schemas.android.com/apk/res/android">
+        <EditText android:gravity="top" android:id="@id/Server" android:padding="5.0dip" android:layout_width="220.0dip" android:layout_height="wrap_content" android:layout_marginRight="10.0dip" android:singleLine="true" android:layout_alignParentRight="true" />
+        <TextView android:gravity="center_vertical" android:id="@id/ServerTextView" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/add_server_hostname" android:singleLine="true" android:layout_toLeftOf="@id/Server" android:layout_alignTop="@id/Server" />
+        <EditText android:id="@id/Username" android:padding="5.0dip" android:layout_width="220.0dip" android:layout_height="wrap_content" android:layout_marginRight="10.0dip" android:singleLine="true" android:layout_below="@id/Server" android:layout_alignParentRight="true" />
+        <TextView android:id="@id/UserNameTextView" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/add_server_username" android:singleLine="true" android:layout_toLeftOf="@id/Username" android:layout_alignTop="@id/Username" />
+        <EditText android:gravity="top" android:id="@id/Password" android:padding="5.0dip" android:layout_width="220.0dip" android:layout_height="wrap_content" android:layout_marginRight="10.0dip" android:password="true" android:singleLine="true" android:layout_below="@id/Username" android:layout_alignParentRight="true" />
+        <TextView android:id="@id/PasswordTextView" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/add_server_password" android:layout_toLeftOf="@id/Password" android:layout_alignTop="@id/Password" />
+        <CheckBox android:id="@id/CheckBox01" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="70.0dip" android:text="@string/anonymous" android:layout_below="@id/Password" />
+        <EditText android:id="@id/DisplayName" android:padding="5.0dip" android:layout_width="220.0dip" android:layout_height="wrap_content" android:layout_marginRight="10.0dip" android:singleLine="true" android:layout_below="@id/CheckBox01" android:layout_alignParentRight="true" />
+        <TextView android:id="@id/DisplayNameView" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/server_display_name" android:hint="To Be Done" android:singleLine="true" android:layout_toLeftOf="@id/DisplayName" android:layout_alignTop="@id/DisplayName" />
+        <Button android:id="@id/AddServer" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="40.0dip" android:layout_marginTop="10.0dip" android:text="@string/alert_dialog_ok" android:layout_below="@id/DisplayName" android:layout_alignParentLeft="true" />
+        <Button android:id="@id/Cancel" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="60.0dip" android:text="@string/alert_dialog_cancel" android:layout_toRightOf="@id/AddServer" android:layout_alignTop="@id/AddServer" />
+    </RelativeLayout>
+</ScrollView>

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+    <string name="hello">Hello World, TestCallBackActivity!</string>
+    <string name="app_name">FMRadioService</string>
+    <string name="bind">bind</string>
+    <string name="unbind">unbind</string>
+    <string name="tune">tune</string>
+    <string name="currentFreq">currentFreq</string>
+    <string name="getAudioMode">getAudioMode</string>
+    <string name="setAudioMode">setAudioMode</string>
+    <string name="setMute">setMute</string>
+    <string name="isMute">isMute</string>
+    <string name="seek">seek</string>
+    <string name="stopSeek">stopSeek</string>
+    <string name="setVolume">setVolume</string>
+    <string name="getVolume">getVolume</string>
+    <string name="getBand">getBand</string>
+    <string name="setBand">setBand</string>
+    <string name="getMinFreq">getMinFreq</string>
+    <string name="getMaxFreq">getMaxFreq</string>
+    <string name="getStepUnit">getStepUnit</string>
+    <string name="setRdsEnable">setRdsEnable</string>
+    <string name="isRdsEnable">isRdsEnable</string>
+    <string name="getAudioType">getAudioType</string>
+    <string name="getRSSI">getRSSI</string>
+    <string name="getRdsPS">getRdsPS</string>
+    <string name="getRdsRT">getRdsRT</string>
+    <string name="getRdsRTPLUS">getRdsRTPLUS</string>
+    <string name="getRdsPI">getRdsPI</string>
+    <string name="getRdsPTY">getRdsPTY</string>
+    <string name="scan">scan</string>
+    <string name="stopScan">stopScan</string>
+</resources>

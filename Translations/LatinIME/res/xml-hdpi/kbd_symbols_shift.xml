@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Keyboard android:keyWidth="9.599996%p" android:keyHeight="10.000002%p" android:horizontalGap="0.39999485%p" android:verticalGap="0.49999952%p"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <Row android:rowEdgeFlags="top">
+        <Key android:horizontalGap="0.19999743%p" android:keyEdgeFlags="left" android:keyLabel="~" />
+        <Key android:keyLabel="`" />
+        <Key android:keyLabel="|" />
+        <Key android:popupKeyboard="@xml/kbd_popup_template" android:popupCharacters="♪♥♠♦♣" android:keyLabel="•" />
+        <Key android:keyLabel="√" />
+        <Key android:popupKeyboard="@xml/kbd_popup_template" android:popupCharacters="Π" android:keyLabel="π" />
+        <Key android:keyLabel="÷" />
+        <Key android:keyLabel="×" />
+        <Key android:keyLabel="{" />
+        <Key android:keyEdgeFlags="right" android:keyLabel="}" />
+    </Row>
+    <Row>
+        <Key android:horizontalGap="0.19999743%p" android:codes="@integer/key_tab" android:keyEdgeFlags="left" android:keyLabel="⇥" />
+        <Key android:keyLabel="£" />
+        <Key android:keyLabel="¢" />
+        <Key android:keyLabel="€" />
+        <Key android:keyLabel="°" />
+        <Key android:popupKeyboard="@xml/kbd_popup_template" android:popupCharacters="↑↓←→" android:keyLabel="^" />
+        <Key android:keyLabel="_" />
+        <Key android:popupKeyboard="@xml/kbd_popup_template" android:popupCharacters="≠≈∞" android:keyLabel="=" />
+        <Key android:keyLabel="[" />
+        <Key android:keyEdgeFlags="right" android:keyLabel="]" />
+    </Row>
+    <Row>
+        <Key android:keyWidth="14.600002%p" android:horizontalGap="0.19999743%p" android:codes="@integer/key_shift" android:keyEdgeFlags="left" android:isModifier="true" android:isSticky="true" android:keyLabel="@string/label_alt_key" />
+        <Key android:keyLabel="™" />
+        <Key android:keyLabel="®" />
+        <Key android:keyLabel="©" />
+        <Key android:popupKeyboard="@xml/kbd_popup_template" android:popupCharacters="§" android:keyLabel="¶" />
+        <Key android:keyLabel="\\" />
+        <Key android:popupKeyboard="@xml/kbd_popup_template" android:popupCharacters="≤«‹" android:keyLabel="&amp;lt;" />
+        <Key android:popupKeyboard="@xml/kbd_popup_template" android:popupCharacters="≥»›" android:keyLabel=">" />
+        <Key android:keyWidth="14.600002%p" android:codes="@integer/key_delete" android:keyEdgeFlags="right" android:isModifier="true" android:isRepeatable="true" android:iconPreview="@drawable/sym_keyboard_feedback_delete" android:keyIcon="@drawable/sym_keyboard_delete" />
+    </Row>
+    <Row android:rowEdgeFlags="bottom" android:keyboardMode="@id/mode_symbols">
+        <Key android:keyWidth="19.599998%p" android:horizontalGap="0.19999743%p" android:codes="@integer/key_symbol" android:keyEdgeFlags="left" android:isModifier="true" android:keyLabel="@string/label_alpha_key" />
+        <Key android:isModifier="true" android:keyLabel="„" />
+        <Key android:keyWidth="39.600002%p" android:codes="@integer/key_space" android:isModifier="true" android:isRepeatable="false" android:iconPreview="@drawable/sym_keyboard_feedback_space" android:keyIcon="@drawable/sym_keyboard_space" />
+        <Key android:isModifier="true" android:keyLabel="…" />
+        <Key android:keyWidth="19.599998%p" android:codes="@integer/key_return" android:keyEdgeFlags="right" android:isModifier="true" android:iconPreview="@drawable/sym_keyboard_feedback_return" android:keyIcon="@drawable/sym_keyboard_return" />
+    </Row>
+</Keyboard>

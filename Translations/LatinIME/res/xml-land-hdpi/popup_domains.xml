@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Keyboard android:keyWidth="13.699997%p" android:keyHeight="15.400004%p" android:horizontalGap="1.3000011%p" android:verticalGap="0.49999952%p"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <Row android:rowEdgeFlags="top|bottom">
+        <Key android:horizontalGap="0.8000016%p" android:keyEdgeFlags="left" android:keyOutputText="@string/popular_domain_1" android:keyLabel="@string/popular_domain_1" />
+        <Key android:keyOutputText="@string/popular_domain_2" android:keyLabel="@string/popular_domain_2" />
+        <Key android:keyOutputText="@string/popular_domain_3" android:keyLabel="@string/popular_domain_3" />
+        <Key android:keyEdgeFlags="right" android:keyOutputText="@string/popular_domain_4" android:keyLabel="@string/popular_domain_4" />
+    </Row>
+</Keyboard>

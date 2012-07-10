@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+    <string name="app_name">Αναφορά σφαλμάτων κύριας εκκαθάρισης</string>
+    <string name="master_clear_error_continue_button_text">Συνέχεια</string>
+    <string name="master_clear_error_sd_erase_failed_title">Σφάλμα διαγραφής κάρτας SD</string>
+    <string name="master_clear_error_phone_erase_failed_title">Σφάλμα κύριας εκκαθάρισης</string>
+    <string name="master_clear_error_generic">Άγνωστο πρόβλημα</string>
+    <string name="master_clear_error_sd_nodevice">Η κάρτα SD δεν βρέθηκε</string>
+    <string name="master_clear_error_sd_readonly">Η κάρτα έχει προστασία από εγγραφή</string>
+    <string name="master_clear_error_sd_write">Η λειτουργία εγγραφής απέτυχε</string>
+    <string name="master_clear_error_sd_read">Η λειτουργία ανάγνωσης απέτυχε</string>
+    <string name="master_clear_error_sd_large">Η κάρτα είναι υπερβολικά μεγάλη</string>
+    <string name="master_clear_error_phone_generic">Η λειτουργία απέτυχε</string>
+    <string name="master_clear_error_sd_activity_name">Αναφορά διαγραφής κάρτας SD</string>
+    <string name="master_clear_error_phone_activity_name">Αναφορά διαγραφής κύριας εκκαθάρισης</string>
+</resources>

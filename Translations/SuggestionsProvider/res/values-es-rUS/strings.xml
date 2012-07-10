@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+    <string name="hello">¡Hola mundo, proveedor de sugerencias!</string>
+    <string name="app_name">Sugerencias</string>
+</resources>

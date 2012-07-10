@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+    <string name="application_terminal">Terminal Emulator</string>
+    <string name="preferences">Felhasználói beállítás</string>
+    <string name="reset">Újraindítás</string>
+    <string name="send_email">Email neki</string>
+    <string name="special_keys">Speciális gombok</string>
+    <string name="text_preferences">Szöveg</string>
+    <string name="title_fontsize_preference">Betűméret</string>
+    <string name="summary_fontsize_preference">Karaktermagasság.</string>
+    <string name="dialog_title_fontsize_preference">Betűméret</string>
+    <string name="title_color_preference">Színek</string>
+    <string name="summary_color_preference">Válasszon szövegszínt</string>
+    <string name="dialog_title_color_preference">Szövegszín</string>
+    <string name="keyboard_preferences">Billentyűzet</string>
+    <string name="title_controlkey_preference">Vezérlőgomb</string>
+    <string name="summary_controlkey_preference">Vezérlőgomb választás.</string>
+    <string name="dialog_title_controlkey_preference">Vezérlőgomb</string>
+    <string name="shell_preferences">Shell</string>
+    <string name="title_shell_preference">Command line</string>
+    <string name="summary_shell_preference">Specify the shell command line.</string>
+    <string name="dialog_title_shell_preference">Feloldás</string>
+    <string name="title_initialcommand_preference">Kezdeti parancs</string>
+    <string name="summary_initialcommand_preference">Értesítés induláskor.</string>
+    <string name="dialog_title_initialcommand_preference">Kezdeti parancs</string>
+    <string name="default_value_fontsize_preference">10</string>
+    <string name="default_value_color_preference">2</string>
+    <string name="default_value_controlkey_preference">0</string>
+    <string name="default_value_shell_preference">/system/bin/sh -</string>
+    <string name="default_value_initialcommand_preference">export PATH=/data/local/bin:$PATH</string>
+</resources>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+    <string name="hello">Helló Világ, MediaSyncAct</string>
+    <string name="app_name">MediaSync</string>
+    <string name="mtpconnecting">Media Sync csatlakoztatva</string>
+    <string name="unmount_ticker">Nincs SD kártya</string>
+    <string name="unmount_notify_title">MTP értesítés</string>
+    <string name="unmount_notify_detail">Kérem helyezzen be memóriakártyát.</string>
+    <string name="unmount_notify">Leválasztás értesítés</string>
+    <string name="notification_sent">MTP Letöltve: %1$s</string>
+    <string name="notification_sent_complete">100% kész</string>
+    <string name="mtp_connected_title">MTP csatlakoztatva</string>
+    <string name="mtp_connected_body">MTP csatlakoztatva</string>
+    <string name="unmount_notify_detail_external">Nem lehet szinkronizálni a file-okat. Az SD kártya nem elérhető</string>
+    <string name="unmount_notify_detail_internal">Nem lehet szinkronizálni a file-okat. A telefon belső memóriája nem elérhető</string>
+    <string name="unmount_notify_detail_auto">Nem lehet szinkronizálni a file-okat. Az SD kártya és a telefon belső memóriája nem elérhető</string>
+</resources>

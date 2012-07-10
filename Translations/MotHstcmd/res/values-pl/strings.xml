@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+    <string name="app_name">HSTcmd</string>
+    <string name="send">Wykonaj</string>
+    <string name="request">Żądanie</string>
+    <string name="response">Odpowiedź</string>
+    <string name="menu_item_setting">Ustawienia</string>
+    <string name="set_path">Ustaw</string>
+    <string name="set_default_path">Przywróć wartości domyślne</string>
+    <string name="setting_notice">Uwaga: \n1. Dopuszczalny jest wyłącznie katalog bezpośredni lub katalog na karcie SD. Nieprawidłowy katalog nie zostanie zapisany i wywoła alarm.</string>
+    <string name="log_response">Rejestruj odpowiedzi</string>
+    <string name="log_error">Rejestruj błędy (w tym odpowiedzi na błędy)</string>
+    <string name="log_command">Rejestruj polecenia</string>
+</resources>

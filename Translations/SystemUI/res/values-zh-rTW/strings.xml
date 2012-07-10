@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+    <string name="status_bar_priority_events_title">優先</string>
+    <string name="app_label">狀態列</string>
+    <string name="status_bar_clear_all_button">清除</string>
+    <string name="status_bar_no_notifications_title">沒有通知</string>
+    <string name="status_bar_ongoing_events_title">進行中</string>
+    <string name="status_bar_latest_events_title">通知</string>
+    <string name="battery_low_title">請連接充電器</string>
+    <string name="battery_low_subtitle">電池電量即將不足：</string>
+    <string name="battery_low_percent_format">還剩 %d%% 以下。</string>
+    <string name="battery_low_why">電池使用狀況</string>
+    <string name="usb_accessory_permission_prompt">是否允許應用程式 %1$s 存取 USB 配件？</string>
+    <string name="usb_device_confirm_prompt">是否在連接此 USB 裝置時開啟 %1$s？</string>
+    <string name="usb_accessory_confirm_prompt">是否在連接此 USB 配件時開啟 %1$s？</string>
+    <string name="usb_accessory_uri_prompt">已安裝的應用程式皆無法使用此 USB 配件。 若要進一步瞭解此配件，請造訪 %1$s</string>
+    <string name="title_usb_accessory">USB 配件</string>
+    <string name="label_view">檢視</string>
+    <string name="always_use_accessory">預設用於此 USB 配件</string>
+</resources>

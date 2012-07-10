@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<merge
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:gravity="center" android:layout_gravity="center" android:layout_width="fill_parent" android:layout_height="fill_parent" android:text="@string/checking_short" android:layout_toLeftOf="@id/loading_progress" android:layout_alignParentLeft="true" android:layout_alignParentTop="true" android:layout_alignParentBottom="true" style="@blur.res:style/Widget.Text.Body" />
+    <ProgressBar android:id="@id/loading_progress" android:layout_alignParentRight="true" android:layout_alignParentBottom="true" style="@blur.res:style/Widget.Progress" />
+</merge>

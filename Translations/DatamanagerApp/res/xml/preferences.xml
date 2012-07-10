@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<PreferenceScreen
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ListPreference android:enabled="false" android:title="@string/loading" android:key="loading" android:order="0" />
+    <com.motorola.blur.datamanager.app.CarrierInfoPreference android:key="ShowCarrierInfo" android:order="2">
+        <intent android:action="com.motorola.blur.datamanager.app.CARRIER_INFO_ACTION" />
+    </com.motorola.blur.datamanager.app.CarrierInfoPreference>
+    <PreferenceScreen android:title="@string/title_data_saver" android:key="ShowDataSaverInDM" android:summary="@string/summary_data_saver" android:order="3">
+        <intent android:action="com.motorola.blur.datamanager.app.START_DATA_SAVER_MODE_ACTIVITY" />
+    </PreferenceScreen>
+    <PreferenceScreen android:title="@string/title_data_delivery" android:key="data_delivery" android:summary="@string/summary_data_delivery" android:order="4">
+        <CheckBoxPreference android:title="@string/title_background_data" android:key="background_data" android:summary="@string/summary_background_data" />
+        <CheckBoxPreference android:title="@string/title_data_roaming" android:key="data_roaming" android:summary="@string/summary_data_roaming" />
+        <CheckBoxPreference android:persistent="false" android:title="@string/data_enabled" android:key="button_data_enabled_key" android:summary="@string/data_enable_summary" />
+        <PreferenceCategory android:title="@string/application_data_delivery" android:key="application_data_delivery">
+            <PreferenceScreen android:title="@string/email_activesync" android:key="email_activesync">
+                <intent android:action="com.motorola.blur.email.SHOW_SETTINGS_ACTIVITY" />
+            </PreferenceScreen>
+            <PreferenceScreen android:title="@string/blur_applications" android:key="blur_applications">
+                <intent android:targetPackage="com.motorola.blur.datamanager.app" android:action="android.intent.action.MAIN" android:targetClass="com.motorola.blur.datamanager.app.SocialAppsPreferenceActivity" />
+            </PreferenceScreen>
+        </PreferenceCategory>
+    </PreferenceScreen>
+    <PreferenceScreen android:layout="@layout/overlay_option" android:key="AccountsInDM" android:order="5">
+        <intent android:targetPackage="com.motorola.blur.setup" android:action="android.intent.action.MAIN" android:targetClass="com.motorola.blur.settings.AccountsAndServicesPreferenceActivity" />
+    </PreferenceScreen>
+    <PreferenceCategory android:title="@string/title_battery" android:order="6">
+        <PreferenceScreen android:title="@string/title_battery_mode">
+            <intent android:targetPackage="com.motorola.batterymanager" android:targetClass="com.motorola.batterymanager.BatteryProfileUi" />
+        </PreferenceScreen>
+        <PreferenceScreen android:title="@string/title_battery_usage" android:summary="@string/summary_battery_usage">
+            <intent android:targetPackage="com.android.settings" android:targetClass="com.android.settings.fuelgauge.PowerUsageSummary" />
+        </PreferenceScreen>
+    </PreferenceCategory>
+</PreferenceScreen>

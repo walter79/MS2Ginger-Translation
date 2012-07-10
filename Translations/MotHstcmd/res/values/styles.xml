@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+    <style name="tabIndicatorText">
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">@color/tab_indicator_text</item>
+    </style>
+    <style name="button_style">
+        <item name="android:textSize">40.0dip</item>
+        <item name="android:focusable">true</item>
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">fill_parent</item>
+        <item name="android:layout_weight">1.0</item>
+    </style>
+    <style name="button_small_style">
+        <item name="android:textSize">30.0dip</item>
+        <item name="android:focusable">true</item>
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">fill_parent</item>
+        <item name="android:layout_weight">1.0</item>
+    </style>
+    <style name="display_style">
+        <item name="android:textSize">40.0dip</item>
+        <item name="android:textColor">#ff000000</item>
+        <item name="android:padding">8.0dip</item>
+        <item name="android:scrollbars">none</item>
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:hint">Test command</item>
+        <item name="android:maxLines">1</item>
+        <item name="android:scrollHorizontally">true</item>
+    </style>
+</resources>

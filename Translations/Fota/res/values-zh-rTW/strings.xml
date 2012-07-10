@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+    <string name="app_name">FOTA</string>
+    <string name="atc_title">自動檢查</string>
+    <string name="warn_auto_check_on_title">自動檢查已開啟</string>
+    <string name="warn_auto_check_off_title">自動檢查關閉</string>
+    <string name="warn_auto_check_on_message">自動系統檢查期間可能會產生正常的資料費率。</string>
+    <string name="warn_auto_check_off_message">手機將不再自動檢查更新。 強烈建議您經常檢查更新，以發揮最佳效能。</string>
+    <string name="fota_alert_dialog_ok">確定</string>
+    <string name="test_check_progress">使用者發起的更新</string>
+    <string name="test_check_timer_progress">使用者發起的更新 W 逾時</string>
+    <string name="hi_fota_plugin">Fota 測試應用程式</string>
+    <string name="click_me">退出</string>
+</resources>

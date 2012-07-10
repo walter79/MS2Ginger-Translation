@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+    <string name="hslp_address" />
+    <string name="supl_pref_apn" />
+    <string name="supl_alt_apns" />
+    <string name="supl_dm_provider_id" />
+    <string name="supl_dm_name" />
+    <string name="supl_dm_addr_type" />
+    <string name="supl_dm_app_id">ap0004</string>
+    <string name="mms_secondary_mmsc_support">0</string>
+    <string name="sms_to_mms_auto_convert">1</string>
+    <string name="sms_to_mms_convert_enabled">1</string>
+    <string name="mms_online_album">438749</string>
+    <string name="mms_mml_server">mdn@pix.vtext.com</string>
+    <string name="mms_number_plus_prefix_enabled">0</string>
+    <string name="vm_number_cdma">*86</string>
+    <string name="sms_pref_key_emailgateway_num">6245</string>
+    <string name="mms_x_wap_profile_url">http://uaprof.motorola.com/phoneconfig/motomb526/Profile/motomb526.rdf</string>
+    <string name="mms_user_agent">motoa955</string>
+    <string name="mms_uaprof_tagname">x-wap-profile</string>
+    <string name="mms_accept_charset">US-ASCII, ISO-8859-1, UTF-8</string>
+    <string name="country_code">1</string>
+    <string name="mms_country_code">1</string>
+    <string name="mms_http_parameters">x-up-calling-line-id: ##LINE1##|x-vzw-mdn: ##LINE1##</string>
+    <string name="mms_http_line1key">\##LINE1##</string>
+    <string name="def_led_notification_enabled">1</string>
+    <string name="def_screen_lock_enabled">1</string>
+    <string name="def_country_name">United States of America</string>
+    <string name="def_country_idd">011</string>
+    <string name="def_country_ndd">1</string>
+    <string name="def_country_area_code">000</string>
+    <string name="preload_carrier" />
+    <string name="default_contact_account_name" />
+    <string name="default_contact_account_type" />
+    <string name="contact_additional_menu_intent" />
+    <string name="contact_additional_menu_title" />
+    <string name="contact_additional_menu_icon" />
+    <string name="contact_additional_menu_res_package" />
+    <string name="def_double_tap_value">none</string>
+    <string name="def_keyboard_layout_external">disabled</string>
+    <string name="permlab_writeGservices">Write Gservices settings.</string>
+    <string name="permdesc_writeGservices">Allows the application to change the settings in Gservices.</string>
+    <string name="permlab_tcmdLocal">Use Test Commands</string>
+    <string name="permdesc_tcmdLocal">Use Test Commands</string>
+    <string name="settings_storage">Settings Storage</string>
+</resources>

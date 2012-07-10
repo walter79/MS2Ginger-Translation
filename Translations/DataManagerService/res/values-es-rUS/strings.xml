@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+    <string name="hello">¡Hola a todos!</string>
+    <string name="app_name">Servicio admin. datos</string>
+    <string name="perm_label">Habilitar configuración plan de datos</string>
+    <string name="perm_desc">Permite que la aplicación establezca su plan de datos en admin. de datos</string>
+    <string name="backgrounddata_warning_message">Para proteger tu plan de datos, tu administrador ha desactivado los datos de fondo en roaming.\n\nSi es necesario, puedes sincronizar datos manualmente en roaming.</string>
+    <string name="backgrounddata_notification_title">Datos de fondo desactivados</string>
+    <string name="backgrounddata_dialog_title">Aviso de datos de fondo</string>
+    <string name="backgrounddata_dialog_message">Tu administrador ha desactivado los datos de fondo en roaming.\nSi es necesario, puedes sincronizar datos manualmente en roaming.</string>
+    <string name="ok">Aceptar</string>
+</resources>

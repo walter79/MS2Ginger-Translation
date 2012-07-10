@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" style="@blur.res:style/Blur.ListItem"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/feed_list_item_favicon" android:paddingRight="10.0dip" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxWidth="64.0dip" android:maxHeight="64.0dip" />
+    <TextView android:ellipsize="marquee" android:gravity="left|center" android:id="@id/news_feed_name" android:maxLines="1" android:layout_weight="1.0" style="@blur.res:style/Blur.PaneAreaTxt" />
+    <TextView android:id="@id/article_count" style="@blur.res:style/Blur.PaneAreaTxt" />
+</LinearLayout>

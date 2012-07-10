@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<PreferenceScreen android:title="@string/fuzzy_setting_label" android:key="parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <CheckBoxPreference android:title="@string/enable_zh_title" android:key="@string/pref_fuzzy_Zh" />
+    <CheckBoxPreference android:title="@string/enable_ch_title" android:key="@string/pref_fuzzy_Ch" />
+    <CheckBoxPreference android:title="@string/enable_sh_title" android:key="@string/pref_fuzzy_Sh" />
+    <CheckBoxPreference android:title="@string/enable_l_title" android:key="@string/pref_fuzzy_L" />
+    <CheckBoxPreference android:title="@string/enable_g_title" android:key="@string/pref_fuzzy_G" />
+    <CheckBoxPreference android:title="@string/enable_r_title" android:key="@string/pref_fuzzy_R" />
+    <CheckBoxPreference android:title="@string/enable_h_title" android:key="@string/pref_fuzzy_H" />
+    <CheckBoxPreference android:title="@string/enable_ang_title" android:key="@string/pref_fuzzy_ang" />
+    <CheckBoxPreference android:title="@string/enable_eng_title" android:key="@string/pref_fuzzy_eng" />
+    <CheckBoxPreference android:title="@string/enable_ing_title" android:key="@string/pref_fuzzy_ing" />
+    <CheckBoxPreference android:title="@string/enable_iang_title" android:key="@string/pref_fuzzy_iang" />
+    <CheckBoxPreference android:title="@string/enable_uang_title" android:key="@string/pref_fuzzy_uang" />
+</PreferenceScreen>

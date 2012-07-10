@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+    <string name="usb_period">.</string>
+    <string name="usb_ok">Aceptar</string>
+    <string name="usb_cancel">Cancelar</string>
+    <string name="usb_3_periods">...</string>
+    <string name="usb_configure">Configurar</string>
+    <string name="usb_toast_connecting_to">Conectando USB para</string>
+    <string name="usb_toast_phone_data_disabled">Los datos del teléfono se deshabilitarán.</string>
+    <string name="usb_no_memory_card_notification_title">No se ha insertado tarjeta de memoria</string>
+    <string name="usb_no_memory_card_notification_message_title">Falta la tarjeta de memoria</string>
+    <string name="usb_no_memory_card_notification_message">Inserta la tarjeta de memoria</string>
+    <string name="usb_selection_notification_title">Conexión USB</string>
+    <string name="usb_selection_notification_message">Seleccionar para administrar la conexión USB</string>
+    <string name="usb_selection_notification_message_for_modem">Tocar para desconectar y volver a habilitar los datos internos del teléfono</string>
+    <string name="usb_connection">Conexión USB</string>
+    <string name="usb_tethering_title">Uso compartido de Internet activo</string>
+    <string name="usb_tethering_message">Cuando la conexión USB se utiliza para el uso compartido de Internet, no se puede cambiar a un modo USB distinto</string>
+    <string name="usb_mode_ngp">Portal telefónico Motorola</string>
+    <string name="usb_mode_mtp">Sincr. Windows Media</string>
+    <string name="usb_mode_msc">Almacenamiento masivo USB</string>
+    <string name="usb_mode_modem">Teléfono como módem</string>
+    <string name="usb_mode_none">Ninguna</string>
+    <string name="usb_toast_insert_card">Inserta tarj. SD para contenido multimedia.</string>
+    <string name="usb_progress_message">Cambiar a</string>
+    <string name="usb_error_message">La conexión USB no se puede cambiar a</string>
+    <string name="default_usb_disk_name">Unidad Flash</string>
+    <string name="usb_device_plug_title">%1$s conectado</string>
+    <string name="usb_device_plug_title_no_name">Dispositivo de almacenamiento USB conectado</string>
+    <string name="usb_device_plug_message">Selecciona para copiar archivos en/desde el dispositivo.</string>
+    <string name="usb_device_checking_title">Preparando para dispositivo de almacenamiento USB</string>
+    <string name="usb_device_checking_message">Comprobando errores...</string>
+    <string name="usb_device_unmountable_title">Dispositivo de almacenamiento USB sin activar</string>
+    <string name="usb_device_unmountable_message">Comprueba el dispositivo de almacenamiento USB.</string>
+    <string name="usb_device_nofs_title">No hay sistema de archivos en el dispositivo de almacenamiento USB</string>
+    <string name="usb_device_nofs_message">Comprueba el dispositivo de almacenamiento USB.</string>
+    <string name="usb_device_bad_removal_dialog_title">Desconectado</string>
+    <string name="usb_device_bad_removal_dialog_message">El dispositivo de almacenamiento USB %1$s no se ha desconectado correctamente.\n\nNo desconectes nunca un dispositivo sin expulsarlo antes.</string>
+    <string name="usb_device_format_dialog_title">Formatear dispositivo de almacenamiento USB</string>
+    <string name="usb_device_format_dialog_message">Pulsa Aceptar para formatear el dispositivo de almacenamiento USB. Se borrarán todos los datos.</string>
+    <string name="usb_device_host_title">Dispositivo de almacenamiento USB</string>
+    <string name="usb_device_host_message">El dispositivo de almacenamiento USB %1$s está conectado en este momento. Puedes copiar archivos en/desde este dispositivo.\n\nDebes expulsarlo antes de desconectarlo.</string>
+    <string name="file_manager">Admin. de archivos</string>
+    <string name="eject">Expulsar</string>
+</resources>

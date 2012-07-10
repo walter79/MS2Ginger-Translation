@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+    <string-array name="show_items">
+        <item>1 天</item>
+        <item>2 天</item>
+        <item>3 天</item>
+        <item>1 周</item>
+        <item>1 个月</item>
+        <item>直到需要内存</item>
+    </string-array>
+</resources>

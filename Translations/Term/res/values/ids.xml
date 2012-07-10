@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+    <item type="id" name="emulatorView">false</item>
+    <item type="id" name="menu_preferences">false</item>
+    <item type="id" name="menu_reset">false</item>
+    <item type="id" name="menu_send_email">false</item>
+    <item type="id" name="menu_special_keys">false</item>
+</resources>

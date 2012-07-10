@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RelativeLayout android:gravity="center_vertical" android:id="@id/add_comment" android:background="@android:drawable/list_selector_background" style="@blur.res:style/Blur.ListItem"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageButton android:id="@id/add_comment_icon" android:background="@blur.res:drawable/control_button_circle_selector" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@blur.res:drawable/ic_control_add" />
+    <TextView android:id="@id/add_comment_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_toRightOf="@id/add_comment_icon" android:layout_alignTop="@id/add_comment_icon" android:layout_alignBottom="@id/add_comment_icon" style="@style/StatusTxt" />
+</RelativeLayout>

@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+    <string-array name="INTRO_USB_CONNECTED_TEXT">
+        <item>目前已透過 USB 連線</item>
+        <item>請按下 [選單] 檢視連線說明</item>
+    </string-array>
+    <string-array name="INTRO_USB_NOT_CONNECTED_TEXT">
+        <item>插入 USB 以啟用\n（僅限 Windows）</item>
+        <item>請按下 [選單] 檢視連線說明</item>
+    </string-array>
+    <string-array name="INTRO_WIFI_CONNECTED_TEXT">
+        <item>目前已透過 Wi-Fi 連線</item>
+        <item>連線設定</item>
+    </string-array>
+    <string-array name="INTRO_WIFI_NOT_CONNECTED_TEXT">
+        <item>輕觸按鈕以存取\nMoto 手機入口網站</item>
+        <item>與 Wi-Fi 連線</item>
+    </string-array>
+    <string-array name="INTRO_USB_WIFI_NOT_CONNECTED_TEXT">
+        <item>插入 USB 以啟動</item>
+        <item>與 Wi-Fi 連線</item>
+    </string-array>
+    <string-array name="INTRO_USB_WIFI_CONNECTED_TEXT">
+        <item>插入 USB 以啟動</item>
+        <item>連線設定</item>
+    </string-array>
+    <string-array name="INTRO_USB_CONNECTED_WIFI_TEXT">
+        <item>將此位址輸入電腦瀏覽器</item>
+        <item></item>
+    </string-array>
+    <string-array name="HELP_LIST">
+        <item>正在透過 USB 連線</item>
+        <item>正在透過 Wi-Fi 連線</item>
+    </string-array>
+    <string-array name="HELP_LIST_SUM">
+        <item>僅限 Windows</item>
+        <item>Windows、Mac 或 Linux</item>
+    </string-array>
+</resources>

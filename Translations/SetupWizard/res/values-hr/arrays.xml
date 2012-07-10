@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+    <string-array name="security_questions">
+        <item>Omiljena hrana?</item>
+        <item>Rodni grad?</item>
+        <item>Ime najboljeg prijatelja iz djetinjstva?</item>
+        <item>Naziv srednje škole?</item>
+    </string-array>
+    <string-array name="passwordStrength">
+        <item>loše</item>
+        <item>solidna</item>
+        <item>dobro</item>
+        <item>jako</item>
+    </string-array>
+</resources>

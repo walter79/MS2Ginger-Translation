@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+    <string name="qsms_app_name">Γρήγορα Sms</string>
+    <string name="qsms_manage_title">Επεξεργασία μηνυμάτων</string>
+    <string name="qsms_add_msg">Μηνύματα</string>
+    <string name="qsms_label_add">Προσθήκη μηνύματος</string>
+    <string name="qsms_label_edit">Επεξεργασία μηνύματος</string>
+    <string name="qsms_add">Προσθήκη</string>
+    <string name="qsms_ok">OΚ</string>
+    <string name="qsms_cancel">Άκυρο</string>
+    <string name="qsms_save">Αποθήκευση</string>
+    <string name="qsms_yes">Ναι</string>
+    <string name="qsms_no">Όχι</string>
+    <string name="text_message_reply">Απάντηση με μήνυμα</string>
+    <string name="write_new">Δημιουργία νέου μηνύματος</string>
+    <string name="no_messages">Δεν υπάρχουν μηνύματα</string>
+    <string name="sms_sent">Το μήνυμα εστάλη</string>
+    <string name="message_deleted">Το μήνυμα διαγράφηκε</string>
+    <string name="phone_locked">Το τηλέφωνο είναι κλειδωμένο</string>
+    <string name="phone_locked_message">Ξεκλειδώστε το τηλέφωνο, για να δημιουργήσετε ένα μήνυμα κειμένου</string>
+    <string name="message_overflow">Δεν μπορούν να υπάρχουν περισσότερα από 20 αποθηκευμένα μηνύματα κειμένου</string>
+    <string name="turn_off_quicksms">Απενεργοποίηση απάντησης μηνύματος κειμένου</string>
+</resources>

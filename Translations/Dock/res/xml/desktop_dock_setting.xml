@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<PreferenceScreen android:title="@string/menu_settings"
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:settings="http://schemas.android.com/apk/res/com.android.settings">
+    <com.motorola.dlauncher.BrightnessPreference android:title="@string/menu_setting_brightness" android:key="brightness" android:dialogTitle="@string/menu_setting_brightness" />
+</PreferenceScreen>

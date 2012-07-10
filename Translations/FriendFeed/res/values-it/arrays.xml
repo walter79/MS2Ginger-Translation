@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+    <string-array name="show_items">
+        <item>1 giorno</item>
+        <item>2 giorni</item>
+        <item>3 giorni</item>
+        <item>1 settimana</item>
+    </string-array>
+    <string-array name="show_updates_for">
+        <item>Tutti i contatti</item>
+        <item>Scegli contatti</item>
+        <item>Scegli gruppi</item>
+        <item>Solo per me</item>
+    </string-array>
+</resources>

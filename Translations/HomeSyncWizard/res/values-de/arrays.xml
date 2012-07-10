@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+    <string-array name="wifi_security_entries">
+        <item>Automatisch</item>
+        <item>Keine</item>
+        <item>WEP</item>
+        <item>WPA/WPA2-PSK</item>
+        <item>802.1x Enterprise</item>
+    </string-array>
+    <string-array name="wifi_security_without_auto_entries">
+        <item>Keine</item>
+        <item>WEP</item>
+        <item>WPA/WPA2-PSK</item>
+        <item>802.1x Enterprise</item>
+    </string-array>
+    <string-array name="wifi_wep_type">
+        <item>Automatisch</item>
+        <item>WEP ASCII</item>
+        <item>WEP hexadezimal</item>
+    </string-array>
+    <string-array name="wifi_sleep_policy_entries">
+        <item>Wenn Display sich abschaltet</item>
+        <item>Niemals, wenn im Netzbetrieb</item>
+        <item>Niemals</item>
+    </string-array>
+    <string-array name="wifi_eap_entries">
+        <item>PEAP</item>
+        <item>TLS</item>
+        <item>TTLS</item>
+    </string-array>
+    <string-array name="wifi_phase2_entries">
+        <item>Keine</item>
+        <item>PAP</item>
+        <item>MSCHAP</item>
+        <item>MSCHAPV2</item>
+        <item>GTC</item>
+    </string-array>
+</resources>

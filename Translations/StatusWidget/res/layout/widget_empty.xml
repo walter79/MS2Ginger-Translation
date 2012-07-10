@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<FrameLayout android:id="@id/widget_root" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <ImageView android:id="@id/widget_icon" android:src="@blur.res:drawable/ic_launcher_social_status" style="@blur.res:style/Blur.WidgetIcon.A" />
+        <TextView android:gravity="top|left|center" android:id="@id/widget_message" android:background="@blur.res:drawable/widget_bubble_left" android:layout_width="fill_parent" android:layout_height="fill_parent" android:maxLines="2" android:layout_weight="1.0" style="@blur.res:style/Blur.WidgetTxt.B" />
+    </LinearLayout>
+    <ImageView android:layout_gravity="bottom|right|center" android:id="@id/widget_unconfig_icon" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="-7.0dip" android:layout_marginBottom="-1.0dip" android:src="@blur.res:drawable/control_btn_add_right" />
+</FrameLayout>

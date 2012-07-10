@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<com.motorola.dlauncher.BubbleTextView style="@style/WorkspaceIcon.Landscape"
+  xmlns:android="http://schemas.android.com/apk/res/android" />

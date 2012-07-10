@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+    <string name="usb_period">.</string>
+    <string name="usb_ok">确定</string>
+    <string name="usb_cancel">取消</string>
+    <string name="usb_3_periods">...</string>
+    <string name="usb_configure">配置</string>
+    <string name="usb_toast_connecting_to">正在连接USB</string>
+    <string name="usb_toast_phone_data_disabled">手机数据将被禁用.</string>
+    <string name="usb_no_memory_card_notification_title">未插入内存卡</string>
+    <string name="usb_no_memory_card_notification_message_title">无内存卡</string>
+    <string name="usb_no_memory_card_notification_message">请插入内存卡</string>
+    <string name="usb_selection_notification_title">USB连接</string>
+    <string name="usb_selection_notification_message">选择管理您的USB连接</string>
+    <string name="usb_selection_notification_message_for_modem">点按断开连接后重新启用内部手机数据</string>
+    <string name="usb_connection">USB连接</string>
+    <string name="usb_tethering_title">互联网共享已开启</string>
+    <string name="usb_tethering_message">当USB连接用于互联网连接共享时,无法切换到其他USB模式</string>
+    <string name="usb_mode_ngp">摩托罗拉手机门户</string>
+    <string name="usb_mode_mtp">Windows 媒体同步</string>
+    <string name="usb_mode_msc">USB大容量存储</string>
+    <string name="usb_mode_modem">将手机用作调制解调器</string>
+    <string name="usb_mode_none">无</string>
+    <string name="usb_toast_insert_card">请插入内存卡使用媒体功能.</string>
+    <string name="usb_progress_message">正在切换至</string>
+    <string name="usb_error_message">USB连接无法更改为</string>
+    <string name="default_usb_disk_name">闪存盘</string>
+    <string name="usb_device_plug_title">%1$s 已插入</string>
+    <string name="usb_device_plug_title_no_name">已插入 USB 存储设备</string>
+    <string name="usb_device_plug_message">选择将文件复制到设备或从设备复制文件。</string>
+    <string name="usb_device_checking_title">正在准备 USB 存储设备</string>
+    <string name="usb_device_checking_message">正在检查错误...</string>
+    <string name="usb_device_unmountable_title">USB 存储设备可卸载</string>
+    <string name="usb_device_unmountable_message">请检查您的 USB 存储设备。</string>
+    <string name="usb_device_nofs_title">USB 存储设备无文件系统</string>
+    <string name="usb_device_nofs_message">请检查您的 USB 存储设备。</string>
+    <string name="usb_device_bad_removal_dialog_title">已断开连接</string>
+    <string name="usb_device_bad_removal_dialog_message">未采用正确方式断开与 USB 存储设备 %1$s 的连接。\n\n您应该在拔出设备前先弹出设备。</string>
+    <string name="usb_device_format_dialog_title">格式化 USB 存储设备</string>
+    <string name="usb_device_format_dialog_message">按确定将格式化 USB 存储设备。所有数据将被清除！</string>
+    <string name="usb_device_host_title">USB 存储设备</string>
+    <string name="usb_device_host_message">当前已插入 USB 存储设备 %1$s。您可以将文件复制到该设备或者从该设备复制文件。\n\n您应该在拔出设备前先弹出设备。</string>
+    <string name="file_manager">文件管理器</string>
+    <string name="eject">弹出</string>
+</resources>

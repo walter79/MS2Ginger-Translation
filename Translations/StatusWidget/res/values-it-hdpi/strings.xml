@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+    <string name="skip_blur_title_2x1">Configura account personale</string>
+    <string name="skip_blur_title_3x1">Configura account MOTOBLUR</string>
+    <string name="skip_blur_title_3x2">Configura account MOTOBLUR</string>
+    <string name="skip_blur_title">Configura account MOTOBLUR</string>
+    <string name="skip_blur_subtitle">Tocca qui per completare la configurazione del dispositivo</string>
+</resources>

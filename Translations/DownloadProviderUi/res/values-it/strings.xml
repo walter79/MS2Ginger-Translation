@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+    <string name="download_menu_ringtone">Imposta come suoneria</string>
+    <string name="download_menu_wallpaper">Imposta come</string>
+    <string name="ringtone_set">\"%s\" impostato come suoneria del telefono</string>
+    <string name="error_occured">Errore. Riprova.</string>
+    <string name="dialog_download_not_acceptable">Download impossibile. Contenuto non supportato.</string>
+    <string name="download_unsupported">Non supportato</string>
+    <string name="app_label">Download</string>
+    <string name="download_title">Download</string>
+    <string name="no_downloads">Nessun download.</string>
+    <string name="missing_title">&lt;Sconosciuto></string>
+    <string name="download_menu_sort_by_size">Ordina per dimensione</string>
+    <string name="download_menu_sort_by_date">Ordina per data/ora</string>
+    <string name="download_queued">In coda</string>
+    <string name="download_running">In corso</string>
+    <string name="download_success">Completato</string>
+    <string name="download_error">Non riuscito</string>
+    <string name="dialog_title_not_available">File non disponibile</string>
+    <string name="dialog_failed_body">Questo download non è riuscito.</string>
+    <string name="dialog_title_queued_body">File non ancora disponibile</string>
+    <string name="dialog_queued_body">Questo file è in coda per un futuro download.</string>
+    <string name="dialog_file_missing_body">Impossibile trovare il file scaricato.</string>
+    <string name="dialog_insufficient_space_on_external">Impossibile completare il download. Spazio insufficiente nella memoria esterna.</string>
+    <string name="dialog_insufficient_space_on_cache">Impossibile completare il download. Spazio insufficiente nella memoria interna dei download.</string>
+    <string name="dialog_cannot_resume">Download interrotto. Impossibile ripristinarlo.</string>
+    <string name="dialog_file_already_exists">Impossibile eseguire il download. File di destinazione già esistente.</string>
+    <string name="dialog_media_not_found">Impossibile eseguire il download. Il supporto esterno non è disponibile.</string>
+    <string name="download_no_application_title">Impossibile aprire il file</string>
+    <string name="remove_download">Rimuovi</string>
+    <string name="delete_download">Elimina</string>
+    <string name="keep_queued_download">Mantieni</string>
+    <string name="cancel_running_download">Annulla</string>
+    <string name="retry_download">Riprova</string>
+    <string name="deselect_all">Annulla selezione</string>
+</resources>

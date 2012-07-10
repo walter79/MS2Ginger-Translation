@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+    <string name="app_name">Global Unplug</string>
+    <string name="global_unplug_t">Disconnected</string>
+    <string name="global_unplug">Unplug your charger from the outlet to conserve energy.</string>
+</resources>

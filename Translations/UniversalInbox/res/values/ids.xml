@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+    <item type="id" name="list_container">false</item>
+    <item type="id" name="button_bar_stub">false</item>
+    <item type="id" name="button_bar">false</item>
+    <item type="id" name="empty">false</item>
+    <item type="id" name="list_header">false</item>
+    <item type="id" name="header_shadow">false</item>
+</resources>

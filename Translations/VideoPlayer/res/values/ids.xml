@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+    <item type="id" name="root_layout">false</item>
+    <item type="id" name="view_layout">false</item>
+    <item type="id" name="progress_indicator">false</item>
+    <item type="id" name="video_controller">false</item>
+    <item type="id" name="hdmi_button">false</item>
+    <item type="id" name="controller_bar">false</item>
+    <item type="id" name="pause">false</item>
+    <item type="id" name="time_position">false</item>
+    <item type="id" name="progressbar1">false</item>
+    <item type="id" name="time_duration">false</item>
+    <item type="id" name="hdmi_controls">false</item>
+    <item type="id" name="actual_size">false</item>
+    <item type="id" name="fit_to_screen">false</item>
+    <item type="id" name="share">false</item>
+    <item type="id" name="edit">false</item>
+    <item type="id" name="tags">false</item>
+    <item type="id" name="advanced_edit">false</item>
+    <item type="id" name="info">false</item>
+    <item type="id" name="settings">false</item>
+</resources>

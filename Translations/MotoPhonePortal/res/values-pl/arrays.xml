@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+    <string-array name="INTRO_USB_CONNECTED_TEXT">
+        <item>Aktualnie podłączony przy użyciu USB</item>
+        <item>Naciśnij \"Menu\", aby wyświetlić pomoc dla połączenia</item>
+    </string-array>
+    <string-array name="INTRO_USB_NOT_CONNECTED_TEXT">
+        <item>Podłącz do USB, aby uruchomić\n(tylko Windows)</item>
+        <item>Naciśnij \"Menu\", aby wyświetlić pomoc dla połączenia</item>
+    </string-array>
+    <string-array name="INTRO_WIFI_CONNECTED_TEXT">
+        <item>Aktualnie podłączony przy użyciu Wi-Fi</item>
+        <item>Ustawienia połączenia</item>
+    </string-array>
+    <string-array name="INTRO_WIFI_NOT_CONNECTED_TEXT">
+        <item>Dotknij przycisku, aby otworzyć\nportal telefoniczny Moto</item>
+        <item>Podłącz przy użyciu Wi-Fi</item>
+    </string-array>
+    <string-array name="INTRO_USB_WIFI_NOT_CONNECTED_TEXT">
+        <item>Podłącz do USB, aby uruchomić</item>
+        <item>Podłącz przy użyciu Wi-Fi</item>
+    </string-array>
+    <string-array name="INTRO_USB_WIFI_CONNECTED_TEXT">
+        <item>Podłącz do USB, aby uruchomić</item>
+        <item>Ustawienia połączenia</item>
+    </string-array>
+    <string-array name="INTRO_USB_CONNECTED_WIFI_TEXT">
+        <item>Wpisz ten adres w przeglądarce na komputerze</item>
+        <item></item>
+    </string-array>
+    <string-array name="HELP_LIST">
+        <item>Łączenie przy użyciu USB</item>
+        <item>Łączenie przy użyciu Wi-Fi</item>
+    </string-array>
+    <string-array name="HELP_LIST_SUM">
+        <item>Tylko Windows</item>
+        <item>Windows, Mac lub Linux</item>
+    </string-array>
+</resources>

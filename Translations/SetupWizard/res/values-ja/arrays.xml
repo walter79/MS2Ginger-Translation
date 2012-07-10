@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+    <string-array name="security_questions">
+        <item>好きな食べ物は？</item>
+        <item>出身地は？</item>
+        <item>子供のころの親友の名前は？</item>
+        <item>出身高校名は？</item>
+    </string-array>
+    <string-array name="passwordStrength">
+        <item>弱</item>
+        <item>中</item>
+        <item>ほぼ安全</item>
+        <item>安全</item>
+    </string-array>
+</resources>

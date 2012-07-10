@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_weight="1.0"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:layout_gravity="center_horizontal" android:id="@id/segment_icon" android:paddingTop="@dimen/padding_above_and_below_forecast_icons" android:paddingBottom="@dimen/padding_above_and_below_forecast_icons" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+    <LinearLayout android:gravity="center" android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content">
+        <TextView android:id="@id/segment_timeperiod" style="@style/WeatherForecastTxt.Segments" />
+        <View android:layout_width="5.0sp" android:layout_height="1.0dip" android:layout_weight="1.0" />
+        <TextView android:id="@id/segment_highlow" style="@style/WeatherForecastTxt.Segments" />
+    </LinearLayout>
+</LinearLayout>

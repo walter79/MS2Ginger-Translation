@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+    <dimen name="screen_height_compensation">54.0px</dimen>
+    <dimen name="LandStaticTextViewWidth">89.0px</dimen>
+    <dimen name="LandCandidateTextViewGroupWidth">445.0px</dimen>
+    <dimen name="LandPredictionTextViewGroupWidth">534.0px</dimen>
+    <dimen name="LandCandidateGroup2Button2X">89.0px</dimen>
+    <dimen name="LandCandidateGroup2Button3X">178.0px</dimen>
+    <dimen name="LandCandidateGroup2Button4X">267.0px</dimen>
+    <dimen name="LandCandidateGroup2Button5X">356.0px</dimen>
+    <dimen name="LandPredictionGroup2Button6X">445.0px</dimen>
+    <dimen name="LandEnglisCompletionGroupWidth">445.0px</dimen>
+    <dimen name="Lan_screen_width">800.0px</dimen>
+    <dimen name="Lan_wm_line2_left">534.0px</dimen>
+    <dimen name="Lan_fun_button_width">89.0px</dimen>
+    <dimen name="Lan_fun_button_width_2">88.0px</dimen>
+    <dimen name="Lan_fun_1_X">534.0px</dimen>
+</resources>

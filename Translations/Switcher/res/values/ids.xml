@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+    <item type="id" name="button_reset_dic">false</item>
+    <item type="id" name="view_hw_setup">false</item>
+    <item type="id" name="textview_hw_color">false</item>
+    <item type="id" name="button_color_1">false</item>
+    <item type="id" name="button_color_2">false</item>
+    <item type="id" name="button_color_3">false</item>
+    <item type="id" name="button_color_4">false</item>
+    <item type="id" name="button_color_5">false</item>
+    <item type="id" name="button_color_6">false</item>
+    <item type="id" name="button_color_7">false</item>
+    <item type="id" name="textview_hw_brush">false</item>
+    <item type="id" name="button_brush_1">false</item>
+    <item type="id" name="button_brush_2">false</item>
+    <item type="id" name="button_brush_3">false</item>
+    <item type="id" name="button_brush_4">false</item>
+    <item type="id" name="textview_hw_speed">false</item>
+    <item type="id" name="textview_slow">false</item>
+    <item type="id" name="textview_fast">false</item>
+    <item type="id" name="seekbar_hw_speed">false</item>
+    <item type="id" name="textview_water_mark">false</item>
+    <item type="id" name="checkbox_water_mark">false</item>
+    <item type="id" name="textview_gesture_shortcuts">false</item>
+    <item type="id" name="TextBackspace">false</item>
+    <item type="id" name="TextSpace">false</item>
+    <item type="id" name="TextEnter">false</item>
+    <item type="id" name="settext">false</item>
+    <item type="id" name="scrollview">false</item>
+    <item type="id" name="checkbox">false</item>
+    <item type="id" name="button">false</item>
+</resources>

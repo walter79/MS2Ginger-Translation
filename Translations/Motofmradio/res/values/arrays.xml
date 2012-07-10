@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+    <string-array name="fm_region_entries">
+        <item>Africa</item>
+        <item>Asia</item>
+        <item>Asia - Indonesia</item>
+        <item>Asia - Japan</item>
+        <item>Asia - South Korea</item>
+        <item>Asia - Thailand</item>
+        <item>Australia</item>
+        <item>Europe</item>
+        <item>Europe - Germany</item>
+        <item>Europe - Greece</item>
+        <item>Europe - Italy</item>
+        <item>Europe - Switzerland</item>
+        <item>India</item>
+        <item>Latin America</item>
+        <item>Middle East</item>
+        <item>Russia</item>
+        <item>USA</item>
+    </string-array>
+    <string-array name="fm_region_entry_values">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+        <item>8</item>
+        <item>9</item>
+        <item>10</item>
+        <item>11</item>
+        <item>12</item>
+        <item>13</item>
+        <item>14</item>
+        <item>15</item>
+        <item>16</item>
+    </string-array>
+</resources>

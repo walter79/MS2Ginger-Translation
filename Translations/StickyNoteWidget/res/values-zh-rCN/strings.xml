@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+    <string name="app_name">便签</string>
+    <string name="widget_body_hint">点按以编辑…</string>
+    <string name="sticky_note">便签</string>
+    <string name="widget_description">在主屏幕上保存快速小便签</string>
+    <string name="title">标题</string>
+    <string name="note">备注</string>
+    <string name="menu_discard">舍弃更改</string>
+    <string name="menu_save">保存</string>
+    <string name="menu_edit">编辑</string>
+    <string name="menu_share">共享</string>
+    <string name="select">选择</string>
+    <string name="widget_load_error">便签出错。请删除。</string>
+    <string name="widget_body_elipse">...</string>
+    <string name="share_note">分享便签</string>
+    <string name="cannot_share">共享便签时出错!</string>
+</resources>

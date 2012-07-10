@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+    <string name="app_name">Berichten</string>
+    <string name="loading_widget_name">BERICHTEN</string>
+    <string name="settings_title">Widget Berichten</string>
+    <string name="checking">Controleren op nieuwe berichten...</string>
+    <string name="checking_short">Controleren...</string>
+    <string name="delete">Verwijderen</string>
+    <string name="go_to_messages">Naar Berichten</string>
+    <string name="go_to_inbox">Naar postvak IN</string>
+    <string name="no_messages">Geen recente ongeziene berichten</string>
+    <string name="no_messages_short">Geen recente</string>
+    <string name="select_account">Account selecteren</string>
+    <string name="no_subject">(Geen onderwerp)</string>
+    <string name="reply">Antwoord</string>
+    <string name="reply_all">Allen antwoord</string>
+    <string name="show_items">Items weergeven voor</string>
+    <string name="services">Services</string>
+    <string name="all_services">Alle services</string>
+    <string name="subject_re_prefix">Re:</string>
+    <string name="text_message">Sms/mms</string>
+    <string name="widget_name">Widgetnaam</string>
+    <string name="widget_description">De allerlaatste berichten van vrienden, familie en collega\'s ophalen</string>
+    <string name="msg_did_you_know_title">Messaging widgets</string>
+    <string name="msg_did_you_know_info">Messaging widgets tonen alle laatste e-mails, sms/mms-berichten en sociale netwerkberichten in een enkele widget. \n\nU kunt in elke widget wijzigen wat er wordt weergegeven. Druk op de menutoets en kies Instellingen.</string>
+    <string name="message_download_failed_body">Selecteer bericht en probeer het opnieuw.</string>
+    <string name="message_widget_touch_to_view">Raak aan om bericht weer te geven.</string>
+    <string name="message_not_available_touch_to_read">Berichtvoorbeeld niet beschikbaar.\nTik hier om het bericht te lezen.</string>
+    <string name="message_thread_information">%1$d van %2$d ongelezen</string>
+    <string name="view_message">Bericht weergeven</string>
+    <string name="mark_read">Markeren als gelezen</string>
+    <string name="mark_unread">Markeren als ongelezen</string>
+    <string name="contact_info">Contactinfo</string>
+    <string name="inbox">Postvak IN</string>
+    <string name="compose">Opstellen</string>
+    <string name="more">Meer</string>
+    <string name="hide">Verbergen</string>
+</resources>

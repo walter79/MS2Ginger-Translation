@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+    <string name="hello">Hello World, MediaSyncAct</string>
+    <string name="app_name">MediaSync</string>
+    <string name="mtpconnecting">MediaSync verbonden</string>
+    <string name="unmount_ticker">Geen SD-kaart</string>
+    <string name="unmount_notify_title">MTP-melding</string>
+    <string name="unmount_notify_detail">Plaats een geheugenkaart voor uw media.</string>
+    <string name="unmount_notify">unmount_notify</string>
+    <string name="notification_sent">MTP ontvangen: %1$s</string>
+    <string name="notification_sent_complete">100% voltooid</string>
+    <string name="mtp_connected_title">MTP verbonden</string>
+    <string name="mtp_connected_body">MTP is verbonden</string>
+    <string name="unmount_notify_detail_external">Kan bestanden niet synchroniseren. SD-kaart is niet beschikbaar</string>
+    <string name="unmount_notify_detail_internal">Kan bestanden niet synchroniseren. Intern telefoongeheugen is niet beschikbaar</string>
+    <string name="unmount_notify_detail_auto">Kan bestanden niet synchroniseren. SD-kaart en intern telefoongeheugen zijn niet beschikbaar</string>
+</resources>

@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Products
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <Manufacturer name="motorola">
+        <Model name="XT806" alias="Qilin" resolution="854x480" touch="resistive" vibrator="linear" />
+        <Model name="XT301" alias="Ciena" resolution="320x240" touch="capacitive" vibrator="rotary" />
+        <Model name="XT888" alias="Swordfish" resolution="960x540" touch="capacitive" vibrator="rotary" />
+        <Model name="ME860" alias="Olympus GC" resolution="960x540" touch="capacitive" vibrator="rotary" />
+        <Model name="MT720" alias="Snapper TD" resolution="854x480" touch="resistive" vibrator="linear" />
+        <Model name="MT810" alias="Beihai" resolution="854x480" touch="resistive" vibrator="linear" />
+        <Model name="A1680" alias="Lucky Edge" resolution="400x240" touch="resistive" vibrator="linear" />
+        <Model name="DROID PRO" alias="Venus2" resolution="480x320" touch="capacitive" vibrator="linear" candybarShowIME="2" />
+        <Model name="MT620" alias="candy" resolution="480x320" touch="capacitive" vibrator="linear" candybarShowIME="2" />
+        <Model name="XT311" alias="DominoQ" resolution="320X240" touch="capacitive" vibrator="linear" candybarShowIME="2" />
+        <Model name="XT312" alias="DominoQ" resolution="320X240" touch="capacitive" vibrator="linear" candybarShowIME="2" />
+        <Model name="XT316" alias="DominoQ" resolution="320X240" touch="capacitive" vibrator="linear" candybarShowIME="2" />
+        <Model name="XT317" alias="DominoQ" resolution="320X240" touch="capacitive" vibrator="linear" candybarShowIME="2" />
+        <Model name="ME632" alias="Elway" resolution="VGA" touch="capacitive" vibrator="linear" candybarShowIME="2" />
+        <Model name="MB632" alias="Elway" resolution="VGA" touch="capacitive" vibrator="linear" candybarShowIME="2" />
+    </Manufacturer>
+    <Manufacturer name="E28">
+        <Model name="lucky" alias="Lucky 3G" resolution="800x480" touch="resistive" vibrator="linear" />
+    </Manufacturer>
+    <Manufacturer name="FIH">
+        <Model name="Motorola-XT502" alias="Greco" resolution="480x320" touch="capacitive" vibrator="linear" />
+        <Model name="Motorola-XT500" alias="Greco" resolution="480x320" touch="capacitive" vibrator="linear" />
+    </Manufacturer>
+    <Manufacturer name="IEC">
+        <Model name="A1280" alias="Lucky Edge" resolution="400x240" touch="capacitive" vibrator="linear" />
+    </Manufacturer>
+    <Manufacturer name="Gigabyte">
+        <Model name="Domino" alias="Domino" resolution="400x240" touch="capacitive" vibrator="linear" />
+    </Manufacturer>
+</Products>

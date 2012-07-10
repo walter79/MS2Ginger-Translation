@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+    <string name="yes">Ja</string>
+    <string name="no">Nee</string>
+    <string name="ok">OK</string>
+    <string name="please_wait">Een ogenblik geduld</string>
+    <string name="widget_title">Fotolijstje Plus</string>
+    <string name="widget_description">Diavoorstelling geven van uw recente foto\'s en gemakkelijk meer opnamen maken</string>
+    <string name="error_dialog">Widget-conflict</string>
+    <string name="view_label">Afbeelding weergeven</string>
+    <string name="error_description">Widget-conflict. Aan het startscherm kan slechts één Diavoorstelling-widget worden toegevoegd</string>
+    <string name="app_name">Diavoorstelling met foto\'s</string>
+    <string name="gallery_photo_set_failed">De geselecteerde afbeelding kan niet worden weergegeven</string>
+    <string name="camera_photo_set_failed">De laatst vastgelegde afbeelding kan niet worden weergegeven</string>
+</resources>

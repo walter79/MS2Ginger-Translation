@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+    <string name="permlab_writeGservices">Εγγραφή ρυθμίσεων Gservices.</string>
+    <string name="permdesc_writeGservices">Επιτρέπει στην εφαρμογή την αλλαγή των ρυθμίσεων στις υπηρεσίες Gservices.</string>
+    <string name="permlab_tcmdLocal">Χρήση εντολών δοκιμής</string>
+    <string name="permdesc_tcmdLocal">Χρήση εντολών δοκιμής</string>
+    <string name="settings_storage">Αποθ/κός χώρος ρυθμίσεων</string>
+</resources>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<merge
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:ff="http://schemas.android.com/apk/res/com.motorola.blur.friendfeed">
+    <ViewStub android:id="@id/badge_stub" android:layout="@layout/social_badge" android:inflatedId="@id/item_badge" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+    <RelativeLayout android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <com.motorola.blur.friendfeed.MediaContentView android:id="@id/media_content_view" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" ff:detailView="false" ff:imageSize="thumb" ff:maxImageDimension="@dimen/card_photo_thumb_max_width" ff:resizeImageIfNeeded="true" />
+        <com.motorola.blur.friendfeed.TitleContentView android:id="@id/title_content_normal" android:paddingLeft="@dimen/card_content_pad_h" android:paddingTop="15.0dip" android:paddingRight="@dimen/card_content_pad_h" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_toRightOf="@id/media_content_view" ff:detailView="false" />
+    </RelativeLayout>
+    <ImageView android:id="@id/divider" android:visibility="gone" style="@style/CardItemDivider" />
+    <com.motorola.blur.home.widget.CardTextView android:ellipsize="none" android:id="@id/content_text" android:paddingLeft="@dimen/card_content_pad_h" android:paddingRight="@dimen/card_content_pad_h" android:layout_width="fill_parent" android:layout_height="wrap_content" android:singleLine="false" style="@style/CardTxt" />
+    <ViewStub android:layout_gravity="center_horizontal" android:id="@id/inline_btn_stub" android:layout="@layout/feed_item_inline_btns" android:inflatedId="@id/inline_button_layout" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="10.0dip" android:layout_marginBottom="10.0dip" />
+    <include android:id="@id/num_retweets" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" layout="@layout/card_num_retweets" />
+    <include android:id="@id/num_likes" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" layout="@layout/card_num_likes" />
+</merge>

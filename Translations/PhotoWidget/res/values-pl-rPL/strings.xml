@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+    <string name="yes">Tak</string>
+    <string name="no">Nie</string>
+    <string name="ok">OK</string>
+    <string name="please_wait">Czekaj...</string>
+    <string name="widget_title">Ramka zdjęcia Plus</string>
+    <string name="widget_description">Wyświetla pokaz slajdów ostatnio zrobionych zdjęć i ułatwia robienie kolejnych zdjęć</string>
+    <string name="error_dialog">Konflikt widżetów</string>
+    <string name="view_label">Pokaż zdjęcie</string>
+    <string name="error_description">Konflikt widżetów: Na ekranie głównym można dodać tylko jeden widżet pokazu slajdów zdjęć</string>
+    <string name="app_name">Pokaz slajdów zdjęć</string>
+    <string name="gallery_photo_set_failed">Nie da się wyświetlić wybranego zdjęcia</string>
+    <string name="camera_photo_set_failed">Nie da się wyświetlić ostatnio zrobionego zdjęcia</string>
+</resources>

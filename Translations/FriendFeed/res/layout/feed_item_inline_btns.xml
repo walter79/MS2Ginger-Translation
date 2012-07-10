@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RelativeLayout android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include layout="@layout/divider" />
+    <LinearLayout android:id="@id/inline_buttons" style="@style/BtnLayout">
+        <Spinner android:id="@id/inline_spinner" android:layout_width="wrap_content" android:layout_height="wrap_content" android:prompt="@string/select" android:layout_weight="1.0" style="@style/SimpleBtn" />
+        <Button android:id="@id/inline_btn_1" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_weight="1.0" android:layout_toRightOf="@id/inline_spinner" style="@style/SimpleBtn" />
+    </LinearLayout>
+</RelativeLayout>

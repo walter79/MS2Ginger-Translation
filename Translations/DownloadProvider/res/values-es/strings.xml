@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+    <string name="notification_download_not_acceptable">Descarga imposible. Contenido no admitido.</string>
+    <string name="notification_dwonload_wait_network">Se necesita red para la descarga</string>
+    <string name="app_label">Administrador de descargas</string>
+    <string name="permlab_downloadManager">Acceso al administrador de descargas</string>
+    <string name="permdesc_downloadManager">Permite que la aplicación acceda al administrador de descargas y lo utilice para descargar archivos. Las aplicaciones malintencionadas pueden utilizar este permiso para provocar daños en las descargas y acceder a información privada.</string>
+    <string name="permlab_downloadManagerAdvanced">Funciones avanzadas del administrador de descargas</string>
+    <string name="permdesc_downloadManagerAdvanced">Permite que la aplicación acceda a las funciones avanzadas del administrador de descargas. Las aplicaciones malintencionadas pueden utilizar este permiso para provocar daños en las descargas y acceder a información privada.</string>
+    <string name="permlab_downloadCompletedIntent">Envío de notificaciones de descarga</string>
+    <string name="permdesc_downloadCompletedIntent">Permite que la aplicación envíe notificaciones sobre descargas completadas. Las aplicaciones malintencionadas pueden utilizar este permiso para confundir a otras aplicaciones que descarguen archivos.</string>
+    <string name="permlab_seeAllExternal">Ver todas las descargas en tarjeta SD</string>
+    <string name="permdesc_seeAllExternal">Permite que la aplicación vea todas las descargas en la tarjeta SD, independientemente de la aplicación que las haya descargado.</string>
+    <string name="permlab_downloadCacheNonPurgeable">Reservar espacio en caché de descargas</string>
+    <string name="permdesc_downloadCacheNonPurgeable">Permite que la aplicación descargue archivos en la caché de descargas que no se pueden eliminar de forma automática cuando falta espacio en el administrador de descargas.</string>
+    <string name="permlab_downloadWithoutNotification">descargar archivos sin notificación</string>
+    <string name="permdesc_downloadWithoutNotification">Permite que la aplicación descargue archivos a través del administrador de descargas sin mostrar notificación al usuario.</string>
+    <string name="permlab_accessAllDownloads">Acceso a todas las descargas del sistema</string>
+    <string name="permdesc_accessAllDownloads">Permite que la aplicación vea y modifique todas las acciones iniciadas por cualquier aplicación del sistema.</string>
+    <string name="download_unknown_title">&lt;Sin título></string>
+    <string name="notification_filename_separator">,\u0020</string>
+    <string name="notification_filename_extras">\u0020y %d más</string>
+    <string name="notification_download_complete">Descarga completada</string>
+    <string name="notification_download_failed">Descarga incorrecta</string>
+    <string name="notification_need_wifi_for_size">Tamaño descarga requiere Wi-Fi</string>
+    <string name="wifi_required_title">Descarga demasiado grande para red móvil</string>
+    <string name="wifi_required_body">Para completar esta descarga de %s , necesitas una conexión Wi-Fi. \n\nSelecciona %s para iniciar la descarga la próxima vez que te conectes a una red Wi-Fi.</string>
+    <string name="wifi_recommended_title">¿Poner en cola para descargar en red WiFi?</string>
+    <string name="wifi_recommended_body">Si descargas %s, la batería puede durar menos o tu operador te puede cobrar por un exceso de datos.\n\n Selecciona %s para descargar al conectarte a la red Wi-Fi.</string>
+    <string name="button_queue_for_wifi">Poner en cola</string>
+    <string name="button_cancel_download">Cancelar</string>
+    <string name="button_start_now">Empezar ahora</string>
+</resources>

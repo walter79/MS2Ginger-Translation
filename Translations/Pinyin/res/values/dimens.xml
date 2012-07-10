@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+    <dimen name="candview_background_padding">0.0px</dimen>
+    <dimen name="indicator_balloon_text_size">24.0sp</dimen>
+    <dimen name="candidate_view_padding_left">8.0px</dimen>
+    <dimen name="candidate_view_padding_right">8.0px</dimen>
+    <dimen name="candidate_view_padding_top">9.0px</dimen>
+    <dimen name="candidate_view_padding_bottom">10.0px</dimen>
+    <dimen name="min_candidate_item_width">32.0px</dimen>
+</resources>

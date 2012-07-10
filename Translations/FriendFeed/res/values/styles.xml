@@ -1,0 +1,256 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+    <style name="Sleeve">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">fill_parent</item>
+    </style>
+    <style name="Sleeve.Image" parent="@style/Sleeve">
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:scaleType">centerCrop</item>
+        <item name="android:adjustViewBounds">false</item>
+    </style>
+    <style name="Sleeve.Image.Vertical" parent="@style/Sleeve.Image">
+        <item name="android:paddingLeft">@dimen/vertical_img_pad_left</item>
+        <item name="android:paddingTop">@dimen/vertical_img_pad_top</item>
+        <item name="android:paddingRight">@dimen/vertical_img_pad_right</item>
+    </style>
+    <style name="Sleeve.Image.Horizontal" parent="@style/Sleeve.Image">
+        <item name="android:paddingLeft">@dimen/horizontal_img_pad_left</item>
+        <item name="android:paddingTop">@dimen/horizontal_img_pad_top</item>
+        <item name="android:paddingBottom">@dimen/horizontal_img_pad_bottom</item>
+    </style>
+    <style name="Content">
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">fill_parent</item>
+    </style>
+    <style name="Content.Vertical" parent="@style/Content">
+        <item name="android:paddingLeft">@dimen/content_pad_left</item>
+        <item name="android:paddingTop">@dimen/content_pad_top</item>
+        <item name="android:paddingRight">@dimen/content_pad_right</item>
+        <item name="android:paddingBottom">@dimen/content_pad_bottom</item>
+        <item name="android:layout_marginTop">@dimen/shadow_offset</item>
+    </style>
+    <style name="Content.Horizontal" parent="@style/Content">
+        <item name="android:paddingTop">@dimen/content_pad_top</item>
+        <item name="android:paddingRight">@dimen/content_pad_right</item>
+        <item name="android:paddingBottom">@dimen/content_pad_bottom</item>
+    </style>
+    <style name="AddUnconfigured">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginRight">@dimen/add_icon_right_margin</item>
+        <item name="android:layout_marginBottom">@dimen/add_icon_bottom_margin</item>
+        <item name="android:layout_alignParentRight">true</item>
+        <item name="android:layout_alignParentBottom">true</item>
+    </style>
+    <style name="AddUnconfigured.Small" parent="@style/AddUnconfigured">
+        <item name="android:src">@blur.res:drawable/widget_add_small</item>
+    </style>
+    <style name="AddUnconfigured.Medium" parent="@style/AddUnconfigured">
+        <item name="android:src">@blur.res:drawable/widget_add_medium</item>
+    </style>
+    <style name="AddUnconfigured.Large" parent="@style/AddUnconfigured">
+        <item name="android:src">@blur.res:drawable/widget_add_large</item>
+    </style>
+    <style name="EmptyMessage" parent="@blur.res:style/Widget.Text.Body">
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">fill_parent</item>
+        <item name="android:text">@string/no_unseen</item>
+    </style>
+    <style name="EmptyMessage.Vertical" parent="@style/EmptyMessage">
+        <item name="android:gravity">center</item>
+        <item name="android:paddingLeft">@dimen/content_pad_left</item>
+        <item name="android:paddingRight">@dimen/content_pad_right</item>
+    </style>
+    <style name="EmptyMessage.Horizontal" parent="@style/EmptyMessage">
+        <item name="android:gravity">center</item>
+        <item name="android:paddingTop">@dimen/content_pad_top</item>
+        <item name="android:paddingRight">@dimen/content_pad_right</item>
+        <item name="android:paddingBottom">@dimen/content_pad_bottom</item>
+    </style>
+    <style name="WidgetProgress" parent="@blur.res:style/Widget.Progress">
+        <item name="android:layout_alignParentRight">true</item>
+        <item name="android:layout_alignParentBottom">true</item>
+    </style>
+    <style name="WidgetName">
+        <item name="android:layout_gravity">center</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+    <style name="WidgetName.Vertical" parent="@style/WidgetName">
+        <item name="android:layout_marginTop">@dimen/shadow_offset</item>
+    </style>
+    <style name="WidgetName.Horizontal" parent="@style/WidgetName">
+        <item name="android:layout_marginLeft">@dimen/shadow_offset</item>
+    </style>
+    <style name="WidgetNameText" parent="@blur.res:style/Blur.WidgetTxt.Name">
+        <item name="android:textSize">17.0sp</item>
+        <item name="android:singleLine">false</item>
+        <item name="android:maxLength">20</item>
+    </style>
+    <style name="AddMessage" parent="@blur.res:style/Widget.Text.Body">
+        <item name="android:gravity">center</item>
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">fill_parent</item>
+    </style>
+    <style name="AddMessage.Horizontal" parent="@style/AddMessage">
+        <item name="android:paddingRight">@dimen/content_pad_right</item>
+        <item name="android:layout_marginTop">-24.0dip</item>
+    </style>
+    <style name="AddMessage.Vertical" parent="@style/AddMessage">
+        <item name="android:paddingLeft">@dimen/content_pad_left</item>
+        <item name="android:paddingRight">@dimen/content_pad_right</item>
+        <item name="android:layout_marginTop">-40.0dip</item>
+    </style>
+    <style name="Theme.Light.NoGradientRid" parent="@android:style/Theme.Light">
+        <item name="android:windowContentOverlay">@null</item>
+    </style>
+    <style name="Title">
+        <item name="android:textSize">18.0sp</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+    <style name="Label">
+        <item name="android:textStyle">bold</item>
+    </style>
+    <style name="CommentArea" parent="@blur.res:style/Blur.TxtImgContainer">
+        <item name="android:textColor">@blur.res:color/white</item>
+        <item name="android:background">@drawable/caption_bg</item>
+        <item name="android:padding">10.0dip</item>
+    </style>
+    <style name="TitleBar" parent="@android:style/TextAppearance.WindowTitle">
+        <item name="android:gravity">left|center</item>
+        <item name="android:layout_gravity">left|center</item>
+        <item name="android:background">@android:drawable/title_bar</item>
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+    <style name="TitleBarDropShadow">
+        <item name="android:background">@android:drawable/title_bar_shadow</item>
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">6.0dip</item>
+    </style>
+    <style name="BtnLayout">
+        <item name="android:gravity">center_vertical</item>
+        <item name="android:paddingLeft">10.0dip</item>
+        <item name="android:paddingTop">10.0dip</item>
+        <item name="android:paddingRight">10.0dip</item>
+        <item name="android:paddingBottom">5.0dip</item>
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginRight">5.0dip</item>
+    </style>
+    <style name="SimpleBtn">
+        <item name="android:minHeight">48.0dip</item>
+    </style>
+    <style name="StatusTxt">
+        <item name="android:textSize">16.0sp</item>
+        <item name="android:typeface">sans</item>
+        <item name="android:gravity">left|center</item>
+        <item name="android:singleLine">false</item>
+    </style>
+    <style name="LikeTxt" parent="@blur.res:style/Blur.ListItem">
+        <item name="android:textSize">16.0sp</item>
+        <item name="android:typeface">sans</item>
+        <item name="android:singleLine">false</item>
+    </style>
+    <style name="DateTimeStampTxt">
+        <item name="android:textSize">14.0sp</item>
+        <item name="android:typeface">sans</item>
+        <item name="android:gravity">right|center</item>
+        <item name="android:singleLine">true</item>
+    </style>
+    <style name="Widget.Setting" parent="@android:style/Widget">
+        <item name="android:paddingLeft">@blur.res:dimen/content_area_left_padding</item>
+        <item name="android:paddingTop">@blur.res:dimen/content_area_top_padding</item>
+        <item name="android:paddingRight">@blur.res:dimen/content_area_right_padding</item>
+        <item name="android:paddingBottom">@blur.res:dimen/content_area_bottom_padding</item>
+    </style>
+    <style name="ItemDivider">
+        <item name="android:background">@android:drawable/divider_horizontal_bright</item>
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginTop">8.0dip</item>
+        <item name="android:layout_marginBottom">8.0dip</item>
+    </style>
+    <style name="CommentListItemTxt">
+        <item name="android:textSize">20.0sp</item>
+        <item name="android:typeface">sans</item>
+        <item name="android:singleLine">true</item>
+    </style>
+    <style name="CommentListItemTxt.A" parent="@style/CommentListItemTxt">
+        <item name="android:textSize">18.0sp</item>
+    </style>
+    <style name="CommentListItemTxt.B" parent="@style/CommentListItemTxt">
+        <item name="android:textSize">16.0sp</item>
+        <item name="android:singleLine">false</item>
+    </style>
+    <style name="CommentListItemTxt.Timestamp" parent="@style/CommentListItemTxt">
+        <item name="android:textSize">14.0sp</item>
+        <item name="android:typeface">sans</item>
+        <item name="android:singleLine">true</item>
+    </style>
+    <style name="CardTxt">
+        <item name="android:textSize">16.0sp</item>
+        <item name="android:textColor">@blur.res:color/card_body_text_content</item>
+        <item name="android:textColorHighlight">@blur.res:color/card_body_text_highlight</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+    <style name="CardTxt.Link" parent="@style/CardTxt">
+        <item name="android:textColor">#ff0d72b9</item>
+    </style>
+    <style name="CardTxt.Status" parent="@style/CardTxt">
+        <item name="android:textSize">20.0sp</item>
+        <item name="android:singleLine">false</item>
+    </style>
+    <style name="CardTxt.PhotoCaption" parent="@style/CardTxt">
+        <item name="android:textSize">14.0sp</item>
+        <item name="android:paddingLeft">@dimen/card_content_pad_h</item>
+        <item name="android:paddingRight">@dimen/card_content_pad_h</item>
+        <item name="android:paddingBottom">9.0dip</item>
+        <item name="android:layout_marginTop">9.0dip</item>
+    </style>
+    <style name="CardTxt.Like" parent="@style/CardTxt">
+        <item name="android:textSize">14.0sp</item>
+        <item name="android:paddingLeft">@dimen/card_content_pad_h</item>
+        <item name="android:paddingRight">@dimen/card_content_pad_h</item>
+        <item name="android:paddingBottom">8.0dip</item>
+        <item name="android:layout_marginTop">8.0dip</item>
+    </style>
+    <style name="CardItemDivider">
+        <item name="android:background">@drawable/card_divider_horz</item>
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginTop">8.0dip</item>
+        <item name="android:layout_marginBottom">8.0dip</item>
+    </style>
+    <style name="CardCommentListItem">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+    <style name="CardCommentListItem.Image" parent="@style/CardCommentListItem">
+        <item name="android:layout_width">48.0dip</item>
+        <item name="android:layout_height">48.0dip</item>
+        <item name="android:scaleType">fitStart</item>
+    </style>
+    <style name="CardCommentListItem.Txt" parent="@style/CardCommentListItem">
+        <item name="android:textSize">16.0sp</item>
+        <item name="android:textColor">@blur.res:color/card_body_text_content</item>
+    </style>
+    <style name="CardCommentListItem.Txt.Bold" parent="@style/CardCommentListItem.Txt">
+        <item name="android:textStyle">bold</item>
+        <item name="android:singleLine">true</item>
+    </style>
+    <style name="CardCommentListItem.Txt.Timestamp" parent="@style/CardCommentListItem.Txt">
+        <item name="android:textSize">14.0sp</item>
+        <item name="android:textColor">#ff686868</item>
+        <item name="android:singleLine">true</item>
+    </style>
+    <style name="MeToggleButton">
+        <item name="android:background">@drawable/btn_toggle_bg</item>
+        <item name="android:padding">6.0dip</item>
+        <item name="android:layout_width">96.0dip</item>
+        <item name="android:layout_height">48.0dip</item>
+        <item name="android:text">@string/me</item>
+    </style>
+</resources>

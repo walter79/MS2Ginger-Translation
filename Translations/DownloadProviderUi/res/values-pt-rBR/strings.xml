@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+    <string name="download_menu_ringtone">Definir como toque</string>
+    <string name="download_menu_wallpaper">Definir como</string>
+    <string name="ringtone_set">\"%s\" definido como toque do telefone.</string>
+    <string name="error_occured">Ocorreu um erro. Por favor, tente novamente.</string>
+    <string name="dialog_download_not_acceptable">Falha ao baixar. Conteúdo inválido.</string>
+    <string name="download_unsupported">Não suportado</string>
+</resources>

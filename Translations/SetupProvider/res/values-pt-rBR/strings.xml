@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+    <string name="app_name">Armazenamento das contas</string>
+    <string name="blur_accounts">Contas do MOTOBLUR</string>
+    <string name="as_pretty_name">Sincr. corp.</string>
+    <string name="blur_pretty_name">MOTOBLUR</string>
+    <string name="yahoo_pretty_name">Yahoo! E-mail</string>
+    <string name="email_login_label">E-mail|meue-mail@domínio.com</string>
+    <string name="as_login_label">Domínio\\Nome de usuário|Domínio\\Nome de usuário</string>
+    <string name="blur_login_label">E-mail|meue-mail@domínio.com</string>
+    <string name="yahoo_login_label">E-mail|meue-mail@yahoo.com</string>
+</resources>

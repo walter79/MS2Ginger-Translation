@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+    <string name="usb_period">.</string>
+    <string name="usb_ok">Ok</string>
+    <string name="usb_cancel">Anuluj</string>
+    <string name="usb_3_periods">...</string>
+    <string name="usb_configure">Konfiguruj</string>
+    <string name="usb_toast_connecting_to">Podłączanie USB dla:</string>
+    <string name="usb_toast_phone_data_disabled">Dane telefonu zostaną wyłączone.</string>
+    <string name="usb_no_memory_card_notification_title">Nie włożono karty pamięci</string>
+    <string name="usb_no_memory_card_notification_message_title">Brak karty pamięci</string>
+    <string name="usb_no_memory_card_notification_message">Włóż kartę pamięci</string>
+    <string name="usb_selection_notification_title">Połączenie USB</string>
+    <string name="usb_selection_notification_message">Wybierz, aby zarządzać połączeniem USB.</string>
+    <string name="usb_selection_notification_message_for_modem">Dotknij, aby rozłączyć i ponownie włączyć wewnętrzne dane telefonu</string>
+    <string name="usb_connection">Połączenie USB</string>
+    <string name="usb_tethering_title">Aktywne współużytkowanie Internetu</string>
+    <string name="usb_tethering_message">Podczas korzystania z połączenia USB w celu korzystania z usługi współużytkowania połączenia internetowego nie można włączać innego trybu USB</string>
+    <string name="usb_mode_ngp">Portal telefoniczny Motorola</string>
+    <string name="usb_mode_mtp">Windows Media Sync</string>
+    <string name="usb_mode_msc">Pamięć masowa USB</string>
+    <string name="usb_mode_modem">Telefon jako modem</string>
+    <string name="usb_mode_none">Brak</string>
+    <string name="usb_toast_insert_card">Włóż kartę pamięci na multimedia.</string>
+    <string name="usb_progress_message">Przełączanie na</string>
+    <string name="usb_error_message">Połączenia USB nie można zmienić na</string>
+    <string name="default_usb_disk_name">Dysk flash</string>
+    <string name="usb_device_plug_title">Podłączono %1$s</string>
+    <string name="usb_device_plug_title_no_name">Podłączono nośnik USB</string>
+    <string name="usb_device_plug_message">Wybierz, aby skopiować pliki do/z urządzenia.</string>
+    <string name="usb_device_checking_title">Przygotowanie na nośnik USB</string>
+    <string name="usb_device_checking_message">Sprawdzanie błędów...</string>
+    <string name="usb_device_unmountable_title">Nośnika USB nie można podłączyć</string>
+    <string name="usb_device_unmountable_message">Sprawdź nośnik USB.</string>
+    <string name="usb_device_nofs_title">Brak systemu plików w nośniku USB</string>
+    <string name="usb_device_nofs_message">Sprawdź nośnik USB.</string>
+    <string name="usb_device_bad_removal_dialog_title">Rozłączona</string>
+    <string name="usb_device_bad_removal_dialog_message">Nośnik USB %1$s został nieprawidłowo rozłączony.\n\nPrzed odłączeniem urządzenia należy je zawsze usunąć.</string>
+    <string name="usb_device_format_dialog_title">Sformatuj nośnik USB</string>
+    <string name="usb_device_format_dialog_message">Naciśnij Ok, aby sformatować nośnik USB. Wszystkie dane zostaną wymazane!</string>
+    <string name="usb_device_host_title">Nośnik USB</string>
+    <string name="usb_device_host_message">Nośnik USB %1$s jest aktualnie podłączony. Możesz kopiować pliki do/z tego urządzenia.\n\nPrzed odłączeniem urządzenia należy je usunąć.</string>
+    <string name="file_manager">Menedżer plików</string>
+    <string name="eject">Usuń</string>
+</resources>

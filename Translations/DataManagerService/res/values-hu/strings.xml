@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+    <string name="hello">Heló Világ!</string>
+    <string name="app_name">Adatkezelő Szolgáltatás</string>
+    <string name="perm_label">Tervezett adathasználat engedélyezése</string>
+    <string name="perm_desc">Engedélyezi az alkalmazásnak, hogy az adatforgalmát az Adatkezelő Szolgáltatás állítsa be.</string>
+    <string name="backgrounddata_warning_message">Az adatforgalom védelme érdekében, a háttéradatokat letiltotta az adminisztrátor a barangolás idejére.\n\nDe kézzel barangolás alatt is lehetőséged van szinkronizálni.</string>
+    <string name="backgrounddata_notification_title">Háttéradatok kikapcsolva</string>
+    <string name="backgrounddata_dialog_title">Háttéradat értesítések</string>
+    <string name="backgrounddata_dialog_message">A háttéradatokat az adminisztrátor letiltotta a barangolás idejére.\nDe kézzel barangolás alatt is lehetőséged van szinkronizálni.</string>
+    <string name="ok">OK</string>
+</resources>

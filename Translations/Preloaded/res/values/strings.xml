@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+    <string name="account_name" />
+    <string name="preloaded_group_title" />
+    <string name="preloaded_group_notes" />
+    <string name="preload_contacts">[ ]</string>
+    <string name="me">Me</string>
+    <string name="sim_swap_group_name">Sim Contact</string>
+    <string name="sim_swap_group_title">Sim Contact</string>
+    <string name="label">Preset</string>
+</resources>

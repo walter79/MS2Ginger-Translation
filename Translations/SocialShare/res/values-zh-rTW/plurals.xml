@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+    <plurals name="media_files_deleted">
+        <item quantity="other">上傳清單中有項目遭到刪除。</item>
+        <item quantity="one">上傳清單中有一個項目遭到刪除。</item>
+    </plurals>
+</resources>

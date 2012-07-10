@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+    <bool name="force_hd_video_in_landscape">true</bool>
+</resources>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+    <item type="id" name="extractArea" />
+    <item type="id" name="candidatesArea" />
+    <item type="id" name="inputArea" />
+    <item type="id" name="button_popup_close" />
+    <item type="id" name="keyboardBaseView" />
+    <item type="id" name="combinations_left_parent">false</item>
+    <item type="id" name="combinations_left">false</item>
+    <item type="id" name="combinations_right">false</item>
+    <item type="id" name="combinations">false</item>
+    <item type="id" name="predictions_container">false</item>
+    <item type="id" name="arrow_page_backward">false</item>
+    <item type="id" name="arrow_page_forward">false</item>
+    <item type="id" name="prediction_flipper">false</item>
+    <item type="id" name="prediction_view1">false</item>
+    <item type="id" name="prediction_view2">false</item>
+    <item type="id" name="composing_view">false</item>
+    <item type="id" name="keyboardView">false</item>
+    <item type="id" name="prediction_view">false</item>
+</resources>

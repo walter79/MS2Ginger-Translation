@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<merge
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="horizontal" android:id="@id/widget_icon_parent" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignParentRight="true" android:layout_alignParentBottom="true">
+        <ImageView android:id="@id/widget_icon" android:visibility="gone" android:layout_marginRight="@dimen/widget_icon_hspacing" style="@style/MessageIcon" />
+        <TextView android:id="@id/widget_comment_count" android:visibility="gone" android:layout_marginRight="@dimen/widget_icon_hspacing" style="@style/HOME_CommentCount" />
+        <ImageView android:id="@id/widget_provider_icon" style="@blur.res:style/Widget.SourceIcon" />
+    </LinearLayout>
+    <TextView android:id="@id/widget_time" android:visibility="gone" android:includeFontPadding="true" android:layout_above="@id/widget_icon_parent" android:layout_alignParentTop="true" android:layout_alignParentRight="true" style="@blur.res:style/Widget.Text.Timestamp.Small" />
+    <TextView android:ellipsize="end" android:gravity="top|left|center" android:id="@id/widget_status" android:layout_width="fill_parent" android:layout_height="fill_parent" android:maxLines="2" android:layout_toLeftOf="@id/widget_icon_parent" android:layout_centerHorizontal="true" android:lineSpacingExtra="1.0dip" style="@blur.res:style/Widget.Text.Body.Small" />
+</merge>

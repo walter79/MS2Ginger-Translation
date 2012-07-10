@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<FrameLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:gravity="bottom" android:layout_gravity="bottom|center" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <FrameLayout android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="35.0dip">
+            <LinearLayout android:layout_gravity="center" android:id="@id/ImageClockLayout" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content">
+                <ImageView android:id="@id/hour1" android:background="@drawable/clock_digit1" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+                <ImageView android:id="@id/hour2" android:background="@drawable/clock_digit2" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+                <ImageView android:layout_gravity="bottom" android:id="@id/colon" android:background="@drawable/animation_colon" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+                <ImageView android:id="@id/minute1" android:background="@drawable/clock_digit0" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+                <ImageView android:id="@id/minute2" android:background="@drawable/clock_digit0" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+                <ImageView android:layout_gravity="bottom" android:id="@id/apm" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip" android:src="@drawable/clock_am" />
+            </LinearLayout>
+            <LinearLayout android:layout_gravity="center" android:id="@id/TextClockLayout" android:layout_width="wrap_content" android:layout_height="wrap_content">
+                <TextView android:id="@id/hourTextView" style="@style/DigitalClockText" />
+                <TextView android:id="@id/colonTextView" android:text="@string/clock_colon" style="@style/DigitalClockText" />
+                <TextView android:id="@id/minuteTextView" style="@style/DigitalClockText" />
+                <TextView android:textSize="24.0dip" android:textColor="#ffffffff" android:layout_gravity="bottom" android:id="@id/apmTextView" android:paddingLeft="5.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/clock_pm" android:shadowColor="#ff000000" android:shadowDx="0.0" android:shadowDy="2.0" android:shadowRadius="3.0" />
+            </LinearLayout>
+        </FrameLayout>
+        <ImageView android:layout_gravity="center" android:id="@id/workspace_indicator" android:background="@drawable/space_indicator_fill" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="5.0dip" />
+        <ImageView android:layout_gravity="center" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginTop="6.0dip" android:src="@drawable/bottom_panel_region" />
+    </LinearLayout>
+    <LinearLayout android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <com.motorola.dlauncher.DragLayer android:id="@id/drag_layer" android:layout_width="fill_parent" android:layout_height="fill_parent"
+          xmlns:android="http://schemas.android.com/apk/res/android"
+          xmlns:launcher="http://schemas.android.com/apk/res/com.motorola.dlauncher">
+            <com.motorola.dlauncher.Workspace android:gravity="bottom" android:layout_gravity="bottom" android:id="@id/workspace" android:layout_width="fill_parent" android:layout_height="288.0dip" android:layout_marginBottom="5.0dip" launcher:defaultScreen="1">
+                <include android:id="@id/cell1" layout="@layout/workspace_screen" />
+                <include android:id="@id/cell2" layout="@layout/workspace_screen" />
+                <include android:id="@id/cell3" layout="@layout/workspace_screen" />
+            </com.motorola.dlauncher.Workspace>
+            <com.motorola.dlauncher.DeleteZone android:layout_gravity="right|center" android:id="@id/delete_zone" android:background="@drawable/delete_handle" android:visibility="invisible" android:layout_width="49.0dip" android:layout_height="wrap_content" android:src="@drawable/ic_delete" android:scaleType="center" launcher:direction="vertical" />
+        </com.motorola.dlauncher.DragLayer>
+    </LinearLayout>
+    <LinearLayout android:orientation="vertical" android:paddingTop="25.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content">
+        <ImageButton android:layout_gravity="top|right|center" android:id="@id/btn_home" android:background="@drawable/btn_home_selector" android:clickable="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/close_icon" android:onClick="onClick" />
+        <ImageButton android:layout_gravity="top|right|center" android:id="@id/btn_alarm" android:background="@drawable/btn_alarm_selector" android:visibility="visible" android:clickable="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="-2.0dip" android:src="@drawable/btn_alarm_fill" android:onClick="onClick" />
+        <ImageButton android:id="@id/btn_brightness" android:background="@drawable/btn_brightness_selector" android:focusable="true" android:clickable="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="-2.0dip" android:src="@drawable/brightness_icon" android:onClick="onClick" />
+    </LinearLayout>
+    <TextView android:textSize="18.0sp" android:textColor="#ffffffff" android:layout_gravity="left" android:id="@id/date" android:paddingTop="30.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/date_padding_left" android:shadowColor="#c0000000" android:shadowDx="0.0" android:shadowDy="0.0" android:shadowRadius="4.0" />
+    <LinearLayout android:layout_gravity="right" android:orientation="horizontal" android:id="@id/batteryInfo" android:paddingTop="30.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="10.0dip">
+        <ImageView android:gravity="center" android:id="@id/batteryInfoIcon" android:visibility="visible" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="3.0dip" android:layout_marginRight="5.0dip" android:src="@drawable/ic_plugin" android:baselineAligned="true" />
+        <TextView android:textSize="18.0sp" android:textColor="#ffffffff" android:gravity="center" android:id="@id/txt_battery" android:visibility="visible" android:layout_width="wrap_content" android:layout_height="wrap_content" android:shadowColor="#c0000000" />
+    </LinearLayout>
+    <View android:id="@id/Dim_Curtain" android:background="#d6000000" android:visibility="invisible" android:clickable="false" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+</FrameLayout>

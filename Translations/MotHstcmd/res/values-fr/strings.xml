@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+    <string name="app_name">HSTcmd</string>
+    <string name="send">Exécuter</string>
+    <string name="request">Requête</string>
+    <string name="response">Réponse</string>
+    <string name="menu_item_setting">Paramètres</string>
+    <string name="set_path">Définir</string>
+    <string name="set_default_path">Rétablir les valeurs par défaut</string>
+    <string name="setting_notice">Remarque : \n1. Seuls le répertoire par défaut et dir sur la carte sd sont autorisés. Le répertoire non valide ne sera pas défini et déclenchera une alerte.</string>
+    <string name="log_response">Enregistrer les réponses dans le journal</string>
+    <string name="log_error">Enregistrer les erreurs (y compris les réponses d\'erreur) dans le journal</string>
+    <string name="log_command">Enregistrer les commandes</string>
+</resources>

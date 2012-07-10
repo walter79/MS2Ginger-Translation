@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+    <item type="id" name="candidates">false</item>
+    <item type="id" name="candidate_right_parent">false</item>
+    <item type="id" name="candidate_more">false</item>
+    <item type="id" name="status_container">false</item>
+    <item type="id" name="text">false</item>
+    <item type="id" name="image">false</item>
+    <item type="id" name="progress">false</item>
+    <item type="id" name="cancel">false</item>
+    <item type="id" name="LatinkeyboardBaseView">false</item>
+    <item type="id" name="LatinKeyboardBaseView">false</item>
+    <item type="id" name="progress_container">false</item>
+    <item type="id" name="progress_message">false</item>
+    <item type="id" name="progress_animation">false</item>
+    <item type="id" name="cancel_button">false</item>
+    <item type="id" name="candidate_container">false</item>
+    <item type="id" name="floating_container">false</item>
+    <item type="id" name="prevPage">false</item>
+    <item type="id" name="nextPage">false</item>
+    <item type="id" name="mode_normal">false</item>
+    <item type="id" name="mode_url">false</item>
+    <item type="id" name="mode_email">false</item>
+    <item type="id" name="mode_im">false</item>
+    <item type="id" name="mode_webentry">false</item>
+    <item type="id" name="mode_symbols">false</item>
+</resources>

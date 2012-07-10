@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<FrameLayout style="@style/WidgetParent.Root"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:src="@blur.res:drawable/base_vert" android:scaleType="fitXY" style="@style/WidgetBase10" />
+    <LinearLayout style="@style/WidgetParent.Vert">
+        <FrameLayout android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <ImageView android:src="@drawable/orange_sleeve_vert" style="@style/WidgetSleeve.Vert10" />
+            <include layout="@layout/widget_sleeve_vert" />
+        </FrameLayout>
+        <LinearLayout android:orientation="vertical" android:id="@id/widget_article_parent" style="@style/WidgetContentParentVert">
+            <TextView android:id="@id/widget_headline" android:layout_width="fill_parent" android:layout_height="wrap_content" android:maxLines="@integer/numlines_nophoto_2_3" android:singleLine="false" style="@blur.res:style/Widget.Text.Headline.Small" />
+            <TextView android:id="@id/widget_article_content" android:layout_width="fill_parent" android:layout_height="wrap_content" android:maxLines="@integer/numlines_nophoto_body_2_3" style="@blur.res:style/Widget.Text.Body.Multiline" />
+            <ImageView android:layout_width="1.0px" android:layout_height="1.0px" android:layout_weight="1.0" />
+            <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <TextView android:textSize="@dimen/widget_timestamp_small_size" android:id="@id/widget_time" android:includeFontPadding="true" android:layout_weight="1.0" style="@blur.res:style/Widget.Text.Timestamp" />
+                <ImageView android:id="@id/widget_feed_icon" android:layout_marginLeft="@dimen/widget_time_icon_padding_left" android:scaleType="centerInside" style="@blur.res:style/Widget.SourceIcon" />
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+</FrameLayout>

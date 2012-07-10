@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+    <string name="app_name">Serviço de doca da Motorola</string>
+    <string name="mot_dock_apps">Aplicativos de doca da Motorola</string>
+    <string name="TitleForWebtop">WebTop</string>
+    <string name="TitleForEASport">EASport</string>
+    <string name="TitleWidgetClock">Relógio do widget</string>
+    <string name="TitleForEntertainmentCenter">Central de entretenimento</string>
+    <string name="TitleForBigClock">Relógio grande</string>
+    <string name="TitleForHome">Fazer nada</string>
+    <string name="description">descrição abaixo do título vá aqui e aqui</string>
+    <string name="detailed_description">descrição detalhada vá aqui e aqui</string>
+    <string name="dock_notification_title">Conectado à estação de multimídia</string>
+    <string name="hall_effect_dock_only">A estação multimídia está conectada.</string>
+    <string name="dock_notification_message">Selecione para trocar de aplicativo</string>
+    <string name="hdmi_notification_title">Conexão de HDMI</string>
+    <string name="hdmi_notification_message">Selecione para gerenciar suas conexões HDMI</string>
+    <string name="hdmi_only_message">HDMI está conectada.</string>
+    <string name="dock_hdmi_notification_title">Conectado à dock HD</string>
+    <string name="hall_effect_dock_notification">A dock HD está conectada.</string>
+    <string name="dock_hdmi_notification_message">Selecione para trocar de aplicativo</string>
+    <string name="descrip_webtop">Conecte seu telefone a um computador</string>
+    <string name="descrip_entertainmentcenter">Curta suas músicas, fotos e seus vídeos em HDTV</string>
+    <string name="descrip_bigclock">Um relógio e alarme cheio de elegância</string>
+    <string name="descrip_widgetdock">Configure sua própria experiência de dock, similar à sua Tela inicial</string>
+    <string name="descrip_home">Fique de olho no seu aplicativo quando o seu telefone está na dock</string>
+    <string name="descrip_easport">Descrição do jogo</string>
+    <string name="str_ok">OK</string>
+    <string name="detail_descrip_webtop">A descrição vai aqui. Será adicionado</string>
+    <string name="detail_descrip_entertainmentcenter">A central de mídia de TV permite que você busque todo o conteúdo de multimídia do seu telefone. Quando estiver na central de mídia, seu telefone se tornará em um fino controlador em que você pode reproduzir músicas, ver fotos ou assistir a um vídeo facilmente.</string>
+    <string name="detail_descrip_bigclock">Transforme a tela do seu telefone em um grande relógio com filtros. Veja o horário de longe, defina alarmes, reproduza músicas, veja fotos e receba informações ao vivo sobre o clima. Este modo foi designado para o seu criado mudo, mas pode ser útil na cozinha e também como um relógio de mesa.</string>
+    <string name="detail_descrip_widgetdock">Acesse os mesmos widgets, aplicativos e atalhos Android como se fosse sua tela inicial. Organize-os e altere o papel de parede como preferir. Tudo isto será salvo e aplicado na próxima vez em que você inserir seu telefone à dock.</string>
+    <string name="detail_descrip_home">Ao selecionar este modo, o telefone manterá seu aplicativo atual no seu campo de visão no telefone. Você pode acessar os outros aplicativos do dock facilmente ao selecionar o painel de notificação.</string>
+    <string name="detail_descrip_easport">A descrição detalhada do entretenimento vai aqui. Será adicionado mais tarde.</string>
+    <string name="prompt_RememberMySelection">Lembrar minha seleção</string>
+    <string name="title">Selecione um aplicativo para executar</string>
+    <string name="detecting">Detectando...</string>
+    <string name="TitleForMirrorMode">Telefone espelhado na tela</string>
+    <string name="descrip_mirrormode">Acessar e exibir todos os aplicativos do telefone em uma tela maior</string>
+    <string name="TitleForOther">Outros</string>
+    <string name="descrip_other">Exibe aplicativos da dock no modo não inteligente</string>
+    <string name="TitleForGallery">Galeria</string>
+    <string name="descrip_gallery">Ver fotos e vídeos</string>
+    <string name="TitleForMusicPlayer">Músicas</string>
+    <string name="descrip_musicplayer">Acesse, escute e compartilhe músicas</string>
+</resources>

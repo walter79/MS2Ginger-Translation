@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+    <string name="usb_period">.</string>
+    <string name="usb_ok">OK</string>
+    <string name="usb_cancel">Abbrechen</string>
+    <string name="usb_3_periods">...</string>
+    <string name="usb_configure">Konfigurieren</string>
+    <string name="usb_toast_connecting_to">USB-Verbindung für</string>
+    <string name="usb_toast_phone_data_disabled">Telefondaten werden deaktiviert.</string>
+    <string name="usb_no_memory_card_notification_title">Keine Speicherkarte eingelegt</string>
+    <string name="usb_no_memory_card_notification_message_title">Speicherkarte fehlt</string>
+    <string name="usb_no_memory_card_notification_message">Speicherkarte einlegen</string>
+    <string name="usb_selection_notification_title">USB-Verbindung</string>
+    <string name="usb_selection_notification_message">Antippen: USB-Verbindung verwalten</string>
+    <string name="usb_selection_notification_message_for_modem">Berühren, um die Verbindung zu trennen und die internen Telefondaten zu reaktivieren</string>
+    <string name="usb_connection">USB-Verbindung</string>
+    <string name="usb_tethering_title">Internetfreigabe aktiv</string>
+    <string name="usb_tethering_message">Während der USB-Anschluss für die Verbindung zum Internet zur Freigabe verwendet wird, können Sie nicht in einen anderen USB-Modus wechseln.</string>
+    <string name="usb_mode_ngp">Motorola Phone Portal</string>
+    <string name="usb_mode_mtp">Windows Media Sync</string>
+    <string name="usb_mode_msc">USB-Massenspeicher</string>
+    <string name="usb_mode_modem">Telefon als Modem</string>
+    <string name="usb_mode_none">Keine</string>
+    <string name="usb_toast_insert_card">Bitte legen Sie eine Speicherkarte für Ihre Medien ein.</string>
+    <string name="usb_progress_message">Umschalten auf</string>
+    <string name="usb_error_message">Die USB-Verbindung kann nicht umschalten auf</string>
+    <string name="default_usb_disk_name">Flash-Datenträger</string>
+    <string name="usb_device_plug_title">%1$s angeschlossen</string>
+    <string name="usb_device_plug_title_no_name">USB-Speichergerät angeschlossen</string>
+    <string name="usb_device_plug_message">Auswählen, um Dateien auf Ihr Gerät oder von Ihrem Gerät zu kopieren.</string>
+    <string name="usb_device_checking_title">USB-Speichergerät vorbereiten</string>
+    <string name="usb_device_checking_message">Fehler überprüfen...</string>
+    <string name="usb_device_unmountable_title">USB-Speichergerät kann nicht installiert werden.</string>
+    <string name="usb_device_unmountable_message">Überprüfen Sie Ihr USB-Speichergerät.</string>
+    <string name="usb_device_nofs_title">Es wurden keine Dateien auf dem USB-Speichergerät gefunden.</string>
+    <string name="usb_device_nofs_message">Überprüfen Sie Ihr USB-Speichergerät.</string>
+    <string name="usb_device_bad_removal_dialog_title">Nicht verbunden</string>
+    <string name="usb_device_bad_removal_dialog_message">Das UBS-Speichergerät %1$s wurde nicht ordnungsgemäß getrennt.\n\nWerfen Sie ein Gerät immer aus, bevor Sie die Verbindung trennen.</string>
+    <string name="usb_device_format_dialog_title">USB-Speichergerät formatieren</string>
+    <string name="usb_device_format_dialog_message">Drücken Sie OK, um das USB-Speichergerät zu formatieren. Alle Daten werden gelöscht!</string>
+    <string name="usb_device_host_title">USB-Speichergerät</string>
+    <string name="usb_device_host_message">Das USB-Speichergerät %1$s ist angeschlossen. Sie können Dateien auf das Gerät oder vom Gerät kopieren.\n\nWerfen Sie das Gerät immer aus, bevor Sie die Verbindung trennen.</string>
+    <string name="file_manager">Datei-Manager</string>
+    <string name="eject">Auswerfen</string>
+</resources>

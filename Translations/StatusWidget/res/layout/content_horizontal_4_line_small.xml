@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<merge
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:gravity="top|left|center" android:id="@id/widget_status" android:layout_width="fill_parent" android:layout_height="fill_parent" android:maxLines="4" android:layout_centerVertical="true" android:lineSpacingExtra="1.0dip" style="@blur.res:style/Widget.Text.Body.Small" />
+    <include layout="@layout/time_and_icon_small" />
+</merge>

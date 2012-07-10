@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+    <string name="app_name">HSTcmd</string>
+    <string name="send">Ausführen</string>
+    <string name="request">Anfrage</string>
+    <string name="response">Antwort</string>
+    <string name="menu_item_setting">Einstellungen</string>
+    <string name="set_path">Einstellen</string>
+    <string name="set_default_path">Standardeinstellungen wiederherstellen</string>
+    <string name="setting_notice">Hinweis: \n1. Nur das Standardverzeichnis und Verzeichnisse auf der SD-Karte sind zulässig. Ungültige Verzeichnisse werden nicht festgelegt und lösen einen Alarm aus.</string>
+    <string name="log_response">Reaktionszeiten bei der Anmeldung</string>
+    <string name="log_error">Fehlermeldungen bei der Anmeldung (einschließlich Reaktionszeiten auf Fehlermeldungen)</string>
+    <string name="log_command">Anmeldebefehle</string>
+</resources>

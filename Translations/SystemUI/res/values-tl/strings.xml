@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+    <string name="app_label">Status Bar</string>
+    <string name="status_bar_clear_all_button">I-clear</string>
+    <string name="status_bar_no_notifications_title">Walang mga notification</string>
+    <string name="status_bar_ongoing_events_title">Nagpapatuloy</string>
+    <string name="status_bar_latest_events_title">Mga Notification</string>
+    <string name="battery_low_title">Pakikonekta ang charger</string>
+    <string name="battery_low_subtitle">Humihina ang baterya:</string>
+    <string name="battery_low_percent_format">%d%% o mas kaunti ang natitira.</string>
+    <string name="battery_low_why">Paggamit ng baterya</string>
+    <string name="usb_accessory_uri_prompt">Walang gumaganang mga naka-install na application sa USB accessory na ito %1$s</string>
+    <string name="title_usb_accessory">USB accessory</string>
+    <string name="label_view">Tingnan</string>
+    <string name="always_use_accessory">Gamitin bilang default sa USB accessory na ito</string>
+</resources>

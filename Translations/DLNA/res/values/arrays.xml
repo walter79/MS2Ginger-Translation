@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+    <array name="file_sharing_security_entries">
+        <item>@string/Accept_Any_Device</item>
+        <item>@string/Accept_Only_Trusted_Devices</item>
+        <item>@string/Notify_Me_Each_Time</item>
+    </array>
+    <string-array name="file_sharing_security_values">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+    </string-array>
+    <array name="file_sharing_category_entries">
+        <item>@string/music</item>
+        <item>@string/picture</item>
+        <item>@string/video</item>
+    </array>
+    <string-array name="file_sharing_category_values">
+        <item>1</item>
+        <item>2</item>
+        <item>4</item>
+    </string-array>
+    <array name="device_name">
+        <item>@string/mac_address</item>
+        <item>@string/security_type</item>
+    </array>
+</resources>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+    <plurals name="error_missing_apps_plurals">
+        <item quantity="other">Hindi magagamit ang account na ito sa telepono dahil wala ito ng mga sumusunod na application: ^1. Mangyaring makipag-ugnay sa administrator ng domain para sa &lt;b>^2&lt;/b> o mag-sign in gamit ang ibang account.</item>
+        <item quantity="one">Hindi magagamit ang account na ito sa telepono dahil wala ito ng sumusunod na application: ^1. Mangyaring makipag-ugnay sa administrator ng domain para sa &lt;b>^2&lt;/b> o mag-sign in gamit ang ibang account.</item>
+    </plurals>
+</resources>

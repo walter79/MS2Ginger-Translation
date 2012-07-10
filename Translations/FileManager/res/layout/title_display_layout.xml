@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LinearLayout android:id="@id/show_server_view" android:background="@com.motorola.android.widget:drawable/header_bkg" android:layout_width="fill_parent" android:layout_height="wrap_content" style="@com.motorola.android.widget:style/Interactive_Titlebar"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:gravity="center_vertical" android:id="@id/folder_view_icon" android:layout_width="55.0dip" android:layout_height="55.0dip" android:src="@android:drawable/zz_moto_int_titlebar_dropdown_normal" android:scaleType="centerInside" />
+    <TextView android:gravity="center_vertical" android:id="@id/samba_server_title" android:layout_width="wrap_content" android:layout_height="55.0dip" android:text="@string/shared_folders" style="@com.motorola.android.widget:style/Interactive_Titlebar.Button" />
+</LinearLayout>

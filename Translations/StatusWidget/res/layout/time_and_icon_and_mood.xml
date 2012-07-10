@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<merge
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="horizontal" android:id="@id/widget_icon_parent" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignParentRight="true" android:layout_alignParentBottom="true">
+        <include layout="@layout/widget_icons_with_mood" />
+    </LinearLayout>
+    <TextView android:id="@id/widget_time" android:layout_toLeftOf="@id/widget_icon_parent" style="@style/Timestamp" />
+</merge>

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+    <string name="app_label">Tagapamahala ng Pag-download</string>
+    <string name="permlab_downloadManager">I-access ang tagapamahala ng pag-download.</string>
+    <string name="permdesc_downloadManager">Pinapayagan ang application na ma-access ang tagapamahala ng pag-download at gamitin ito upang mag-download ng mga file. Maaaring gamitin ito ng mga nakakahamak na application upang guluhin ang mga pag-download at ma-access ang pribadong impormasyon.</string>
+    <string name="permlab_downloadManagerAdvanced">Mga advanced na pag-andar ng tagapamahala ng pag-download.</string>
+    <string name="permdesc_downloadManagerAdvanced">Pinapayagan ang application na ma-access ang mga advanced na pag-andar ng tagapamahala ng pag-download. Maaaring gamitin ito ng mga nakakahamak na application upang guluhin ang mga pag-download at ma-access ang pribadong impormasyon.</string>
+    <string name="permlab_downloadCompletedIntent">Magpadala ng mga notification sa pag-download.</string>
+    <string name="permdesc_downloadCompletedIntent">Pinapayagan ang application na magpadala ng mga notification tungkol sa mga nakumpletong pag-download. Maaaring gamitin ito ng mga nakahahamak na application upang magulo ang ibang mga application na nagda-download ng mga file.</string>
+    <string name="permlab_seeAllExternal">Tingnan ang lahat ng mga pag-download sa SD card</string>
+    <string name="permdesc_seeAllExternal">Pinapayagan ang application na makita ang lahat ng mga pag-download sa SD card, ano pa man ang application na nag-download sa mga ito.</string>
+    <string name="permlab_downloadCacheNonPurgeable">Maglaan ng puwang sa download cache</string>
+    <string name="permdesc_downloadCacheNonPurgeable">Binibigyang-daan ang application na mag-download ng file sa download cache na hindi awtomatikong matatanggal kapag kailangan ng download manager ng puwang.</string>
+    <string name="permlab_downloadWithoutNotification">mag-download ng mga file nang walang notification</string>
+    <string name="permdesc_downloadWithoutNotification">Pinapayagan ang application na mag-download ng mga file sa download manager nang walang ipinapakitang notification sa user.</string>
+    <string name="permlab_accessAllDownloads">I-access ang lahat ng mga pag-download ng system</string>
+    <string name="permdesc_accessAllDownloads">Pinapayagan ang application na tingnan at baguhin ang lahat ng pinasimulan ng anumang application sa system.</string>
+    <string name="download_unknown_title">&lt;Walang pamagat></string>
+    <string name="notification_filename_separator">,\u0020</string>
+    <string name="notification_filename_extras">\u0020at %d pa</string>
+    <string name="notification_download_complete">Kumpleto na ang pag-download</string>
+    <string name="notification_download_failed">Hindi matagumpay ang pag-download</string>
+    <string name="notification_need_wifi_for_size">Kailangan ng download ng Wi-Fi</string>
+    <string name="wifi_required_title">Masyadong malaki ang download sa operator network</string>
+    <string name="wifi_required_body">Dapat kang gumamit ng WiFi upang makumpleto ang %s \u0020na pag-download. \n\nI-click ang %s \u0020upang simulan ang pag-download na ito sa susunod na pagkakataon na nakakonekta ka sa isang WiFi network.</string>
+    <string name="wifi_recommended_title">I-queue para sa pag-download sa ibang pagkakataon?</string>
+    <string name="wifi_recommended_body">Paiikliin ng %s \u0020download ang baterya at/o magresulta sa labis na paggamit ng mobile data connection, na hahantong sa pagsingil ng mobile operator depende sa data plan.\n\n I-click %s upang simulan download sa sunod na konektado sa WiFi network.</string>
+    <string name="button_queue_for_wifi">Queue</string>
+    <string name="button_cancel_download">Kanselahin</string>
+    <string name="button_start_now">Magsimula ngayon</string>
+</resources>

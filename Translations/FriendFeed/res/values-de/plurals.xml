@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+    <plurals name="retweet_num_persons">
+        <item quantity="other">Erneut getwittert von %1$d Personen.</item>
+        <item quantity="one">Erneut getwittert von 1 Person.</item>
+    </plurals>
+    <plurals name="like_num_persons">
+        <item quantity="other">%1$d Personen gefällt das.</item>
+        <item quantity="one">1 Person gefällt das.</item>
+    </plurals>
+</resources>

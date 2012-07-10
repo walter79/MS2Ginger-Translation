@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+    <item type="id" name="enable">false</item>
+    <item type="id" name="disable">false</item>
+    <item type="id" name="force_lock">false</item>
+</resources>

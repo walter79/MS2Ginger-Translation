@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <Button android:id="@id/bind" android:layout_width="0.0dip" android:layout_height="wrap_content" android:text="@string/bind" android:layout_weight="1.0" />
+        <Button android:id="@id/unbind" android:layout_width="0.0dip" android:layout_height="wrap_content" android:text="@string/unbind" android:layout_weight="1.0" />
+        <Button android:id="@id/tune" android:layout_width="0.0dip" android:layout_height="wrap_content" android:text="@string/tune" android:layout_weight="1.0" />
+    </LinearLayout>
+    <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <Button android:id="@id/currentFreq" android:layout_width="0.0dip" android:layout_height="wrap_content" android:text="@string/currentFreq" android:layout_weight="1.0" />
+        <Button android:id="@id/getAudioMode" android:layout_width="0.0dip" android:layout_height="wrap_content" android:text="@string/getAudioMode" android:layout_weight="1.0" />
+        <Button android:id="@id/setAudioMode" android:layout_width="0.0dip" android:layout_height="wrap_content" android:text="@string/setAudioMode" android:layout_weight="1.0" />
+    </LinearLayout>
+    <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <Button android:id="@id/setMute" android:layout_width="0.0dip" android:layout_height="wrap_content" android:text="@string/setMute" android:layout_weight="1.0" />
+        <Button android:id="@id/isMute" android:layout_width="0.0dip" android:layout_height="wrap_content" android:text="@string/isMute" android:layout_weight="1.0" />
+        <Button android:id="@id/seek" android:layout_width="0.0dip" android:layout_height="wrap_content" android:text="@string/seek" android:layout_weight="1.0" />
+    </LinearLayout>
+    <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <Button android:id="@id/stopSeek" android:layout_width="0.0dip" android:layout_height="wrap_content" android:text="@string/stopSeek" android:layout_weight="1.0" />
+        <Button android:id="@id/setVolume" android:layout_width="0.0dip" android:layout_height="wrap_content" android:text="@string/setVolume" android:layout_weight="1.0" />
+        <Button android:id="@id/getVolume" android:layout_width="0.0dip" android:layout_height="wrap_content" android:text="@string/getVolume" android:layout_weight="1.0" />
+    </LinearLayout>
+    <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <Button android:id="@id/getBand" android:layout_width="0.0dip" android:layout_height="wrap_content" android:text="@string/getBand" android:layout_weight="1.0" />
+        <Button android:id="@id/setBand" android:layout_width="0.0dip" android:layout_height="wrap_content" android:text="@string/setBand" android:layout_weight="1.0" />
+        <Button android:id="@id/getMinFreq" android:layout_width="0.0dip" android:layout_height="wrap_content" android:text="@string/getMinFreq" android:layout_weight="1.0" />
+    </LinearLayout>
+    <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <Button android:id="@id/getMaxFreq" android:layout_width="0.0dip" android:layout_height="wrap_content" android:text="@string/getMaxFreq" android:layout_weight="1.0" />
+        <Button android:id="@id/getStepUnit" android:layout_width="0.0dip" android:layout_height="wrap_content" android:text="@string/getStepUnit" android:layout_weight="1.0" />
+        <Button android:id="@id/setRdsEnable" android:layout_width="0.0dip" android:layout_height="wrap_content" android:text="@string/setRdsEnable" android:layout_weight="1.0" />
+    </LinearLayout>
+    <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <Button android:id="@id/isRdsEnable" android:layout_width="0.0dip" android:layout_height="wrap_content" android:text="@string/isRdsEnable" android:layout_weight="1.0" />
+        <Button android:id="@id/getAudioType" android:layout_width="0.0dip" android:layout_height="wrap_content" android:text="@string/getAudioType" android:layout_weight="1.0" />
+        <Button android:id="@id/getRSSI" android:layout_width="0.0dip" android:layout_height="wrap_content" android:text="@string/getRSSI" android:layout_weight="1.0" />
+    </LinearLayout>
+    <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <Button android:id="@id/getRdsPS" android:layout_width="0.0dip" android:layout_height="wrap_content" android:text="@string/getRdsPS" android:layout_weight="1.0" />
+        <Button android:id="@id/getRdsRT" android:layout_width="0.0dip" android:layout_height="wrap_content" android:text="@string/getRdsRT" android:layout_weight="1.0" />
+        <Button android:id="@id/getRdsRTPLUS" android:layout_width="0.0dip" android:layout_height="wrap_content" android:text="@string/getRdsRTPLUS" android:layout_weight="1.0" />
+    </LinearLayout>
+    <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <Button android:id="@id/getRdsPI" android:layout_width="0.0dip" android:layout_height="wrap_content" android:text="@string/getRdsPI" android:layout_weight="1.0" />
+        <Button android:id="@id/getRdsPTY" android:layout_width="0.0dip" android:layout_height="wrap_content" android:text="@string/getRdsPTY" android:layout_weight="1.0" />
+        <Button android:id="@id/scan" android:layout_width="0.0dip" android:layout_height="wrap_content" android:text="@string/scan" android:layout_weight="1.0" />
+        <Button android:id="@id/stopScan" android:layout_width="0.0dip" android:layout_height="wrap_content" android:text="@string/stopScan" android:layout_weight="1.0" />
+    </LinearLayout>
+</LinearLayout>

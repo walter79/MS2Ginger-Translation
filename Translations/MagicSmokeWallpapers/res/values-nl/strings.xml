@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+    <string name="wallpapers">Achtergronden met magische rook</string>
+    <string name="wallpaper_magicsmoke">Magische rook</string>
+    <string name="author">Google</string>
+    <string name="magicsmoke_desc">Tekent rook, wolken, water en plasmagassen.</string>
+    <string name="ok">OK</string>
+    <string name="taptochange">Tik om te wijzigen</string>
+</resources>

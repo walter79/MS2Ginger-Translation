@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+    <item type="id" name="card_root" />
+    <item type="id" name="card_swiper" />
+    <item type="id" name="card_chip_name" />
+    <item type="id" name="card_title_image" />
+    <item type="id" name="card_chip_count" />
+    <item type="id" name="card_title" />
+    <item type="id" name="card_open_item" />
+    <item type="id" name="card_item_title" />
+    <item type="id" name="titlebar_title2">false</item>
+    <item type="id" name="addlocation_term">false</item>
+    <item type="id" name="addlocation_search">false</item>
+    <item type="id" name="result_string_view">false</item>
+    <item type="id" name="widget_city">false</item>
+    <item type="id" name="card_background_image">false</item>
+    <item type="id" name="card_location">false</item>
+    <item type="id" name="card_currentday">false</item>
+    <item type="id" name="card_temp">false</item>
+    <item type="id" name="card_high">false</item>
+    <item type="id" name="card_low">false</item>
+    <item type="id" name="card_description">false</item>
+    <item type="id" name="card_realfeel">false</item>
+    <item type="id" name="card_forecast">false</item>
+    <item type="id" name="card_updated">false</item>
+    <item type="id" name="satelliteIcon">false</item>
+    <item type="id" name="dummy_empty">false</item>
+    <item type="id" name="card_bottom_section">false</item>
+    <item type="id" name="accuweather_clickable_area">false</item>
+    <item type="id" name="forecast_type">false</item>
+    <item type="id" name="widget_message">false</item>
+    <item type="id" name="widget_submessage">false</item>
+    <item type="id" name="widget_add_icon">false</item>
+    <item type="id" name="widget_progress_wrapper">false</item>
+    <item type="id" name="forecast_type_extended">false</item>
+    <item type="id" name="forecast_type_detailed">false</item>
+    <item type="id" name="widget_high_low">false</item>
+    <item type="id" name="widget_high_temp">false</item>
+    <item type="id" name="widget_low_temp">false</item>
+    <item type="id" name="location_unavailable">false</item>
+    <item type="id" name="widget_temp">false</item>
+    <item type="id" name="widget_condition">false</item>
+    <item type="id" name="segment_icon">false</item>
+    <item type="id" name="segment_timeperiod">false</item>
+    <item type="id" name="segment_highlow">false</item>
+    <item type="id" name="settings_root">false</item>
+    <item type="id" name="bogus_title">false</item>
+    <item type="id" name="settings_title">false</item>
+    <item type="id" name="sv">false</item>
+    <item type="id" name="temperature_layout">false</item>
+    <item type="id" name="temperature_text">false</item>
+    <item type="id" name="drop_down_img">false</item>
+    <item type="id" name="chosen_temp_units">false</item>
+    <item type="id" name="news_add_edit_tip_divider">false</item>
+    <item type="id" name="use_current_location">false</item>
+    <item type="id" name="primary_text">false</item>
+    <item type="id" name="int_titlebar_label">false</item>
+    <item type="id" name="int_titlebar_divider">false</item>
+    <item type="id" name="settings_add">false</item>
+    <item type="id" name="settings_locations">false</item>
+    <item type="id" name="abwidget">false</item>
+    <item type="id" name="settings_done">false</item>
+    <item type="id" name="widget_background">false</item>
+    <item type="id" name="widget_root">false</item>
+</resources>

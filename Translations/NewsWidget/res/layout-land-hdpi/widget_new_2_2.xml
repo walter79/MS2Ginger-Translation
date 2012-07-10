@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LinearLayout android:background="@blur.res:drawable/base_horiz" style="@style/WidgetParent.Horz"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <FrameLayout android:background="@drawable/orange_sleeve_horiz" android:layout_width="wrap_content" android:layout_height="fill_parent">
+        <ImageView style="@style/WidgetSleeveIcon.HorzNoPhoto" />
+        <TextView style="@style/WidgetSleeveName.Hidden" />
+    </FrameLayout>
+    <RelativeLayout style="@style/WidgetContentParentHorz">
+        <TextView style="@style/WidgetEmptyText.Checking" />
+        <ProgressBar style="@style/WidgetEmptyProgress" />
+    </RelativeLayout>
+</LinearLayout>

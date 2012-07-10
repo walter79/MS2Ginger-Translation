@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+    <string name="app_name">HSTcmd</string>
+    <string name="send">Executar</string>
+    <string name="request">Solicitação</string>
+    <string name="response">Resposta</string>
+    <string name="menu_item_setting">Config.</string>
+    <string name="set_path">Definir</string>
+    <string name="set_default_path">Restaurar padrões</string>
+    <string name="setting_notice">Nota: \n1. Somente diretórios padrão e dir no cartão SD são permitidos. Diretórios inválidos não serão definidos e ativarão um alerta.</string>
+    <string name="log_response">Respostas de registro</string>
+    <string name="log_error">Falhas de registro (incluindo respostas de falha)</string>
+    <string name="log_command">Comandos de registro</string>
+</resources>

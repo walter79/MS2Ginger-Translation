@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<AbsoluteLayout android:id="@id/prediction_group_2" android:visibility="invisible"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="@dimen/TextViewTextSize" android:textColor="#ff333333" android:gravity="center" android:id="@id/Association6" android:layout_width="@dimen/StaticTextViewWidth" android:layout_height="@dimen/StaticTextViewHeight" android:layout_x="@dimen/PredictionGroup1Button1X" android:layout_y="@dimen/PredictionGroup2ButtonY" />
+    <TextView android:textSize="@dimen/TextViewTextSize" android:textColor="#ff333333" android:gravity="center" android:id="@id/Association7" android:layout_width="@dimen/StaticTextViewWidth" android:layout_height="@dimen/StaticTextViewHeight" android:layout_x="@dimen/PredictionGroup1Button2X" android:layout_y="@dimen/PredictionGroup2ButtonY" />
+    <TextView android:textSize="@dimen/TextViewTextSize" android:textColor="#ff333333" android:gravity="center" android:id="@id/Association8" android:layout_width="@dimen/StaticTextViewWidth" android:layout_height="@dimen/StaticTextViewHeight" android:layout_x="@dimen/PredictionGroup1Button3X" android:layout_y="@dimen/PredictionGroup2ButtonY" />
+    <TextView android:textSize="@dimen/TextViewTextSize" android:textColor="#ff333333" android:gravity="center" android:id="@id/Association9" android:layout_width="@dimen/StaticTextViewWidth" android:layout_height="@dimen/StaticTextViewHeight" android:layout_x="@dimen/PredictionGroup1Button4X" android:layout_y="@dimen/PredictionGroup2ButtonY" />
+    <TextView android:textSize="@dimen/TextViewTextSize" android:textColor="#ff333333" android:gravity="center" android:id="@id/Association10" android:layout_width="@dimen/StaticTextViewWidth" android:layout_height="@dimen/StaticTextViewHeight" android:layout_x="@dimen/PredictionGroup1Button5X" android:layout_y="@dimen/PredictionGroup2ButtonY" />
+</AbsoluteLayout>

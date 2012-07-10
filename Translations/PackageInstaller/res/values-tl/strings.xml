@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+    <string name="app_name">Installer ng package</string>
+    <string name="install">Mag-install</string>
+    <string name="done">Tapos na</string>
+    <string name="security_settings_desc">Payagan ang application na ito na:</string>
+    <string name="cancel">Kanselahin</string>
+    <string name="unknown">Hindi Kilala</string>
+    <string name="installing">Nag-i-install…</string>
+    <string name="install_done">Na-install ang application</string>
+    <string name="install_confirm_question">Gusto mo bang i-install ang application na ito?</string>
+    <string name="install_failed">Hindi na-install ang application</string>
+    <string name="install_failed_msg">Hindi ma-install ang %1$s sa teleponong ito.</string>
+    <string name="launch">Buksan</string>
+    <string name="unknown_apps_dlg_title">Naka-block ang pag-install</string>
+    <string name="unknown_apps_dlg_text">Para sa seguridad, nakatakda ang iyong telepono na i-block ang pag-install ng mga application na hindi nakuha mula sa Android Market.</string>
+    <string name="ok">OK</string>
+    <string name="settings">Mga Setting</string>
+    <string name="manage_applications">Pamahalaan ang mga application</string>
+    <string name="dlg_app_replacement_title">Palitan ang application</string>
+    <string name="dlg_app_replacement_statement">Papalitan ng ini-install mong application ang ibang application.\n\nMase-save ang lahat ng naunang data ng user.</string>
+    <string name="dlg_sys_app_replacement_statement">Ito ay isang application ng system. Gusto mo pa ba itong palitan?\n\nMase-save ang lahat ng nakaraang data ng user.</string>
+    <string name="out_of_space_dlg_title">Wala ng espasyo</string>
+    <string name="out_of_space_dlg_text">Hindi ma-install ang %1$s. Magbakante ng ilang espasyo at subukang muli.</string>
+    <string name="dlg_ok">OK</string>
+    <string name="app_not_found_dlg_title">Hindi nakita ang application</string>
+    <string name="app_not_found_dlg_text">Hindi nakita ang application sa listahan ng mga naka-intall na application.</string>
+    <string name="uninstall_application_question">I-uninstall ang application?</string>
+    <string name="uninstall_update_question">I-uninstall ang update?</string>
+    <string name="uninstall_application_text">Maa-uninstall ang application na ito.</string>
+    <string name="uninstall_update_text">Maa-uninstall ang pag-update sa application. Magagamit mo pa rin ang bersyong factory ng application.</string>
+    <string name="uninstalling">Ina-uninstall…</string>
+    <string name="uninstall_done">Natapos na ang pag-uninstall</string>
+    <string name="uninstall_failed">Hindi matagumpay ang pag-uninstall</string>
+    <string name="uninstall_failed_msg">Hindi ma-install ang %1$s</string>
+    <string name="Parse_error_dlg_title">Error sa pag-parse</string>
+    <string name="Parse_error_dlg_text">May problema sa pag-parse ng package.</string>
+</resources>

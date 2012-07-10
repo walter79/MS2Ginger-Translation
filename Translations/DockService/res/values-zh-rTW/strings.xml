@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+    <string name="app_name">Motorola 工具列服務</string>
+    <string name="mot_dock_apps">Motorola 座架應用程式</string>
+    <string name="TitleForWebtop">WebTop</string>
+    <string name="TitleForEASport">EASport</string>
+    <string name="TitleWidgetClock">小工具時鐘</string>
+    <string name="TitleForEntertainmentCenter">娛樂中心</string>
+    <string name="TitleForBigClock">大時鐘</string>
+    <string name="TitleForHome">關閉選擇程式</string>
+    <string name="description">在此輸入標題說明</string>
+    <string name="detailed_description">在此輸入詳細說明</string>
+    <string name="dock_notification_title">連線到多媒體中心</string>
+    <string name="hall_effect_dock_only">目前已連接多媒體中心</string>
+    <string name="dock_notification_message">選擇以切換應用程式</string>
+    <string name="hdmi_notification_title">HDMI 連線</string>
+    <string name="hdmi_notification_message">選擇以管理 HDMI 連線</string>
+    <string name="hdmi_only_message">目前已連接 HDMI</string>
+    <string name="dock_hdmi_notification_title">已連接 HD 座架</string>
+    <string name="hall_effect_dock_notification">目前已連接 HD 座架</string>
+    <string name="dock_hdmi_notification_message">選擇以切換應用程式</string>
+    <string name="descrip_webtop">讓手機搖身一變，成為電腦</string>
+    <string name="descrip_entertainmentcenter">在 HDTV 上享受音樂、圖片和影片帶來的感官饗宴</string>
+    <string name="descrip_bigclock">典雅的時鐘和鬧鐘</string>
+    <string name="descrip_widgetdock">設定屬於自己的自訂座架體驗，設定方式與首頁畫面類似</string>
+    <string name="descrip_home">手機接上座架時，讓目前的應用程式顯示在畫面上</string>
+    <string name="descrip_easport">遊戲說明</string>
+    <string name="str_ok">確定</string>
+    <string name="detail_descrip_webtop">在此輸入說明。 待新增。</string>
+    <string name="detail_descrip_entertainmentcenter">電視媒體中心可讓您瀏覽手機上的所有多媒體內容。 進入媒體中心模式時，您的手機會變成時髦的控制器，可輕鬆播放音樂、查看圖片或觀賞影片</string>
+    <string name="detail_descrip_bigclock">讓手機螢幕變成多功能大型時鐘。 您可以從遠處查看時間、設定鬧鐘、播放音樂、檢視照片及取得即時天氣資訊。 此模式是專為放在床邊所設計，而放在廚房也很實用，更可當做桌上型時鐘使用。</string>
+    <string name="detail_descrip_widgetdock">存取同樣的 Android 小工具、應用程式和捷徑，就像是使用手機首頁畫面一樣。 您可以依照喜好排列項目，並視心情變更桌布。 系統將儲存所有設定，並於下次將手機放在座架上時套用。</string>
+    <string name="detail_descrip_home">選取此模式時，手機會讓目前使用的應用程式持續顯示於手機上。 您可以輕而易舉透過通知幕簾選取並存取其他座架應用程式。</string>
+    <string name="detail_descrip_easport">在此輸入娛樂的詳細說明。 稍後新增。</string>
+    <string name="prompt_RememberMySelection">記住我的選擇</string>
+    <string name="title">選擇應用程式即可啟動</string>
+    <string name="detecting">偵測中...</string>
+    <string name="TitleForMirrorMode">顯示時左右顛倒</string>
+    <string name="descrip_mirrormode">在較大的顯示器上存取並顯示所有手機應用程式</string>
+    <string name="TitleForOther">其他</string>
+    <string name="descrip_other">顯示非智慧型模式座架應用程式</string>
+    <string name="TitleForGallery">圖庫</string>
+    <string name="descrip_gallery">檢視照片和影片</string>
+    <string name="TitleForMusicPlayer">音樂</string>
+    <string name="descrip_musicplayer">存取、聆聽及分享音樂</string>
+</resources>

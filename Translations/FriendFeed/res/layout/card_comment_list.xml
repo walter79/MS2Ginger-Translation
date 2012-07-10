@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RelativeLayout android:id="@id/card_comment_list_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:id="@id/card_comment_see_all" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:minHeight="?android:listPreferredItemHeight">
+        <ImageView android:id="@id/divider" android:background="@drawable/card_divider_horz" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+        <com.motorola.blur.home.widget.CardTextView android:id="@id/card_limit_num_comments" android:paddingLeft="10.0dip" android:paddingTop="8.0dip" android:paddingRight="10.0dip" android:paddingBottom="8.0dip" android:layout_below="@id/divider" style="@style/CardTxt" />
+    </RelativeLayout>
+    <ImageView android:id="@id/divider" android:background="@drawable/card_divider_horz" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_below="@id/card_comment_see_all" />
+    <LinearLayout android:orientation="vertical" android:id="@id/card_comment_list" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_below="@id/divider" />
+</RelativeLayout>

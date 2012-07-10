@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+    <dimen name="card_dl_failed_pad_left">0.0dip</dimen>
+    <dimen name="card_photo_full_max_height">197.0dip</dimen>
+</resources>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+    <plurals name="error_missing_apps_plurals">
+        <item quantity="other">Nie można użyć tego konta w telefonie, ponieważ brakuje w nim następującego programu: ^1. Należy skontaktować się z administratorem domeny &lt;b>^2&lt;/b> lub zalogować, korzystając z innego konta.</item>
+        <item quantity="one">Nie można użyć tego konta w telefonie, ponieważ brakuje w nim następującego programu: ^1. Należy skontaktować się z administratorem domeny w sprawie &lt;b>^2&lt;/b> lub zalogować z wykorzystaniem innego konta.</item>
+    </plurals>
+</resources>

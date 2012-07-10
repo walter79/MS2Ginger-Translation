@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LinearLayout android:orientation="vertical" android:id="@id/base_layout" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginTop="6.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="16.0sp" android:textColor="#ffffffff" android:gravity="left" android:id="@id/multiple_ro_received_screen_title_textview" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="2.0dip" android:text="@string/DRM_DLG_MULTI_RO_TEXT" />
+    <ListView android:id="@id/multiple_ro_received_screen_listview" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0" />
+    <Button android:gravity="center" android:layout_gravity="center" android:id="@id/multiple_ro_received_screen_OK_Button" android:layout_width="120.0dip" android:layout_height="48.0dip" android:text="@string/DRM_DLG_MULTI_RO_BTN_OK" />
+</LinearLayout>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+    <string name="app_name">Déconnexion totale</string>
+    <string name="global_unplug_t">Déconnecté</string>
+    <string name="global_unplug">Débranchez votre chargeur de la prise afin de conserver de l\'énergie.</string>
+</resources>

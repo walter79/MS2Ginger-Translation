@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+    <string name="app_name">MtlrDialog</string>
+    <string name="location_mtlr_notification">正在要求查詢您的位置</string>
+    <string name="location_mtlr_ver_prefix">要求將會</string>
+    <string name="location_mtlr_ver_postfix">如果您不回應。</string>
+    <string name="location_mtlr_default_allow">已允許： 位置要求</string>
+    <string name="location_mtlr_default_deny">已拒絕： 位置要求</string>
+    <string name="location_mtlr_network_fail">網路已終止請求</string>
+    <string name="notification_msg_content">位置要求</string>
+    <string name="notification_msg_type_notification">位置要求</string>
+    <string name="notification_msg_type_missed">遺失的位置要求</string>
+    <string name="notification_msg_type_title">位置要求</string>
+    <string name="notification_request_postfix">已要求您的位置。</string>
+    <string name="notification_dialog_middlefix">已要求您的位置。 您的位置</string>
+    <string name="verification_dialog_middlefix">已要求您的位置。 將允許接受此位置要求</string>
+    <string name="notification_dialog_postfix">確定您的位置。</string>
+    <string name="missed_verification_dialog_prefix">位置要求來自</string>
+    <string name="missed_verification_dialog_middlefix">已經遺失。 您的位置</string>
+    <string name="share_status_yes">已被</string>
+    <string name="share_status_no">未被</string>
+    <string name="share_string">共用物件</string>
+    <string name="toast_accept">現在可以確定您的位置。</string>
+    <string name="toast_deny">不允許確定您的位置。</string>
+    <string name="connect_terminate_msg">網路已取消該位置要求</string>
+    <string name="accept_ok">確定</string>
+    <string name="button_allow">允許</string>
+    <string name="button_deny">拒絕</string>
+</resources>

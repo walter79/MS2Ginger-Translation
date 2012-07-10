@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+    <string name="app_name">Errori ripristino dati</string>
+    <string name="master_clear_error_continue_button_text">Continua</string>
+    <string name="master_clear_error_sd_erase_failed_title">Errore cancellazione scheda SD</string>
+    <string name="master_clear_error_phone_erase_failed_title">Errore ripristino dati</string>
+    <string name="master_clear_error_generic">Problema sconosciuto</string>
+    <string name="master_clear_error_sd_nodevice">Scheda SD non trovata</string>
+    <string name="master_clear_error_sd_readonly">La scheda è protetta da scrittura</string>
+    <string name="master_clear_error_sd_write">Operazione di scrittura non riuscita</string>
+    <string name="master_clear_error_sd_read">Operazione di lettura non riuscita</string>
+    <string name="master_clear_error_sd_large">Scheda troppo grande</string>
+    <string name="master_clear_error_phone_generic">Operazione non riuscita</string>
+    <string name="master_clear_error_sd_activity_name">Report cancellazione scheda SD</string>
+    <string name="master_clear_error_phone_activity_name">Report cancellazione formattazione completa</string>
+</resources>

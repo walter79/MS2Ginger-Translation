@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+    <string name="app_name">Motorola Dock Service</string>
+    <string name="mot_dock_apps">Motorola Dock Apps</string>
+    <string name="TitleForWebtop">WebTop</string>
+    <string name="TitleForEASport">EASport</string>
+    <string name="TitleWidgetClock">Widget clock</string>
+    <string name="TitleForEntertainmentCenter">Entertainment Center</string>
+    <string name="TitleForBigClock">BigClock</string>
+    <string name="TitleForHome">Dismiss Picker</string>
+    <string name="description">a cím utáni részletesebb leírás helye</string>
+    <string name="detailed_description">részletes leírás helye</string>
+    <string name="dock_notification_title">Csatlakoztatva a multimédia központhoz</string>
+    <string name="hall_effect_dock_only">Multimédia központ csatlakoztatva</string>
+    <string name="dock_notification_message">Alkalmazásválasztó</string>
+    <string name="hdmi_notification_title">HDMI csatlakozó</string>
+    <string name="hdmi_notification_message">HDMI csatlakozás kezelése</string>
+    <string name="hdmi_only_message">HDMI csatlakoztatva</string>
+    <string name="dock_hdmi_notification_title">Csatlakoztatva a HD dokkolóhoz</string>
+    <string name="hall_effect_dock_notification">HD dokkoló csatlakoztatva</string>
+    <string name="dock_hdmi_notification_message">Alkalmazásválasztó</string>
+    <string name="descrip_webtop">Változtassa telefonját számítógéppé</string>
+    <string name="descrip_entertainmentcenter">Élje át képeit, zenéit és videóit HDTV minőségben</string>
+    <string name="descrip_bigclock">Stílusos megjelenésű óra és ébresztő</string>
+    <string name="descrip_widgetdock">Hozza létre saját dokkolási beállításait, hasonlóan telefonja főképernyőjéhez</string>
+    <string name="descrip_home">Legyen éppen használt alkalmazása az előtérben, miközben telefonja a dokkolóban van</string>
+    <string name="descrip_easport">Játékleírás</string>
+    <string name="str_ok">Rendben</string>
+    <string name="detail_descrip_webtop">Leírás később kerül ide</string>
+    <string name="detail_descrip_entertainmentcenter">A TV média központnak köszönhetően multimédiás tartalmait telefonján is böngészheti. Segítségével készüléke elegáns vezérlővé válik, amivel könnyedén játszhat le zenéket, nézhet képeket vagy videókat.</string>
+    <string name="detail_descrip_bigclock">Változtassa telefonja kijelzőjét egy extrákkal teli, hatalmas órává. Messziről olvashatja majd le az időt, beállíthat ébresztést, zenét hallgathat, képeket nézegethet és megtudhatja az aktuális időjárást. Használhatja az ágya mellett, de hasznos lehet a konyhában is, vagy akár asztali óraként.</string>
+    <string name="detail_descrip_widgetdock">Férjen hozzá főképernyőjén is megtalálható Androidos widgetjeihez, alkalmazásaihoz és parancsikonjaihoz. Rendezze el őket és állítson be tetszés szerinti hátteret. A változtatások a következő dokkoláskor kerülnek mentésre.</string>
+    <string name="detail_descrip_home">Ha ezt az üzemmódot választja, telefonján futó aktuális alkalmazása mindig előtérben lesz. Az értesítőfelületen könnyedén hozzáférhet a többi dokkoló alkalmazáshoz.</string>
+    <string name="detail_descrip_easport">A szórakoztatás rész részletesebb leírása. Később kerül feltöltésre.</string>
+    <string name="prompt_RememberMySelection">Válogatásom megjegyzése</string>
+    <string name="title">Válassza ki az elindítani kívánt alkalmazást</string>
+    <string name="detecting">Felismerés...</string>
+    <string name="TitleForMirrorMode">Telefonja kijelzőjének tükrözése külső kijelzőre</string>
+    <string name="descrip_mirrormode">A telefon valamennyi alkalmazásának megtekintése egy nagyobb képernyőn</string>
+    <string name="TitleForOther">Továbbiak</string>
+    <string name="descrip_other">Lekorlátozott dokkoló alkalmazások megtekintése</string>
+    <string name="TitleForGallery">Galéria</string>
+    <string name="descrip_gallery">Képek és videók megtekintése</string>
+    <string name="TitleForMusicPlayer">Zene</string>
+    <string name="descrip_musicplayer">Férjen hozzá zenéihez, hallgassa és ossza meg azokat</string>
+</resources>

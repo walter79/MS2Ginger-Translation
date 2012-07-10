@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+    <string-array name="INTRO_USB_CONNECTED_TEXT">
+        <item>Estás actualmente conectado vía USB</item>
+        <item>Presiona \"Menú\" para ver ayuda de conexión</item>
+    </string-array>
+    <string-array name="INTRO_USB_NOT_CONNECTED_TEXT">
+        <item>Conecta USB para iniciar\n(sólo Windows)</item>
+        <item>Presiona \"Menú\" para ver ayuda de conexión</item>
+    </string-array>
+    <string-array name="INTRO_WIFI_CONNECTED_TEXT">
+        <item>Estás actualmente conectado vía Wi-Fi</item>
+        <item>Configuración de conexión</item>
+    </string-array>
+    <string-array name="INTRO_WIFI_NOT_CONNECTED_TEXT">
+        <item>Toca el botón para acceder al\nPortal del teléfono Moto</item>
+        <item>Conectar con Wi-Fi</item>
+    </string-array>
+    <string-array name="INTRO_USB_WIFI_NOT_CONNECTED_TEXT">
+        <item>Conectar USB para iniciar</item>
+        <item>Conectar con Wi-Fi</item>
+    </string-array>
+    <string-array name="INTRO_USB_WIFI_CONNECTED_TEXT">
+        <item>Conectar USB para iniciar</item>
+        <item>Configurar conexión</item>
+    </string-array>
+    <string-array name="INTRO_USB_CONNECTED_WIFI_TEXT">
+        <item>Escribe esta dirección en el navegador de tu PC</item>
+        <item></item>
+    </string-array>
+    <string-array name="HELP_LIST">
+        <item>Conexión vía USB</item>
+        <item>Conexión vía Wi-Fi</item>
+    </string-array>
+    <string-array name="HELP_LIST_SUM">
+        <item>Sólo Windows</item>
+        <item>Windows, Mac o Linux</item>
+    </string-array>
+</resources>

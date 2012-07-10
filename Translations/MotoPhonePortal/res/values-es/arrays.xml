@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+    <string-array name="INTRO_USB_CONNECTED_TEXT">
+        <item>Estás conectado a través de un USB</item>
+        <item>Pulsa \"Menú\" para ver la ayuda de conexión</item>
+    </string-array>
+    <string-array name="INTRO_USB_NOT_CONNECTED_TEXT">
+        <item>Conecta el USB para iniciar\n(solo Windows)</item>
+        <item>Pulsa \"Menú\" para ver la ayuda de conexión</item>
+    </string-array>
+    <string-array name="INTRO_WIFI_CONNECTED_TEXT">
+        <item>Estás conectado a través de Wi-Fi</item>
+        <item>Ajustes de conexión</item>
+    </string-array>
+    <string-array name="INTRO_WIFI_NOT_CONNECTED_TEXT">
+        <item>Pulsa el botón para acceder a\nPortal telefónico Motorola</item>
+        <item>Conectar mediante Wi-Fi</item>
+    </string-array>
+    <string-array name="INTRO_USB_WIFI_NOT_CONNECTED_TEXT">
+        <item>Conectar USB para iniciar</item>
+        <item>Conectar mediante Wi-Fi</item>
+    </string-array>
+    <string-array name="INTRO_USB_WIFI_CONNECTED_TEXT">
+        <item>Conectar USB para iniciar</item>
+        <item>Ajustes de conexión</item>
+    </string-array>
+    <string-array name="INTRO_USB_CONNECTED_WIFI_TEXT">
+        <item>Introduce esta dirección en el navegador del PC</item>
+        <item></item>
+    </string-array>
+    <string-array name="HELP_LIST">
+        <item>Conexión con USB</item>
+        <item>Conexión con Wi-Fi</item>
+    </string-array>
+    <string-array name="HELP_LIST_SUM">
+        <item>Solo Windows</item>
+        <item>Windows, Mac o Linux</item>
+    </string-array>
+</resources>

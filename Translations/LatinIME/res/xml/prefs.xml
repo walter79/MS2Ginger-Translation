@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<PreferenceScreen android:title="@string/english_ime_settings" android:key="english_ime_settings"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <PreferenceScreen android:title="@string/language_selection_title" android:summary="@string/language_selection_summary">
+        <intent android:action="com.android.inputmethod.latin.INPUT_LANGUAGE_SELECTION" />
+    </PreferenceScreen>
+    <PreferenceCategory android:title="@string/prediction_category" android:key="prediction_settings">
+        <CheckBoxPreference android:persistent="true" android:title="@string/show_suggestions" android:key="show_suggestions" android:summary="@string/show_suggestions_summary" android:defaultValue="@bool/default_show_suggestions" />
+        <CheckBoxPreference android:persistent="true" android:title="@string/auto_complete" android:key="auto_complete" android:summary="@string/auto_complete_summary" android:defaultValue="@bool/enable_autocorrect" />
+        <CheckBoxPreference android:persistent="true" android:title="@string/auto_punctuate" android:key="auto_punctuate" android:summary="@string/auto_punctuate_summary" android:defaultValue="@bool/default_auto_punctuate" />
+        <CheckBoxPreference android:persistent="true" android:title="@string/vibrate_on_keypress" android:key="vibrate_on" android:defaultValue="@bool/default_vibrate_on" />
+        <CheckBoxPreference android:persistent="true" android:title="@string/sound_on_keypress" android:key="sound_on" android:defaultValue="@bool/default_sound_on_keypress" />
+        <CheckBoxPreference android:persistent="true" android:title="@string/auto_cap" android:key="auto_cap" android:defaultValue="@bool/default_auto_cap" />
+    </PreferenceCategory>
+    <PreferenceCategory android:title="@string/device_keyboard_category" android:key="device_keyboard_settings">
+        <CheckBoxPreference android:persistent="true" android:title="@string/show_completions" android:key="show_completions" android:summary="@string/show_completions_summary" android:defaultValue="@bool/default_show_completions" />
+        <CheckBoxPreference android:persistent="true" android:title="@string/auto_correct_device_keyboard" android:key="auto_correct_device_keyboard" android:summary="@string/auto_correct_device_keyboard_summary" android:defaultValue="@bool/default_auto_correct_device_keyboard" />
+    </PreferenceCategory>
+    <PreferenceCategory android:title="@string/voice_input_category" android:key="voice_input_settings">
+        <CheckBoxPreference android:persistent="true" android:title="@string/voice_dictation_title" android:key="voice_dictation_key" android:summary="@string/voice_dictation_summary" android:defaultValue="@bool/default_voice_dictation" />
+    </PreferenceCategory>
+    <PreferenceCategory android:title="@string/general_category" android:key="general_settings">
+        <CheckBoxPreference android:persistent="true" android:title="@string/highlight_words" android:key="highlight_words" android:summary="@string/highlight_words_summary" android:defaultValue="@bool/default_highlight_words" />
+        <CheckBoxPreference android:persistent="true" android:title="@string/next_word" android:key="next_word_prediction" android:summary="@string/next_word_summary" android:defaultValue="@bool/default_next_word_prediction" />
+    </PreferenceCategory>
+    <PreferenceScreen android:title="@string/setting_transfer_dict_title" android:summary="@string/setting_transfer_dict_summary">
+        <intent android:targetPackage="com.android.inputmethod.latin" android:action="android.intent.action.MAIN" android:targetClass="com.android.inputmethod.latin.TransferUadActivity" />
+    </PreferenceScreen>
+    <Preference android:persistent="false" android:title="@string/setting_clear_dict_title" android:key="clear_dict_key" android:summary="@string/setting_clear_dict_summary" />
+</PreferenceScreen>

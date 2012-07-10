@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LinearLayout android:gravity="left" android:orientation="horizontal" android:paddingLeft="@dimen/vertical_card_padding" android:paddingTop="@dimen/horizontal_card_padding" android:paddingRight="@dimen/vertical_card_padding" android:paddingBottom="@dimen/horizontal_card_padding" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="12.0sp" android:id="@id/forecast_type_extended" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/extended_forecast" style="@style/WeatherForecastTxt" />
+    <TextView android:textSize="12.0sp" android:layout_gravity="center" android:layout_width="20.0sp" android:layout_height="wrap_content" android:text="@string/text_divider" style="@style/WeatherForecastTxt" />
+    <TextView android:textSize="12.0sp" android:id="@id/forecast_type_detailed" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/detailed_forecast" style="@style/WeatherForecastTxt" />
+</LinearLayout>

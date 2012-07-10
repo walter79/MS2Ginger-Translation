@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+    <string name="app_name">MtlrDialog</string>
+    <string name="location_mtlr_notification">żąda Twojej lokalizacji</string>
+    <string name="location_mtlr_ver_prefix">Żądanie zostanie</string>
+    <string name="location_mtlr_ver_postfix">w przypadku braku odpowiedzi.</string>
+    <string name="location_mtlr_default_allow">Zaakceptowane: żądanie lokalizacji</string>
+    <string name="location_mtlr_default_deny">Odrzucone: żądanie lokalizacji</string>
+    <string name="location_mtlr_network_fail">Żądanie odrzucone przez sieć</string>
+    <string name="notification_msg_content">Żądana lokalizacja</string>
+    <string name="notification_msg_type_notification">Żądana lokalizacja</string>
+    <string name="notification_msg_type_missed">Opuszczone żądanie lokalizacji</string>
+    <string name="notification_msg_type_title">Żądana lokalizacja</string>
+    <string name="notification_request_postfix">zażądał Twojej lokalizacji.</string>
+    <string name="notification_dialog_middlefix">zażądał Twojej lokalizacji. Twoja lokalizacja</string>
+    <string name="verification_dialog_middlefix">zażądał Twojej lokalizacji. Zaakceptowanie tego żądania lokalizacji umożliwi</string>
+    <string name="notification_dialog_postfix">określenie Twojej lokalizacji.</string>
+    <string name="missed_verification_dialog_prefix">Pominięto żądanie</string>
+    <string name="missed_verification_dialog_middlefix">lokalizacji od Twoja lokalizacja</string>
+    <string name="share_status_yes">została</string>
+    <string name="share_status_no">nie została</string>
+    <string name="share_string">udostępniona</string>
+    <string name="toast_accept">będzie mógł teraz ustalić Twoją lokalizację.</string>
+    <string name="toast_deny">nie będzie mógł ustalić Twojej lokalizacji.</string>
+    <string name="connect_terminate_msg">Żądanie lokalizacji zostało anulowane przez sieć</string>
+    <string name="accept_ok">Ok</string>
+    <string name="button_allow">Zezwól</string>
+    <string name="button_deny">Odmów</string>
+</resources>

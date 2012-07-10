@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+    <string name="app_label">HTML 查看器</string>
+    <string name="permlab_accessDrm">访问 DRM 内容。</string>
+    <string name="permdesc_accessDrm">允许应用程序访问受 DRM 保护的内容。</string>
+</resources>

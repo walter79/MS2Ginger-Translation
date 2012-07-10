@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+    <item type="id" name="list">false</item>
+    <item type="id" name="lblText">false</item>
+    <item type="id" name="txtBatch_Path">false</item>
+    <item type="id" name="btnSet">false</item>
+    <item type="id" name="btnSetDefault">false</item>
+    <item type="id" name="TextView01">false</item>
+    <item type="id" name="chkLogResponse">false</item>
+    <item type="id" name="chkLogError">false</item>
+    <item type="id" name="chkLogCommand">false</item>
+</resources>

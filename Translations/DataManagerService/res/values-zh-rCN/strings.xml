@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+    <string name="hello">Hello World!</string>
+    <string name="app_name">数据管理服务</string>
+    <string name="perm_label">启用设置数据计划</string>
+    <string name="perm_desc">允许应用程序设置其使用数据管理服务的数据计划</string>
+    <string name="backgrounddata_warning_message">为了保护您的数据计划，管理员已禁用漫游时的后台数据。\n\n如果需要，您可以在漫游时手动同步数据。</string>
+    <string name="backgrounddata_notification_title">已禁用后台数据</string>
+    <string name="backgrounddata_dialog_title">后台数据通知</string>
+    <string name="backgrounddata_dialog_message">管理员已禁用漫游时的后台数据。\n如果需要，您可以在漫游时手动同步数据。</string>
+    <string name="ok">确定</string>
+</resources>

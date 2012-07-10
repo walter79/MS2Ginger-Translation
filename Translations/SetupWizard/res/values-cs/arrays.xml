@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+    <string-array name="security_questions">
+        <item>Oblíbené jídlo?</item>
+        <item>Město narození.</item>
+        <item>Jméno nejlepšího kamaráda z dětství?</item>
+        <item>Název střední školy</item>
+    </string-array>
+    <string-array name="passwordStrength">
+        <item>Nízká</item>
+        <item>Uspokojivá</item>
+        <item>Dobrá</item>
+        <item>Silná</item>
+    </string-array>
+</resources>

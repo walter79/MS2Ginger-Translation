@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<merge
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:id="@id/loading_icon" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="@dimen/widget_icon_hspacing">
+        <ProgressBar android:layout_width="wrap_content" android:layout_height="wrap_content" style="\?android:progressBarStyleSmall" />
+    </RelativeLayout>
+    <TextView android:ellipsize="end" android:id="@id/widget_mood" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:singleLine="true" />
+    <ImageView android:id="@id/widget_icon" android:layout_marginRight="@dimen/widget_icon_hspacing" style="@style/MessageIcon" />
+    <ImageView android:id="@id/widget_comment" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="@dimen/widget_icon_hspacing" android:src="@blur.res:drawable/ic_comment_inactive" />
+    <ImageView android:id="@id/widget_like" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="@dimen/widget_icon_hspacing" android:src="@blur.res:drawable/ic_like_inactive" />
+    <ImageView android:id="@id/widget_provider_icon" style="@blur.res:style/Widget.SourceIcon" />
+</merge>

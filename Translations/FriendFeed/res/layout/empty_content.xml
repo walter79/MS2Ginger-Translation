@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include layout="@blur.res:layout/provider_icons" />
+    <TextView android:id="@blur.res:id/widget_body_text" android:layout_above="@blur.res:id/provider_icon1" style="@style/EmptyMessage.Vertical" />
+</RelativeLayout>

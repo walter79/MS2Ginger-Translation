@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:layout_gravity="center_horizontal" android:orientation="vertical" android:id="@id/edit_status_root" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <RelativeLayout android:id="@id/edit_status_panel" android:paddingTop="10.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <ImageView android:id="@id/edit_status_thumb" android:paddingLeft="@dimen/edit_status_pad" android:paddingRight="@dimen/edit_status_pad" android:visibility="gone" android:layout_width="@dimen/edit_status_thumb_width" android:layout_height="@dimen/edit_status_thumb_width" android:layout_alignParentTop="true" android:layout_alignParentRight="true" />
+            <com.motorola.blur.home.status.StatusEditText android:textSize="@dimen/edit_status_edit_text" android:gravity="top" android:id="@id/edit_status_text" android:layout_width="fill_parent" android:layout_height="wrap_content" android:hint="@string/enter_status" android:maxLines="8" android:singleLine="false" android:capitalize="sentences" android:layout_toLeftOf="@id/edit_status_thumb" android:layout_alignParentLeft="true" android:layout_alignParentTop="true" />
+            <TextView android:textSize="@dimen/edit_status_edit_text" android:gravity="top" android:id="@id/edit_status_text_readonly" android:focusable="false" android:visibility="gone" android:clickable="false" android:layout_width="fill_parent" android:layout_height="wrap_content" android:maxLines="8" android:minLines="2" android:singleLine="false" android:capitalize="sentences" android:layout_toLeftOf="@id/edit_status_thumb" android:layout_alignParentLeft="true" android:layout_alignParentTop="true" style="@android:style/Widget.EditText" />
+            <TextView android:textSize="@dimen/edit_status_mood_label" android:textColor="#ffff0000" android:gravity="right" android:id="@id/edit_status_counter" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_below="@id/edit_status_text" android:layout_alignRight="@id/edit_status_text" />
+        </RelativeLayout>
+        <LinearLayout android:gravity="left" android:orientation="vertical" android:id="@id/edit_status_mood_parent" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <TextView android:textSize="@dimen/edit_status_mood_label" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="5.0dip" android:text="@string/mood_colon" />
+            <com.motorola.blur.util.widgets.AnnotateSpinner android:id="@id/edit_status_moods" android:layout_width="fill_parent" android:layout_height="wrap_content" android:prompt="@string/select_mood" android:layout_weight="1.0" />
+        </LinearLayout>
+        <RelativeLayout android:id="@id/provider_selector_panel" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <RelativeLayout android:id="@id/single_provider_panel" android:paddingRight="10.0dip" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_alignBaseline="@id/provider_selector_panel" android:layout_alignParentLeft="true">
+                <ImageView android:id="@id/provider_icon" android:layout_width="wrap_content" android:layout_height="wrap_content" android:adjustViewBounds="true" android:maxHeight="@dimen/edit_status_status_height" android:layout_alignParentLeft="true" />
+                <TextView android:textSize="@dimen/edit_status_edit_text" android:id="@id/provider_name" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_toRightOf="@id/provider_icon" android:layout_centerVertical="true" />
+            </RelativeLayout>
+            <RelativeLayout android:id="@id/provider_panel" android:paddingLeft="10.0dip" android:paddingRight="10.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignBaseline="@id/provider_selector_panel" android:layout_alignParentLeft="true" style="@android:style/Widget.ImageButton">
+                <TextView android:textSize="@dimen/edit_status_edit_text" android:id="@id/post_to" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/post_to" android:layout_centerVertical="true" />
+                <LinearLayout android:orientation="horizontal" android:id="@id/icon_panel" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_toRightOf="@id/post_to" android:layout_centerVertical="true">
+                    <ImageView android:id="@id/provider_icon_1" style="@style/ProviderIcon" />
+                    <ImageView android:id="@id/provider_icon_2" style="@style/ProviderIcon" />
+                    <ImageView android:id="@id/provider_icon_3" style="@style/ProviderIcon" />
+                </LinearLayout>
+                <TextView android:textSize="@dimen/edit_status_edit_text" android:id="@id/provider_count" android:paddingLeft="@dimen/edit_status_pad" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_toRightOf="@id/icon_panel" android:layout_centerVertical="true" />
+            </RelativeLayout>
+            <RelativeLayout android:id="@id/command_panel" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignBaseline="@id/provider_selector_panel" android:layout_alignParentRight="true">
+                <ImageButton android:gravity="center_vertical" android:id="@id/edit_status_attach" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ic_control_attachment" />
+                <Button android:id="@id/edit_status_send" android:layout_width="wrap_content" android:layout_height="fill_parent" android:text="@string/post" android:layout_toRightOf="@id/edit_status_attach" android:layout_alignBottom="@id/edit_status_attach" />
+            </RelativeLayout>
+        </RelativeLayout>
+        <RelativeLayout android:id="@id/progress_bar_panel" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <Button android:id="@id/edit_status_cancel" android:paddingLeft="@dimen/edit_status_send_padding" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@blur.res:string/cancel_button" android:layout_alignParentRight="true" />
+            <RelativeLayout android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_toLeftOf="@id/edit_status_cancel" android:layout_alignParentLeft="true">
+                <TextView android:gravity="center" android:id="@id/progress_status" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@blur.res:string/cancel_button" />
+                <ProgressBar android:id="@id/progress_bar" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_below="@id/progress_status" style="\?android:attr/progressBarStyleHorizontal" />
+            </RelativeLayout>
+        </RelativeLayout>
+    </LinearLayout>
+    <TextView android:text="@string/current_status" style="\?android:attr/listSeparatorTextViewStyle" />
+</LinearLayout>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RelativeLayout android:orientation="vertical" android:id="@id/conversation_root" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="horizontal" android:id="@id/conversation_title" style="@blur.res:style/Blur.TitleBar">
+        <RelativeLayout android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_weight="1.0">
+            <TextView android:textStyle="bold" android:textColor="@color/white" android:ellipsize="end" android:id="@id/thread_subject" android:visibility="invisible" android:layout_alignParentLeft="true" style="@style/ConversationTitleTxt" />
+            <TextView android:textColor="@color/white" android:id="@id/thread_friends" android:paddingLeft="6.0dip" android:paddingRight="4.0dip" android:visibility="invisible" android:text="@string/you_and_friends" android:layout_alignParentRight="true" style="@style/ConversationTitleTxt" />
+        </RelativeLayout>
+        <ImageView android:id="@id/account_icon" android:layout_width="@dimen/title_source_image_size" android:layout_height="@dimen/title_source_image_size" />
+    </LinearLayout>
+    <FrameLayout android:background="@blur.res:color/light_gray" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_above="@id/bottom_edit_bar" android:layout_below="@id/conversation_title">
+        <ListView android:id="@android:id/list" android:background="@blur.res:color/light_gray" android:layout_marginBottom="1.0dip" android:transcriptMode="normal" android:cacheColorHint="@blur.res:color/light_gray" android:divider="@color/white" style="@blur.res:style/Blur.ScrollingList" />
+        <TextView android:gravity="center" android:layout_gravity="center" android:id="@id/detail_empty" android:background="@blur.res:color/msg_background" android:layout_width="fill_parent" android:layout_height="fill_parent" style="@blur.res:style/Blur.PaneAreaTxt" />
+    </FrameLayout>
+    <View android:background="@android:drawable/title_bar_shadow" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_below="@id/conversation_title" />
+    <ViewStub android:id="@id/bottom_edit_bar_stub" android:layout="@layout/conversation_detail_footer" android:inflatedId="@id/bottom_edit_bar" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_alignParentBottom="true" />
+    <ViewStub android:id="@id/bottom_edit_bar_withcounter_stub" android:layout="@layout/conversation_detail_footer_withcounter" android:inflatedId="@id/bottom_edit_bar_withcounter" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_alignParentBottom="true" />
+</RelativeLayout>

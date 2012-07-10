@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<FrameLayout android:id="@id/widget" android:background="@drawable/base_1x1" android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <FrameLayout android:layout_gravity="top|center" android:id="@id/FrameImage" android:layout_width="wrap_content" android:layout_height="wrap_content">
+        <ImageView android:id="@id/imagebg" android:paddingTop="@dimen/sleeveTopPadding" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/sleeve_airplane_on" />
+        <ImageView android:id="@id/togglerImage" android:paddingLeft="@dimen/ToggleImageLeftPadding" android:paddingTop="@dimen/ToggleImageTopPadding" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ic_toggle_airplane" />
+    </FrameLayout>
+    <TextView android:id="@id/statusText" android:paddingLeft="@dimen/statusTextPaddingLeft" android:paddingTop="@dimen/statusTextPaddingTop" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/StatusOn" style="@style/statusTextStyle" />
+</FrameLayout>

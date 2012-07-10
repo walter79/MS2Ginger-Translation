@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+    <plurals name="Nminutes">
+        <item quantity="other">%dminut</item>
+        <item quantity="one">1 min</item>
+    </plurals>
+    <plurals name="Nmins">
+        <item quantity="other">%dminut</item>
+        <item quantity="one">1 min</item>
+    </plurals>
+    <plurals name="Nhours">
+        <item quantity="other">%dgodzin</item>
+        <item quantity="one">1 godzina</item>
+    </plurals>
+    <plurals name="Ndays">
+        <item quantity="other">%ddni</item>
+        <item quantity="one">1 dzień</item>
+    </plurals>
+</resources>

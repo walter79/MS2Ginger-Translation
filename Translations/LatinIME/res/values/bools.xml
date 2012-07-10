@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+    <bool name="enable_autocorrect">false</bool>
+    <bool name="im_is_default">false</bool>
+    <bool name="default_show_suggestions">true</bool>
+    <bool name="default_auto_punctuate">true</bool>
+    <bool name="default_vibrate_on">true</bool>
+    <bool name="default_sound_on_keypress">true</bool>
+    <bool name="default_auto_cap">true</bool>
+    <bool name="default_show_completions">true</bool>
+    <bool name="default_auto_correct_device_keyboard">true</bool>
+    <bool name="default_voice_dictation">true</bool>
+    <bool name="default_highlight_words">true</bool>
+    <bool name="default_next_word_prediction">true</bool>
+    <bool name="voice_input_default">true</bool>
+    <bool name="config_swipeDisambiguation">true</bool>
+    <bool name="default_popup_preview">true</bool>
+    <bool name="default_recorrection_enabled">true</bool>
+    <bool name="config_long_press_comma_for_settings_enabled">true</bool>
+    <bool name="deviceKeyboardPortrait_AlwaysAvailable">false</bool>
+    <bool name="deviceKeyboardLandscape_AlwaysAvailable">false</bool>
+</resources>

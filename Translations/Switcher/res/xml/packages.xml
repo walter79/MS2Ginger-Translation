@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Packages hybridsoftkeyboard="false"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <Mime name="com.motorola.inputmethod.motosmarthandwriting" vendor="motorola" installed="true">
+        <Service name="com.motorola.inputmethod.motosmarthandwriting.MotoSmartHandWritingService" device="touchpad">
+            <Layout name="fullscreenhandwriting">
+                <Mode name="fullscreenhandwriting" />
+            </Layout>
+            <Layout name="standardhandwriting">
+                <Mode name="standardhandwriting" />
+            </Layout>
+        </Service>
+    </Mime>
+    <Mime name="com.motorola.inputmethod.gpinyin" vendor="motorola" installed="true">
+        <Service name="com.motorola.inputmethod.gpinyin.PinyinIMEQwerty" device="keyboard">
+            <Layout name="qwerty">
+                <Mode name="pinyin" language="zh" region="CN" />
+            </Layout>
+        </Service>
+        <Service name="com.motorola.inputmethod.gpinyin.PinyinIMEB" device="keyboard" language="zh">
+            <Layout name="bellpad">
+                <Mode name="pinyin" language="zh" region="CN" />
+            </Layout>
+        </Service>
+    </Mime>
+    <Mime name="com.motorola.inputmethod.latin" vendor="motorola" installed="true">
+        <Service name="com.motorola.inputmethod.latin.LatinIMEQwerty" device="keyboard">
+            <Layout name="qwerty">
+                <Mode name="itap" language="en" />
+                <Mode name="tap" language="en" />
+                <Mode name="number" />
+                <Mode name="phonenumber" />
+                <Mode name="symbol" />
+                <Mode name="emotion" />
+            </Layout>
+        </Service>
+        <Service name="com.motorola.inputmethod.latin.LatinIMEBell" device="keyboard">
+            <Layout name="bellpad">
+                <Mode name="itap" language="en" />
+                <Mode name="tap" language="en" />
+                <Mode name="number" />
+                <Mode name="phonenumber" />
+                <Mode name="symbol" />
+                <Mode name="emotion" />
+            </Layout>
+        </Service>
+    </Mime>
+    <Mime name="com.motorola.inputmethod.stroke" vendor="motorola" installed="true">
+        <Service name="com.motorola.inputmethod.stroke.StrokeIME" device="keyboard">
+            <Layout name="qwerty">
+                <Mode name="stroke" language="zh" />
+            </Layout>
+            <Layout name="bellpad">
+                <Mode name="stroke" language="zh" />
+            </Layout>
+        </Service>
+    </Mime>
+    <Mime name="com.guobi.gbime" vendor="gb" installed="true">
+        <Service name="com.guobi.gbime.GBIme" device="keyboard">
+            <Layout name="qwerty">
+                <Mode name="zhuyin" language="zh" region="TW" />
+                <Mode name="cantonesejie" language="zh" region="HK" />
+            </Layout>
+            <Layout name="bellpad">
+                <Mode name="zhuyin" language="zh" region="TW" />
+                <Mode name="stroke" language="zh" region="HK" />
+            </Layout>
+        </Service>
+    </Mime>
+</Packages>

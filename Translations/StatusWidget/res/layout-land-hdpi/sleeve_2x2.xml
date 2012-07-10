@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<FrameLayout android:background="@drawable/sleeve_2x2" style="@style/Sleeve"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include layout="@layout/widget_icon_large" />
+    <ImageView android:id="@id/widget_photo" android:layout_width="@dimen/img_width_2x2" android:layout_height="@dimen/img_height_2x2" style="@style/Sleeve.Image.Horizontal" />
+</FrameLayout>

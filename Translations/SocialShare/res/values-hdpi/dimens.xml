@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+    <dimen name="SOCIALSHARING_SharePhoto_ImgPreviewHeight">132.0dip</dimen>
+    <dimen name="SOCIALSHARING_SharePhoto_ImgPreviewWidth">152.0dip</dimen>
+    <dimen name="SOCIALSHARING_SharePhoto_ImgPreview_PadTop">10.0dip</dimen>
+    <dimen name="SOCIALSHARING_SharePhoto_ImgPreview_PadLeft_l">10.0dip</dimen>
+    <dimen name="SOCIALSHARING_ShareAlbum_ImgPreviewHeight">124.0dip</dimen>
+    <dimen name="SOCIALSHARING_ShareAlbum_ImgPreviewWidth">144.0dip</dimen>
+    <dimen name="SOCIALSHARING_ShareAlbum_ImgPreview_PadTop">18.0dip</dimen>
+    <dimen name="SOCIALSHARING_ShareAlbum_ImgPreview_PadRight">8.0dip</dimen>
+</resources>

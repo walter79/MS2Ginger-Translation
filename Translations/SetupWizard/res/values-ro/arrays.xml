@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+    <string-array name="security_questions">
+        <item>Mâncarea preferată?</item>
+        <item>Oraşul naşterii?</item>
+        <item>Numele celui mai bun prieten din copilărie?</item>
+        <item>Numele liceului?</item>
+    </string-array>
+    <string-array name="passwordStrength">
+        <item>slabă</item>
+        <item>corectă</item>
+        <item>bună</item>
+        <item>puternică</item>
+    </string-array>
+</resources>

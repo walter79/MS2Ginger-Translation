@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+    <string name="notification_download_not_acceptable">Falha ao baixar. Conteúdo inválido.</string>
+    <string name="notification_dwonload_wait_network">O download requer rede.</string>
+</resources>

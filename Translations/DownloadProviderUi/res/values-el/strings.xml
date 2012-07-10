@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+    <string name="download_menu_ringtone">Ορισμός ως ήχου κλήσης</string>
+    <string name="download_menu_wallpaper">Ορισμός ως</string>
+    <string name="ringtone_set">Ορισμός του \"%s\" ως ήχου κλήσης του τηλεφώνου.</string>
+    <string name="error_occured">Παρουσιάστηκε σφάλμα. Προσπαθήστε ξανά.</string>
+    <string name="dialog_download_not_acceptable">Δεν είναι δυνατή η λήψη. Το τηλέφωνο δεν υποστηρίζει αυτό το περιεχόμενο.</string>
+    <string name="download_unsupported">Δεν υποστηρίζεται</string>
+    <string name="app_label">Λήψεις</string>
+    <string name="download_title">Λήψεις</string>
+    <string name="no_downloads">Καμία λήψη.</string>
+    <string name="missing_title">&lt;Άγνωστο></string>
+    <string name="download_menu_sort_by_size">Ταξινόμηση κατά μέγεθος</string>
+    <string name="download_menu_sort_by_date">Ταξινόμηση κατά ώρα</string>
+    <string name="download_queued">Σε ουρά</string>
+    <string name="download_running">Σε εξέλιξη</string>
+    <string name="download_success">Τελείωσε</string>
+    <string name="download_error">Απέτυχε</string>
+    <string name="dialog_title_not_available">Η λήψη απέτυχε</string>
+    <string name="dialog_failed_body">Θέλετε να επαναλάβετε τη λήψη του αρχείου αργότερα ή να διαγράψετε το αρχείο από την ουρά;</string>
+    <string name="dialog_title_queued_body">Το αρχείο δεν είναι διαθέσιμο ακόμη</string>
+    <string name="dialog_queued_body">Αυτό το αρχείο τοποθετήθηκε σε ουρά, για μελλοντική λήψη.</string>
+    <string name="dialog_file_missing_body">Το αρχείο λήψης δεν βρέθηκε.</string>
+    <string name="dialog_insufficient_space_on_external">Δεν είναι δυνατή η ολοκλήρωση της λήψης. Ο εξωτερικός χώρος αποθήκευσης δεν επαρκεί.</string>
+    <string name="dialog_insufficient_space_on_cache">Δεν είναι δυνατή η ολοκλήρωση της λήψης. Ο εσωτερικός χώρος αποθήκευσης λήψεων δεν επαρκεί.</string>
+    <string name="dialog_cannot_resume">Η λήψη διακόπηκε. Δεν μπορεί να συνεχιστεί.</string>
+    <string name="dialog_file_already_exists">Δεν είναι δυνατή η λήψη. Το αρχείο προορισμού υπάρχει ήδη.</string>
+    <string name="dialog_media_not_found">Δεν είναι δυνατή η λήψη. Τα εξωτερικά πολυμέσα δεν είναι διαθέσιμα.</string>
+    <string name="download_no_application_title">Δεν είναι δυνατό το άνοιγμα του αρχείου</string>
+    <string name="remove_download">Κατάργηση</string>
+    <string name="delete_download">Διαγραφή</string>
+    <string name="keep_queued_download">Διατήρηση</string>
+    <string name="cancel_running_download">Άκυρο</string>
+    <string name="retry_download">Επανάληψη</string>
+    <string name="deselect_all">Αναίρεση επιλογής</string>
+</resources>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+    <string name="app_name">FOTA</string>
+    <string name="atc_title">Vérification automatique</string>
+    <string name="warn_auto_check_on_title">Vérification automatique activée</string>
+    <string name="warn_auto_check_off_title">Vérification automatique désactivée</string>
+    <string name="warn_auto_check_on_message">Le tarif de données normal peut s\'appliquer au cours de la vérification automatique du système.</string>
+    <string name="warn_auto_check_off_message">Le téléphone ne cherchera plus les mises à jour automatiquement. Pour des performances optimales, une vérification régulière est vivement recommandée.</string>
+    <string name="fota_alert_dialog_ok">OK</string>
+    <string name="test_check_progress">Mise à jour lancée par l\'utilisateur</string>
+    <string name="test_check_timer_progress">Mise à jour avec expiration lancée par l\'utilisateur</string>
+    <string name="hi_fota_plugin">Application de test FOTA</string>
+    <string name="click_me">quitter</string>
+</resources>

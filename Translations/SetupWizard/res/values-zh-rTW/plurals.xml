@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+    <plurals name="error_missing_apps_plurals">
+        <item quantity="other">由於遺失以下應用程式：^1，因此本帳戶無法在手機上使用。請聯絡網域管理者，取得 &lt;b>^2&lt;/b> 或登入其他帳戶。</item>
+        <item quantity="one">由於遺失以下應用程式：^1，此帳戶無法在手機上使用。請聯絡網域管理者，取得 &lt;b>^2&lt;/b> 或登入其他帳戶。</item>
+    </plurals>
+</resources>

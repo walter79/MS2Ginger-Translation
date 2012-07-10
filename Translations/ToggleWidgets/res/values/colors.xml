@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+    <color name="offColor">#ff858585</color>
+    <color name="airplaneOnColor">#ffc15c17</color>
+    <color name="gpsOnColor">#ffd62159</color>
+    <color name="wifiOnColor">#ff1fad10</color>
+    <color name="bluetoothOnColor">#ff39a6ff</color>
+</resources>

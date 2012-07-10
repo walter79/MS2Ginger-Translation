@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+    <string name="yes">Yes</string>
+    <string name="no">No</string>
+    <string name="ok">OK</string>
+    <string name="please_wait">Please wait</string>
+    <string name="widget_title">Picture Frame Plus</string>
+    <string name="widget_description">Display a slideshow of your recent photos and easily capture more</string>
+    <string name="error_dialog">Widget Conflict</string>
+    <string name="view_label">View picture</string>
+    <string name="error_description">Widget Conflict. Only one Photo Slideshow widget can be added to the home screen</string>
+    <string name="app_name">Photo Slideshow</string>
+    <string name="gallery_photo_set_failed">The selected image cannot be displayed</string>
+    <string name="camera_photo_set_failed">The last captured image cannot be displayed</string>
+</resources>

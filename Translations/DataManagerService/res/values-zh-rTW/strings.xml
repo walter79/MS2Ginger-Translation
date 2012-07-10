@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+    <string name="hello">Hello World!</string>
+    <string name="app_name">資料管理服務</string>
+    <string name="perm_label">啟用設定資料計畫</string>
+    <string name="perm_desc">允許應用程式將其資料計畫設為資料管理服務</string>
+    <string name="backgrounddata_warning_message">為了保護您的資料計劃，管理員已在漫遊時停用背景資料。\n\n如有需要，您可以在漫遊時手動同步資料。</string>
+    <string name="backgrounddata_notification_title">已停用背景資料</string>
+    <string name="backgrounddata_dialog_title">背景資料通知</string>
+    <string name="backgrounddata_dialog_message">管理員已經在漫遊時停用背景資料。\n如有需要，您可以在漫遊時手動同步資料。</string>
+    <string name="ok">確定</string>
+</resources>

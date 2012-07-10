@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+    <item type="id" name="grid">false</item>
+    <item type="id" name="messaging_header">false</item>
+    <item type="id" name="compose_buttonframe">false</item>
+    <item type="id" name="compose_button">false</item>
+    <item type="id" name="compose_bubble">false</item>
+    <item type="id" name="header_shadow">false</item>
+    <item type="id" name="account_icon">false</item>
+    <item type="id" name="count_bubble">false</item>
+    <item type="id" name="account_error">false</item>
+    <item type="id" name="account_name">false</item>
+</resources>

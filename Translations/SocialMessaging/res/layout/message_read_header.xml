@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LinearLayout android:orientation="vertical" android:id="@id/msg_read_header" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.motorola.blur.util.widgets.IdentityBadge android:id="@id/msg_sender_badge" android:focusable="true" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" style="@style/EmailReadBadgeSection" />
+    <LinearLayout android:orientation="vertical" android:id="@id/msg_sender_row" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" style="@style/EmailReadSenderAWSection">
+            <TextView android:id="@id/msg_sender_label" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/EmailReadSenderAWLabel" />
+            <com.motorola.blur.socialmessaging.view.address.read.SMReadAddressingWidget android:orientation="vertical" android:id="@id/msg_sender_aw" android:layout_width="fill_parent" android:layout_height="wrap_content" style="@blur.res:style/Blur.ReadAddressingWidget" />
+        </LinearLayout>
+        <TextView android:id="@id/sentdate_field" android:layout_width="fill_parent" android:layout_height="wrap_content" style="@style/EmailReadSentDateTime" />
+    </LinearLayout>
+    <TextView android:ellipsize="none" android:autoLink="all" android:id="@id/subject_field" android:layout_width="fill_parent" android:layout_height="wrap_content" style="@style/EmailReadSubjectSection" />
+</LinearLayout>

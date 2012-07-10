@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+    <style name="TitleTxt" parent="@blur.res:style/Blur.TxtListItemB">
+        <item name="android:ellipsize">none</item>
+        <item name="android:gravity">top|left|center</item>
+        <item name="android:maxLines">3</item>
+    </style>
+</resources>

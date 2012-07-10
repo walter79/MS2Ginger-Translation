@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+    <string name="app_name">MtlrDialog</string>
+    <string name="location_mtlr_notification">vraagt uw locatie op</string>
+    <string name="location_mtlr_ver_prefix">Het verzoek wordt</string>
+    <string name="location_mtlr_ver_postfix">als u geen antwoord geeft.</string>
+    <string name="location_mtlr_default_allow">Toegestaan: locatieverzoek</string>
+    <string name="location_mtlr_default_deny">Geweigerd: locatieverzoek</string>
+    <string name="location_mtlr_network_fail">Verzoek beëindigd door netwerk</string>
+    <string name="notification_msg_content">Locatie opgevraagd</string>
+    <string name="notification_msg_type_notification">Locatie opgevraagd</string>
+    <string name="notification_msg_type_missed">Gemiste locatie opgevraagd</string>
+    <string name="notification_msg_type_title">Locatie opgevraagd</string>
+    <string name="notification_request_postfix">heeft uw locatie opgevraagd.</string>
+    <string name="notification_dialog_middlefix">heeft uw locatie opgevraagd. Uw locatie</string>
+    <string name="verification_dialog_middlefix">heeft uw locatie opgevraagd. Als u dit locatieverzoek aanvaardt, kunt u</string>
+    <string name="notification_dialog_postfix">uw locatie identificeren.</string>
+    <string name="missed_verification_dialog_prefix">Locatieverzoek van</string>
+    <string name="missed_verification_dialog_middlefix">gemist. Uw locatie</string>
+    <string name="share_status_yes">is</string>
+    <string name="share_status_no">is niet</string>
+    <string name="share_string">gedeeld met</string>
+    <string name="toast_accept">kan uw locatie nu bepalen.</string>
+    <string name="toast_deny">heeft geen toestemming om uw locatie te bepalen.</string>
+    <string name="connect_terminate_msg">Het locatieverzoek is geannuleerd door het netwerk</string>
+    <string name="accept_ok">OK</string>
+    <string name="button_allow">Toestaan</string>
+    <string name="button_deny">Weigeren</string>
+</resources>

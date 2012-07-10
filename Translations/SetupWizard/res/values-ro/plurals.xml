@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+    <plurals name="error_missing_apps_plurals">
+        <item quantity="other">Acest cont nu poate fi utilizat pe telefon deoarece nu conţine următoarele aplicaţii: ^1. Contactaţi administratorul de domeniu pentru &lt;b>^2&lt;/b> sau conectaţi-vă utilizând un alt cont.</item>
+        <item quantity="one">Acest cont nu poate fi utilizat pe telefon deoarece nu conţine următoarea aplicaţie: ^1. Contactaţi administratorul de domeniu pentru &lt;b>^2&lt;/b> sau conectaţi-vă utilizând un alt cont.</item>
+    </plurals>
+</resources>

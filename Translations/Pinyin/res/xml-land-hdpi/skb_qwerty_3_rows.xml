@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<keyboard skb_template="@xml/skb_template1" skb_cache_flag="true" qwerty="true" qwerty_uppercase="true" width="10%p" height="25%p" key_type="0" repeat="false" balloon="true">
+    <row width="10.205%p" height="33.33%p">
+        <key start_pos_x="0%p" label="Q" width="8.33%p" height="33.33%p" code="45" key_type="0" />
+        <key label="W" width="8.33%p" height="33.33%p" code="51" key_type="0" />
+        <key label="E" width="8.33%p" height="33.33%p" code="33" key_type="0" />
+        <key label="R" width="8.33%p" height="33.33%p" code="46" key_type="0" />
+        <key label="T" width="8.33%p" height="33.33%p" code="48" key_type="0" />
+        <key label="Y" width="8.33%p" height="33.33%p" code="53" key_type="0" />
+        <key label="U" width="8.33%p" height="33.33%p" code="49" key_type="0" />
+        <key label="I" width="8.33%p" height="33.33%p" code="37" key_type="0" />
+        <key label="O" width="8.33%p" height="33.33%p" code="43" key_type="0" />
+        <key label="P" width="8.33%p" height="33.33%p" code="44" key_type="0" />
+        <key start_pos_x="83.33%p" width="16.67%p" height="33.33%p" code="67" key_type="1" repeat="true" />
+    </row>
+    <row width="10.205%p" height="33.33%p">
+        <key start_pos_x="0%p" label="A" width="8.33%p" height="33.33%p" code="29" key_type="0" />
+        <key label="S" width="8.33%p" height="33.33%p" code="47" key_type="0" />
+        <key label="D" width="8.33%p" height="33.33%p" code="32" key_type="0" />
+        <key label="F" width="8.33%p" height="33.33%p" code="34" key_type="0" />
+        <key label="G" width="8.33%p" height="33.33%p" code="35" key_type="0" />
+        <key label="H" width="8.33%p" height="33.33%p" code="36" key_type="0" />
+        <key label="J" width="8.33%p" height="33.33%p" code="38" key_type="0" />
+        <key label="K" width="8.33%p" height="33.33%p" code="39" key_type="0" />
+        <key label="L" width="8.33%p" height="33.33%p" code="40" key_type="0" />
+        <key width="8.33%p" height="33.33%p" code="66" key_type="4">
+            <toggle_state state_id="@string/toggle_enter_go" label="去往" code="66" />
+            <toggle_state state_id="@string/toggle_enter_search" code="66" icon="@drawable/search_icon" icon_popup="@drawable/search_popup_icon" />
+            <toggle_state state_id="@string/toggle_enter_send" label="发送" code="66" />
+            <toggle_state state_id="@string/toggle_enter_next" label="Next" code="66" />
+            <toggle_state state_id="@string/toggle_enter_done" label="完成" code="66" />
+        </key>
+        <key code="62" key_type="4" width="16.67%p" height="33.33%p" />
+    </row>
+    <row width="10.205%p" height="33.33%p">
+        <key start_pos_x="0%p" width="8.33%p" height="33.33%p" code="-2000" label="中 文" key_type="2" repeat="true" />
+        <key label="Z" width="8.33%p" height="33.33%p" code="54" key_type="0" />
+        <key label="X" width="8.33%p" height="33.33%p" code="52" key_type="0" />
+        <key label="C" width="8.33%p" height="33.33%p" code="31" key_type="0" />
+        <key label="V" width="8.33%p" height="33.33%p" code="50" key_type="0" />
+        <key label="B" width="8.33%p" height="33.33%p" code="30" key_type="0" />
+        <key label="N" width="8.33%p" height="33.33%p" code="42" key_type="0" />
+        <key label="M" width="8.33%p" height="33.33%p" code="41" key_type="0" />
+        <key label="，" width="8.33%p" height="33.33%p" icon="@drawable/comma_full_icon" icon_popup="@drawable/comma_full_popup_icon">
+            <toggle_state state_id="@string/toggle_en_lower" code="-1" icon="@drawable/shift_off_icon" icon_popup="@drawable/shift_off_popup_icon" key_type="0" />
+            <toggle_state state_id="@string/toggle_en_upper" code="-1" icon="@drawable/shift_on_icon" icon_popup="@drawable/shift_on_popup_icon" key_type="0" />
+            <toggle_state state_id="@string/toggle_cn_cand" label="\'" key_type="0" />
+        </key>
+        <key code="-3" width="8.33%p" key_type="4" height="33.33%p" icon="@drawable/moto_symbol_icon" icon_popup="@drawable/moto_symbol_popup_icon" />
+        <key code="-25" key_type="4" width="16.67%p" height="33.33%p" icon="@drawable/moto_switch_icon" icon_popup="@drawable/moto_switch_popup_icon" />
+    </row>
+    <row width="20%p" row_id="@string/toggle_row_en" start_pos_y="75%p">
+        <key start_pos_x="0%p" start_pos_y="75%p" width="20%p" height="25%p" code="-2" label="中 文" key_type="2" repeat="true">
+            <toggle_state state_id="@string/toggle_en_lower" label="英 文" code="-2" />
+            <toggle_state state_id="@string/toggle_en_upper" label="英 文" code="-2" />
+        </key>
+        <key code="-3" start_pos_x="20%p" start_pos_y="75%p" width="14.696%p" height="25%p" key_type="4" icon="@drawable/moto_symbol_icon" icon_popup="@drawable/moto_symbol_popup_icon" />
+        <key code="62" key_type="4" width="30.608%p" />
+        <key start_pos_x="65.304%p" start_pos_y="75%p" width="14.696%p" height="25%p" label="." key_type="4" icon="@drawable/period_icon" icon_popup="@drawable/period_popup_icon" />
+        <key start_pos_x="80%p" start_pos_y="75%p" width="20%p" height="25%p" code="66" key_type="4">
+            <toggle_state state_id="@string/toggle_enter_go" label="去往" code="66" />
+            <toggle_state state_id="@string/toggle_enter_search" code="66" icon="@drawable/search_icon" icon_popup="@drawable/search_popup_icon" />
+            <toggle_state state_id="@string/toggle_enter_send" label="发送" code="66" />
+            <toggle_state state_id="@string/toggle_enter_next" label="Next" code="66" />
+            <toggle_state state_id="@string/toggle_enter_done" label="完成" code="66" />
+        </key>
+    </row>
+    <row width="20%p" row_id="@string/toggle_row_uri" start_pos_y="75%p">
+        <key start_pos_x="0%p" start_pos_y="75%p" width="20%p" height="25%p" code="-2" label="中 文" key_type="2" repeat="true">
+            <toggle_state state_id="@string/toggle_en_lower" label="英 文" code="-2" />
+            <toggle_state state_id="@string/toggle_en_upper" label="英 文" code="-2" />
+        </key>
+        <key code="-3" start_pos_x="20%p" start_pos_y="75%p" width="14.696%p" height="25%p" key_type="4" icon="@drawable/moto_symbol_icon" icon_popup="@drawable/moto_symbol_popup_icon" />
+        <key label="/" width="15.304%p" key_type="4" />
+        <key code="62" key_type="4" width="15.304%p" />
+        <key start_pos_x="65.304%p" start_pos_y="75%p" width="14.696%p" height="25%p" label="." key_type="4" icon="@drawable/period_icon" icon_popup="@drawable/period_popup_icon" />
+        <key start_pos_x="80%p" start_pos_y="75%p" width="20%p" height="25%p" code="66" key_type="4">
+            <toggle_state state_id="@string/toggle_enter_go" label="去往" code="66" />
+            <toggle_state state_id="@string/toggle_enter_search" code="66" icon="@drawable/search_icon" icon_popup="@drawable/search_popup_icon" />
+            <toggle_state state_id="@string/toggle_enter_send" label="发送" code="66" />
+            <toggle_state state_id="@string/toggle_enter_next" label="Next" code="66" />
+            <toggle_state state_id="@string/toggle_enter_done" label="完成" code="66" />
+        </key>
+    </row>
+    <row width="20%p" row_id="@string/toggle_row_emailaddress" start_pos_y="75%p">
+        <key start_pos_x="0%p" start_pos_y="75%p" width="20%p" height="25%p" code="-2" label="中 文" key_type="2" repeat="true">
+            <toggle_state state_id="@string/toggle_en_lower" label="英 文" code="-2" />
+            <toggle_state state_id="@string/toggle_en_upper" label="英 文" code="-2" />
+        </key>
+        <key code="-3" start_pos_x="20%p" start_pos_y="75%p" width="14.696%p" height="25%p" key_type="4" icon="@drawable/moto_symbol_icon" icon_popup="@drawable/moto_symbol_popup_icon" />
+        <key label="\@" width="15.304%p" key_type="4" />
+        <key code="62" key_type="4" width="15.304%p" />
+        <key start_pos_x="65.304%p" start_pos_y="75%p" width="14.696%p" height="25%p" label="." key_type="4" icon="@drawable/period_icon" icon_popup="@drawable/period_popup_icon" />
+        <key start_pos_x="80%p" start_pos_y="75%p" width="20%p" height="25%p" code="66" key_type="4">
+            <toggle_state state_id="@string/toggle_enter_go" label="去往" code="66" />
+            <toggle_state state_id="@string/toggle_enter_search" code="66" icon="@drawable/search_icon" icon_popup="@drawable/search_popup_icon" />
+            <toggle_state state_id="@string/toggle_enter_send" label="发送" code="66" />
+            <toggle_state state_id="@string/toggle_enter_next" label="Next" code="66" />
+            <toggle_state state_id="@string/toggle_enter_done" label="完成" code="66" />
+        </key>
+    </row>
+</keyboard>

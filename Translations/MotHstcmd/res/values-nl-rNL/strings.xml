@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+    <string name="app_name">HSTcmd</string>
+    <string name="send">Uitvoeren</string>
+    <string name="request">Aanvragen</string>
+    <string name="response">Reactie</string>
+    <string name="menu_item_setting">Instellingen</string>
+    <string name="set_path">Instellen</string>
+    <string name="set_default_path">Standaardwaarde herstellen</string>
+    <string name="setting_notice">Opmerking: \n1. Alleen standaarddirectory en dir op SD-card toegestaan. Ongeldige dir wordt niet ingesteld en veroorzaakt een melding.</string>
+    <string name="log_response">Reacties loggen</string>
+    <string name="log_error">Fouten loggen (inclusief onjuiste reacties)</string>
+    <string name="log_command">Opdrachten loggen</string>
+</resources>

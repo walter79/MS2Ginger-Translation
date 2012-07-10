@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+    <string name="status_bar_priority_events_title">Priority</string>
+    <string name="app_label">Állapotsor</string>
+    <string name="status_bar_clear_all_button">Törlés</string>
+    <string name="status_bar_no_notifications_title">Nincs értesítés</string>
+    <string name="status_bar_ongoing_events_title">Folyamatban van</string>
+    <string name="status_bar_latest_events_title">Értesítések</string>
+    <string name="battery_low_title">Kérjük, csatlakoztassa a töltőt</string>
+    <string name="battery_low_subtitle">Akkufeszültség alacsony:</string>
+    <string name="battery_low_percent_format">%d%% vagy kevesebb maradt.</string>
+    <string name="battery_low_why">Akkumulátorhasználat</string>
+    <string name="usb_accessory_uri_prompt">A telepített alkalmazások nem működnek ezzel az USB-kiegészítővel. Bővebben: %1$s</string>
+    <string name="title_usb_accessory">USB-kellék</string>
+    <string name="label_view">Megtekintés</string>
+    <string name="always_use_accessory">Alapértelmezett használat ehhez az USB-kiegészítőhöz</string>
+    <string name="xiaozhu_wifi_text" />
+    <string name="xiaozhu_bluetooth_text" />
+    <string name="xiaozhu_gps_text" />
+    <string name="xiaozhu_mobiledata_text" />
+    <string name="xiaozhu_sound_vibration_text" />
+    <string name="xiaozhu_silent_text" />
+    <string name="xiaozhu_vibration_text" />
+    <string name="xiaozhu_rotation_text" />
+    <string name="xiaozhu_error_text" />
+    <string name="xiaozhu_sound_text" />
+    <string name="location_3rdparty_gps_dialogtext">Az Önálló GPS szolgáltatás menüpont kiválasztása lehetővé teszi, hogy a tartózkodási helyével kapcsolatos információkhoz hozzáférjenek az internethozzáféréssel rendelkező idegen személyek; a készülékre telepített vagy letöltött szoftverek és a készülékhez kapcsolt perifériák; valamint más eszközök. Ezen funkció engedélyezése tehát némi kockázatot rejt a készülék felhasználói számára.</string>
+    <string name="mobiledata_dialogtext">Nem fogja tudni használni az adatkapcsolatot igénylő alkalmazásokat (böngésző, Levelezés, Youtube) mobil hálózaton keresztül. De a hívások és a szöveges üzenetek (SMS) továbbra is működnek. Folytatja?</string>
+    <string name="warning_alert_check">Ezt az üzenetet ne mutassa újra.</string>
+    <string name="mobiledataconnection_dialogtext">A mobil adatkapcsolat jelenleg le van tiltva. Az internet kapcsolatot igénylő alkalmazásoknak (Böngésző, Levelezés, Youtube) szüksége van a mobil adatkapcsolatra. Szeretne most kapcsolódni?</string>
+    <string name="location_title">Helyzetem</string>
+    <string name="mobiledata_title">Mobil adat</string>
+    <string name="mobiledata_connect">Kapcsolódás</string>
+    <string name="mobiledataconnection_title">Mobil adatkapcsolat</string>
+    <string name="agree">Egyetértek</string>
+    <string name="xiaozhu_flight_text" />
+    <string name="xiaozhu_sync_text" />
+    <string name="xiaozhu_brightness_text" />
+    <string name="shutdown_confirm">A telefon pihenőre lesz állítva.</string>
+    <string name="xiaozhu_shutdown_text">Leállítás</string>
+    <string name="hamster">ArgenStone</string>
+</resources>

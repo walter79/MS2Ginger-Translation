@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<config>
+    <level0-local-day>0</level0-local-day>
+    <level0-local-hour>2</level0-local-hour>
+    <check-interval-seconds>1200</check-interval-seconds>
+    <level1-freespace-threshold-kb>80000</level1-freespace-threshold-kb>
+    <level2-freespace-threshold-kb>50000</level2-freespace-threshold-kb>
+    <monitor>com.motorola.blur.service.email,vnd.motorola.blur.ageable/vnd.motorola.blur.email,0,0</monitor>
+    <monitor>com.motorola.blur.news,vnd.motorola.blur.ageable/vnd.motorola.blur.news,0,0</monitor>
+</config>

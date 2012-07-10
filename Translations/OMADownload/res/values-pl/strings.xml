@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+    <string name="app_name">Pobieranie OMA</string>
+    <string name="confirmation">Pobrać plik?</string>
+    <string name="filename">Nazwa:</string>
+    <string name="vendor">Dostawca:</string>
+    <string name="size">Wielkość:</string>
+    <string name="type">Typ:</string>
+    <string name="description">Opis:</string>
+    <string name="vendor_unknown">(nieznane)</string>
+    <string name="filename_unknown">(nieznane)</string>
+    <string name="description_not_available">(brak opisu)</string>
+    <string name="download_not_acceptable">Pobranie jest niemożliwe. Zawartość nie jest obsługiwana w tym telefonie.</string>
+    <string name="download_file_error">Nie można pobrać. Za mało miejsca.</string>
+    <string name="download_invalid_dd">Nie można pobrać. Plik deskryptora pobierania jest nieprawidłowy.</string>
+    <string name="download_error">Pobieranie nie powiodło się.</string>
+    <string name="download_failed_generic_dlg_title">Pobieranie nie powiodło się</string>
+</resources>

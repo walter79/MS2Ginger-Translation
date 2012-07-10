@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RelativeLayout android:id="@id/widget_root" android:background="@blur.res:drawable/base_2x3" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include android:id="@id/widget_photo_parent" layout="@layout/sleeve_2x3" />
+    <TextView android:id="@id/widget_message" android:text="@string/checking" android:layout_below="@id/widget_photo_parent" style="@style/EmptyMessage.Vertical" />
+    <ProgressBar style="@style/WidgetProgress" />
+</RelativeLayout>

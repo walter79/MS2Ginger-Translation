@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+    <string name="app_name">OMA Download</string>
+    <string name="confirmation">Letölti a fájlt?</string>
+    <string name="filename">Név:</string>
+    <string name="vendor">Készítő:</string>
+    <string name="size">Méret:</string>
+    <string name="type">Típus:</string>
+    <string name="description">Megjegyzés:</string>
+    <string name="vendor_unknown">(ismeretlen)</string>
+    <string name="filename_unknown">(ismeretlen)</string>
+    <string name="description_not_available">(nincs leírás)</string>
+    <string name="download_not_acceptable">Nem lehet letölteni. Nem támogatott tartalom a készüléken.</string>
+    <string name="download_file_error">Nem lehet letölteni. Nincs elegendő memória a készüléken.</string>
+    <string name="download_invalid_dd">Nem lehet letölteni. Érvénytelen leíró</string>
+    <string name="download_error">Letöltés sikeretlen.</string>
+    <string name="download_failed_generic_dlg_title">Letöltés sikertelen.</string>
+</resources>

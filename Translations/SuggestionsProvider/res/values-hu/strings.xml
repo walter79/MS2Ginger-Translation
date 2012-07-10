@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+    <string name="hello">Heló Világ, JavaslatSzolgáltató!</string>
+    <string name="app_name">Javaslatok</string>
+</resources>

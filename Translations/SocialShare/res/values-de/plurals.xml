@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+    <plurals name="media_files_deleted">
+        <item quantity="other">Elemente in Ihrer Upload-Liste wurden gelöscht.</item>
+        <item quantity="one">Ein Element in Ihrer Upload-Liste wurde gelöscht.</item>
+    </plurals>
+</resources>

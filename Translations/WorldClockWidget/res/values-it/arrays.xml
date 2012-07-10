@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+    <string-array name="timezone">
+        <item>Tutti i fusi orari standard</item>
+        <item>GMT-12:00</item>
+        <item>GMT-11:00</item>
+        <item>GMT-10:00</item>
+        <item>GMT-09:30</item>
+        <item>GMT-09:00</item>
+        <item>GMT-08:00</item>
+        <item>GMT-07:00</item>
+        <item>GMT-06:00</item>
+        <item>GMT-05:00</item>
+        <item>GMT-04:30</item>
+        <item>GMT-04:00</item>
+        <item>GMT-03:30</item>
+        <item>GMT-03:00</item>
+        <item>GMT-02:00</item>
+        <item>GMT-01:00</item>
+        <item>GMT+00:00</item>
+        <item>GMT+01:00</item>
+        <item>GMT+02:00</item>
+        <item>GMT+03:00</item>
+        <item>GMT+03:30</item>
+        <item>GMT+04:00</item>
+        <item>GMT+04:30</item>
+        <item>GMT+05:00</item>
+        <item>GMT+05:30</item>
+        <item>GMT+05:45</item>
+        <item>GMT+06:00</item>
+        <item>GMT+06:30</item>
+        <item>GMT+07:00</item>
+        <item>GMT+08:00</item>
+        <item>GMT+08:45</item>
+        <item>GMT+09:00</item>
+        <item>GMT+09:30</item>
+        <item>GMT+10:00</item>
+        <item>GMT+10:30</item>
+        <item>GMT+11:00</item>
+        <item>GMT+11:30</item>
+        <item>GMT+12:00</item>
+        <item>GMT+12:45</item>
+        <item>GMT+13:00</item>
+        <item>GMT+14:00</item>
+    </string-array>
+    <string-array name="clock_style_entries">
+        <item>Analogico</item>
+        <item>Digitale</item>
+    </string-array>
+</resources>

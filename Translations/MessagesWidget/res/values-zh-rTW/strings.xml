@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+    <string name="app_name">訊息</string>
+    <string name="loading_widget_name">訊息</string>
+    <string name="settings_title">訊息小工具</string>
+    <string name="checking">正在檢查新訊息…</string>
+    <string name="checking_short">正在檢查…</string>
+    <string name="delete">刪除</string>
+    <string name="go_to_messages">前往傳訊</string>
+    <string name="go_to_inbox">前往收件匣</string>
+    <string name="no_messages">近期訊息均已閱讀</string>
+    <string name="no_messages_short">無新狀態</string>
+    <string name="select_account">選擇帳戶</string>
+    <string name="no_subject">（無主旨）</string>
+    <string name="reply">回覆</string>
+    <string name="reply_all">回覆全部</string>
+    <string name="show_items">顯示項目為</string>
+    <string name="services">服務</string>
+    <string name="all_services">全部服務</string>
+    <string name="subject_re_prefix">回覆：</string>
+    <string name="text_message">簡訊</string>
+    <string name="widget_name">小工具名稱</string>
+    <string name="widget_description">從朋友、家人和同事處取得最新訊息</string>
+    <string name="msg_did_you_know_title">訊息小工具</string>
+    <string name="msg_did_you_know_info">訊息小工具會在單一小工具中同時顯示最新的電子郵件、簡訊和社交網路訊息。 \n\n您可以變更每個小工具所顯示的內容。 請按下 [選單] 鍵，然後選擇 [設定]。</string>
+    <string name="wappush_name">WAP通知訊息</string>
+    <string name="message_download_failed_body">輕觸即可下載資料。</string>
+    <string name="message_widget_touch_to_view">收到訊息。</string>
+    <string name="message_not_available_touch_to_read">無法預覽訊息。\n輕觸此處即可閱讀訊息。</string>
+    <string name="message_thread_information">第 %1$d 封，共 %2$d 封尚未閱讀</string>
+    <string name="view_message">檢視訊息</string>
+    <string name="mark_read">標示已讀取</string>
+    <string name="mark_unread">標示未讀取</string>
+    <string name="contact_info">聯絡人資訊</string>
+    <string name="inbox">收件匣</string>
+    <string name="compose">撰寫</string>
+    <string name="more">更多</string>
+    <string name="hide">隱藏</string>
+</resources>

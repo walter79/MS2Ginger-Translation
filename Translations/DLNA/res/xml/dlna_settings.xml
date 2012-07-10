@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<PreferenceScreen android:title="@string/setttings"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <CheckBoxPreference android:persistent="false" android:title="@string/upload_enable" android:key="upload_enable" android:summary="@string/upload_disable_summary" />
+    <Preference android:persistent="false" android:title="@string/dlna_my_shared_files" android:key="my_shared_files" />
+    <EditTextPreference android:persistent="false" android:title="@string/dlna_device_name" android:key="device_name" />
+    <PreferenceScreen android:title="@string/advanced_settings_title" android:key="advanced_settings" android:summary="@string/advanced_settings_summary">
+        <intent android:targetPackage="com.motorola.Dlna" android:action="android.intent.action.MAIN" android:targetClass="com.motorola.Dlna.AdvancedSettings" />
+    </PreferenceScreen>
+    <CheckBoxPreference android:persistent="false" android:title="@string/wifi_lock" android:key="wifi_lock" android:summary="@string/wifi_lock_summary" />
+    <CheckBoxPreference android:persistent="false" android:title="@string/xbox_enable" android:key="xbox_enable" android:summary="@string/xbox_enable_summary" />
+    <CheckBoxPreference android:persistent="false" android:title="@string/last_server" android:key="last_server" android:summary="@string/last_server_summary" />
+    <CheckBoxPreference android:persistent="false" android:title="@string/last_playback" android:key="last_playback" android:summary="@string/last_playback_summary" />
+</PreferenceScreen>

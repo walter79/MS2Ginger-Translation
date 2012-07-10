@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+    <string name="hello">Hello World!</string>
+    <string name="app_name">Gegevensbeheerservice</string>
+    <string name="perm_label">Instellen van gegevensplan inschakelen</string>
+    <string name="perm_desc">Hiermee kan het gegevensplan van de toepassing worden ingesteld voor de gegevensbeheerservice</string>
+    <string name="backgrounddata_warning_message">Uw beheerder heeft achtergrondgegevens tijdens het roamen uitgeschakeld om uw gegevensplan te beschermen.\n\nIndien nodig kunt u tijdens het roamen handmatig gegevens synchroniseren.</string>
+    <string name="backgrounddata_notification_title">Achtergrondgegevens uitgeschakeld</string>
+    <string name="backgrounddata_dialog_title">Melding achtergrondgegevens</string>
+    <string name="backgrounddata_dialog_message">Uw beheerder heeft achtergrondgegevens tijdens het roamen uitgeschakeld.\nIndien nodig kunt u tijdens het roamen handmatig gegevens synchroniseren.</string>
+    <string name="ok">OK</string>
+</resources>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+    <bool name="has_DataSaver">true</bool>
+    <bool name="has_DataUsage">true</bool>
+    <bool name="has_DataMeter">true</bool>
+    <bool name="has_CarrierInfo">false</bool>
+    <bool name="has_DataConsWarning">false</bool>
+    <bool name="has_BlurSyncFrequency">true</bool>
+    <bool name="has_connected_music_player">false</bool>
+</resources>

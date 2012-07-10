@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+    <string name="app_label">HTML-viewer</string>
+    <string name="permlab_accessDrm">DRM-inhoud openen.</string>
+    <string name="permdesc_accessDrm">Hiermee krijgt de toepassing toegang tot inhoud met DRM-bescherming.</string>
+</resources>

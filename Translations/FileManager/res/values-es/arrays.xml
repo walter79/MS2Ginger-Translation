@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+    <string-array name="select_add_server_way">
+        <item>Introducir nombre o IP</item>
+        <item>Buscar servidor</item>
+    </string-array>
+    <string-array name="add_server_indicater">
+        <item>Añadir servidor</item>
+    </string-array>
+    <string-array name="progress_dialog_indicater">
+        <item>Buscando dominios...</item>
+        <item>Buscando servidores...</item>
+        <item>Conectando a servidor...</item>
+        <item>cargando...</item>
+    </string-array>
+    <string-array name="sort_by_method_selector">
+        <item>Por nombre</item>
+        <item>Por tipo</item>
+        <item>Por fecha</item>
+        <item>Por tamaño</item>
+    </string-array>
+</resources>

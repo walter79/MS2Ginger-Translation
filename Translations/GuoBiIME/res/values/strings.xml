@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+    <string name="hello">Hello World, GuoBiIMEService!</string>
+    <string name="app_name">GuoBiIME</string>
+    <string name="composing_is_too_long_text">已到达最大字符数19个</string>
+    <string name="composing_is_too_long_text_tw">已到達最大字符數19個</string>
+</resources>

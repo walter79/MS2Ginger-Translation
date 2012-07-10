@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+    <plurals name="Nminutes">
+        <item quantity="other">%dλεπτά</item>
+        <item quantity="one">1 λεπτό</item>
+    </plurals>
+    <plurals name="Nmins">
+        <item quantity="other">%dλεπτά</item>
+        <item quantity="one">1 λεπτό</item>
+    </plurals>
+    <plurals name="Nhours">
+        <item quantity="other">%dώρες</item>
+        <item quantity="one">1 ώρα</item>
+    </plurals>
+    <plurals name="Ndays">
+        <item quantity="other">%dημέρες</item>
+        <item quantity="one">1 ημέρα</item>
+    </plurals>
+</resources>

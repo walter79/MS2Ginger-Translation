@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LinearLayout android:orientation="vertical" android:paddingLeft="@blur.res:dimen/card_content_padding_left" android:paddingTop="@blur.res:dimen/card_content_padding_top" android:paddingRight="@blur.res:dimen/card_content_padding_right" android:paddingBottom="@blur.res:dimen/card_content_padding_bottom" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.motorola.blur.util.widgets.IdentityBadge android:layout_gravity="top|left|center" android:id="@id/badge" android:background="@blur.res:drawable/card_launcher_bg" android:paddingLeft="@blur.res:dimen/card_badge_padding" android:paddingTop="@blur.res:dimen/card_badge_padding" android:paddingRight="@blur.res:dimen/card_badge_padding" android:paddingBottom="@blur.res:dimen/card_badge_padding" android:layout_width="fill_parent" android:layout_height="wrap_content" style="@blur.res:style/Blur.Badge" />
+    <ImageView android:background="@blur.res:drawable/card_divider_horz" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+    <ScrollView android:id="@id/card_body" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_weight="1.0">
+        <include layout="@layout/card_body" />
+    </ScrollView>
+    <LinearLayout android:paddingBottom="0.0dip" style="@blur.res:style/Blur.ActionBar.Card">
+        <Button android:id="@id/reply" style="@blur.res:style/Blur.TxtBtnActionBar3" />
+        <Button android:id="@id/delete" android:text="@string/delete" style="@blur.res:style/Blur.TxtBtnActionBar3" />
+    </LinearLayout>
+</LinearLayout>

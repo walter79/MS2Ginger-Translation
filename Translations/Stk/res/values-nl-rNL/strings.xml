@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+    <string name="default_open_channel_msg">Kanaal openen?</string>
+    <string name="default_send_data_msg">Gegevens worden verzonden</string>
+    <string name="default_receive_data_msg">Gegevens worden ontvangen</string>
+    <string name="default_close_channel_msg">Kanaal gesloten</string>
+</resources>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+    <string-array name="preload_messages">
+        <item>Θα σας τηλεφωνήσω σε λίγα λεπτά</item>
+        <item>Καλέστε με ξανά σε λίγα λεπτά</item>
+        <item>Συγγνώμη, δεν μπορούσα να απαντήσω στην κλήση σας</item>
+    </string-array>
+</resources>

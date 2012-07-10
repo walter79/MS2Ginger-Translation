@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+    <string name="app_name">Λήψη OMA</string>
+    <string name="confirmation">Να γίνει λήψη του αρχείου;</string>
+    <string name="filename">Όνομα:</string>
+    <string name="vendor">Προμηθευτής:</string>
+    <string name="size">Μέγεθος:</string>
+    <string name="type">Τύπος:</string>
+    <string name="description">Περιγραφή:</string>
+    <string name="vendor_unknown">(άγνωστο)</string>
+    <string name="filename_unknown">(άγνωστο)</string>
+    <string name="description_not_available">(δεν υπάρχει περιγραφή)</string>
+    <string name="download_not_acceptable">Δεν είναι δυνατή η λήψη. Το περιεχόμενο δεν υποστηρίζεται από το τηλέφωνο.</string>
+    <string name="download_file_error">Δεν είναι δυνατή η λήψη. Ο χώρος δεν επαρκεί.</string>
+    <string name="download_invalid_dd">Δεν είναι δυνατή η λήψη. Το αρχείο περιγραφής της λήψης δεν είναι έγκυρο.</string>
+    <string name="download_error">Ανεπιτυχής λήψη.</string>
+    <string name="download_failed_generic_dlg_title">Ανεπιτυχής λήψη</string>
+</resources>

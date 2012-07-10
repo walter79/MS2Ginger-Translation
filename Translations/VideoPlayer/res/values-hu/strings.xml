@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+    <string name="app_name">Videolejátszó</string>
+    <string name="Share_menu">Megosztás</string>
+    <string name="Tags_menu">Címkék</string>
+    <string name="Delete_menu">Törlés</string>
+    <string name="FullScreen_menu">Kijelzõhöz igazítás</string>
+    <string name="ActualSize_menu">Tényleges méret</string>
+    <string name="Camera_menu">Kamera</string>
+    <string name="Edit_menu">Szerkesztés</string>
+    <string name="AdvancedEdit_menu">Speciális szerkesztés</string>
+    <string name="info_menu">Videó információ</string>
+    <string name="TV_menu">Megjelenítés TV-n</string>
+    <string name="Settings_menu">Beállítások</string>
+    <string name="hdmi_waiting_message">Csatlakozás HDMI-n</string>
+    <string name="loading_video">Videó betöltése…</string>
+    <string name="sendVideo">Megosztás ezen keresztül:</string>
+    <string name="no_way_to_share_video">A videót nem lehet megosztani.</string>
+    <string name="no_way_to_edit_video">Nincs videó szerkesztő.</string>
+    <string name="resume_playing_title">Folytatás</string>
+    <string name="resume_playing_message">Folytatás innen: %1$s ?</string>
+    <string name="resume_playing_resume">Lejátszás folytatása</string>
+    <string name="resume_playing_restart">Újrakezdés</string>
+    <string name="details_ms">%1$02d:%2$02d</string>
+    <string name="details_hms">%1$d:%2$02d:%3$02d</string>
+    <string name="Error_msg">A fájl nem jeleníthető meg, vagy nem játszható le.</string>
+    <string name="Error_title">Hiba</string>
+    <string name="Delete_title">Törlés</string>
+    <string name="confirm_delete_1_video">Törli a videót?</string>
+    <string name="VIDEO">Videó</string>
+    <string name="OK_button">Oké</string>
+    <string name="CANCEL_button">Mégse</string>
+    <string name="connecting">Várjon, amíg csatlakozik.</string>
+    <string name="cable_is_not_connected">A HDMI kábel nincs bedugva.</string>
+    <string name="incoming_call_setting_title">Bejövő hívás beállítása</string>
+    <string name="always_check_incoming_call">Hívások fogadása</string>
+    <string name="always_ignore_incoming_call">Hívások elutasítása</string>
+    <string name="ok">Oké</string>
+    <string name="discard">Elvetés</string>
+    <string name="hdmi_blocked_toast">A tartalom korlátozott</string>
+    <item type="string" name="APKTOOL_DUMMY_0026">false</item>
+</resources>

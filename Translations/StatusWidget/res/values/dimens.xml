@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+    <item type="dimen" name="APKTOOL_DUMMY_0027">false</item>
+    <item type="dimen" name="APKTOOL_DUMMY_0028">false</item>
+    <dimen name="widget_hspacing">5.0dip</dimen>
+    <dimen name="widget_vspacing">3.0dip</dimen>
+    <dimen name="widget_icon_maxHeight">32.0dip</dimen>
+    <dimen name="widget_progress_maxHeight">32.0dip</dimen>
+    <dimen name="widget_other_icon_maxHeight">16.0dip</dimen>
+    <dimen name="widget_status">16.0sp</dimen>
+    <dimen name="widget_mood">14.0sp</dimen>
+    <dimen name="widget_time">12.0sp</dimen>
+    <dimen name="widget_icon_hspacing">3.0dip</dimen>
+    <dimen name="edit_status_pad">6.0dip</dimen>
+    <dimen name="edit_status_text_pad">3.0dip</dimen>
+    <dimen name="edit_status_edit_text">16.0sp</dimen>
+    <dimen name="edit_status_mood_label">16.0sp</dimen>
+    <dimen name="edit_status_emoticon_height">16.0dip</dimen>
+    <dimen name="edit_status_line_pad">10.0dip</dimen>
+    <dimen name="edit_status_mood_pad">10.0dip</dimen>
+    <dimen name="edit_status_mood_text">18.0sp</dimen>
+    <dimen name="edit_status_count_text">12.0sp</dimen>
+    <dimen name="edit_status_thumb_width">59.0dip</dimen>
+    <dimen name="edit_status_provider_height">32.0dip</dimen>
+    <dimen name="edit_status_provider_text">18.0sp</dimen>
+    <dimen name="edit_status_provider_pad">5.0dip</dimen>
+    <dimen name="edit_status_status_height">32.0dip</dimen>
+    <dimen name="edit_status_status_width">32.0dip</dimen>
+    <dimen name="edit_status_status_text">13.0sp</dimen>
+    <dimen name="edit_status_status_pad">14.0dip</dimen>
+    <dimen name="edit_status_send_padding">7.0dip</dimen>
+    <dimen name="horizontalSpinnerPadding">5.0dip</dimen>
+    <dimen name="verticalSpinnerPadding">10.0dip</dimen>
+</resources>

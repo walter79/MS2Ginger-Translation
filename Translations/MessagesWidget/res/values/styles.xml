@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+    <style name="Widget.Sleeve.Icon" parent="@blur.res:style/Widget.Sleeve.Icon">
+        <item name="android:src">@drawable/ic_msg_large</item>
+    </style>
+    <style name="Widget.Sleeve.Icon.Small" parent="@style/Widget.Sleeve.Icon">
+        <item name="android:src">@drawable/ic_msg_small</item>
+    </style>
+    <style name="TxtMsgItem">
+        <item name="android:textSize">14.0sp</item>
+        <item name="android:typeface">sans</item>
+        <item name="android:textColor">#ff000000</item>
+        <item name="android:autoLink">none</item>
+        <item name="android:linksClickable">false</item>
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+    <style name="TxtDateTimeStamp">
+        <item name="android:textSize">12.0sp</item>
+        <item name="android:typeface">sans</item>
+        <item name="android:textColor">#ff000000</item>
+        <item name="android:gravity">right</item>
+        <item name="android:layout_gravity">right</item>
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+</resources>

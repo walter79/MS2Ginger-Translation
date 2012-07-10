@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<FrameLayout style="@style/WidgetParent.Root"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout style="@style/WidgetParent.Vert">
+        <RelativeLayout android:background="@drawable/orange_sleeve_vert" android:paddingLeft="23.0dip" android:paddingTop="15.0dip" android:layout_width="fill_parent" android:layout_height="@dimen/widget_sleeve_height_port_2_2">
+            <RelativeLayout android:paddingLeft="0.0dip" android:paddingTop="0.0dip" android:paddingRight="0.0dip" android:paddingBottom="0.0dip" style="@style/WidgetSleeveParentVert2_2">
+                <ImageView android:layout_height="@dimen/widget_photo_height_port" android:layout_centerInParent="true" style="@style/WidgetSleevePhotoSmall.Vert" />
+                <ImageView style="@style/WidgetSleeveIcon.Hidden" />
+                <TextView style="@style/WidgetSleeveName.Hidden" />
+            </RelativeLayout>
+        </RelativeLayout>
+        <LinearLayout android:orientation="vertical" android:id="@id/widget_article_parent" android:background="@blur.res:drawable/base_vert" style="@style/WidgetContentParentVert">
+            <TextView android:id="@id/widget_headline" android:paddingTop="10.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:maxLines="@integer/numlines_2_2" android:singleLine="false" style="@blur.res:style/Widget.Text.Headline.Small" />
+            <TextView android:id="@id/widget_article_content" android:layout_width="fill_parent" android:layout_height="wrap_content" android:maxLines="@integer/numlines_body_2_2" style="@blur.res:style/Widget.Text.Body.Multiline" />
+            <ImageView android:layout_width="1.0px" android:layout_height="1.0px" android:layout_weight="1.0" />
+            <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <TextView android:textSize="@dimen/widget_timestamp_small_size" android:id="@id/widget_time" android:includeFontPadding="true" android:layout_weight="1.0" style="@blur.res:style/Widget.Text.Timestamp" />
+                <ImageView android:id="@id/widget_feed_icon" android:layout_marginLeft="@dimen/widget_time_icon_padding_left" android:scaleType="centerInside" style="@blur.res:style/Widget.SourceIcon" />
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+</FrameLayout>

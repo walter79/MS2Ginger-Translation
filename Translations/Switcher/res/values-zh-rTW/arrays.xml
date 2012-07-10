@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+    <string-array name="user_dir">
+        <item>開啟</item>
+        <item>關閉</item>
+    </string-array>
+    <string-array name="traditional_chinese_habit_list">
+        <item>香港</item>
+        <item>台灣</item>
+    </string-array>
+</resources>

@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+    <dimen name="weather_card_padding_top">80.0px</dimen>
+    <dimen name="weather_card_padding_left">36.0px</dimen>
+    <dimen name="weather_card_padding_bottom">24.0px</dimen>
+    <dimen name="weather_card_padding_right">39.0px</dimen>
+    <dimen name="padding_below_realfeel">4.0dip</dimen>
+    <dimen name="widget_image_padding_left">4.0dip</dimen>
+    <dimen name="widget_image_padding_top">4.0dip</dimen>
+    <dimen name="widget_image_padding_right">4.0dip</dimen>
+    <dimen name="widget_image_padding_bottom">4.0dip</dimen>
+    <dimen name="weather_card_base_height">105.0dip</dimen>
+    <dimen name="weather_card_condition_image_height">120.0dip</dimen>
+    <dimen name="weather_card_condition_image_margin_top">-200.0dip</dimen>
+    <dimen name="weather_card_condition_image_scaled">413.0px</dimen>
+    <dimen name="widget_image_sleave_width">220.0dip</dimen>
+    <dimen name="image_width_scaled">220.0dip</dimen>
+    <dimen name="card_title_margin_top">18.0dip</dimen>
+    <dimen name="card_title_padding_left">35.0dip</dimen>
+    <dimen name="card_title_padding_right">35.0dip</dimen>
+    <dimen name="card_content_padding_top">57.0dip</dimen>
+    <dimen name="card_content_padding_left">27.0dip</dimen>
+    <dimen name="card_content_padding_right">27.0dip</dimen>
+    <dimen name="card_content_padding_bottom">20.0dip</dimen>
+    <dimen name="card_vgap1">5.0dip</dimen>
+    <dimen name="card_hgap1">5.0dip</dimen>
+    <dimen name="card_hgap2">14.0dip</dimen>
+    <dimen name="card_gap_divider_content">10.0dip</dimen>
+    <dimen name="card_badge_height">48.0dip</dimen>
+    <dimen name="card_badge_padding">8.0dip</dimen>
+    <dimen name="card_launcher_height">32.0dip</dimen>
+    <dimen name="card_launcher_padding">9.0dip</dimen>
+    <dimen name="card_icon_height">27.0dip</dimen>
+    <dimen name="card_location_max_width">400.0dip</dimen>
+    <dimen name="card_vgap2">10.0dip</dimen>
+</resources>

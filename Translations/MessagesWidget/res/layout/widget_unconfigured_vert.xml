@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RelativeLayout android:orientation="vertical" android:id="@id/widget_root" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:id="@id/sleeve_layout" android:background="@drawable/red_sleeve_vert" android:layout_width="fill_parent" android:layout_height="@blur.res:dimen/widget_sleeve_height">
+        <ImageView android:id="@id/widget_sleeve_icon" android:layout_alignParentRight="true" android:layout_alignParentBottom="true" style="@style/Widget.Sleeve.Icon.Small" />
+        <TextView android:id="@id/widget_name" android:visibility="visible" android:text="@string/loading_widget_name" android:layout_toLeftOf="@id/widget_sleeve_icon" android:layout_alignParentLeft="true" android:layout_alignParentBottom="true" style="@blur.res:style/Widget.Text.Name" />
+    </RelativeLayout>
+    <RelativeLayout android:id="@blur.res:id/content_layout" android:background="@blur.res:drawable/base_vert" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_below="@id/sleeve_layout">
+        <TextView android:gravity="center" android:layout_gravity="center" android:layout_width="fill_parent" android:layout_height="fill_parent" android:text="@string/select_account" style="@blur.res:style/Widget.Text.Body" />
+    </RelativeLayout>
+    <ImageView android:paddingRight="5.0dip" android:paddingBottom="5.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@blur.res:drawable/widget_add_medium" android:layout_alignParentRight="true" android:layout_alignParentBottom="true" />
+</RelativeLayout>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:layout_width="fill_parent" android:layout_height="wrap_content" />
+    <Button android:id="@id/DRM_DOWNLOAD_CONTENT" android:layout_width="260.0dip" android:layout_height="40.0dip" />
+    <Button android:id="@id/rcvROSucBtn" android:layout_width="260.0dip" android:layout_height="40.0dip" />
+    <Button android:id="@id/ringToneExpireBtn" android:layout_width="260.0dip" android:layout_height="40.0dip" />
+    <Button android:id="@id/playListWithDRMBtn" android:layout_width="260.0dip" android:layout_height="40.0dip" />
+    <Button android:id="@id/playSingleExpiredDRMBtn" android:layout_width="260.0dip" android:layout_height="40.0dip" />
+</LinearLayout>

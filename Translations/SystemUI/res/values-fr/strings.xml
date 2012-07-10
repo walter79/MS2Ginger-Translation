@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+    <string name="status_bar_priority_events_title">Priorité</string>
+    <string name="app_label">Barre d\'état</string>
+    <string name="status_bar_clear_all_button">Effacer</string>
+    <string name="status_bar_no_notifications_title">Aucune notification</string>
+    <string name="status_bar_ongoing_events_title">En cours</string>
+    <string name="status_bar_latest_events_title">Notifications</string>
+    <string name="battery_low_title">Branchez le chargeur</string>
+    <string name="battery_low_subtitle">Le niveau de la batterie est faible :</string>
+    <string name="battery_low_percent_format">%d%% restant(s) au maximum.</string>
+    <string name="battery_low_why">Utilisation de la batterie</string>
+    <string name="usb_accessory_permission_prompt">Souhaitez-vous autoriser l\'application %1$s à accéder à l\'accessoire USB ?</string>
+    <string name="usb_device_confirm_prompt">Souhaitez-vous ouvrir %1$s lorsque cet appareil USB est connecté ?</string>
+    <string name="usb_accessory_confirm_prompt">Souhaitez-vous ouvrir %1$s lorsque cet accessoire USB est connecté ?</string>
+    <string name="usb_accessory_uri_prompt">Aucune application installée ne fonctionne avec cet accessoire USB. Pour plus d\'informations sur cet accessoire, visitez %1$s</string>
+    <string name="title_usb_accessory">Accessoire USB</string>
+    <string name="label_view">Afficher</string>
+    <string name="always_use_accessory">Utiliser par défaut pour cet accessoire USB</string>
+</resources>

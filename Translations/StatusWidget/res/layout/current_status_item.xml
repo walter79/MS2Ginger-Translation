@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RelativeLayout android:paddingLeft="@dimen/edit_status_pad" android:paddingRight="@dimen/edit_status_pad" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:id="@id/edit_status_item_info" android:paddingTop="@dimen/edit_status_line_pad" android:layout_width="fill_parent" android:layout_height="wrap_content"
+      xmlns:android="http://schemas.android.com/apk/res/android">
+        <ImageView android:id="@id/edit_status_provider_icon" android:paddingRight="@dimen/edit_status_pad" android:layout_width="wrap_content" android:layout_height="wrap_content" android:adjustViewBounds="true" android:maxWidth="@dimen/edit_status_status_width" android:maxHeight="@dimen/edit_status_status_height" android:layout_alignParentLeft="true" android:layout_alignParentTop="true" />
+        <TextView android:id="@id/edit_status_comments" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_toRightOf="@id/edit_status_provider_icon" />
+        <RelativeLayout android:id="@id/edit_status_extra_info" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_below="@id/edit_status_comments" android:layout_alignLeft="@id/edit_status_comments">
+            <RelativeLayout android:id="@id/edit_status_mood_info" android:paddingRight="@blur.res:dimen/listitem_photo_hspacing" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content">
+                <TextView android:textStyle="bold" android:id="@id/edit_status_mood_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="@dimen/widget_icon_hspacing" android:text="@string/mood" android:layout_centerVertical="true" style="@blur.res:style/Blur.TxtStatusMoods" />
+                <TextView android:id="@id/edit_status_mood_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="@dimen/widget_icon_hspacing" android:layout_toRightOf="@id/edit_status_mood_title" android:layout_centerVertical="true" style="@blur.res:style/Blur.TxtStatusMoods" />
+                <ImageView android:id="@id/edit_status_mood_icon" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_toRightOf="@id/edit_status_mood_text" android:layout_centerVertical="true" />
+            </RelativeLayout>
+            <RelativeLayout android:id="@id/edit_status_comment_info" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_toRightOf="@id/edit_status_mood_info" android:layout_alignWithParentIfMissing="true"
+              xmlns:android="http://schemas.android.com/apk/res/android">
+                <ImageView android:id="@id/edit_status_comment_count_icon" android:visibility="gone" android:src="@blur.res:drawable/ic_list_comment" style="@style/CountIcon" />
+                <TextView android:id="@id/edit_status_comment_count" android:paddingRight="15.0dip" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_toRightOf="@id/edit_status_comment_count_icon" style="@blur.res:style/Blur.TxtListItemD" />
+                <ImageView android:id="@id/edit_status_like_count_icon" android:visibility="gone" android:src="@blur.res:drawable/ic_list_like" android:layout_toRightOf="@id/edit_status_comment_count" android:layout_alignWithParentIfMissing="true" style="@style/CountIcon" />
+                <TextView android:id="@id/edit_status_like_count" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_toRightOf="@id/edit_status_like_count_icon" style="@blur.res:style/Blur.TxtListItemD" />
+            </RelativeLayout>
+        </RelativeLayout>
+        <TextView android:textSize="@dimen/widget_mood" android:id="@id/edit_status_timestamp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_below="@id/edit_status_extra_info" android:layout_alignParentRight="true" />
+    </RelativeLayout>
+    <ImageView android:id="@id/status_item_divider" android:background="@android:drawable/divider_horizontal_bright" android:focusable="false" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_below="@id/edit_status_item_info" />
+</RelativeLayout>

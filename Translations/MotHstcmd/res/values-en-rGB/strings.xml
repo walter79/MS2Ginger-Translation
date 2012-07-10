@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+    <string name="app_name">HSTcmd</string>
+    <string name="send">Execute</string>
+    <string name="request">Request</string>
+    <string name="response">Response</string>
+    <string name="menu_item_setting">Settings</string>
+    <string name="set_path">Set</string>
+    <string name="set_default_path">Restore to default</string>
+    <string name="setting_notice">Note: \n1. Only default directory and dir in SD card is allowed. Invalid dir won\'t be set and will trigger an alert.</string>
+    <string name="log_response">Log responses</string>
+    <string name="log_error">Log errors (including error responses)</string>
+    <string name="log_command">Log commands</string>
+</resources>

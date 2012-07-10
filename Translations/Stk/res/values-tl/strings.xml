@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+    <string name="app_name">SIM Toolkit</string>
+    <string name="menu_end_session">Wakasan ang session</string>
+    <string name="help">Tulong</string>
+    <string name="menu_back">Bumalik</string>
+    <string name="service_name">Pangalan ng serbisyo</string>
+    <string name="stk_no_service">Walang available na serbisyo</string>
+    <string name="button_ok">OK</string>
+    <string name="button_cancel">Kanselahin</string>
+    <string name="button_yes">Oo</string>
+    <string name="button_no">Hindi</string>
+    <string name="alphabet">Mga Alphabet</string>
+    <string name="digits">Mga Digit (0-9, *, #, +)</string>
+    <string name="default_call_setup_msg">May nagaganap na tawag…</string>
+    <string name="stk_app_state">Katayuan ng application</string>
+    <string name="enable_app">Pinagana</string>
+    <string name="disable_app">Hindi pinagana</string>
+</resources>

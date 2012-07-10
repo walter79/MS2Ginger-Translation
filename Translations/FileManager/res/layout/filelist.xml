@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:id="@id/show_folder_view" android:background="@com.motorola.android.widget:drawable/header_bkg" android:layout_width="fill_parent" android:layout_height="wrap_content" style="@com.motorola.android.widget:style/Interactive_Titlebar">
+        <ImageView android:gravity="center_vertical" android:id="@id/folder_view_icon" android:layout_width="55.0dip" android:layout_height="55.0dip" android:src="@android:drawable/zz_moto_int_titlebar_dropdown_normal" android:scaleType="centerInside" />
+        <TextView android:ellipsize="end" android:gravity="center_vertical" android:id="@id/current_folder" android:layout_width="wrap_content" android:layout_height="55.0dip" android:text="@string/file_manager" android:singleLine="true" style="@com.motorola.android.widget:style/Interactive_Titlebar.Button" />
+    </LinearLayout>
+    <TextView android:background="#ff555555" android:layout_width="fill_parent" android:layout_height="1.0dip" />
+    <FrameLayout android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0">
+        <LinearLayout android:gravity="bottom" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <ListView android:id="@id/file_list" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="1.0dip" android:drawSelectorOnTop="false" android:layout_weight="1.0" />
+            <GridView android:id="@id/file_grid" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="1.0dip" android:verticalSpacing="20.0dip" android:columnWidth="100.0dip" android:numColumns="auto_fit" android:layout_weight="1.0" />
+            <LinearLayout android:gravity="center" android:layout_gravity="bottom" android:orientation="horizontal" android:id="@id/multi_select_panel" android:background="#ff555555" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <Button android:enabled="false" android:id="@id/button_multi_move" android:layout_width="100.0dip" android:layout_height="wrap_content" android:layout_marginTop="3.0dip" android:text="@string/move_button" />
+                <Button android:enabled="false" android:id="@id/button_multi_delete" android:layout_width="100.0dip" android:layout_height="wrap_content" android:layout_marginTop="3.0dip" android:text="@string/delete_button" />
+                <Button android:id="@id/button_multi_cancel" android:layout_width="100.0dip" android:layout_height="wrap_content" android:layout_marginTop="3.0dip" android:text="@string/cancel_button" />
+            </LinearLayout>
+        </LinearLayout>
+        <LinearLayout android:id="@id/empty" android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <TextView android:textAppearance="?android:textAppearanceMedium" android:gravity="center" android:id="@id/empty_text" android:layout_width="fill_parent" android:layout_height="fill_parent" android:text="@string/this_folder_is_empty" />
+        </LinearLayout>
+    </FrameLayout>
+</LinearLayout>

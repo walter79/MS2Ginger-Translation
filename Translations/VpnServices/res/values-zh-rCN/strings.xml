@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+    <string name="app_label">虚拟专用网服务</string>
+    <string name="vpn_notification_title_connected">VPN %s 已连接</string>
+    <string name="vpn_notification_title_disconnected">VPN %s 已断开连接</string>
+    <string name="vpn_notification_hint_disconnected">轻触可重新连接到虚拟专用网。</string>
+</resources>

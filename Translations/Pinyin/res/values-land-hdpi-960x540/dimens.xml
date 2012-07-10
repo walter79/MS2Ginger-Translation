@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+    <dimen name="min_candidate_item_width">62.0px</dimen>
+    <dimen name="indicator_width">236.0px</dimen>
+    <dimen name="indicator_btn_width">118.0px</dimen>
+</resources>

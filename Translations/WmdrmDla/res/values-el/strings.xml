@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+    <string name="txt_pb_reqlic">Ξεκλείδωμα αρχείου...</string>
+    <string name="txt_pb_uploadmet">Τα στατιστικά στοιχεία χρήσης θα σταλούν στο παρασκήνιο.</string>
+    <string name="txt_content_type_video">βίντεο</string>
+    <string name="txt_content_type_music">μουσική</string>
+    <string name="title_lic_expired">Η άδεια χρήσης έληξε</string>
+    <string name="title_song_expired">Τραγούδια που έληξαν</string>
+    <string name="title_video_expired">Βίντεο που έληξαν</string>
+    <string name="title_ringtone_expired">Ήχοι κλήσης που έληξαν</string>
+    <string name="title_file_expired">Αρχεία που έληξαν</string>
+    <string name="txt_lic_expired_mpart1">Μια άδεια χρήσης για το\u0020</string>
+    <string name="txt_lic_expired_mpart2">\u0020αρχείο\u0020</string>
+    <string name="txt_lic_expired_mpart3">. Μπορείτε να αγοράσετε νέα άδεια χρήσης, για να συνεχίσετε την αναπαραγωγή αυτού του αρχείου.</string>
+    <string name="txt_lic_expired_listview">Για να αγοράσετε άδεια χρήσης, επιλέξτε ένα αρχείο παρακάτω.</string>
+    <string name="txt_nt_multi_lic_expired">Απαιτούνται επιπλέον άδειες χρήσης για την αναπαραγωγή αυτών των αρχείων.</string>
+    <string name="txt_nt_single_lic_expired">\u0020απαιτεί άδεια χρήσης για την αναπαραγωγή του.</string>
+    <string name="title_delete_file">Διαγραφή</string>
+    <string name="txt_delete_file">Θέλετε να διαγραφεί αυτό το αρχείο τώρα;</string>
+    <string name="txt_lic_status">έχει λήξει</string>
+    <string name="title_lic_received">Παραλήφθηκε άδεια χρήσης</string>
+    <string name="txt_dlg_lic_received1">Παραλήφθηκε άδεια χρήσης\u0020</string>
+    <string name="txt_dlg_lic_received2">\u0020για το αρχείο. Τώρα μπορείτε να αναπαραγάγετε το αρχείο.</string>
+    <string name="txt_nt_single_lic_received">\u0020είναι τώρα δυνατό να αναπαραχθεί</string>
+    <string name="title_lic_error">Σφάλμα άδειας χρήσης</string>
+    <string name="txt_lic_error">Η λήψη της άδειας χρήσης απέτυχε. Επαναλάβετε τη λήψη.</string>
+    <string name="title_lic_trigger">Συγχρονισμός αδειών χρήσης</string>
+    <string name="txt_lic_trigger">Για να συνεχιστεί η αναπαραγωγή σε αυτήν τη συσκευή, οι άδειες χρήσης πρέπει να είναι ενημερωμένες. Θέλετε να ενημερωθούν οι άδειες χρήσης τώρα;</string>
+    <string name="title_met_trigger">Απαιτείται συναίνεση χρήσης</string>
+    <string name="txt_met_trigger">Ο παροχέας περιεχομένου πρέπει να ζητήσει τη συναίνεσή σας για να καταγράψει τη χρήση αυτού του περιεχομένου για λόγους χρέωσης από τον καλλιτέχνη. Συμφωνείτε;</string>
+    <string name="title_sync_pc_license">Συγχρονισμός αδειών χρήσης</string>
+    <string name="txt_sync_pc_license">Για να συνεχιστεί η αναπαραγωγή αρχείων σε αυτήν τη συσκευή, οι άδειες χρήσης πρέπει να είναι ενημερωμένες. Συνδέστε το τηλέφωνο σε έναν υπολογιστή, για να ενημερωθούν οι άδειες χρήσης.</string>
+    <string name="alert_dialog_yes">ΝΑΙ</string>
+    <string name="alert_dialog_no">Όχι</string>
+    <string name="alert_dialog_ok">OK</string>
+    <string name="alert_dialog_play">Αναπαρ/γή</string>
+    <string name="alert_dialog_cancel">Άκυρο</string>
+    <string name="alert_dialog_buy">Αγορά</string>
+    <string name="alert_dialog_close">Κλείσιμο</string>
+</resources>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LinearLayout android:orientation="vertical" android:id="@id/sticky_edit_root" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <FrameLayout android:id="@id/sticky_edit_frame" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_weight="1.0">
+        <LinearLayout android:orientation="vertical" android:id="@id/sticky_edit_frame_overlay" android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <LinearLayout android:orientation="horizontal" android:id="@id/sticky_edit_title_region" android:padding="@dimen/edit_padding" android:layout_width="fill_parent" android:layout_height="@dimen/edit_title_bckgrn_height">
+                <EditText android:textSize="@dimen/edit_title_textsize" android:textColor="@color/edit_color" android:gravity="center_vertical" android:id="@id/sticky_edit_title" android:paddingLeft="@dimen/edit_text_paddingLeft" android:layout_width="wrap_content" android:layout_height="@dimen/edit_title_height" android:hint="@string/title" android:cursorVisible="true" android:maxLength="124" android:layout_weight="1.0" android:inputType="textCapSentences" />
+                <LinearLayout android:layout_width="@dimen/edit_title_color_picker_btn_gap" android:layout_height="fill_parent" />
+                <ImageButton android:id="@id/sticky_edit_color_select" android:background="@drawable/btn_color_picker" android:layout_width="@dimen/edit_color_picker_btn_width" android:layout_height="@dimen/edit_color_picker_btn_height" android:src="@drawable/sticky_color_picker_icon_selector" />
+            </LinearLayout>
+            <LinearLayout android:orientation="horizontal" android:id="@id/sticky_edit_body_region" android:padding="@dimen/edit_padding" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_weight="1.0">
+                <EditText android:textSize="@dimen/edit_body_textsize" android:textColor="@color/edit_color" android:gravity="top" android:id="@id/sticky_edit_body" android:paddingLeft="@dimen/edit_text_paddingLeft" android:scrollbars="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent" android:hint="@string/note" android:cursorVisible="true" android:inputType="textCapSentences|textMultiLine" />
+            </LinearLayout>
+        </LinearLayout>
+    </FrameLayout>
+    <com.motorola.android.widget.ActionBar android:id="@id/sticky_edit_button_region" android:paddingTop="@dimen/edit_actionbar_paddingTop" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <Button android:textSize="@dimen/edit_action_textsize" android:id="@id/sticky_edit_save_button" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/menu_save" android:layout_weight="1.0" />
+        <Button android:textSize="@dimen/edit_action_textsize" android:id="@id/sticky_edit_discard_button" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/menu_discard" android:layout_weight="1.0" />
+    </com.motorola.android.widget.ActionBar>
+</LinearLayout>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+    <color name="text_link">#ff00d3ff</color>
+    <color name="white">#ffffffff</color>
+    <color name="black">#ff000000</color>
+    <item type="color" name="text_color_primary">@android:color/black</item>
+</resources>

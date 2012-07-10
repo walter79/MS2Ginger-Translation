@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+    <string name="hello">Hallo Welt!</string>
+    <string name="app_name">Daten-Managerservice</string>
+    <string name="perm_label">Einstellung Datenplan aktivieren</string>
+    <string name="perm_desc">Ermöglicht der Anwendung, ihren Datenplan für den Daten-Managerservice einzustellen.</string>
+    <string name="backgrounddata_warning_message">Zum Schutz Ihres Datenplans hat Ihr Administrator die Hintergrunddaten während des Roamings deaktiviert.\n\nFalls nötig, können Sie die Daten manuell während des Roamings synchronisieren.</string>
+    <string name="backgrounddata_notification_title">Hintergrunddaten deaktiviert</string>
+    <string name="backgrounddata_dialog_title">Hintergrunddaten-Benachrichtigung</string>
+    <string name="backgrounddata_dialog_message">Ihr Administrator hat die Hintergrunddaten während des Roamings deaktiviert.\nFalls nötig, können Sie die Daten manuell während des Roamings synchronisieren.</string>
+    <string name="ok">OK</string>
+</resources>

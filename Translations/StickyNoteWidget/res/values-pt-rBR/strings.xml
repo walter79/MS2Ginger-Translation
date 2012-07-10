@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+    <string name="app_name">Anotação</string>
+    <string name="widget_body_hint">Toque para editar...</string>
+    <string name="sticky_note">Anotação</string>
+    <string name="widget_description">Salve uma nota rápida na Tela Inicial</string>
+    <string name="title">Título</string>
+    <string name="note">Nota</string>
+    <string name="menu_discard">Descartar alterações</string>
+    <string name="menu_save">Salvar</string>
+    <string name="menu_edit">Editar</string>
+    <string name="menu_share">Enviar</string>
+    <string name="select">Selecionar</string>
+    <string name="widget_load_error">Falha na Anotação. Por favor, exclua-a.</string>
+    <string name="widget_body_elipse">...</string>
+    <string name="share_note">Compartilhar nota</string>
+    <string name="cannot_share">Erro ao compartilhar nota!</string>
+</resources>

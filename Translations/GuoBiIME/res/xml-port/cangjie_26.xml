@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Keyboard android:keyWidth="@dimen/keyboard_cangjie_26_keywidth" android:keyHeight="@dimen/keyboard_cangjie_26_keyheight" android:horizontalGap="@dimen/keboard_qwerty_Gap" android:verticalGap="@dimen/keboard_qwerty_Gap"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <Row>
+        <Key android:codes="113" android:keyEdgeFlags="left" android:keyLabel="手" />
+        <Key android:codes="119" android:keyLabel="田" />
+        <Key android:codes="101" android:keyLabel="水" />
+        <Key android:codes="114" android:keyLabel="口" />
+        <Key android:codes="116" android:keyLabel="廿" />
+        <Key android:codes="121" android:keyLabel="卜" />
+        <Key android:codes="117" android:keyLabel="山" />
+        <Key android:codes="105" android:keyLabel="戈" />
+        <Key android:codes="111" android:keyLabel="人" />
+        <Key android:codes="112" android:keyEdgeFlags="right" android:keyLabel="心" />
+    </Row>
+    <Row>
+        <Key android:horizontalGap="@dimen/keyboard_cangjie_qwerty_Gap_left" android:codes="97" android:keyEdgeFlags="left" android:keyLabel="日" />
+        <Key android:codes="115" android:keyLabel="尸" />
+        <Key android:codes="100" android:keyLabel="木" />
+        <Key android:codes="102" android:keyLabel="火" />
+        <Key android:codes="103" android:keyLabel="土" />
+        <Key android:codes="104" android:keyLabel="竹" />
+        <Key android:codes="106" android:keyLabel="十" />
+        <Key android:codes="107" android:keyLabel="大" />
+        <Key android:codes="108" android:keyEdgeFlags="right" android:keyLabel="中" />
+    </Row>
+    <Row>
+        <Key android:keyWidth="@dimen/keyboard_cangjie_26_keywidth_cn_comma" android:codes="65292" android:keyEdgeFlags="left" android:keyLabel="，" />
+        <Key android:codes="122" android:keyLabel="重" />
+        <Key android:codes="122" android:keyLabel="難" />
+        <Key android:codes="99" android:keyLabel="金" />
+        <Key android:codes="118" android:keyLabel="女" />
+        <Key android:codes="98" android:keyLabel="月" />
+        <Key android:codes="110" android:keyLabel="弓" />
+        <Key android:codes="109" android:keyLabel="一" />
+        <Key android:keyWidth="@dimen/keyboard_cangjie_26_keywidth_delete" android:codes="4115" android:keyEdgeFlags="right" android:isRepeatable="true" android:keyIcon="@drawable/moto_delete_icon" keyBackground="@drawable/btd_keyboard_key" showPreview="false" />
+    </Row>
+    <Row android:keyWidth="@dimen/keyboard_cangjie_26_keywidth_row4" android:keyHeight="@dimen/keyboard_cangjie_26_keyheight_row4">
+        <Key android:codes="4149" android:keyEdgeFlags="left" keyIcon="@drawable/ch_change_en_1" keyBackground="@drawable/btf_keyboard_key" showPreview="false" />
+        <Key android:codes="36881" keyIcon="@drawable/symbol_icon_key" showPreview="false" keyBackground="@drawable/btf_keyboard_key" />
+        <Key android:codes="4116" android:isRepeatable="true" keyIcon="@drawable/space_icon_key" keyBackground="@drawable/btf_keyboard_key" showPreview="false" />
+        <Key android:codes="36882" keyIcon="@drawable/smiley_icon_key" showPreview="false" keyBackground="@drawable/btf_keyboard_key" />
+        <Key android:codes="4117" keyIcon="@drawable/enter_icon_key" showPreview="false" keyBackground="@drawable/btf_keyboard_key" />
+        <Key android:keyWidth="@dimen/keyboard_cangjie_26_keywidth_switch" android:codes="36873" android:keyEdgeFlags="right" keyIcon="@drawable/switch_icon_key" keyBackground="@drawable/btf_keyboard_key" showPreview="false" />
+    </Row>
+</Keyboard>

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+    <string name="notification_download_not_acceptable">Δεν είναι δυνατή η λήψη. Το τηλέφωνο δεν υποστηρίζει αυτό το περιεχόμενο.</string>
+    <string name="notification_dwonload_wait_network">Η λήψη απαιτεί δίκτυο</string>
+    <string name="app_label">Πρόγραμμα διαχείρισης λήψεων</string>
+    <string name="permlab_downloadManager">Πρόσβαση στο πρόγραμμα διαχείρισης λήψεων.</string>
+    <string name="permdesc_downloadManager">Επιτρέπει στην εφαρμογή την πρόσβαση στο πρόγραμμα διαχείρισης λήψεων και τη χρήση του για τη λήψη αρχείων. Κακόβουλες εφαρμογές μπορούν να το χρησιμοποιήσουν για να διακόψουν λήψεις και για να αποκτήσουν πρόσβαση σε προσωπικές πληροφορίες.</string>
+    <string name="permlab_downloadManagerAdvanced">Σύνθετες λειτουργίες προγράμματος διαχείρισης λήψεων.</string>
+    <string name="permdesc_downloadManagerAdvanced">Επιτρέπει στην εφαρμογή την πρόσβαση στις σύνθετες λειτουργίες των προγραμμάτων διαχείρισης λήψεων. Κακόβουλες εφαρμογές μπορούν να το χρησιμοποιήσουν για να διακόψουν λήψεις και για να αποκτήσουν πρόσβαση σε προσωπικές πληροφορίες.</string>
+    <string name="permlab_downloadCompletedIntent">Αποστολή ειδοποιήσεων λήψης.</string>
+    <string name="permdesc_downloadCompletedIntent">Επιτρέπει στην εφαρμογή να στέλνει ειδοποιήσεις σχετικά με τις ολοκληρωμένες λήψεις. Κακόβουλες εφαρμογές μπορούν να το χρησιμοποιήσουν για να μπερδέψουν άλλες εφαρμογές που πραγματοποιούν λήψεις αρχείων.</string>
+    <string name="permlab_seeAllExternal">Δείτε όλες τις λήψεις στην κάρτα SD</string>
+    <string name="permdesc_seeAllExternal">Η εφαρμογή μπορεί να δει όλες τις λήψεις στην κάρτα SD, ανεξάρτητα από την εφαρμογή που τις πραγματοποίησε.</string>
+    <string name="permlab_downloadCacheNonPurgeable">Δέσμευση χώρου στην προσωρινή μνήμη λήψεων</string>
+    <string name="permdesc_downloadCacheNonPurgeable">Η εφαρμογή μπορεί να αποθηκεύσει αρχεία στην προσωρινή μνήμη λήψεων. Αυτά τα αρχεία δεν μπορούν να διαγραφούν αυτόματα όταν το πρόγραμμα διαχείρισης λήψεων χρειάζεται περισσότερο χώρο.</string>
+    <string name="permlab_downloadWithoutNotification">λήψη αρχείων χωρίς ειδοποίηση</string>
+    <string name="permdesc_downloadWithoutNotification">Η εφαρμογή μπορεί να αποθηκεύσει αρχεία μέσω του προγράμματος διαχείρισης λήψεων, χωρίς να εμφανίζεται καμία ειδοποίηση στο χρήστη.</string>
+    <string name="permlab_accessAllDownloads">Πρόσβαση σε όλες τις λήψεις του συστήματος</string>
+    <string name="permdesc_accessAllDownloads">Η εφαρμογή μπορεί να δει και να τροποποιήσει όσες λήψεις έγιναν από οποιαδήποτε εφαρμογή του συστήματος.</string>
+    <string name="download_unknown_title">&lt;Χωρίς τίτλο></string>
+    <string name="notification_filename_separator">,\u0020</string>
+    <string name="notification_filename_extras">\u0020και %d ακόμα</string>
+    <string name="notification_download_complete">Ολοκλήρωση λήψης</string>
+    <string name="notification_download_failed">Ανεπιτυχής λήψη</string>
+    <string name="notification_need_wifi_for_size">Για το μέγεθος του αρχείου λήψης απαιτείται σύνδεση Wi-Fi</string>
+    <string name="wifi_required_title">Το αρχείο λήψης είναι υπερβολικά μεγάλο για το δίκτυο του παρόχου</string>
+    <string name="wifi_required_body">Για να ολοκληρώσετε τη λήψη %s, πρέπει να χρησιμοποιήσετε δίκτυο Wi-Fi. \n\nΓια να ξεκινήσει η λήψη την επόμενη φορά που θα συνδεθείτε σε δίκτυο Wi-Fi, πατήστε %s.</string>
+    <string name="wifi_recommended_title">Θέλετε να το τοποθετήσετε στην ουρά για να γίνει αργότερα η λήψη;</string>
+    <string name="wifi_recommended_body">Αν ξεκινήσει τώρα η λήψη %s, ίσως μειωθεί η διάρκεια ζωής της μπαταρίας ή/και να καταναλωθεί υπερβολικός όγκος δεδομένων στη σύνδεση κινητής τηλεφωνίας. Στη δεύτερη περίπτωση, θα επιβαρυνθείτε με ανάλογη χρέωση από τον πάροχο κινητής τηλεφωνίας, ανάλογα με το πρόγραμμα όγκου δεδομένων της σύνδεσής σας.\n\n Για να ξεκινήσει η λήψη την επόμενη φορά που θα συνδεθείτε σε δίκτυο WiFi, πατήστε %s.</string>
+    <string name="button_queue_for_wifi">Ουρά</string>
+    <string name="button_cancel_download">Άκυρο</string>
+    <string name="button_start_now">Άμεση έναρξη</string>
+</resources>

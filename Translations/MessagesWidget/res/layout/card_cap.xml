@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RelativeLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:blur="http://schemas.android.com/apk/res/blur.res">
+    <com.motorola.blur.util.widgets.IdentityBadge android:gravity="center_vertical" android:id="@id/card_badge" android:layout_width="fill_parent" android:layout_height="@blur.res:dimen/card_cap_photo_size" android:layout_marginTop="@blur.res:dimen/card_cap_top_icon_padding_top" android:layout_alignParentLeft="true" android:layout_alignParentTop="true" blur:showDefaultPhoto="false" blur:badgeLayoutId="@blur.res:layout/card_cap_badge" />
+    <LinearLayout style="@blur.res:style/CardCapTopIconParent">
+        <ImageView android:id="@id/card_importance" android:src="@blur.res:drawable/ic_card_important" style="@blur.res:style/CardCapTopIcon" />
+        <ImageView android:id="@id/card_attachment" android:src="@blur.res:drawable/ic_card_attachment" style="@blur.res:style/CardCapTopIcon" />
+        <ImageView android:id="@id/card_flag" android:src="@blur.res:drawable/ic_card_bookmark" style="@blur.res:style/CardCapTopIcon" />
+    </LinearLayout>
+</RelativeLayout>

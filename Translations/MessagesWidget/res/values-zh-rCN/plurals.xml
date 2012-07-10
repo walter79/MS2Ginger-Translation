@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+    <plurals name="other_count">
+        <item quantity="other">另外 %1$d 条信息</item>
+        <item quantity="one">另一条信息</item>
+    </plurals>
+</resources>

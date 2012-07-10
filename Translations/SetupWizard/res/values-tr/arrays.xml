@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+    <string-array name="security_questions">
+        <item>En sevdiğiniz yemek?</item>
+        <item>Doğduğunuz şehir?</item>
+        <item>En iyi çocukluk arkadaşınızın adı?</item>
+        <item>Lisenizin adı?</item>
+    </string-array>
+    <string-array name="passwordStrength">
+        <item>yetersiz</item>
+        <item>yeterli</item>
+        <item>iyi</item>
+        <item>güçlü</item>
+    </string-array>
+</resources>

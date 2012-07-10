@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+    <style name="SNDetailActivityTheme" parent="@blur.res:style/Theme.Blur.Light.NoGradientRid">
+        <item name="android:windowNoTitle">true</item>
+    </style>
+    <style name="Theme.WhiteScreen" parent="@blur.res:style/Theme.Blur.Light.NoGradientRid">
+        <item name="android:windowBackground">@color/white</item>
+    </style>
+    <style name="MsgViewContent">
+        <item name="android:textSize">16.0sp</item>
+        <item name="android:typeface">sans</item>
+        <item name="android:textColor">@color/black</item>
+        <item name="android:autoLink">all</item>
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+    <style name="MsgViewTimeStamp">
+        <item name="android:textSize">12.0sp</item>
+        <item name="android:textColor">@color/black</item>
+        <item name="android:gravity">right</item>
+        <item name="android:layout_gravity">right</item>
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+    <style name="MessageScrollView">
+        <item name="android:background">@color/white</item>
+        <item name="android:fadingEdge">none</item>
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">fill_parent</item>
+        <item name="android:fillViewport">true</item>
+        <item name="android:layout_weight">1.0</item>
+    </style>
+    <style name="ConversationHeader">
+        <item name="android:paddingLeft">15.0dip</item>
+        <item name="android:paddingTop">2.0dip</item>
+        <item name="android:paddingRight">15.0dip</item>
+        <item name="android:paddingBottom">2.0dip</item>
+    </style>
+    <style name="ConversationTitleTxt">
+        <item name="android:textSize">14.0sp</item>
+        <item name="android:gravity">center_vertical</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:singleLine">true</item>
+    </style>
+    <style name="EmailReadTextBody" parent="@blur.res:style/Blur.TxtReadBody.Light">
+        <item name="android:paddingLeft">8.0dip</item>
+        <item name="android:paddingTop">4.0dip</item>
+    </style>
+    <style name="EmailReadSenderAWLabel">
+        <item name="android:textColor">@color/black</item>
+        <item name="android:layout_gravity">left|center</item>
+        <item name="android:paddingRight">3.0dip</item>
+    </style>
+    <style name="EmailReadSenderAWSection" parent="@blur.res:style/Blur.ReadAddressingWidget">
+        <item name="android:paddingLeft">@dimen/read_header_left_padding</item>
+        <item name="android:paddingRight">3.0dip</item>
+    </style>
+    <style name="EmailReadBadgeSection" parent="@blur.res:style/Blur.Badge">
+        <item name="android:gravity">center_vertical</item>
+        <item name="android:paddingLeft">@dimen/read_header_left_padding</item>
+        <item name="android:paddingTop">5.0dip</item>
+        <item name="android:paddingRight">3.0dip</item>
+        <item name="android:paddingBottom">5.0dip</item>
+    </style>
+    <style name="EmailReadSentDateTime" parent="@blur.res:style/Blur.TxtTimestampFull">
+        <item name="android:textSize">@dimen/sender_timestamp_text_size</item>
+        <item name="android:textColor">@color/black</item>
+        <item name="android:paddingLeft">@dimen/read_header_left_padding</item>
+        <item name="android:paddingRight">3.0dip</item>
+    </style>
+    <style name="EmailReadSubjectSection" parent="@blur.res:style/Blur.TxtReadScreenSubject.Light">
+        <item name="android:paddingLeft">@dimen/read_header_left_padding</item>
+        <item name="android:paddingTop">4.0dip</item>
+        <item name="android:paddingRight">3.0dip</item>
+        <item name="android:paddingBottom">4.0dip</item>
+    </style>
+    <style name="EmailReadBodySection">
+        <item name="android:paddingLeft">4.0dip</item>
+        <item name="android:paddingRight">3.0dip</item>
+    </style>
+</resources>

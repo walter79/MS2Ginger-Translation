@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+    <bool name="enable_download_wallpaper">false</bool>
+    <bool name="def_bluetooth_dun_enabled">true</bool>
+    <bool name="def_enable_mms_when_datadisconnected">false</bool>
+    <bool name="def_ftr_34568_enable">false</bool>
+</resources>

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+    <string name="app_name">MtlrDialog</string>
+    <string name="location_mtlr_notification">demande votre emplacement</string>
+    <string name="location_mtlr_ver_prefix">La demande sera</string>
+    <string name="location_mtlr_ver_postfix">si vous ne répondez pas</string>
+    <string name="location_mtlr_default_allow">Autorisation : Demande d\'emplacement</string>
+    <string name="location_mtlr_default_deny">Refus : Demande d\'emplacement</string>
+    <string name="location_mtlr_network_fail">Demande interrompue par le réseau</string>
+    <string name="notification_msg_content">Emplacement demandé</string>
+    <string name="notification_msg_type_notification">Emplacement demandé</string>
+    <string name="notification_msg_type_missed">Demande d\'emplacement manquée</string>
+    <string name="notification_msg_type_title">Emplacement demandé</string>
+    <string name="notification_request_postfix">a demandé votre emplacement.</string>
+    <string name="notification_dialog_middlefix">a demandé votre emplacement. Votre emplacement</string>
+    <string name="verification_dialog_middlefix">a demandé votre emplacement. Le fait d\'accepter cette demande d\'emplacement permettra</string>
+    <string name="notification_dialog_postfix">d\'identifier votre emplacement.</string>
+    <string name="missed_verification_dialog_prefix">Une demande d\'emplacement de</string>
+    <string name="missed_verification_dialog_middlefix">a été manqué(e). Votre emplacement</string>
+    <string name="share_status_yes">a été</string>
+    <string name="share_status_no">n\'a pas été</string>
+    <string name="share_string">partagé(e) avec</string>
+    <string name="toast_accept">pourra désormais déterminer votre emplacement.</string>
+    <string name="toast_deny">ne pourra pas déterminer votre emplacement.</string>
+    <string name="connect_terminate_msg">La demande d\'emplacement a été annulée par le réseau.</string>
+    <string name="accept_ok">OK</string>
+    <string name="button_allow">Autoriser</string>
+    <string name="button_deny">Refuser</string>
+</resources>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <EditText android:textAppearance="?android:textAppearanceLarge" android:id="@id/txtSearchField" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+    <com.motorola.blur.simmanager.SeparatorSpinner android:gravity="center_vertical" android:id="@id/contacts_list_spinner" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip" android:layout_marginTop="10.0dip" android:layout_marginRight="10.0dip" android:layout_marginBottom="10.0dip" />
+    <View android:background="?android:listDivider" android:layout_width="fill_parent" android:layout_height="1.0dip" />
+    <ListView android:id="@android:id/list" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0" />
+    <com.motorola.android.widget.ActionBar android:id="@id/abwidget" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_alignParentBottom="true" />
+    <Button android:textAppearance="?android:textAppearanceLarge" android:gravity="center_horizontal" android:id="@id/btnExitSearch" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/exit_search" />
+</LinearLayout>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+    <string name="app_name">Μηνύματα</string>
+    <string name="menu_manage_accounts">Διαχείριση λογαριασμών</string>
+    <string name="menu_edit_universal_accounts">Επεξ/σία καθολ. εισ/νων</string>
+    <string name="menu_preferences">Ρυθμίσεις μηνυμάτων</string>
+    <string name="preferences_title">Ρυθμίσεις</string>
+    <string name="pref_accounts_settings_title">Ρυθμίσεις μηνυμάτων</string>
+    <string name="text_messaging_settings_label">Μηνύματα κειμένου</string>
+    <string name="email_settings_label">Ηλεκτρονικό ταχυδρομείο</string>
+    <string name="sn_messaging_settings_label">Μηνύματα κοιν. δικτύωσης</string>
+</resources>

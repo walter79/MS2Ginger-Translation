@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Keyboard android:keyWidth="10.000002%p" android:horizontalGap="0.0px" android:verticalGap="0.0px"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <Row android:keyHeight="@dimen/key_height">
+        <Key android:codes="49" android:keyEdgeFlags="left" android:keyLabel="1" />
+        <Key android:codes="50" android:keyLabel="2" />
+        <Key android:codes="51" android:keyLabel="3" />
+        <Key android:codes="52" android:keyLabel="4" />
+        <Key android:codes="53" android:keyLabel="5" />
+        <Key android:codes="54" android:keyLabel="6" />
+        <Key android:codes="55" android:keyLabel="7" />
+        <Key android:codes="56" android:keyLabel="8" />
+        <Key android:codes="57" android:keyLabel="9" />
+        <Key android:codes="48" android:keyEdgeFlags="right" android:keyLabel="0" />
+    </Row>
+    <Row android:keyHeight="@dimen/key_height">
+        <Key android:codes="64" android:keyEdgeFlags="left" android:keyLabel="\@" />
+        <Key android:codes="35" android:keyLabel="\#" />
+        <Key android:keyLabel="%" />
+        <Key android:codes="42" android:keyLabel="*" />
+        <Key android:keyOutputText="？" android:keyLabel="？" />
+        <Key android:keyOutputText="！" android:keyLabel="！" />
+        <Key android:keyLabel="（" />
+        <Key android:keyLabel="）" />
+        <Key android:keyLabel="/" />
+        <Key android:keyEdgeFlags="right" android:keyLabel="_" />
+    </Row>
+    <Row android:keyHeight="@dimen/key_height_2">
+        <Key android:keyWidth="14.999998%p" android:codes="-1001" android:keyEdgeFlags="left" android:iconPreview="@drawable/moto_page_forward_blk_kbd" android:keyIcon="@drawable/key_page_forward" />
+        <Key android:keyOutputText="：" android:keyLabel="：" />
+        <Key android:keyOutputText="“" android:keyLabel="“" />
+        <Key android:keyOutputText="”" android:keyLabel="”" />
+        <Key android:keyOutputText="，" android:keyLabel="，" />
+        <Key android:keyOutputText="。" android:keyLabel="。" />
+        <Key android:codes="46" android:keyLabel="." />
+        <Key android:keyLabel="—" />
+        <Key android:keyWidth="14.999998%p" android:codes="-5" android:keyEdgeFlags="right" android:isRepeatable="true" android:iconPreview="@drawable/moto_delete_icon" android:keyIcon="@drawable/moto_delete_icon" />
+    </Row>
+    <Row android:keyWidth="20.000004%p" android:keyHeight="@dimen/key_height_2" android:rowEdgeFlags="bottom">
+        <Key android:codes="-1007" android:keyEdgeFlags="left" android:iconPreview="@drawable/moto_chinese_symbol_icon" android:keyIcon="@drawable/key_chinese_symbols" />
+        <Key android:codes="-1008" android:iconPreview="@drawable/moto_english_symbol_icon" android:keyIcon="@drawable/key_english_symbols" />
+        <Key android:codes="-1003" android:iconPreview="@drawable/moto_smiley_icon" android:keyIcon="@drawable/key_smiley" />
+        <Key android:codes="-1009" android:iconPreview="@drawable/moto_www_icon" android:keyIcon="@drawable/key_www_symbols" />
+        <Key android:codes="-2" android:keyEdgeFlags="right" android:iconPreview="@drawable/moto_return" android:keyIcon="@drawable/key_return" />
+    </Row>
+</Keyboard>

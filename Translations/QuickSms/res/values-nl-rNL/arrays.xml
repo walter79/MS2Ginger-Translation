@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+    <string-array name="preload_messages">
+        <item>Ik bel u over een paar minuten terug.</item>
+        <item>Bel mij over een paar minuten opnieuw.</item>
+        <item>Sorry, ik kon uw oproep niet aannemen.</item>
+    </string-array>
+</resources>

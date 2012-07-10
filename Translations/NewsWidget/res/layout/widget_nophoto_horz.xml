@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<FrameLayout style="@style/WidgetParent.Root"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView style="@style/WidgetBase" />
+    <LinearLayout style="@style/WidgetParent.Horz">
+        <FrameLayout android:layout_width="wrap_content" android:layout_height="fill_parent">
+            <ImageView style="@style/WidgetSleeve.Horz" />
+            <ImageView style="@style/WidgetSleeveIcon.HorzNoPhoto" />
+            <TextView style="@style/WidgetSleeveName.Hidden" />
+        </FrameLayout>
+        <LinearLayout android:orientation="vertical" android:id="@id/widget_article_parent" style="@style/WidgetContentParentHorz">
+            <include layout="@layout/widget_article" />
+        </LinearLayout>
+        <include layout="@layout/widget_empty" />
+    </LinearLayout>
+</FrameLayout>

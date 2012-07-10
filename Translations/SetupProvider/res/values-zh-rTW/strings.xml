@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+    <string name="app_name">帳戶儲存</string>
+    <string name="blur_accounts">Motorola 服務帳戶</string>
+    <string name="as_pretty_name">Corporate Sync</string>
+    <string name="blur_pretty_name">Motorola 服務</string>
+    <string name="yahoo_pretty_name">Yahoo! Mail</string>
+    <string name="email_login_label">Email|myemail@domain.com</string>
+    <string name="as_login_label">Domain\\Username|Domain\\Username</string>
+    <string name="blur_login_label">Email|myemail@domain.com</string>
+    <string name="yahoo_login_label">Email|myemail@yahoo.com</string>
+</resources>

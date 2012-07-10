@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RelativeLayout android:orientation="vertical" android:id="@id/widget_root" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/widget_photo" android:background="@blur.res:color/trans_white_1" android:layout_width="fill_parent" android:layout_height="wrap_content" style="@blur.res:style/Widget.GenContent.Image.Vertical" />
+    <RelativeLayout android:id="@id/content_layout" android:background="@blur.res:drawable/base_vert" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_below="@id/widget_photo">
+        <include layout="@layout/widget_content" />
+    </RelativeLayout>
+</RelativeLayout>

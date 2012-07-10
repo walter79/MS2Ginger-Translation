@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+    <string name="app_name">Mensajería</string>
+    <string name="menu_manage_accounts">Administrar cuentas</string>
+    <string name="menu_edit_universal_accounts">Editar</string>
+    <string name="menu_preferences">Config. mensajería</string>
+    <string name="preferences_title">Configuración</string>
+    <string name="pref_accounts_settings_title">Config. mensajería</string>
+    <string name="text_messaging_settings_label">Msj. SMS/MMS</string>
+    <string name="email_settings_label">Correo</string>
+    <string name="sn_messaging_settings_label">Mensajería social</string>
+</resources>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LinearLayout android:layout_gravity="center" android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <FrameLayout android:layout_gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content">
+        <ImageView android:layout_gravity="center" android:id="@id/account_icon" android:padding="@blur.res:dimen/count_bubble_offset" android:layout_width="wrap_content" android:layout_height="wrap_content" android:minWidth="@blur.res:dimen/icon_launcher_size" android:minHeight="@blur.res:dimen/icon_launcher_size" />
+        <com.motorola.blur.util.widgets.CountIndicator android:id="@id/count_bubble" style="@blur.res:style/Blur.TxtItemCount" />
+        <ImageView android:gravity="center" android:layout_gravity="bottom|left|center" android:id="@id/account_error" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@blur.res:drawable/icon_failure" />
+    </FrameLayout>
+    <TextView android:gravity="center" android:layout_gravity="center" android:id="@id/account_name" android:lines="2" style="@blur.res:style/Blur.TxtGridItem" />
+</LinearLayout>

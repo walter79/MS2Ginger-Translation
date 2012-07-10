@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+    <string name="app_name">Cx. entrada universal</string>
+    <string name="edit_activity_name">Editar cx. entr. universal</string>
+    <string name="no_messages">Não há mensagens.</string>
+    <string name="loading_list">Carregando...</string>
+    <string name="multi_media_message">Mensagem multimídia</string>
+    <string name="menu_edit_accounts">Editar cx. entr. universal</string>
+    <string name="menu_settings">Configurações</string>
+    <string name="delete_threads_confirm_title">Excluir conversas</string>
+    <string name="delete_threads_confirm_message">Sua seleção contém conversas. Deseja excluí-las também?</string>
+    <string name="move_error_title">Não é possível mover itens</string>
+    <string name="move_error_message">Somente itens de e-mail da mesma conta podem ser movidaos para um pasta.</string>
+</resources>

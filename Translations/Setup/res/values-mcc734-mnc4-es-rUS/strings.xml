@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+    <string name="skip_setup_text">Si omites la configuración de MOTOBLUR algunas de las funciones del teléfono no estarán disponibles.\n\n El teléfono te recordará completar la instalación cuando haya una conexión de datos disponible o si intentas utilizar una aplicación que requiere una cuenta MOTOBLUR.\n\n Si haces clic en Listo terminará la configuración y te llevará a la pantalla principal.</string>
+</resources>

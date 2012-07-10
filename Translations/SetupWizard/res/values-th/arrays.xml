@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+    <string-array name="security_questions">
+        <item>อาหารโปรด</item>
+        <item>เมืองเกิด</item>
+        <item>ชื่อเพื่อนรักในวัยเด็ก</item>
+        <item>ชื่อโรงเรียนมัธยมปลาย</item>
+    </string-array>
+    <string-array name="passwordStrength">
+        <item>แย่</item>
+        <item>พอใช้</item>
+        <item>ดี</item>
+        <item>รัดกุม</item>
+    </string-array>
+</resources>

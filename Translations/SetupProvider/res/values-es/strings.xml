@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+    <string name="app_name">Almacenamiento cuentas</string>
+    <string name="blur_accounts">Cuentas del servicio de Motorola</string>
+    <string name="as_pretty_name">Sincr. empresa</string>
+    <string name="blur_pretty_name">Servicio de Motorola</string>
+    <string name="yahoo_pretty_name">Correo Yahoo!</string>
+    <string name="email_login_label">Correo electrónico|micorreolectrónico@dominio.com</string>
+    <string name="as_login_label">Dominio\\Nombre de usuario|Dominio\\Nombre de usuario</string>
+    <string name="blur_login_label">Correo electrónico|micorreoelectrónico@dominio.com</string>
+    <string name="yahoo_login_label">Correo electrónico|micorreoelectrónico@yahoo.com</string>
+</resources>

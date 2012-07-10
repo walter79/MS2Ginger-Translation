@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+    <string-array name="user_dir">
+        <item>On</item>
+        <item>Off</item>
+    </string-array>
+    <string-array name="traditional_chinese_habit_list">
+        <item>Hong Kong</item>
+        <item>Taiwan</item>
+    </string-array>
+    <string-array name="traditional_chinese_habit_list_values">
+        <item>HK</item>
+        <item>TW</item>
+    </string-array>
+    <string-array name="odm_manufacturer">
+        <item>E28</item>
+        <item>FIH</item>
+        <item>IEC</item>
+    </string-array>
+    <string-array name="odm_model">
+        <item>lucky</item>
+        <item>Motorola-XT502</item>
+        <item>A1280</item>
+    </string-array>
+</resources>

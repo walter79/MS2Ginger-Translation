@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+    <string name="yes">Oui</string>
+    <string name="no">Non</string>
+    <string name="ok">OK</string>
+    <string name="please_wait">Veuillez patienter...</string>
+    <string name="widget_title">Picture Frame Plus</string>
+    <string name="widget_description">Afficher vos photos récentes sous forme de diaporama et en prendre d\'autres en toute simplicité</string>
+    <string name="error_dialog">Conflit entre widgets</string>
+    <string name="view_label">Afficher l\'image</string>
+    <string name="error_description">Conflit entre widgets. Vous ne pouvez ajouter qu\'un seul widget Diaporama photos à l\'écran d\'accueil.</string>
+    <string name="app_name">Diaporama photos</string>
+    <string name="gallery_photo_set_failed">Impossible d\'afficher l\'image sélectionnée.</string>
+    <string name="camera_photo_set_failed">Impossible d\'afficher la dernière image capturée.</string>
+</resources>

@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+    <string name="app_name">Lecteur vidéo</string>
+    <string name="Share_menu">Partager</string>
+    <string name="Tags_menu">Marquages</string>
+    <string name="Delete_menu">Supprimer</string>
+    <string name="FullScreen_menu">Ajuster à l\'écran</string>
+    <string name="ActualSize_menu">Taille réelle</string>
+    <string name="Camera_menu">Appareil photo</string>
+    <string name="Edit_menu">Modifier</string>
+    <string name="AdvancedEdit_menu">Avancé</string>
+    <string name="info_menu">Informations sur la vidéo</string>
+    <string name="TV_menu">Afficher sur la TV</string>
+    <string name="Settings_menu">Paramètres</string>
+    <string name="hdmi_waiting_message">Connexion à HDMI</string>
+    <string name="loading_video">Chargement de la vidéo...</string>
+    <string name="sendVideo">Partager la vidéo via</string>
+    <string name="no_way_to_share_video">Cette vidéo ne peut pas être partagée.</string>
+    <string name="no_way_to_edit_video">Aucun éditeur vidéo n\'a été trouvé.</string>
+    <string name="resume_playing_title">Reprendre la vidéo</string>
+    <string name="resume_playing_message">Reprendre la lecture à partir de %1$s ?</string>
+    <string name="resume_playing_resume">Reprendre la lecture</string>
+    <string name="resume_playing_restart">Recommencer</string>
+    <string name="details_ms">%1$02d:%2$02d</string>
+    <string name="details_hms">%1$d:%2$02d:%3$02d</string>
+    <string name="Error_msg">Impossible d\'afficher ou de lire le fichier.</string>
+    <string name="Error_title">Erreur</string>
+    <string name="Delete_title">Supprimer</string>
+    <string name="confirm_delete_1_video">Effacer 1 vidéo ?</string>
+    <string name="VIDEO">vidéo</string>
+    <string name="OK_button">OK</string>
+    <string name="CANCEL_button">Annuler</string>
+    <string name="connecting">Connexion en cours...</string>
+    <string name="cable_is_not_connected">Câble HDMI non connecté.</string>
+    <string name="incoming_call_setting_title">Paramétrage appel entrant</string>
+    <string name="always_check_incoming_call">Toujours vérifier appel entrant</string>
+    <string name="always_ignore_incoming_call">Toujours ignorer appel entrant</string>
+    <string name="ok">OK</string>
+    <string name="discard">Ignorer</string>
+    <string name="hdmi_blocked_toast">Ce contenu ne peut être lu via HDMI</string>
+</resources>

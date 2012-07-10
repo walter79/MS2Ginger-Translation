@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+    <string name="status_bar_priority_events_title">Priority</string>
+    <string name="app_label">Status Bar</string>
+    <string name="status_bar_clear_all_button">Clear</string>
+    <string name="status_bar_no_notifications_title">No notifications</string>
+    <string name="status_bar_ongoing_events_title">Ongoing</string>
+    <string name="status_bar_latest_events_title">Notifications</string>
+    <string name="battery_low_title">Please connect charger</string>
+    <string name="battery_low_subtitle">The battery is getting low:</string>
+    <string name="battery_low_percent_format">%d%% or less remaining.</string>
+    <string name="battery_low_why">Battery use</string>
+    <string name="usb_accessory_permission_prompt">Allow the application %1$s to access the USB accessory?</string>
+    <string name="usb_device_confirm_prompt">Open %1$s when this USB device is connected?</string>
+    <string name="usb_accessory_confirm_prompt">Open %1$s when this USB accessory is connected?</string>
+    <string name="usb_accessory_uri_prompt">No installed applications work with this USB accessory. Learn more about this accessory at %1$s</string>
+    <string name="title_usb_accessory">USB accessory</string>
+    <string name="label_view">View</string>
+    <string name="always_use_accessory">Use by default for this USB accessory</string>
+    <string name="xiaozhu_wifi_text" />
+    <string name="xiaozhu_bluetooth_text" />
+    <string name="xiaozhu_gps_text" />
+    <string name="xiaozhu_mobiledata_text" />
+    <string name="xiaozhu_sound_vibration_text" />
+    <string name="xiaozhu_silent_text" />
+    <string name="xiaozhu_vibration_text" />
+    <string name="xiaozhu_rotation_text" />
+    <string name="xiaozhu_error_text" />
+    <string name="xiaozhu_sound_text" />
+    <string name="location_3rdparty_gps_dialogtext">By selecting \"Standalone GPS services\", you are allowing access to all location information by any third party through web access or any software or peripheral components you chose to install, download, add/or attach to the device or any other means. Enabling this functionality could pose certain risks to users of this device.</string>
+    <string name="mobiledata_dialogtext">You will no longer be able to use data applications such as Browser, Email and YouTube via mobile network. Calls and text messages will continue to function. Continue?</string>
+    <string name="warning_alert_check">Do not display this message again.</string>
+    <string name="mobiledataconnection_dialogtext">Mobile data connection is currently disabled. You need to connect Mobile data to use data applications such as Browser, Email and YouTube via mobile network. Do you want to make the connection?</string>
+    <string name="location_title">My location</string>
+    <string name="mobiledata_title">Mobile data</string>
+    <string name="mobiledata_connect">Connect</string>
+    <string name="mobiledataconnection_title">Mobile data connection</string>
+    <string name="agree">Agree</string>
+    <string name="xiaozhu_flight_text" />
+    <string name="xiaozhu_sync_text" />
+    <string name="xiaozhu_brightness_text" />
+    <string name="shutdown_confirm">Your phone will take a rest from You.</string>
+    <string name="xiaozhu_shutdown_text">Shutdown</string>
+    <string name="hamster">ArgenStone</string>
+</resources>

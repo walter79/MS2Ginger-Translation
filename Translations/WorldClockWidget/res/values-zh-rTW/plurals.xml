@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+    <plurals name="Nminutes">
+        <item quantity="other">&amp;lt;g id=count>%1$d&amp;lt;/g>分鐘</item>
+        <item quantity="one">2 分鐘</item>
+    </plurals>
+    <plurals name="Nmins">
+        <item quantity="other">&amp;lt;g id=count>%1$d&amp;lt;/g>分鐘</item>
+        <item quantity="one">2 分鐘</item>
+    </plurals>
+    <plurals name="Nhours">
+        <item quantity="other">&amp;lt;g id=count>%1$d&amp;lt;/g>小時</item>
+        <item quantity="one">2 小時</item>
+    </plurals>
+    <plurals name="Ndays">
+        <item quantity="other">&amp;lt;g id=count>%1$d&amp;lt;/g>天</item>
+        <item quantity="one">2 天</item>
+    </plurals>
+</resources>

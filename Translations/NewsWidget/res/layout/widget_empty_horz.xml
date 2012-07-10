@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<FrameLayout android:id="@id/widget_empty_parent" android:background="@blur.res:drawable/base_horiz" style="@style/WidgetParent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView style="@style/WidgetEmptyAddFeed" />
+    <TextView style="@style/WidgetEmptyText" />
+</FrameLayout>

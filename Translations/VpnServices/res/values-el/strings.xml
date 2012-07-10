@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+    <string name="app_label">Υπηρεσίες VPN</string>
+    <string name="vpn_notification_title_connected">Το VPN %s συνδέθηκε</string>
+    <string name="vpn_notification_title_disconnected">Το VPN %s αποσυνδέθηκε</string>
+    <string name="vpn_notification_hint_disconnected">Πατήστε για να επανασυνδεθείτε σε ένα VPN.</string>
+</resources>

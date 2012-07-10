@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ScrollView android:scrollbarStyle="insideInset" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent" android:fillViewport="true"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <View android:background="?android:listDivider" android:layout_width="fill_parent" android:layout_height="5.0dip" />
+        <TextView android:textAppearance="?android:textAppearanceLarge" android:id="@id/textview_user_directory" android:clickable="false" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="4.0dip" android:text="@string/user_dirctory" android:layout_centerVertical="true" />
+        <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <Spinner android:id="@id/spinner_user_dirctory" android:layout_width="0.0dip" android:layout_height="wrap_content" android:drawSelectorOnTop="true" android:prompt="@string/spinner_user_dirctory_prompt" android:layout_weight="2.0" />
+            <Button android:id="@id/button_clear_userdir" android:paddingTop="2.0dip" android:layout_width="0.0dip" android:layout_height="wrap_content" android:drawSelectorOnTop="true" android:text="@string/clear" android:layout_weight="1.0" />
+        </LinearLayout>
+        <View android:background="?android:listDivider" android:layout_width="fill_parent" android:layout_height="2.0dip" />
+        <TextView android:textAppearance="?android:textAppearanceLarge" android:id="@id/fuzzy_im_setup" android:clickable="true" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="4.0dip" android:text="@string/itm_Fuzzy" android:layout_centerVertical="true" />
+        <TextView android:textAppearance="?android:textAppearanceMedium" android:textColor="#ffc0c0c0" android:id="@id/fuzzy_im_summary" android:paddingBottom="8.0dip" android:clickable="true" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="4.0dip" android:text="@string/summary_Fuzzy" android:layout_centerVertical="true" />
+        <View android:background="?android:listDivider" android:layout_width="fill_parent" android:layout_height="2.0dip" />
+        <LinearLayout android:orientation="vertical" android:id="@id/view_hw_setup" android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <TextView android:textAppearance="?android:textAppearanceLarge" android:id="@id/textview_hw_speed" android:paddingBottom="8.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="4.0dip" android:text="@string/hw_speed" android:layout_alignParentLeft="true" android:layout_centerVertical="true" />
+            <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="50.0dip">
+                <TextView android:textAppearance="?android:textAppearanceMedium" android:textSize="@dimen/settings_font_size" android:id="@id/textview_slow" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip" android:text="@string/hw_speed_slow" android:layout_weight="1.0" android:layout_alignParentRight="true" android:layout_centerVertical="true" />
+                <SeekBar android:id="@id/seekbar_hw_speed" android:padding="0.0dip" android:layout_width="@dimen/seekbar_width" android:layout_height="45.0dip" android:max="4" android:layout_centerVertical="true" />
+                <TextView android:textAppearance="?android:textAppearanceMedium" android:textSize="@dimen/settings_font_size" android:id="@id/textview_fast" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip" android:text="@string/hw_speed_fast" android:layout_weight="1.0" android:layout_alignParentLeft="true" android:layout_centerVertical="true" />
+            </LinearLayout>
+            <View android:background="?android:listDivider" android:layout_width="fill_parent" android:layout_height="2.0dip" />
+            <TextView android:textAppearance="?android:textAppearanceLarge" android:id="@id/textview_hw_color" android:paddingBottom="8.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="4.0dip" android:text="@string/hw_color" android:layout_alignParentLeft="true" android:layout_centerVertical="true" />
+            <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <ImageButton android:id="@id/button_color_1" android:layout_width="0.0dip" android:layout_height="47.0dip" android:src="@drawable/im_blue" android:layout_weight="1.0" />
+                <ImageButton android:id="@id/button_color_2" android:layout_width="0.0dip" android:layout_height="47.0dip" android:src="@drawable/im_yellow" android:layout_weight="1.0" />
+                <ImageButton android:id="@id/button_color_3" android:layout_width="0.0dip" android:layout_height="47.0dip" android:src="@drawable/im_choc" android:layout_weight="1.0" />
+                <ImageButton android:id="@id/button_color_4" android:layout_width="0.0dip" android:layout_height="47.0dip" android:src="@drawable/im_black" android:layout_weight="1.0" />
+                <ImageButton android:id="@id/button_color_5" android:layout_width="0.0dip" android:layout_height="47.0dip" android:src="@drawable/im_red" android:layout_weight="1.0" />
+                <ImageButton android:id="@id/button_color_6" android:layout_width="0.0dip" android:layout_height="47.0dip" android:src="@drawable/im_green" android:layout_weight="1.0" />
+                <ImageButton android:id="@id/button_color_7" android:layout_width="0.0dip" android:layout_height="47.0dip" android:src="@drawable/im_gray" android:layout_weight="1.0" />
+            </LinearLayout>
+            <View android:background="?android:listDivider" android:layout_width="fill_parent" android:layout_height="2.0dip" />
+            <TextView android:textAppearance="?android:textAppearanceLarge" android:id="@id/textview_hw_brush" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="4.0dip" android:text="@string/hw_brush" android:layout_alignParentLeft="true" android:layout_centerVertical="true" />
+            <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <ImageButton android:id="@id/button_brush_1" android:layout_width="0.0dip" android:layout_height="fill_parent" android:src="@drawable/im_brush11" android:layout_weight="1.0" />
+                <ImageButton android:id="@id/button_brush_2" android:layout_width="0.0dip" android:layout_height="fill_parent" android:src="@drawable/im_brush22" android:layout_weight="1.0" />
+                <ImageButton android:id="@id/button_brush_3" android:layout_width="0.0dip" android:layout_height="fill_parent" android:src="@drawable/im_brush33" android:layout_weight="1.0" />
+                <ImageButton android:id="@id/button_brush_4" android:layout_width="0.0dip" android:layout_height="fill_parent" android:src="@drawable/im_brush44" android:layout_weight="1.0" />
+            </LinearLayout>
+            <View android:background="?android:listDivider" android:layout_width="fill_parent" android:layout_height="2.0dip" />
+            <RelativeLayout android:layout_width="fill_parent" android:layout_height="?android:listPreferredItemHeight">
+                <TextView android:textAppearance="?android:textAppearanceLarge" android:id="@id/textview_water_mark" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="4.0dip" android:text="@string/water_mark" android:layout_alignParentLeft="true" android:layout_centerVertical="true" />
+                <CheckBox android:id="@id/checkbox_water_mark" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignParentRight="true" android:layout_centerVertical="true" />
+            </RelativeLayout>
+            <View android:background="?android:listDivider" android:layout_width="fill_parent" android:layout_height="2.0dip" />
+            <TextView android:textAppearance="?android:textAppearanceLarge" android:id="@id/textview_gesture_shortcuts" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="4.0dip" android:text="@string/gesture_shortcuts" android:layout_alignParentLeft="true" android:layout_centerVertical="true" />
+            <TableLayout android:layout_width="fill_parent" android:layout_height="fill_parent" android:stretchColumns="1"
+              xmlns:android="http://schemas.android.com/apk/res/android">
+                <TableRow>
+                    <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="10.0dip" android:src="@drawable/land_gesture_backspace" android:adjustViewBounds="true" android:minWidth="110.0dip" android:minHeight="60.0dip" />
+                    <TextView android:textAppearance="?android:textAppearanceMedium" android:textSize="@dimen/settings_font_size" android:gravity="left" android:id="@id/TextBackspace" android:layout_marginLeft="2.0dip" android:layout_marginTop="25.0dip" android:text="@string/backspace" />
+                    <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="10.0dip" android:src="@drawable/land_gesture_space" android:adjustViewBounds="true" android:minWidth="80.0dip" android:minHeight="60.0dip" />
+                    <TextView android:textAppearance="?android:textAppearanceMedium" android:textSize="@dimen/settings_font_size" android:gravity="left" android:id="@id/TextSpace" android:layout_marginTop="25.0dip" android:layout_marginRight="20.0dip" android:text="@string/space" />
+                </TableRow>
+                <TableRow>
+                    <ImageView android:padding="10.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/land_gesture_enter" android:adjustViewBounds="true" android:minWidth="110.0dip" android:minHeight="60.0dip" />
+                    <TextView android:textAppearance="?android:textAppearanceMedium" android:textSize="@dimen/settings_font_size" android:gravity="bottom|left|center" android:id="@id/TextEnter" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="2.0dip" android:layout_marginTop="10.0dip" android:text="@string/enter" />
+                </TableRow>
+            </TableLayout>
+            <View android:background="?android:listDivider" android:layout_width="fill_parent" android:layout_height="2.0dip" />
+        </LinearLayout>
+    </LinearLayout>
+</ScrollView>

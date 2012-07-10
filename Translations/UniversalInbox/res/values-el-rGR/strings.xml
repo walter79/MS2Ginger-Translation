@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+    <string name="app_name">Καθολικά εισερχόμενα</string>
+    <string name="edit_activity_name">Επεξ/σία καθολ. εισ/νων</string>
+    <string name="no_messages">Δεν υπάρχουν μηνύματα</string>
+    <string name="loading_list">Φόρτωση...</string>
+    <string name="multi_media_message">Μήνυμα πολυμέσων</string>
+    <string name="menu_edit_accounts">Επεξ/σία καθολ. εισ/νων</string>
+    <string name="menu_settings">Ρυθμίσεις</string>
+    <string name="delete_threads_confirm_title">Διαγραφή συνομιλιών</string>
+    <string name="delete_threads_confirm_message">Η επιλογή σας περιέχει συνομιλίες. Θέλετε να διαγραφούν και αυτές;</string>
+    <string name="move_error_title">Δεν είναι δυνατή η μετακίνηση των στοιχείων</string>
+    <string name="move_error_message">Μόνο τα στοιχεία ηλεκτρονικού ταχυδρομείου από τον ίδιο λογαριασμό μπορούν να μετακινηθούν σε ένα φάκελο.</string>
+</resources>

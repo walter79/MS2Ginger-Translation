@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+    <string name="hello">Hallo Welt!</string>
+    <string name="app_name">WmdrmPushReciever</string>
+    <string name="title_license_message">Lizenzmeldung</string>
+</resources>

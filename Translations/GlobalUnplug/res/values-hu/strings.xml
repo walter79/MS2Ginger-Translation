@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+    <string name="app_name">Globális szétkapcsoló</string>
+    <string name="global_unplug_t">Szétkapcsolva</string>
+    <string name="global_unplug">A töltőt húzza ki a konnektorból, hogy spóroljuk az energiát.</string>
+</resources>

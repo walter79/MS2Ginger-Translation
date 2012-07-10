@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+    <string name="hello">Hello World!</string>
+    <string name="app_name">Servicio administrador de datos</string>
+    <string name="perm_label">Habilitar el ajuste del plan de datos</string>
+    <string name="perm_desc">Permite a la aplicación establecer su plan de datos gracias al Servicio de administrador de datos</string>
+    <string name="backgrounddata_warning_message">Para proteger tu plan de datos, el administrador ha inhabilitado las conexiones automáticas durante la itinerancia.\n\nSi es necesario, puedes sincronizar los datos manualmente durante la itinerancia.</string>
+    <string name="backgrounddata_notification_title">Conexiones automáticas inhabilitadas</string>
+    <string name="backgrounddata_dialog_title">Aviso de conexión automática</string>
+    <string name="backgrounddata_dialog_message">El administrador ha inhabilitado las conexiones automáticas durante la itinerancia.\nSi es necesario, puedes sincronizar los datos manualmente durante la itinerancia.</string>
+    <string name="ok">Aceptar</string>
+</resources>

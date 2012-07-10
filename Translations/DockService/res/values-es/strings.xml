@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+    <string name="app_name">Servicios de la base Motorola</string>
+    <string name="mot_dock_apps">Aplicaciones de la base Motorola</string>
+    <string name="TitleForWebtop">WebTop</string>
+    <string name="TitleForEASport">EASport</string>
+    <string name="TitleWidgetClock">Widget de reloj</string>
+    <string name="TitleForEntertainmentCenter">Entertainment Center</string>
+    <string name="TitleForBigClock">BigClock</string>
+    <string name="TitleForHome">Descartar selector</string>
+    <string name="description">description under title go here and here</string>
+    <string name="detailed_description">detailed description go here and here</string>
+    <string name="dock_notification_title">Conectado a estación multimedia</string>
+    <string name="hall_effect_dock_only">Estación multimedia conectada actualmente</string>
+    <string name="dock_notification_message">Seleccionar para cambiar la aplicación</string>
+    <string name="hdmi_notification_title">Conexión HDMI</string>
+    <string name="hdmi_notification_message">Seleccionar para administrar la conexión HDMI</string>
+    <string name="hdmi_only_message">HDMI conectado actualmente</string>
+    <string name="dock_hdmi_notification_title">Conectado a una base de alta definición</string>
+    <string name="hall_effect_dock_notification">Base HD conectada actualmente</string>
+    <string name="dock_hdmi_notification_message">Seleccionar para cambiar la aplicación</string>
+    <string name="descrip_webtop">Convierte tu teléfono en un ordenador</string>
+    <string name="descrip_entertainmentcenter">Disfruta de tu música, fotografías y vídeos en formato HDTV</string>
+    <string name="descrip_bigclock">Reloj y alarma elegante</string>
+    <string name="descrip_widgetdock">Personaliza tu propia experiencia de uso de la base, de forma similar a la página principal</string>
+    <string name="descrip_home">Puedes mantener la aplicación actual en uso mientras el teléfono está en la base</string>
+    <string name="descrip_easport">Descripción del juego</string>
+    <string name="str_ok">Aceptar</string>
+    <string name="detail_descrip_webtop">Description goes here. To be added</string>
+    <string name="detail_descrip_entertainmentcenter">El centro de recursos de TV le permite explorar todo el contenido multimedia del teléfono. Mientras usas el centro de recursos multimedia, el teléfono activa un elegante controlador que te permite reproducir música, ver fotografías o vídeos fácilmente</string>
+    <string name="detail_descrip_bigclock">Transforma tu teléfono en un reloj de gran tamaño con ventajas adicionales. Podrás ver la hora desde lejos, establecer alarmas, reproducir música, ver fotos u obtener la información meteorológica en tiempo real. Este modo se ha diseñado para colocar el teléfono en la mesita de noche pero también es útil en la cocina o como reloj de sobremesa.</string>
+    <string name="detail_descrip_widgetdock">Accede a los mismos widgets, aplicaciones y accesos directos de Android que en la pantalla principal del teléfono. Organízalos y modifica el fondo de pantalla a tu gusto. Todos los cambios se guardarán y se aplicarán la próxima vez que coloques el teléfono en la base.</string>
+    <string name="detail_descrip_home">Si seleccionas este modo, el teléfono mantendrá la aplicación actual en la pantalla. Puedes acceder fácilmente a otras aplicaciones de la base seleccionándolas en la pantalla de notificaciones.</string>
+    <string name="detail_descrip_easport">Entertainment detailed description goes here. To be added later.</string>
+    <string name="prompt_RememberMySelection">Recordar mi selección</string>
+    <string name="title">Selecciona la aplicación que deseas iniciar</string>
+    <string name="detecting">Detectando...</string>
+    <string name="TitleForMirrorMode">Espejo del teléfono en pantalla</string>
+    <string name="descrip_mirrormode">Accede y ve todas las aplicaciones del teléfono en una pantalla más grande</string>
+    <string name="TitleForOther">Otro</string>
+    <string name="descrip_other">Mostrar las aplicaciones de la base en modo no inteligente</string>
+    <string name="TitleForGallery">Galería</string>
+    <string name="descrip_gallery">Ver fotos y vídeos</string>
+    <string name="TitleForMusicPlayer">Música</string>
+    <string name="descrip_musicplayer">Accede, escucha y comparte música.</string>
+</resources>

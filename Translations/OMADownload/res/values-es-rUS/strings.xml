@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+    <string name="app_name">Descarga OMA</string>
+    <string name="confirmation">¿Descargar archivo?</string>
+    <string name="filename">Nombre:</string>
+    <string name="vendor">Distribuidor:</string>
+    <string name="size">Tamaño:</string>
+    <string name="type">Tipo:</string>
+    <string name="description">Descripción:</string>
+    <string name="vendor_unknown">(desconocido)</string>
+    <string name="filename_unknown">(desconocido)</string>
+    <string name="description_not_available">(sin descripción disponible)</string>
+    <string name="download_not_acceptable">No es posible realizar la descarga. El contenido no se admite en el teléfono.</string>
+    <string name="download_file_error">No es posible descargar. No hay espacio suficiente.</string>
+    <string name="download_invalid_dd">No es posible descargar. Archivo descriptor de descarga no válido.</string>
+    <string name="download_error">Descarga incorrecta.</string>
+    <string name="download_failed_generic_dlg_title">Descarga incorrecta</string>
+</resources>

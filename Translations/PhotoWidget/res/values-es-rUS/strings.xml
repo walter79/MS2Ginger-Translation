@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+    <string name="yes">Sí</string>
+    <string name="no">No</string>
+    <string name="ok">Aceptar</string>
+    <string name="please_wait">Por favor espera</string>
+    <string name="widget_title">Marco de imagen Plus</string>
+    <string name="widget_description">Muestra una presentación de tus fotos recientes y toma más fácilmente</string>
+    <string name="error_dialog">Conflicto de widgets</string>
+    <string name="view_label">Ver imagen</string>
+    <string name="error_description">Conflicto de widgets. Sólo puede agregarse un widget de presentación de fotos a la pantalla principal.</string>
+    <string name="app_name">Presentación de fotos</string>
+    <string name="gallery_photo_set_failed">La imagen seleccionada no puede mostrarse.</string>
+    <string name="camera_photo_set_failed">La última imagen capturada no puede mostrarse.</string>
+</resources>

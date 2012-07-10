@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<PreferenceScreen android:title="@string/blur_applications" android:key="blur_applications"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.motorola.blur.datamanager.app.BlurSyncCheckBoxPreference android:title="@string/title_sync_over_wifi_only" android:key="blur_sync_over_wifi_only" android:summary="@string/summary_blur_sync_over_wifi_only" />
+    <com.motorola.blur.datamanager.app.BlurAppFrequencyPreference android:title="@string/blur_app_check_frequency_title" android:key="blur_sync_frequency" android:dialogTitle="@string/blur_app_check_frequency_title" />
+</PreferenceScreen>

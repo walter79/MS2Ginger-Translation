@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+    <string name="wallpapers">Magic smoke wallpapers</string>
+    <string name="wallpaper_magicsmoke">Magic smoke</string>
+    <string name="author">Google</string>
+    <string name="magicsmoke_desc">Draws smoke, clouds, water and plasma.</string>
+    <string name="ok">OK</string>
+    <string name="taptochange">Tap to change</string>
+</resources>

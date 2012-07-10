@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:paddingLeft="6.0dip" android:paddingRight="6.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="6.0dip" android:text="@string/widget_name" style="@blur.res:style/Blur" />
+    <EditText android:id="@id/settings_chip_name" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="7.0dip" android:layout_marginRight="7.0dip" android:singleLine="true" style="@blur.res:style/Blur" />
+    <TextView android:paddingLeft="6.0dip" android:paddingRight="6.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="6.0dip" android:text="@string/show_items" style="@blur.res:style/Blur" />
+    <Spinner android:entries="@array/show_items" android:id="@id/show_items" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="6.0dip" android:layout_marginRight="6.0dip" />
+    <com.motorola.blur.news.InteractiveTitleBar android:id="@id/interactive_titlebar" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+    <TextView android:id="@id/empty_text" android:paddingLeft="10.0dip" android:paddingTop="10.0dip" android:paddingRight="10.0dip" android:paddingBottom="10.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/widget_empty_tip" android:singleLine="false" style="@blur.res:style/Blur.PaneAreaTxt" />
+</LinearLayout>

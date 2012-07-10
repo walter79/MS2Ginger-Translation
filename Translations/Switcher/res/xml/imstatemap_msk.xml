@@ -1,0 +1,976 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<IMStateMap
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <IMState name="P01" orientation="portrait" hardkeyboardhidden="true" inputtype="generic" layout="fullscreenhandwriting" language="zh" mode="itap" temp="false" back="false">
+        <IMStateTransition type="standardhandwriting" target="P13" />
+        <IMStateTransition type="qwerty" target="P05" />
+        <IMStateTransition type="bellpad" target="P09" />
+        <IMStateTransition type="nextlayout" target="P05" />
+        <IMStateTransition type="nextlanguage" target="P03" />
+        <IMStateTransition type="en" target="P03" />
+        <IMStateTransition type="tap" target="P02" />
+        <IMStateTransition type="email" target="P17" />
+        <IMStateTransition type="phonenumber" target="P19" />
+        <IMStateTransition type="landscape" target="L01" />
+        <IMStateTransition type="hardkeyboardopen" target="PH01" />
+        <IMStateTransition type="notavailable" target="nextlayout" />
+        <IMStateTransition type="symbol" target="P23" />
+        <IMStateTransition type="emotion" target="P24" />
+        <IMStateTransition type="number" target="P25" />
+    </IMState>
+    <IMState name="P02" orientation="portrait" hardkeyboardhidden="true" inputtype="generic" layout="fullscreenhandwriting" language="zh" mode="tap" temp="false" back="false">
+        <IMStateTransition type="standardhandwriting" target="P14" />
+        <IMStateTransition type="qwerty" target="P06" />
+        <IMStateTransition type="bellpad" target="P10" />
+        <IMStateTransition type="nextlayout" target="P06" />
+        <IMStateTransition type="nextlanguage" target="P04" />
+        <IMStateTransition type="en" target="P04" />
+        <IMStateTransition type="itap" target="P01" />
+        <IMStateTransition type="email" target="P18" />
+        <IMStateTransition type="phonenumber" target="P20" />
+        <IMStateTransition type="landscape" target="L02" />
+        <IMStateTransition type="hardkeyboardopen" target="PH02" />
+        <IMStateTransition type="notavailable" target="nextlayout" />
+        <IMStateTransition type="symbol" target="P23" />
+        <IMStateTransition type="emotion" target="P24" />
+        <IMStateTransition type="number" target="P25" />
+    </IMState>
+    <IMState name="P03" orientation="portrait" hardkeyboardhidden="true" inputtype="generic" layout="fullscreenhandwriting" language="en" mode="itap" temp="false" back="false">
+        <IMStateTransition type="standardhandwriting" target="P15" />
+        <IMStateTransition type="qwerty" target="P07" />
+        <IMStateTransition type="bellpad" target="P11" />
+        <IMStateTransition type="nextlayout" target="P07" />
+        <IMStateTransition type="nextlanguage" target="P01" />
+        <IMStateTransition type="zh" target="P01" />
+        <IMStateTransition type="tap" target="P04" />
+        <IMStateTransition type="email" target="P17" />
+        <IMStateTransition type="phonenumber" target="P19" />
+        <IMStateTransition type="landscape" target="L03" />
+        <IMStateTransition type="hardkeyboardopen" target="PH03" />
+        <IMStateTransition type="notavailable" target="nextlayout" />
+        <IMStateTransition type="symbol" target="P23" />
+        <IMStateTransition type="emotion" target="P24" />
+        <IMStateTransition type="number" target="P25" />
+    </IMState>
+    <IMState name="P04" orientation="portrait" hardkeyboardhidden="true" inputtype="generic" layout="fullscreenhandwriting" language="en" mode="tap" temp="false" back="false">
+        <IMStateTransition type="standardhandwriting" target="P16" />
+        <IMStateTransition type="qwerty" target="P08" />
+        <IMStateTransition type="bellpad" target="P12" />
+        <IMStateTransition type="nextlayout" target="P08" />
+        <IMStateTransition type="nextlanguage" target="P02" />
+        <IMStateTransition type="zh" target="P02" />
+        <IMStateTransition type="itap" target="P03" />
+        <IMStateTransition type="email" target="P18" />
+        <IMStateTransition type="phonenumber" target="P20" />
+        <IMStateTransition type="landscape" target="L04" />
+        <IMStateTransition type="hardkeyboardopen" target="PH04" />
+        <IMStateTransition type="notavailable" target="nextlayout" />
+        <IMStateTransition type="symbol" target="P23" />
+        <IMStateTransition type="emotion" target="P24" />
+        <IMStateTransition type="number" target="P25" />
+    </IMState>
+    <IMState name="P05" orientation="portrait" hardkeyboardhidden="true" inputtype="generic" layout="qwerty" language="zh" mode="itap" temp="false" back="false">
+        <IMStateTransition type="fullscreenhandwriting" target="P01" />
+        <IMStateTransition type="standardhandwriting" target="P13" />
+        <IMStateTransition type="bellpad" target="P09" />
+        <IMStateTransition type="nextlayout" target="P09" />
+        <IMStateTransition type="nextlanguage" target="P07" />
+        <IMStateTransition type="en" target="P07" />
+        <IMStateTransition type="tap" target="P06" />
+        <IMStateTransition type="email" target="P17" />
+        <IMStateTransition type="phonenumber" target="P19" />
+        <IMStateTransition type="landscape" target="L05" />
+        <IMStateTransition type="hardkeyboardopen" target="PH01" />
+        <IMStateTransition type="notavailable" target="nextlayout" />
+        <IMStateTransition type="symbol" target="P23" />
+        <IMStateTransition type="emotion" target="P24" />
+        <IMStateTransition type="number" target="P25" />
+    </IMState>
+    <IMState name="P06" orientation="portrait" hardkeyboardhidden="true" inputtype="generic" layout="qwerty" language="zh" mode="tap" temp="false" back="false">
+        <IMStateTransition type="fullscreenhandwriting" target="P02" />
+        <IMStateTransition type="standardhandwriting" target="P14" />
+        <IMStateTransition type="bellpad" target="P10" />
+        <IMStateTransition type="nextlayout" target="P10" />
+        <IMStateTransition type="nextlanguage" target="P08" />
+        <IMStateTransition type="en" target="P08" />
+        <IMStateTransition type="itap" target="P05" />
+        <IMStateTransition type="email" target="P18" />
+        <IMStateTransition type="phonenumber" target="P20" />
+        <IMStateTransition type="landscape" target="L06" />
+        <IMStateTransition type="hardkeyboardopen" target="PH02" />
+        <IMStateTransition type="notavailable" target="nextlayout" />
+        <IMStateTransition type="symbol" target="P23" />
+        <IMStateTransition type="emotion" target="P24" />
+        <IMStateTransition type="number" target="P25" />
+    </IMState>
+    <IMState name="P07" orientation="portrait" hardkeyboardhidden="true" inputtype="generic" layout="qwerty" language="en" mode="itap" temp="false" back="false">
+        <IMStateTransition type="fullscreenhandwriting" target="P03" />
+        <IMStateTransition type="standardhandwriting" target="P15" />
+        <IMStateTransition type="bellpad" target="P11" />
+        <IMStateTransition type="nextlayout" target="P11" />
+        <IMStateTransition type="nextlanguage" target="P05" />
+        <IMStateTransition type="zh" target="P05" />
+        <IMStateTransition type="tap" target="P08" />
+        <IMStateTransition type="email" target="P17" />
+        <IMStateTransition type="phonenumber" target="P19" />
+        <IMStateTransition type="landscape" target="L07" />
+        <IMStateTransition type="hardkeyboardopen" target="PH03" />
+        <IMStateTransition type="notavailable" target="nextlayout" />
+        <IMStateTransition type="symbol" target="P23" />
+        <IMStateTransition type="emotion" target="P24" />
+        <IMStateTransition type="number" target="P25" />
+    </IMState>
+    <IMState name="P08" orientation="portrait" hardkeyboardhidden="true" inputtype="generic" layout="qwerty" language="en" mode="tap" temp="false" back="false">
+        <IMStateTransition type="fullscreenhandwriting" target="P04" />
+        <IMStateTransition type="standardhandwriting" target="P16" />
+        <IMStateTransition type="bellpad" target="P12" />
+        <IMStateTransition type="nextlayout" target="P12" />
+        <IMStateTransition type="nextlanguage" target="P06" />
+        <IMStateTransition type="zh" target="P06" />
+        <IMStateTransition type="itap" target="P07" />
+        <IMStateTransition type="email" target="P18" />
+        <IMStateTransition type="phonenumber" target="P20" />
+        <IMStateTransition type="landscape" target="L08" />
+        <IMStateTransition type="hardkeyboardopen" target="PH04" />
+        <IMStateTransition type="notavailable" target="nextlayout" />
+        <IMStateTransition type="symbol" target="P23" />
+        <IMStateTransition type="emotion" target="P24" />
+        <IMStateTransition type="number" target="P25" />
+    </IMState>
+    <IMState name="P09" orientation="portrait" hardkeyboardhidden="true" inputtype="generic" layout="bellpad" language="zh" mode="itap" temp="false" back="false">
+        <IMStateTransition type="fullscreenhandwriting" target="P01" />
+        <IMStateTransition type="standardhandwriting" target="P13" />
+        <IMStateTransition type="qwerty" target="P05" />
+        <IMStateTransition type="nextlayout" target="P13" />
+        <IMStateTransition type="nextlanguage" target="P11" />
+        <IMStateTransition type="en" target="P11" />
+        <IMStateTransition type="tap" target="P10" />
+        <IMStateTransition type="email" target="P17" />
+        <IMStateTransition type="phonenumber" target="P19" />
+        <IMStateTransition type="landscape" target="L05" />
+        <IMStateTransition type="hardkeyboardopen" target="PH01" />
+        <IMStateTransition type="notavailable" target="nextlayout" />
+        <IMStateTransition type="symbol" target="P23" />
+        <IMStateTransition type="emotion" target="P24" />
+        <IMStateTransition type="number" target="P25" />
+    </IMState>
+    <IMState name="P10" orientation="portrait" hardkeyboardhidden="true" inputtype="generic" layout="bellpad" language="zh" mode="tap" temp="false" back="false">
+        <IMStateTransition type="fullscreenhandwriting" target="P02" />
+        <IMStateTransition type="standardhandwriting" target="P14" />
+        <IMStateTransition type="qwerty" target="P06" />
+        <IMStateTransition type="nextlayout" target="P14" />
+        <IMStateTransition type="nextlanguage" target="P12" />
+        <IMStateTransition type="en" target="P12" />
+        <IMStateTransition type="itap" target="P09" />
+        <IMStateTransition type="email" target="P18" />
+        <IMStateTransition type="phonenumber" target="P20" />
+        <IMStateTransition type="landscape" target="L06" />
+        <IMStateTransition type="hardkeyboardopen" target="PH02" />
+        <IMStateTransition type="notavailable" target="nextlayout" />
+        <IMStateTransition type="symbol" target="P23" />
+        <IMStateTransition type="emotion" target="P24" />
+        <IMStateTransition type="number" target="P25" />
+    </IMState>
+    <IMState name="P11" orientation="portrait" hardkeyboardhidden="true" inputtype="generic" layout="bellpad" language="en" mode="itap" temp="false" back="false">
+        <IMStateTransition type="fullscreenhandwriting" target="P03" />
+        <IMStateTransition type="standardhandwriting" target="P15" />
+        <IMStateTransition type="qwerty" target="P07" />
+        <IMStateTransition type="nextlayout" target="P15" />
+        <IMStateTransition type="nextlanguage" target="P09" />
+        <IMStateTransition type="zh" target="P09" />
+        <IMStateTransition type="tap" target="P12" />
+        <IMStateTransition type="email" target="P17" />
+        <IMStateTransition type="phonenumber" target="P19" />
+        <IMStateTransition type="landscape" target="L07" />
+        <IMStateTransition type="hardkeyboardopen" target="PH03" />
+        <IMStateTransition type="notavailable" target="nextlayout" />
+        <IMStateTransition type="symbol" target="P23" />
+        <IMStateTransition type="emotion" target="P24" />
+        <IMStateTransition type="number" target="P25" />
+    </IMState>
+    <IMState name="P12" orientation="portrait" hardkeyboardhidden="true" inputtype="generic" layout="bellpad" language="en" mode="tap" temp="false" back="false">
+        <IMStateTransition type="fullscreenhandwriting" target="P04" />
+        <IMStateTransition type="standardhandwriting" target="P16" />
+        <IMStateTransition type="qwerty" target="P08" />
+        <IMStateTransition type="nextlayout" target="P16" />
+        <IMStateTransition type="nextlanguage" target="P10" />
+        <IMStateTransition type="zh" target="P10" />
+        <IMStateTransition type="itap" target="P11" />
+        <IMStateTransition type="email" target="P18" />
+        <IMStateTransition type="phonenumber" target="P20" />
+        <IMStateTransition type="landscape" target="L08" />
+        <IMStateTransition type="hardkeyboardopen" target="PH04" />
+        <IMStateTransition type="notavailable" target="nextlayout" />
+        <IMStateTransition type="symbol" target="P23" />
+        <IMStateTransition type="emotion" target="P24" />
+        <IMStateTransition type="number" target="P25" />
+    </IMState>
+    <IMState name="P13" orientation="portrait" hardkeyboardhidden="true" inputtype="generic" layout="standardhandwriting" language="zh" mode="itap" temp="false" back="false">
+        <IMStateTransition type="fullscreenhandwriting" target="P01" />
+        <IMStateTransition type="qwerty" target="P05" />
+        <IMStateTransition type="bellpad" target="P09" />
+        <IMStateTransition type="nextlayout" target="P01" />
+        <IMStateTransition type="nextlanguage" target="P15" />
+        <IMStateTransition type="en" target="P15" />
+        <IMStateTransition type="tap" target="P14" />
+        <IMStateTransition type="email" target="P17" />
+        <IMStateTransition type="phonenumber" target="P19" />
+        <IMStateTransition type="landscape" target="L13" />
+        <IMStateTransition type="hardkeyboardopen" target="PH01" />
+        <IMStateTransition type="notavailable" target="nextlayout" />
+        <IMStateTransition type="symbol" target="P23" />
+        <IMStateTransition type="emotion" target="P24" />
+        <IMStateTransition type="number" target="P25" />
+    </IMState>
+    <IMState name="P14" orientation="portrait" hardkeyboardhidden="true" inputtype="generic" layout="standardhandwriting" language="zh" mode="tap" temp="false" back="false">
+        <IMStateTransition type="fullscreenhandwriting" target="P02" />
+        <IMStateTransition type="qwerty" target="P06" />
+        <IMStateTransition type="bellpad" target="P10" />
+        <IMStateTransition type="nextlayout" target="P02" />
+        <IMStateTransition type="nextlanguage" target="P16" />
+        <IMStateTransition type="en" target="P16" />
+        <IMStateTransition type="itap" target="P13" />
+        <IMStateTransition type="email" target="P18" />
+        <IMStateTransition type="phonenumber" target="P20" />
+        <IMStateTransition type="landscape" target="L14" />
+        <IMStateTransition type="hardkeyboardopen" target="PH02" />
+        <IMStateTransition type="notavailable" target="nextlayout" />
+        <IMStateTransition type="symbol" target="P23" />
+        <IMStateTransition type="emotion" target="P24" />
+        <IMStateTransition type="number" target="P25" />
+    </IMState>
+    <IMState name="P15" orientation="portrait" hardkeyboardhidden="true" inputtype="generic" layout="standardhandwriting" language="en" mode="itap" temp="false" back="false">
+        <IMStateTransition type="fullscreenhandwriting" target="P03" />
+        <IMStateTransition type="qwerty" target="P07" />
+        <IMStateTransition type="bellpad" target="P11" />
+        <IMStateTransition type="nextlayout" target="P03" />
+        <IMStateTransition type="nextlanguage" target="P13" />
+        <IMStateTransition type="zh" target="P13" />
+        <IMStateTransition type="tap" target="P16" />
+        <IMStateTransition type="email" target="P17" />
+        <IMStateTransition type="phonenumber" target="P19" />
+        <IMStateTransition type="landscape" target="L15" />
+        <IMStateTransition type="hardkeyboardopen" target="PH03" />
+        <IMStateTransition type="notavailable" target="nextlayout" />
+        <IMStateTransition type="symbol" target="P23" />
+        <IMStateTransition type="emotion" target="P24" />
+        <IMStateTransition type="number" target="P25" />
+    </IMState>
+    <IMState name="P16" orientation="portrait" hardkeyboardhidden="true" inputtype="generic" layout="standardhandwriting" language="en" mode="tap" temp="false" back="false">
+        <IMStateTransition type="fullscreenhandwriting" target="P04" />
+        <IMStateTransition type="qwerty" target="P08" />
+        <IMStateTransition type="bellpad" target="P12" />
+        <IMStateTransition type="nextlayout" target="P04" />
+        <IMStateTransition type="nextlanguage" target="P14" />
+        <IMStateTransition type="zh" target="P14" />
+        <IMStateTransition type="itap" target="P15" />
+        <IMStateTransition type="email" target="P18" />
+        <IMStateTransition type="phonenumber" target="P20" />
+        <IMStateTransition type="landscape" target="L16" />
+        <IMStateTransition type="hardkeyboardopen" target="PH04" />
+        <IMStateTransition type="notavailable" target="nextlayout" />
+        <IMStateTransition type="symbol" target="P23" />
+        <IMStateTransition type="emotion" target="P24" />
+        <IMStateTransition type="number" target="P25" />
+    </IMState>
+    <IMState name="P17" orientation="portrait" hardkeyboardhidden="true" inputtype="email" layout="qwerty" language="en" mode="itap" temp="true" back="false">
+        <IMStateTransition type="fullscreenhandwriting" target="P03" />
+        <IMStateTransition type="standardhandwriting" target="P15" />
+        <IMStateTransition type="bellpad" target="P11" />
+        <IMStateTransition type="nextlayout" target="P11" />
+        <IMStateTransition type="nextlanguage" target="P05" />
+        <IMStateTransition type="zh" target="P05" />
+        <IMStateTransition type="tap" target="P18" />
+        <IMStateTransition type="generic" target="back" />
+        <IMStateTransition type="phonenumber" target="P19" />
+        <IMStateTransition type="landscape" target="L17" />
+        <IMStateTransition type="hardkeyboardopen" target="LH05" />
+        <IMStateTransition type="notavailable" target="back:en:tap" />
+    </IMState>
+    <IMState name="P18" orientation="portrait" hardkeyboardhidden="true" inputtype="email" layout="qwerty" language="en" mode="tap" temp="true" back="false">
+        <IMStateTransition type="fullscreenhandwriting" target="P04" />
+        <IMStateTransition type="standardhandwriting" target="P16" />
+        <IMStateTransition type="bellpad" target="P12" />
+        <IMStateTransition type="nextlayout" target="P12" />
+        <IMStateTransition type="nextlanguage" target="P06" />
+        <IMStateTransition type="zh" target="P06" />
+        <IMStateTransition type="itap" target="P17" />
+        <IMStateTransition type="generic" target="back" />
+        <IMStateTransition type="phonenumber" target="P20" />
+        <IMStateTransition type="landscape" target="L18" />
+        <IMStateTransition type="hardkeyboardopen" target="LH06" />
+        <IMStateTransition type="notavailable" target="back:en" />
+    </IMState>
+    <IMState name="P19" orientation="portrait" hardkeyboardhidden="true" inputtype="phonenumber" layout="N/A" language="en" mode="itap" temp="true" back="false">
+        <IMStateTransition type="fullscreenhandwriting" target="P03" />
+        <IMStateTransition type="standardhandwriting" target="P15" />
+        <IMStateTransition type="qwerty" target="P07" />
+        <IMStateTransition type="bellpad" target="P11" />
+        <IMStateTransition type="tap" target="P20" />
+        <IMStateTransition type="generic" target="back" />
+        <IMStateTransition type="email" target="P17" />
+        <IMStateTransition type="landscape" target="L19" />
+        <IMStateTransition type="hardkeyboardopen" target="LH07" />
+        <IMStateTransition type="notavailable" target="back" />
+    </IMState>
+    <IMState name="P20" orientation="portrait" hardkeyboardhidden="true" inputtype="phonenumber" layout="N/A" language="en" mode="tap" temp="true" back="false">
+        <IMStateTransition type="fullscreenhandwriting" target="P04" />
+        <IMStateTransition type="standardhandwriting" target="P16" />
+        <IMStateTransition type="qwerty" target="P08" />
+        <IMStateTransition type="bellpad" target="P12" />
+        <IMStateTransition type="itap" target="P19" />
+        <IMStateTransition type="generic" target="back" />
+        <IMStateTransition type="email" target="P18" />
+        <IMStateTransition type="landscape" target="L20" />
+        <IMStateTransition type="hardkeyboardopen" target="LH08" />
+        <IMStateTransition type="notavailable" target="back" />
+    </IMState>
+    <IMState name="P21" orientation="portrait" hardkeyboardhidden="true" inputtype="symbol" layout="N/A" language="en" mode="symbol" temp="true" back="true">
+        <IMStateTransition type="fullscreenhandwriting" target="return:fullscreenhandwriting" />
+        <IMStateTransition type="standardhandwriting" target="return:standardhandwriting" />
+        <IMStateTransition type="qwerty" target="return:qwerty" />
+        <IMStateTransition type="bellpad" target="return:bellpad" />
+        <IMStateTransition type="tap" target="P22" />
+        <IMStateTransition type="generic" target="return" />
+        <IMStateTransition type="email" target="P17" />
+        <IMStateTransition type="phonenumber" target="P19" />
+        <IMStateTransition type="landscape" target="L21" />
+        <IMStateTransition type="hardkeyboardopen" target="LH09" />
+        <IMStateTransition type="notavailable" target="return" />
+    </IMState>
+    <IMState name="P22" orientation="portrait" hardkeyboardhidden="true" inputtype="symbol" layout="N/A" language="en" mode="symbol" temp="true" back="true">
+        <IMStateTransition type="fullscreenhandwriting" target="return:fullscreenhandwriting" />
+        <IMStateTransition type="standardhandwriting" target="return:standardhandwriting" />
+        <IMStateTransition type="qwerty" target="return:qwerty" />
+        <IMStateTransition type="bellpad" target="return:bellpad" />
+        <IMStateTransition type="itap" target="P21" />
+        <IMStateTransition type="generic" target="return" />
+        <IMStateTransition type="email" target="P18" />
+        <IMStateTransition type="phonenumber" target="P20" />
+        <IMStateTransition type="landscape" target="L22" />
+        <IMStateTransition type="hardkeyboardopen" target="LH10" />
+        <IMStateTransition type="notavailable" target="return" />
+    </IMState>
+    <IMState name="P23" orientation="portrait" hardkeyboardhidden="true" inputtype="generic" layout="qwerty" language="en" mode="symbol" temp="true" back="true">
+        <IMStateTransition type="fullscreenhandwriting" target="return:fullscreenhandwriting" />
+        <IMStateTransition type="standardhandwriting" target="return:standardhandwriting" />
+        <IMStateTransition type="qwerty" target="return:qwerty" />
+        <IMStateTransition type="bellpad" target="return:bellpad" />
+        <IMStateTransition type="generic" target="return" />
+        <IMStateTransition type="email" target="P17" />
+        <IMStateTransition type="phonenumber" target="P19" />
+        <IMStateTransition type="landscape" target="L23" />
+        <IMStateTransition type="hardkeyboardopen" target="return:hardkeyboardopen" />
+        <IMStateTransition type="notavailable" target="return" />
+    </IMState>
+    <IMState name="P24" orientation="portrait" hardkeyboardhidden="true" inputtype="generic" layout="qwerty" language="en" mode="emotion" temp="true" back="true">
+        <IMStateTransition type="fullscreenhandwriting" target="return:fullscreenhandwriting" />
+        <IMStateTransition type="standardhandwriting" target="return:standardhandwriting" />
+        <IMStateTransition type="qwerty" target="return:qwerty" />
+        <IMStateTransition type="bellpad" target="return:bellpad" />
+        <IMStateTransition type="generic" target="return" />
+        <IMStateTransition type="email" target="P17" />
+        <IMStateTransition type="phonenumber" target="P19" />
+        <IMStateTransition type="landscape" target="L24" />
+        <IMStateTransition type="hardkeyboardopen" target="return:hardkeyboardopen" />
+        <IMStateTransition type="notavailable" target="return" />
+    </IMState>
+    <IMState name="P25" orientation="portrait" hardkeyboardhidden="true" inputtype="generic" layout="bellpad" language="en" mode="number" temp="true" back="true">
+        <IMStateTransition type="fullscreenhandwriting" target="return:fullscreenhandwriting" />
+        <IMStateTransition type="standardhandwriting" target="return:standardhandwriting" />
+        <IMStateTransition type="qwerty" target="return:qwerty" />
+        <IMStateTransition type="bellpad" target="return:bellpad" />
+        <IMStateTransition type="nextlayout" target="return:nextlayout" />
+        <IMStateTransition type="nextlanguage" target="P10" />
+        <IMStateTransition type="zh" target="return:zh" />
+        <IMStateTransition type="en" target="return:en" />
+        <IMStateTransition type="itap" target="P11" />
+        <IMStateTransition type="tap" target="P12" />
+        <IMStateTransition type="generic" target="return" />
+        <IMStateTransition type="email" target="P17" />
+        <IMStateTransition type="phonenumber" target="P19" />
+        <IMStateTransition type="landscape" target="L25" />
+        <IMStateTransition type="hardkeyboardopen" target="return:hardkeyboardopen" />
+        <IMStateTransition type="notavailable" target="return" />
+    </IMState>
+    <IMState name="L01" orientation="landscape" hardkeyboardhidden="true" inputtype="generic" layout="fullscreenhandwriting" language="zh" mode="itap" temp="false" back="false">
+        <IMStateTransition type="standardhandwriting" target="L13" />
+        <IMStateTransition type="qwerty" target="L05" />
+        <IMStateTransition type="bellpad" target="L09" />
+        <IMStateTransition type="nextlayout" target="L05" />
+        <IMStateTransition type="nextlanguage" target="L03" />
+        <IMStateTransition type="en" target="L03" />
+        <IMStateTransition type="tap" target="L02" />
+        <IMStateTransition type="email" target="L17" />
+        <IMStateTransition type="phonenumber" target="L19" />
+        <IMStateTransition type="portrait" target="P01" />
+        <IMStateTransition type="hardkeyboardopen" target="LH01" />
+        <IMStateTransition type="notavailable" target="nextlayout" />
+        <IMStateTransition type="symbol" target="L23" />
+        <IMStateTransition type="emotion" target="L24" />
+        <IMStateTransition type="number" target="L25" />
+    </IMState>
+    <IMState name="L02" orientation="landscape" hardkeyboardhidden="true" inputtype="generic" layout="fullscreenhandwriting" language="zh" mode="tap" temp="false" back="false">
+        <IMStateTransition type="standardhandwriting" target="L14" />
+        <IMStateTransition type="qwerty" target="L06" />
+        <IMStateTransition type="bellpad" target="L10" />
+        <IMStateTransition type="nextlayout" target="L06" />
+        <IMStateTransition type="nextlanguage" target="L04" />
+        <IMStateTransition type="en" target="L04" />
+        <IMStateTransition type="itap" target="L01" />
+        <IMStateTransition type="email" target="L18" />
+        <IMStateTransition type="phonenumber" target="L20" />
+        <IMStateTransition type="portrait" target="P02" />
+        <IMStateTransition type="hardkeyboardopen" target="LH02" />
+        <IMStateTransition type="notavailable" target="nextlayout" />
+        <IMStateTransition type="symbol" target="L23" />
+        <IMStateTransition type="emotion" target="L24" />
+        <IMStateTransition type="number" target="L25" />
+    </IMState>
+    <IMState name="L03" orientation="landscape" hardkeyboardhidden="true" inputtype="generic" layout="fullscreenhandwriting" language="en" mode="itap" temp="false" back="false">
+        <IMStateTransition type="standardhandwriting" target="L15" />
+        <IMStateTransition type="qwerty" target="L07" />
+        <IMStateTransition type="bellpad" target="L11" />
+        <IMStateTransition type="nextlayout" target="L07" />
+        <IMStateTransition type="nextlanguage" target="L01" />
+        <IMStateTransition type="zh" target="L01" />
+        <IMStateTransition type="tap" target="L04" />
+        <IMStateTransition type="email" target="L17" />
+        <IMStateTransition type="phonenumber" target="L19" />
+        <IMStateTransition type="portrait" target="P03" />
+        <IMStateTransition type="hardkeyboardopen" target="LH03" />
+        <IMStateTransition type="notavailable" target="nextlayout" />
+        <IMStateTransition type="symbol" target="L23" />
+        <IMStateTransition type="emotion" target="L24" />
+        <IMStateTransition type="number" target="L25" />
+    </IMState>
+    <IMState name="L04" orientation="landscape" hardkeyboardhidden="true" inputtype="generic" layout="fullscreenhandwriting" language="en" mode="tap" temp="false" back="false">
+        <IMStateTransition type="standardhandwriting" target="L16" />
+        <IMStateTransition type="qwerty" target="L08" />
+        <IMStateTransition type="bellpad" target="L12" />
+        <IMStateTransition type="nextlayout" target="L08" />
+        <IMStateTransition type="nextlanguage" target="L02" />
+        <IMStateTransition type="zh" target="L02" />
+        <IMStateTransition type="itap" target="L03" />
+        <IMStateTransition type="email" target="L18" />
+        <IMStateTransition type="phonenumber" target="L20" />
+        <IMStateTransition type="portrait" target="P04" />
+        <IMStateTransition type="hardkeyboardopen" target="LH04" />
+        <IMStateTransition type="notavailable" target="nextlayout" />
+        <IMStateTransition type="symbol" target="L23" />
+        <IMStateTransition type="emotion" target="L24" />
+        <IMStateTransition type="number" target="L25" />
+    </IMState>
+    <IMState name="L05" orientation="landscape" hardkeyboardhidden="true" inputtype="generic" layout="qwerty" language="zh" mode="itap" temp="false" back="false">
+        <IMStateTransition type="fullscreenhandwriting" target="L01" />
+        <IMStateTransition type="standardhandwriting" target="L13" />
+        <IMStateTransition type="bellpad" target="L09" />
+        <IMStateTransition type="nextlayout" target="L09" />
+        <IMStateTransition type="nextlanguage" target="L07" />
+        <IMStateTransition type="en" target="L07" />
+        <IMStateTransition type="tap" target="L06" />
+        <IMStateTransition type="email" target="L17" />
+        <IMStateTransition type="phonenumber" target="L19" />
+        <IMStateTransition type="portrait" target="P09" />
+        <IMStateTransition type="hardkeyboardopen" target="LH01" />
+        <IMStateTransition type="notavailable" target="nextlayout" />
+        <IMStateTransition type="symbol" target="L23" />
+        <IMStateTransition type="emotion" target="L24" />
+        <IMStateTransition type="number" target="L25" />
+    </IMState>
+    <IMState name="L06" orientation="landscape" hardkeyboardhidden="true" inputtype="generic" layout="qwerty" language="zh" mode="tap" temp="false" back="false">
+        <IMStateTransition type="fullscreenhandwriting" target="L02" />
+        <IMStateTransition type="standardhandwriting" target="L14" />
+        <IMStateTransition type="bellpad" target="L10" />
+        <IMStateTransition type="nextlayout" target="L10" />
+        <IMStateTransition type="nextlanguage" target="L08" />
+        <IMStateTransition type="en" target="L08" />
+        <IMStateTransition type="itap" target="L05" />
+        <IMStateTransition type="email" target="L18" />
+        <IMStateTransition type="phonenumber" target="L20" />
+        <IMStateTransition type="portrait" target="P10" />
+        <IMStateTransition type="hardkeyboardopen" target="LH02" />
+        <IMStateTransition type="notavailable" target="nextlayout" />
+        <IMStateTransition type="symbol" target="L23" />
+        <IMStateTransition type="emotion" target="L24" />
+        <IMStateTransition type="number" target="L25" />
+    </IMState>
+    <IMState name="L07" orientation="landscape" hardkeyboardhidden="true" inputtype="generic" layout="qwerty" language="en" mode="itap" temp="false" back="false">
+        <IMStateTransition type="fullscreenhandwriting" target="L03" />
+        <IMStateTransition type="standardhandwriting" target="L15" />
+        <IMStateTransition type="bellpad" target="L11" />
+        <IMStateTransition type="nextlayout" target="L11" />
+        <IMStateTransition type="nextlanguage" target="L05" />
+        <IMStateTransition type="zh" target="L05" />
+        <IMStateTransition type="tap" target="L08" />
+        <IMStateTransition type="email" target="L17" />
+        <IMStateTransition type="phonenumber" target="L19" />
+        <IMStateTransition type="portrait" target="P11" />
+        <IMStateTransition type="hardkeyboardopen" target="LH03" />
+        <IMStateTransition type="notavailable" target="nextlayout" />
+        <IMStateTransition type="symbol" target="L23" />
+        <IMStateTransition type="emotion" target="L24" />
+        <IMStateTransition type="number" target="L25" />
+    </IMState>
+    <IMState name="L08" orientation="landscape" hardkeyboardhidden="true" inputtype="generic" layout="qwerty" language="en" mode="tap" temp="false" back="false">
+        <IMStateTransition type="fullscreenhandwriting" target="L04" />
+        <IMStateTransition type="standardhandwriting" target="L16" />
+        <IMStateTransition type="bellpad" target="L12" />
+        <IMStateTransition type="nextlayout" target="L12" />
+        <IMStateTransition type="nextlanguage" target="L06" />
+        <IMStateTransition type="zh" target="L06" />
+        <IMStateTransition type="itap" target="L07" />
+        <IMStateTransition type="email" target="L18" />
+        <IMStateTransition type="phonenumber" target="L20" />
+        <IMStateTransition type="portrait" target="P12" />
+        <IMStateTransition type="hardkeyboardopen" target="LH04" />
+        <IMStateTransition type="notavailable" target="nextlayout" />
+        <IMStateTransition type="symbol" target="L23" />
+        <IMStateTransition type="emotion" target="L24" />
+        <IMStateTransition type="number" target="L25" />
+    </IMState>
+    <IMState name="L09" orientation="landscape" hardkeyboardhidden="true" inputtype="generic" layout="bellpad" language="zh" mode="itap" temp="false" back="false">
+        <IMStateTransition type="fullscreenhandwriting" target="L01" />
+        <IMStateTransition type="standardhandwriting" target="L13" />
+        <IMStateTransition type="qwerty" target="L05" />
+        <IMStateTransition type="nextlayout" target="L13" />
+        <IMStateTransition type="nextlanguage" target="L11" />
+        <IMStateTransition type="en" target="L11" />
+        <IMStateTransition type="tap" target="L10" />
+        <IMStateTransition type="email" target="L17" />
+        <IMStateTransition type="phonenumber" target="L19" />
+        <IMStateTransition type="portrait" target="P09" />
+        <IMStateTransition type="hardkeyboardopen" target="LH01" />
+        <IMStateTransition type="notavailable" target="nextlayout" />
+        <IMStateTransition type="symbol" target="L23" />
+        <IMStateTransition type="emotion" target="L24" />
+        <IMStateTransition type="number" target="L25" />
+    </IMState>
+    <IMState name="L10" orientation="landscape" hardkeyboardhidden="true" inputtype="generic" layout="bellpad" language="zh" mode="tap" temp="false" back="false">
+        <IMStateTransition type="fullscreenhandwriting" target="L02" />
+        <IMStateTransition type="standardhandwriting" target="L14" />
+        <IMStateTransition type="qwerty" target="L06" />
+        <IMStateTransition type="nextlayout" target="L14" />
+        <IMStateTransition type="nextlanguage" target="L12" />
+        <IMStateTransition type="en" target="L12" />
+        <IMStateTransition type="itap" target="L09" />
+        <IMStateTransition type="email" target="L18" />
+        <IMStateTransition type="phonenumber" target="L20" />
+        <IMStateTransition type="portrait" target="P10" />
+        <IMStateTransition type="hardkeyboardopen" target="LH02" />
+        <IMStateTransition type="notavailable" target="nextlayout" />
+        <IMStateTransition type="symbol" target="L23" />
+        <IMStateTransition type="emotion" target="L24" />
+        <IMStateTransition type="number" target="L25" />
+    </IMState>
+    <IMState name="L11" orientation="landscape" hardkeyboardhidden="true" inputtype="generic" layout="bellpad" language="en" mode="itap" temp="false" back="false">
+        <IMStateTransition type="fullscreenhandwriting" target="L03" />
+        <IMStateTransition type="standardhandwriting" target="L15" />
+        <IMStateTransition type="qwerty" target="L07" />
+        <IMStateTransition type="nextlayout" target="L15" />
+        <IMStateTransition type="nextlanguage" target="L09" />
+        <IMStateTransition type="zh" target="L09" />
+        <IMStateTransition type="tap" target="L12" />
+        <IMStateTransition type="email" target="L17" />
+        <IMStateTransition type="phonenumber" target="L19" />
+        <IMStateTransition type="portrait" target="P11" />
+        <IMStateTransition type="hardkeyboardopen" target="LH03" />
+        <IMStateTransition type="notavailable" target="nextlayout" />
+        <IMStateTransition type="symbol" target="L23" />
+        <IMStateTransition type="emotion" target="L24" />
+        <IMStateTransition type="number" target="L25" />
+    </IMState>
+    <IMState name="L12" orientation="landscape" hardkeyboardhidden="true" inputtype="generic" layout="bellpad" language="en" mode="tap" temp="false" back="false">
+        <IMStateTransition type="fullscreenhandwriting" target="L04" />
+        <IMStateTransition type="standardhandwriting" target="L16" />
+        <IMStateTransition type="qwerty" target="L08" />
+        <IMStateTransition type="nextlayout" target="L16" />
+        <IMStateTransition type="nextlanguage" target="L10" />
+        <IMStateTransition type="zh" target="L10" />
+        <IMStateTransition type="itap" target="L11" />
+        <IMStateTransition type="email" target="L18" />
+        <IMStateTransition type="phonenumber" target="L20" />
+        <IMStateTransition type="portrait" target="P12" />
+        <IMStateTransition type="hardkeyboardopen" target="LH04" />
+        <IMStateTransition type="notavailable" target="nextlayout" />
+        <IMStateTransition type="symbol" target="L23" />
+        <IMStateTransition type="emotion" target="L24" />
+        <IMStateTransition type="number" target="L25" />
+    </IMState>
+    <IMState name="L13" orientation="landscape" hardkeyboardhidden="true" inputtype="generic" layout="standardhandwriting" language="zh" mode="itap" temp="false" back="false">
+        <IMStateTransition type="fullscreenhandwriting" target="L01" />
+        <IMStateTransition type="qwerty" target="L05" />
+        <IMStateTransition type="bellpad" target="L09" />
+        <IMStateTransition type="nextlayout" target="L01" />
+        <IMStateTransition type="nextlanguage" target="L15" />
+        <IMStateTransition type="en" target="L15" />
+        <IMStateTransition type="tap" target="L14" />
+        <IMStateTransition type="email" target="L17" />
+        <IMStateTransition type="phonenumber" target="L19" />
+        <IMStateTransition type="portrait" target="P13" />
+        <IMStateTransition type="hardkeyboardopen" target="LH01" />
+        <IMStateTransition type="notavailable" target="nextlayout" />
+        <IMStateTransition type="symbol" target="L23" />
+        <IMStateTransition type="emotion" target="L24" />
+        <IMStateTransition type="number" target="L25" />
+    </IMState>
+    <IMState name="L14" orientation="landscape" hardkeyboardhidden="true" inputtype="generic" layout="standardhandwriting" language="zh" mode="tap" temp="false" back="false">
+        <IMStateTransition type="fullscreenhandwriting" target="L02" />
+        <IMStateTransition type="qwerty" target="L06" />
+        <IMStateTransition type="bellpad" target="L10" />
+        <IMStateTransition type="nextlayout" target="L02" />
+        <IMStateTransition type="nextlanguage" target="L16" />
+        <IMStateTransition type="en" target="L16" />
+        <IMStateTransition type="itap" target="L13" />
+        <IMStateTransition type="email" target="L18" />
+        <IMStateTransition type="phonenumber" target="L20" />
+        <IMStateTransition type="portrait" target="P14" />
+        <IMStateTransition type="hardkeyboardopen" target="LH02" />
+        <IMStateTransition type="notavailable" target="nextlayout" />
+        <IMStateTransition type="symbol" target="L23" />
+        <IMStateTransition type="emotion" target="L24" />
+        <IMStateTransition type="number" target="L25" />
+    </IMState>
+    <IMState name="L15" orientation="landscape" hardkeyboardhidden="true" inputtype="generic" layout="standardhandwriting" language="en" mode="itap" temp="false" back="false">
+        <IMStateTransition type="fullscreenhandwriting" target="L03" />
+        <IMStateTransition type="qwerty" target="L07" />
+        <IMStateTransition type="bellpad" target="L11" />
+        <IMStateTransition type="nextlayout" target="L03" />
+        <IMStateTransition type="nextlanguage" target="L13" />
+        <IMStateTransition type="zh" target="L13" />
+        <IMStateTransition type="tap" target="L16" />
+        <IMStateTransition type="email" target="L17" />
+        <IMStateTransition type="phonenumber" target="L19" />
+        <IMStateTransition type="portrait" target="P15" />
+        <IMStateTransition type="hardkeyboardopen" target="LH03" />
+        <IMStateTransition type="notavailable" target="nextlayout" />
+        <IMStateTransition type="symbol" target="L23" />
+        <IMStateTransition type="emotion" target="L24" />
+        <IMStateTransition type="number" target="L25" />
+    </IMState>
+    <IMState name="L16" orientation="landscape" hardkeyboardhidden="true" inputtype="generic" layout="standardhandwriting" language="en" mode="tap" temp="false" back="false">
+        <IMStateTransition type="fullscreenhandwriting" target="L04" />
+        <IMStateTransition type="qwerty" target="L08" />
+        <IMStateTransition type="bellpad" target="L12" />
+        <IMStateTransition type="nextlayout" target="L04" />
+        <IMStateTransition type="nextlanguage" target="L14" />
+        <IMStateTransition type="zh" target="L14" />
+        <IMStateTransition type="itap" target="L15" />
+        <IMStateTransition type="email" target="L18" />
+        <IMStateTransition type="phonenumber" target="L20" />
+        <IMStateTransition type="portrait" target="P16" />
+        <IMStateTransition type="hardkeyboardopen" target="LH04" />
+        <IMStateTransition type="notavailable" target="nextlayout" />
+        <IMStateTransition type="symbol" target="L23" />
+        <IMStateTransition type="emotion" target="L24" />
+        <IMStateTransition type="number" target="L25" />
+    </IMState>
+    <IMState name="L17" orientation="landscape" hardkeyboardhidden="true" inputtype="email" layout="qwerty" language="en" mode="itap" temp="true" back="false">
+        <IMStateTransition type="fullscreenhandwriting" target="L03" />
+        <IMStateTransition type="standardhandwriting" target="L15" />
+        <IMStateTransition type="bellpad" target="L11" />
+        <IMStateTransition type="nextlayout" target="L11" />
+        <IMStateTransition type="nextlanguage" target="L05" />
+        <IMStateTransition type="zh" target="L05" />
+        <IMStateTransition type="tap" target="L18" />
+        <IMStateTransition type="generic" target="back" />
+        <IMStateTransition type="phonenumber" target="L19" />
+        <IMStateTransition type="portrait" target="P17" />
+        <IMStateTransition type="hardkeyboardopen" target="LH05" />
+        <IMStateTransition type="notavailable" target="back:en:tap" />
+    </IMState>
+    <IMState name="L18" orientation="landscape" hardkeyboardhidden="true" inputtype="email" layout="qwerty" language="en" mode="tap" temp="true" back="false">
+        <IMStateTransition type="fullscreenhandwriting" target="L04" />
+        <IMStateTransition type="standardhandwriting" target="L16" />
+        <IMStateTransition type="bellpad" target="L12" />
+        <IMStateTransition type="nextlayout" target="L12" />
+        <IMStateTransition type="nextlanguage" target="L06" />
+        <IMStateTransition type="zh" target="L06" />
+        <IMStateTransition type="itap" target="L17" />
+        <IMStateTransition type="generic" target="back" />
+        <IMStateTransition type="phonenumber" target="L20" />
+        <IMStateTransition type="portrait" target="P18" />
+        <IMStateTransition type="hardkeyboardopen" target="LH06" />
+        <IMStateTransition type="notavailable" target="back:en" />
+    </IMState>
+    <IMState name="L19" orientation="landscape" hardkeyboardhidden="true" inputtype="phonenumber" layout="N/A" language="en" mode="itap" temp="true" back="false">
+        <IMStateTransition type="fullscreenhandwriting" target="L03" />
+        <IMStateTransition type="standardhandwriting" target="L15" />
+        <IMStateTransition type="qwerty" target="L07" />
+        <IMStateTransition type="bellpad" target="L11" />
+        <IMStateTransition type="tap" target="L20" />
+        <IMStateTransition type="generic" target="back" />
+        <IMStateTransition type="email" target="L17" />
+        <IMStateTransition type="portrait" target="P19" />
+        <IMStateTransition type="hardkeyboardopen" target="LH07" />
+        <IMStateTransition type="notavailable" target="back" />
+    </IMState>
+    <IMState name="L20" orientation="landscape" hardkeyboardhidden="true" inputtype="phonenumber" layout="N/A" language="en" mode="tap" temp="true" back="false">
+        <IMStateTransition type="fullscreenhandwriting" target="L04" />
+        <IMStateTransition type="standardhandwriting" target="L16" />
+        <IMStateTransition type="qwerty" target="L08" />
+        <IMStateTransition type="bellpad" target="L12" />
+        <IMStateTransition type="itap" target="L19" />
+        <IMStateTransition type="generic" target="back" />
+        <IMStateTransition type="email" target="L18" />
+        <IMStateTransition type="portrait" target="P20" />
+        <IMStateTransition type="hardkeyboardopen" target="LH08" />
+        <IMStateTransition type="notavailable" target="back" />
+    </IMState>
+    <IMState name="L21" orientation="landscape" hardkeyboardhidden="true" inputtype="symbol" layout="N/A" language="en" mode="symbol" temp="true" back="true">
+        <IMStateTransition type="fullscreenhandwriting" target="return:fullscreenhandwriting" />
+        <IMStateTransition type="standardhandwriting" target="return:standardhandwriting" />
+        <IMStateTransition type="qwerty" target="return:qwerty" />
+        <IMStateTransition type="bellpad" target="return:bellpad" />
+        <IMStateTransition type="tap" target="L22" />
+        <IMStateTransition type="generic" target="return" />
+        <IMStateTransition type="email" target="L17" />
+        <IMStateTransition type="phonenumber" target="L19" />
+        <IMStateTransition type="portrait" target="P21" />
+        <IMStateTransition type="hardkeyboardopen" target="LH09" />
+        <IMStateTransition type="notavailable" target="return" />
+    </IMState>
+    <IMState name="L22" orientation="landscape" hardkeyboardhidden="true" inputtype="symbol" layout="N/A" language="en" mode="symbol" temp="true" back="true">
+        <IMStateTransition type="fullscreenhandwriting" target="return:fullscreenhandwriting" />
+        <IMStateTransition type="standardhandwriting" target="return:standardhandwriting" />
+        <IMStateTransition type="qwerty" target="return:qwerty" />
+        <IMStateTransition type="bellpad" target="return:bellpad" />
+        <IMStateTransition type="itap" target="L21" />
+        <IMStateTransition type="generic" target="return" />
+        <IMStateTransition type="email" target="L18" />
+        <IMStateTransition type="phonenumber" target="L20" />
+        <IMStateTransition type="portrait" target="P22" />
+        <IMStateTransition type="hardkeyboardopen" target="LH10" />
+        <IMStateTransition type="notavailable" target="return" />
+    </IMState>
+    <IMState name="L23" orientation="landscape" hardkeyboardhidden="true" inputtype="generic" layout="qwerty" language="en" mode="symbol" temp="true" back="true">
+        <IMStateTransition type="fullscreenhandwriting" target="return:fullscreenhandwriting" />
+        <IMStateTransition type="standardhandwriting" target="return:standardhandwriting" />
+        <IMStateTransition type="qwerty" target="return:qwerty" />
+        <IMStateTransition type="bellpad" target="return:bellpad" />
+        <IMStateTransition type="generic" target="return" />
+        <IMStateTransition type="email" target="P17" />
+        <IMStateTransition type="phonenumber" target="P19" />
+        <IMStateTransition type="portrait" target="P23" />
+        <IMStateTransition type="hardkeyboardopen" target="return:hardkeyboardopen" />
+        <IMStateTransition type="notavailable" target="return" />
+    </IMState>
+    <IMState name="L24" orientation="landscape" hardkeyboardhidden="true" inputtype="generic" layout="qwerty" language="en" mode="emotion" temp="true" back="true">
+        <IMStateTransition type="fullscreenhandwriting" target="return:fullscreenhandwriting" />
+        <IMStateTransition type="standardhandwriting" target="return:standardhandwriting" />
+        <IMStateTransition type="qwerty" target="return:qwerty" />
+        <IMStateTransition type="bellpad" target="return:bellpad" />
+        <IMStateTransition type="generic" target="return" />
+        <IMStateTransition type="email" target="P17" />
+        <IMStateTransition type="phonenumber" target="P19" />
+        <IMStateTransition type="portrait" target="P24" />
+        <IMStateTransition type="hardkeyboardopen" target="return:hardkeyboardopen" />
+        <IMStateTransition type="notavailable" target="return" />
+    </IMState>
+    <IMState name="L25" orientation="landscape" hardkeyboardhidden="true" inputtype="generic" layout="bellpad" language="en" mode="number" temp="true" back="true">
+        <IMStateTransition type="fullscreenhandwriting" target="return:fullscreenhandwriting" />
+        <IMStateTransition type="standardhandwriting" target="return:standardhandwriting" />
+        <IMStateTransition type="qwerty" target="return:qwerty" />
+        <IMStateTransition type="bellpad" target="return:bellpad" />
+        <IMStateTransition type="nextlayout" target="return:nextlayout" />
+        <IMStateTransition type="nextlanguage" target="P10" />
+        <IMStateTransition type="zh" target="return:zh" />
+        <IMStateTransition type="en" target="return:en" />
+        <IMStateTransition type="itap" target="L11" />
+        <IMStateTransition type="tap" target="L12" />
+        <IMStateTransition type="generic" target="return" />
+        <IMStateTransition type="email" target="P17" />
+        <IMStateTransition type="phonenumber" target="P19" />
+        <IMStateTransition type="portrait" target="P25" />
+        <IMStateTransition type="hardkeyboardopen" target="return:hardkeyboardopen" />
+        <IMStateTransition type="notavailable" target="return" />
+    </IMState>
+    <IMState name="PH01" orientation="portrait" hardkeyboardhidden="false" inputtype="generic" layout="qwerty" language="zh" mode="itap" temp="true" back="false">
+        <IMStateTransition type="nextlanguage" target="PH03" />
+        <IMStateTransition type="en" target="PH03" />
+        <IMStateTransition type="tap" target="PH02" />
+        <IMStateTransition type="email" target="PH05" />
+        <IMStateTransition type="phonenumber" target="PH07" />
+        <IMStateTransition type="portrait" target="P05" />
+        <IMStateTransition type="hardkeyboardclose" target="back:zh" />
+        <IMStateTransition type="notavailable" target="back" />
+    </IMState>
+    <IMState name="PH02" orientation="portrait" hardkeyboardhidden="false" inputtype="generic" layout="qwerty" language="zh" mode="tap" temp="true" back="false">
+        <IMStateTransition type="nextlanguage" target="PH04" />
+        <IMStateTransition type="en" target="PH04" />
+        <IMStateTransition type="itap" target="PH01" />
+        <IMStateTransition type="email" target="PH06" />
+        <IMStateTransition type="phonenumber" target="PH08" />
+        <IMStateTransition type="portrait" target="P06" />
+        <IMStateTransition type="hardkeyboardclose" target="back:zh" />
+        <IMStateTransition type="notavailable" target="back" />
+    </IMState>
+    <IMState name="PH03" orientation="portrait" hardkeyboardhidden="false" inputtype="generic" layout="qwerty" language="en" mode="itap" temp="true" back="false">
+        <IMStateTransition type="nextlanguage" target="PH01" />
+        <IMStateTransition type="zh" target="PH01" />
+        <IMStateTransition type="tap" target="PH04" />
+        <IMStateTransition type="email" target="PH05" />
+        <IMStateTransition type="phonenumber" target="PH07" />
+        <IMStateTransition type="portrait" target="P07" />
+        <IMStateTransition type="hardkeyboardclose" target="back:en" />
+        <IMStateTransition type="notavailable" target="back" />
+    </IMState>
+    <IMState name="PH04" orientation="portrait" hardkeyboardhidden="false" inputtype="generic" layout="qwerty" language="en" mode="tap" temp="true" back="false">
+        <IMStateTransition type="nextlanguage" target="PH02" />
+        <IMStateTransition type="zh" target="PH02" />
+        <IMStateTransition type="itap" target="PH03" />
+        <IMStateTransition type="email" target="PH06" />
+        <IMStateTransition type="phonenumber" target="PH08" />
+        <IMStateTransition type="portrait" target="P08" />
+        <IMStateTransition type="hardkeyboardclose" target="back:en" />
+        <IMStateTransition type="notavailable" target="back" />
+    </IMState>
+    <IMState name="PH05" orientation="portrait" hardkeyboardhidden="false" inputtype="email" layout="qwerty" language="en" mode="itap" temp="true" back="false">
+        <IMStateTransition type="nextlanguage" target="PH01" />
+        <IMStateTransition type="zh" target="PH01" />
+        <IMStateTransition type="tap" target="PH06" />
+        <IMStateTransition type="generic" target="back" />
+        <IMStateTransition type="phonenumber" target="PH07" />
+        <IMStateTransition type="portrait" target="P17" />
+        <IMStateTransition type="hardkeyboardclose" target="P17" />
+        <IMStateTransition type="notavailable" target="back" />
+    </IMState>
+    <IMState name="PH06" orientation="portrait" hardkeyboardhidden="false" inputtype="email" layout="qwerty" language="en" mode="tap" temp="true" back="false">
+        <IMStateTransition type="nextlanguage" target="PH02" />
+        <IMStateTransition type="zh" target="PH02" />
+        <IMStateTransition type="itap" target="PH05" />
+        <IMStateTransition type="generic" target="back" />
+        <IMStateTransition type="phonenumber" target="PH08" />
+        <IMStateTransition type="portrait" target="P18" />
+        <IMStateTransition type="hardkeyboardclose" target="P18" />
+        <IMStateTransition type="notavailable" target="back" />
+    </IMState>
+    <IMState name="PH07" orientation="portrait" hardkeyboardhidden="false" inputtype="phonenumber" layout="N/A" language="en" mode="itap" temp="true" back="false">
+        <IMStateTransition type="tap" target="PH08" />
+        <IMStateTransition type="generic" target="back" />
+        <IMStateTransition type="email" target="PH05" />
+        <IMStateTransition type="portrait" target="P19" />
+        <IMStateTransition type="hardkeyboardclose" target="P19" />
+        <IMStateTransition type="notavailable" target="back" />
+    </IMState>
+    <IMState name="PH08" orientation="portrait" hardkeyboardhidden="false" inputtype="phonenumber" layout="N/A" language="en" mode="tap" temp="true" back="false">
+        <IMStateTransition type="itap" target="PH07" />
+        <IMStateTransition type="generic" target="back" />
+        <IMStateTransition type="email" target="PH06" />
+        <IMStateTransition type="portrait" target="P20" />
+        <IMStateTransition type="hardkeyboardclose" target="P20" />
+        <IMStateTransition type="notavailable" target="back" />
+    </IMState>
+    <IMState name="PH09" orientation="portrait" hardkeyboardhidden="false" inputtype="symbol" layout="N/A" language="en" mode="itap" temp="true" back="true">
+        <IMStateTransition type="tap" target="PH10" />
+        <IMStateTransition type="generic" target="return" />
+        <IMStateTransition type="email" target="PH05" />
+        <IMStateTransition type="phonenumber" target="PH07" />
+        <IMStateTransition type="portrait" target="P21" />
+        <IMStateTransition type="hardkeyboardclose" target="P21" />
+        <IMStateTransition type="notavailable" target="return" />
+    </IMState>
+    <IMState name="PH10" orientation="portrait" hardkeyboardhidden="false" inputtype="symbol" layout="N/A" language="en" mode="tap" temp="true" back="true">
+        <IMStateTransition type="itap" target="PH09" />
+        <IMStateTransition type="generic" target="return" />
+        <IMStateTransition type="email" target="PH06" />
+        <IMStateTransition type="phonenumber" target="PH08" />
+        <IMStateTransition type="portrait" target="P22" />
+        <IMStateTransition type="hardkeyboardclose" target="P22" />
+        <IMStateTransition type="notavailable" target="return" />
+    </IMState>
+    <IMState name="LH01" orientation="landscape" hardkeyboardhidden="false" inputtype="generic" layout="qwerty" language="zh" mode="itap" temp="true" back="false">
+        <IMStateTransition type="nextlanguage" target="LH03" />
+        <IMStateTransition type="en" target="LH03" />
+        <IMStateTransition type="tap" target="LH02" />
+        <IMStateTransition type="email" target="LH05" />
+        <IMStateTransition type="phonenumber" target="LH07" />
+        <IMStateTransition type="portrait" target="P05" />
+        <IMStateTransition type="hardkeyboardclose" target="back:zh" />
+        <IMStateTransition type="notavailable" target="back" />
+    </IMState>
+    <IMState name="LH02" orientation="landscape" hardkeyboardhidden="false" inputtype="generic" layout="qwerty" language="zh" mode="tap" temp="true" back="false">
+        <IMStateTransition type="nextlanguage" target="LH04" />
+        <IMStateTransition type="en" target="LH04" />
+        <IMStateTransition type="itap" target="LH01" />
+        <IMStateTransition type="email" target="LH06" />
+        <IMStateTransition type="phonenumber" target="LH08" />
+        <IMStateTransition type="portrait" target="P06" />
+        <IMStateTransition type="hardkeyboardclose" target="back:zh" />
+        <IMStateTransition type="notavailable" target="back" />
+    </IMState>
+    <IMState name="LH03" orientation="landscape" hardkeyboardhidden="false" inputtype="generic" layout="qwerty" language="en" mode="itap" temp="true" back="false">
+        <IMStateTransition type="nextlanguage" target="LH01" />
+        <IMStateTransition type="zh" target="LH01" />
+        <IMStateTransition type="tap" target="LH04" />
+        <IMStateTransition type="email" target="LH05" />
+        <IMStateTransition type="phonenumber" target="LH07" />
+        <IMStateTransition type="portrait" target="P07" />
+        <IMStateTransition type="hardkeyboardclose" target="back:en" />
+        <IMStateTransition type="notavailable" target="back" />
+    </IMState>
+    <IMState name="LH04" orientation="landscape" hardkeyboardhidden="false" inputtype="generic" layout="qwerty" language="en" mode="tap" temp="true" back="false">
+        <IMStateTransition type="nextlanguage" target="LH02" />
+        <IMStateTransition type="zh" target="LH02" />
+        <IMStateTransition type="itap" target="LH03" />
+        <IMStateTransition type="email" target="LH06" />
+        <IMStateTransition type="phonenumber" target="LH08" />
+        <IMStateTransition type="portrait" target="P08" />
+        <IMStateTransition type="hardkeyboardclose" target="back:en" />
+        <IMStateTransition type="notavailable" target="back" />
+    </IMState>
+    <IMState name="LH05" orientation="landscape" hardkeyboardhidden="false" inputtype="email" layout="qwerty" language="en" mode="itap" temp="true" back="false">
+        <IMStateTransition type="nextlanguage" target="LH01" />
+        <IMStateTransition type="zh" target="LH01" />
+        <IMStateTransition type="tap" target="LH06" />
+        <IMStateTransition type="generic" target="back" />
+        <IMStateTransition type="phonenumber" target="LH07" />
+        <IMStateTransition type="portrait" target="P17" />
+        <IMStateTransition type="hardkeyboardclose" target="L17" />
+        <IMStateTransition type="notavailable" target="back" />
+    </IMState>
+    <IMState name="LH06" orientation="landscape" hardkeyboardhidden="false" inputtype="email" layout="qwerty" language="en" mode="tap" temp="true" back="false">
+        <IMStateTransition type="nextlanguage" target="LH02" />
+        <IMStateTransition type="zh" target="LH02" />
+        <IMStateTransition type="itap" target="LH05" />
+        <IMStateTransition type="generic" target="back" />
+        <IMStateTransition type="phonenumber" target="LH08" />
+        <IMStateTransition type="portrait" target="P18" />
+        <IMStateTransition type="hardkeyboardclose" target="L18" />
+        <IMStateTransition type="notavailable" target="back" />
+    </IMState>
+    <IMState name="LH07" orientation="landscape" hardkeyboardhidden="false" inputtype="phonenumber" layout="N/A" language="en" mode="itap" temp="true" back="false">
+        <IMStateTransition type="tap" target="LH08" />
+        <IMStateTransition type="generic" target="back" />
+        <IMStateTransition type="email" target="LH05" />
+        <IMStateTransition type="portrait" target="P19" />
+        <IMStateTransition type="hardkeyboardclose" target="L19" />
+        <IMStateTransition type="notavailable" target="back" />
+    </IMState>
+    <IMState name="LH08" orientation="landscape" hardkeyboardhidden="false" inputtype="phonenumber" layout="N/A" language="en" mode="tap" temp="true" back="false">
+        <IMStateTransition type="itap" target="LH07" />
+        <IMStateTransition type="generic" target="back" />
+        <IMStateTransition type="email" target="LH06" />
+        <IMStateTransition type="portrait" target="P20" />
+        <IMStateTransition type="hardkeyboardclose" target="L20" />
+        <IMStateTransition type="notavailable" target="back" />
+    </IMState>
+    <IMState name="LH09" orientation="landscape" hardkeyboardhidden="false" inputtype="symbol" layout="N/A" language="en" mode="itap" temp="true" back="true">
+        <IMStateTransition type="tap" target="LH10" />
+        <IMStateTransition type="generic" target="return" />
+        <IMStateTransition type="email" target="LH05" />
+        <IMStateTransition type="phonenumber" target="LH07" />
+        <IMStateTransition type="portrait" target="P21" />
+        <IMStateTransition type="hardkeyboardclose" target="L21" />
+        <IMStateTransition type="notavailable" target="return" />
+    </IMState>
+    <IMState name="LH10" orientation="landscape" hardkeyboardhidden="false" inputtype="symbol" layout="N/A" language="en" mode="tap" temp="true" back="true">
+        <IMStateTransition type="itap" target="LH09" />
+        <IMStateTransition type="generic" target="return" />
+        <IMStateTransition type="email" target="LH06" />
+        <IMStateTransition type="phonenumber" target="LH08" />
+        <IMStateTransition type="portrait" target="P22" />
+        <IMStateTransition type="hardkeyboardclose" target="L22" />
+        <IMStateTransition type="notavailable" target="return" />
+    </IMState>
+</IMStateMap>

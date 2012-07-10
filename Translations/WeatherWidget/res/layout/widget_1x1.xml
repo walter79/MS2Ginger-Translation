@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<FrameLayout android:id="@id/widget_root" android:background="@blur.res:drawable/base_1x1" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <FrameLayout android:paddingLeft="@dimen/widget_image_padding_left" android:paddingTop="@dimen/widget_image_padding_top" android:paddingRight="@dimen/widget_image_padding_right_1_1" android:paddingBottom="@dimen/widget_image_padding_bottom" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <ImageView android:id="@id/widget_background" android:layout_width="fill_parent" android:layout_height="fill_parent" android:scaleType="centerCrop" />
+        <include layout="@layout/on_top_of_condition_image" />
+    </FrameLayout>
+</FrameLayout>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<FrameLayout android:layout_gravity="center_horizontal" android:id="@id/sleeveContainer" android:background="@drawable/sleeve_2x3" android:layout_width="@dimen/contact2x4_width" android:layout_height="@dimen/contact2x4"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/sleeveDummyImage" android:paddingBottom="10.0dip" android:src="@drawable/ic_quicktask_medium" style="@style/sleeveDummyImageStyleLand" />
+    <ImageView android:id="@id/sleeveContactImage" android:paddingTop="2.0dip" android:paddingRight="3.0dip" android:visibility="gone" android:src="@drawable/ic_quicktask_large" style="@style/sleeveContactImageStyleVerticalLand" />
+    <TextView android:id="@id/sleeveText" android:paddingTop="@dimen/sleeveTextTop2x3" android:visibility="gone" android:text="@string/sleeveDummyText" android:maxLength="18" style="@style/sleeveTextStyleVertical" />
+</FrameLayout>

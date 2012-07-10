@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+    <dimen name="key_height">54.0dip</dimen>
+    <dimen name="bubble_pointer_offset">22.0dip</dimen>
+    <dimen name="candidate_strip_height">42.0dip</dimen>
+    <dimen name="spacebar_vertical_correction">4.0dip</dimen>
+    <dimen name="voice_keyboard_height">216.0dip</dimen>
+    <dimen name="google_voice_button_height">42.0dip</dimen>
+    <dimen name="vlingo_voice_button_height">42.0dip</dimen>
+    <dimen name="key_preview_mini_width">82.0dip</dimen>
+    <dimen name="word_alternate_x_gap">10.0dip</dimen>
+    <dimen name="word_alternate_y_gap">20.0dip</dimen>
+    <dimen name="statusbar_height">25.0px</dimen>
+    <dimen name="key_bottom_gap">12.0dip</dimen>
+    <dimen name="popup_key_height">120.0dip</dimen>
+    <dimen name="keyboard_bottom_padding">0.0dip</dimen>
+    <dimen name="candidate_strip_fading_edge_length">63.0dip</dimen>
+    <dimen name="max_height_for_fullscreen">860.0dip</dimen>
+    <dimen name="key_text_size">20.0sp</dimen>
+    <dimen name="key_label_text_size">15.0sp</dimen>
+    <dimen name="key_label_text_size_small">12.0sp</dimen>
+    <dimen name="key_preview_text_size_large">40.0sp</dimen>
+    <dimen name="key_preview_offset">0.0dip</dimen>
+    <dimen name="key_preview_height">80.0sp</dimen>
+    <dimen name="mini_keyboard_slide_allowance">195.0dip</dimen>
+    <dimen name="mini_keyboard_vertical_correction">-115.0dip</dimen>
+    <dimen name="key_hysteresis_distance">18.0dip</dimen>
+    <dimen name="keyboard_vertical_correction">0.0dip</dimen>
+    <dimen name="candidate_text_size">15.0sp</dimen>
+</resources>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+    <string name="app_name">HSTcmd</string>
+    <string name="send">执行</string>
+    <string name="request">请求</string>
+    <string name="response">响应</string>
+    <string name="menu_item_setting">设置</string>
+    <string name="set_path">设置</string>
+    <string name="set_default_path">恢复到默认值</string>
+    <string name="setting_notice">“注：\n1.仅支持默认目录和 SD 卡中的目录。无法设置无效目录，且会发出警告提示。”</string>
+    <string name="log_response">日志响应</string>
+    <string name="log_error">日志出错(包含错误响应)</string>
+    <string name="log_command">日志命令</string>
+</resources>

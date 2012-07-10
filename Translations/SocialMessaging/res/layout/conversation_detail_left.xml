@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:background="@blur.res:drawable/msg_in_item_selector" android:paddingLeft="10.0dip" android:paddingTop="10.0dip" android:paddingRight="10.0dip" android:paddingBottom="20.0dip" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_margin="5.0dip" android:layout_weight="7.0">
+        <LinearLayout android:orientation="horizontal" android:id="@id/msg_row_top" android:paddingBottom="4.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <android.widget.QuickContactBadge android:layout_gravity="center_vertical" android:id="@id/msg_sender_img" android:layout_marginLeft="-1.0dip" android:layout_marginRight="8.0dip" style="@android:style/Widget.QuickContactBadge.WindowSmall" />
+            <RelativeLayout android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_weight="1.0">
+                <TextView android:textStyle="bold" android:textColor="@color/black" android:id="@id/msg_rcp_name" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignParentTop="true" style="@blur.res:style/Blur.TxtListItemA.Small" />
+                <TextView android:textColor="@color/black" android:id="@id/msg_date" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignParentBottom="true" style="@blur.res:style/Blur.TxtDateTimeStamp" />
+            </RelativeLayout>
+        </LinearLayout>
+        <TextView android:textSize="14.0sp" android:textColor="@color/black" android:id="@id/msg_body" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+    </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+    <plurals name="error_missing_apps_plurals">
+        <item quantity="other">Bu hesap, telefonda şu uygulamalarda eksik olduğu için kullanılamaz: ^1. Lütfen &lt;b>^2&lt;/b> alan yöneticisi ile irtibat kurun veya başka bir hesap kullanarak oturum açın.</item>
+        <item quantity="one">Bu hesap, telefonda şu uygulama eksik olduğu için kullanılamaz: ^1. Lütfen &lt;b>^2&lt;/b> alan yöneticisi ile irtibat kurun veya başka bir hesap kullanarak oturum açın.</item>
+    </plurals>
+</resources>

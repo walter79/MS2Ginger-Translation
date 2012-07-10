@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Keyboard android:keyWidth="20.000004%p" android:keyHeight="@dimen/symbol_key_height" android:horizontalGap="0.0px" android:verticalGap="0.0px"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <Row android:rowEdgeFlags="top">
+        <Key android:keyEdgeFlags="left" android:keyOutputText="www." android:keyLabel="www." />
+        <Key android:keyOutputText=".com" android:keyLabel=".com" />
+        <Key android:keyOutputText=".cn" android:keyLabel=".cn" />
+        <Key android:keyOutputText=".net" android:keyLabel=".net" />
+        <Key android:keyEdgeFlags="right" android:keyOutputText="wap." android:keyLabel="wap." />
+    </Row>
+    <Row>
+        <Key android:keyEdgeFlags="left" android:keyOutputText="bbs." android:keyLabel="bbs." />
+        <Key android:keyOutputText="blog." android:keyLabel="blog." />
+        <Key android:keyOutputText="hotmail" android:keyLabel="hotmail" />
+        <Key android:keyOutputText="gmail" android:keyLabel="gmail" />
+        <Key android:keyEdgeFlags="right" android:keyOutputText="msn" android:keyLabel="msn" />
+    </Row>
+    <Row>
+        <Key android:keyEdgeFlags="left" android:keyOutputText="163" android:keyLabel="163" />
+        <Key android:keyOutputText="yahoo" android:keyLabel="yahoo" />
+        <Key android:keyOutputText="qq" android:keyLabel="qq" />
+        <Key android:keyOutputText="sina" android:keyLabel="sina" />
+        <Key android:codes="-5" android:keyEdgeFlags="right" android:isRepeatable="true" android:iconPreview="@drawable/moto_delete_icon" android:keyIcon="@drawable/moto_delete_icon" />
+    </Row>
+    <Row android:rowEdgeFlags="bottom">
+        <Key android:codes="-2002" android:keyEdgeFlags="left" android:iconPreview="@drawable/moto_chinese_symbol_icon_press" android:keyIcon="@drawable/moto_chinese_symbol_icon" />
+        <Key android:codes="-2003" android:iconPreview="@drawable/moto_english_symbol_icon_press" android:keyIcon="@drawable/moto_english_symbol_icon" />
+        <Key android:codes="-2005" android:iconPreview="@drawable/moto_smiley_popup_icon" android:keyIcon="@drawable/moto_smiley_icon" />
+        <Key android:codes="-2004" android:iconPreview="@drawable/moto_www_icon_press" android:keyIcon="@drawable/moto_www_icon" />
+        <Key android:codes="-280" android:keyEdgeFlags="right" android:iconPreview="@drawable/moto_return_blk" android:keyIcon="@drawable/moto_return" />
+    </Row>
+</Keyboard>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<appwidget-provider android:minWidth="146.0dip" android:minHeight="146.0dip" android:updatePeriodMillis="86400000" android:initialLayout="@layout/widget_loading_x2" android:configure="com.motorola.blur.home.message.MessageSettingsActivity" blur:description="@string/widget_description"
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:blur="http://schemas.android.com/apk/res/blur.res">
+    <appwidget-layout blur:minSpanX="2" blur:maxSpanX="2" blur:minSpanY="2" blur:maxSpanY="2" blur:sizeInitialLayout="@layout/widget_loading_x2" />
+    <appwidget-layout blur:minSpanX="2" blur:maxSpanX="2" blur:minSpanY="3" blur:maxSpanY="3" blur:sizeInitialLayout="@layout/widget_loading_vert" />
+    <appwidget-layout blur:minSpanX="2" blur:maxSpanX="2" blur:minSpanY="4" blur:maxSpanY="4" blur:sizeInitialLayout="@layout/widget_loading_vert" />
+    <appwidget-layout blur:minSpanX="3" blur:maxSpanX="3" blur:minSpanY="1" blur:maxSpanY="1" blur:sizeInitialLayout="@layout/widget_loading_horiz" />
+    <appwidget-layout blur:minSpanX="3" blur:maxSpanX="3" blur:minSpanY="2" blur:maxSpanY="2" blur:sizeInitialLayout="@layout/widget_loading_x2" />
+    <appwidget-layout blur:minSpanX="3" blur:maxSpanX="3" blur:minSpanY="3" blur:maxSpanY="3" blur:sizeInitialLayout="@layout/widget_loading_3x3" />
+    <appwidget-layout blur:minSpanX="4" blur:maxSpanX="4" blur:minSpanY="1" blur:maxSpanY="1" blur:sizeInitialLayout="@layout/widget_loading_horiz" />
+    <appwidget-layout blur:minSpanX="4" blur:maxSpanX="4" blur:minSpanY="2" blur:maxSpanY="2" blur:sizeInitialLayout="@layout/widget_loading_x2" />
+</appwidget-provider>

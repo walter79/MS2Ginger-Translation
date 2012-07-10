@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RelativeLayout android:id="@id/layout_usage_by_day" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:app="http://schemas.android.com/apk/res/com.motorola.blur.datamanager.app">
+    <ImageView android:id="@id/data_used_today_image" android:layout_marginTop="10.0sp" style="@style/DataUsedTodayImage" />
+    <TextView android:textSize="18.0sp" android:id="@id/data_used_today_label" android:layout_marginBottom="5.0dip" android:layout_toRightOf="@id/data_used_today_image" android:layout_alignTop="@id/data_used_today_image" style="@style/DataUsedTodayText" />
+    <RelativeLayout android:id="@id/bar_layout" android:padding="10.0sp" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_below="@id/data_used_today_label">
+        <com.motorola.blur.datamanager.app.graph.BarGraphImagesView android:id="@id/bar_graph" android:layout_below="@id/data_used_today_label" app:height="150" app:spacing="30" style="@style/BarGraph" />
+    </RelativeLayout>
+    <TextView android:textSize="16.0sp" android:id="@id/data_usage_title" style="@style/DataUsageText" />
+    <include layout="@layout/show_activity_button" />
+</RelativeLayout>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+    <string name="app_name">便利貼</string>
+    <string name="widget_body_hint">輕觸即可編輯...</string>
+    <string name="sticky_note">便利貼</string>
+    <string name="widget_description">在首頁畫面上儲存快速的小便利貼</string>
+    <string name="title">職稱</string>
+    <string name="note">附註</string>
+    <string name="menu_discard">放棄更改</string>
+    <string name="menu_save">儲存</string>
+    <string name="menu_edit">編輯</string>
+    <string name="menu_share">共用</string>
+    <string name="select">選擇</string>
+    <string name="widget_load_error">便利貼發生問題。 請加以刪除。</string>
+    <string name="widget_body_elipse">...</string>
+    <string name="share_note">共用便利貼</string>
+    <string name="cannot_share">共用便利貼時發生錯誤！</string>
+</resources>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<PreferenceScreen
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <Preference android:persistent="false" android:title="@string/throttle_current_usage" android:key="throttle_current_usage" style="\?android:preferenceInformationStyle" />
+    <Preference android:persistent="false" android:title="@string/throttle_time_frame" android:key="throttle_time_frame" style="\?android:preferenceInformationStyle" />
+    <Preference android:persistent="false" android:title="@string/throttle_rate" android:key="throttle_rate" style="\?android:preferenceInformationStyle" />
+    <Preference android:persistent="false" android:title="@string/throttle_help" android:key="throttle_help" />
+</PreferenceScreen>

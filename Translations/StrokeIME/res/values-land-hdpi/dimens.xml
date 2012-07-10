@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+    <dimen name="key_height">90.0px</dimen>
+    <dimen name="bell_function_key_width">110.0px</dimen>
+    <dimen name="bell_input_key_width">138.0px</dimen>
+    <dimen name="key_height_4_lines">60.0px</dimen>
+    <dimen name="candidate_bar_height">75.0px</dimen>
+    <dimen name="candidate_arrow_width">50.0px</dimen>
+    <dimen name="key_height_symbol">58.0px</dimen>
+    <dimen name="key_height_symbol_function">70.0px</dimen>
+    <dimen name="def_labelTextSize">32.0px</dimen>
+    <dimen name="def_keyTextSize">44.0px</dimen>
+    <dimen name="function_keyTextSize">26.0px</dimen>
+    <dimen name="function_key_padding_top">3.0px</dimen>
+    <dimen name="key_padding_text_left">0.0px</dimen>
+    <dimen name="key_padding_text_right">0.0px</dimen>
+    <dimen name="key_padding_text_top">-4.0px</dimen>
+    <dimen name="key_padding_text_bottom">0.0px</dimen>
+    <dimen name="key_padding_icon_left">0.0px</dimen>
+    <dimen name="key_padding_icon_right">0.0px</dimen>
+    <dimen name="key_padding_icon_top">1.0sp</dimen>
+    <dimen name="key_padding_icon_bottom">0.0px</dimen>
+    <dimen name="popup_window_heigh">100.0px</dimen>
+    <dimen name="popup_window_width">90.0px</dimen>
+    <dimen name="candidate_scroll_pixel">80.0px</dimen>
+    <dimen name="url_keyTextSize">26.0px</dimen>
+    <dimen name="emotion_keyTextSize">30.0px</dimen>
+    <dimen name="expandable_view_column_width">106.69998px</dimen>
+    <dimen name="expandable_view_height">270.0px</dimen>
+    <dimen name="expand_button_height">54.0px</dimen>
+    <dimen name="key_height_less">79.0px</dimen>
+</resources>

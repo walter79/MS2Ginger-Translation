@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+    <string name="app_name">HSTcmd</string>
+    <string name="send">Εκτέλεση</string>
+    <string name="request">Αίτημα</string>
+    <string name="response">Απάντηση</string>
+    <string name="menu_item_setting">Ρυθμίσεις</string>
+    <string name="set_path">Ορισμός</string>
+    <string name="set_default_path">Επαναφορά προεπιλογής</string>
+    <string name="setting_notice">Σημείωση: \n1. Επιτρέπεται μόνο ο προεπιλεγμένος κατάλογος και ο κατάλογος στην κάρτα SD. Δεν είναι δυνατός ο ορισμός μη έγκυρου καταλόγου και θα εμφανιστεί προειδοποίηση.</string>
+    <string name="log_response">Καταγραφή αποκρίσεων</string>
+    <string name="log_error">Καταγραφή σφαλμάτων (περιλαμβάνονται οι αποκρίσεις σε σφάλματα)</string>
+    <string name="log_command">Καταγραφή εντολών</string>
+</resources>

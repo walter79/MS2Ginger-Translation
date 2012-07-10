@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+    <style name="Sleeve">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+    <style name="Sleeve.QVGA_1x1" parent="@style/Sleeve">
+        <item name="android:layout_width">54.0dip</item>
+    </style>
+    <style name="Sleeve.Image" parent="@style/Sleeve">
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:scaleType">centerCrop</item>
+    </style>
+    <style name="Sleeve.Image.Vertical" parent="@style/Sleeve.Image">
+        <item name="android:paddingLeft">@dimen/vertical_img_pad_left</item>
+        <item name="android:paddingTop">@dimen/vertical_img_pad_top</item>
+        <item name="android:paddingRight">@dimen/vertical_img_pad_right</item>
+    </style>
+    <style name="Sleeve.Image.Horizontal" parent="@style/Sleeve.Image">
+        <item name="android:paddingLeft">@dimen/horizontal_img_pad_left</item>
+        <item name="android:paddingTop">@dimen/horizontal_img_pad_top</item>
+        <item name="android:paddingRight">@dimen/horizontal_img_pad_right</item>
+        <item name="android:paddingBottom">@dimen/horizontal_img_pad_bottom</item>
+    </style>
+    <style name="Content">
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">fill_parent</item>
+    </style>
+    <style name="Content.Vertical" parent="@style/Content">
+        <item name="android:paddingLeft">@dimen/content_pad_left</item>
+        <item name="android:paddingRight">@dimen/content_pad_right</item>
+        <item name="android:paddingBottom">@dimen/content_pad_bottom</item>
+        <item name="android:layout_marginTop">@dimen/shadow_offset</item>
+    </style>
+    <style name="Content.Horizontal" parent="@style/Content">
+        <item name="android:paddingTop">@dimen/content_pad_top</item>
+        <item name="android:paddingRight">@dimen/content_pad_right</item>
+        <item name="android:paddingBottom">@dimen/content_pad_bottom</item>
+    </style>
+    <style name="AddUnconfigured">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginRight">@dimen/add_icon_right_margin</item>
+        <item name="android:layout_marginBottom">@dimen/add_icon_bottom_margin</item>
+        <item name="android:layout_alignParentRight">true</item>
+        <item name="android:layout_alignParentBottom">true</item>
+    </style>
+    <style name="AddUnconfigured.Small" parent="@style/AddUnconfigured">
+        <item name="android:src">@blur.res:drawable/widget_add_small</item>
+    </style>
+    <style name="AddUnconfigured.Medium" parent="@style/AddUnconfigured">
+        <item name="android:layout_marginRight">@dimen/add_icon_right_margin_medium</item>
+        <item name="android:layout_marginBottom">@dimen/add_icon_bottom_margin_medium</item>
+        <item name="android:src">@blur.res:drawable/widget_add_medium</item>
+    </style>
+    <style name="AddUnconfigured.Large" parent="@style/AddUnconfigured">
+        <item name="android:layout_marginRight">@dimen/add_icon_right_margin_large</item>
+        <item name="android:layout_marginBottom">@dimen/add_icon_bottom_margin_large</item>
+        <item name="android:src">@blur.res:drawable/widget_add_large</item>
+    </style>
+    <style name="Karat">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+    <style name="Karat.H" parent="@style/Karat">
+        <item name="android:paddingTop">@dimen/karat_h_top</item>
+        <item name="android:layout_marginLeft">@dimen/karat_h_left</item>
+        <item name="android:src">@drawable/karat_h</item>
+    </style>
+    <style name="Karat.V" parent="@style/Karat">
+        <item name="android:paddingLeft">@dimen/karat_v_left</item>
+        <item name="android:layout_marginTop">@dimen/karat_v_top</item>
+        <item name="android:src">@drawable/karat_v</item>
+    </style>
+    <style name="EditIcon">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+    <style name="EditIcon.Small" parent="@style/EditIcon">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:src">@drawable/ic_control_edit_status_small</item>
+    </style>
+    <style name="EmptyMessage" parent="@blur.res:style/Widget.Text.Body">
+        <item name="android:gravity">center</item>
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">fill_parent</item>
+    </style>
+    <style name="EmptyMessage.Vertical" parent="@style/EmptyMessage">
+        <item name="android:gravity">center</item>
+    </style>
+    <style name="EmptyMessage.Horizontal" parent="@style/EmptyMessage">
+        <item name="android:gravity">center</item>
+    </style>
+    <style name="EmptyMessage.Vertical.Add" parent="@style/EmptyMessage.Vertical">
+        <item name="android:layout_marginTop">-40.0dip</item>
+    </style>
+    <style name="EmptyMessage.Horizontal.Add" parent="@style/EmptyMessage.Horizontal">
+        <item name="android:layout_marginTop">-24.0dip</item>
+    </style>
+    <style name="BlurMessage" parent="@blur.res:style/Widget.Text.Body.Small">
+        <item name="android:gravity">center</item>
+        <item name="android:paddingLeft">@dimen/content_pad_left</item>
+        <item name="android:paddingRight">@dimen/content_pad_right</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+    <style name="BlurMessage.Horizontal" parent="@style/BlurMessage">
+        <item name="android:paddingTop">@dimen/message_pad_top</item>
+    </style>
+    <style name="MessageIcon" parent="@blur.res:style/Blur.WidgetIcon.B">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+    <style name="Progress" parent="@blur.res:style/Widget.Progress">
+        <item name="android:layout_alignParentRight">true</item>
+        <item name="android:layout_alignParentBottom">true</item>
+    </style>
+    <style name="Timestamp" parent="@blur.res:style/Widget.Text.Timestamp">
+        <item name="android:layout_marginRight">@dimen/time_padding_right</item>
+        <item name="android:includeFontPadding">true</item>
+        <item name="android:layout_alignParentLeft">true</item>
+        <item name="android:layout_alignParentBottom">true</item>
+    </style>
+    <style name="HOME_CommentCount">
+        <item name="android:textSize">10.0sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">@blur.res:color/black</item>
+        <item name="android:gravity">top|center</item>
+        <item name="android:background">@drawable/ic_comment_count</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+    <style name="ProviderIcon">
+        <item name="android:layout_gravity">top</item>
+        <item name="android:paddingLeft">@dimen/edit_status_pad</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:adjustViewBounds">true</item>
+        <item name="android:maxHeight">@dimen/edit_status_status_height</item>
+    </style>
+    <style name="TxtDateTimeStamp">
+        <item name="android:textSize">14.0sp</item>
+        <item name="android:textColor">@blur.res:color/white</item>
+    </style>
+    <style name="CountIcon">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginRight">@blur.res:dimen/listitem_photo_hspacing</item>
+    </style>
+</resources>

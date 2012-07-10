@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+    <string name="app_label">Tagatingin ng HTML</string>
+    <string name="permlab_accessDrm">I-access ang DRM na nilalaman.</string>
+    <string name="permdesc_accessDrm">Payagan ang application na i-access ang nilalamang protektado ng DRM.</string>
+</resources>

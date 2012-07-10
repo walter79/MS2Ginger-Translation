@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+    <item type="id" name="widget_root" />
+    <item type="id" name="widget_base" />
+    <item type="id" name="widget_sleeve" />
+    <item type="id" name="widget_photo" />
+    <item type="id" name="widget_news_icon" />
+    <item type="id" name="widget_name" />
+    <item type="id" name="widget_article_parent" />
+    <item type="id" name="widget_headline" />
+    <item type="id" name="widget_article_content" />
+    <item type="id" name="widget_time" />
+    <item type="id" name="widget_feed_icon" />
+    <item type="id" name="widget_empty_parent" />
+    <item type="id" name="widget_message" />
+    <item type="id" name="widget_add_feed_icon" />
+    <item type="id" name="card_feed_image">false</item>
+    <item type="id" name="card_feed_name">false</item>
+    <item type="id" name="card_date">false</item>
+    <item type="id" name="card_scroll">false</item>
+    <item type="id" name="card_body_image">false</item>
+    <item type="id" name="card_body_headline">false</item>
+    <item type="id" name="card_body_copy">false</item>
+    <item type="id" name="settings_chip_name">false</item>
+    <item type="id" name="show_items">false</item>
+    <item type="id" name="interactive_titlebar">false</item>
+    <item type="id" name="empty_text">false</item>
+    <item type="id" name="int_titlebar_label">false</item>
+    <item type="id" name="int_titlebar_divider">false</item>
+    <item type="id" name="int_titlebar_imagebutton">false</item>
+    <item type="id" name="news_screen_title">false</item>
+    <item type="id" name="news_add_edit_url_label">false</item>
+    <item type="id" name="news_add_edit_url_edit">false</item>
+    <item type="id" name="news_add_edit_url_note">false</item>
+    <item type="id" name="news_add_edit_tip_divider">false</item>
+    <item type="id" name="news_add_edit_url_tip">false</item>
+    <item type="id" name="action_bar">false</item>
+    <item type="id" name="news_add_edit_save_button">false</item>
+    <item type="id" name="article_n_of_n">false</item>
+    <item type="id" name="article_scroll">false</item>
+    <item type="id" name="article_title">false</item>
+    <item type="id" name="article_date">false</item>
+    <item type="id" name="article_feed_image">false</item>
+    <item type="id" name="article_feed_name">false</item>
+    <item type="id" name="article_body_vertical_layout">false</item>
+    <item type="id" name="article_body_horizontal_layout">false</item>
+    <item type="id" name="article_pic">false</item>
+    <item type="id" name="abwidget">false</item>
+    <item type="id" name="bogus_title">false</item>
+    <item type="id" name="settings_title">false</item>
+    <item type="id" name="settings_done">false</item>
+    <item type="id" name="feed_list_item_favicon">false</item>
+    <item type="id" name="news_feed_name_layout">false</item>
+    <item type="id" name="news_feed_name">false</item>
+    <item type="id" name="article_count">false</item>
+    <item type="id" name="news_feed_description">false</item>
+    <item type="id" name="check_box">false</item>
+    <item type="id" name="check_mark">false</item>
+    <item type="id" name="news_remove_button">false</item>
+    <item type="id" name="subscribe_button">false</item>
+    <item type="id" name="feed_description">false</item>
+    <item type="id" name="bundle_contents_layout">false</item>
+    <item type="id" name="bundle_contents_text">false</item>
+    <item type="id" name="bundle_feeds_layout">false</item>
+    <item type="id" name="group_layout">false</item>
+    <item type="id" name="group_banner">false</item>
+    <item type="id" name="news_feed_group_name">false</item>
+    <item type="id" name="news_feed_group_description">false</item>
+    <item type="id" name="news_section_name">false</item>
+    <item type="id" name="news_list_item_title">false</item>
+    <item type="id" name="news_list_item_text">false</item>
+    <item type="id" name="news_list_item_feed_icon">false</item>
+    <item type="id" name="news_list_item_feed_name">false</item>
+    <item type="id" name="news_list_item_date">false</item>
+</resources>

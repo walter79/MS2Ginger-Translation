@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+    <string name="app_label">Πρόγραμμα προβολής HTML</string>
+    <string name="permlab_accessDrm">Πρόσβαση σε περιεχόμενο DRM.</string>
+    <string name="permdesc_accessDrm">Επιτρέπει στην εφαρμογή την πρόσβαση σε περιεχόμενο προστατευμένο με DRM.</string>
+</resources>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+    <string name="app_name">Disconnessione globale</string>
+    <string name="global_unplug_t">Disconnesso</string>
+    <string name="global_unplug">Scollega il caricabatterie dalla presa di rete per risparmiare energia.</string>
+</resources>

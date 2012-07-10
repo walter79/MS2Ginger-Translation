@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ImageView android:id="@blur.res:id/widget_photo" android:background="@blur.res:color/trans_white_1" android:layout_width="wrap_content" android:layout_height="fill_parent" style="@blur.res:style/Widget.GenContent.Image.Horizontal"
+  xmlns:android="http://schemas.android.com/apk/res/android" />

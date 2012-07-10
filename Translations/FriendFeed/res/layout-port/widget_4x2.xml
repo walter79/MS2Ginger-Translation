@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RelativeLayout android:id="@id/widget_root" android:background="@blur.res:drawable/base_4x2" android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include android:id="@id/widget_photo_parent" layout="@layout/sleeve_4x2" />
+    <RelativeLayout android:id="@id/widget_contents_parent" android:layout_toRightOf="@id/widget_photo_parent" style="@style/Content.Horizontal">
+        <include layout="@layout/content_8_line" />
+    </RelativeLayout>
+</RelativeLayout>

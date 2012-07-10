@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+    <dimen name="hwr_setup_seek_bar_height">43.0px</dimen>
+    <dimen name="hwr_setup_seek_bar_padding_top">6.0px</dimen>
+    <dimen name="hwr_setup_seek_bar_padding_left">-3.0px</dimen>
+</resources>

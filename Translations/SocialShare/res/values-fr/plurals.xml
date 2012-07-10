@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+    <plurals name="media_files_deleted">
+        <item quantity="other">Des éléments de votre liste d\'envoi ont été supprimés.</item>
+        <item quantity="one">Un élément de votre liste d\'envoi a été supprimé.</item>
+    </plurals>
+</resources>

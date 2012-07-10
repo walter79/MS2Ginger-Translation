@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+    <string-array name="temp_units">
+        <item>Celsjusz</item>
+        <item>Fahrenheit</item>
+    </string-array>
+    <string-array name="days_of_week">
+        <item>poniedziałek</item>
+        <item>wtorek</item>
+        <item>środa</item>
+        <item>czwartek</item>
+        <item>piątek</item>
+        <item>sobota</item>
+        <item>niedziela</item>
+    </string-array>
+    <string-array name="days_of_week_abbreviated">
+        <item>pon.</item>
+        <item>wt.</item>
+        <item>śr.</item>
+        <item>czw.</item>
+        <item>pt.</item>
+        <item>sob.</item>
+        <item>niedz.</item>
+    </string-array>
+</resources>

@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+    <string-array name="INTRO_USB_CONNECTED_TEXT">
+        <item>Έχετε συνδεθεί μέσω USB</item>
+        <item>Πατήστε \"Μενού\", για να δείτε βοήθεια σχετικά με τη σύνδεση</item>
+    </string-array>
+    <string-array name="INTRO_USB_NOT_CONNECTED_TEXT">
+        <item>Συνδέστε τη μονάδα USB για να ξεκινήσετε\n(μόνο για Windows)</item>
+        <item>Πατήστε \"Μενού\", για να δείτε βοήθεια σχετικά με τη σύνδεση</item>
+    </string-array>
+    <string-array name="INTRO_WIFI_CONNECTED_TEXT">
+        <item>Έχετε συνδεθεί μέσω Wi-Fi</item>
+        <item>Ρυθμίσεις σύνδεσης</item>
+    </string-array>
+    <string-array name="INTRO_WIFI_NOT_CONNECTED_TEXT">
+        <item>Πατήστε το κουμπί για πρόσβαση στην\nΠύλη Τηλεφώνου Motorola</item>
+        <item>Σύνδεση με Wi-Fi</item>
+    </string-array>
+    <string-array name="INTRO_USB_WIFI_NOT_CONNECTED_TEXT">
+        <item>Συνδέστε τη μονάδα USB για να ξεκινήσετε</item>
+        <item>Σύνδεση με Wi-Fi</item>
+    </string-array>
+    <string-array name="INTRO_USB_WIFI_CONNECTED_TEXT">
+        <item>Συνδέστε τη μονάδα USB για να ξεκινήσετε</item>
+        <item>Ρυθμίσεις σύνδεσης</item>
+    </string-array>
+    <string-array name="INTRO_USB_CONNECTED_WIFI_TEXT">
+        <item>Εισαγάγετε τη διεύθυνση στο πρόγραμμα περιήγησης του υπολογιστή</item>
+        <item></item>
+    </string-array>
+    <string-array name="HELP_LIST">
+        <item>Σύνδεση μέσω USB</item>
+        <item>Σύνδεση μέσω Wi-Fi</item>
+    </string-array>
+    <string-array name="HELP_LIST_SUM">
+        <item>Μόνο για Windows</item>
+        <item>Windows, Mac ή Linux</item>
+    </string-array>
+</resources>

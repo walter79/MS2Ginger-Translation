@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RelativeLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ListView android:id="@android:id/list" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+    <LinearLayout android:orientation="horizontal" android:id="@id/interactive_titlebar" android:background="@com.motorola.android.widget:drawable/header_bkg" android:layout_width="fill_parent" android:layout_height="wrap_content" style="@com.motorola.android.widget:style/Interactive_Titlebar">
+        <TextView android:gravity="left|center" android:id="@id/int_titlebar_label" android:background="@com.motorola.android.widget:drawable/int_titlebar_btn_bkg" android:paddingLeft="10.0dip" android:layout_width="fill_parent" android:layout_height="fill_parent" android:text="@string/qsms_add_msg" android:layout_weight="1.0" style="@com.motorola.android.widget:style/Interactive_Titlebar.Button" />
+        <ImageView android:id="@id/int_titlebar_divider" android:background="@com.motorola.android.widget:drawable/header_divider" android:layout_width="4.0dip" android:layout_height="fill_parent" />
+        <ImageView android:id="@id/add_msg" android:background="@com.motorola.android.widget:drawable/int_titlebar_btn_bkg" android:layout_width="wrap_content" android:layout_height="fill_parent" android:src="@blur.res:drawable/ic_control_add" />
+    </LinearLayout>
+</RelativeLayout>

@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+    <item type="id" name="color_picker_grid">false</item>
+    <item type="id" name="sticky_color_picker_root">false</item>
+    <item type="id" name="sticky_background_linear_layout">false</item>
+    <item type="id" name="sticky_color_picker_title_root">false</item>
+    <item type="id" name="sticky_color_title_region">false</item>
+    <item type="id" name="color_picker_title_icon">false</item>
+    <item type="id" name="sticky_color_picker_title">false</item>
+    <item type="id" name="sticky_edit_root">false</item>
+    <item type="id" name="sticky_edit_frame">false</item>
+    <item type="id" name="sticky_edit_frame_overlay">false</item>
+    <item type="id" name="sticky_edit_title_region">false</item>
+    <item type="id" name="sticky_edit_title">false</item>
+    <item type="id" name="sticky_edit_color_select">false</item>
+    <item type="id" name="sticky_edit_body_region">false</item>
+    <item type="id" name="sticky_edit_body">false</item>
+    <item type="id" name="sticky_edit_button_region">false</item>
+    <item type="id" name="sticky_edit_save_button">false</item>
+    <item type="id" name="sticky_edit_discard_button">false</item>
+    <item type="id" name="sticky_view_frame">false</item>
+    <item type="id" name="sticky_view_linear_layout_image">false</item>
+    <item type="id" name="sticky_view_title_bckgrn_img">false</item>
+    <item type="id" name="sticky_view_body_bckgrn_img">false</item>
+    <item type="id" name="textAreaScroller">false</item>
+    <item type="id" name="sticky_view_linear_layout">false</item>
+    <item type="id" name="sticky_view_title">false</item>
+    <item type="id" name="sticky_view_body">false</item>
+    <item type="id" name="sticky_widget_frame">false</item>
+    <item type="id" name="sticky_widget_bckgrn_img">false</item>
+    <item type="id" name="sticky_widget_title">false</item>
+    <item type="id" name="sticky_widget_body">false</item>
+    <item type="id" name="sticky_widget_empty_frame">false</item>
+</resources>

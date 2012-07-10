@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LinearLayout android:orientation="horizontal" android:id="@id/widget" android:background="@blur.res:drawable/base_3x3" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include layout="@layout/sleeve_4x3" />
+    <include layout="@layout/action_4_vertical_land" />
+    <FrameLayout android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <TextView android:id="@id/deletedContactText" android:paddingLeft="1.0dip" android:paddingRight="14.0dip" android:paddingBottom="2.0dip" android:text="@string/deletedText1" style="@style/deletedTextStyle"
+          xmlns:android="http://schemas.android.com/apk/res/android" />
+        <ImageView android:layout_gravity="bottom|right|center" android:id="@id/addContact" android:paddingRight="6.0dip" android:paddingBottom="6.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/widget_add_large" />
+    </FrameLayout>
+</LinearLayout>

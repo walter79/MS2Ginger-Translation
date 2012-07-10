@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+    <string name="yes">是</string>
+    <string name="no">否</string>
+    <string name="ok">确定</string>
+    <string name="please_wait">请稍候</string>
+    <string name="widget_title">附加相框</string>
+    <string name="widget_description">以幻灯片播放方式显示最近拍摄的照片并轻松拍摄更多照片</string>
+    <string name="error_dialog">窗口小部件冲突</string>
+    <string name="view_label">查看图片</string>
+    <string name="error_description">窗口小部件冲突。仅可将一个照片幻灯片播放小部件添加到主屏幕</string>
+    <string name="app_name">照片幻灯片</string>
+    <string name="gallery_photo_set_failed">无法显示选定图像</string>
+    <string name="camera_photo_set_failed">无法显示上次拍摄的图像</string>
+</resources>

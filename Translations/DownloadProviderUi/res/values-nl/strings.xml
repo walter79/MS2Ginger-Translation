@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+    <string name="app_label">Downloads</string>
+    <string name="download_title">Downloads</string>
+    <string name="no_downloads">Geen downloads.</string>
+    <string name="missing_title">&lt;Onbekend></string>
+    <string name="download_menu_sort_by_size">Sorteren op grootte</string>
+    <string name="download_menu_sort_by_date">Sorteren op tijd</string>
+    <string name="download_queued">In wachtrij</string>
+    <string name="download_running">Bezig</string>
+    <string name="download_success">Voltooid</string>
+    <string name="download_error">Mislukt</string>
+    <string name="dialog_title_not_available">Bestand niet beschikbaar</string>
+    <string name="dialog_failed_body">Deze download is mislukt.</string>
+    <string name="dialog_title_queued_body">Bestand nog niet beschikbaar</string>
+    <string name="dialog_queued_body">Het bestand staat in de wachtrij om later te worden gedownload.</string>
+    <string name="dialog_file_missing_body">Kan het gedownloade bestand niet vinden.</string>
+    <string name="dialog_insufficient_space_on_external">Kan download niet voltooien. Er is onvoldoende externe opslagruimte vrij.</string>
+    <string name="dialog_insufficient_space_on_cache">Kan download niet voltooien. Er is onvoldoende interne downloadopslagruimte vrij.</string>
+    <string name="dialog_cannot_resume">Download is onderbroken en kan niet worden voortgezet.</string>
+    <string name="dialog_file_already_exists">Kan niet downloaden. Het bestemmingsbestand bestaat al.</string>
+    <string name="dialog_media_not_found">Kan niet downloaden. Externe media niet beschikbaar.</string>
+    <string name="download_no_application_title">Kan bestand niet openen</string>
+    <string name="remove_download">Verwijderen</string>
+    <string name="delete_download">Verwijderen</string>
+    <string name="keep_queued_download">Houden</string>
+    <string name="cancel_running_download">Annuleren</string>
+    <string name="retry_download">Opnieuw proberen</string>
+    <string name="deselect_all">Selectie wissen</string>
+</resources>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:id="@id/lblText" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+    <EditText android:id="@id/txtBatch_Path" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+    <Button android:id="@id/btnSet" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/set_path" />
+    <Button android:id="@id/btnSetDefault" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/set_default_path" />
+    <TextView android:layout_gravity="bottom" android:id="@id/TextView01" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/setting_notice" />
+    <CheckBox android:id="@id/chkLogResponse" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/log_response" />
+    <CheckBox android:id="@id/chkLogError" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/log_error" />
+    <CheckBox android:id="@id/chkLogCommand" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/log_command" />
+</LinearLayout>

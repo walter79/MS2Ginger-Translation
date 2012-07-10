@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+    <dimen name="city_line1_textsize">17.0px</dimen>
+    <dimen name="city_line2_textsize">17.0px</dimen>
+    <dimen name="city_line3_textsize">16.0px</dimen>
+    <dimen name="city_line4_textsize">16.0px</dimen>
+    <dimen name="city_line1_height">36.0px</dimen>
+    <dimen name="city_line2_height">36.0px</dimen>
+    <dimen name="city_line3_height">28.0px</dimen>
+    <dimen name="city_line4_height">28.0px</dimen>
+    <dimen name="city_leftmargin">8.0px</dimen>
+    <dimen name="city_width">142.0px</dimen>
+    <dimen name="spinner_width">162.0px</dimen>
+    <dimen name="time_title_width">142.0px</dimen>
+    <dimen name="date_content_width">162.0px</dimen>
+    <dimen name="timezone_gallery_height">200.0px</dimen>
+    <dimen name="cities_settings_height">256.0px</dimen>
+    <dimen name="timezone_gallery_width">24.0px</dimen>
+</resources>

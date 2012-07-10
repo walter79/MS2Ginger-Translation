@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+    <string-array name="security_questions">
+        <item>Mėgstamiausias maistas?</item>
+        <item>Gimimo miestas?</item>
+        <item>Geriausio (-ios) vaikystės draugo (-ės) vardas?</item>
+        <item>Vidurinės mokyklos pavadinimas?</item>
+    </string-array>
+    <string-array name="passwordStrength">
+        <item>nesudėtingas</item>
+        <item>vidutiniškas</item>
+        <item>geras</item>
+        <item>geras</item>
+    </string-array>
+</resources>

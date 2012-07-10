@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+    <string-array name="wifi_ap_channel">
+        <item>Canal 1</item>
+        <item>Canal 2</item>
+        <item>Canal 3</item>
+        <item>Canal 4</item>
+        <item>Canal 5</item>
+        <item>Canal 6</item>
+        <item>Canal 7</item>
+        <item>Canal 8</item>
+        <item>Canal 9</item>
+        <item>Canal 10</item>
+        <item>Canal 11</item>
+        <item>Canal 12</item>
+        <item>Canal 13</item>
+        <item>Canal 14</item>
+    </string-array>
+    <string-array name="timer">
+        <item>Após 15 minutos</item>
+        <item>Após 30 minutos</item>
+        <item>Após 60 minutos</item>
+        <item>Nunca desligar</item>
+    </string-array>
+    <string-array name="num_devices">
+        <item>2 dispositivos</item>
+        <item>3 dispositivos</item>
+        <item>4 dispositivos</item>
+        <item>5 dispositivos</item>
+        <item>Limite máximo</item>
+    </string-array>
+    <string-array name="wifi_security_for_adhoc_entries">
+        <item>Automático</item>
+        <item>Nenhum(a)</item>
+        <item>WEP</item>
+    </string-array>
+    <string-array name="wifi_security_without_auto_for_adhoc_entries">
+        <item>Nenhum(a)</item>
+        <item>WEP</item>
+    </string-array>
+    <string-array name="hdmi_format_entries">
+        <item>Automático</item>
+        <item>480P @ 60Hz</item>
+        <item>720P @ 60Hz</item>
+        <item>576P @ 50Hz</item>
+        <item>720P @ 50Hz</item>
+    </string-array>
+    <string-array name="double_tap_entries">
+        <item>Internet</item>
+        <item>Câmera</item>
+        <item>Contatos</item>
+        <item>Telefone</item>
+        <item>Gmail</item>
+        <item>Mapas</item>
+        <item>Mensagens</item>
+        <item>Música</item>
+        <item>Informações</item>
+        <item>Redes sociais</item>
+        <item>Msgs. SMS/MMS</item>
+        <item>Comandos de voz</item>
+        <item>Pesquisa por voz</item>
+        <item>Nenhum(a)</item>
+    </string-array>
+    <string-array name="double_tap_deblur_entries">
+        <item>Internet</item>
+        <item>Câmera</item>
+        <item>Contatos</item>
+        <item>Telefone</item>
+        <item>Gmail</item>
+        <item>Mapas</item>
+        <item>Mensagens</item>
+        <item>Música</item>
+        <item>Msgs. SMS/MMS</item>
+        <item>Comandos de voz</item>
+        <item>Busca por voz</item>
+        <item>Nenhum(a)</item>
+    </string-array>
+    <string-array name="location_privacy_policy_entries">
+        <item>Somente E911</item>
+        <item>Localização básica ligada</item>
+        <item>Localização preferida ligada</item>
+    </string-array>
+    <string-array name="location_privacy_policy_summaries">
+        <item>Usado somente para ligações de emergência</item>
+        <item>A localização é determinada por satélite de GPS e/ou redes móveis.</item>
+        <item>Provedor de localização obtida usando GPS assistido, serviço preferido</item>
+    </string-array>
+    <string-array name="media_sync_storage_items">
+        <item>Memória interna</item>
+        <item>Cartão SD</item>
+    </string-array>
+    <string-array name="double_tap_entries_german_region">
+        <item>Internet</item>
+        <item>Câmera</item>
+        <item>Contatos</item>
+        <item>Telefone</item>
+        <item>Google Mail</item>
+        <item>Mapas</item>
+        <item>Mensagens</item>
+        <item>Música</item>
+        <item>Notícias</item>
+        <item>Redes sociais</item>
+        <item>Mensagens de texto</item>
+        <item>Comandos de voz</item>
+        <item>Busca por voz</item>
+        <item>Nenhum(a)</item>
+    </string-array>
+    <string-array name="location_settings_entries">
+        <item>Configurações de desbloqueio</item>
+        <item>Configurações de bloqueio</item>
+    </string-array>
+    <string-array name="call_restriction_settings_entries">
+        <item>Permitir todas as ligações</item>
+        <item>Permitir somente ligações de contatos</item>
+        <item>Bloquear todas as ligações</item>
+    </string-array>
+    <string-array name="message_restriction_settings_entries">
+        <item>Permitir todas as mensagens</item>
+        <item>Bloquear todas as mensagens</item>
+    </string-array>
+    <string-array name="dialup_restriction_entries">
+        <item>Permitir modem discado</item>
+        <item>Bloquear modem discado</item>
+    </string-array>
+    <string-array name="unlock_methods_entries">
+        <item>Nenhum(a)</item>
+        <item>Bloqueio por desenho</item>
+        <item>Bloqueio de senha</item>
+    </string-array>
+    <string-array name="lock_timer_entries">
+        <item>Quando a tela estiver desligada</item>
+        <item>1 minuto</item>
+        <item>2 minutos</item>
+        <item>3 minutos</item>
+        <item>5 minutos</item>
+        <item>10 minutos</item>
+        <item>15 minutos</item>
+        <item>20 minutos</item>
+    </string-array>
+    <string-array name="external_keyboard_entries">
+        <item>Português do Brasil</item>
+        <item>Francês do Canadá</item>
+        <item>Alemão</item>
+        <item>Francês</item>
+        <item>Espanhol da América Latina</item>
+        <item>Inglês britânico</item>
+        <item>Inglês americano</item>
+        <item>International EUA</item>
+    </string-array>
+</resources>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<merge
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:id="@id/widget_friend" style="@blur.res:style/Widget.Text.Headline" />
+    <TextView android:gravity="top|left|center" android:id="@id/widget_title" android:singleLine="true" android:layout_below="@id/widget_friend" android:lineSpacingExtra="1.0dip" style="@blur.res:style/Widget.Text.Body" />
+    <include layout="@layout/time_and_icon" />
+</merge>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+    <item type="id" name="alert_message">false</item>
+    <item type="id" name="alert_ok">false</item>
+    <item type="id" name="checking_button">false</item>
+    <item type="id" name="checking_timer_button">false</item>
+    <item type="id" name="exit_button">false</item>
+</resources>

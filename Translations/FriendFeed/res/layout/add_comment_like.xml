@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RelativeLayout android:id="@id/add_comment_like" style="@style/BtnLayout"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <View android:id="@id/empty_view" android:layout_width="3.0dip" android:layout_height="wrap_content" android:layout_centerInParent="true" />
+    <Button android:id="@id/add_comment_btn" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_toLeftOf="@id/empty_view" android:layout_alignParentLeft="true" android:layout_alignWithParentIfMissing="true" style="@style/SimpleBtn" />
+    <Button android:id="@id/add_like_btn" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_toRightOf="@id/empty_view" android:layout_alignTop="@id/add_comment_btn" android:layout_alignBottom="@id/add_comment_btn" android:layout_alignParentRight="true" android:layout_alignWithParentIfMissing="true" style="@style/SimpleBtn" />
+</RelativeLayout>

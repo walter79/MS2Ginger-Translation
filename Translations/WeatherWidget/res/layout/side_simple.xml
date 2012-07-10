@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<merge
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <FrameLayout android:paddingLeft="@dimen/widget_image_padding_left" android:paddingTop="@dimen/widget_image_padding_top" android:paddingBottom="@dimen/widget_image_padding_bottom" android:layout_width="@dimen/widget_image_sleave_width" android:layout_height="fill_parent">
+            <ImageView android:id="@id/widget_background" android:layout_width="@dimen/image_width_scaled" android:layout_height="fill_parent" android:scaleType="centerCrop" />
+            <include layout="@layout/on_top_of_condition_image" />
+        </FrameLayout>
+        <LinearLayout android:orientation="vertical" android:background="@blur.res:drawable/base_horiz" android:paddingLeft="10.0dip" android:paddingTop="12.0dip" android:paddingRight="8.0dip" android:paddingBottom="8.0dip" android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <include layout="@layout/high_low_temp" />
+            <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0" />
+            <TextView android:textSize="16.0sp" android:textStyle="bold" android:textColor="#ff858585" android:id="@id/widget_city" android:layout_width="fill_parent" android:layout_height="wrap_content" style="@blur.res:style/Blur.WidgetTxt.A" />
+        </LinearLayout>
+    </LinearLayout>
+</merge>

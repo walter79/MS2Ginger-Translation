@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+    <string name="txt_pb_reqlic">Bestand wordt ontgrendeld...</string>
+    <string name="txt_pb_uploadmet">Gebruiksstatistieken worden op de achtergrond verzonden.</string>
+    <string name="txt_content_type_video">video</string>
+    <string name="txt_content_type_music">muziek</string>
+    <string name="title_lic_expired">Licentie verlopen</string>
+    <string name="title_song_expired">Verlopen liedjes</string>
+    <string name="title_video_expired">Verlopen video\'s</string>
+    <string name="title_ringtone_expired">Verlopen beltonen</string>
+    <string name="title_file_expired">Verlopen bestanden</string>
+    <string name="txt_lic_expired_mpart1">Er is een licentie voor het bestand\u0020</string>
+    <string name="txt_lic_expired_mpart2">.</string>
+    <string name="txt_lic_expired_mpart3">U kunt een nieuwe licentie aanschaffen om dit bestand te kunnen blijven afspelen.</string>
+    <string name="txt_lic_expired_listview">Selecteer hieronder een bestand waarvoor u een licentie wilt aanschaffen.</string>
+    <string name="txt_nt_multi_lic_expired">Er zijn extra licenties vereist om deze bestanden te kunnen afspelen.</string>
+    <string name="txt_nt_single_lic_expired">\u0020kan alleen worden afgespeeld met een licentie.</string>
+    <string name="title_delete_file">Verwijderen</string>
+    <string name="txt_delete_file">Wilt u dit bestand nu verwijderen?</string>
+    <string name="txt_lic_status">is verlopen</string>
+    <string name="title_lic_received">Licentie ontvangen</string>
+    <string name="txt_dlg_lic_received1">Er is een licentie voor het bestand\u0020</string>
+    <string name="txt_dlg_lic_received2">ontvangen. U kunt het bestand nu afspelen.</string>
+    <string name="txt_nt_single_lic_received">\u0020kan nu worden afgespeeld</string>
+    <string name="title_lic_error">Licentiefout</string>
+    <string name="txt_lic_error">Het downloaden van de licentie is mislukt. Probeer de download opnieuw uit te voeren.</string>
+    <string name="title_lic_trigger">Licenties synchroniseren</string>
+    <string name="txt_lic_trigger">Licenties moeten worden bijgewerkt om verder afspelen op dit apparaat mogelijk te maken. Wilt u nu licenties bijwerken?</string>
+    <string name="title_met_trigger">Toestemming voor gebruik vereist</string>
+    <string name="txt_met_trigger">De inhoudsprovider moet vragen om toestemming voor het gebruik van deze inhoud ten behoeve van facturering door de artiesten. Wilt u dit nu toestaan?</string>
+    <string name="title_sync_pc_license">Licenties synchroniseren</string>
+    <string name="txt_sync_pc_license">Licenties moeten worden bijgewerkt om verder afspelen van bestanden op dit apparaat mogelijk te maken. Sluit uw telefoon aan op een pc om licenties bij te werken.</string>
+    <string name="alert_dialog_yes">Ja</string>
+    <string name="alert_dialog_no">Nee</string>
+    <string name="alert_dialog_ok">OK</string>
+    <string name="alert_dialog_play">Afspelen</string>
+    <string name="alert_dialog_cancel">Annuleren</string>
+    <string name="alert_dialog_buy">Aanschaffen</string>
+    <string name="alert_dialog_close">Sluiten</string>
+</resources>

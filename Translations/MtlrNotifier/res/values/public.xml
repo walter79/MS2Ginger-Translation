@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+    <public type="drawable" name="icon" id="0x7f020000" />
+    <public type="drawable" name="icon_dialog" id="0x7f020001" />
+    <public type="drawable" name="icon_notificaton" id="0x7f020002" />
+    <public type="layout" name="main" id="0x7f030000" />
+    <public type="layout" name="mtlrdactivity" id="0x7f030001" />
+    <public type="string" name="app_name" id="0x7f040000" />
+    <public type="string" name="location_mtlr_notification" id="0x7f040001" />
+    <public type="string" name="location_mtlr_ver_prefix" id="0x7f040002" />
+    <public type="string" name="location_mtlr_ver_postfix" id="0x7f040003" />
+    <public type="string" name="location_mtlr_default_allow" id="0x7f040004" />
+    <public type="string" name="location_mtlr_default_deny" id="0x7f040005" />
+    <public type="string" name="location_mtlr_network_fail" id="0x7f040006" />
+    <public type="string" name="notification_msg_content" id="0x7f040007" />
+    <public type="string" name="notification_msg_type_notification" id="0x7f040008" />
+    <public type="string" name="notification_msg_type_missed" id="0x7f040009" />
+    <public type="string" name="notification_msg_type_title" id="0x7f04000a" />
+    <public type="string" name="notification_request_postfix" id="0x7f04000b" />
+    <public type="string" name="notification_dialog_middlefix" id="0x7f04000c" />
+    <public type="string" name="verification_dialog_middlefix" id="0x7f04000d" />
+    <public type="string" name="notification_dialog_postfix" id="0x7f04000e" />
+    <public type="string" name="missed_verification_dialog_prefix" id="0x7f04000f" />
+    <public type="string" name="missed_verification_dialog_middlefix" id="0x7f040010" />
+    <public type="string" name="share_status_yes" id="0x7f040011" />
+    <public type="string" name="share_status_no" id="0x7f040012" />
+    <public type="string" name="share_string" id="0x7f040013" />
+    <public type="string" name="toast_accept" id="0x7f040014" />
+    <public type="string" name="toast_deny" id="0x7f040015" />
+    <public type="string" name="connect_terminate_msg" id="0x7f040016" />
+    <public type="string" name="accept_ok" id="0x7f040017" />
+    <public type="string" name="button_allow" id="0x7f040018" />
+    <public type="string" name="button_deny" id="0x7f040019" />
+    <public type="id" name="text" id="0x7f050000" />
+    <public type="id" name="buntton" id="0x7f050001" />
+</resources>

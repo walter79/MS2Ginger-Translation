@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+    <plurals name="error_missing_apps_plurals">
+        <item quantity="other">此帐户不能在手机上使用，因为它缺少应用程序 ^1。请联系域管理员获取 &lt;b>^2&lt;/b> 或者使用其他帐户登录。</item>
+        <item quantity="one">此帐户不能在手机上使用，因为它缺少应用程序 ^1。请联系域管理员获取 &lt;b>^2&lt;/b> 或者使用其他帐户登录。</item>
+    </plurals>
+</resources>

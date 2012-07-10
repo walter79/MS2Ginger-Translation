@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+    <string-array name="web_schemes">
+        <item>http://</item>
+        <item>https://</item>
+    </string-array>
+    <array name="change_picture_items">
+        <item>@string/take_photo</item>
+        <item>@string/use_existing_photo</item>
+        <item>@string/remove_photo</item>
+    </array>
+</resources>

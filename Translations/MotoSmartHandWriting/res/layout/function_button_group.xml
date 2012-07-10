@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<FrameLayout android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:layout_gravity="bottom" android:orientation="horizontal" android:id="@id/function_button_container" android:background="@drawable/skb_bg" android:layout_width="fill_parent" android:layout_height="@dimen/fun_button_height">
+        <ImageView android:id="@id/symbol1" android:background="@drawable/handwriting_function_key_bg" android:clickable="true" android:layout_width="@dimen/fun_1_width" android:layout_height="fill_parent" android:src="@drawable/handwriting_comma" android:scaleType="center" />
+        <ImageView android:id="@id/symbol2" android:background="@drawable/handwriting_function_key_bg" android:clickable="true" android:layout_width="@dimen/fun_1_width" android:layout_height="fill_parent" android:src="@drawable/handwriting_period" android:scaleType="center" />
+        <ImageView android:id="@id/symbol3" android:background="@drawable/handwriting_function_key_bg" android:clickable="true" android:layout_width="@dimen/fun_1_width" android:layout_height="fill_parent" android:src="@drawable/moto_space_icon" android:scaleType="center" />
+        <TextView android:textSize="@dimen/enter_button_text_size" android:textColor="@color/def_keyTextColor" android:gravity="center" android:id="@id/symbol4" android:background="@drawable/handwriting_function_key_bg" android:clickable="true" android:layout_width="@dimen/fun_1_width" android:layout_height="fill_parent" android:src="@drawable/moto_enter_icon" />
+        <ImageView android:id="@id/ImageSymbolMode" android:background="@drawable/handwriting_function_key_bg" android:clickable="true" android:layout_width="@dimen/fun_1_width" android:layout_height="fill_parent" android:src="@drawable/moto_symbol_icon" android:scaleType="center" />
+        <ImageView android:id="@id/ImageSwitch3" android:background="@drawable/handwriting_function_key_bg" android:clickable="true" android:layout_width="@dimen/fun_6_width" android:layout_height="fill_parent" android:src="@drawable/moto_switch_icon_normal" android:scaleType="center" />
+    </LinearLayout>
+</FrameLayout>

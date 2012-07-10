@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+    <color name="empty">#00000000</color>
+    <color name="hl_keyTextColor">#ff000000</color>
+    <color name="ms_candidate_normal">#ffffffff</color>
+    <color name="ms_candidate_recommended">#ff000000</color>
+    <color name="candidate_activate">#ffffffff</color>
+    <color name="candidate_normal">#ff333333</color>
+    <color name="candidate_recommended">#ffe35900</color>
+    <color name="candidate_other">#ff333333</color>
+    <color name="def_shadowColor">#bb000000</color>
+    <color name="def_keyTextColor">#ff333333</color>
+    <color name="candidate_white">#ffffffff</color>
+    <color name="hwblue">#ff0000ff</color>
+    <color name="hwyellow">#fff79514</color>
+    <color name="hwchoc">#ffb24729</color>
+    <color name="hwblack">#ff363636</color>
+    <color name="hwred">#ffff0000</color>
+    <color name="hwgreen">#ff00ff00</color>
+    <color name="hwgray">#ffc2c2c2</color>
+</resources>

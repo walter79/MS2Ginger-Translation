@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+    <item type="id" name="edittext">false</item>
+    <item type="id" name="save">false</item>
+    <item type="id" name="cancel">false</item>
+    <item type="id" name="interactive_titlebar">false</item>
+    <item type="id" name="int_titlebar_label">false</item>
+    <item type="id" name="int_titlebar_divider">false</item>
+    <item type="id" name="add_msg">false</item>
+    <item type="id" name="row_message">false</item>
+    <item type="id" name="remove_category_img">false</item>
+</resources>

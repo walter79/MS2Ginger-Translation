@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+    <string name="preload_contacts">[ ]</string>
+    <string name="sim_swap_group_name">SIM 卡联系人</string>
+    <string name="sim_swap_group_title">SIM 卡联系人</string>
+    <string name="label">预置</string>
+</resources>

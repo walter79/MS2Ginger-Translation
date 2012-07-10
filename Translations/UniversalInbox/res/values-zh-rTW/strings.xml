@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+    <string name="app_name">整合收件匣</string>
+    <string name="edit_activity_name">編輯整合收件匣</string>
+    <string name="no_messages">無訊息</string>
+    <string name="loading_list">正在載入…</string>
+    <string name="multi_media_message">多媒體訊息</string>
+    <string name="menu_edit_accounts">編輯整合收件匣</string>
+    <string name="menu_settings">設定</string>
+    <string name="delete_threads_confirm_title">刪除會話</string>
+    <string name="delete_threads_confirm_message">您的選取範圍包含會話群組。 您想要一併刪除這些項目嗎？</string>
+    <string name="move_error_title">無法移動項目</string>
+    <string name="move_error_message">僅同一帳戶的電子郵件項目可以移至資料夾。</string>
+    <string name="cmae_unknown">未知</string>
+</resources>

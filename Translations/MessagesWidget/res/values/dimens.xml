@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+    <dimen name="widget_timestamp_small_size">12.0sp</dimen>
+</resources>

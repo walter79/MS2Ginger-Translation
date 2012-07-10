@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<FrameLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <View android:visibility="invisible" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <LinearLayout android:layout_gravity="bottom" android:orientation="horizontal" android:id="@id/handwriting_frame" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <LinearLayout android:orientation="vertical" android:id="@id/prediction_candidate_container" android:layout_width="wrap_content" android:layout_height="wrap_content">
+            <com.motorola.inputmethod.motosmarthandwriting.TwoLinePredictionViewContainer android:orientation="horizontal" android:id="@id/predictions_container" android:background="@drawable/moto_candidate_bg" android:layout_width="wrap_content" android:layout_height="@dimen/ms_prediction_container_height">
+                <ViewFlipper android:id="@id/prediction_flipper" android:layout_width="wrap_content" android:layout_height="wrap_content">
+                    <view android:id="@id/prediction_view1" android:layout_width="wrap_content" android:layout_height="wrap_content" class="com.motorola.inputmethod.motosmarthandwriting.TwoLinePredictionView" />
+                    <view android:id="@id/prediction_view2" android:layout_width="wrap_content" android:layout_height="wrap_content" class="com.motorola.inputmethod.motosmarthandwriting.TwoLinePredictionView" />
+                </ViewFlipper>
+                <LinearLayout android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content">
+                    <ImageView android:id="@id/arrow_page_backward" android:clickable="true" android:layout_width="@dimen/ms_prediction_arrow_width" android:layout_height="@dimen/ms_prediction_arrow_height" android:src="@drawable/moto_page_backward_2" android:scaleType="center" />
+                    <ImageView android:id="@id/arrow_page_forward" android:clickable="true" android:layout_width="@dimen/ms_prediction_arrow_width" android:layout_height="@dimen/ms_prediction_arrow_height" android:src="@drawable/moto_page_forward_2" android:scaleType="center" />
+                </LinearLayout>
+            </com.motorola.inputmethod.motosmarthandwriting.TwoLinePredictionViewContainer>
+            <com.motorola.inputmethod.motosmarthandwriting.CandidateView android:id="@id/candidates" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+        </LinearLayout>
+        <LinearLayout android:orientation="vertical" android:id="@id/function_button_container_1" android:background="@drawable/skb_bg" android:layout_width="wrap_content" android:layout_height="wrap_content">
+            <LinearLayout android:orientation="horizontal" android:id="@id/function_button_container_1_1" android:background="@drawable/skb_bg" android:layout_width="wrap_content" android:layout_height="wrap_content">
+                <ImageView android:id="@id/comma_button" android:background="@drawable/ms_handwriting_function_key_bg" android:clickable="true" android:layout_width="@dimen/ms_function_button_width" android:layout_height="@dimen/ms_function_button_height" android:src="@drawable/ms_handwriting_comma" android:scaleType="center" />
+                <ImageView android:id="@id/period_button" android:background="@drawable/ms_handwriting_function_key_bg" android:clickable="true" android:layout_width="@dimen/ms_function_button_width" android:layout_height="@dimen/ms_function_button_height" android:src="@drawable/ms_handwriting_period" android:scaleType="center" />
+            </LinearLayout>
+            <LinearLayout android:orientation="horizontal" android:id="@id/function_button_container_1_2" android:background="@drawable/skb_bg" android:layout_width="wrap_content" android:layout_height="wrap_content">
+                <ImageView android:id="@id/interrogation_button" android:background="@drawable/ms_handwriting_function_key_bg" android:clickable="true" android:layout_width="@dimen/ms_function_button_width" android:layout_height="@dimen/ms_function_button_height" android:src="@drawable/ms_moto_question_icon" android:scaleType="center" />
+                <ImageView android:id="@id/symbol_button" android:background="@drawable/ms_handwriting_function_key_bg" android:clickable="true" android:layout_width="@dimen/ms_function_button_width" android:layout_height="@dimen/ms_function_button_height" android:src="@drawable/ms_moto_symbol_icon" android:scaleType="center" />
+            </LinearLayout>
+        </LinearLayout>
+        <com.motorola.inputmethod.motosmarthandwriting.MingStyleHandWritingPanel android:id="@id/handwriting_panel" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+        <LinearLayout android:orientation="vertical" android:id="@id/function_button_container_2" android:background="@drawable/skb_bg" android:layout_width="wrap_content" android:layout_height="wrap_content">
+            <LinearLayout android:orientation="horizontal" android:id="@id/function_button_container_2_1" android:background="@drawable/skb_bg" android:layout_width="wrap_content" android:layout_height="wrap_content">
+                <ImageView android:id="@id/delete_button" android:background="@drawable/ms_handwriting_moto_del_key_bg" android:clickable="true" android:layout_width="@dimen/ms_function_button_width" android:layout_height="@dimen/ms_function_button_height" android:src="@drawable/ms_handwriting_delete" android:scaleType="center" />
+                <TextView android:textSize="@dimen/enter_button_text_size" android:textColor="@color/def_keyTextColor" android:gravity="center" android:id="@id/enter_button" android:background="@drawable/ms_handwriting_function_key_bg" android:clickable="true" android:layout_width="@dimen/ms_function_button_width" android:layout_height="@dimen/ms_function_button_height" android:src="@drawable/ms_moto_enter_icon" />
+            </LinearLayout>
+            <LinearLayout android:orientation="horizontal" android:id="@id/function_button_container_2_2" android:background="@drawable/skb_bg" android:layout_width="wrap_content" android:layout_height="wrap_content">
+                <ImageView android:id="@id/space_button" android:background="@drawable/ms_handwriting_function_key_bg" android:clickable="true" android:layout_width="@dimen/ms_function_button_width" android:layout_height="@dimen/ms_function_button_height" android:src="@drawable/ms_moto_space_icon" android:scaleType="center" />
+                <ImageView android:id="@id/switch_button" android:background="@drawable/ms_handwriting_function_key_bg" android:clickable="true" android:layout_width="@dimen/ms_function_button_width" android:layout_height="@dimen/ms_function_button_height" android:src="@drawable/ms_moto_switch_icon_normal" android:scaleType="center" />
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+</FrameLayout>

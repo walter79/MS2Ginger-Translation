@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<MimeTypes>
+    <type extension=".png" mimetype="image/png" />
+    <type extension=".gif" mimetype="image/gif" />
+    <type extension=".jpg" mimetype="image/jpg" />
+    <type extension=".jpeg" mimetype="image/jpeg" />
+    <type extension=".bmp" mimetype="image/bmp" />
+    <type extension=".mp3" mimetype="audio/mp3" />
+    <type extension=".wav" mimetype="audio/wav" />
+    <type extension=".ogg" mimetype="audio/x-ogg" />
+    <type extension=".mid" mimetype="audio/mid" />
+    <type extension=".midi" mimetype="audio/midi" />
+    <type extension=".amr" mimetype="audio/AMR" />
+    <type extension=".imy" mimetype="audio/imy" />
+    <type extension=".aac" mimetype="audio/aac" />
+    <type extension=".qcp" mimetype="audio/qcp" />
+    <type extension=".mpeg" mimetype="video/mpeg" />
+    <type extension=".3gp" mimetype="video/3gpp" />
+    <type extension=".mkv" mimetype="video/x-matroska" />
+    <type extension=".webm" mimetype="video/webm" />
+    <type extension=".jar" mimetype="application/java-archive" />
+    <type extension=".zip" mimetype="application/zip" />
+    <type extension=".rar" mimetype="application/x-rar-compressed" />
+    <type extension=".gz" mimetype="application/gzip" />
+    <type extension=".htm" mimetype="text/html" />
+    <type extension=".html" mimetype="text/html" />
+    <type extension=".php" mimetype="text/php\u0020" />
+    <type extension=".txt" mimetype="text/plain" />
+    <type extension=".csv" mimetype="text/csv" />
+    <type extension=".xml" mimetype="text/xml" />
+    <type extension=".apk" mimetype="application/vnd.android.package-archive" />
+</MimeTypes>

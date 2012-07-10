@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<PreferenceScreen
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <PreferenceCategory android:layout="@blur.res:layout/preference_title" android:title="@string/pref_notification_settings_title">
+        <CheckBoxPreference android:persistent="false" android:title="@string/pref_title_notification_enabled" android:key="com.motorola.blur.socialmessaging.pref_enable_notifications" android:summary="@string/pref_summary_notification_enabled" android:defaultValue="true" />
+        <com.motorola.blur.util.pref.BlurRingtonePreference android:persistent="false" android:layout="?android:preferenceLayoutChild" android:title="@string/pref_title_notification_ringtone" android:key="com.motorola.blur.socialmessaging.pref_sn_ringtone" android:dependency="com.motorola.blur.socialmessaging.pref_enable_notifications" android:ringtoneType="notification" />
+        <com.motorola.blur.util.pref.VibratePreference android:persistent="false" android:layout="?android:preferenceLayoutChild" android:title="@string/pref_title_notification_vibrate" android:key="com.motorola.blur.socialmessaging.pref_sn_vibrate" android:dependency="com.motorola.blur.socialmessaging.pref_enable_notifications" android:defaultValue="false" />
+    </PreferenceCategory>
+</PreferenceScreen>

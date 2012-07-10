@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+    <string name="app_name">Mensagens</string>
+    <string name="loading_widget_name">MENSAGENS</string>
+    <string name="settings_title">Widget de mensagens</string>
+    <string name="checking">Verificando mensagens novas...</string>
+    <string name="checking_short">Verificando...</string>
+    <string name="delete">Excluir</string>
+    <string name="go_to_messages">Ir para mensagens</string>
+    <string name="go_to_inbox">Ir para Caixa de entrada</string>
+    <string name="no_messages">Não há mensagens recentes não lidas.</string>
+    <string name="no_messages_short">Não há novos(as)</string>
+    <string name="select_account">Selecione conta</string>
+    <string name="no_subject">(Sem assunto)</string>
+    <string name="reply">Responder</string>
+    <string name="reply_all">Responder a todos</string>
+    <string name="show_items">Exibir itens por</string>
+    <string name="services">Serviços</string>
+    <string name="all_services">Todos os serviços</string>
+    <string name="subject_re_prefix">Re:</string>
+    <string name="text_message">Mensagem SMS/MMS</string>
+    <string name="widget_name">Nome do widget</string>
+    <string name="widget_description">Receba as últimas mensagens de amigos, familiares e colegas de trabalho</string>
+    <string name="msg_did_you_know_title">Widgets de mensagens</string>
+    <string name="msg_did_you_know_info">Os widgets de mensagens exibem os últimos e-mails, mensagens SMS/MMS e mensagens das redes sociais em um só lugar. \n\nVocê pode alterar o que aparece em cada widget. Pressione a tecla de menu e escolha \"Configurações\".</string>
+    <string name="message_download_failed_body">Selecione mensagem e tente novamente.</string>
+    <string name="message_widget_touch_to_view">Toque para ver a mensagem.</string>
+    <string name="message_not_available_touch_to_read">Pré-visualização da mensagem não disponível.\nToque aqui para ler a mensagem.</string>
+    <string name="message_thread_information">%1$d de %2$d não lido(s)</string>
+    <string name="view_message">Ver mensagem</string>
+    <string name="mark_read">Marcar como lida</string>
+    <string name="mark_unread">Marcar como não lida</string>
+    <string name="contact_info">Informações do contato</string>
+    <string name="inbox">Cx. entrada</string>
+    <string name="compose">Compor</string>
+    <string name="more">Mais</string>
+    <string name="hide">Ocultar</string>
+</resources>

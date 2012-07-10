@@ -1,0 +1,309 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+    <string-array name="timezone_filters">
+        <item>América</item>
+        <item>Europa</item>
+        <item>África</item>
+        <item>Asia</item>
+        <item>Australia</item>
+        <item>Pacífico</item>
+        <item>Todas</item>
+    </string-array>
+    <string-array name="animations_entries">
+        <item>Sin animaciones</item>
+        <item>Todas las animaciones</item>
+    </string-array>
+    <string-array name="animations_summaries">
+        <item>No aparecen animaciones de ventana</item>
+        <item>Aparecen todas las animaciones de ventana</item>
+    </string-array>
+    <string-array name="screen_timeout_entries">
+        <item>15 segundos</item>
+        <item>30 segundos</item>
+        <item>1 minuto</item>
+        <item>2 minutos</item>
+        <item>10 minutos</item>
+        <item>30 minutos</item>
+        <item>Tiempo de espera ilimitado</item>
+    </string-array>
+    <string-array name="tts_rate_entries">
+        <item>Muy lenta</item>
+        <item>Lenta</item>
+        <item>Normal</item>
+        <item>Rápida</item>
+        <item>Muy rápida</item>
+    </string-array>
+    <string-array name="tts_pitch_entries">
+        <item>Muy bajo</item>
+        <item>Bajo</item>
+        <item>Normal</item>
+        <item>Alto</item>
+        <item>Muy alto</item>
+    </string-array>
+    <string-array name="tts_lang_entries">
+        <item>Inglés (Estados Unidos)</item>
+        <item>Inglés (Gran Bretaña)</item>
+        <item>Francés</item>
+        <item>Alemán</item>
+        <item>Italiano</item>
+        <item>Español</item>
+    </string-array>
+    <string-array name="wifi_status">
+        <item></item>
+        <item>Buscando...</item>
+        <item>Estableciendo conexión...</item>
+        <item>Autenticando...</item>
+        <item>Obteniendo dirección IP…</item>
+        <item>Conectada</item>
+        <item>Suspendida</item>
+        <item>Desconectando...</item>
+        <item>Desconectada</item>
+        <item>Con error</item>
+    </string-array>
+    <string-array name="wifi_status_with_ssid">
+        <item></item>
+        <item>Buscando...</item>
+        <item>Estableciendo conexión con %1$s...</item>
+        <item>Autenticando con %1$s…</item>
+        <item>Obteniendo dirección IP de %1$s...</item>
+        <item>Conectada a %1$s</item>
+        <item>Suspendida</item>
+        <item>Desconectando de %1$s...</item>
+        <item>Desconectada</item>
+        <item>Con error</item>
+    </string-array>
+    <string-array name="wifi_security">
+        <item>Abierta</item>
+        <item>WEP</item>
+        <item>WPA/WPA2 PSK</item>
+        <item>802.1x EAP</item>
+    </string-array>
+    <string-array name="wifi_ap_security">
+        <item>Abierta</item>
+        <item>WPA2 PSK</item>
+    </string-array>
+    <string-array name="wifi_ap_channel">
+        <item>Canal 1</item>
+        <item>Canal 2</item>
+        <item>Canal 3</item>
+        <item>Canal 4</item>
+        <item>Canal 5</item>
+        <item>Canal 6</item>
+        <item>Canal 7</item>
+        <item>Canal 8</item>
+        <item>Canal 9</item>
+        <item>Canal 10</item>
+        <item>Canal 11</item>
+        <item>Canal 12</item>
+        <item>Canal 13</item>
+        <item>Canal 14</item>
+    </string-array>
+    <string-array name="timer">
+        <item>15 minutos</item>
+        <item>30 minutos</item>
+        <item>60 minutos</item>
+        <item>No apagar nunca</item>
+    </string-array>
+    <string-array name="num_devices">
+        <item>2 dispositivos</item>
+        <item>3 dispositivos</item>
+        <item>4 dispositivos</item>
+        <item>5 dispositivos</item>
+        <item>Número máximo de dispositivos</item>
+    </string-array>
+    <string-array name="wifi_security_for_adhoc_entries">
+        <item>Automática</item>
+        <item>Ninguna</item>
+        <item>WEP</item>
+    </string-array>
+    <string-array name="wifi_security_without_auto_for_adhoc_entries">
+        <item>Ninguna</item>
+        <item>WEP</item>
+    </string-array>
+    <string-array name="wifi_eap_method">
+        <item>PEAP</item>
+        <item>TLS</item>
+        <item>TTLS</item>
+    </string-array>
+    <string-array name="bluetooth_visibility_timeout_entries">
+        <item>2 minutos</item>
+        <item>5 minutos</item>
+        <item>1 hora</item>
+        <item>Nunca</item>
+    </string-array>
+    <string-array name="wifi_signal">
+        <item>Mala</item>
+        <item>Aceptable</item>
+        <item>Buena</item>
+        <item>Excelente</item>
+    </string-array>
+    <string-array name="wifi_sleep_policy_entries">
+        <item>Cuando la pantalla se apague</item>
+        <item>Nunca si se está cargando la batería</item>
+        <item>Nunca</item>
+    </string-array>
+    <string-array name="usage_stats_display_order_types">
+        <item>Tiempo de uso</item>
+        <item>Número de inicios</item>
+        <item>Nombre de la aplicación</item>
+    </string-array>
+    <string-array name="wifi_eap_entries">
+        <item>PEAP</item>
+        <item>TLS</item>
+        <item>TTLS</item>
+    </string-array>
+    <string-array name="wifi_phase2_entries">
+        <item>Ninguna</item>
+        <item>PAP</item>
+        <item>MSCHAP</item>
+        <item>MSCHAPV2</item>
+        <item>GTC</item>
+    </string-array>
+    <string-array name="hdmi_format_entries">
+        <item>Automático</item>
+        <item>480P a 60Hz</item>
+        <item>720P a 60Hz</item>
+        <item>576P a 50Hz</item>
+        <item>720P a 50Hz</item>
+    </string-array>
+    <string-array name="emergency_tone_entries">
+        <item>Desconectado</item>
+        <item>Alerta</item>
+        <item>Vibración</item>
+    </string-array>
+    <string-array name="apn_auth_entries">
+        <item>Ninguna</item>
+        <item>PAP</item>
+        <item>CHAP</item>
+        <item>PAP o CHAP</item>
+    </string-array>
+    <string-array name="apn_protocol_entries">
+        <item>IPv4</item>
+    </string-array>
+    <string-array name="app_install_location_entries">
+        <item>Almacenamiento de dispositivo interno</item>
+        <item>Tarjeta SD extraíble</item>
+        <item>Selección del sistema</item>
+    </string-array>
+    <string-array name="vibrate_entries">
+        <item>Siempre</item>
+        <item>Nunca</item>
+        <item>Solo en modo silencio</item>
+        <item>Solo si no está en modo silencio</item>
+    </string-array>
+    <string-array name="double_tap_entries">
+        <item>Navegador</item>
+        <item>Cámara</item>
+        <item>Contactos</item>
+        <item>Teléfono</item>
+        <item>Gmail</item>
+        <item>Maps</item>
+        <item>Mensajes</item>
+        <item>Música</item>
+        <item>Noticias</item>
+        <item>Redes sociales</item>
+        <item>SMS/MMS</item>
+        <item>Comandos de voz</item>
+        <item>Búsqueda por voz</item>
+        <item>Ninguno</item>
+    </string-array>
+    <string-array name="double_tap_deblur_entries">
+        <item>Navegador</item>
+        <item>Cámara</item>
+        <item>Contactos</item>
+        <item>Teléfono</item>
+        <item>Gmail</item>
+        <item>Mapa</item>
+        <item>Mensajes</item>
+        <item>Música</item>
+        <item>Mensajes SMS/MMS</item>
+        <item>Comandos de voz</item>
+        <item>Búsqueda por voz</item>
+        <item>Ninguno</item>
+    </string-array>
+    <string-array name="location_privacy_policy_entries">
+        <item>Solo emergencias 112</item>
+        <item>Localización básica activada</item>
+        <item>Localización preferida activada</item>
+    </string-array>
+    <string-array name="location_privacy_policy_summaries">
+        <item>Solo se usa para llamadas de emergencia</item>
+        <item>La ubicación se establece por GPS vía satélite o redes de telefonía móvil</item>
+        <item>Proveedor de servicios de localización mejorados mediante GPS asistido; servicio preferido</item>
+    </string-array>
+    <string-array name="media_sync_storage_items">
+        <item>Almacenamiento interno</item>
+        <item>Tarjeta SD</item>
+    </string-array>
+    <string-array name="double_tap_entries_german_region">
+        <item>Navegador</item>
+        <item>Cámara</item>
+        <item>Contactos</item>
+        <item>Teléfono</item>
+        <item>Gmail</item>
+        <item>Mapas</item>
+        <item>Mensajes</item>
+        <item>Música</item>
+        <item>Noticias</item>
+        <item>Redes sociales</item>
+        <item>Mensajes SMS/MMS</item>
+        <item>Comandos de voz</item>
+        <item>Búsqueda por voz</item>
+        <item>Ninguno</item>
+    </string-array>
+    <string-array name="location_settings_entries">
+        <item>Ajustes de desbloqueo</item>
+        <item>Ajustes de bloqueo</item>
+    </string-array>
+    <string-array name="call_restriction_settings_entries">
+        <item>Permitir todas las llamadas</item>
+        <item>Permitir solo llamadas de contactos</item>
+        <item>Bloquear todas las llamadas</item>
+    </string-array>
+    <string-array name="message_restriction_settings_entries">
+        <item>Permitir todos los mensajes</item>
+        <item>Bloquear todos los mensajes</item>
+    </string-array>
+    <string-array name="dialup_restriction_entries">
+        <item>Permitir módem de marcación</item>
+        <item>Bloquear módem de marcación</item>
+    </string-array>
+    <string-array name="unlock_methods_entries">
+        <item>Ninguno</item>
+        <item>Patrón de bloqueo</item>
+        <item>Bloqueo por contraseña</item>
+    </string-array>
+    <string-array name="lock_timer_entries">
+        <item>Si la pantalla está apagada</item>
+        <item>1 minuto</item>
+        <item>2 minutos</item>
+        <item>3 minutos</item>
+        <item>5 minutos</item>
+        <item>10 minutos</item>
+        <item>15 minutos</item>
+        <item>20 minutos</item>
+    </string-array>
+    <string-array name="external_keyboard_entries">
+        <item>Portugués (Brasil)</item>
+        <item>Francés (Canadá)</item>
+        <item>Alemán</item>
+        <item>Francés</item>
+        <item>Español (Latinoamérica)</item>
+        <item>Inglés (Reino Unido)</item>
+        <item>Inglés (EE. UU.)</item>
+        <item>EE.UU internacional</item>
+    </string-array>
+    <string-array name="battery_history_type_spinner">
+        <item>Uso de CPU</item>
+        <item>Uso de red</item>
+        <item>Uso de GPS</item>
+        <item>Uso del sensor</item>
+        <item>Uso de actividad parcial</item>
+        <item>Otro uso</item>
+    </string-array>
+    <string-array name="battery_history_which_spinner">
+        <item>Desde la última vez que se cargó</item>
+        <item>Total desde inicio</item>
+        <item>Total durante todo el tiempo</item>
+    </string-array>
+</resources>

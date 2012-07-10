@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ScrollView android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content"
+      xmlns:android="http://schemas.android.com/apk/res/android">
+        <TextView android:textAppearance="?android:textAppearanceMedium" android:textColor="@android:color/primary_text_dark" android:gravity="left" android:id="@id/ReauthNameTextView" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="20.0dip" android:layout_marginRight="20.0dip" android:text="@string/add_server_username" />
+        <EditText android:textAppearance="?android:textAppearanceMedium" android:gravity="fill_horizontal" android:id="@id/Reauthname" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="20.0dip" android:layout_marginRight="20.0dip" android:scrollHorizontally="true" android:singleLine="true" android:capitalize="none" android:autoText="false" />
+        <TextView android:textAppearance="?android:textAppearanceMedium" android:textColor="@android:color/primary_text_dark" android:gravity="left" android:id="@id/ReauthPasswordTextView" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="20.0dip" android:layout_marginRight="20.0dip" android:text="@string/add_server_password" />
+        <EditText android:textAppearance="?android:textAppearanceMedium" android:gravity="fill_horizontal" android:id="@id/ReauthPassword" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="20.0dip" android:layout_marginRight="20.0dip" android:scrollHorizontally="true" android:password="true" android:singleLine="true" android:capitalize="none" android:autoText="false" />
+        <LinearLayout android:orientation="horizontal" android:paddingLeft="2.0dip" android:paddingTop="4.0dip" android:paddingRight="2.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <Button android:layout_gravity="left" android:id="@id/ReauthOk" android:layout_width="0.0dip" android:layout_height="wrap_content" android:text="@string/alert_dialog_ok" android:maxLines="2" android:layout_weight="1.0" />
+            <Button android:layout_gravity="right" android:id="@id/ReauthCancel" android:layout_width="0.0dip" android:layout_height="wrap_content" android:text="@string/alert_dialog_cancel" android:maxLines="2" android:layout_weight="1.0" />
+        </LinearLayout>
+    </LinearLayout>
+</ScrollView>

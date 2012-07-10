@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<FrameLayout android:layout_gravity="bottom" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.motorola.inputmethod.stroke.LatinKeyboardView android:id="@id/keyboardView" android:background="#ffc0c0c0" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_alignParentBottom="true" />
+    <com.motorola.inputmethod.stroke.ExpandablePredictionViewContainer android:id="@id/predictions_container" android:background="@color/candidate_normal" android:visibility="invisible" android:layout_width="wrap_content" android:layout_height="wrap_content">
+        <view android:id="@id/prediction_view" android:layout_width="@dimen/expandable_view_column_width" android:layout_height="@dimen/expandable_view_height" class="com.motorola.inputmethod.stroke.ExpandablePredictionView" />
+        <ImageView android:layout_gravity="bottom|left|center" android:id="@id/arrow_page_forward" android:clickable="true" android:layout_width="@dimen/expandable_view_column_width" android:layout_height="@dimen/expand_button_height" android:src="@drawable/moto_page_forward" android:scaleType="center" />
+    </com.motorola.inputmethod.stroke.ExpandablePredictionViewContainer>
+</FrameLayout>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LinearLayout android:orientation="vertical" style="@blur.res:style/Blur.ListItem"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="16.0sp" android:id="@id/news_list_item_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxLines="2" />
+    <TextView android:id="@id/news_list_item_text" android:maxLines="2" style="@blur.res:style/Blur.TxtListItemB" />
+    <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_weight="1.0">
+            <ImageView android:id="@id/news_list_item_feed_icon" android:layout_marginRight="@blur.res:dimen/listitem_hspacing" android:adjustViewBounds="true" android:maxWidth="16.0dip" android:maxHeight="16.0dip" style="@blur.res:style/Blur.ListItemIcon" />
+            <TextView android:id="@id/news_list_item_feed_name" style="@blur.res:style/Blur.TxtListItemC" />
+        </LinearLayout>
+        <TextView android:id="@id/news_list_item_date" style="@blur.res:style/Blur.TxtListItemD" />
+    </LinearLayout>
+</LinearLayout>

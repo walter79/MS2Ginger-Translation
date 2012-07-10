@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+    <string name="app_name">Meldingsfunctie van fout bij alles wissen</string>
+    <string name="master_clear_error_continue_button_text">Doorgaan</string>
+    <string name="master_clear_error_sd_erase_failed_title">Fout bij wissen van SD-kaart</string>
+    <string name="master_clear_error_phone_erase_failed_title">Fout bij alles wissen</string>
+    <string name="master_clear_error_generic">Onbekend probleem</string>
+    <string name="master_clear_error_sd_nodevice">SD-kaart niet gevonden</string>
+    <string name="master_clear_error_sd_readonly">Kaart is beveiligd tegen schrijven</string>
+    <string name="master_clear_error_sd_write">Schrijfbewerking mislukt</string>
+    <string name="master_clear_error_sd_read">Leesbewerking mislukt</string>
+    <string name="master_clear_error_sd_large">Te grote kaart</string>
+    <string name="master_clear_error_phone_generic">Bewerking mislukt</string>
+    <string name="master_clear_error_sd_activity_name">Rapport bij wissen van SD-kaart</string>
+    <string name="master_clear_error_phone_activity_name">Rapport bij alles wissen</string>
+</resources>

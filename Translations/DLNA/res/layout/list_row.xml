@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="8.0dip" android:layout_marginRight="12.0dip" android:minHeight="?android:listPreferredItemHeight"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:layout_gravity="center_vertical" android:id="@id/gIconHolder" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="8.0dip" android:scaleType="center"
+      xmlns:android="http://schemas.android.com/apk/res/android" />	/> <TextView android:textAppearance="?android:textAppearanceLarge" android:ellipsize="end" android:layout_gravity="center_vertical" android:id="@id/gObjectName" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip" android:singleLine="true"
+      xmlns:android="http://schemas.android.com/apk/res/android" />
+    <RelativeLayout android:layout_gravity="center_vertical" android:id="@id/RelativeLayout01" android:layout_width="wrap_content" android:layout_height="wrap_content">
+        <ImageView android:layout_gravity="right" android:id="@id/Indicator" android:layout_width="wrap_content" android:layout_height="wrap_content" android:scaleType="fitEnd" android:layout_alignParentRight="true" />
+    </RelativeLayout>
+</LinearLayout>

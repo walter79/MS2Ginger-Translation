@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+    <string name="label">Contacts SIM</string>
+    <string name="account_pretty_name">Contacts SIM</string>
+    <string name="account_type_name">Contacts SIM</string>
+</resources>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textAppearance="?android:textAppearanceMediumInverse" android:id="@id/UploadDialogTitle" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="15.0dip" android:layout_marginTop="10.0dip" android:layout_marginBottom="10.0dip" android:text="@string/percent" />
+    <ProgressBar android:layout_gravity="center_horizontal" android:id="@id/UploadDialogProgress" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="15.0dip" android:layout_marginRight="15.0dip" style="\?android:attr/progressBarStyleHorizontal" />
+    <TextView android:textAppearance="?android:textAppearanceMediumInverse" android:layout_gravity="center_horizontal" android:id="@id/UploadDialogProgressText" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="10.0dip" android:layout_marginBottom="10.0dip" />
+</LinearLayout>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+    <string name="hello">Hello World, GuoBiIMEService!</string>
+    <string name="app_name">GuoBiIME</string>
+    <string name="composing_is_too_long_text">Input letters are too long.</string>
+</resources>

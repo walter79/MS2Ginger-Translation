@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<PreferenceScreen android:title="@string/im_setting_title" android:key="parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <CheckBoxPreference android:title="@string/enable_vibrate_title" android:key="@string/pref_enable_vibrate" />
+    <CheckBoxPreference android:title="@string/enable_sound_title" android:key="@string/pref_enable_sound" />
+    <ListPreference android:persistent="true" android:title="@string/chinese_im_title" android:key="@string/pref_selected_im" />
+    <PreferenceScreen android:title="@string/hw_title" android:key="@string/hw_key" android:summary="@string/hw_summary">
+        <intent android:targetPackage="com.motorola.inputmethod.entry" android:action="android.intent.action.MAIN" android:targetClass="com.motorola.inputmethod.entry.HandWritingSetup" />
+    </PreferenceScreen>
+    <PreferenceScreen android:title="@string/kp_title" android:key="@string/kp_key" android:summary="@string/kp_summary">
+        <intent android:targetPackage="com.motorola.inputmethod.entry" android:action="android.intent.action.MAIN" android:targetClass="com.motorola.inputmethod.entry.KeypadSetup" />
+    </PreferenceScreen>
+    <Preference android:title="@string/dictionary_title" android:summary="@string/dictionary_summary">
+        <intent android:targetPackage="com.motorola.inputmethod.entry" android:action="android.intent.action.MAIN" android:targetClass="com.motorola.inputmethod.entry.DictionaryReset" />
+    </Preference>
+</PreferenceScreen>

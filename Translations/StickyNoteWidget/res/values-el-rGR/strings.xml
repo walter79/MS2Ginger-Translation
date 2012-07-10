@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+    <string name="app_name">Αυτοκόλλητη σημείωση</string>
+    <string name="widget_body_hint">Πατήστε για επεξεργασία...</string>
+    <string name="sticky_note">Αυτ. σημείωση</string>
+    <string name="widget_description">Αποθηκεύστε μια γρήγορη μικρή σημείωση στην αρχική οθόνη</string>
+    <string name="title">Τίτλος</string>
+    <string name="note">Σημείωση</string>
+    <string name="menu_discard">Απόρριψη αλλαγών</string>
+    <string name="menu_save">Αποθήκευση</string>
+    <string name="menu_edit">Επεξεργασία</string>
+    <string name="menu_share">Κοινή χρήση</string>
+    <string name="select">Επιλογή</string>
+    <string name="widget_load_error">Πρόβλημα με την αυτοκόλλητη σημείωση. Διαγράψτε την.</string>
+    <string name="widget_body_elipse">...</string>
+    <string name="share_note">Κοινή χρήση σημείωσης</string>
+    <string name="cannot_share">Σφάλμα κατά την κοινή χρήση της σημείωσης!</string>
+</resources>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+    <string name="app_name">Ragadós cetli</string>
+    <string name="widget_body_hint">Érinte meg a szerkesztéshez ...</string>
+    <string name="sticky_note">Ragadós cetli</string>
+    <string name="widget_description">Gyors jegyzet</string>
+    <string name="title">Cím</string>
+    <string name="note">Jegyzet</string>
+    <string name="menu_discard">Változások eldobása</string>
+    <string name="menu_save">Mentés</string>
+    <string name="menu_edit">Szerkesztés</string>
+    <string name="menu_share">Megosztás</string>
+    <string name="select">Választ</string>
+    <string name="widget_load_error">Probléma van a Ragadós cetlivel. Töltse újra a Widget-et</string>
+    <string name="widget_body_elipse">...</string>
+    <string name="share_note">Jegyzet megosztása</string>
+    <string name="cannot_share">Hiba a megosztott jegyzetben!</string>
+</resources>

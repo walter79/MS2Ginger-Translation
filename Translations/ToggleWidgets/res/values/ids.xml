@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+    <item type="id" name="widget">false</item>
+    <item type="id" name="FrameImage">false</item>
+    <item type="id" name="imagebg">false</item>
+    <item type="id" name="togglerImage">false</item>
+    <item type="id" name="statusText">false</item>
+</resources>

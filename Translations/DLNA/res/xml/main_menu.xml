@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<PreferenceScreen
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <Preference android:title="@string/play_media" android:key="play_media" android:summary="@string/play_media_summary" />
+    <CheckBoxPreference android:persistent="false" android:title="@string/media_server_title" android:key="media_server" android:summary="@string/media_server_toggle_summary" />
+</PreferenceScreen>

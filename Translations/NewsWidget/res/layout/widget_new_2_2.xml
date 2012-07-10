@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<FrameLayout android:layout_width="wrap_content" android:layout_height="fill_parent" style="@style/WidgetParent.Root"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout style="@style/WidgetParent.Vert">
+        <FrameLayout android:background="@drawable/orange_sleeve_vert" android:layout_width="fill_parent" android:layout_height="@blur.res:dimen/widget_sleeve_height">
+            <include layout="@layout/widget_sleeve_vert" />
+        </FrameLayout>
+        <include layout="@layout/widget_empty_vert" />
+    </LinearLayout>
+</FrameLayout>

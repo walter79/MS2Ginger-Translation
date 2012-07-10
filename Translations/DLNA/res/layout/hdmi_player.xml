@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RelativeLayout android:id="@id/view_layout" android:background="#ff000000" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:gravity="center" android:orientation="horizontal" android:id="@id/VideoView" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_centerInParent="true"
+      xmlns:android="http://schemas.android.com/apk/res/android" />
+    <com.motorola.Dlna.Dmp.TransparentPanel android:orientation="vertical" android:id="@id/HdmiBgLayout" android:background="@android:color/transparent" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_alignParentBottom="true">
+        <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <ImageView android:id="@id/Hdmi_control_bg" android:background="@android:color/transparent" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/hdmi_controller_bg" android:layout_weight="1.0" />
+        </LinearLayout>
+    </com.motorola.Dlna.Dmp.TransparentPanel>
+    <com.motorola.Dlna.Dmp.TransparentPanel android:orientation="vertical" android:id="@id/HdmiControlLayout" android:background="@android:color/transparent" android:focusable="true" android:focusableInTouchMode="true" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_alignParentBottom="true">
+        <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <ImageView android:id="@id/hdmi_control_img" android:background="@android:color/transparent" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/hdmi_controller_video" android:layout_weight="1.0" />
+        </LinearLayout>
+    </com.motorola.Dlna.Dmp.TransparentPanel>
+    <RelativeLayout android:id="@id/TitleLayout" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <ImageButton android:gravity="center" android:id="@id/ontv" android:background="#00000000" android:padding="8.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ic_btn_hdmi" android:layout_alignParentLeft="true" android:layout_alignParentTop="true" />
+    </RelativeLayout>
+    <LinearLayout android:id="@id/LocalControlLayout" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_alignParentBottom="true">
+        <include android:layout_alignParentBottom="true" layout="@layout/video_player_common" />
+    </LinearLayout>
+</RelativeLayout>

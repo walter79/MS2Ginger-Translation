@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+    <string name="app_label">Thanh trạng thái</string>
+    <string name="status_bar_clear_all_button">Xoá</string>
+    <string name="status_bar_no_notifications_title">Không có thông báo nào</string>
+    <string name="status_bar_ongoing_events_title">Đang diễn ra</string>
+    <string name="status_bar_latest_events_title">Thông báo</string>
+    <string name="battery_low_title">Vui lòng kết nối bộ sạc</string>
+    <string name="battery_low_subtitle">Pin đang yếu:</string>
+    <string name="battery_low_percent_format">còn %d%% hoặc ít hơn.</string>
+    <string name="battery_low_why">Sử dụng pin</string>
+    <string name="usb_accessory_uri_prompt">Không có ứng dụng được cài đặt nào hoạt động với phụ kiện USB này. Tìm hiểu thêm về phụ kiện này tại %1$s</string>
+    <string name="title_usb_accessory">Phụ kiện USB</string>
+    <string name="label_view">Xem</string>
+    <string name="always_use_accessory">Sử dụng theo mặc định cho phụ kiện USB này</string>
+</resources>

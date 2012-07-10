@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+    <dimen name="actionTextSize">13.0sp</dimen>
+    <dimen name="sleeveTextSize">16.0sp</dimen>
+    <dimen name="deletedTextSize">16.0sp</dimen>
+    <dimen name="deletedTextSizeLarge">18.0sp</dimen>
+    <dimen name="deletedTextPadding">20.0dip</dimen>
+    <dimen name="actionContainerPadding">15.0dip</dimen>
+    <dimen name="actionContainerPaddingSmall">9.0dip</dimen>
+    <dimen name="actionTextPadding">5.0dip</dimen>
+    <dimen name="ContactImagePortPadding">8.0dip</dimen>
+    <dimen name="ContactImageHoriPadding">7.0dip</dimen>
+    <dimen name="ContactImage1x1Padding">4.0dip</dimen>
+    <dimen name="ContactImagePadding">4.0dip</dimen>
+    <dimen name="ContactImagePaddingPort">4.0dip</dimen>
+    <dimen name="sleeveTextMarginStandard">0.0dip</dimen>
+    <dimen name="sleeveTextMarginShadow">0.0dip</dimen>
+    <dimen name="dummyImagePaddingLeft">5.0dip</dimen>
+    <dimen name="dummyImagePaddingRight">8.0dip</dimen>
+    <dimen name="dummyImagePaddingPort">20.0dip</dimen>
+    <dimen name="dummyImagePadding">8.0dip</dimen>
+    <dimen name="dummyImagePaddingSmall">5.0dip</dimen>
+    <dimen name="dummyImagePaddingVerySmall">1.0dip</dimen>
+    <dimen name="dummyImagePaddingLand">6.0dip</dimen>
+    <dimen name="ConformationTextSize">18.0sp</dimen>
+    <dimen name="ContactImagePaddingBorder">4.0dip</dimen>
+</resources>

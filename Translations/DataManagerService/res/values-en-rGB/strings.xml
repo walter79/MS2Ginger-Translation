@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+    <string name="hello">Hello world!</string>
+    <string name="app_name">Data manager service</string>
+    <string name="perm_label">Enable setting data plan</string>
+    <string name="perm_desc">Allows the application to set its data plan to the data manager service</string>
+    <string name="backgrounddata_warning_message">To protect your data plan, your administrator has disabled background data while roaming.\n\nIf necessary, you can manually synchronise data while roaming.</string>
+    <string name="backgrounddata_notification_title">Background data disabled</string>
+    <string name="backgrounddata_dialog_title">Background data notice</string>
+    <string name="backgrounddata_dialog_message">Your administrator has disabled background data while roaming.\nIf necessary, you can manually synchronise data while roaming.</string>
+    <string name="ok">OK</string>
+</resources>

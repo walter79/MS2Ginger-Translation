@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+    <string name="app_name">Motorola Dock-Dienst</string>
+    <string name="mot_dock_apps">Motorola Dock Apps</string>
+    <string name="TitleForWebtop">WebTop</string>
+    <string name="TitleForEASport">EASport</string>
+    <string name="TitleWidgetClock">Widget-Uhr</string>
+    <string name="TitleForEntertainmentCenter">Entertainment Center</string>
+    <string name="TitleForBigClock">BigClock</string>
+    <string name="TitleForHome">Auswahl für \"Verwerfen\"</string>
+    <string name="description">Kurzbeschreibungen hier und hier</string>
+    <string name="detailed_description">Genauere Beschreibungen hier und hier</string>
+    <string name="dock_notification_title">Verbunden mit Multimediastation</string>
+    <string name="hall_effect_dock_only">Multimediastation ist zurzeit verbunden.</string>
+    <string name="dock_notification_message">Zum Umschalten der Anwendung auswählen</string>
+    <string name="hdmi_notification_title">HDMI-Verbindung</string>
+    <string name="hdmi_notification_message">Zum Verwalten der HDMI-Verbindung auswählen</string>
+    <string name="hdmi_only_message">HDMI ist zurzeit verbunden.</string>
+    <string name="dock_hdmi_notification_title">Mit HD-Dock verbunden</string>
+    <string name="hall_effect_dock_notification">HD-Dock ist zurzeit verbunden.</string>
+    <string name="dock_hdmi_notification_message">Zum Umschalten der Anwendung auswählen</string>
+    <string name="descrip_webtop">Machen Sie aus Ihrem Telefon einen PC</string>
+    <string name="descrip_entertainmentcenter">Erleben Sie Ihre Musik, Bilder und Videos auf HDTV.</string>
+    <string name="descrip_bigclock">Eine elegante Uhr mit Wecker</string>
+    <string name="descrip_widgetdock">Richten Sie benutzerdefiniertes Docking ein, ähnlich wie auf Ihrer Startseite</string>
+    <string name="descrip_home">Behalten Sie die aktuelle Anwendung im Blick, auch wenn Ihr Telefon sich in der Docking-Station befindet</string>
+    <string name="descrip_easport">Spielbeschreibung</string>
+    <string name="str_ok">OK</string>
+    <string name="detail_descrip_webtop">Hier Spielbeschreibung einfügen</string>
+    <string name="detail_descrip_entertainmentcenter">Das TV Media Center ermöglich die Navigation durch alle Multimedia-Inhalte auf Ihrem Telefon. Im Media Center verwandelt sich Ihr Telefon in eine elegante Fernbedienung, mit der Sie ganz einfach Musik abspielen und Bilder oder Videos ansehen können.</string>
+    <string name="detail_descrip_bigclock">Wandeln Sie Ihr Telefon in eine große Uhr mit Extras um. Sie können die Uhrzeit entfernter Orte anzeigen, Alarme einstellen, Musik abspielen, Fotos anzeigen und aktuelle Wetterdaten abrufen. Dieser Modus wurde für den Nachttisch entwickelt, eignet sich jedoch genauso gut für Küche oder Schreibtisch.</string>
+    <string name="detail_descrip_widgetdock">Sie können auf dieselben Android-Widgets, Anwendungen und Schnellzugriffe zugreifen, wie auf dem Startbildschirm Ihres Mobiltelefons. Außerdem können Sie sie genau wie den Bildschirmhintergrund nach Ihren Wünschen anordnen und verändern. Alle Einstellungen werden gespeichert und beim nächsten Docken wieder abgerufen.</string>
+    <string name="detail_descrip_home">Bei Auswahl dieses Modus behält das Telefon die aktuelle Anwendung auf der Anzeige. Die anderen Docking-Anwendungen können ganz einfach über die Auswahl auf dem Benachrichtigungsbildschirm aufgerufen werden.</string>
+    <string name="detail_descrip_easport">Hier genaue Beschreibung des Entertainments einfügen.</string>
+    <string name="prompt_RememberMySelection">Auswahl speichern</string>
+    <string name="title">Anwendung zum Starten auswählen</string>
+    <string name="detecting">Erkennung ...</string>
+    <string name="TitleForMirrorMode">Telefon auf Display spiegeln</string>
+    <string name="descrip_mirrormode">Alle Telefonanwendungen auf einem größeren Display anzeigen und über dieses auf die Anwendungen zugreifen</string>
+    <string name="TitleForOther">Sonstige</string>
+    <string name="descrip_other">Zeigt Dock-Apps, die nicht im intelligenten Modus sind</string>
+    <string name="TitleForGallery">Galerie</string>
+    <string name="descrip_gallery">Fotos und Videos ansehen</string>
+    <string name="TitleForMusicPlayer">Musik</string>
+    <string name="descrip_musicplayer">Auf Musik zugreifen, Musik anhören und freigeben</string>
+</resources>

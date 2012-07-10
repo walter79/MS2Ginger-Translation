@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<FrameLayout android:background="@drawable/sleeve_vert" android:layout_width="fill_parent" android:layout_height="@blur.res:dimen/widget_view_gen_photo_height_1x1"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include layout="@layout/widget_icon_small" />
+</FrameLayout>

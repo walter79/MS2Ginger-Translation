@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+    <plurals name="media_files_deleted">
+        <item quantity="other">Itens na sua lista de atualização foram excluídos.</item>
+        <item quantity="one">Um item na sua lista de atualização foi excluído.</item>
+    </plurals>
+</resources>

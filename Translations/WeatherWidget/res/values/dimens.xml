@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+    <dimen name="weather_card_padding_top">52.0px</dimen>
+    <dimen name="weather_card_padding_left">19.0px</dimen>
+    <dimen name="weather_card_padding_bottom">18.0px</dimen>
+    <dimen name="weather_card_padding_right">16.0px</dimen>
+    <dimen name="widget_temp">30.0dip</dimen>
+    <dimen name="padding_below_realfeel">12.0dip</dimen>
+    <dimen name="padding_above_and_below_forecast_icons">2.0dip</dimen>
+    <dimen name="widget_image_padding_left">0.0dip</dimen>
+    <dimen name="widget_image_padding_top">4.0dip</dimen>
+    <dimen name="widget_image_padding_right">4.0dip</dimen>
+    <dimen name="widget_image_padding_right_1_1">4.0dip</dimen>
+    <dimen name="widget_image_padding_bottom">4.0dip</dimen>
+    <dimen name="weather_card_condition_image_margin_left">0.0dip</dimen>
+    <dimen name="weather_card_segment_padding_left">4.0dip</dimen>
+    <dimen name="clickable_area_width">163.0dip</dimen>
+    <dimen name="vertical_card_padding">10.0dip</dimen>
+    <dimen name="horizontal_card_padding">5.0dip</dimen>
+</resources>

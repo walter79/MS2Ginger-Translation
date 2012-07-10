@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+    <string name="app_name">DMService</string>
+    <string name="PMF_RESOURCE_ID_TITLE_SYSTEM_UPDATE">軟體更新</string>
+    <string name="PMF_RESOURCE_ID_TITLE_UPDATE_CANCEL">取消軟體</string>
+    <string name="PMF_RESOURCE_ID_CONTEXT_SYSTEM_UPDATE1">%s 要求在您的手機上執行客戶服務工作階段。 可能會關閉已開啟的應用程式，並須支付一般資料傳輸費用。 是否立即連線？</string>
+    <string name="PMF_RESOURCE_ID_CONTEXT_SYSTEM_UPDATE2">%s 要求在您的手機上執行客戶服務工作階段。 可能會關閉已開啟的應用程式。 是否立即連線？</string>
+    <string name="PMF_RESOURCE_ID_CONTEXT_SYSTEM_UPDATE_NOTICE">收到手機的系統更新，\n安裝該更新可能需要幾分鐘時間。</string>
+    <string name="PMF_RESOURCE_ID_CONTEXT_SYSTEM_UPDATE_CANCEL">已取消系統更新。\n稍後將再次提醒您進行更新。</string>
+    <string name="dm_alert_dlg_ok_text">確定</string>
+    <string name="dm_alert_dlg_cancel_text">取消</string>
+    <string name="DM_SERVICE_ALERT_TITLE_DEVICE_MGMT">裝置管理</string>
+    <string name="DM_SERVICE_ALERT_TITLE_SYSTEM_MESSAGE">系統訊息</string>
+    <string name="DM_SERVICE_ALERT_BUTTON_YES">確定</string>
+    <string name="DM_SERVICE_ALERT_BUTTON_NO">拒絕</string>
+    <string name="dm_session_button_confirm">更新</string>
+    <string name="dm_session_button_reject">取消</string>
+    <string name="dm_session_confirmation_title">系統更新</string>
+    <string name="dm_session_confirmation_message">有可用的手機系統更新</string>
+    <string name="dm_session_confirmation_notification_label">系統更新</string>
+    <string name="dm_session_confirmation_notification_message">新 DM 工作階段要求</string>
+    <string name="dm_session_information_notification_label">系統更新</string>
+    <string name="dm_session_information_notification_message1">伺服器已起始要求</string>
+    <string name="dm_session_information_notification_message2_success">裝置已完成伺服器的要求</string>
+    <string name="dm_session_information_notification_message2_fail">裝置無法完成伺服器的要求</string>
+</resources>

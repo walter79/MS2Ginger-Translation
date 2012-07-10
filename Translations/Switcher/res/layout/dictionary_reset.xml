@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ScrollView android:scrollbarStyle="insideInset" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent" android:fillViewport="true"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <TextView android:textAppearance="?android:textAppearanceMedium" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="4.0px" android:text="@string/dictionary_detail" android:layout_alignParentLeft="true" android:layout_centerVertical="true" />
+        <View android:background="?android:listDivider" android:layout_width="fill_parent" android:layout_height="2.0px" />
+        <LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:paddingTop="20.0px" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <Button android:id="@id/button_reset_dic" android:layout_width="200.0px" android:layout_height="fill_parent" android:text="@string/dictionary_reset" />
+        </LinearLayout>
+    </LinearLayout>
+</ScrollView>

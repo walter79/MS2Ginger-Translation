@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RelativeLayout android:background="@drawable/bkg_black" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/carrier_logo" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_margin="5.0dip" android:adjustViewBounds="true" android:maxWidth="36.0sp" android:maxHeight="36.0sp" android:layout_alignParentTop="true" android:layout_alignParentRight="true" />
+    <TextView android:textColor="@color/text_color_primary" android:id="@id/carrier_details_title" android:padding="15.0sp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/plan_upgrade_title" android:layout_toLeftOf="@id/carrier_logo" android:layout_alignParentLeft="true" android:layout_alignParentTop="true" />
+</RelativeLayout>

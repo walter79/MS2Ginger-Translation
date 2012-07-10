@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+    <dimen name="verticalCorrection">10.0px</dimen>
+    <dimen name="ms_prediction_view_y_gap">6.0dip</dimen>
+    <dimen name="ms_prediction_arrow_height">40.0dip</dimen>
+    <dimen name="screen_height_compensation">0.0dip</dimen>
+    <dimen name="labelTextSize">18.0px</dimen>
+    <item type="dimen" name="urlKeyTextSize">@dimen/labelTextSize</item>
+    <dimen name="candidate_scroll_pixel">20.0px</dimen>
+    <dimen name="min_candidate_word_width">50.0px</dimen>
+    <dimen name="hwbrush_smallest">6.0dip</dimen>
+    <dimen name="hwbrush_smaller">8.0dip</dimen>
+    <dimen name="hwbrush_larger">10.0dip</dimen>
+    <dimen name="hwbrush_largest">12.0dip</dimen>
+</resources>

@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+    <string name="txt_pb_reqlic">正在解锁文件…</string>
+    <string name="txt_pb_uploadmet">使用情况统计数据将通过后台发送.</string>
+    <string name="txt_content_type_video">视频</string>
+    <string name="txt_content_type_music">音乐</string>
+    <string name="title_lic_expired">许可已过期</string>
+    <string name="title_song_expired">过期歌曲</string>
+    <string name="title_video_expired">过期视频</string>
+    <string name="title_ringtone_expired">过期铃声</string>
+    <string name="title_file_expired">过期文件</string>
+    <string name="txt_lic_expired_mpart1">许可提供给</string>
+    <string name="txt_lic_expired_mpart2">文件</string>
+    <string name="txt_lic_expired_mpart3">. 您可能需要购买新许可才能继续播放此文件。”</string>
+    <string name="txt_lic_expired_listview">从下面选择一个文件,然后购买许可.</string>
+    <string name="txt_nt_multi_lic_expired">必须有其他许可才能播放这些文件.</string>
+    <string name="txt_nt_single_lic_expired">必须有许可才能播放.</string>
+    <string name="title_delete_file">删除</string>
+    <string name="txt_delete_file">是否立即删除此文件?</string>
+    <string name="txt_lic_status">已过期</string>
+    <string name="title_lic_received">许可已收到</string>
+    <string name="txt_dlg_lic_received1">文件许可</string>
+    <string name="txt_dlg_lic_received2">“已收到。现在可以播放此文件。”</string>
+    <string name="txt_nt_single_lic_received">现在可以播放</string>
+    <string name="title_lic_error">许可错误</string>
+    <string name="txt_lic_error">许可下载失败.请尝试重新下载.</string>
+    <string name="title_lic_trigger">同步许可</string>
+    <string name="txt_lic_trigger">必须更新许可才能继续播放设备上的文件。是否立即更新许可？</string>
+    <string name="title_met_trigger">必须同意使用</string>
+    <string name="txt_met_trigger">为了便于艺术作品的计费，内容提供商必须询问是否同意记录此内容的使用情况。是否授予这种权限？”</string>
+    <string name="title_sync_pc_license">同步许可</string>
+    <string name="txt_sync_pc_license">必须更新许可才能继续播放设备上的文件。 请将手机连接到计算机，更新许可。</string>
+    <string name="alert_dialog_yes">是</string>
+    <string name="alert_dialog_no">否</string>
+    <string name="alert_dialog_ok">确定</string>
+    <string name="alert_dialog_play">播放</string>
+    <string name="alert_dialog_cancel">取消</string>
+    <string name="alert_dialog_buy">购买</string>
+    <string name="alert_dialog_close">关闭</string>
+</resources>

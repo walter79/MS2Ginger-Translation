@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+    <plurals name="other_count">
+        <item quantity="other">Altri %1$d</item>
+        <item quantity="one">1 altro</item>
+    </plurals>
+</resources>

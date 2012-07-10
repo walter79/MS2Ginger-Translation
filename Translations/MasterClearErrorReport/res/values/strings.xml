@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+    <string name="app_name">Master Clear Error Reporter</string>
+    <string name="master_clear_error_continue_button_text">Continue</string>
+    <string name="master_clear_error_sd_erase_failed_title">SD card erase error</string>
+    <string name="master_clear_error_phone_erase_failed_title">Master Clear error</string>
+    <string name="master_clear_error_generic">Unknown problem</string>
+    <string name="master_clear_error_sd_nodevice">SD card was not found</string>
+    <string name="master_clear_error_sd_readonly">Card is write-protected</string>
+    <string name="master_clear_error_sd_write">Write operation failed</string>
+    <string name="master_clear_error_sd_read">Read operation failed</string>
+    <string name="master_clear_error_sd_large">Too large card</string>
+    <string name="master_clear_error_phone_generic">Operation failed</string>
+    <string name="master_clear_error_sd_activity_name">SD card erase report</string>
+    <string name="master_clear_error_phone_activity_name">Master Clear erase report</string>
+</resources>

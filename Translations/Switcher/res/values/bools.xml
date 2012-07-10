@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+    <bool name="im_is_default">true</bool>
+    <bool name="enable_traditional_chinese_region">true</bool>
+    <bool name="default_auto_punctuate">true</bool>
+    <bool name="pref_fuzzy_Zh">false</bool>
+    <bool name="pref_fuzzy_Ch">false</bool>
+    <bool name="pref_fuzzy_Sh">false</bool>
+    <bool name="pref_fuzzy_L">false</bool>
+    <bool name="pref_fuzzy_G">false</bool>
+    <bool name="pref_fuzzy_R">false</bool>
+    <bool name="pref_fuzzy_H">false</bool>
+    <bool name="pref_fuzzy_ang">false</bool>
+    <bool name="pref_fuzzy_eng">false</bool>
+    <bool name="pref_fuzzy_ing">false</bool>
+    <bool name="pref_fuzzy_iang">false</bool>
+    <bool name="pref_fuzzy_uang">false</bool>
+    <bool name="pref_hw_watermark">true</bool>
+    <bool name="pref_enable_fshw">true</bool>
+    <bool name="pref_enable_ibhw">true</bool>
+    <bool name="pref_enable_qwerty">true</bool>
+    <bool name="pref_enable_bell">true</bool>
+    <bool name="pref_enable_motosoftkeyboard">true</bool>
+    <bool name="pref_enable_vibrate">false</bool>
+    <bool name="pref_enable_sound">false</bool>
+    <bool name="pref_enable_auto_cap">true</bool>
+    <bool name="pref_enable_quick_fixes">true</bool>
+    <bool name="pref_enable_show_suggestions">true</bool>
+    <bool name="pref_enable_auto_complete">false</bool>
+    <bool name="pref_userdir">true</bool>
+    <bool name="pref_fuzzy_all">false</bool>
+</resources>

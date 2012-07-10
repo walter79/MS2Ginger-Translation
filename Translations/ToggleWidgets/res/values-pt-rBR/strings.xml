@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+    <string name="app_name">Ativação de Widgets</string>
+    <string name="gps_app_name">Botão do GPS</string>
+    <string name="airplane_app_name">Botão do modo avião</string>
+    <string name="wifi_app_name">Botão do WiFi</string>
+    <string name="bluetooth_app_name">Botão do Bluetooth</string>
+    <string name="widget_description">Veja e controle o status do modo avião</string>
+    <string name="widget_description_bt">Veja e controle o status do Bluetooth</string>
+    <string name="widget_description_wifi">Veja e controle o status do WiFi</string>
+    <string name="widget_description_gps">Veja e controle o status do GPS</string>
+    <string name="StatusOn">LIG.</string>
+    <string name="StatusOff">DESL.</string>
+    <string name="AirplanetoastText">O modo avião está indisponível.</string>
+    <string name="BluetoothtoastText">O Bluetooth está indisponível.</string>
+    <string name="GPStoastText">O GPS está indisponível.</string>
+    <string name="WifitoastText">O WiFi está indisponível.</string>
+    <string name="location_restriction_enabled">A restrição de localização está ativada.</string>
+</resources>

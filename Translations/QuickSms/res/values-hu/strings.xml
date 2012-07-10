@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+    <string name="qsms_app_name">GyorsSms</string>
+    <string name="qsms_manage_title">Üzenet szerkesztése</string>
+    <string name="qsms_add_msg">Üzenetek</string>
+    <string name="qsms_label_add">Új üzenet</string>
+    <string name="qsms_label_edit">Üzenet szerkesztése</string>
+    <string name="qsms_add">Hozzáadás</string>
+    <string name="qsms_ok">Rendben</string>
+    <string name="qsms_cancel">Mégsem</string>
+    <string name="qsms_save">Mentés</string>
+    <string name="qsms_yes">Igen</string>
+    <string name="qsms_no">Nem</string>
+    <string name="template_1">Pár percen belül visszahívom!</string>
+    <string name="template_2">Kérem, pár perc múlva hívjon vissza!</string>
+    <string name="template_3">Elnézést, de nem tudtam fogadni a hívást</string>
+    <string name="text_message_reply">Válaszüzenet</string>
+    <string name="write_new">Új üzenet írása</string>
+    <string name="no_messages">Nincs üzenet</string>
+    <string name="sms_sent">Üzenet elküldve</string>
+    <string name="message_deleted">Üzenet törölve</string>
+    <string name="phone_locked">Készülék zárolva</string>
+    <string name="phone_locked_message">Zár feloldása, és új üzenet készítése</string>
+    <string name="message_overflow">Nem lehet 20 darab mentett üzenetnél többet tárolni.</string>
+    <string name="turn_off_quicksms">Szöveges üzenet válasz kikapcsolása</string>
+</resources>

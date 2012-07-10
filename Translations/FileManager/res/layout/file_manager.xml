@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TabHost android:id="@android:id/tabhost" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:clipChildren="true" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <LinearLayout android:orientation="vertical" android:id="@id/homesync_bar" android:background="@android:drawable/title_bar" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <TextView android:layout_gravity="left" android:id="@id/homesync_title" android:layout_width="wrap_content" android:layout_height="?android:windowTitleSize" android:layout_alignParentLeft="true" style="\?android:attr/windowTitleStyle" />
+                <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_weight="1.0" />
+                <TextView android:layout_gravity="right" android:id="@id/homesync_step" android:layout_width="wrap_content" android:layout_height="?android:windowTitleSize" android:layout_alignParentRight="true" style="\?android:attr/windowTitleStyle" />
+            </LinearLayout>
+            <TextView android:background="#ff555555" android:layout_width="fill_parent" android:layout_height="1.0dip" />
+        </LinearLayout>
+        <TabWidget android:id="@android:id/tabs" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+        <FrameLayout android:id="@id/main_page" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_weight="1.0">
+            <LinearLayout android:orientation="vertical" android:id="@id/content_page" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent">
+                <FrameLayout android:id="@android:id/tabcontent" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0" />
+                <LinearLayout android:gravity="center" android:orientation="horizontal" android:id="@id/move_n_cancel" android:background="#ff555555" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                    <Button android:id="@id/paste_button" android:layout_width="150.0dip" android:layout_height="wrap_content" android:layout_marginTop="3.0dip" />
+                    <Button android:id="@id/cancel_button" android:layout_width="150.0dip" android:layout_height="wrap_content" android:layout_marginTop="3.0dip" />
+                </LinearLayout>
+            </LinearLayout>
+            <ScrollView android:layout_width="fill_parent" android:layout_height="wrap_content"
+              xmlns:android="http://schemas.android.com/apk/res/android">
+                <LinearLayout android:orientation="vertical" android:id="@id/home_page" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent">
+                    <TableLayout android:layout_width="fill_parent" android:layout_height="?android:windowTitleSize" android:stretchColumns="0" style="\?android:attr/windowTitleBackgroundStyle"
+                      xmlns:android="http://schemas.android.com/apk/res/android"
+                      xmlns:moto.res="http://schemas.android.com/apk/res/com.motorola.android.widget">
+                        <TableRow>
+                            <TextView android:gravity="center_vertical" android:id="@id/home_page_title" android:background="@null" android:fadingEdge="horizontal" android:layout_width="fill_parent" android:layout_height="fill_parent" android:text="@string/file_manager" style="\?android:attr/windowTitleStyle" />
+                            <TextView android:layout_width="fill_parent" android:layout_height="fill_parent" />
+                        </TableRow>
+                    </TableLayout>
+                    <LinearLayout android:orientation="vertical" android:id="@id/phone_files_entry" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                        <LinearLayout android:orientation="horizontal" android:background="@drawable/title_bar_control" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                            <ImageView android:layout_gravity="center_vertical" android:layout_width="64.0dip" android:layout_height="64.0dip" android:src="@drawable/ic_thb_device" android:scaleType="centerInside" />
+                            <TextView android:textAppearance="?android:textAppearanceLarge" android:layout_gravity="center_vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/internal_phone_storage" />
+                        </LinearLayout>
+                        <TextView android:background="@android:drawable/divider_horizontal_bright" android:layout_width="fill_parent" android:layout_height="1.0dip" />
+                    </LinearLayout>
+                    <LinearLayout android:orientation="vertical" android:id="@id/external_sdcard_entry" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                        <LinearLayout android:orientation="horizontal" android:background="@drawable/title_bar_control" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                            <ImageView android:layout_gravity="center_vertical" android:layout_width="64.0dip" android:layout_height="64.0dip" android:src="@drawable/ic_thb_external_sdcard" android:scaleType="centerInside" />
+                            <TextView android:textAppearance="?android:textAppearanceLarge" android:layout_gravity="center_vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/sd_card" />
+                        </LinearLayout>
+                        <TextView android:background="@android:drawable/divider_horizontal_bright" android:layout_width="fill_parent" android:layout_height="1.0dip" />
+                    </LinearLayout>
+                    <LinearLayout android:orientation="vertical" android:id="@id/remote_files_entry" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                        <LinearLayout android:orientation="horizontal" android:background="@drawable/title_bar_control" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                            <ImageView android:layout_gravity="center_vertical" android:layout_width="64.0dip" android:layout_height="64.0dip" android:src="@drawable/ic_thb_shared_folder" android:scaleType="centerInside" />
+                            <TextView android:textAppearance="?android:textAppearanceLarge" android:layout_gravity="center_vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/remote_files" />
+                        </LinearLayout>
+                        <TextView android:background="@android:drawable/divider_horizontal_bright" android:layout_width="fill_parent" android:layout_height="1.0dip" />
+                    </LinearLayout>
+                    <LinearLayout android:orientation="vertical" android:id="@id/protected_content_entry" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                        <LinearLayout android:orientation="horizontal" android:background="@drawable/title_bar_control" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                            <ImageView android:layout_gravity="center_vertical" android:layout_width="64.0dip" android:layout_height="64.0dip" android:src="@drawable/ic_launcher_folder_protected_content" android:scaleType="centerInside" />
+                            <TextView android:textAppearance="?android:textAppearanceLarge" android:layout_gravity="center_vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/protected_content" />
+                        </LinearLayout>
+                        <TextView android:background="@android:drawable/divider_horizontal_bright" android:layout_width="fill_parent" android:layout_height="1.0dip" />
+                    </LinearLayout>
+                    <LinearLayout android:orientation="vertical" android:id="@id/usb1_files_entry" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                        <LinearLayout android:orientation="horizontal" android:background="@drawable/title_bar_control" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                            <ImageView android:layout_gravity="center_vertical" android:layout_width="64.0dip" android:layout_height="64.0dip" android:src="@drawable/ic_thb_usb_disk" android:scaleType="centerInside" />
+                            <TextView android:textAppearance="?android:textAppearanceLarge" android:layout_gravity="center_vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/usb_files" />
+                        </LinearLayout>
+                        <TextView android:background="@android:drawable/divider_horizontal_bright" android:layout_width="fill_parent" android:layout_height="1.0dip" />
+                    </LinearLayout>
+                    <LinearLayout android:orientation="vertical" android:id="@id/usb2_files_entry" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                        <LinearLayout android:orientation="horizontal" android:background="@drawable/title_bar_control" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                            <ImageView android:layout_gravity="center_vertical" android:layout_width="64.0dip" android:layout_height="64.0dip" android:src="@drawable/ic_thb_usb_disk" android:scaleType="centerInside" />
+                            <TextView android:textAppearance="?android:textAppearanceLarge" android:layout_gravity="center_vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/usb_files" />
+                        </LinearLayout>
+                        <TextView android:background="@android:drawable/divider_horizontal_bright" android:layout_width="fill_parent" android:layout_height="1.0dip" />/>
+</LinearLayout>
+                    <LinearLayout android:orientation="vertical" android:id="@id/usb3_files_entry" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                        <LinearLayout android:orientation="horizontal" android:background="@drawable/title_bar_control" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                            <ImageView android:layout_gravity="center_vertical" android:layout_width="64.0dip" android:layout_height="64.0dip" android:src="@drawable/ic_thb_usb_disk" android:scaleType="centerInside" />
+                            <TextView android:textAppearance="?android:textAppearanceLarge" android:layout_gravity="center_vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/usb_files" />
+                        </LinearLayout>
+                        <TextView android:background="@android:drawable/divider_horizontal_bright" android:layout_width="fill_parent" android:layout_height="1.0dip" />
+                    </LinearLayout>
+                </LinearLayout>
+            </ScrollView>
+        </FrameLayout>
+        <LinearLayout android:gravity="center" android:orientation="horizontal" android:id="@id/file_chooser_panel" android:background="#ff555555" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <Button android:id="@id/file_chooser_cancel" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="3.0dip" android:text="@string/cancel" />
+        </LinearLayout>
+    </LinearLayout>
+</TabHost>

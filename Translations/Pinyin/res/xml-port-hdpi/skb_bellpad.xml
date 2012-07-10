@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<keyboard skb_template="@xml/skb_templateb" skb_cache_flag="true" qwerty_uppercase="true" width="22%p" height="25%p" repeat="false" balloon="true">
+    <row start_pos_y="0%p" row_id="@string/toggle_row_cn">
+        <key code="-2000" icon="@drawable/moto_chinese_icon" hl_icon="@drawable/moto_chinese_icon" key_type="2" repeat="true" icon_popup_on_off="false" width="17%p" />
+        <key label="，。" code="-250" key_type="0" icon_popup_on_off="false" />
+        <key label="abc" code="29" icon_popup_on_off="false" />
+        <key label="def" code="32" icon_popup_on_off="false" />
+        <key code="67" key_type="3" repeat="true" icon_popup_on_off="false" width="17%p" />
+    </row>
+    <row start_pos_y="0%p" row_id="@string/toggle_row_emailaddress">
+        <key code="-2000" icon="@drawable/moto_chinese_icon" hl_icon="@drawable/moto_chinese_icon" key_type="2" repeat="true" icon_popup_on_off="false" width="17%p" />
+        <key label=". @" code="-250" key_type="0" icon_popup_on_off="false" />
+        <key label="abc" code="29" icon_popup_on_off="false" />
+        <key label="def" code="32" icon_popup_on_off="false" />
+        <key code="67" key_type="3" repeat="true" icon_popup_on_off="false" width="17%p" />
+    </row>
+    <row start_pos_y="0%p" row_id="@string/toggle_row_uri">
+        <key code="-2000" icon="@drawable/moto_chinese_icon" hl_icon="@drawable/moto_chinese_icon" key_type="2" repeat="true" icon_popup_on_off="false" width="17%p" />
+        <key label="." code="-250" key_type="0" icon_popup_on_off="false" />
+        <key label="abc" code="29" icon_popup_on_off="false" />
+        <key label="def" code="32" icon_popup_on_off="false" />
+        <key code="67" key_type="3" repeat="true" icon_popup_on_off="false" width="17%p" />
+    </row>
+    <row start_pos_y="25%p">
+        <key icon="@drawable/moto_itap_icon" hl_icon="@drawable/moto_itap_icon" icon_popup="@drawable/moto_itap_icon" code="-22" key_type="1" icon_popup_on_off="false" width="17%p" />
+        <key label="ghi" code="35" icon_popup_on_off="false" />
+        <key label="jkl" code="38" icon_popup_on_off="false" />
+        <key label="mno" code="41" icon_popup_on_off="false" />
+        <key code="66" key_type="1" icon_popup_on_off="false" width="17%p">
+            <toggle_state state_id="@string/toggle_enter_go" label="@string/label_toggle_enter_go" code="66" />
+            <toggle_state state_id="@string/toggle_enter_search" code="66" icon="@drawable/search_icon" />
+            <toggle_state state_id="@string/toggle_enter_send" label="@string/label_toggle_enter_send" code="66" />
+            <toggle_state state_id="@string/toggle_enter_next" label="@string/label_toggle_enter_next" code="66" />
+            <toggle_state state_id="@string/toggle_enter_done" label="@string/label_toggle_enter_done" code="66" />
+        </key>
+    </row>
+    <row start_pos_y="50%p" row_id="@string/toggle_row_cn">
+        <key icon="@drawable/moto_tap_icon" hl_icon="@drawable/moto_tap_icon" icon_popup_on_off="false" icon_popup="@drawable/moto_tap_icon" code="-23" key_type="1" width="17%p" />
+        <key label="pqrs" code="44" icon_popup_on_off="false" />
+        <key label="tuv" code="48" icon_popup_on_off="false" />
+        <key label="wxyz" code="51" icon_popup_on_off="false" />
+        <key code="62" key_type="1" hl_icon="@drawable/moto_space_icon" icon_popup_on_off="false" width="17%p" />
+    </row>
+    <row start_pos_y="50%p" row_id="@string/toggle_row_emailaddress">
+        <key icon="@drawable/moto_tap_icon" hl_icon="@drawable/moto_tap_icon" icon_popup_on_off="false" icon_popup="@drawable/moto_tap_icon" code="-23" key_type="1" width="17%p" />
+        <key label="pqrs" code="44" icon_popup_on_off="false" />
+        <key label="tuv" code="48" icon_popup_on_off="false" />
+        <key label="wxyz" code="51" icon_popup_on_off="false" />
+        <key code="62" key_type="1" hl_icon="@drawable/moto_space_icon" icon_popup_on_off="false" width="17%p" />
+    </row>
+    <row start_pos_y="50%p" row_id="@string/toggle_row_uri">
+        <key icon="@drawable/moto_tap_icon" hl_icon="@drawable/moto_tap_icon" icon_popup_on_off="false" icon_popup="@drawable/moto_tap_icon" code="-23" key_type="1" width="17%p" />
+        <key label="pqrs" code="44" icon_popup_on_off="false" />
+        <key label="tuv" code="48" icon_popup_on_off="false" />
+        <key label="wxyz" code="51" icon_popup_on_off="false" />
+        <key code="62" key_type="1" hl_icon="@drawable/moto_space_icon" icon_popup_on_off="false" width="17%p" />
+    </row>
+    <row start_pos_y="75%p" height="25%p">
+        <key code="-24" key_type="1" icon="@drawable/moto_number_icon" hl_icon="@drawable/moto_number_icon" icon_popup_on_off="false" width="17%p" />
+        <key code="-3" icon_popup_on_off="false" icon="@drawable/moto_symbol_icon" hl_icon="@drawable/moto_symbol_icon" icon_popup="@drawable/moto_symbol_popup_icon" key_type="1" />
+        <key label="\'" state_id="@string/toggle_cn_cand" key_type="0" icon_popup_on_off="false" />
+        <key code="-6" key_type="1" icon_popup_on_off="false" icon="@drawable/moto_smiley_icon" hl_icon="@drawable/moto_smiley_icon" icon_popup="@drawable/moto_smiley_popup_icon" />
+        <key code="-25" key_type="1" icon_popup_on_off="false" hl_icon="@drawable/moto_switch_qwerty_icon_normal" icon="@drawable/moto_switch_qwerty_icon_normal" icon_popup="@drawable/moto_switch_popup_icon" width="17%p" />
+    </row>
+</keyboard>

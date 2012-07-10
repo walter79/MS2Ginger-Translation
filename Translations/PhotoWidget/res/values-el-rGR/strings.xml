@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+    <string name="yes">Ναι</string>
+    <string name="no">Όχι</string>
+    <string name="ok">OK</string>
+    <string name="please_wait">Περιμένετε</string>
+    <string name="widget_title">Πλαίσιο εικόνας Plus</string>
+    <string name="widget_description">Εμφανίστε προβολές διαφανειών των πρόσφατων φωτογραφιών σας &amp; τραβήξτε εύκολα κι άλλες</string>
+    <string name="error_dialog">Διένεξη γραφικών στοιχείων</string>
+    <string name="view_label">Προβολή εικόνας</string>
+    <string name="error_description">Διένεξη γραφικών στοιχείων. Μόνο ένα γραφικό στοιχείο προβολής διαφανειών φωτογραφιών μπορεί να προστεθεί στην αρχική οθόνη</string>
+    <string name="app_name">Προβολή διαφανειών φωτογραφιών</string>
+    <string name="gallery_photo_set_failed">Δεν είναι δυνατή η εμφάνιση της επιλεγμένης εικόνας</string>
+    <string name="camera_photo_set_failed">Η τελευταία αποτυπωμένη εικόνα δεν είναι δυνατό να εμφανιστεί</string>
+</resources>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+    <integer name="BuShou_max_lines">5</integer>
+    <integer name="BuShou_max_columns">8</integer>
+    <integer name="load_more_candidates_trigger">15</integer>
+</resources>

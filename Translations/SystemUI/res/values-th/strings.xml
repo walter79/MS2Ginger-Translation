@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+    <string name="app_label">แถบสถานะ</string>
+    <string name="status_bar_clear_all_button">ล้างข้อมูล</string>
+    <string name="status_bar_no_notifications_title">ไม่มีการแจ้งเตือน</string>
+    <string name="status_bar_ongoing_events_title">ดำเนินอยู่</string>
+    <string name="status_bar_latest_events_title">การแจ้งเตือน</string>
+    <string name="battery_low_title">โปรดเสียบอุปกรณ์ชาร์จ</string>
+    <string name="battery_low_subtitle">แบตเตอรี่เหลือน้อย</string>
+    <string name="battery_low_percent_format">เหลือ %d%% หรือน้อยกว่า</string>
+    <string name="battery_low_why">การใช้แบตเตอรี่</string>
+    <string name="usb_accessory_uri_prompt">แอปพลิเคชันที่ติดตั้งใช้กับอุปกรณ์ USB นี้ไม่ได้ เรียนรู้เพิ่มเติมที่ %1$s</string>
+    <string name="title_usb_accessory">อุปกรณ์เสริม USB</string>
+    <string name="label_view">ดู</string>
+    <string name="always_use_accessory">ใช้ค่าเริ่มต้นสำหรับอุปกรณ์เสริม USB นี้</string>
+</resources>

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+    <string name="app_name">MtlrDialog</string>
+    <string name="location_mtlr_notification">ζητά τη θέση σας</string>
+    <string name="location_mtlr_ver_prefix">Το αίτημα θα είναι</string>
+    <string name="location_mtlr_ver_postfix">αν δεν ανταποκριθείτε.</string>
+    <string name="location_mtlr_default_allow">Επιτράπηκε: Αίτημα θέσης</string>
+    <string name="location_mtlr_default_deny">Απορρίφθηκε: Αίτημα θέσης</string>
+    <string name="location_mtlr_network_fail">Το αίτημα τερματίστηκε από το δίκτυο</string>
+    <string name="notification_msg_content">Ζητήθηκε θέση</string>
+    <string name="notification_msg_type_notification">Ζητήθηκε θέση</string>
+    <string name="notification_msg_type_missed">Αναπάντητο αίτημα θέσης</string>
+    <string name="notification_msg_type_title">Ζητήθηκε θέση</string>
+    <string name="notification_request_postfix">ζήτησε τη θέση σας.</string>
+    <string name="notification_dialog_middlefix">ζήτησε τη θέση σας. Η θέση σας</string>
+    <string name="verification_dialog_middlefix">ζήτησε τη θέση σας. Αν αποδεχθείτε αυτό το αίτημα θέσης, επιτρέπετε</string>
+    <string name="notification_dialog_postfix">τον προσδιορισμό της θέσης σας.</string>
+    <string name="missed_verification_dialog_prefix">Ένα αίτημα θέσης από</string>
+    <string name="missed_verification_dialog_middlefix">δεν απαντήθηκε. Η θέση σας</string>
+    <string name="share_status_yes">έχει</string>
+    <string name="share_status_no">δεν έχει</string>
+    <string name="share_string">κοινοποιηθεί σε</string>
+    <string name="toast_accept">θα μπορεί τώρα να προσδιορίσει τη θέση σας.</string>
+    <string name="toast_deny">δεν θα μπορεί να προσδιορίσει τη θέση σας.</string>
+    <string name="connect_terminate_msg">Το αίτημα θέσης ακυρώθηκε από το δίκτυο</string>
+    <string name="accept_ok">OK</string>
+    <string name="button_allow">Να επιτρέπεται</string>
+    <string name="button_deny">Να μην επιτρέπεται</string>
+</resources>

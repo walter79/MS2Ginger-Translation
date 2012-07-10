@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RelativeLayout android:orientation="vertical" android:background="@blur.res:color/msg_background" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <FrameLayout android:id="@id/main_list_contanier" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginTop="1.0dip">
+        <LinearLayout android:orientation="vertical" android:id="@id/list_container" android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <com.motorola.blur.socialmessaging.view.SocialMessagesListView android:id="@android:id/list" android:cacheColorHint="@blur.res:color/msg_background" style="@blur.res:style/Blur.ScrollingList.Long" />
+            <ViewStub android:id="@id/button_bar_stub" android:layout="@blur.res:layout/multi_select_list_button_bar" android:inflatedId="@id/button_bar" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+        </LinearLayout>
+        <RelativeLayout android:id="@id/list_empty" android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <TextView android:id="@id/list_empty_text" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_centerVertical="true" style="@blur.res:style/Blur.PaneAreaTxt" />
+        </RelativeLayout>
+    </FrameLayout>
+    <include android:id="@id/list_header" android:layout_width="fill_parent" android:layout_height="wrap_content" layout="@blur.res:layout/titlebar_list_mode_header" />
+    <View android:background="@android:drawable/title_bar_shadow" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_below="@id/list_header" />
+</RelativeLayout>

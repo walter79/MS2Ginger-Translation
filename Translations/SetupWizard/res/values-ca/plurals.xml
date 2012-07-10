@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+    <plurals name="error_missing_apps_plurals">
+        <item quantity="other">Aquest compte no es pot utilitzar al telèfon perquè li manquen les aplicacions següents: ^1. Contacteu amb l\'administrador del domini de &lt;b>^2&lt;/b> o inicieu la sessió amb un altre compte.</item>
+        <item quantity="one">Aquest compte no es pot utilitzar al telèfon perquè li manca l\'aplicació següent: ^1. Contacteu amb l\'administrador del domini de &lt;b>^2&lt;/b> o inicieu la sessió amb un altre compte.</item>
+    </plurals>
+</resources>

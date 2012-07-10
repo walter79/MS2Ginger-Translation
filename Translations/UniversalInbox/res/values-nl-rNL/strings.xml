@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+    <string name="app_name">Universeel postvak IN</string>
+    <string name="edit_activity_name">Universeel postvak IN bewerken</string>
+    <string name="no_messages">Geen berichten</string>
+    <string name="loading_list">Laden...</string>
+    <string name="multi_media_message">Mms</string>
+    <string name="menu_edit_accounts">Postvak bewerken</string>
+    <string name="menu_settings">Instellingen</string>
+    <string name="delete_threads_confirm_title">Conversaties verwijderen</string>
+    <string name="delete_threads_confirm_message">Uw selectie bevat conversaties. Wilt u deze eveneens verwijderen?</string>
+    <string name="move_error_title">Kan items niet verplaatsen</string>
+    <string name="move_error_message">Alleen e-mailitems van hetzelfde account kunnen naar een map worden verplaatst.</string>
+</resources>

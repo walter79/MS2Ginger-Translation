@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RelativeLayout android:id="@id/card_comment_item_layout" android:layout_width="fill_parent" android:layout_height="wrap_content" android:minHeight="?android:listPreferredItemHeight"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/comment_image" android:paddingRight="@blur.res:dimen/content_area_right_padding" android:layout_alignParentLeft="true" android:layout_alignParentTop="true" style="@style/CardCommentListItem.Image" />
+    <com.motorola.blur.home.widget.CardTextView android:id="@id/comment_name_text" android:layout_toRightOf="@id/comment_image" style="@style/CardCommentListItem.Txt.Bold" />
+    <com.motorola.blur.home.widget.CardTextView android:ellipsize="none" android:id="@id/comment_comment_text" android:layout_below="@id/comment_name_text" android:layout_alignLeft="@id/comment_name_text" style="@style/CardCommentListItem.Txt" />
+    <com.motorola.blur.home.widget.CardTextView android:id="@id/comment_timestamp_text" android:layout_marginTop="8.0dip" android:layout_marginBottom="4.0dip" android:layout_below="@id/comment_comment_text" android:layout_alignLeft="@id/comment_name_text" style="@style/CardCommentListItem.Txt.Timestamp" />
+    <ImageView android:background="@drawable/card_divider_horz" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_below="@id/comment_timestamp_text" />
+</RelativeLayout>

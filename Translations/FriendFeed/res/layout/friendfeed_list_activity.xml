@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:moto.res="http://schemas.android.com/apk/res/com.motorola.android.widget">
+    <ListView android:id="@android:id/list" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginTop="1.0dip" android:layout_alignWithParentIfMissing="true" android:fastScrollEnabled="true" />
+    <LinearLayout android:orientation="horizontal" android:id="@id/list_filter_container" android:background="@com.motorola.android.widget:drawable/header_bkg" android:layout_width="fill_parent" android:layout_height="wrap_content" style="@com.motorola.android.widget:style/Interactive_Titlebar">
+        <Spinner android:layout_gravity="center_vertical" android:id="@id/list_filter" android:background="@com.motorola.android.widget:drawable/int_titlebar_btn_bkg" android:paddingLeft="@dimen/title_bar_padding" android:layout_width="wrap_content" android:layout_height="fill_parent" android:prompt="@string/select" android:layout_weight="1.0" style="@com.motorola.android.widget:style/Interactive_Titlebar.Button" />
+        <ImageView android:id="@id/filter_divider" android:background="@com.motorola.android.widget:drawable/header_divider" android:layout_width="4.0dip" android:layout_height="fill_parent" />
+        <com.motorola.blur.friendfeed.MeToggleButton android:layout_gravity="center_vertical" android:id="@id/me_toggle" style="@style/MeToggleButton" />
+    </LinearLayout>
+    <View android:layout_below="@id/list_filter_container" style="@style/TitleBarDropShadow" />
+    <TextView android:gravity="center" android:id="@android:id/empty" android:layout_width="fill_parent" android:layout_height="fill_parent" android:text="@string/empty" android:layout_below="@id/list_filter" android:layout_alignWithParentIfMissing="true" style="@blur.res:style/Blur.PaneAreaTxt" />
+</RelativeLayout>

@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+    <string name="app_name">信息</string>
+    <string name="loading_widget_name">信息</string>
+    <string name="settings_title">信息小部件</string>
+    <string name="checking">正在检查新信息…</string>
+    <string name="checking_short">正在检查…</string>
+    <string name="delete">删除</string>
+    <string name="go_to_messages">转到信息</string>
+    <string name="go_to_inbox">转到收件箱</string>
+    <string name="no_messages">无新信息</string>
+    <string name="no_messages_short">无近期更新</string>
+    <string name="select_account">选择帐户</string>
+    <string name="no_subject">（无主题）</string>
+    <string name="reply">回复</string>
+    <string name="reply_all">全部回复</string>
+    <string name="show_items">显示条目</string>
+    <string name="services">服务</string>
+    <string name="all_services">所有服务</string>
+    <string name="subject_re_prefix">回复：</string>
+    <string name="text_message">文本信息</string>
+    <string name="widget_name">小部件名称</string>
+    <string name="widget_description">从好友、家人和同事处获取最新信息</string>
+    <string name="msg_did_you_know_title">信息小部件</string>
+    <string name="msg_did_you_know_info">信息小部件将最新电子邮件、文本信息和社交网络信息整合在一个小部件内。\n\n您可以更改每个小部件显示的内容。按菜单键后选择\"设置\"。</string>
+    <string name="wappush_name">浏览器信息</string>
+    <string name="message_download_failed_body">点按以下载内容。</string>
+    <string name="message_widget_touch_to_view">信息已接收。</string>
+    <string name="message_not_available_touch_to_read">信息预览不可用。\n点按此处阅读信息。</string>
+    <string name="message_thread_information">第 %1$d 条未读信息（共 %2$d 条未读信息）</string>
+    <string name="view_message">查看信息</string>
+    <string name="mark_read">标记为已读</string>
+    <string name="mark_unread">标记为未读</string>
+    <string name="contact_info">联系人信息</string>
+    <string name="inbox">收件箱</string>
+    <string name="compose">撰写</string>
+    <string name="more">更多</string>
+    <string name="hide">隐藏</string>
+</resources>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+    <array name="incoming_call_setting_items">
+        <item>@string/always_check_incoming_call</item>
+        <item>@string/always_ignore_incoming_call</item>
+    </array>
+</resources>

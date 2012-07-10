@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+    <string name="app_name">Üzenetkezelés</string>
+    <string name="menu_manage_accounts">Fiókok kezelése</string>
+    <string name="menu_edit_universal_accounts">Általános postaláda szerkesztése</string>
+    <string name="menu_preferences">Üzenetek beállításai</string>
+    <string name="preferences_title">Beállítások</string>
+    <string name="pref_accounts_settings_title">Üzenetek beállításai</string>
+    <string name="text_messaging_settings_label">Szöveges üzenetek</string>
+    <string name="email_settings_label">e-mail</string>
+    <string name="sn_messaging_settings_label">Közösségi üzenetküldés</string>
+</resources>

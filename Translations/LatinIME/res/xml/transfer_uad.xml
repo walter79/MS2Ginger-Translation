@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<PreferenceScreen android:title="@string/setting_transfer_dict_title"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <Preference android:persistent="false" android:title="@string/import_uad_title" android:key="import_dict_key" android:summary="@string/import_uad_summary" />
+    <Preference android:persistent="false" android:title="@string/export_uad_title" android:key="export_dict_key" android:summary="@string/export_uad_summary" />
+</PreferenceScreen>

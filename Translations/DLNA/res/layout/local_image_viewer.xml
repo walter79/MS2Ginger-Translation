@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RelativeLayout android:id="@id/view_layout" android:background="#ff000000" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+      xmlns:android="http://schemas.android.com/apk/res/android">
+        <ImageView android:layout_gravity="center" android:id="@id/imview" android:layout_width="fill_parent" android:layout_height="fill_parent" android:adjustViewBounds="true" />
+    </LinearLayout>
+    <LinearLayout android:orientation="vertical" android:id="@id/player_container_baton" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_alignParentBottom="true"
+      xmlns:android="http://schemas.android.com/apk/res/android">
+        <LinearLayout android:gravity="center" android:orientation="horizontal" android:id="@id/media_button_holder" android:background="@drawable/player_control_bg" android:layout_width="fill_parent" android:layout_height="54.0dip" android:weightSum="3.0"
+          xmlns:android="http://schemas.android.com/apk/res/android">
+            <View android:id="@id/space_consumer_left" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.5" />
+            <ImageView android:id="@id/prev" android:background="@drawable/bg_nowplaying" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ic_btn_media_prev_normal" android:scaleType="center" android:layout_weight="1.0" />
+            <ImageView android:id="@id/pause" android:background="@drawable/bg_nowplaying" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ic_btn_media_pause_normal" android:scaleType="center" android:layout_weight="1.0" />
+            <ImageView android:id="@id/next" android:background="@drawable/bg_nowplaying" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ic_btn_media_next_normal" android:scaleType="center" android:layout_weight="1.0" />
+            <View android:id="@id/space_consumer_right" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.5" />
+        </LinearLayout>
+    </LinearLayout>
+</RelativeLayout>

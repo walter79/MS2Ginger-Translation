@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+    <string name="usb_period">.</string>
+    <string name="usb_ok">確定</string>
+    <string name="usb_cancel">取消</string>
+    <string name="usb_3_periods">...</string>
+    <string name="usb_configure">設定</string>
+    <string name="usb_toast_connecting_to">正在連線 USB</string>
+    <string name="usb_toast_phone_data_disabled">將停用手機資料。</string>
+    <string name="usb_no_memory_card_notification_title">未插入記憶卡</string>
+    <string name="usb_no_memory_card_notification_message_title">記憶卡遺失</string>
+    <string name="usb_no_memory_card_notification_message">請插入記憶卡</string>
+    <string name="usb_selection_notification_title">USB 連線</string>
+    <string name="usb_selection_notification_message">選擇以管理 USB 連線</string>
+    <string name="usb_selection_notification_message_for_modem">輕觸以中斷內部手機資料連線，並重新啟用</string>
+    <string name="usb_connection">USB 連線</string>
+    <string name="usb_tethering_title">網際網路共用已開啟</string>
+    <string name="usb_tethering_message">當 USB 連線用於網際網路連線共用時，將無法切換成不同的 USB 模式</string>
+    <string name="usb_mode_ngp">Motorola 手機入口網站</string>
+    <string name="usb_mode_mtp">Windows Media 同步處理</string>
+    <string name="usb_mode_msc">USB 大型存放區</string>
+    <string name="usb_mode_modem">將手機作為數據機</string>
+    <string name="usb_mode_none">無</string>
+    <string name="usb_toast_insert_card">請插入記憶卡以使用媒體功能。</string>
+    <string name="usb_progress_message">正在切換至</string>
+    <string name="usb_error_message">USB 連線無法變更為</string>
+    <string name="default_usb_disk_name">快閃磁碟</string>
+    <string name="usb_device_plug_title">%1$s 已插入</string>
+    <string name="usb_device_plug_title_no_name">已插入 USB 儲存裝置</string>
+    <string name="usb_device_plug_message">選擇以將檔案複製到裝置，或從裝置複製。</string>
+    <string name="usb_device_checking_title">正在準備 USB 儲存裝置</string>
+    <string name="usb_device_checking_message">正在檢查錯誤...</string>
+    <string name="usb_device_unmountable_title">USB 儲存裝置無法掛載</string>
+    <string name="usb_device_unmountable_message">請檢查 USB 儲存裝置。</string>
+    <string name="usb_device_nofs_title">USB 儲存裝置沒有檔案系統</string>
+    <string name="usb_device_nofs_message">請檢查 USB 儲存裝置。</string>
+    <string name="usb_device_bad_removal_dialog_title">已中斷連線</string>
+    <string name="usb_device_bad_removal_dialog_message">USB 儲存裝置 %1$s 的連線已不當中斷。\n\n請務必先退出裝置，然後再將其拔除。</string>
+    <string name="usb_device_format_dialog_title">格式化 USB 儲存裝置</string>
+    <string name="usb_device_format_dialog_message">請按下 [確定] 以格式化 USB 儲存裝置。 系統將清除所有資料！</string>
+    <string name="usb_device_host_title">USB 儲存裝置</string>
+    <string name="usb_device_host_message">USB 儲存裝置 %1$s 目前已插入。您可以將檔案複製到此裝置，或從此裝置複製。\n\n請務必先退出此裝置，然後再將其拔除。</string>
+    <string name="file_manager">檔案管理員</string>
+    <string name="eject">退出</string>
+</resources>

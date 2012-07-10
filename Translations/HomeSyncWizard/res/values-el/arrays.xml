@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+    <string-array name="wifi_security_entries">
+        <item>Αυτόματη</item>
+        <item>Καμία</item>
+        <item>WEP</item>
+        <item>WPA/WPA2 PSK</item>
+        <item>802.1x Εταιρικό</item>
+    </string-array>
+    <string-array name="wifi_security_without_auto_entries">
+        <item>Καμία</item>
+        <item>WEP</item>
+        <item>WPA/WPA2 PSK</item>
+        <item>802.1x Εταιρικό</item>
+    </string-array>
+    <string-array name="wifi_wep_type">
+        <item>Αυτόματο</item>
+        <item>WEP ASCII</item>
+        <item>WEP δεκαεξαδικός</item>
+    </string-array>
+    <string-array name="wifi_sleep_policy_entries">
+        <item>Όταν η οθόνη απενεργοποιείται</item>
+        <item>Ποτέ όταν είναι συνδεδεμένο</item>
+        <item>Ποτέ</item>
+    </string-array>
+    <string-array name="wifi_eap_entries">
+        <item>PEAP</item>
+        <item>TLS</item>
+        <item>TTLS</item>
+    </string-array>
+    <string-array name="wifi_phase2_entries">
+        <item>Κανένα</item>
+        <item>PAP</item>
+        <item>MSCHAP</item>
+        <item>MSCHAPV2</item>
+        <item>GTC</item>
+    </string-array>
+</resources>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="horizontal" style="@blur.res:style/Blur.TitleBar">
+        <TextView android:id="@id/titlebar_title" android:text="@string/social_network_profile_picture" android:layout_weight="1.0" style="@blur.res:style/Blur.TxtTitleBar" />
+    </LinearLayout>
+    <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_weight="1.0">
+        <LinearLayout android:gravity="center" android:orientation="vertical" android:id="@id/WaitingUI" android:layout_width="@dimen/SOCIALSHARING_SharePhoto_ImgPreviewWidth" android:layout_height="fill_parent" android:layout_marginBottom="@dimen/SOCIALSHARING_WidgetGroupPad">
+            <ProgressBar android:layout_gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:indeterminate="true" />
+        </LinearLayout>
+        <FrameLayout android:gravity="center_horizontal" android:id="@id/PreviewLayout" android:paddingLeft="@dimen/SOCIALSHARING_SharePhoto_PadLeft" android:paddingTop="@dimen/SOCIALSHARING_SharePhoto_PadTop" android:paddingBottom="@dimen/SOCIALSHARING_SharePhoto_PadBottom" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="fill_parent">
+            <LinearLayout android:gravity="center_horizontal" android:layout_width="wrap_content" android:layout_height="fill_parent">
+                <ImageView android:id="@id/SetProfilePhotoPreview" android:layout_width="@dimen/SOCIALSHARING_SharePhoto_ImgPreviewWidth" android:layout_height="@dimen/SOCIALSHARING_SharePhoto_ImgPreviewHeight" android:layout_marginLeft="@dimen/SOCIALSHARING_SharePhoto_ImgPreview_PadLeft_l" android:layout_marginTop="@dimen/SOCIALSHARING_SharePhoto_ImgPreview_PadTop" android:scaleType="centerCrop" android:tint="#77000000" />
+            </LinearLayout>
+            <LinearLayout android:gravity="center_horizontal" android:layout_width="wrap_content" android:layout_height="fill_parent">
+                <TextView android:textAppearance="?android:textAppearanceLargeInverse" android:gravity="center" android:layout_width="@dimen/SOCIALSHARING_SharePhoto_ImgPreviewWidth" android:layout_height="@dimen/SOCIALSHARING_SharePhoto_ImgPreviewHeight" android:layout_marginLeft="@dimen/SOCIALSHARING_SharePhoto_ImgPreview_PadLeft_l" android:layout_marginTop="@dimen/SOCIALSHARING_SharePhoto_ImgPreview_PadTop" android:text="@string/touch_to_crop" />
+            </LinearLayout>
+            <ImageView android:layout_width="fill_parent" android:layout_height="wrap_content" android:src="@drawable/polaroid_single_bg" />
+        </FrameLayout>
+        <RelativeLayout android:paddingTop="@dimen/SOCIALSHARING_SharePhoto_PadTop" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginLeft="@dimen/SOCIALSHARING_SharePhoto_PadLeft">
+            <include layout="@layout/provider_panel" />
+        </RelativeLayout>
+    </LinearLayout>
+    <com.motorola.android.widget.ActionBar android:id="@id/abwidget" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+</LinearLayout>

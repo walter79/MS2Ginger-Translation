@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+    <string name="wallpapers">Papeis de parede de fumaça mágica</string>
+    <string name="wallpaper_magicsmoke">Fumaça mágica</string>
+    <string name="author">Google</string>
+    <string name="magicsmoke_desc">Desenha fumaça, nuvens, água e plasmas.</string>
+    <string name="ok">OK</string>
+    <string name="taptochange">Toque para alterar</string>
+</resources>

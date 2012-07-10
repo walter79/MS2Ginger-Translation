@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+    <string name="qsms_app_name">QuickSms</string>
+    <string name="qsms_manage_title">Berichten bewerken</string>
+    <string name="qsms_add_msg">Berichten</string>
+    <string name="qsms_label_add">Bericht toevoegen</string>
+    <string name="qsms_label_edit">Bericht bewerken</string>
+    <string name="qsms_add">Toevoegen</string>
+    <string name="qsms_ok">OK</string>
+    <string name="qsms_cancel">Annuleren</string>
+    <string name="qsms_save">Opslaan</string>
+    <string name="qsms_yes">Ja</string>
+    <string name="qsms_no">Nee</string>
+    <string name="text_message_reply">Sms/mms-antwoord</string>
+    <string name="write_new">Nieuw bericht maken</string>
+    <string name="no_messages">Geen berichten</string>
+    <string name="sms_sent">Bericht verzonden</string>
+    <string name="message_deleted">Bericht verwijderd</string>
+    <string name="phone_locked">Telefoon vergrendeld</string>
+    <string name="phone_locked_message">Telefoon ontgrendelen om sms/mms te maken</string>
+    <string name="message_overflow">Kan niet meer dan 20 sms/mms-berichten opslaan</string>
+    <string name="turn_off_quicksms">Sms/mms-antwoord uitschakelen</string>
+</resources>

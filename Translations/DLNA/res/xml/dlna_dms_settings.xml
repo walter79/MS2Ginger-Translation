@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<PreferenceScreen android:title="@string/media_share_settings"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <CheckBoxPreference android:persistent="false" android:title="@string/media_share_option" android:key="media_server" />
+    <Preference android:persistent="false" android:title="@string/dlna_my_shared_files" android:key="my_shared_files" />
+    <CheckBoxPreference android:persistent="false" android:title="@string/upload_enable" android:key="upload_enable" android:summary="@string/upload_enable_summary" android:dependency="media_server" />
+    <CheckBoxPreference android:persistent="false" android:title="@string/xbox_enable" android:key="xbox_enable" android:summary="@string/xbox_enable_summary" />
+    <ListPreference android:persistent="true" android:entries="@array/file_sharing_security_entries" android:title="@string/dlna_file_sharing_security" android:key="file_sharing_security" android:summary="@string/file_sharing_security_summary" android:positiveButtonText="@null" android:negativeButtonText="@null" android:entryValues="@array/file_sharing_security_values" />
+    <PreferenceScreen android:title="@string/dlna_trusted_devices" android:key="trusted_devices" android:summary="@string/trusted_devices_summary" />
+    <PreferenceScreen android:title="@string/dlna_banned_devices" android:key="banned_devices" android:summary="@string/banned_devices_summary" />
+</PreferenceScreen>

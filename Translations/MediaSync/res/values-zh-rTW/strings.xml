@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+    <string name="hello">Hello World, MediaSyncAct</string>
+    <string name="app_name">MediaSync</string>
+    <string name="mtpconnecting">媒體同步已連接</string>
+    <string name="unmount_ticker">無 SD 卡</string>
+    <string name="unmount_notify_title">MTP 通知</string>
+    <string name="unmount_notify_detail">請插入記憶卡以使用媒體功能。</string>
+    <string name="unmount_notify">unmount_notify</string>
+    <string name="notification_sent">已收到的 MTP： %1$s</string>
+    <string name="notification_sent_complete">已完成 100%</string>
+    <string name="mtp_connected_title">MTP 已連接</string>
+    <string name="mtp_connected_body">MTP 已連接</string>
+    <string name="unmount_notify_detail_external">無法同步檔案。 無法存取 SD 卡</string>
+    <string name="unmount_notify_detail_internal">無法同步檔案。 無法存取手機內部記憶體</string>
+    <string name="unmount_notify_detail_auto">無法同步檔案。 無法存取 SD 卡和手機內部記憶體</string>
+</resources>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="16.0sp" android:textColor="#ffffffff" android:gravity="right" android:id="@id/msg_thread_information" android:background="#ff808080" android:paddingRight="14.0dip" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+    <ImageView android:id="@id/card_body_image" android:visibility="gone" android:layout_marginLeft="14.0dip" android:layout_marginTop="18.0dip" android:onClick="onClickBodyImage" style="@blur.res:style/CardImage" />
+    <TextView android:autoLink="all" android:id="@id/card_title" style="@blur.res:style/CardBodyTextTitle" />
+    <com.motorola.blur.home.widget.CardTextView android:autoLink="all" android:id="@id/card_body_single" android:layout_width="fill_parent" style="@blur.res:style/CardBodyTextContent" />
+</LinearLayout>

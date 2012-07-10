@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+    <color name="black">#ff000000</color>
+    <color name="tripletwoone">#ff212121</color>
+    <color name="white">#ffffffff</color>
+    <color name="edit_color">#ff000000</color>
+    <color name="view_color">#ff414141</color>
+    <color name="link_color">#ff498ecc</color>
+</resources>

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Keyboard android:keyWidth="@dimen/keyboard_bihua_9_keywidth" android:keyHeight="@dimen/keyboard_bihua_9_keyheight" android:horizontalGap="@dimen/keboard_bell_Gap" android:verticalGap="@dimen/keboard_bell_Gap"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <Row>
+        <Key android:keyWidth="@dimen/keyboard_bihua_9_keywidth_col1to2" android:codes="4149" android:keyEdgeFlags="left" keyIcon="@drawable/chinese_icon_key" showPreview="false" keyBackground="@drawable/function_key_bg" />
+        <Key android:keyWidth="@dimen/keyboard_bihua_9_keywidth_col1to2" android:codes="36880" keyIcon="@drawable/number_icon_key" keyBackground="@drawable/btf_keyboard_key" showPreview="false" />
+        <Key android:codes="49" android:keyLabel="一" />
+        <Key android:codes="50" android:keyLabel="丨" />
+        <Key android:keyWidth="@dimen/keyboard_bihua_9_keywidth_col5" android:codes="51" android:keyLabel="丿" />
+        <Key android:keyWidth="@dimen/keyboard_bihua_9_keywidth_col6" android:codes="4117" keyIcon="@drawable/enter_icon_key" keyBackground="@drawable/btf_keyboard_key" showPreview="false" />
+        <Key android:keyWidth="@dimen/keyboard_bihua_9_keywidth_col7" android:codes="4115" android:keyEdgeFlags="right" android:isRepeatable="true" android:keyIcon="@drawable/moto_delete_icon" keyBackground="@drawable/btd_keyboard_key" showPreview="false" />
+    </Row>
+    <Row android:keyHeight="@dimen/keyboard_bihua_9_keyheight_row2">
+        <Key android:keyWidth="@dimen/keyboard_bihua_9_keywidth_col1to2" android:codes="36877" android:keyEdgeFlags="left" keyIcon="@drawable/itap_icon_key" showPreview="false" keyBackground="@drawable/btf_keyboard_key" />
+        <Key android:keyWidth="@dimen/keyboard_bihua_9_keywidth_col1to2" android:codes="36878" keyIcon="@drawable/tap_icon_key" keyBackground="@drawable/btf_keyboard_key" showPreview="false" />
+        <Key android:codes="52" android:keyLabel="丶" />
+        <Key android:codes="53" android:keyLabel="乛" />
+        <Key android:keyWidth="@dimen/keyboard_bihua_9_keywidth_col5" android:codes="54" android:keyIcon="@drawable/wildcard_icon" />
+        <Key android:keyWidth="@dimen/keyboard_bihua_9_keywidth_space" android:codes="4116" android:keyEdgeFlags="right" android:isRepeatable="true" keyIcon="@drawable/space_icon_key" keyBackground="@drawable/btf_keyboard_key" showPreview="false" />
+    </Row>
+    <Row android:keyHeight="@dimen/keyboard_bihua_9_keyheight_row3">
+        <Key android:keyWidth="@dimen/keyboard_bihua_9_keywidth_col1to2" android:codes="36881" android:keyEdgeFlags="left" keyIcon="@drawable/symbol_icon_key" showPreview="false" keyBackground="@drawable/btf_keyboard_key" />
+        <Key android:keyWidth="@dimen/keyboard_bihua_9_keywidth_col1to2" android:codes="36882" keyIcon="@drawable/smiley_icon_key" showPreview="false" keyBackground="@drawable/btf_keyboard_key" />
+        <Key android:codes="65292" android:keyLabel="，" keyDisableBackground="@drawable/moto_normal_key_bg" />
+        <Key android:codes="12290" android:keyLabel="。" keyDisableBackground="@drawable/moto_normal_key_bg" />
+        <Key android:keyWidth="@dimen/keyboard_bihua_9_keywidth_col5" android:codes="65281" android:keyLabel="！" keyDisableBackground="@drawable/moto_normal_key_bg" />
+        <Key android:keyWidth="@dimen/keyboard_bihua_9_keywidth_col6" android:codes="65311" android:keyLabel="？" keyDisableBackground="@drawable/moto_normal_key_bg" />
+        <Key android:keyWidth="@dimen/keyboard_bihua_9_keywidth_col7" android:codes="36876" android:keyEdgeFlags="right" keyIcon="@drawable/switch_icon_key" showPreview="false" keyBackground="@drawable/btf_keyboard_key" />
+    </Row>
+</Keyboard>

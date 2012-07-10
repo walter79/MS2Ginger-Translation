@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+    <string name="app_name">Nachrichten</string>
+    <string name="loading_widget_name">NACHRICHTEN</string>
+    <string name="settings_title">Nachrichten-Widget</string>
+    <string name="checking">Neue Nachrichten werden gesucht...</string>
+    <string name="checking_short">Prüfung läuft...</string>
+    <string name="delete">Löschen</string>
+    <string name="go_to_messages">Nachrichten-Widget aufrufen</string>
+    <string name="go_to_inbox">Zum Eingang wechseln</string>
+    <string name="no_messages">Keine aktuellen, nicht gesehenen Nachrichten</string>
+    <string name="no_messages_short">Keine aktuellen</string>
+    <string name="select_account">Konto auswählen</string>
+    <string name="no_subject">(Kein Betreff)</string>
+    <string name="reply">Antworten</string>
+    <string name="reply_all">Allen antworten</string>
+    <string name="show_items">Elemente anzeigen für</string>
+    <string name="services">Dienste</string>
+    <string name="all_services">Alle Dienste</string>
+    <string name="subject_re_prefix">AW:</string>
+    <string name="text_message">SMS/MMS</string>
+    <string name="widget_name">Widget-Name</string>
+    <string name="widget_description">Aktuelle Nachrichten von Freunden, Familie und Kollegen abrufen</string>
+    <string name="msg_did_you_know_title">Messaging-Widgets</string>
+    <string name="msg_did_you_know_info">Nachrichten-Widgets zeigen die neuesten E-Mails, SMS/MMS und Mitteilungen aus sozialen Netzwerken zusammengefasst in einem einzelnen Widget an. \n\nSie können das Erscheinungsbild der einzelnen Widgets anpassen. Drücken Sie die Menütaste, und wählen Sie \"Einstellungen\".</string>
+    <string name="message_download_failed_body">Überprüfen Sie die Nachricht, und versuchen Sie es erneut.</string>
+    <string name="message_widget_touch_to_view">Zum Anzeigen der Nachricht antippen.</string>
+    <string name="message_not_available_touch_to_read">Nachrichtenvorschau nicht verfügbar.\nAntippen, um die Nachricht zu lesen.</string>
+    <string name="message_thread_information">%1$d von %2$d ungelesen</string>
+    <string name="view_message">Nachricht anzeigen</string>
+    <string name="mark_read">Als gel. mark.</string>
+    <string name="mark_unread">Als ungelesen markier.</string>
+    <string name="contact_info">Kontaktinformationen</string>
+    <string name="inbox">Posteingang</string>
+    <string name="compose">Schreiben</string>
+    <string name="more">Mehr</string>
+    <string name="hide">Ausblenden</string>
+</resources>

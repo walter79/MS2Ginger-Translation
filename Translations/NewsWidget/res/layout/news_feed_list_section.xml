@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LinearLayout android:gravity="left|center" android:orientation="vertical" android:background="@android:drawable/dark_header" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:id="@id/news_section_name" android:layout_marginLeft="10.0dip" android:layout_marginTop="4.0dip" android:layout_marginRight="10.0dip" android:layout_marginBottom="4.0dip" android:layout_weight="1.0" style="@blur.res:style/Blur.TxtDividerItemA" />
+</LinearLayout>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RelativeLayout android:id="@id/widget_root" android:background="@blur.res:drawable/icon_base_4x1" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include android:id="@id/widget_photo_parent" layout="@layout/sleeve_3x1" />
+    <TextView android:id="@id/widget_message" android:text="@string/unconfig_sn_short" android:layout_toRightOf="@id/widget_photo_parent" style="@style/AddMessage.Horizontal" />
+</RelativeLayout>

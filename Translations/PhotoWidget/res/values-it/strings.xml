@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+    <string name="yes">Sì</string>
+    <string name="no">No</string>
+    <string name="ok">OK</string>
+    <string name="please_wait">Attendi...</string>
+    <string name="widget_title">Cornice foto avanzata</string>
+    <string name="widget_description">Visualizza una presentazione delle tue foto recenti e scattane altre con facilità</string>
+    <string name="error_dialog">Conflitto widget</string>
+    <string name="view_label">Visualizza immagine</string>
+    <string name="error_description">Conflitto widget. È possibile aggiungere un solo widget di presentazione foto alla schermata iniziale</string>
+    <string name="app_name">Presentazione foto</string>
+    <string name="gallery_photo_set_failed">L\'immagine selezionata non può essere visualizzata</string>
+    <string name="camera_photo_set_failed">L\'ultima immagine acquisita non può essere visualizzata</string>
+</resources>

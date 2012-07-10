@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+    <string name="yes">Sim</string>
+    <string name="no">Não</string>
+    <string name="ok">OK</string>
+    <string name="please_wait">Por favor, aguarde.</string>
+    <string name="widget_title">Quadro de foto plus</string>
+    <string name="widget_description">Exiba um slideshow das sua últimas fotos e capture outras rapidamente</string>
+    <string name="error_dialog">Conflito de widget</string>
+    <string name="view_label">Ver foto</string>
+    <string name="error_description">Conflito de widgets. Somente um widget de slideshow de fotos pode ser adicionado à tela inicial.</string>
+    <string name="app_name">Slideshow de imagens</string>
+    <string name="gallery_photo_set_failed">Não é possível exibir a imagem selecionada.</string>
+    <string name="camera_photo_set_failed">Não é possível exibir a última imagem capturada.</string>
+</resources>

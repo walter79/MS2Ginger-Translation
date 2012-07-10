@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LinearLayout android:orientation="horizontal" android:paddingLeft="13.329987dip" android:paddingTop="8.329987dip" android:paddingBottom="8.329987dip" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <CheckedTextView android:gravity="right|center" android:id="@id/multi_picker_list_item_name" android:paddingRight="13.329987dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:checkMark="?android:listChoiceIndicatorMultiple" android:layout_alignParentRight="true" />
+    <RelativeLayout android:id="@id/gallerylayout" android:layout_width="48.0dip" android:layout_height="48.0dip">
+        <ImageView android:id="@id/listicon" android:layout_width="48.0dip" android:layout_height="48.0dip" />
+        <TextView android:id="@id/OpacityBox" android:background="#8a000000" android:visibility="gone" android:layout_width="48.0dip" android:layout_height="48.0dip" android:scaleType="fitXY" android:layout_alignTop="@id/listicon" android:layout_alignBottom="@id/listicon" />
+    </RelativeLayout>
+    <LinearLayout android:orientation="vertical" android:paddingLeft="8.0dip" android:layout_width="wrap_content" android:layout_height="fill_parent">
+        <TextView android:textStyle="bold" android:textColor="?android:textColorPrimary" android:layout_gravity="center_vertical" android:id="@id/listtext1" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_weight="1.0" />
+        <TextView android:textColor="?android:textColorPrimary" android:layout_gravity="center_vertical" android:id="@id/listtext2" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_weight="1.0" />
+        <TextView android:textStyle="italic" android:textColor="?android:textColorPrimary" android:layout_gravity="center_vertical" android:id="@id/computingText" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/TextComputing" android:layout_weight="1.0" />
+    </LinearLayout>
+    <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <View android:id="@id/extraspcae" android:layout_width="0.0dip" android:layout_height="1.0dip" android:layout_weight="16.0" />
+        <ImageView android:layout_gravity="center_vertical" android:id="@id/autokillIcon" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ic_auto_kill" android:layout_weight="1.0" />
+    </LinearLayout>
+</LinearLayout>

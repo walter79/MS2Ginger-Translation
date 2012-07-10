@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+    <string name="yes">是</string>
+    <string name="no">否</string>
+    <string name="ok">確定</string>
+    <string name="please_wait">請稍候</string>
+    <string name="widget_title">附加相框</string>
+    <string name="widget_description">以幻燈片方式顯示最近拍攝的照片並輕鬆拍攝更多照片</string>
+    <string name="error_dialog">小工具發生衝突</string>
+    <string name="view_label">檢視圖片</string>
+    <string name="error_description">小工具衝突。 首頁僅能放置一組照片幻燈片小工具</string>
+    <string name="app_name">照片幻燈片</string>
+    <string name="gallery_photo_set_failed">無法顯示選定影像。</string>
+    <string name="camera_photo_set_failed">無法顯示上次拍攝的影像</string>
+</resources>

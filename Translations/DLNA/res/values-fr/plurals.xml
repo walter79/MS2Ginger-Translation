@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+    <plurals name="NNNtrackstoplayqueue">
+        <item quantity="other">%1$d chansons ajoutées à la file d\'attente de lecture</item>
+        <item quantity="one">1 chanson ajoutée à la file d\'attente de lecture</item>
+    </plurals>
+    <plurals name="NNNdownloaded">
+        <item quantity="other">\u0020éléments téléchargés à partir de\u0020</item>
+        <item quantity="one">\u0020élément téléchargé à partir de\u0020</item>
+    </plurals>
+</resources>

@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:id="@id/pselector" android:background="@android:drawable/menuitem_background" android:focusable="true" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <TextView android:id="@id/data_saver_info" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginLeft="15.0sp" android:layout_marginTop="10.0dip" android:text="@string/data_saver_info" />
+        <View android:id="@id/news_add_edit_tip_divider" android:background="@android:drawable/divider_horizontal_bright" android:layout_width="fill_parent" android:layout_height="1.0dip" android:layout_marginTop="10.0dip" />
+        <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="15.0sp">
+            <TextView android:textAppearance="@android:style/TextAppearance.Large" android:gravity="center" android:layout_gravity="center" android:id="@id/ptitle" android:focusable="false" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/browser" />
+            <LinearLayout android:gravity="right" android:orientation="horizontal" android:id="@id/imglayout" android:background="@android:drawable/menuitem_background" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginRight="15.0dip">
+                <ImageView android:gravity="center_vertical" android:id="@id/infoimg_browser" android:focusable="true" android:clickable="false" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/zz_moto_ic_control_info" android:layout_alignParentRight="true" />
+            </LinearLayout>
+        </LinearLayout>
+        <View android:id="@id/news_add_edit_tip_divider" android:background="@android:drawable/divider_horizontal_bright" android:layout_width="fill_parent" android:layout_height="1.0dip" />
+        <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="15.0sp">
+            <TextView android:textAppearance="@android:style/TextAppearance.Large" android:gravity="center" android:layout_gravity="center" android:id="@id/ptitle" android:focusable="false" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/gallery" />
+            <LinearLayout android:gravity="right" android:orientation="horizontal" android:id="@id/imglayout" android:background="@android:drawable/menuitem_background" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginRight="15.0dip">
+                <ImageView android:gravity="center_vertical" android:id="@id/infoimg_gallery" android:focusable="true" android:clickable="false" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/zz_moto_ic_control_info" android:layout_alignParentRight="true" />
+            </LinearLayout>
+        </LinearLayout>
+        <View android:id="@id/music_add_edit_tip_divider" android:background="@android:drawable/divider_horizontal_bright" android:layout_width="fill_parent" android:layout_height="1.0dip" />
+        <LinearLayout android:orientation="horizontal" android:id="@id/music_player" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="15.0sp">
+            <TextView android:textAppearance="@android:style/TextAppearance.Large" android:gravity="center" android:layout_gravity="center" android:id="@id/ptitle" android:focusable="false" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/music" android:layout_alignParentLeft="true" />
+            <LinearLayout android:gravity="right" android:orientation="horizontal" android:id="@id/imglayout" android:background="@android:drawable/menuitem_background" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginRight="15.0dip">
+                <ImageView android:gravity="center_vertical" android:id="@id/infoimg_music" android:focusable="true" android:clickable="false" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/zz_moto_ic_control_info" android:layout_alignParentRight="true" />
+            </LinearLayout>
+        </LinearLayout>
+        <View android:id="@id/news_add_edit_tip_divider" android:background="@android:drawable/divider_horizontal_bright" android:layout_width="fill_parent" android:layout_height="1.0dip" />
+        <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="15.0sp">
+            <TextView android:textAppearance="@android:style/TextAppearance.Large" android:gravity="center" android:layout_gravity="center" android:id="@id/ptitle" android:focusable="false" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/email" />
+            <LinearLayout android:gravity="right" android:orientation="horizontal" android:id="@id/imglayout" android:background="@android:drawable/menuitem_background" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginRight="15.0dip">
+                <ImageView android:gravity="center_vertical" android:id="@id/infoimg_email" android:focusable="true" android:clickable="false" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/zz_moto_ic_control_info" android:layout_alignParentRight="true" />
+            </LinearLayout>
+        </LinearLayout>
+        <View android:id="@id/news_add_edit_tip_divider" android:background="@android:drawable/divider_horizontal_bright" android:layout_width="fill_parent" android:layout_height="1.0dip" />
+        <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="15.0sp">
+            <TextView android:textAppearance="@android:style/TextAppearance.Large" android:gravity="center" android:layout_gravity="center" android:id="@id/ptitle" android:focusable="false" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/market" />
+            <LinearLayout android:gravity="right" android:orientation="horizontal" android:id="@id/imglayout" android:background="@android:drawable/menuitem_background" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginRight="15.0dip">
+                <ImageView android:gravity="center_vertical" android:id="@id/infoimg_market" android:focusable="true" android:clickable="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/zz_moto_ic_control_info" android:layout_alignParentRight="true" />
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

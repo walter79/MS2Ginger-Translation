@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+    <string name="skip_setup_text">If you skip MOTOBLUR setup some of the features on the phone will not be available.\n\n The phone will remind you to complete setup when a data connection is available or if you try to use an application that requires a MOTOBLUR account.\n\n Clicking Done will end setup and take you to the Home screen.</string>
+</resources>

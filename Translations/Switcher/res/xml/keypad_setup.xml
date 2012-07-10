@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<PreferenceScreen android:title="@string/kp_setting_label" android:key="parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <PreferenceScreen android:title="@string/fuzzy_title" android:key="@string/fuzzy_screen">
+        <intent android:targetPackage="com.motorola.inputmethod.entry" android:action="android.intent.action.MAIN" android:targetClass="com.motorola.inputmethod.entry.FuzzySetup" />
+    </PreferenceScreen>
+    <ListPreference android:persistent="true" android:entries="@array/traditional_chinese_habit_list" android:title="@string/traditional_chinese_habit_title" android:key="@string/pref_traditional_chinese_habit" android:entryValues="@array/traditional_chinese_habit_list_values" />
+    <PreferenceCategory android:title="@string/on_screen_keyboard_settings">
+        <CheckBoxPreference android:persistent="true" android:title="@string/auto_punctuate" android:key="auto_punctuate" android:summary="@string/auto_punctuate_summary" android:defaultValue="@bool/default_auto_punctuate" />
+    </PreferenceCategory>
+    <PreferenceCategory android:title="@string/on_screen_english_keyboard_settings">
+        <CheckBoxPreference android:title="@string/enable_auto_complete_title" android:key="@string/pref_enable_auto_complete" android:summary="@string/enable_auto_complete_summary" />
+        <CheckBoxPreference android:title="@string/enable_auto_cap_title" android:key="@string/pref_enable_auto_cap" android:summary="@string/enable_auto_cap_summary" />
+        <CheckBoxPreference android:title="@string/enable_show_suggestions_title" android:key="@string/pref_enable_show_suggestions" android:summary="@string/enable_show_suggestions_summary" />
+    </PreferenceCategory>
+</PreferenceScreen>

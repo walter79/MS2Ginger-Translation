@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+    <string name="app_name">Download OMA</string>
+    <string name="confirmation">Download arquivo?</string>
+    <string name="filename">Nome:</string>
+    <string name="vendor">Fornecedor:</string>
+    <string name="size">Tamanho:</string>
+    <string name="type">Tipo:</string>
+    <string name="description">Descrição:</string>
+    <string name="vendor_unknown">(desconhecido)</string>
+    <string name="filename_unknown">(desconhecido)</string>
+    <string name="description_not_available">(descrição não disponível)</string>
+    <string name="download_not_acceptable">Não é possível fazer o download. Conteúdo inválido.</string>
+    <string name="download_file_error">Não é possível fazer o download. Não há espaço suficiente.</string>
+    <string name="download_invalid_dd">Não é possível fazer o download. Download do arquivo descritor inválido</string>
+    <string name="download_error">Download falhou</string>
+    <string name="download_failed_generic_dlg_title">Falha no download</string>
+</resources>

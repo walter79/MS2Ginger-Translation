@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+    <string name="app_name">Globalne odłączenie</string>
+    <string name="global_unplug_t">Rozłączona</string>
+    <string name="global_unplug">Wyjmij wtyczkę ładowarki z gniazda sieciowego, aby zaoszczędzić energię.</string>
+</resources>

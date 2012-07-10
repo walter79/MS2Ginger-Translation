@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+    <integer name="BuShou_max_lines">6</integer>
+    <integer name="BuShou_max_columns">6</integer>
+    <integer name="load_more_candidates_trigger">8</integer>
+    <integer name="vibrate_duration_ms">40</integer>
+</resources>

@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+    <string name="txt_pb_reqlic">Datei wird freigegeben...</string>
+    <string name="txt_pb_uploadmet">Nutzungsstatistik wird im Hintergrund gesendet.</string>
+    <string name="txt_content_type_video">Video</string>
+    <string name="txt_content_type_music">Musik</string>
+    <string name="title_lic_expired">Lizenz abgelaufen</string>
+    <string name="title_song_expired">Abgelaufene Titel</string>
+    <string name="title_video_expired">Abgelaufene Videos</string>
+    <string name="title_ringtone_expired">Abgelaufene Klingeltöne</string>
+    <string name="title_file_expired">Dateien ungültig</string>
+    <string name="txt_lic_expired_mpart1">Eine Lizenz für die</string>
+    <string name="txt_lic_expired_mpart2">Datei \" \".</string>
+    <string name="txt_lic_expired_mpart3">Sie müssen ggf. eine neue Lizenz erwerben, um diese Datei weiterhin verwenden zu können.</string>
+    <string name="txt_lic_expired_listview">Wählen Sie unten eine Datei aus, um eine Lizenz zu erwerben.</string>
+    <string name="txt_nt_multi_lic_expired">Zur Wiedergabe dieser Dateien sind zusätzliche Lizenzen erforderlich.</string>
+    <string name="txt_nt_single_lic_expired">Zur Wiedergabe ist eine Lizenz erforderlich.</string>
+    <string name="title_delete_file">Löschen</string>
+    <string name="txt_delete_file">Möchten Sie diese Datei jetzt löschen?</string>
+    <string name="txt_lic_status">ist abgelaufen</string>
+    <string name="title_lic_received">Lizenz erhalten</string>
+    <string name="txt_dlg_lic_received1">Eine Lizenz für die Datei\u0020</string>
+    <string name="txt_dlg_lic_received2">\u0020ist eingegangen. Sie können die Datei jetzt wiedergeben.</string>
+    <string name="txt_nt_single_lic_received">kann jetzt wiedergegeben werden</string>
+    <string name="title_lic_error">Lizenzfehler</string>
+    <string name="txt_lic_error">Der Lizenz-Download ist fehlgeschlagen. Bitte wiederholen Sie den Download.</string>
+    <string name="title_lic_trigger">Lizenzen synchronisieren</string>
+    <string name="txt_lic_trigger">Zur kontinuierlichen Wiedergabe auf diesem Gerät müssen die Lizenzen aktualisiert werden. Möchten Sie die Lizenzen jetzt aktualisieren?</string>
+    <string name="title_met_trigger">Nutzungsbestätigung erforderlich</string>
+    <string name="txt_met_trigger">Der Inhaltsanbieter muss eine Zustimmung einholen, um die Nutzung dieser Inhalte für diesen Künstler zu protokollieren. Möchten Sie dies akzeptieren?</string>
+    <string name="title_sync_pc_license">Lizenzen synchronisieren</string>
+    <string name="txt_sync_pc_license">Zur kontinuierlichen Wiedergabe auf diesem Gerät müssen die Lizenzen aktualisiert werden. Bitte verbinden Sie Ihr Telefon mit einem PC, um die Lizenzen zu aktualisieren.</string>
+    <string name="alert_dialog_yes">JA</string>
+    <string name="alert_dialog_no">Nein</string>
+    <string name="alert_dialog_ok">OK</string>
+    <string name="alert_dialog_play">Wiedergeben</string>
+    <string name="alert_dialog_cancel">Abbrechen</string>
+    <string name="alert_dialog_buy">Erwerben</string>
+    <string name="alert_dialog_close">Schließen</string>
+</resources>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+    <string name="app_label">Mga serbisyo ng VPN</string>
+    <string name="vpn_notification_title_connected">Hindi konektado ang %s VPN</string>
+    <string name="vpn_notification_title_disconnected">Hindi konektado ang %s VPN</string>
+    <string name="vpn_notification_hint_disconnected">Galawin upang muling kumonekta sa VPN.</string>
+</resources>

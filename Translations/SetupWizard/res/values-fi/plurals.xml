@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+    <plurals name="error_missing_apps_plurals">
+        <item quantity="other">Puhelimessa ei voi käyttää tätä tiliä, koska tilistä puuttuu seuraava sovellus: ^1. Ota yhteyttä verkkotunnuksen &lt;b>^2&lt;/b> järjestelmänvalvojaan tai kirjaudu sisään toisen tilin avulla.</item>
+        <item quantity="one">Puhelimessa ei voi käyttää tätä tiliä, koska tilistä puuttuu seuraava sovellus: ^1. Ota yhteyttä verkkotunnuksen &lt;b>^2&lt;/b> järjestelmänvalvojaan tai kirjaudu sisään toisen tilin avulla.</item>
+    </plurals>
+</resources>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+    <string name="app_name">Rapports d\'erreurs d\'effacement général</string>
+    <string name="master_clear_error_continue_button_text">Continuer</string>
+    <string name="master_clear_error_sd_erase_failed_title">Erreur d\'effacement de carte SD</string>
+    <string name="master_clear_error_phone_erase_failed_title">Erreur d\'effacement général</string>
+    <string name="master_clear_error_generic">Problème inconnu</string>
+    <string name="master_clear_error_sd_nodevice">Carte SD introuvable</string>
+    <string name="master_clear_error_sd_readonly">Carte protégée en écriture</string>
+    <string name="master_clear_error_sd_write">Échec d\'écriture</string>
+    <string name="master_clear_error_sd_read">Échec de lecture</string>
+    <string name="master_clear_error_sd_large">Carte trop volumineuse</string>
+    <string name="master_clear_error_phone_generic">L\'opération a échoué.</string>
+    <string name="master_clear_error_sd_activity_name">Rapport d\'effacement de carte SD</string>
+    <string name="master_clear_error_phone_activity_name">Rapport d\'effacement général</string>
+</resources>

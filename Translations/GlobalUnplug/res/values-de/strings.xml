@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+    <string name="app_name">Globales Ausschalten</string>
+    <string name="global_unplug_t">Nicht verbunden</string>
+    <string name="global_unplug">Ziehen Sie das Ladegerät aus der Steckdose, um Energie zu sparen.</string>
+</resources>

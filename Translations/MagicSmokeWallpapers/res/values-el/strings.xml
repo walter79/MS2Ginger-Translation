@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+    <string name="wallpapers">Ταπετσαρίες μαγικού καπνού</string>
+    <string name="wallpaper_magicsmoke">Μαγικός καπνός</string>
+    <string name="author">Google</string>
+    <string name="magicsmoke_desc">Σκιαγραφεί καπνό, σύννεφα, νερό και αέρια.</string>
+    <string name="ok">OK</string>
+    <string name="taptochange">Πατήστε για αλλαγή</string>
+</resources>

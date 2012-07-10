@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+    <string name="app_name">Wszystkie wiadomości</string>
+    <string name="edit_activity_name">Edytuj</string>
+    <string name="no_messages">Brak wiadomości</string>
+    <string name="loading_list">Trwa wczytywanie...</string>
+    <string name="multi_media_message">Wiadomość multimedialna</string>
+    <string name="menu_edit_accounts">Edytuj</string>
+    <string name="menu_settings">Ustawienia</string>
+    <string name="delete_threads_confirm_title">Usuń rozmowy</string>
+    <string name="delete_threads_confirm_message">Wybór zawiera rozmowy. Czy chcesz je także usunąć?</string>
+    <string name="move_error_title">Nie można przenieść elementów</string>
+    <string name="move_error_message">Do folderu można przenosić tylko elementy z tego samego konta.</string>
+</resources>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+    <string name="qsms_app_name">QuickSms</string>
+    <string name="qsms_manage_title">Edytuj wiadomości</string>
+    <string name="qsms_add_msg">Wiadomości</string>
+    <string name="qsms_label_add">Dodaj wiadomość</string>
+    <string name="qsms_label_edit">Edytuj wiadomość</string>
+    <string name="qsms_add">Dodaj</string>
+    <string name="qsms_ok">Ok</string>
+    <string name="qsms_cancel">Anuluj</string>
+    <string name="qsms_save">Zapisz</string>
+    <string name="qsms_yes">Tak</string>
+    <string name="qsms_no">Nie</string>
+    <string name="text_message_reply">Szybka odpowiedź</string>
+    <string name="write_new">Utwórz nową wiadomość</string>
+    <string name="no_messages">Brak wiadomości</string>
+    <string name="sms_sent">Wiadomość została wysłana</string>
+    <string name="message_deleted">Usunięto wiadomość</string>
+    <string name="phone_locked">Telefon został zablokowany</string>
+    <string name="phone_locked_message">Odblokuj telefon, aby utworzyć wiadomość tekstową</string>
+    <string name="message_overflow">W telefonie nie może być zapisanych więcej niż 20 wiadomości</string>
+    <string name="turn_off_quicksms">Wyłącz szybką odpowiedź</string>
+</resources>

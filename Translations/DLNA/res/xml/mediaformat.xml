@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mediaformat>
+    <videos>
+        <video PN="MPEG4_P2_MP4_ASP_AAC" maxbitrate="256000" label="SD" />
+        <video PN="MPEG4_P2_MP4_SP_VGA_AAC" maxbitrate="256000" label="SD" />
+        <video PN="MPEG4_P2_MP4_SP_VGA_HEAAC" maxbitrate="256000" label="SD" />
+        <video PN="AVC_MP4_BL_L3_SD_AAC" maxbitrate="256000" label="SD" />
+        <video PN="AVC_MP4_BL_L3L_SD_AAC" maxbitrate="256000" label="SD" />
+        <video PN="AVC_MP4_BL_L3L_SD_HEAAC" maxbitrate="256000" label="SD" />
+        <video PN="MPEG4_P2_MP4_SP_VGA_HEAAC_res" maxbitrate="256000" label="CIF30" />
+        <video PN="MPEG4_P2_MP4_SP_VGA_AAC_res" maxbitrate="256000" label="CIF30" />
+        <video PN="AVC_MP4_BL_CIF30_HEAAC_L2" maxbitrate="256000" label="CIF30" />
+        <video PN="AVC_MP4_BL_CIF30_HEAACv2_L2" maxbitrate="48000" label="CIF30" />
+        <video PN="AVC_MP4_BL_L2_CIF30_AAC" maxbitrate="128000" label="CIF30" />
+        <video PN="MPEG4_P2_MP4_SP_L2_AAC" maxbitrate="128000" label="CIF15" />
+        <video PN="MPEG4_P2_MP4_SP_L2_AMR" maxbitrate="12200" label="CIF15" />
+        <video PN="MPEG4_P2_MP4_SP_L3_HEAACv2_L2" maxbitrate="128000" label="CIF15" />
+        <video PN="AVC_MP4_BL_CIF15_AAC" maxbitrate="576000" label="CIF15" />
+        <video PN="AVC_MP4_BL_CIF15_AAC_520" maxbitrate="128000" label="CIF15" />
+        <video PN="AVC_MP4_BL_CIF15_AAC_350" maxbitrate="128000" label="CIF15" />
+        <video PN="AVC_MP4_BL_CIF15_HEAAC" maxbitrate="128000" label="CIF15" />
+        <video PN="AVC_MP4_BL_CIF15_HEAAC_350" maxbitrate="128000" label="CIF15" />
+        <video PN="AVC_MP4_BL_CIF15_HEAACv2_L2" maxbitrate="128000" label="CIF15" />
+        <video PN="AVC_MP4_BL_CIF15_AMR" maxbitrate="12200" label="CIF15" />
+        <video PN="AVC_MP4_BL_L12_CIF15_HEAAC" maxbitrate="96000" label="CIF15" />
+        <video PN="AVC_MP4_BL_L12_CIF15_HEAACv2" maxbitrate="96000" label="CIF15" />
+        <video PN="AVC_MP4_BL_L12_CIF15_HEAACv2_350" maxbitrate="128000" label="CIF15" />
+        <video PN="MPEG4_P2_3GPP_SP_L0B_AAC" maxbitrate="128000" label="QCIF15" />
+        <video PN="MPEG4_P2_3GPP_SP_L0B_AMR" maxbitrate="12200" label="QCIF15" />
+        <video PN="MPEG4_P2_MP4_SP_L0B_HEAACv2_L2" maxbitrate="128000" label="QCIF15" />
+        <video PN="MPEG4_H263_3GPP_P0_L10_AMR" maxbitrate="150000" label="QCIF15" />
+        <video PN="MPEG4_H263_3GPP_P0_L45_AMR" maxbitrate="200000" label="QCIF15" />
+        <video PN="MPEG4_H263_MP4_P0_L45_HEAACv2_L2" maxbitrate="200000" label="QCIF15" />
+        <video PN="AVC_3GPP_BL_QCIF15_AAC" maxbitrate="576000" label="QCIF15" />
+        <video PN="AVC_3GPP_BL_QCIF15_HEAAC" maxbitrate="128000" label="QCIF15" />
+        <video PN="AVC_3GPP_BL_QCIF15_AMR" maxbitrate="12200" label="QCIF15" />
+        <video PN="AVC_MP4_BL_L1B_QCIF15_HEAAC" maxbitrate="96000" label="QCIF15" />
+        <video PN="AVC_MP4_BL_L1B_QCIF15_HEAACv2" maxbitrate="96000" label="QCIF15" />
+        <video PN="AVC_3GPP_BL_L1B_QCIF15_AMR" maxbitrate="12200" label="QCIF15" />
+        <video PN="WMVMED_BASE" maxbitrate="12200" label="QCIF15" />
+        <video PN="WMVSPML_BASE" maxbitrate="12200" label="QCIF15" />
+        <video PN="WMVSPLL_BASE" maxbitrate="12200" label="QCIF15" />
+    </videos>
+    <audios>
+        <audio PN="HEAAC_L2_ISO_128" maxbitrate="128000" />
+        <audio PN="HEAACv2_L2_128" maxbitrate="128000" />
+        <audio PN="AAC_ISO_192" maxbitrate="320000" />
+        <audio PN="AAC_ADTS_192" maxbitrate="320000" />
+        <audio PN="AMR_3GPP" maxbitrate="12200" />
+        <audio PN="MP3" maxbitrate="320000" />
+        <audio PN="MP3X" maxbitrate="320000" />
+        <audio PN="AAC_ISO_320" maxbitrate="320000" />
+        <audio PN="WMABASE" maxbitrate="320000" />
+    </audios>
+    <mimes>
+        <mime type="audio/amr" />
+        <mime type="audio/amr-wb" />
+        <mime type="audio/mp4" />
+        <mime type="audio/aac" />
+        <mime type="audio/m4a" />
+        <mime type="audio/3gpp" />
+        <mime type="audio/3gp" />
+        <mime type="audio/mp3" />
+        <mime type="audio/mpeg" />
+        <mime type="audio/x-ms-wma" />
+        <mime type="audio/midi" />
+        <mime type="audio/x-wav" />
+        <mime type="video/x-ms-wmv" />
+        <mime type="video/mp4" />
+        <mime type="video/3gpp" />
+        <mime type="video/3gpp2" />
+        <mime type="video/3gp" />
+        <mime type="video/x-msvideo" />
+        <mime type="video/x-ms-asf" />
+        <mime type="video/mpeg" />
+    </mimes>
+</mediaformat>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+    <string name="yes">Igen</string>
+    <string name="no">Nem</string>
+    <string name="ok">OK</string>
+    <string name="please_wait">Kérjük várjon</string>
+    <string name="widget_title">Képkeret Plus</string>
+    <string name="widget_description">Diavetítés mutatása a nemrég készült fotókról és továbbiak egyszerű elkészítése.</string>
+    <string name="error_dialog">Alkalmazás hiba</string>
+    <string name="view_label">Kép megtekintése</string>
+    <string name="error_description">Alkalmazás hiba. Egyszerre csak egy Foto diavetítés alkalmazást lehet a kezdőoldalon elhelyezni.</string>
+    <string name="app_name">Foto diavetítés</string>
+    <string name="gallery_photo_set_failed">A kijelölt kép nem jeleníthető meg.</string>
+    <string name="camera_photo_set_failed">Az utoljára rögzített kép nem jeleníthető meg.</string>
+</resources>

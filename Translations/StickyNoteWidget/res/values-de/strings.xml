@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+    <string name="app_name">Haftnotiz</string>
+    <string name="widget_body_hint">Zum Bearbeiten antippen...</string>
+    <string name="sticky_note">Haftnotiz</string>
+    <string name="widget_description">Kurze Notiz auf Startbildschirm speichern</string>
+    <string name="title">Titel</string>
+    <string name="note">Notiz</string>
+    <string name="menu_discard">Änderungen verwerfen</string>
+    <string name="menu_save">Speichern</string>
+    <string name="menu_edit">Bearbeiten</string>
+    <string name="menu_share">Weiterleiten</string>
+    <string name="select">Auswählen</string>
+    <string name="widget_load_error">Problem mit Haftnotiz. Bitte löschen.</string>
+    <string name="widget_body_elipse">...</string>
+    <string name="share_note">Notiz weiterleiten</string>
+    <string name="cannot_share">Fehler beim Freigeben der Notiz!</string>
+</resources>

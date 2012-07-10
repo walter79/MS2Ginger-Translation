@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RelativeLayout android:gravity="center_vertical" android:id="@id/sns_unconfigured" android:descendantFocusability="blocksDescendants" android:layout_width="fill_parent" android:layout_height="wrap_content" android:minHeight="?android:listPreferredItemHeight"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageButton android:id="@id/add_sn_icon" android:background="@blur.res:drawable/zz_moto_btn_add_selector" android:clickable="false" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="10.0dip" android:layout_alignParentRight="true" />
+    <TextView android:id="@id/unconfigured_text" android:paddingLeft="@dimen/sns_unconfigured_padding" android:paddingTop="5.0dip" android:paddingRight="10.0dip" android:paddingBottom="5.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_toLeftOf="@id/add_sn_icon" android:layout_alignParentLeft="true" style="@blur.res:style/Blur.TxtListItemA"
+      xmlns:android="http://schemas.android.com/apk/res/android" />
+</RelativeLayout>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+    <string name="app_name">主清除错误报告</string>
+    <string name="master_clear_error_continue_button_text">继续</string>
+    <string name="master_clear_error_sd_erase_failed_title">SD卡清除错误</string>
+    <string name="master_clear_error_phone_erase_failed_title">主清除错误</string>
+    <string name="master_clear_error_generic">未知错误</string>
+    <string name="master_clear_error_sd_nodevice">未找到SD卡</string>
+    <string name="master_clear_error_sd_readonly">SD卡已写保护</string>
+    <string name="master_clear_error_sd_write">写入操作失败</string>
+    <string name="master_clear_error_sd_read">读取操作失败</string>
+    <string name="master_clear_error_sd_large">卡容量太大</string>
+    <string name="master_clear_error_phone_generic">操作失败</string>
+    <string name="master_clear_error_sd_activity_name">SD卡清除报告</string>
+    <string name="master_clear_error_phone_activity_name">主清除报告</string>
+</resources>

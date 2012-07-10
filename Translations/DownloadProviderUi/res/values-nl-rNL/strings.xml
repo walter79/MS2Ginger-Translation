@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+    <string name="download_menu_ringtone">Instellen als beltoon</string>
+    <string name="download_menu_wallpaper">Instellen als</string>
+    <string name="ringtone_set">\'%s\' is ingesteld als de beltoon van de telefoon.</string>
+    <string name="error_occured">Foutmelding. Probeer het opnieuw...</string>
+    <string name="dialog_download_not_acceptable">Kan niet downloaden. De telefoon ondersteunt deze inhoud niet.</string>
+    <string name="download_unsupported">Niet-ondersteund</string>
+</resources>

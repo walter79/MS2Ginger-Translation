@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+    <string name="app_name">Posta in arrivo universale</string>
+    <string name="edit_activity_name">Modifica</string>
+    <string name="no_messages">Nessun messaggio</string>
+    <string name="loading_list">Caricamento...</string>
+    <string name="multi_media_message">Messaggi MMS</string>
+    <string name="menu_edit_accounts">Modifica</string>
+    <string name="menu_settings">Impostazioni</string>
+    <string name="delete_threads_confirm_title">Elimina conversazioni</string>
+    <string name="delete_threads_confirm_message">La selezione contiene conversazioni. Elimina le conversazioni?</string>
+    <string name="move_error_title">Impossibile spostare elementi</string>
+    <string name="move_error_message">È possibile spostare in una cartella solo gli elementi e-mail dello stesso account.</string>
+</resources>

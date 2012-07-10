@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+    <string name="permlab_writeGservices">Scrivi impostazioni Gservices.</string>
+    <string name="permdesc_writeGservices">Consenti all\'applicazione di modificare le impostazioni Gservices.</string>
+    <string name="permlab_tcmdLocal">Usa comandi di test</string>
+    <string name="permdesc_tcmdLocal">Usa comandi di test</string>
+    <string name="settings_storage">Archivio impostazioni</string>
+</resources>

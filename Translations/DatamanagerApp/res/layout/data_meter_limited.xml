@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RelativeLayout android:id="@id/main_layout" android:padding="5.0sp" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="20.0sp" android:textStyle="bold" android:textColor="@color/text_color_primary" android:id="@id/data_meter_label" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/data_meter" android:layout_alignParentLeft="true" android:layout_alignParentTop="true" />
+    <ProgressBar android:id="@id/progressbar" android:layout_below="@id/data_meter_label" android:layout_alignLeft="@id/data_meter_label" style="@style/DataMeter.Green" />
+    <TextView android:textSize="18.0sp" android:textColor="@color/text_color_primary" android:id="@id/data_usage_info" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/unknown" android:layout_below="@id/progressbar" android:layout_alignLeft="@id/progressbar" />
+    <TextView android:textColor="@color/text_color_primary" android:id="@id/last_checked_label" android:paddingTop="10.0sp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/last_checked" android:layout_below="@id/data_usage_info" android:layout_alignLeft="@id/data_usage_info" />
+    <TextView android:textColor="@color/text_color_primary" android:id="@id/last_checked_time" android:paddingLeft="5.0sp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/unknown" android:layout_toRightOf="@id/last_checked_label" android:layout_alignBottom="@id/last_checked_label" />
+    <TextView android:textColor="@color/text_color_primary" android:id="@id/last_checked_date" android:paddingLeft="5.0sp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_toRightOf="@id/last_checked_time" android:layout_alignBottom="@id/last_checked_time" />
+</RelativeLayout>

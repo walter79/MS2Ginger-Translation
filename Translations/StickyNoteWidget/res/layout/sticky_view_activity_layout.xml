@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<FrameLayout android:id="@id/sticky_view_frame" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:id="@id/sticky_view_linear_layout_image" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <ImageView android:id="@id/sticky_view_title_bckgrn_img" android:layout_width="fill_parent" android:layout_height="@dimen/view_title_bckgrn_height" android:scaleType="fitXY" />
+        <ImageView android:id="@id/sticky_view_body_bckgrn_img" android:layout_width="fill_parent" android:layout_height="fill_parent" android:scaleType="fitXY" />
+    </LinearLayout>
+    <ScrollView android:id="@id/textAreaScroller" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <LinearLayout android:orientation="vertical" android:id="@id/sticky_view_linear_layout" android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <TextView android:textSize="@dimen/view_title_textsize" android:textColor="@color/view_color" android:id="@id/sticky_view_title" android:paddingTop="@dimen/view_title_paddingTop" android:layout_width="fill_parent" android:layout_height="wrap_content" android:singleLine="true" style="@blur.res:style/Widget.Content.Vert" />
+            <TextView android:textSize="@dimen/view_body_textsize" android:textColor="@color/view_color" android:textColorLink="@color/link_color" android:autoLink="all" android:id="@id/sticky_view_body" android:paddingTop="@dimen/view_body_paddingTop" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_weight="1.0" style="@blur.res:style/Widget.Content.Vert" />
+        </LinearLayout>
+    </ScrollView>
+</FrameLayout>

@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+    <item type="id" name="badge">false</item>
+    <item type="id" name="card_body">false</item>
+    <item type="id" name="reply">false</item>
+    <item type="id" name="delete">false</item>
+    <item type="id" name="msg_thread_information">false</item>
+    <item type="id" name="card_body_image">false</item>
+    <item type="id" name="card_title">false</item>
+    <item type="id" name="card_body_single">false</item>
+    <item type="id" name="card_badge">false</item>
+    <item type="id" name="card_importance">false</item>
+    <item type="id" name="card_attachment">false</item>
+    <item type="id" name="card_flag">false</item>
+    <item type="id" name="settings_title">false</item>
+    <item type="id" name="settings_done">false</item>
+    <item type="id" name="body">false</item>
+    <item type="id" name="date">false</item>
+    <item type="id" name="widget_title">false</item>
+    <item type="id" name="widget_subject">false</item>
+    <item type="id" name="widget_icon">false</item>
+    <item type="id" name="widget_time">false</item>
+    <item type="id" name="widget_root">false</item>
+    <item type="id" name="sleeve_layout">false</item>
+    <item type="id" name="widget_sleeve_icon">false</item>
+    <item type="id" name="widget_name">false</item>
+    <item type="id" name="loading_progress">false</item>
+    <item type="id" name="widget_photo">false</item>
+    <item type="id" name="content_layout">false</item>
+    <item type="id" name="card_menu_view_message">false</item>
+    <item type="id" name="card_menu_mark_unread">false</item>
+    <item type="id" name="card_menu_contact_info">false</item>
+    <item type="id" name="card_menu_reply">false</item>
+</resources>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+    <style name="PesterDialog" parent="@android:style/Theme.Dialog">
+        <item name="android:windowTitleStyle">@style/PesterWindowTitle</item>
+    </style>
+    <style name="PesterWindowTitle" parent="@android:style/DialogWindowTitle">
+        <item name="android:textAppearance">@style/TextAppearance.PesterWindowTitle</item>
+    </style>
+    <style name="TextAppearance.PesterWindowTitle" parent="@android:style/TextAppearance.DialogWindowTitle">
+        <item name="android:textSize">17.0sp</item>
+    </style>
+</resources>

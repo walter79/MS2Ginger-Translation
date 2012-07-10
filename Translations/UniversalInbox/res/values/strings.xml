@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+    <string name="app_name">Universal Inbox</string>
+    <string name="edit_activity_name">Edit Universal Inbox</string>
+    <string name="no_messages">No messages</string>
+    <string name="loading_list">Loading...</string>
+    <string name="multi_media_message">Multimedia message</string>
+    <string name="menu_edit_accounts">Edit Universal Inbox</string>
+    <string name="menu_settings">Settings</string>
+    <string name="delete_threads_confirm_title">Delete conversations</string>
+    <string name="delete_threads_confirm_message">Your selection contains conversations. Would you like to delete those as well?</string>
+    <string name="move_error_title">Can\'t move items</string>
+    <string name="move_error_message">Only email items from the same account can be moved to a folder.</string>
+</resources>

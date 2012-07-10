@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LinearLayout android:orientation="vertical" android:id="@id/widgetLinearLayoutRoot" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <Gallery android:gravity="fill" android:id="@id/widgetMapGallery" android:layout_width="fill_parent" android:layout_height="@dimen/timezone_gallery_height" />
+    <ScrollView android:id="@id/widgetScrollView" android:scrollbars="vertical" android:layout_width="fill_parent" android:layout_height="@dimen/cities_settings_height">
+        <LinearLayout android:orientation="vertical" android:id="@id/widgetLinearLayoutInScrollView" android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <LinearLayout android:orientation="vertical" android:id="@id/widgetLinearLayoutCity1" android:background="@drawable/widget_worldclock_panel_normal" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <LinearLayout android:orientation="horizontal" android:id="@id/widgetLinearLayoutLine11" android:layout_width="fill_parent" android:layout_height="@dimen/city_line1_height">
+                    <TextView android:textSize="@dimen/city_line1_textsize" android:gravity="left" android:layout_gravity="center_vertical" android:id="@id/widgetCityText" android:layout_width="@dimen/city_width" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/city_leftmargin" android:text="@string/city_1" />
+                    <Spinner android:layout_gravity="center_vertical" android:id="@id/spinnerCityList1" android:layout_width="@dimen/spinner_width" android:layout_height="fill_parent" />
+                </LinearLayout>
+                <LinearLayout android:orientation="horizontal" android:id="@id/widgetLinearLayoutLine12" android:layout_width="fill_parent" android:layout_height="@dimen/city_line2_height">
+                    <TextView android:textSize="@dimen/city_line2_textsize" android:gravity="left" android:layout_gravity="center_vertical" android:id="@id/widgetTimezoneText1" android:layout_width="@dimen/city_width" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/city_leftmargin" android:text="@string/time_zone" />
+                    <Spinner android:layout_gravity="center_vertical" android:id="@id/spinnerTimeZoneList1" android:layout_width="@dimen/spinner_width" android:layout_height="fill_parent" />
+                </LinearLayout>
+                <LinearLayout android:orientation="horizontal" android:id="@id/widgetLinearLayoutLine13" android:layout_width="fill_parent" android:layout_height="@dimen/city_line3_height">
+                    <TextView android:textSize="@dimen/city_line3_textsize" android:gravity="left" android:layout_gravity="center_vertical" android:id="@id/widgetTimeText1" android:layout_width="@dimen/time_title_width" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/city_leftmargin" android:text="@string/time" />
+                    <TextView android:textSize="@dimen/city_line3_textsize" android:gravity="left" android:layout_gravity="center_vertical" android:id="@id/widgetTime1" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/city_leftmargin" android:text="@string/time_default" />
+                    <ImageView android:gravity="bottom" android:id="@id/DstIcon1" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/city_leftmargin" android:layout_marginTop="8.0px" android:src="@drawable/widget_worldclock_daylightsaving" />
+                </LinearLayout>
+                <LinearLayout android:orientation="horizontal" android:id="@id/widgetLinearLayoutLine14" android:layout_width="fill_parent" android:layout_height="@dimen/city_line4_height">
+                    <TextView android:textSize="@dimen/city_line4_textsize" android:gravity="left" android:layout_gravity="center_vertical" android:id="@id/widgetDateText1" android:layout_width="@dimen/time_title_width" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/city_leftmargin" android:text="@string/date" />
+                    <TextView android:textSize="@dimen/city_line4_textsize" android:gravity="left" android:layout_gravity="center_vertical" android:id="@id/widgetDate1" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/city_leftmargin" android:text="@string/date_default" />
+                </LinearLayout>
+            </LinearLayout>
+            <LinearLayout android:gravity="center_vertical" android:orientation="vertical" android:id="@id/checkbox21_layout" android:background="@drawable/widget_worldclock_panel_normal" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <CheckBox android:textSize="@dimen/city_line1_textsize" android:textColor="@android:color/secondary_text_dark" android:id="@id/checkbox21" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/city_leftmargin" android:text="@string/city_2" />
+            </LinearLayout>
+            <LinearLayout android:orientation="vertical" android:id="@id/widgetLinearLayoutCity2" android:background="@drawable/widget_worldclock_panel_normal" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <LinearLayout android:orientation="horizontal" android:id="@id/widgetLinearLayoutLine21" android:layout_width="fill_parent" android:layout_height="@dimen/city_line1_height">
+                    <CheckBox android:textSize="@dimen/city_line1_textsize" android:textColor="@android:color/secondary_text_dark" android:layout_gravity="center_vertical" android:id="@id/checkbox22" android:layout_width="@dimen/city_width" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/city_leftmargin" android:text="@string/city_2" />
+                    <Spinner android:layout_gravity="center_vertical" android:id="@id/spinnerCityList2" android:layout_width="@dimen/spinner_width" android:layout_height="fill_parent" />
+                </LinearLayout>
+                <LinearLayout android:orientation="horizontal" android:id="@id/widgetLinearLayoutLine22" android:layout_width="fill_parent" android:layout_height="@dimen/city_line2_height">
+                    <TextView android:textSize="@dimen/city_line2_textsize" android:gravity="left" android:layout_gravity="center_vertical" android:id="@id/widgetTimeZoneText2" android:layout_width="@dimen/city_width" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/city_leftmargin" android:text="@string/time_zone" />
+                    <Spinner android:layout_gravity="center_vertical" android:id="@id/spinnerTimeZoneList2" android:layout_width="@dimen/spinner_width" android:layout_height="fill_parent" />
+                </LinearLayout>
+                <LinearLayout android:orientation="horizontal" android:id="@id/widgetLinearLayoutLine23" android:layout_width="fill_parent" android:layout_height="@dimen/city_line3_height">
+                    <TextView android:textSize="@dimen/city_line3_textsize" android:gravity="left" android:layout_gravity="center_vertical" android:id="@id/widgetTimeText2" android:layout_width="@dimen/time_title_width" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/city_leftmargin" android:text="@string/time" />
+                    <TextView android:textSize="@dimen/city_line3_textsize" android:gravity="left" android:layout_gravity="center_vertical" android:id="@id/widgetTime2" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/city_leftmargin" android:text="@string/time_default" />
+                    <ImageView android:gravity="bottom" android:id="@id/DstIcon2" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/city_leftmargin" android:layout_marginTop="8.0px" android:src="@drawable/widget_worldclock_daylightsaving" android:baselineAligned="true" />
+                </LinearLayout>
+                <LinearLayout android:orientation="horizontal" android:id="@id/widgetLinearLayoutLine24" android:layout_width="fill_parent" android:layout_height="@dimen/city_line4_height">
+                    <TextView android:textSize="@dimen/city_line4_textsize" android:gravity="left" android:layout_gravity="center_vertical" android:id="@id/widgetDateText2" android:layout_width="@dimen/time_title_width" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/city_leftmargin" android:text="@string/date" />
+                    <TextView android:textSize="@dimen/city_line4_textsize" android:gravity="left" android:layout_gravity="center_vertical" android:id="@id/widgetDate2" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/city_leftmargin" android:text="@string/date_default" />
+                </LinearLayout>
+            </LinearLayout>
+            <LinearLayout android:gravity="center_vertical" android:orientation="vertical" android:id="@id/checkbox31_layout" android:background="@drawable/widget_worldclock_panel_normal" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <CheckBox android:textSize="@dimen/city_line1_textsize" android:textColor="@android:color/secondary_text_dark" android:id="@id/checkbox31" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/city_leftmargin" android:text="@string/city_3" />
+            </LinearLayout>
+            <LinearLayout android:orientation="vertical" android:id="@id/widgetLinearLayoutCity3" android:background="@drawable/widget_worldclock_panel_normal" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <LinearLayout android:orientation="horizontal" android:id="@id/widgetLinearLayoutLine31" android:layout_width="fill_parent" android:layout_height="@dimen/city_line1_height">
+                    <CheckBox android:textSize="@dimen/city_line1_textsize" android:textColor="@android:color/secondary_text_dark" android:layout_gravity="center_vertical" android:id="@id/checkbox32" android:layout_width="@dimen/city_width" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/city_leftmargin" android:text="@string/city_3" />
+                    <Spinner android:layout_gravity="center_vertical" android:id="@id/spinnerCityList3" android:layout_width="@dimen/spinner_width" android:layout_height="fill_parent" />
+                </LinearLayout>
+                <LinearLayout android:orientation="horizontal" android:id="@id/widgetLinearLayoutLine32" android:layout_width="fill_parent" android:layout_height="@dimen/city_line2_height">
+                    <TextView android:textSize="@dimen/city_line2_textsize" android:gravity="left" android:layout_gravity="center_vertical" android:id="@id/widgetTimeZoneText3" android:layout_width="@dimen/city_width" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/city_leftmargin" android:text="@string/time_zone" />
+                    <Spinner android:layout_gravity="center_vertical" android:id="@id/spinnerTimeZoneList3" android:layout_width="@dimen/spinner_width" android:layout_height="fill_parent" />
+                </LinearLayout>
+                <LinearLayout android:orientation="horizontal" android:id="@id/widgetLinearLayoutLine33" android:layout_width="fill_parent" android:layout_height="@dimen/city_line3_height">
+                    <TextView android:textSize="@dimen/city_line3_textsize" android:gravity="left" android:layout_gravity="center_vertical" android:id="@id/widgetTimeText3" android:layout_width="@dimen/time_title_width" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/city_leftmargin" android:text="@string/time" />
+                    <TextView android:textSize="@dimen/city_line3_textsize" android:gravity="left" android:layout_gravity="center_vertical" android:id="@id/widgetTime3" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/city_leftmargin" android:text="@string/time_default" />
+                    <ImageView android:gravity="bottom" android:id="@id/DstIcon3" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/city_leftmargin" android:layout_marginTop="8.0px" android:src="@drawable/widget_worldclock_daylightsaving" android:baselineAligned="true" />
+                </LinearLayout>
+                <LinearLayout android:orientation="horizontal" android:id="@id/widgetLinearLayoutLine34" android:layout_width="fill_parent" android:layout_height="@dimen/city_line4_height">
+                    <TextView android:textSize="@dimen/city_line4_textsize" android:gravity="left" android:layout_gravity="center_vertical" android:id="@id/widgetDateText3" android:layout_width="@dimen/time_title_width" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/city_leftmargin" android:text="@string/date" />
+                    <TextView android:textSize="@dimen/city_line4_textsize" android:gravity="left" android:layout_gravity="center_vertical" android:id="@id/widgetDate3" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/city_leftmargin" android:text="@string/date_default" />
+                </LinearLayout>
+            </LinearLayout>
+            <LinearLayout android:gravity="center_vertical" android:orientation="vertical" android:id="@id/checkbox41_layout" android:background="@drawable/widget_worldclock_panel_normal" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <CheckBox android:textSize="@dimen/city_line1_textsize" android:textColor="@android:color/secondary_text_dark" android:id="@id/checkbox41" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/city_leftmargin" android:text="@string/city_4" />
+            </LinearLayout>
+            <LinearLayout android:orientation="vertical" android:id="@id/widgetLinearLayoutCity4" android:background="@drawable/widget_worldclock_panel_normal" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <LinearLayout android:orientation="horizontal" android:id="@id/widgetLinearLayoutLine41" android:layout_width="fill_parent" android:layout_height="@dimen/city_line1_height">
+                    <CheckBox android:textSize="@dimen/city_line1_textsize" android:textColor="@android:color/secondary_text_dark" android:layout_gravity="center_vertical" android:id="@id/checkbox42" android:layout_width="@dimen/city_width" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/city_leftmargin" android:text="@string/city_4" />
+                    <Spinner android:layout_gravity="center_vertical" android:id="@id/spinnerCityList4" android:layout_width="@dimen/spinner_width" android:layout_height="fill_parent" />
+                </LinearLayout>
+                <LinearLayout android:orientation="horizontal" android:id="@id/widgetLinearLayoutLine42" android:layout_width="fill_parent" android:layout_height="@dimen/city_line2_height">
+                    <TextView android:textSize="@dimen/city_line2_textsize" android:gravity="left" android:layout_gravity="center_vertical" android:id="@id/widgetTimeZoneText4" android:layout_width="@dimen/city_width" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/city_leftmargin" android:text="@string/time_zone" />
+                    <Spinner android:layout_gravity="center_vertical" android:id="@id/spinnerTimeZoneList4" android:layout_width="@dimen/spinner_width" android:layout_height="fill_parent" />
+                </LinearLayout>
+                <LinearLayout android:orientation="horizontal" android:id="@id/widgetLinearLayoutLine43" android:layout_width="fill_parent" android:layout_height="@dimen/city_line3_height">
+                    <TextView android:textSize="@dimen/city_line3_textsize" android:gravity="left" android:layout_gravity="center_vertical" android:id="@id/widgetTimeText4" android:layout_width="@dimen/time_title_width" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/city_leftmargin" android:text="@string/time" />
+                    <TextView android:textSize="@dimen/city_line3_textsize" android:gravity="left" android:layout_gravity="center_vertical" android:id="@id/widgetTime4" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/city_leftmargin" android:text="@string/time_default" />
+                    <ImageView android:gravity="bottom" android:id="@id/DstIcon4" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/city_leftmargin" android:layout_marginTop="8.0px" android:src="@drawable/widget_worldclock_daylightsaving" android:baselineAligned="true" />
+                </LinearLayout>
+                <LinearLayout android:orientation="horizontal" android:id="@id/widgetLinearLayoutLine44" android:layout_width="fill_parent" android:layout_height="@dimen/city_line4_height">
+                    <TextView android:textSize="@dimen/city_line4_textsize" android:gravity="left" android:layout_gravity="center_vertical" android:id="@id/widgetDateText4" android:layout_width="@dimen/time_title_width" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/city_leftmargin" android:text="@string/date" />
+                    <TextView android:textSize="@dimen/city_line4_textsize" android:gravity="left" android:layout_gravity="center_vertical" android:id="@id/widgetDate4" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/city_leftmargin" android:text="@string/date_default" />
+                </LinearLayout>
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

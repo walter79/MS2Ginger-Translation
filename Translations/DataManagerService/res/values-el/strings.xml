@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+    <string name="hello">Καλησπέρα!</string>
+    <string name="app_name">Υπηρ. διαχ. δεδομένων</string>
+    <string name="perm_label">Ενεργοποίηση ορισμού προγράμματος δεδομένων</string>
+    <string name="perm_desc">Επιτρέπει στην εφαρμογή να ορίσει πρόγραμμα δεδομένων στην υπηρεσία διαχείρισης δεδομένων</string>
+    <string name="backgrounddata_warning_message">Για την προστασία του προγράμματος δεδομένων, ο διαχειριστής έχει απενεργοποιήσει τα δεδομένα παρασκηνίου κατά την περιαγωγή.\n\nΑν χρειάζεται, μπορείτε να συγχρονίσετε τα δεδομένα με μη αυτόματο τρόπο κατά την περιαγωγή.</string>
+    <string name="backgrounddata_notification_title">Τα δεδομένα παρασκηνίου είναι απενεργοποιημένα</string>
+    <string name="backgrounddata_dialog_title">Ειδοποίηση δεδομένων παρασκηνίου</string>
+    <string name="backgrounddata_dialog_message">Ο διαχειριστής έχει απενεργοποιήσει τα δεδομένα παρασκηνίου κατά την περιαγωγή.\nΑν χρειάζεται, μπορείτε να συγχρονίσετε τα δεδομένα με μη αυτόματο τρόπο κατά την περιαγωγή.</string>
+    <string name="ok">OK</string>
+</resources>

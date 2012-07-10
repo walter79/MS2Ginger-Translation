@@ -1,0 +1,201 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+    <dimen name="labelTextSize">24.0px</dimen>
+    <dimen name="candidate_scroll_pixel">30.0px</dimen>
+    <dimen name="min_candidate_word_width">65.0px</dimen>
+    <dimen name="enter_button_text_size">22.0px</dimen>
+    <dimen name="keyPreviewOffset">-55.0px</dimen>
+    <dimen name="keyTextSize">40.0px</dimen>
+    <dimen name="settings_font_size">24.0dip</dimen>
+    <dimen name="seekbar_width">350.0dip</dimen>
+    <dimen name="ms_candidate_preview_view_size">120.0px</dimen>
+    <dimen name="ms_candidate_preview_text_size">60.0px</dimen>
+    <dimen name="ms_prediction_preview_text_size">68.0px</dimen>
+    <dimen name="slop_over_tolerance">30.0px</dimen>
+    <dimen name="ms_slop_over_tolerance">20.0px</dimen>
+    <dimen name="handwriting_region_boundary_tolerance">25.0px</dimen>
+    <dimen name="fs_srtroke_confirm_threshold">12.0px</dimen>
+    <dimen name="handwriting_panel_drawing_threshold">15.0px</dimen>
+    <dimen name="boundaryline_padding">5.0px</dimen>
+    <dimen name="send_action_move_event_threshold">12.0px</dimen>
+    <dimen name="app_completion_width">754.0px</dimen>
+    <dimen name="app_completion_height">80.0px</dimen>
+    <dimen name="TextViewTextSize">60.0px</dimen>
+    <dimen name="StaticTextViewWidth">96.0px</dimen>
+    <dimen name="StaticTextViewHeight">95.0px</dimen>
+    <item type="dimen" name="ButtonsFieldHeight">@dimen/screen_height</item>
+    <dimen name="CandidateTextViewGroupWidth">384.0px</dimen>
+    <dimen name="CandidateTextViewGroupHeight">95.0px</dimen>
+    <item type="dimen" name="PredictionTextViewGroupHeight">@dimen/CandidateTextViewGroupHeight</item>
+    <dimen name="CandidateGroupAbsOffsetX">0.0px</dimen>
+    <dimen name="CandidateGroup1AbsOffsetY">379.0px</dimen>
+    <dimen name="CandidateGroup2AbsOffsetY">474.0px</dimen>
+    <dimen name="CandidateGroup3AbsOffsetY">569.0px</dimen>
+    <dimen name="CandidateGroup1ButtonY">0.0px</dimen>
+    <dimen name="CandidateGroup2ButtonY">0.0px</dimen>
+    <item type="dimen" name="CandidateGroup3ButtonY">@dimen/CandidateGroup3AbsOffsetY</item>
+    <item type="dimen" name="PredictionGroupAbsOffsetX">@dimen/CandidateGroupAbsOffsetX</item>
+    <item type="dimen" name="PredictionGroup1AbsOffsetY">@dimen/CandidateGroup2AbsOffsetY</item>
+    <item type="dimen" name="PredictionGroup2AbsOffsetY">@dimen/CandidateGroup3AbsOffsetY</item>
+    <dimen name="PredictionGroup3AbsOffsetY">664.0px</dimen>
+    <dimen name="PredictionGroup1ButtonY">0.0px</dimen>
+    <dimen name="PredictionGroup2ButtonY">0.0px</dimen>
+    <item type="dimen" name="PredictionGroup3ButtonY">@dimen/PredictionGroup3AbsOffsetY</item>
+    <dimen name="CandidateGroup1Button1X">0.0px</dimen>
+    <dimen name="CandidateGroup1Button2X">96.0px</dimen>
+    <dimen name="CandidateGroup1Button3X">192.0px</dimen>
+    <dimen name="CandidateGroup1Button4X">288.0px</dimen>
+    <dimen name="CandidateGroup1Button5X">384.0px</dimen>
+    <item type="dimen" name="PredictionGroup1Button1X">@dimen/CandidateGroup1Button1X</item>
+    <item type="dimen" name="PredictionGroup1Button2X">@dimen/CandidateGroup1Button2X</item>
+    <item type="dimen" name="PredictionGroup1Button3X">@dimen/CandidateGroup1Button3X</item>
+    <item type="dimen" name="PredictionGroup1Button4X">@dimen/CandidateGroup1Button4X</item>
+    <item type="dimen" name="PredictionGroup1Button5X">@dimen/CandidateGroup1Button5X</item>
+    <dimen name="EnglisCompletionGroupAbsX">0.0px</dimen>
+    <dimen name="EnglisCompletionGroupAbsY">284.0px</dimen>
+    <item type="dimen" name="EnglisCompletionGroupWidth">@dimen/CandidateTextViewGroupWidth</item>
+    <dimen name="EnglisCompletionGroupHeight">380.0px</dimen>
+    <item type="dimen" name="EnglisCompletionGroupButtonWidth">@dimen/EnglisCompletionGroupWidth</item>
+    <item type="dimen" name="EnglisCompletionGroupButtonHeight">@dimen/StaticTextViewHeight</item>
+    <dimen name="EnglisCompletionTextViewTextSize">45.0px</dimen>
+    <dimen name="EnglisCompletionButtonX">0.0px</dimen>
+    <dimen name="EnglisCompletionButton1Y">0.0px</dimen>
+    <dimen name="EnglisCompletionButton2Y">95.0px</dimen>
+    <dimen name="EnglisCompletionButton3Y">190.0px</dimen>
+    <dimen name="EnglisCompletionButton4Y">285.0px</dimen>
+    <item type="dimen" name="EnglisCompletionButton5Y">@dimen/PredictionGroup3AbsOffsetY</item>
+    <dimen name="screen_width">480.0px</dimen>
+    <dimen name="screen_height">854.0px</dimen>
+    <item type="dimen" name="content_top_insets">@dimen/CandidateGroup3AbsOffsetY</item>
+    <dimen name="wm_line1_left">192.0px</dimen>
+    <dimen name="wm_line1_top">250.0px</dimen>
+    <item type="dimen" name="wm_line1_right">@dimen/screen_width</item>
+    <item type="dimen" name="wm_line1_bottom">@dimen/CandidateGroup3AbsOffsetY</item>
+    <dimen name="wm_line2_left">288.0px</dimen>
+    <dimen name="wm_line2_top">254.0px</dimen>
+    <item type="dimen" name="wm_line2_right">@dimen/screen_width</item>
+    <item type="dimen" name="wm_line2_bottom">@dimen/CandidateGroup3AbsOffsetY</item>
+    <dimen name="wm_region1_left">20.0px</dimen>
+    <dimen name="wm_region1_top">108.0px</dimen>
+    <dimen name="wm_region1_width">114.0px</dimen>
+    <dimen name="wm_region1_height">108.0px</dimen>
+    <dimen name="wm_region2_left">195.0px</dimen>
+    <item type="dimen" name="wm_region2_top">@dimen/wm_line1_top</item>
+    <dimen name="wm_region2_width">35.0px</dimen>
+    <dimen name="wm_region2_height">75.0px</dimen>
+    <item type="dimen" name="wm_region3_left">@dimen/wm_line2_left</item>
+    <item type="dimen" name="wm_region3_top">@dimen/wm_line2_top</item>
+    <dimen name="wm_region3_width">88.0px</dimen>
+    <dimen name="wm_region3_height">57.0px</dimen>
+    <item type="dimen" name="BS_X_imageview">@dimen/CandidateTextViewGroupWidth</item>
+    <item type="dimen" name="BS_Y_imageview">@dimen/CandidateGroup3AbsOffsetY</item>
+    <item type="dimen" name="BS_W_imageview">@dimen/StaticTextViewWidth</item>
+    <item type="dimen" name="BS_H_imageview">@dimen/StaticTextViewHeight</item>
+    <item type="dimen" name="sym_region_left">@dimen/wm_line2_left</item>
+    <item type="dimen" name="sym_region_top">@dimen/wm_line2_top</item>
+    <item type="dimen" name="sym_region_right">@dimen/screen_width</item>
+    <item type="dimen" name="sym_region_bottom">@dimen/screen_height</item>
+    <item type="dimen" name="eng_region_left">@dimen/wm_line1_left</item>
+    <item type="dimen" name="eng_region_top">@dimen/wm_line1_top</item>
+    <item type="dimen" name="eng_region_right">@dimen/screen_width</item>
+    <item type="dimen" name="eng_region_bottom">@dimen/screen_height</item>
+    <dimen name="can_region_left">0.0px</dimen>
+    <item type="dimen" name="can_region_top">@dimen/CandidateGroup3AbsOffsetY</item>
+    <item type="dimen" name="can_region_right">@dimen/screen_width</item>
+    <item type="dimen" name="can_region_bottom">@dimen/screen_height</item>
+    <dimen name="fun_button_height">95.0px</dimen>
+    <dimen name="fun_button_Y">764.0px</dimen>
+    <dimen name="fun_1_X">0.0px</dimen>
+    <dimen name="fun_1_width">80.0px</dimen>
+    <dimen name="fun_6_width">80.0px</dimen>
+    <item type="dimen" name="fun_3_width">@dimen/fun_1_width</item>
+    <dimen name="LandTextViewTextSize">60.0px</dimen>
+    <dimen name="LandStaticTextViewWidth">95.0px</dimen>
+    <dimen name="LandStaticTextViewHeight">95.0px</dimen>
+    <item type="dimen" name="LandButtonsFieldHeight">@dimen/Lan_screen_height</item>
+    <dimen name="LandCandidateTextViewGroupWidth">475.0px</dimen>
+    <dimen name="LandCandidateTextViewGroupHeight">95.0px</dimen>
+    <dimen name="LandPredictionTextViewGroupWidth">570.0px</dimen>
+    <item type="dimen" name="LandPredictionTextViewGroupHeight">@dimen/LandCandidateTextViewGroupHeight</item>
+    <dimen name="LandCandidateGroupAbsOffsetX">0.0px</dimen>
+    <dimen name="LandCandidateGroup2AbsOffsetY">195.0px</dimen>
+    <dimen name="LandCandidateGroup3AbsOffsetY">290.0px</dimen>
+    <dimen name="LandCandidateGroup2ButtonY">0.0px</dimen>
+    <item type="dimen" name="LandCandidateGroup3ButtonY">@dimen/LandCandidateGroup3AbsOffsetY</item>
+    <item type="dimen" name="LandPredictionGroupAbsOffsetX">@dimen/LandCandidateGroupAbsOffsetX</item>
+    <item type="dimen" name="LandPredictionGroup2AbsOffsetY">@dimen/LandCandidateGroup3AbsOffsetY</item>
+    <dimen name="LandPredictionGroup3AbsOffsetY">385.0px</dimen>
+    <dimen name="LandPredictionGroup2ButtonY">0.0px</dimen>
+    <item type="dimen" name="LandPredictionGroup3ButtonY">@dimen/LandPredictionGroup3AbsOffsetY</item>
+    <dimen name="LandCandidateGroup2Button1X">0.0px</dimen>
+    <dimen name="LandCandidateGroup2Button2X">95.0px</dimen>
+    <dimen name="LandCandidateGroup2Button3X">190.0px</dimen>
+    <dimen name="LandCandidateGroup2Button4X">285.0px</dimen>
+    <dimen name="LandCandidateGroup2Button5X">380.0px</dimen>
+    <item type="dimen" name="LandPredictionGroup2Button1X">@dimen/LandCandidateGroup2Button1X</item>
+    <item type="dimen" name="LandPredictionGroup2Button2X">@dimen/LandCandidateGroup2Button2X</item>
+    <item type="dimen" name="LandPredictionGroup2Button3X">@dimen/LandCandidateGroup2Button3X</item>
+    <item type="dimen" name="LandPredictionGroup2Button4X">@dimen/LandCandidateGroup2Button4X</item>
+    <item type="dimen" name="LandPredictionGroup2Button5X">@dimen/LandCandidateGroup2Button5X</item>
+    <dimen name="LandPredictionGroup2Button6X">475.0px</dimen>
+    <dimen name="LandEnglisCompletionGroupAbsX">0.0px</dimen>
+    <dimen name="LandEnglisCompletionGroupAbsY">5.0px</dimen>
+    <dimen name="LandEnglisCompletionGroupWidth">475.0px</dimen>
+    <dimen name="LandEnglisCompletionGroupHeight">380.0px</dimen>
+    <dimen name="LandEnglisCompletionTextViewTextSize">45.0px</dimen>
+    <item type="dimen" name="LandEnglisCompletionGroupButtonHeight">@dimen/LandStaticTextViewHeight</item>
+    <dimen name="LandEnglisCompletionButtonX">0.0px</dimen>
+    <dimen name="LandEnglisCompletionButton1Y">0.0px</dimen>
+    <dimen name="LandEnglisCompletionButton2Y">95.0px</dimen>
+    <dimen name="LandEnglisCompletionButton3Y">190.0px</dimen>
+    <dimen name="LandEnglisCompletionButton4Y">285.0px</dimen>
+    <item type="dimen" name="LandEnglisCompletionButton5Y">@dimen/LandPredictionGroup3AbsOffsetY</item>
+    <item type="dimen" name="Land_BS_X_imageview">@dimen/LandCandidateTextViewGroupWidth</item>
+    <item type="dimen" name="Land_BS_Y_imageview">@dimen/LandCandidateGroup3AbsOffsetY</item>
+    <item type="dimen" name="Land_BS_W_imageview">@dimen/LandStaticTextViewWidth</item>
+    <item type="dimen" name="Land_BS_H_imageview">@dimen/LandStaticTextViewHeight</item>
+    <item type="dimen" name="Land_PEB_X_imageview">@dimen/LandPredictionGroup2Button6X</item>
+    <item type="dimen" name="Land_PEB_Y_imageview">@dimen/LandPredictionGroup3ButtonY</item>
+    <item type="dimen" name="Land_PEB_W_imageview">@dimen/LandStaticTextViewWidth</item>
+    <item type="dimen" name="Land_PEB_H_imageview">@dimen/LandStaticTextViewHeight</item>
+    <item type="dimen" name="lan_content_top_insets">@dimen/LandCandidateGroup3AbsOffsetY</item>
+    <dimen name="def_verticalCorrection">-10.0px</dimen>
+    <dimen name="def_keyPreviewOffset">-12.0px</dimen>
+    <dimen name="def_keyPreviewHeight">80.0px</dimen>
+    <dimen name="def_labelTextSize">14.0px</dimen>
+    <item type="dimen" name="Lan_sym_region_left">@dimen/Lan_wm_line2_left</item>
+    <item type="dimen" name="Lan_sym_region_top">@dimen/Lan_wm_line2_top</item>
+    <item type="dimen" name="Lan_sym_region_right">@dimen/Lan_screen_width</item>
+    <item type="dimen" name="Lan_sym_region_bottom">@dimen/Lan_screen_height</item>
+    <item type="dimen" name="Lan_eng_region_left">@dimen/Lan_wm_line1_left</item>
+    <item type="dimen" name="Lan_eng_region_top">@dimen/Lan_wm_line1_top</item>
+    <item type="dimen" name="Lan_eng_region_right">@dimen/Lan_screen_width</item>
+    <item type="dimen" name="Lan_eng_region_bottom">@dimen/Lan_screen_height</item>
+    <dimen name="Lan_can_region_left">0.0px</dimen>
+    <item type="dimen" name="Lan_can_region_top">@dimen/LandCandidateGroup3AbsOffsetY</item>
+    <item type="dimen" name="Lan_can_region_right">@dimen/Lan_screen_width</item>
+    <item type="dimen" name="Lan_can_region_bottom">@dimen/Lan_screen_height</item>
+    <dimen name="Lan_screen_width">854.0px</dimen>
+    <dimen name="Lan_screen_height">480.0px</dimen>
+    <dimen name="Lan_wm_line1_left">360.0px</dimen>
+    <dimen name="Lan_wm_line1_top">110.0px</dimen>
+    <item type="dimen" name="Lan_wm_line1_right">@dimen/Lan_screen_width</item>
+    <item type="dimen" name="Lan_wm_line1_bottom">@dimen/LandCandidateGroup3AbsOffsetY</item>
+    <dimen name="Lan_wm_line2_left">570.0px</dimen>
+    <dimen name="Lan_wm_line2_top">160.0px</dimen>
+    <item type="dimen" name="Lan_wm_line2_right">@dimen/Lan_screen_width</item>
+    <item type="dimen" name="Lan_wm_line2_bottom">@dimen/LandCandidateGroup3AbsOffsetY</item>
+    <dimen name="Lan_wm_region1_left">30.0px</dimen>
+    <dimen name="Lan_wm_region1_top">95.0px</dimen>
+    <dimen name="Lan_wm_region2_left">365.0px</dimen>
+    <item type="dimen" name="Lan_wm_region2_top">@dimen/Lan_wm_line1_top</item>
+    <item type="dimen" name="Lan_wm_region3_left">@dimen/Lan_wm_line2_left</item>
+    <item type="dimen" name="Lan_wm_region3_top">@dimen/Lan_wm_line2_top</item>
+    <dimen name="Lan_fun_button_width">95.0px</dimen>
+    <dimen name="Lan_fun_button_width_2">94.0px</dimen>
+    <dimen name="Lan_fun_button_height">95.0px</dimen>
+    <item type="dimen" name="Lan_fun_button_Y">@dimen/LandCandidateGroup3ButtonY</item>
+    <dimen name="Lan_fun_1_X">570.0px</dimen>
+    <dimen name="candidate_bar_height">80.0px</dimen>
+    <dimen name="candidate_arrow_width">50.0px</dimen>
+</resources>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+    <string name="app_name">Εναλλαγή γραφικών στοιχείων</string>
+    <string name="gps_app_name">Εναλλαγή GPS</string>
+    <string name="airplane_app_name">Εναλλαγή λειτουργίας πτήσης</string>
+    <string name="wifi_app_name">Εναλλαγή Wi-Fi</string>
+    <string name="bluetooth_app_name">Εναλλαγή Bluetooth</string>
+    <string name="widget_description">Προβολή και έλεγχος κατάστασης λειτουργίας πτήσης</string>
+    <string name="widget_description_bt">Προβολή και έλεγχος κατάστασης Bluetooth</string>
+    <string name="widget_description_wifi">Προβολή και έλεγχος κατάστασης Wi-Fi</string>
+    <string name="widget_description_gps">Προβολή και έλεγχος κατάστασης GPS</string>
+    <string name="StatusOn">ON</string>
+    <string name="StatusOff">OFF</string>
+    <string name="AirplanetoastText">Η λειτουργία πτήσης δεν είναι διαθέσιμη</string>
+    <string name="BluetoothtoastText">Το Bluetooth δεν είναι διαθέσιμο</string>
+    <string name="GPStoastText">Το GPS δεν είναι διαθέσιμο</string>
+    <string name="WifitoastText">Το Wi-Fi δεν είναι διαθέσιμο</string>
+    <string name="location_restriction_enabled">Ο περιορισμός τοποθεσίας είναι ενεργοποιημένος.</string>
+</resources>

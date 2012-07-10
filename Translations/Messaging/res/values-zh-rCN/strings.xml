@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+    <string name="app_name">信息</string>
+    <string name="menu_manage_accounts">管理帐户</string>
+    <string name="menu_edit_universal_accounts">编辑通用收件箱</string>
+    <string name="menu_preferences">信息设置</string>
+    <string name="preferences_title">“设置”</string>
+    <string name="pref_accounts_settings_title">信息设置</string>
+    <string name="text_messaging_settings_label">文本信息</string>
+    <string name="email_settings_label">电子邮件</string>
+    <string name="sn_messaging_settings_label">社交信息</string>
+</resources>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+    <string name="app_name">Fiók tároló</string>
+    <string name="blur_accounts">Motorola Szolgáltatás Fiókok</string>
+    <string name="email_pretty_name">Email</string>
+    <string name="as_pretty_name">Vállalati Szink.</string>
+    <string name="blur_pretty_name">Motorola Szolgáltatás</string>
+    <string name="yahoo_pretty_name">Yahoo! Mail</string>
+    <string name="email_login_label">Email|myemail@domain.com</string>
+    <string name="as_login_label">Domain\\Username|Domain\\Username</string>
+    <string name="blur_login_label">Email|myemail@domain.com</string>
+    <string name="yahoo_login_label">Email|myemail@yahoo.com</string>
+    <string name="contacts">Kapcsolatok</string>
+</resources>

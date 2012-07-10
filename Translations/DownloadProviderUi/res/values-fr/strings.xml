@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+    <string name="download_menu_ringtone">Définir comme sonnerie</string>
+    <string name="download_menu_wallpaper">Définir comme</string>
+    <string name="ringtone_set">\"%s\" a été défini comme sonnerie.</string>
+    <string name="error_occured">Une erreur est survenue. Veuillez réessayer...</string>
+    <string name="dialog_download_not_acceptable">Impossible d\'effectuer le téléchargement. Le contenu n\'est pas pris en charge sur ce téléphone.</string>
+    <string name="download_unsupported">Non pris en charge</string>
+    <string name="app_label">Téléchargements</string>
+    <string name="download_title">Téléchargements</string>
+    <string name="no_downloads">Aucun téléchargement</string>
+    <string name="missing_title">&lt;Inconnu></string>
+    <string name="download_menu_sort_by_size">Trier par taille</string>
+    <string name="download_menu_sort_by_date">Trier par date</string>
+    <string name="download_queued">Ajouté à la file d\'attente</string>
+    <string name="download_running">En cours…</string>
+    <string name="download_success">Terminé</string>
+    <string name="download_error">Échec</string>
+    <string name="dialog_title_not_available">Échec du téléchargement</string>
+    <string name="dialog_failed_body">Souhaitez-vous réessayer de télécharger le fichier ultérieurement ou préférez-vous le supprimer de la file d\'attente ?</string>
+    <string name="dialog_title_queued_body">Fichier non téléchargé</string>
+    <string name="dialog_queued_body">Ce fichier est mis en file d\'attente et sera téléchargé ultérieurement.</string>
+    <string name="dialog_file_missing_body">Le fichier téléchargé est introuvable.</string>
+    <string name="dialog_insufficient_space_on_external">Impossible de terminer le téléchargement. L\'espace disponible sur le support de stockage externe est insuffisant.</string>
+    <string name="dialog_insufficient_space_on_cache">Impossible de terminer le téléchargement. L\'espace disponible sur le support de stockage interne est insuffisant.</string>
+    <string name="dialog_cannot_resume">Téléchargement interrompu. Impossible de reprendre le téléchargement.</string>
+    <string name="dialog_file_already_exists">Téléchargement impossible. Le fichier de destination existe déjà.</string>
+    <string name="dialog_media_not_found">Téléchargement impossible. Le support externe n\'est pas disponible.</string>
+    <string name="download_no_application_title">Impossible d\'ouvrir le fichier.</string>
+    <string name="remove_download">Supprimer</string>
+    <string name="delete_download">Supprimer</string>
+    <string name="keep_queued_download">Conserver</string>
+    <string name="cancel_running_download">Annuler</string>
+    <string name="retry_download">Réessayer</string>
+    <string name="deselect_all">Annuler la sélection</string>
+</resources>

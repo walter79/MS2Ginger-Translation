@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+    <string-array name="google_voice_input_support_language">
+        <item>en_US</item>
+        <item>en_GB</item>
+        <item>es_ES</item>
+        <item>es_US</item>
+        <item>fr_FR</item>
+        <item>it_IT</item>
+        <item>de_DE</item>
+        <item>pt_BR</item>
+        <item>en_NZ</item>
+    </string-array>
+    <string-array name="supported_input_language_list">
+        <item>cs_CZ</item>
+        <item>de_DE</item>
+        <item>el_GR</item>
+        <item>en_US</item>
+        <item>en_GB</item>
+        <item>en_AU</item>
+        <item>en_NZ</item>
+        <item>es_ES</item>
+        <item>es_US</item>
+        <item>fr_FR</item>
+        <item>fr_CA</item>
+        <item>fr_CH</item>
+        <item>it_IT</item>
+        <item>nl_NL</item>
+        <item>nl_BE</item>
+        <item>pl_PL</item>
+        <item>pt_BR</item>
+        <item>pt_PT</item>
+        <item>ru_RU</item>
+        <item>ro_RO</item>
+        <item>sv_SE</item>
+        <item>tr_TR</item>
+        <item>uk_UA</item>
+    </string-array>
+    <string-array name="prediction_modes">
+        <item>None</item>
+        <item>Basic</item>
+        <item>Advanced</item>
+    </string-array>
+    <string-array name="voice_input_modes">
+        <item>On main keyboard</item>
+        <item>On symbols keyboard</item>
+        <item>Off</item>
+    </string-array>
+    <string-array name="voice_input_modes_summary">
+        <item>Mic on main keyboard</item>
+        <item>Mic on symbols keyboard</item>
+        <item>Voice input is disabled</item>
+    </string-array>
+    <array name="settings_key_modes_values">
+        <item>@string/settings_key_mode_auto</item>
+        <item>@string/settings_key_mode_always_show</item>
+        <item>@string/settings_key_mode_always_hide</item>
+    </array>
+    <array name="settings_key_modes">
+        <item>@string/settings_key_mode_auto_name</item>
+        <item>@string/settings_key_mode_always_show_name</item>
+        <item>@string/settings_key_mode_always_hide_name</item>
+    </array>
+    <array name="prediction_modes_values">
+        <item>@string/prediction_none</item>
+        <item>@string/prediction_basic</item>
+        <item>@string/prediction_full</item>
+    </array>
+    <array name="voice_input_modes_values">
+        <item>@string/voice_mode_main</item>
+        <item>@string/voice_mode_symbols</item>
+        <item>@string/voice_mode_off</item>
+    </array>
+    <array name="keyboard_layout_modes">
+        <item>@string/layout_basic</item>
+        <item>@string/layout_high_contrast</item>
+        <item>@string/layout_stone_normal</item>
+        <item>@string/layout_stone_bold</item>
+        <item>@string/layout_gingerbread</item>
+    </array>
+    <string-array name="keyboard_layout_modes_values">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+    </string-array>
+</resources>

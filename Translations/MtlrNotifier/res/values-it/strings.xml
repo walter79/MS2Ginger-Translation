@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+    <string name="app_name">MtlrDialog</string>
+    <string name="location_mtlr_notification">sta richiedendo la tua posizione</string>
+    <string name="location_mtlr_ver_prefix">La richiesta verrà</string>
+    <string name="location_mtlr_ver_postfix">se non rispondi.</string>
+    <string name="location_mtlr_default_allow">Consentito: richiesta posizione</string>
+    <string name="location_mtlr_default_deny">Negato: richiesta posizione</string>
+    <string name="location_mtlr_network_fail">Richiesta interrotta dalla rete</string>
+    <string name="notification_msg_content">Posizione richiesta</string>
+    <string name="notification_msg_type_notification">Posizione richiesta</string>
+    <string name="notification_msg_type_missed">Posizione richiesta mancante</string>
+    <string name="notification_msg_type_title">Posizione richiesta</string>
+    <string name="notification_request_postfix">ha richiesto la tua posizione.</string>
+    <string name="notification_dialog_middlefix">ha richiesto la tua posizione. La posizione</string>
+    <string name="verification_dialog_middlefix">ha richiesto la tua posizione. Accettando questa richiesta permetterai</string>
+    <string name="notification_dialog_postfix">di identificare la tua posizione.</string>
+    <string name="missed_verification_dialog_prefix">Una richiesta di posizione da</string>
+    <string name="missed_verification_dialog_middlefix">è andata perduta. La tua posizione</string>
+    <string name="share_status_yes">è stata</string>
+    <string name="share_status_no">non è stata</string>
+    <string name="share_string">condivisa con</string>
+    <string name="toast_accept">adesso può stabilire la tua posizione.</string>
+    <string name="toast_deny">non potrà stabilire la tua posizione.</string>
+    <string name="connect_terminate_msg">La richiesta di posizione è stata annullata dalla rete</string>
+    <string name="accept_ok">OK</string>
+    <string name="button_allow">Consenti</string>
+    <string name="button_deny">Rifiuta</string>
+</resources>

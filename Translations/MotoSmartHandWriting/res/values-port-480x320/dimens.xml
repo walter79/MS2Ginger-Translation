@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+    <dimen name="ms_prediction_arrow_width">36.0px</dimen>
+    <dimen name="key_height">55.0px</dimen>
+    <dimen name="key_height_2">55.0px</dimen>
+    <dimen name="key_preview_width">70.0px</dimen>
+    <dimen name="key_preview_height">80.0px</dimen>
+    <item type="dimen" name="enter_button_width">@dimen/fun_1_width</item>
+    <dimen name="ms_content_top_insets">323.0px</dimen>
+    <dimen name="ms_prediction_container_height">44.0px</dimen>
+    <dimen name="ms_prediction_view_height">42.0px</dimen>
+    <dimen name="ms_prediction_view_width">244.0px</dimen>
+    <dimen name="ms_prediction_view_x_gap">5.0px</dimen>
+    <dimen name="ms_prediction_view_text_size">24.0px</dimen>
+    <dimen name="ms_candidate_view_width">320.0px</dimen>
+    <dimen name="ms_candidate_view_height">44.0px</dimen>
+    <dimen name="ms_candidate_width">40.0px</dimen>
+    <dimen name="ms_candidate_height">44.0px</dimen>
+    <dimen name="ms_candidate_padding">1.0px</dimen>
+    <dimen name="ms_candidate_text_size">28.0px</dimen>
+    <dimen name="ms_handwriting_panel_width">210.0px</dimen>
+    <dimen name="ms_handwriting_panel_height">132.0px</dimen>
+    <dimen name="ms_wm_left">131.0px</dimen>
+    <dimen name="ms_wm_top">47.0px</dimen>
+    <dimen name="ms_function_button_width">55.0px</dimen>
+    <dimen name="ms_function_button_height">33.0px</dimen>
+</resources>

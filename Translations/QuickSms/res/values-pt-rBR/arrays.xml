@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+    <string-array name="preload_messages">
+        <item>Retornarei sua ligação em alguns minutos</item>
+        <item>Por favor, ligue-me novamente em alguns minutos</item>
+        <item>Desculpe, não pude atender sua ligação</item>
+    </string-array>
+</resources>

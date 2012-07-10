@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RelativeLayout android:id="@id/widget_root" android:background="@blur.res:drawable/base_1x1" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include android:id="@id/widget_photo_parent" layout="@layout/sleeve_1x1" />
+    <ImageView android:id="@id/widget_karat_icon" android:layout_toRightOf="@id/widget_photo_parent" style="@style/Karat.H" />
+    <TextView android:id="@id/widget_message" android:maxLines="2" android:layout_toRightOf="@id/widget_photo_parent" android:layout_centerVertical="true" style="@style/EmptyMessage.Horizontal" />
+    <ImageView android:id="@id/widget_edit_icon" android:paddingLeft="@dimen/edit_padding_left1" android:layout_toRightOf="@id/widget_photo_parent" android:layout_centerVertical="true" style="@style/EditIcon.Small" />
+</RelativeLayout>

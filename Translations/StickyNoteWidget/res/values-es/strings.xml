@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+    <string name="app_name">Nota adhesiva</string>
+    <string name="widget_body_hint">Pulsar para editar...</string>
+    <string name="sticky_note">Nota</string>
+    <string name="widget_description">Pon una pequeña nota breve en el escritorio</string>
+    <string name="title">Título</string>
+    <string name="note">Nota</string>
+    <string name="menu_discard">Descartar cambios</string>
+    <string name="menu_save">Guardar</string>
+    <string name="menu_edit">Editar</string>
+    <string name="menu_share">Compartir</string>
+    <string name="select">Seleccionar</string>
+    <string name="widget_load_error">Problema con la nota. Bórrala.</string>
+    <string name="widget_body_elipse">...</string>
+    <string name="share_note">Compartir nota</string>
+    <string name="cannot_share">Error al compartir la nota</string>
+</resources>

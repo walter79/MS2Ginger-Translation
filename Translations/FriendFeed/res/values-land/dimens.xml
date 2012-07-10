@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+    <dimen name="widget_unconfig_icon_marginBottom">0.0dip</dimen>
+    <dimen name="widget_width_2x2">167.0px</dimen>
+    <dimen name="widget_width_2x3">363.0px</dimen>
+    <dimen name="widget_width_2x4">363.0px</dimen>
+    <dimen name="widget_width_3x1">194.0px</dimen>
+    <dimen name="widget_width_3x2">167.0px</dimen>
+    <dimen name="widget_width_3x3">255.0px</dimen>
+    <dimen name="widget_width_4x1">194.0px</dimen>
+    <dimen name="widget_width_4x2">167.0px</dimen>
+    <dimen name="widget_height_2x2">220.0px</dimen>
+    <dimen name="widget_height_2x3">181.0px</dimen>
+    <dimen name="widget_height_2x4">181.0px</dimen>
+    <dimen name="widget_height_3x1">110.0px</dimen>
+    <dimen name="widget_height_3x2">220.0px</dimen>
+    <dimen name="widget_height_3x3">330.0px</dimen>
+    <dimen name="widget_height_4x1">110.0px</dimen>
+    <dimen name="widget_height_4x2">220.0px</dimen>
+    <dimen name="photo_3x1">80.0px</dimen>
+    <dimen name="photo_4x1">80.0px</dimen>
+    <dimen name="photo_2x2">129.0px</dimen>
+    <dimen name="photo_2x3">129.0px</dimen>
+    <dimen name="photo_2x4">129.0px</dimen>
+    <dimen name="photo_3x3">141.0px</dimen>
+    <dimen name="photo_3x2">216.0px</dimen>
+    <dimen name="photo_4x2">141.0px</dimen>
+    <dimen name="card_dl_failed_pad_left">15.0dip</dimen>
+    <dimen name="card_photo_full_max_height">130.0dip</dimen>
+</resources>

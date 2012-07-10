@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+    <string-array name="temp_units">
+        <item>摄氏温度</item>
+        <item>华氏温度</item>
+    </string-array>
+    <string-array name="days_of_week">
+        <item>周一</item>
+        <item>周二</item>
+        <item>周三</item>
+        <item>周四</item>
+        <item>周五</item>
+        <item>周六</item>
+        <item>周日</item>
+    </string-array>
+    <string-array name="days_of_week_abbreviated">
+        <item>周一</item>
+        <item>周二</item>
+        <item>周三</item>
+        <item>周四</item>
+        <item>周五</item>
+        <item>周六</item>
+        <item>周日</item>
+    </string-array>
+    <integer-array name="weather_sunny">
+        <item>1</item>
+        <item>2</item>
+        <item>30</item>
+        <item>31</item>
+        <item>32</item>
+    </integer-array>
+    <integer-array name="weather_night">
+        <item>33</item>
+        <item>34</item>
+    </integer-array>
+    <integer-array name="weather_cloudy">
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+        <item>8</item>
+        <item>11</item>
+    </integer-array>
+    <integer-array name="weather_night_cloudy">
+        <item>36</item>
+        <item>37</item>
+        <item>38</item>
+    </integer-array>
+    <integer-array name="weather_pt_cloudy">
+        <item>3</item>
+    </integer-array>
+    <integer-array name="weather_night_pt_cloudy">
+        <item>35</item>
+    </integer-array>
+    <integer-array name="weather_raining">
+        <item>12</item>
+        <item>13</item>
+        <item>14</item>
+        <item>18</item>
+    </integer-array>
+    <integer-array name="weather_night_raining">
+        <item>39</item>
+        <item>40</item>
+    </integer-array>
+    <integer-array name="weather_thunder">
+        <item>15</item>
+        <item>16</item>
+        <item>17</item>
+    </integer-array>
+    <integer-array name="weather_night_thunder">
+        <item>41</item>
+        <item>42</item>
+    </integer-array>
+    <integer-array name="weather_snowing">
+        <item>19</item>
+        <item>20</item>
+        <item>21</item>
+        <item>22</item>
+        <item>23</item>
+        <item>24</item>
+        <item>25</item>
+        <item>26</item>
+        <item>29</item>
+    </integer-array>
+    <integer-array name="weather_night_snowing">
+        <item>43</item>
+        <item>44</item>
+    </integer-array>
+</resources>

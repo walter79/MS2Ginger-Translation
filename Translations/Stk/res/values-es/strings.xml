@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+    <string name="default_open_channel_msg">¿Deseas abrir el canal?</string>
+    <string name="default_send_data_msg">Enviando datos</string>
+    <string name="default_receive_data_msg">Recibiendo datos</string>
+    <string name="default_close_channel_msg">Canal cerrado</string>
+    <string name="app_name">Servicios SIM</string>
+    <string name="menu_end_session">Finalizar sesión</string>
+    <string name="help">Ayuda</string>
+    <string name="menu_back">Anterior</string>
+    <string name="service_name">Nombre de servicio</string>
+    <string name="stk_no_service">Ningún servicio disponible</string>
+    <string name="button_ok">Aceptar</string>
+    <string name="button_cancel">Cancelar</string>
+    <string name="button_yes">Sí</string>
+    <string name="button_no">No</string>
+    <string name="alphabet">Caracteres alfabéticos</string>
+    <string name="digits">Caracteres numéricos (0-9, *, #, +)</string>
+    <string name="default_call_setup_msg">Llamada en curso...</string>
+    <string name="stk_app_state">Estado de la aplicación</string>
+    <string name="enable_app">Habilitado</string>
+    <string name="disable_app">Inhabilitado</string>
+</resources>

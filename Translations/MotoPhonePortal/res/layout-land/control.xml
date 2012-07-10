@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LinearLayout android:orientation="vertical" android:id="@id/LinearLayout0" android:background="@color/black" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:id="@id/CtrlRLayout1" android:background="@color/black" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_weight="50.0">
+        <LinearLayout android:gravity="center" android:orientation="vertical" android:id="@id/LinearLayout1" android:background="@color/black" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_centerInParent="true">
+            <TextView android:textSize="17.0sp" android:textColor="@color/white" android:gravity="bottom|center" android:id="@id/instruction" android:paddingBottom="2.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="10.0dip" />
+            <ImageButton android:id="@id/playPauseBtn" android:background="@drawable/play_btn_background" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerInParent="true" />
+        </LinearLayout>
+    </RelativeLayout>
+    <RelativeLayout android:id="@id/CtrlRLayout2" android:background="@color/black" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_weight="150.0">
+        <ImageView android:id="@id/CONTROL_TEXT_BOX" android:background="@drawable/intro_text_box" android:focusableInTouchMode="true" android:layout_width="fill_parent" android:layout_height="150.0dip" />
+        <LinearLayout android:orientation="vertical" android:id="@id/CONTROL_ACCESS_LLAYOUT" android:visibility="visible" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignLeft="@id/CONTROL_TEXT_BOX" android:layout_alignTop="@id/CONTROL_TEXT_BOX" android:layout_alignRight="@id/CONTROL_TEXT_BOX" android:layout_alignBottom="@id/CONTROL_TEXT_BOX">
+            <TextView android:textSize="17.0sp" android:textColor="@color/white" android:gravity="center" android:id="@id/CONTROL_INSTRUCTION1" android:padding="2.0dip" android:layout_width="fill_parent" android:layout_height="fill_parent" android:text="@string/CONTROL_URL_INSTRUCTION1" android:layout_weight="3.0" />
+            <TextView android:textSize="20.0sp" android:textStyle="bold" android:textColor="@color/white" android:gravity="center" android:id="@id/ACCESS_URL" android:padding="2.0dip" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_weight="3.0" />
+        </LinearLayout>
+    </RelativeLayout>
+</LinearLayout>

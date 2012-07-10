@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+    <string name="app_name">Téléchargement OMA</string>
+    <string name="confirmation">Voulez-vous télécharger le fichier ?</string>
+    <string name="filename">Nom :</string>
+    <string name="vendor">Fournisseur :</string>
+    <string name="size">Taille :</string>
+    <string name="type">Type :</string>
+    <string name="description">Description :</string>
+    <string name="vendor_unknown">(inconnu)</string>
+    <string name="filename_unknown">(inconnu)</string>
+    <string name="description_not_available">(aucune description disponible)</string>
+    <string name="download_not_acceptable">Impossible d\'effectuer le téléchargement. Le contenu n\'est pas pris en charge sur ce téléphone.</string>
+    <string name="download_file_error">Téléchargement interrompu. Espace insuffisant.</string>
+    <string name="download_invalid_dd">Téléchargement interrompu. Le fichier descripteur de téléchargement n\'est pas valide.</string>
+    <string name="download_error">Échec du téléchargement</string>
+    <string name="download_failed_generic_dlg_title">Échec du téléchargement</string>
+</resources>

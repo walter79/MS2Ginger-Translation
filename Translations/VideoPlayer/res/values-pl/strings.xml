@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+    <string name="app_name">Odtwarzacz filmów</string>
+    <string name="Share_menu">Prześlij</string>
+    <string name="Tags_menu">Znaczniki</string>
+    <string name="Delete_menu">Usuń</string>
+    <string name="FullScreen_menu">Dopasuj do ekranu</string>
+    <string name="ActualSize_menu">Rzeczywisty rozmiar</string>
+    <string name="Camera_menu">Aparat</string>
+    <string name="Edit_menu">Edytuj</string>
+    <string name="AdvancedEdit_menu">Edycja zaawansowana</string>
+    <string name="info_menu">Informacje o filmie</string>
+    <string name="TV_menu">Pokaż w telewizorze</string>
+    <string name="Settings_menu">Ustawienia</string>
+    <string name="hdmi_waiting_message">Łączenie z wyjściem HDMI</string>
+    <string name="loading_video">Ładowanie filmu…</string>
+    <string name="sendVideo">Prześlij film przez:</string>
+    <string name="no_way_to_share_video">Nie można udostępnić tego filmu.</string>
+    <string name="no_way_to_edit_video">Nie znaleziono edytora wideo.</string>
+    <string name="resume_playing_title">Wznów film</string>
+    <string name="resume_playing_message">Wznowić odtwarzanie od %1$s ?</string>
+    <string name="resume_playing_resume">Wznów odtwarzanie</string>
+    <string name="resume_playing_restart">Rozpocznij</string>
+    <string name="details_ms">%1$02d:%2$02d</string>
+    <string name="details_hms">%1$d:%2$02d:%3$02d</string>
+    <string name="Error_msg">Nie można wyświetlić lub odtworzyć pliku.</string>
+    <string name="Error_title">Błąd</string>
+    <string name="Delete_title">Usuń</string>
+    <string name="confirm_delete_1_video">Usunąć 1 film?</string>
+    <string name="VIDEO">Wideo</string>
+    <string name="OK_button">Ok</string>
+    <string name="CANCEL_button">Anuluj</string>
+    <string name="connecting">Czekaj, trwa łączenie...</string>
+    <string name="cable_is_not_connected">Kabel HDMI nie został podłączony.</string>
+    <string name="incoming_call_setting_title">Ustawienia połączeń przychodzących</string>
+    <string name="always_check_incoming_call">Zawsze sprawdzaj połączenia przychodzące</string>
+    <string name="always_ignore_incoming_call">Zawsze ignoruj połączenia przychodzące</string>
+    <string name="ok">Ok</string>
+    <string name="discard">Odrzuć</string>
+    <string name="hdmi_blocked_toast">Ta zawartość może być odtwarzana jedynie przez złącze HDMI</string>
+</resources>

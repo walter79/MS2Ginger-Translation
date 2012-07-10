@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RelativeLayout android:id="@id/widget_root" android:background="@blur.res:drawable/base_4x2" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include android:id="@id/widget_photo_parent" layout="@layout/sleeve_4x2" />
+    <TextView android:id="@id/no_recent_text" android:text="@string/no_unseen" android:layout_toRightOf="@id/widget_photo_parent" style="@style/EmptyMessage.Horizontal" />
+</RelativeLayout>

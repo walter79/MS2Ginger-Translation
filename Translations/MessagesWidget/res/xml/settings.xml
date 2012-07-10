@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<PreferenceScreen
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.motorola.blur.util.pref.BlurTextPreference android:persistent="false" android:singleLine="true" android:title="@string/widget_name" android:key="com.motorola.blur.widget.pref.title" android:defaultValue="Messages" />
+    <com.motorola.blur.util.pref.BlurListPreference android:persistent="false" android:entries="@array/show_items" android:title="@string/show_items" android:key="com.motorola.blur.messaging.widget.pref.show_for" android:defaultValue="24" android:dialogTitle="@string/show_items" android:entryValues="@array/show_items_values" />
+    <com.motorola.blur.home.message.ServicesPreference android:title="@string/services" android:key="com.motorola.blur.messaging.widget.pref.services" />
+</PreferenceScreen>

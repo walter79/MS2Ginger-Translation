@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<com.guobi.gbime.CoincidingInfoContainer android:orientation="vertical" android:id="@id/coinciding_container" android:background="@drawable/sym_keyboard_background_portrait" android:padding="0.0dip" android:layout_width="wrap_content" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <Button android:textColor="@android:color/black" android:gravity="center" android:background="@drawable/coinciding_key_bg" android:layout_width="fill_parent" android:layout_height="@dimen/keyboard_zhuyin_9_keyheight" android:text="" android:layout_weight="1.0" />
+    <Button android:textColor="@android:color/black" android:gravity="center" android:background="@drawable/coinciding_key_bg" android:layout_width="fill_parent" android:layout_height="@dimen/keyboard_zhuyin_9_keyheight" android:text="" android:layout_weight="1.0" />
+    <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_weight="1.0">
+        <ImageButton android:gravity="center" android:id="@id/arrow_prev_btn" android:background="@drawable/coinciding_key_bg" android:clickable="false" android:layout_width="@dimen/keyboard_zhuyin_9_keywidth_col1to2" android:layout_height="@dimen/keyboard_zhuyin_9_keyheight" android:src="@drawable/coinciding_arrow_left_land" android:layout_weight="1.0" />
+        <ImageButton android:gravity="center" android:id="@id/arrow_next_btn" android:background="@drawable/coinciding_key_bg" android:clickable="false" android:layout_width="@dimen/keyboard_zhuyin_9_keywidth_col1to2" android:layout_height="@dimen/keyboard_zhuyin_9_keyheight" android:src="@drawable/coinciding_arrow_right_land" android:layout_weight="1.0" />
+    </LinearLayout>
+</com.guobi.gbime.CoincidingInfoContainer>

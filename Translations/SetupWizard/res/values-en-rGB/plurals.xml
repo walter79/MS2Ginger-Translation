@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+    <plurals name="error_missing_apps_plurals">
+        <item quantity="other">This account cannot be used on the phone because it is missing the following applications: ^1. Please contact the domain administrator for &lt;b>^2&lt;/b> or sign in using another account.</item>
+        <item quantity="one">This account cannot be used on the phone because it is missing the following application: ^1. Please contact the domain administrator for &lt;b>^2&lt;/b> or sign in using another account.</item>
+    </plurals>
+</resources>

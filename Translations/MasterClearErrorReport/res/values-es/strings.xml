@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+    <string name="app_name">Inf. de error borrado completo</string>
+    <string name="master_clear_error_continue_button_text">Continuar</string>
+    <string name="master_clear_error_sd_erase_failed_title">Error de borrado de tarjeta SD</string>
+    <string name="master_clear_error_phone_erase_failed_title">Error de borrado completo</string>
+    <string name="master_clear_error_generic">Problema desconocido</string>
+    <string name="master_clear_error_sd_nodevice">No se ha encontrado la tarjeta SD</string>
+    <string name="master_clear_error_sd_readonly">La tarjeta está protegida contra escritura</string>
+    <string name="master_clear_error_sd_write">Error en la operación de escritura</string>
+    <string name="master_clear_error_sd_read">Error en la operación de lectura</string>
+    <string name="master_clear_error_sd_large">Tarjeta demasiado grande</string>
+    <string name="master_clear_error_phone_generic">Error en la operación</string>
+    <string name="master_clear_error_sd_activity_name">Informe de borrado de la tarjeta SD</string>
+    <string name="master_clear_error_phone_activity_name">Informe de eliminación de borrado completo</string>
+</resources>

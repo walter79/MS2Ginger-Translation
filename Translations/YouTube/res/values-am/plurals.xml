@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+    <plurals name="recent_uploads">
+        <item quantity="other">አዲስ ስቀሎች</item>
+        <item quantity="one">አዲስ ስቀል</item>
+    </plurals>
+    <plurals name="recent_activity">
+        <item quantity="other">አዲስ ክስተቶች</item>
+        <item quantity="one">አዲስ ክስተት</item>
+    </plurals>
+    <plurals name="playlist_size">
+        <item quantity="other">%1$,d ቪዲዮዎች</item>
+        <item quantity="one">1 ቪዲዮ</item>
+    </plurals>
+</resources>

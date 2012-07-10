@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LinearLayout android:orientation="vertical" android:background="#ff000000" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:background="@drawable/header_background" android:layout_width="fill_parent" android:layout_height="@dimen/vlingo_voice_button_height" android:src="@drawable/vlingo_logo" android:scaleType="fitCenter" />
+    <LinearLayout android:orientation="vertical" android:id="@id/progress_container" android:background="@drawable/voice_background" android:layout_width="fill_parent" android:layout_height="131.0dip">
+        <TextView android:textSize="20.0sp" android:textColor="#ffffffff" android:gravity="center" android:id="@id/progress_message" android:layout_width="fill_parent" android:layout_height="48.0dip" android:layout_marginTop="-12.0dip" android:text="@string/getting_ready" />
+        <ImageView android:id="@id/progress_animation" android:layout_width="fill_parent" android:layout_height="fill_parent" android:src="@drawable/getting_ready" android:scaleType="fitCenter" />
+    </LinearLayout>
+    <Button android:textSize="20.0sp" android:textColor="#ffffffff" android:gravity="center" android:id="@id/cancel_button" android:background="@drawable/ok_cancel" android:layout_width="fill_parent" android:layout_height="@dimen/vlingo_voice_button_height" android:text="@string/tap_to_stop" />
+</LinearLayout>

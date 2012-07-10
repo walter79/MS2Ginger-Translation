@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+    <string name="app_name">Videoplayer</string>
+    <string name="Share_menu">Weiterleiten</string>
+    <string name="Tags_menu">Tags</string>
+    <string name="Delete_menu">Löschen</string>
+    <string name="FullScreen_menu">Vollbild</string>
+    <string name="ActualSize_menu">Tatsächliche Größe</string>
+    <string name="Camera_menu">Kamera</string>
+    <string name="Edit_menu">Bearbeiten</string>
+    <string name="AdvancedEdit_menu">Erweitert</string>
+    <string name="info_menu">Videoinfo</string>
+    <string name="TV_menu">Im TV anzeigen</string>
+    <string name="Settings_menu">Einstellungen</string>
+    <string name="hdmi_waiting_message">Mit HDMI verbinden</string>
+    <string name="loading_video">Video wird geladen...</string>
+    <string name="sendVideo">Video weiterleiten via</string>
+    <string name="no_way_to_share_video">Dieses Video kann nicht weitergeleitet werden.</string>
+    <string name="no_way_to_edit_video">Kein Videoeditor gefunden.</string>
+    <string name="resume_playing_title">Video fortsetzen</string>
+    <string name="resume_playing_message">Wiedergabe ab %1$s fortsetzen?</string>
+    <string name="resume_playing_resume">Wiedergabe fortsetzen</string>
+    <string name="resume_playing_restart">Neu starten</string>
+    <string name="details_ms">%1$02d:%2$02d</string>
+    <string name="details_hms">%1$d:%2$02d:%3$02d</string>
+    <string name="Error_msg">Datei kann weder angezeigt noch abgespielt werden.</string>
+    <string name="Error_title">Fehler</string>
+    <string name="Delete_title">Löschen</string>
+    <string name="confirm_delete_1_video">1 Video löschen?</string>
+    <string name="VIDEO">Video</string>
+    <string name="OK_button">OK</string>
+    <string name="CANCEL_button">Abbrechen</string>
+    <string name="connecting">Die Verbindung wird hergestellt. Bitte warten...</string>
+    <string name="cable_is_not_connected">HDMI-Kabel ist nicht angeschlossen.</string>
+    <string name="incoming_call_setting_title">Einstellung für eingehende Anrufe</string>
+    <string name="always_check_incoming_call">Eingehende Anrufe immer prüfen</string>
+    <string name="always_ignore_incoming_call">Eingehende Anrufe immer ignorieren</string>
+    <string name="ok">OK</string>
+    <string name="discard">Verwerfen</string>
+    <string name="hdmi_blocked_toast">Dieser Inhalt kann nicht über HDMI wiedergegeben werden.</string>
+</resources>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+    <plurals name="error_missing_apps_plurals">
+        <item quantity="other">Tālrunī nevar izmantot šo kontu, jo tam nav šādu lietojumprogrammu: ^1. Lūdzu, sazinieties ar domēna &lt;b>^2&lt;/b> administratoru vai pierakstieties, izmantojot citu kontu.</item>
+        <item quantity="one">Tālrunī nevar izmantot šo kontu, jo tam nav šādas lietojumprogrammas: ^1. Lūdzu, sazinieties ar domēna &lt;b>^2&lt;/b> administratoru vai pierakstieties, izmantojot citu kontu.</item>
+    </plurals>
+</resources>

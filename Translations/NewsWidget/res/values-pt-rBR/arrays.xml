@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+    <string-array name="show_items">
+        <item>1 dia</item>
+        <item>2 dias</item>
+        <item>3 dias</item>
+        <item>1 semana</item>
+        <item>1 mês</item>
+        <item>Até o limite máximo da memória</item>
+    </string-array>
+</resources>

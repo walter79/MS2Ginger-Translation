@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+    <string name="app_name">Messages</string>
+    <string name="loading_widget_name">MESSAGES</string>
+    <string name="settings_title">Messages widget</string>
+    <string name="checking">Checking for new messages...</string>
+    <string name="checking_short">Checking...</string>
+    <string name="delete">Delete</string>
+    <string name="go_to_messages">Go to messaging</string>
+    <string name="go_to_inbox">Go to inbox</string>
+    <string name="no_messages">No recent unseen messages</string>
+    <string name="no_messages_short">No recent</string>
+    <string name="select_account">Select account</string>
+    <string name="no_subject">(No subject)</string>
+    <string name="reply">Reply</string>
+    <string name="reply_all">Reply all</string>
+    <string name="show_items">Show items for</string>
+    <string name="services">Services</string>
+    <string name="all_services">All services</string>
+    <string name="subject_re_prefix">Re:</string>
+    <string name="text_message">Text message</string>
+    <string name="widget_name">Widget name</string>
+    <string name="widget_description">Get the latest messages from friends, family and colleagues</string>
+    <string name="msg_did_you_know_title">Messaging widgets</string>
+    <string name="msg_did_you_know_info">Messaging widgets show the latest emails, text messages and social network messages all together in a single widget. \n\nYou can change what appears in each widget. Press the Menu key and choose \"Settings\".</string>
+    <string name="message_download_failed_body">Select message and try again.</string>
+    <string name="message_widget_touch_to_view">Touch to view message.</string>
+    <string name="message_not_available_touch_to_read">Message preview not available.\nTouch here to read the message.</string>
+    <string name="message_thread_information">%1$d of %2$d unread</string>
+    <string name="view_message">View message</string>
+    <string name="mark_read">Mark read</string>
+    <string name="mark_unread">Mark unread</string>
+    <string name="contact_info">Contact info</string>
+    <string name="inbox">Inbox</string>
+    <string name="compose">Compose</string>
+    <string name="more">More</string>
+    <string name="hide">Hide</string>
+</resources>

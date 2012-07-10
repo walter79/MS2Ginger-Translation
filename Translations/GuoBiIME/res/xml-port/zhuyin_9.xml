@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Keyboard android:keyWidth="@dimen/keyboard_zhuyin_9_keywidth" android:keyHeight="@dimen/keyboard_zhuyin_9_keyheight" android:horizontalGap="@dimen/keboard_bell_Gap" android:verticalGap="@dimen/keboard_bell_Gap"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <Row>
+        <Key android:keyWidth="@dimen/keyboard_zhuyin_9_keywidth_col1and5" android:codes="4149" android:keyEdgeFlags="left" keyIcon="@drawable/chinese_icon_key" keyBackground="@drawable/function_key_hl_bg" showPreview="false" />
+        <Key android:codes="49" android:keyLabel="ㄅㄆ\nㄇㄈ" />
+        <Key android:codes="50" android:keyLabel="ㄉㄊ\nㄋㄌ" />
+        <Key android:codes="51" android:keyLabel="ㄍㄎㄏ" />
+        <Key android:keyWidth="@dimen/keyboard_zhuyin_9_keywidth_col1and5" android:codes="4115" android:keyEdgeFlags="right" android:isRepeatable="true" android:keyIcon="@drawable/moto_delete_icon" keyBackground="@drawable/btd_keyboard_key" showPreview="false" />
+    </Row>
+    <Row>
+        <Key android:keyWidth="@dimen/keyboard_zhuyin_9_keywidth_col1and5" android:codes="36877" android:keyEdgeFlags="left" keyIcon="@drawable/itap_icon_key" keyBackground="@drawable/btf_keyboard_key" showPreview="false" />
+        <Key android:codes="52" android:keyLabel="ㄐㄑㄒ" />
+        <Key android:codes="53" android:keyLabel="ㄓㄔ\nㄕㄖ" />
+        <Key android:codes="54" android:keyLabel="ㄗㄘㄙ" />
+        <Key android:keyWidth="@dimen/keyboard_zhuyin_9_keywidth_col1and5" android:codes="4117" android:keyEdgeFlags="right" keyIcon="@drawable/enter_icon_key" keyBackground="@drawable/btf_keyboard_key" showPreview="false" />
+    </Row>
+    <Row android:keyHeight="@dimen/keyboard_zhuyin_9_keyheight_row4">
+        <Key android:keyWidth="@dimen/keyboard_zhuyin_9_keywidth_col1and5" android:codes="36878" android:keyEdgeFlags="left" keyIcon="@drawable/tap_icon_key" keyBackground="@drawable/btf_keyboard_key" showPreview="false" />
+        <Key android:codes="55" android:keyLabel="ㄚㄛ\nㄜㄝ" />
+        <Key android:codes="56" android:keyLabel="ㄞㄟ\nㄠㄡ" />
+        <Key android:codes="57" android:keyLabel="ㄢㄣ\nㄤㄥㄦ" />
+        <Key android:keyWidth="@dimen/keyboard_zhuyin_9_keywidth_col1and5" android:codes="4116" android:keyEdgeFlags="right" android:isRepeatable="true" keyIcon="@drawable/space_icon_key" keyBackground="@drawable/btf_keyboard_key" showPreview="false" />
+    </Row>
+    <Row android:keyHeight="@dimen/keyboard_zhuyin_9_keyheight_row4">
+        <Key android:keyWidth="@dimen/keyboard_zhuyin_9_keywidth_col1and5" android:codes="36880" android:keyEdgeFlags="left" keyIcon="@drawable/number_icon_key" keyBackground="@drawable/btf_keyboard_key" showPreview="false" />
+        <Key android:codes="36881" keyIcon="@drawable/symbol_icon_key" keyBackground="@drawable/btf_keyboard_key" showPreview="false" />
+        <Key android:codes="48" android:keyLabel="一ㄨㄩ" />
+        <Key android:codes="36882" keyIcon="@drawable/smiley_icon_key" keyBackground="@drawable/btf_keyboard_key" showPreview="false" />
+        <Key android:keyWidth="@dimen/keyboard_zhuyin_9_keywidth_col1and5" android:codes="36876" android:keyEdgeFlags="right" keyIcon="@drawable/switch_icon_key" keyBackground="@drawable/btf_keyboard_key" showPreview="false" />
+    </Row>
+</Keyboard>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LinearLayout android:orientation="horizontal" android:id="@id/candidate_container" android:background="@drawable/moto_candidate_bg" android:layout_width="fill_parent" android:layout_height="@dimen/candidate_container_height"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.guobi.gbime.CandidateInfoContainer android:orientation="horizontal" android:id="@id/candidateInfo_container" android:paddingTop="@dimen/keboard_Gap_TOP" android:layout_width="fill_parent" android:layout_height="@dimen/candidate_container_Info_height">
+        <ImageButton android:id="@id/arrow_left_btn" android:background="@drawable/arrow_background" android:clickable="true" android:layout_width="@dimen/candidate_container_button_width" android:layout_height="fill_parent" android:src="@drawable/candidate_arrow_left" android:layout_alignParentLeft="true" />
+        <ImageButton android:id="@id/arrow_right_btn" android:background="@drawable/arrow_background" android:clickable="true" android:layout_width="@dimen/candidate_container_button_width" android:layout_height="fill_parent" android:src="@drawable/candidate_arrow_right" android:layout_alignParentRight="true" />
+        <com.guobi.gbime.CandidateInfoView android:id="@id/candidate_view" android:background="@color/candidate_gb_color" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_toLeftOf="@id/arrow_right_btn" android:layout_toRightOf="@id/arrow_left_btn" />
+    </com.guobi.gbime.CandidateInfoContainer>
+</LinearLayout>

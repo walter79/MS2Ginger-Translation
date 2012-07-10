@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+    <string name="app_label">โปรแกรมดู HTML</string>
+    <string name="permlab_accessDrm">เข้าถึงเนื้อหา DRM</string>
+    <string name="permdesc_accessDrm">อนุญาตให้แอปพลิเคชันเข้าถึงเนื้อหาที่ป้องกันด้วย DRM</string>
+</resources>

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+    <dimen name="card_pad">5.0dip</dimen>
+    <dimen name="card_title_text">15.0dip</dimen>
+    <dimen name="card_title_pad">2.0dip</dimen>
+    <dimen name="card_pic_pad">2.0dip</dimen>
+    <dimen name="card_body_text">14.0dip</dimen>
+    <dimen name="card_button_text">14.0dip</dimen>
+    <dimen name="widget_time_icon_padding_left">5.0dip</dimen>
+    <dimen name="widget_photo_height_port">88.0dip</dimen>
+    <dimen name="widget_photo_width_port_2">125.0dip</dimen>
+    <dimen name="widget_photo_width_port_3">125.0dip</dimen>
+    <dimen name="widget_photo_width_port_4">160.0dip</dimen>
+    <dimen name="widget_photo_width_land_2">80.0dip</dimen>
+    <dimen name="widget_photo_width_land_2v">130.0dip</dimen>
+    <dimen name="widget_photo_width_land_3">130.0dip</dimen>
+    <dimen name="widget_photo_height_land_2">88.0dip</dimen>
+    <dimen name="widget_photo_height_land_2v">84.0dip</dimen>
+    <dimen name="widget_photo_height_land_3">130.0dip</dimen>
+    <dimen name="widget_photo_height_land_4">160.0dip</dimen>
+    <dimen name="widget_sleeve_width_3_1">70.0dip</dimen>
+    <dimen name="widget_sleeve_height_2_2">60.0dip</dimen>
+    <dimen name="settings_title">18.0dip</dimen>
+    <dimen name="settings_text">14.0dip</dimen>
+    <dimen name="settings_pad_h">10.0dip</dimen>
+    <dimen name="settings_pad_v">5.0dip</dimen>
+</resources>

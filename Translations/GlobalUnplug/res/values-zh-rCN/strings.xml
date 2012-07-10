@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+    <string name="app_name">删除全部插件</string>
+    <string name="global_unplug_t">已断开连接</string>
+    <string name="global_unplug">请将充电器从插座上拔出以节约能源.</string>
+</resources>

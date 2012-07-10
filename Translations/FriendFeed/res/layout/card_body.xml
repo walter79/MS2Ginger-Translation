@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:onClick="onClickBody"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ViewStub android:id="@id/social_feed_content" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+</LinearLayout>

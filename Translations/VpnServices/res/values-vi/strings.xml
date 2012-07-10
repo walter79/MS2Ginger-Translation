@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+    <string name="app_label">Dịch vụ VPN</string>
+    <string name="vpn_notification_title_connected">Đã kết nối VPN %s</string>
+    <string name="vpn_notification_title_disconnected">Đã ngắt kết nối VPN %s</string>
+    <string name="vpn_notification_hint_disconnected">Chạm để kết nối lại với VPN.</string>
+</resources>

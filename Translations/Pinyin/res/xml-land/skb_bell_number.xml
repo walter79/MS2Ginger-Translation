@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<keyboard skb_template="@xml/skb_templateb" skb_cache_flag="true" qwerty_uppercase="true" width="10%p" height="33.34%p" repeat="false" balloon="false">
+    <row start_pos_y="0%p">
+        <key code="-2" icon="@drawable/moto_chinese_icon" hl_icon="@drawable/moto_chinese_icon" key_type="1" repeat="true" width="12.5%p" />
+        <key code="-24" key_type="2" icon="@drawable/moto_number_icon_blk" hl_icon="@drawable/moto_number_icon" width="12.5%p" />
+        <key label="1" code="8" key_type="0" width="16.6667%p" />
+        <key label="2" code="9" key_type="0" width="16.6667%p" />
+        <key label="3" code="10" key_type="0" width="16.6667%p" />
+        <key code="66" key_type="1" width="12.5%p">
+            <toggle_state state_id="@string/toggle_enter_go" label="@string/label_toggle_enter_go" code="66" />
+            <toggle_state state_id="@string/toggle_enter_search" code="66" icon="@drawable/search_icon" />
+            <toggle_state state_id="@string/toggle_enter_send" label="@string/label_toggle_enter_send" code="66" />
+            <toggle_state state_id="@string/toggle_enter_next" label="@string/label_toggle_enter_next" code="66" />
+            <toggle_state state_id="@string/toggle_enter_done" label="@string/label_toggle_enter_done" code="66" />
+        </key>
+        <key code="67" key_type="4" repeat="true" width="12.5%p" />
+    </row>
+    <row start_pos_y="33.34%p" row_id="@string/toggle_row_cn">
+        <key icon="@drawable/moto_itap_icon" width="12.5%p" hl_icon="@drawable/moto_itap_icon" icon_popup="@drawable/moto_itap_icon" code="-22" key_type="1" />
+        <key icon="@drawable/moto_tap_icon" width="12.5%p" hl_icon="@drawable/moto_tap_icon" icon_popup="@drawable/moto_tap_icon" code="-23" key_type="1" />
+        <key label="4" code="11" key_type="0" width="16.6667%p" />
+        <key label="5" code="12" key_type="0" width="16.6667%p" />
+        <key label="6" code="13" key_type="0" width="16.6667%p" />
+        <key code="62" key_type="1" width="25%p" hl_icon="@drawable/moto_space_icon" />
+    </row>
+    <row start_pos_y="33.34%p" row_id="@string/toggle_row_uri">
+        <key icon="@drawable/moto_itap_icon" width="12.5%p" hl_icon="@drawable/moto_itap_icon" icon_popup="@drawable/moto_itap_icon" code="-22" key_type="1" />
+        <key icon="@drawable/moto_tap_icon" width="12.5%p" hl_icon="@drawable/moto_tap_icon" icon_popup="@drawable/moto_tap_icon" code="-23" key_type="1" />
+        <key label="4" code="11" key_type="0" width="16.6667%p" />
+        <key label="5" code="12" key_type="0" width="16.6667%p" />
+        <key label="6" code="13" key_type="0" width="16.6667%p" />
+        <key code="62" key_type="1" width="25%p" hl_icon="@drawable/moto_space_icon" />
+    </row>
+    <row start_pos_y="33.34%p" row_id="@string/toggle_row_emailaddress">
+        <key icon="@drawable/moto_itap_icon" width="12.5%p" hl_icon="@drawable/moto_itap_icon" icon_popup="@drawable/moto_itap_icon" code="-22" key_type="1" />
+        <key icon="@drawable/moto_tap_icon" width="12.5%p" hl_icon="@drawable/moto_tap_icon" icon_popup="@drawable/moto_tap_icon" code="-23" key_type="1" />
+        <key label="4" code="11" key_type="0" width="16.6667%p" />
+        <key label="5" code="12" key_type="0" width="16.6667%p" />
+        <key label="6" code="13" key_type="0" width="16.6667%p" />
+        <key code="62" key_type="1" width="25%p" hl_icon="@drawable/moto_space_icon" />
+    </row>
+    <row start_pos_y="66.67%p">
+        <key code="-3" width="12.5%p" hl_icon="@drawable/moto_symbol_icon_blk" icon="@drawable/moto_symbol_icon" icon_popup="@drawable/moto_symbol_popup_icon" key_type="1" />
+        <key code="-6" key_type="1" width="12.5%p" hl_icon="@drawable/moto_smiley_icon_blk" icon="@drawable/moto_smiley_icon" icon_popup="@drawable/moto_smiley_popup_icon" />
+        <key label="7" code="14" key_type="0" width="16.6667%p" />
+        <key label="8" code="15" key_type="0" width="16.6667%p" />
+        <key label="9" code="16" key_type="0" width="16.6667%p" />
+        <key label="0" code="7" key_type="0" width="12.5%p" />
+        <key code="-25" key_type="1" width="12.5%p" hl_icon="@drawable/moto_switch_qwerty_icon_normal" icon="@drawable/moto_switch_qwerty_icon_normal" icon_popup="@drawable/moto_switch_popup_icon" />
+    </row>
+</keyboard>

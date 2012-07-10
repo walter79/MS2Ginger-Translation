@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+    <string name="app_name">Mester Törlő Hiba Értesítő</string>
+    <string name="master_clear_error_continue_button_text">Tovább</string>
+    <string name="master_clear_error_sd_erase_failed_title">SD kártya törlés hiba</string>
+    <string name="master_clear_error_phone_erase_failed_title">Mester törlés hiba</string>
+    <string name="master_clear_error_generic">Ismeretlen hiba</string>
+    <string name="master_clear_error_sd_nodevice">SD kártya nem található</string>
+    <string name="master_clear_error_sd_readonly">A kártya írásvédett</string>
+    <string name="master_clear_error_sd_write">Írási hiba</string>
+    <string name="master_clear_error_sd_read">Olvasási hiba</string>
+    <string name="master_clear_error_sd_large">Túl nagy SD kártya</string>
+    <string name="master_clear_error_phone_generic">Hiba a műveletben</string>
+    <string name="master_clear_error_sd_activity_name">SD kártya törlése jelentés</string>
+    <string name="master_clear_error_phone_activity_name">Mester törlése jelentés</string>
+</resources>

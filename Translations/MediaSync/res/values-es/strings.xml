@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+    <string name="hello">Hello World, MediaSyncAct</string>
+    <string name="app_name">MediaSync</string>
+    <string name="mtpconnecting">Sincronización multimedia conectada</string>
+    <string name="unmount_ticker">Falta la tarjeta SD</string>
+    <string name="unmount_notify_title">Notificación de MTP</string>
+    <string name="unmount_notify_detail">Inserta tarj. SD para contenido multimedia.</string>
+    <string name="unmount_notify">unmount_notify</string>
+    <string name="notification_sent">MTP recibido: %1$s</string>
+    <string name="notification_sent_complete">100% completado</string>
+    <string name="mtp_connected_title">Conectado por MTP</string>
+    <string name="mtp_connected_body">MTP conectado</string>
+    <string name="unmount_notify_detail_external">No se pueden sincronizar los archivos ni se puede acceder a la tarjeta SD</string>
+    <string name="unmount_notify_detail_internal">No se pueden sincronizar los archivos. No se puede acceder a la unidad de almacenamiento interno del teléfono</string>
+    <string name="unmount_notify_detail_auto">No se pueden sincronizar los archivos. No se puede acceder a la tarjeta SD ni a la unidad de almacenamiento interno del teléfono</string>
+</resources>

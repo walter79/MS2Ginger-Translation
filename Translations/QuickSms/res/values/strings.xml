@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+    <string name="qsms_app_name">QuickSms</string>
+    <string name="qsms_manage_title">Edit messages</string>
+    <string name="qsms_add_msg">Messages</string>
+    <string name="qsms_label_add">Add message</string>
+    <string name="qsms_label_edit">Edit message</string>
+    <string name="qsms_add">Add</string>
+    <string name="qsms_ok">Ok</string>
+    <string name="qsms_cancel">Cancel</string>
+    <string name="qsms_save">Save</string>
+    <string name="qsms_yes">Yes</string>
+    <string name="qsms_no">No</string>
+    <string name="template_1">I will call you back in a few minutes</string>
+    <string name="template_2">Please call me again in a few minutes</string>
+    <string name="template_3">Sorry I was unable to answer your call</string>
+    <string name="text_message_reply">Text message reply</string>
+    <string name="write_new">Create new message</string>
+    <string name="no_messages">No messages</string>
+    <string name="sms_sent">Message sent</string>
+    <string name="message_deleted">Message deleted</string>
+    <string name="phone_locked">Phone locked</string>
+    <string name="phone_locked_message">Unlock the phone to create a text message</string>
+    <string name="message_overflow">Cannot exceed more than 20 saved text messages</string>
+    <string name="turn_off_quicksms">Turn off text message reply</string>
+</resources>

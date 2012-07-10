@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0">
+        <EditText android:textSize="18.0sp" android:layout_gravity="center_vertical" android:id="@id/fm_station_nickname" android:layout_width="fill_parent" android:layout_height="wrap_content" android:hint="@string/fm_station_name" />
+    </LinearLayout>
+    <LinearLayout android:layout_gravity="bottom" android:id="@id/contacts_edit_actionbar" style="@blur.res:style/Blur.ActionBar">
+        <Button android:id="@id/fm_edit_save_btn" android:text="@string/save" style="@blur.res:style/Blur.TxtBtnActionBar3" />
+        <Button android:id="@id/fm_edit_discard_btn" android:text="@string/discard" style="@blur.res:style/Blur.TxtBtnActionBar3" />
+    </LinearLayout>
+</LinearLayout>

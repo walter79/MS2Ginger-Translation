@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+    <string-array name="INTRO_USB_CONNECTED_TEXT">
+        <item>Sie sind zurzeit über USB verbunden</item>
+        <item>Drücken Sie \'Menü\', um die Verbindungshilfe anzuzeigen</item>
+    </string-array>
+    <string-array name="INTRO_USB_NOT_CONNECTED_TEXT">
+        <item>Zum Starten USB einstecken\n(nur Windows)</item>
+        <item>Drücken Sie \'Menü\', um die Verbindungshilfe anzuzeigen</item>
+    </string-array>
+    <string-array name="INTRO_WIFI_CONNECTED_TEXT">
+        <item>Sie sind zurzeit über WLAN verbunden</item>
+        <item>Verbindungseinstellungen</item>
+    </string-array>
+    <string-array name="INTRO_WIFI_NOT_CONNECTED_TEXT">
+        <item>Berühren Sie die Taste, um \nMoto Phone Portal zu öffnen</item>
+        <item>Mit WLAN verbinden</item>
+    </string-array>
+    <string-array name="INTRO_USB_WIFI_NOT_CONNECTED_TEXT">
+        <item>Zum Starten USB einstecken</item>
+        <item>Mit WLAN verbinden</item>
+    </string-array>
+    <string-array name="INTRO_USB_WIFI_CONNECTED_TEXT">
+        <item>Zum Starten USB einstecken</item>
+        <item>Verbindungseinstellungen</item>
+    </string-array>
+    <string-array name="INTRO_USB_CONNECTED_WIFI_TEXT">
+        <item>Diese Adresse in Ihren PC-Browser eingeben</item>
+        <item></item>
+    </string-array>
+    <string-array name="HELP_LIST">
+        <item>Verbindung über USB herstellen</item>
+        <item>Verbindung über WLAN herstellen</item>
+    </string-array>
+    <string-array name="HELP_LIST_SUM">
+        <item>Nur Windows</item>
+        <item>Windows, Mac oder Linux</item>
+    </string-array>
+</resources>

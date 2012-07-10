@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<keyboard skb_template="@xml/skb_templateb" skb_cache_flag="true" qwerty_uppercase="true" width="16.667%p" height="33.34%p" repeat="false" balloon="false">
+    <row start_pos_y="0%p" row_id="@string/toggle_row_cn">
+        <key code="-2000" icon="@drawable/moto_chinese_icon" hl_icon="@drawable/moto_chinese_icon" key_type="2" repeat="true" width="12.5%p" />
+        <key code="-24" key_type="1" icon="@drawable/moto_number_icon" hl_icon="@drawable/moto_number_icon" width="12.5%p" />
+        <key label="，。" code="-250" key_type="0" />
+        <key label="abc" code="29" />
+        <key label="def" code="32" />
+        <key code="66" key_type="1" width="12.5%p">
+            <toggle_state state_id="@string/toggle_enter_go" label="@string/label_toggle_enter_go" code="66" />
+            <toggle_state state_id="@string/toggle_enter_search" code="66" icon="@drawable/search_icon" />
+            <toggle_state state_id="@string/toggle_enter_send" label="@string/label_toggle_enter_send" code="66" />
+            <toggle_state state_id="@string/toggle_enter_next" label="@string/label_toggle_enter_next" code="66" />
+            <toggle_state state_id="@string/toggle_enter_done" label="@string/label_toggle_enter_done" code="66" />
+        </key>
+        <key code="67" key_type="4" repeat="true" width="12.5%p" />
+    </row>
+    <row start_pos_y="0%p" row_id="@string/toggle_row_emailaddress">
+        <key code="-2000" icon="@drawable/moto_chinese_icon" hl_icon="@drawable/moto_chinese_icon" key_type="2" repeat="true" width="12.5%p" />
+        <key code="-24" key_type="1" icon="@drawable/moto_number_icon" hl_icon="@drawable/moto_number_icon" width="12.5%p" />
+        <key label=". @" key_type="0" />
+        <key label="abc" code="29" />
+        <key label="def" code="32" />
+        <key code="66" key_type="1" width="12.5%p">
+            <toggle_state state_id="@string/toggle_enter_go" label="@string/label_toggle_enter_go" code="66" />
+            <toggle_state state_id="@string/toggle_enter_search" code="66" icon="@drawable/search_icon" />
+            <toggle_state state_id="@string/toggle_enter_send" label="@string/label_toggle_enter_send" code="66" />
+            <toggle_state state_id="@string/toggle_enter_next" label="@string/label_toggle_enter_next" code="66" />
+            <toggle_state state_id="@string/toggle_enter_done" label="@string/label_toggle_enter_done" code="66" />
+        </key>
+        <key code="67" key_type="4" repeat="true" width="12.5%p" />
+    </row>
+    <row start_pos_y="0%p" row_id="@string/toggle_row_uri">
+        <key code="-2000" icon="@drawable/moto_chinese_icon" hl_icon="@drawable/moto_chinese_icon" key_type="2" repeat="true" width="12.5%p" />
+        <key code="-24" key_type="1" icon="@drawable/moto_number_icon" hl_icon="@drawable/moto_number_icon" width="12.5%p" />
+        <key label="." key_type="0" />
+        <key label="abc" code="29" />
+        <key label="def" code="32" />
+        <key code="66" key_type="1" width="12.5%p">
+            <toggle_state state_id="@string/toggle_enter_go" label="@string/label_toggle_enter_go" code="66" />
+            <toggle_state state_id="@string/toggle_enter_search" code="66" icon="@drawable/search_icon" />
+            <toggle_state state_id="@string/toggle_enter_send" label="@string/label_toggle_enter_send" code="66" />
+            <toggle_state state_id="@string/toggle_enter_next" label="@string/label_toggle_enter_next" code="66" />
+            <toggle_state state_id="@string/toggle_enter_done" label="@string/label_toggle_enter_done" code="66" />
+        </key>
+        <key code="67" key_type="4" repeat="true" width="12.5%p" />
+    </row>
+    <row row_id="@string/toggle_row_cn" start_pos_y="33.34%p">
+        <key icon="@drawable/moto_itap_icon" width="12.5%p" hl_icon="@drawable/moto_itap_icon" icon_popup="@drawable/moto_itap_icon" code="-22" key_type="1" />
+        <key icon="@drawable/moto_tap_icon" width="12.5%p" hl_icon="@drawable/moto_tap_icon" icon_popup="@drawable/moto_tap_icon" code="-23" key_type="1" />
+        <key label="ghi" code="35" />
+        <key label="jkl" code="38" />
+        <key label="mno" code="41" />
+        <key code="62" key_type="1" width="25%p" hl_icon="@drawable/moto_space_icon" />
+    </row>
+    <row row_id="@string/toggle_row_uri" start_pos_y="33.34%p">
+        <key icon="@drawable/moto_itap_icon" width="12.5%p" hl_icon="@drawable/moto_itap_icon" icon_popup="@drawable/moto_itap_icon" code="-22" key_type="1" />
+        <key icon="@drawable/moto_tap_icon" width="12.5%p" hl_icon="@drawable/moto_tap_icon" icon_popup="@drawable/moto_tap_icon" code="-23" key_type="1" />
+        <key label="ghi" code="35" />
+        <key label="jkl" code="38" />
+        <key label="mno" code="41" />
+        <key code="62" key_type="1" width="25%p" hl_icon="@drawable/moto_space_icon" />
+    </row>
+    <row row_id="@string/toggle_row_emailaddress" start_pos_y="33.34%p">
+        <key icon="@drawable/moto_itap_icon" width="12.5%p" hl_icon="@drawable/moto_itap_icon" icon_popup="@drawable/moto_itap_icon" code="-22" key_type="1" />
+        <key icon="@drawable/moto_tap_icon" width="12.5%p" hl_icon="@drawable/moto_tap_icon" icon_popup="@drawable/moto_tap_icon" code="-23" key_type="1" />
+        <key label="ghi" code="35" />
+        <key label="jkl" code="38" />
+        <key label="mno" code="41" />
+        <key code="62" key_type="1" width="25%p" hl_icon="@drawable/moto_space_icon" />
+    </row>
+    <row start_pos_y="66.67%p">
+        <key code="-3" width="12.5%p" hl_icon="@drawable/moto_symbol_icon" icon="@drawable/moto_symbol_icon" icon_popup="@drawable/moto_symbol_popup_icon" key_type="1" />
+        <key code="-6" key_type="1" width="12.5%p" hl_icon="@drawable/moto_smiley_icon" icon="@drawable/moto_smiley_icon" icon_popup="@drawable/moto_smiley_popup_icon" />
+        <key label="pqrs" code="44" key_type="0" />
+        <key label="tuv" code="48" key_type="0" />
+        <key label="wxyz" code="51" key_type="0" />
+        <key label="\'" state_id="@string/toggle_cn_cand" width="12.5%p" key_type="0" />
+        <key code="-25" key_type="1" width="12.5%p" hl_icon="@drawable/moto_switch_qwerty_icon_normal" icon="@drawable/moto_switch_qwerty_icon_normal" icon_popup="@drawable/moto_switch_popup_icon" />
+    </row>
+</keyboard>

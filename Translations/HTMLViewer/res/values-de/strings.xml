@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+    <string name="app_label">HTML-Anzeige</string>
+    <string name="permlab_accessDrm">Zugriff auf DRM-Content</string>
+    <string name="permdesc_accessDrm">Eine Anwendung kann auf DRM-geschützten Content zugreifen.</string>
+</resources>

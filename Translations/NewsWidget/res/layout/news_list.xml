@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:news="http://schemas.android.com/apk/res/com.motorola.blur.news">
+    <LinearLayout android:orientation="horizontal" style="@blur.res:style/Blur.TitleBar">
+        <TextView android:id="@id/news_screen_title" android:paddingLeft="8.0dip" android:text="@string/about" android:layout_weight="1.0" style="@blur.res:style/Blur.TxtTitleBar" />
+    </LinearLayout>
+    <ListView android:id="@android:id/list" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <include layout="@layout/empty_item" />
+</LinearLayout>

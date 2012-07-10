@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+    <string name="app_label">利用ネットワーク</string>
+    <string name="location_warning_title">位置情報についての同意</string>
+    <string name="location_warning_message">匿名化された現在地データの収集をGoogleの位置情報サービスに許可します。データ収集はアプリケーション起動の有無にかかわらず行われます。</string>
+    <string name="agree">同意する</string>
+    <string name="disagree">同意しない</string>
+</resources>

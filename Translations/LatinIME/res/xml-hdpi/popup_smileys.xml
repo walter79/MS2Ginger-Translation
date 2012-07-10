@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Keyboard android:keyWidth="14.600002%p" android:keyHeight="10.000002%p" android:horizontalGap="0.39999485%p" android:verticalGap="0.49999952%p"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <Row android:rowEdgeFlags="top">
+        <Key android:horizontalGap="0.19999743%p" android:codes="616" android:keyEdgeFlags="left" android:keyOutputText=":-)\u0020" android:keyIcon="@drawable/emo_im_happy" />
+        <Key android:codes="616" android:keyOutputText=":-(\u0020" android:keyIcon="@drawable/emo_im_sad" />
+        <Key android:codes="616" android:keyOutputText=";-)\u0020" android:keyIcon="@drawable/emo_im_winking" />
+        <Key android:codes="616" android:keyOutputText=":-P\u0020" android:keyIcon="@drawable/emo_im_tongue_sticking_out" />
+        <Key android:codes="616" android:keyEdgeFlags="right" android:keyOutputText="=-O\u0020" android:keyIcon="@drawable/emo_im_surprised" />
+    </Row>
+    <Row>
+        <Key android:horizontalGap="0.19999743%p" android:codes="616" android:keyEdgeFlags="left" android:keyOutputText=":-*\u0020" android:keyIcon="@drawable/emo_im_kissing" />
+        <Key android:codes="616" android:keyOutputText=":O\u0020" android:keyIcon="@drawable/emo_im_yelling" />
+        <Key android:codes="616" android:keyOutputText="B-)\u0020" android:keyIcon="@drawable/emo_im_cool" />
+        <Key android:codes="616" android:keyOutputText=":-$\u0020" android:keyIcon="@drawable/emo_im_money_mouth" />
+        <Key android:codes="616" android:keyEdgeFlags="right" android:keyOutputText=":-!\u0020" android:keyIcon="@drawable/emo_im_foot_in_mouth" />
+    </Row>
+    <Row android:rowEdgeFlags="bottom">
+        <Key android:horizontalGap="0.19999743%p" android:codes="616" android:keyEdgeFlags="left" android:keyOutputText=":-[\u0020" android:keyIcon="@drawable/emo_im_embarrassed" />
+        <Key android:codes="616" android:keyOutputText="O:-)\u0020" android:keyIcon="@drawable/emo_im_angel" />
+        <Key android:codes="616" android:keyOutputText=":-\\\u0020" android:keyIcon="@drawable/emo_im_undecided" />
+        <Key android:codes="616" android:keyOutputText=":\'(\u0020" android:keyIcon="@drawable/emo_im_crying" />
+        <Key android:codes="616" android:keyEdgeFlags="right" android:keyOutputText=":-D\u0020" android:keyIcon="@drawable/emo_im_laughing" />
+    </Row>
+</Keyboard>

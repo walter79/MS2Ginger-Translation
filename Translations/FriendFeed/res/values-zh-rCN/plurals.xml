@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+    <plurals name="retweet_num_persons">
+        <item quantity="other">通过 %1$d 人锐推。</item>
+        <item quantity="one">通过 1 人锐推。</item>
+    </plurals>
+    <plurals name="like_num_persons">
+        <item quantity="other">%1$d 人喜欢。</item>
+        <item quantity="one">1 人喜欢。</item>
+    </plurals>
+</resources>

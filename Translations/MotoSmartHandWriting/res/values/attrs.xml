@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+    <attr name="colorForeground" format="color" />
+    <attr name="colorForegroundInverse" format="color" />
+    <attr name="colorBackground" format="color" />
+    <attr name="disabledAlpha" format="float" />
+    <attr name="backgroundDimAmount" format="float" />
+    <attr name="backgroundDimEnabled" format="boolean" />
+    <attr name="keyboardViewStyle" format="reference" />
+    <attr name="keyBackground" format="reference" />
+    <attr name="keyTextSize" format="dimension" />
+    <attr name="labelTextSize" format="dimension" />
+    <attr name="keyTextColor" format="color" />
+    <attr name="keyPreviewLayout" format="reference" />
+    <attr name="keyPreviewOffset" format="dimension" />
+    <attr name="keyPreviewHeight" format="dimension" />
+    <attr name="verticalCorrection" format="dimension" />
+    <attr name="popupLayout" format="reference" />
+    <attr name="shadowColor" format="color" />
+    <attr name="shadowRadius" format="float" />
+</resources>

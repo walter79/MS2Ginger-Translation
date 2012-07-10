@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+    <string-array name="preload_messages">
+        <item>Ich rufe Sie in ein paar Minuten zurück.</item>
+        <item>Bitte rufen Sie mich in ein paar Minuten wieder an.</item>
+        <item>Leider konnte ich Ihren Anruf nicht annehmen.</item>
+    </string-array>
+</resources>

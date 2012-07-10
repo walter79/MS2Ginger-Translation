@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LinearLayout android:orientation="vertical" android:paddingLeft="15.0dip" android:paddingRight="10.0dip" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content">
+        <TextView android:textSize="24.0sp" android:textStyle="bold" android:textColor="#ffffffff" android:gravity="bottom" android:id="@id/widget_temp" android:paddingBottom="5.0dip" android:fadingEdge="none" android:layout_width="wrap_content" android:layout_height="wrap_content" android:shadowColor="#cc000000" android:shadowDx="1.0" android:shadowDy="1.0" android:shadowRadius="0.5" android:layout_weight="1.0" />
+        <ImageView android:layout_gravity="left" android:id="@id/location_unavailable" android:paddingLeft="4.0dip" android:paddingTop="2.0dip" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ic_weather_location_no_update" />
+    </LinearLayout>
+    <TextView android:textSize="19.0sp" android:textColor="#ffffffff" android:id="@id/widget_condition" android:paddingBottom="5.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="-14.0dip" android:singleLine="true" android:shadowColor="#cc000000" android:shadowDx="1.0" android:shadowDy="1.0" android:shadowRadius="0.5" />
+</LinearLayout>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:padding="4.0dip" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:gravity="center" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <Button android:id="@id/enable" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/enable_inpocket">
+            <requestFocus />
+        </Button>
+        <Button android:id="@id/disable" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/disable_inpocket" />
+    </LinearLayout>
+    <LinearLayout android:gravity="center" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <Button android:id="@id/force_lock" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/force_lock" android:layout_weight="0.0" />
+    </LinearLayout>
+</LinearLayout>

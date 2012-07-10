@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+    <string name="enable_inpocket">Ενεργοποίηση InPocket</string>
+    <string name="disable_inpocket">Απενεργοποίηση InPocket</string>
+    <string name="app_name">InPocket</string>
+    <string name="force_lock">Εφαρμογή κλειδώματος</string>
+</resources>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LinearLayout android:orientation="horizontal" android:background="@com.motorola.android.widget:drawable/header_bkg" android:layout_width="fill_parent" android:layout_height="wrap_content" style="@com.motorola.android.widget:style/Interactive_Titlebar"
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:news="http://schemas.android.com/apk/res/com.motorola.blur.news">
+    <com.motorola.blur.news.DynamicTextView android:gravity="left|center" android:layout_gravity="center_vertical" android:id="@id/int_titlebar_label" android:background="@com.motorola.android.widget:drawable/int_titlebar_btn_bkg" android:paddingLeft="10.0dip" android:paddingRight="10.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/app_name" android:maxLines="2" android:singleLine="false" android:layout_weight="1.0" news:minTextSize="15.0sp" news:maxTextSize="20.0sp" style="@com.motorola.android.widget:style/Interactive_Titlebar.Button" />
+    <ImageView android:id="@id/int_titlebar_divider" android:background="@com.motorola.android.widget:drawable/header_divider" android:layout_width="4.0dip" android:layout_height="fill_parent" />
+    <ImageButton android:id="@id/int_titlebar_imagebutton" android:background="@com.motorola.android.widget:drawable/int_titlebar_btn_bkg" android:layout_width="54.0dip" android:layout_height="fill_parent" android:src="@blur.res:drawable/ic_control_add" />
+</LinearLayout>

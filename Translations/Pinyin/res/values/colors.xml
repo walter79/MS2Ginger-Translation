@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+    <color name="label_color">#ff333333</color>
+    <color name="label_color_hl0">#ff333333</color>
+    <color name="balloon_color">#ffffffff</color>
+    <color name="candidate_color">#ff333333</color>
+    <color name="active_candidate_color">#ffffffff</color>
+    <color name="recommended_candidate_color">#ffe35900</color>
+    <color name="footnote_color">#ff333333</color>
+    <color name="composing_color">#ff000000</color>
+    <color name="composing_color_hl">#ffffffff</color>
+    <color name="composing_color_idle">#ff777777</color>
+    <color name="function_text_color">#ffffffff</color>
+    <color name="indicator_color">#ff333333</color>
+    <color name="balloon_text_color">#ffffffff</color>
+    <color name="btn_color">#ff888888</color>
+    <color name="active_indicator_color">#ffffffff</color>
+    <color name="active_footnote_color">#ffffffff</color>
+</resources>

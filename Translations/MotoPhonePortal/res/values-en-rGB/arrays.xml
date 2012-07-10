@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+    <string-array name="INTRO_USB_CONNECTED_TEXT">
+        <item>You are currently connected over USB</item>
+        <item>Press \"Menu\" to view connection help</item>
+    </string-array>
+    <string-array name="INTRO_USB_NOT_CONNECTED_TEXT">
+        <item>Plug in USB to launch\n(Windows only)</item>
+        <item>Press \"Menu\" to view connection help</item>
+    </string-array>
+    <string-array name="INTRO_WIFI_CONNECTED_TEXT">
+        <item>You are currently connected over Wi-Fi</item>
+        <item>Connection settings</item>
+    </string-array>
+    <string-array name="INTRO_WIFI_NOT_CONNECTED_TEXT">
+        <item>Touch the button to access\nMoto Phone Portal</item>
+        <item>Connect with Wi-Fi</item>
+    </string-array>
+    <string-array name="INTRO_USB_WIFI_NOT_CONNECTED_TEXT">
+        <item>Plug in USB to launch</item>
+        <item>Connect with Wi-Fi</item>
+    </string-array>
+    <string-array name="INTRO_USB_WIFI_CONNECTED_TEXT">
+        <item>Plug in USB to launch</item>
+        <item>Connection settings</item>
+    </string-array>
+    <string-array name="INTRO_USB_CONNECTED_WIFI_TEXT">
+        <item>Enter this address into your PC browser</item>
+        <item></item>
+    </string-array>
+    <string-array name="HELP_LIST">
+        <item>Connecting over USB</item>
+        <item>Connecting over Wi-Fi</item>
+    </string-array>
+    <string-array name="HELP_LIST_SUM">
+        <item>Windows only</item>
+        <item>Windows, Mac or Linux</item>
+    </string-array>
+</resources>

@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+    <string name="app_name">Videospeler</string>
+    <string name="Share_menu">Delen</string>
+    <string name="Tags_menu">Labels</string>
+    <string name="Delete_menu">Verwijderen</string>
+    <string name="FullScreen_menu">Op scherm passend</string>
+    <string name="ActualSize_menu">Werkelijke grootte</string>
+    <string name="Camera_menu">Camera</string>
+    <string name="Edit_menu">Bewerken</string>
+    <string name="AdvancedEdit_menu">Geavanceerd</string>
+    <string name="info_menu">Video-informatie</string>
+    <string name="TV_menu">Op tv weergeven</string>
+    <string name="Settings_menu">Instellingen</string>
+    <string name="hdmi_waiting_message">Verbinding maken met HDMI</string>
+    <string name="loading_video">Video laden...</string>
+    <string name="sendVideo">Video delen via</string>
+    <string name="no_way_to_share_video">Deze video kan niet worden gedeeld.</string>
+    <string name="no_way_to_edit_video">Geen video-editor gevonden.</string>
+    <string name="resume_playing_title">Video hervatten</string>
+    <string name="resume_playing_message">Afspelen hervatten vanaf %1$s ?</string>
+    <string name="resume_playing_resume">Afspelen hervatten</string>
+    <string name="resume_playing_restart">Opnieuw starten</string>
+    <string name="details_ms">%1$02d:%2$02d</string>
+    <string name="details_hms">%1$d:%2$02d:%3$02d</string>
+    <string name="Error_msg">Bestand kan niet worden weergegeven of afgespeeld.</string>
+    <string name="Error_title">Fout</string>
+    <string name="Delete_title">Verwijderen</string>
+    <string name="confirm_delete_1_video">1 video verwijderen?</string>
+    <string name="VIDEO">video</string>
+    <string name="OK_button">OK</string>
+    <string name="CANCEL_button">Annuleren</string>
+    <string name="connecting">Verbinding maken. Een ogenblik geduld...</string>
+    <string name="cable_is_not_connected">HDMI-kabel niet aangesloten.</string>
+    <string name="incoming_call_setting_title">Instellingen voor inkomende oproepen</string>
+    <string name="always_check_incoming_call">Inkomende oproepen altijd controleren</string>
+    <string name="always_ignore_incoming_call">Inkomende oproepen altijd negeren</string>
+    <string name="ok">OK</string>
+    <string name="discard">Weggooien</string>
+    <string name="hdmi_blocked_toast">Deze inhoud kan niet via HDMI worden afgespeeld</string>
+</resources>

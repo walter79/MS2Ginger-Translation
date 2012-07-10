@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+    <string name="yes">Ja</string>
+    <string name="no">Nein</string>
+    <string name="ok">OK</string>
+    <string name="please_wait">Bitte warten</string>
+    <string name="widget_title">Bildrahmen Plus</string>
+    <string name="widget_description">Diashow Ihrer aktuellen Bilder anzeigen und neue Bilder aufnehmen</string>
+    <string name="error_dialog">Widget-Konflikt</string>
+    <string name="view_label">Bild anzeigen</string>
+    <string name="error_description">Widget-Konflikt. Es kann nur 1 Diashow-Widget zum Startbildschirm hinzugefügt werden.</string>
+    <string name="app_name">Diashow</string>
+    <string name="gallery_photo_set_failed">Das ausgewählte Bild kann nicht angezeigt werden.</string>
+    <string name="camera_photo_set_failed">Das zuletzt aufgenommene Bild kann nicht angezeigt werden.</string>
+</resources>

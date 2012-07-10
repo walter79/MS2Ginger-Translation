@@ -1,0 +1,221 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+    <style name="Theme.News" parent="@android:style/Theme">
+        <item name="android:windowNoTitle">true</item>
+    </style>
+    <style name="WidgetParent">
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">fill_parent</item>
+    </style>
+    <style name="WidgetParent.Root" parent="@style/WidgetParent">
+        <item name="android:id">@id/widget_root</item>
+    </style>
+    <style name="WidgetParent.Vert" parent="@style/WidgetParent">
+        <item name="android:orientation">vertical</item>
+    </style>
+    <style name="WidgetParent.Horz" parent="@style/WidgetParent">
+        <item name="android:orientation">horizontal</item>
+    </style>
+    <style name="WidgetBase">
+        <item name="android:id">@id/widget_base</item>
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">fill_parent</item>
+    </style>
+    <style name="WidgetBase10">
+        <item name="android:id">@id/widget_base</item>
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">fill_parent</item>
+        <item name="android:scaleType">fitXY</item>
+    </style>
+    <style name="WidgetSleeve">
+        <item name="android:layout_gravity">top|left|center</item>
+        <item name="android:id">@id/widget_sleeve</item>
+        <item name="android:adjustViewBounds">false</item>
+    </style>
+    <style name="WidgetSleeve.Vert" parent="@style/WidgetSleeve">
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+    <style name="WidgetSleeve.Vert10" parent="@style/WidgetSleeve">
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:scaleType">fitXY</item>
+    </style>
+    <style name="WidgetSleeve.Horz" parent="@style/WidgetSleeve">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">fill_parent</item>
+    </style>
+    <style name="WidgetSleeve.Horz10" parent="@style/WidgetSleeve">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">fill_parent</item>
+        <item name="android:scaleType">fitXY</item>
+    </style>
+    <style name="WidgetSleeveParentVert">
+        <item name="android:paddingTop">@blur.res:dimen/widget_sleeve_vert_content_top</item>
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_alignParentLeft">true</item>
+        <item name="android:layout_alignParentRight">true</item>
+        <item name="android:layout_alignParentBottom">true</item>
+    </style>
+    <style name="WidgetSleeveParentVertLand2_2">
+        <item name="android:paddingLeft">8.0dip</item>
+        <item name="android:paddingTop">3.0dip</item>
+        <item name="android:paddingRight">10.0dip</item>
+        <item name="android:paddingBottom">2.0dip</item>
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+    <style name="WidgetSleeveParentLand">
+        <item name="android:paddingLeft">@blur.res:dimen/widget_sleeve_vert_content_left</item>
+        <item name="android:paddingTop">@dimen/widget_sleeve_vert_content_top_land_2_2</item>
+        <item name="android:paddingRight">@dimen/widget_sleeve_vert_content_right_land_2_2</item>
+        <item name="android:paddingBottom">@blur.res:dimen/widget_sleeve_vert_content_bottom</item>
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_alignBottom">@id/widget_sleeve</item>
+    </style>
+    <style name="WidgetSleeveParentVert2_2">
+        <item name="android:paddingTop">@blur.res:dimen/widget_sleeve_vert_content_top</item>
+        <item name="android:paddingBottom">@blur.res:dimen/widget_sleeve_vert_content_bottom</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_centerInParent">true</item>
+    </style>
+    <style name="WidgetSleeveParentHorz">
+        <item name="android:paddingLeft">@blur.res:dimen/widget_sleeve_horiz_content_left</item>
+        <item name="android:paddingTop">@blur.res:dimen/widget_sleeve_horiz_content_top</item>
+        <item name="android:paddingRight">@blur.res:dimen/widget_sleeve_horiz_content_right</item>
+        <item name="android:paddingBottom">@blur.res:dimen/widget_sleeve_horiz_content_bottom</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">fill_parent</item>
+        <item name="android:layout_alignRight">@id/widget_sleeve</item>
+    </style>
+    <style name="WidgetSleevePhotoSmall">
+        <item name="android:id">@id/widget_photo</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:scaleType">fitCenter</item>
+        <item name="android:adjustViewBounds">true</item>
+        <item name="android:layout_alignParentLeft">true</item>
+        <item name="android:layout_alignParentTop">true</item>
+    </style>
+    <style name="WidgetSleevePhotoSmallLand_2x2">
+        <item name="android:id">@id/widget_photo</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">56.0dip</item>
+        <item name="android:scaleType">fitCenter</item>
+        <item name="android:adjustViewBounds">true</item>
+        <item name="android:layout_alignParentLeft">true</item>
+    </style>
+    <style name="WidgetSleevePhotoSmall.Hidden" parent="@style/WidgetSleevePhotoSmall">
+        <item name="android:visibility">gone</item>
+    </style>
+    <style name="WidgetSleevePhotoSmall.Vert" parent="@style/WidgetSleevePhotoSmall">
+        <item name="android:layout_centerInParent">false</item>
+    </style>
+    <style name="WidgetSleevePhotoSmall.Horz" parent="@style/WidgetSleevePhotoSmall">
+        <item name="android:layout_above">@id/widget_news_icon</item>
+        <item name="android:layout_alignParentRight">true</item>
+    </style>
+    <style name="WidgetSleeveIcon">
+        <item name="android:id">@id/widget_news_icon</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:src">@drawable/ic_news_small</item>
+        <item name="android:scaleType">centerInside</item>
+        <item name="android:adjustViewBounds">false</item>
+    </style>
+    <style name="WidgetSleeveIcon.Vert" parent="@style/WidgetSleeveIcon">
+        <item name="android:gravity">right</item>
+        <item name="android:scaleType">fitEnd</item>
+        <item name="android:layout_toRightOf">@id/widget_photo</item>
+        <item name="android:layout_alignParentTop">true</item>
+        <item name="android:layout_alignParentRight">true</item>
+    </style>
+    <style name="WidgetSleeveIcon.HorzPhoto" parent="@style/WidgetSleeveIcon">
+        <item name="android:layout_above">@id/widget_name</item>
+        <item name="android:layout_alignParentLeft">true</item>
+    </style>
+    <style name="WidgetSleeveIcon.HorzNoPhoto" parent="@style/WidgetSleeveIcon">
+        <item name="android:layout_gravity">center</item>
+    </style>
+    <style name="WidgetSleeveIcon.Hidden" parent="@style/WidgetSleeveIcon">
+        <item name="android:visibility">gone</item>
+    </style>
+    <style name="WidgetSleeveName" parent="@blur.res:style/Widget.Text.Name">
+        <item name="android:id">@id/widget_name</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:text">@string/news_caps</item>
+    </style>
+    <style name="WidgetSleeveName.Hidden" parent="@style/WidgetSleeveName">
+        <item name="android:visibility">gone</item>
+    </style>
+    <style name="WidgetSleeveName.VertPhoto" parent="@style/WidgetSleeveName">
+        <item name="android:gravity">right</item>
+        <item name="android:layout_marginLeft">4.0dip</item>
+        <item name="android:layout_marginTop">3.0dip</item>
+        <item name="android:layout_toRightOf">@id/widget_photo</item>
+        <item name="android:layout_below">@id/widget_news_icon</item>
+        <item name="android:layout_alignParentRight">true</item>
+    </style>
+    <style name="WidgetSleeveName.VertNoPhoto" parent="@style/WidgetSleeveName">
+        <item name="android:fadingEdge">horizontal</item>
+        <item name="android:layout_marginRight">4.0dip</item>
+        <item name="android:layout_toLeftOf">@id/widget_news_icon</item>
+        <item name="android:layout_alignParentLeft">true</item>
+        <item name="android:layout_alignParentBottom">true</item>
+    </style>
+    <style name="WidgetSleeveName.Horz" parent="@style/WidgetSleeveName">
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_marginTop">3.0dip</item>
+        <item name="android:layout_alignParentLeft">true</item>
+        <item name="android:layout_alignParentRight">true</item>
+        <item name="android:layout_alignParentBottom">true</item>
+    </style>
+    <style name="WidgetEmptyText" parent="@blur.res:style/Widget.Text.Body">
+        <item name="android:gravity">center</item>
+        <item name="android:id">@id/widget_message</item>
+        <item name="android:paddingLeft">@blur.res:dimen/widget_content_vert_left</item>
+        <item name="android:paddingRight">@blur.res:dimen/widget_content_vert_right</item>
+        <item name="android:paddingBottom">@dimen/widget_empty_text_padding_bottom</item>
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">fill_parent</item>
+        <item name="android:singleLine">false</item>
+    </style>
+    <style name="WidgetEmptyText.Unconfigured" parent="@style/WidgetEmptyText">
+        <item name="android:text">@string/add_news_feed</item>
+    </style>
+    <style name="WidgetEmptyText.Checking" parent="@style/WidgetEmptyText">
+        <item name="android:text">@string/checking</item>
+    </style>
+    <style name="WidgetEmptyText.CheckingShort" parent="@style/WidgetEmptyText">
+        <item name="android:text">@string/checking_short</item>
+    </style>
+    <style name="WidgetEmptyAddFeed">
+        <item name="android:layout_gravity">bottom|right|center</item>
+        <item name="android:id">@id/widget_add_feed_icon</item>
+        <item name="android:paddingRight">6.0dip</item>
+        <item name="android:paddingBottom">6.0dip</item>
+        <item name="android:visibility">gone</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+    <style name="WidgetEmptyProgress" parent="@blur.res:style/Widget.Progress">
+        <item name="android:layout_alignParentRight">true</item>
+        <item name="android:layout_alignParentBottom">true</item>
+    </style>
+    <style name="WidgetContentParentVert" parent="@style/WidgetParent">
+        <item name="android:layout_marginLeft">0.0dip</item>
+        <item name="android:layout_marginTop">0.0dip</item>
+        <item name="android:layout_marginRight">0.0dip</item>
+        <item name="android:layout_marginBottom">0.0dip</item>
+    </style>
+    <style name="WidgetContentParentHorz" parent="@style/WidgetParent">
+        <item name="android:layout_marginLeft">0.0dip</item>
+        <item name="android:layout_marginTop">0.0dip</item>
+        <item name="android:layout_marginRight">0.0dip</item>
+        <item name="android:layout_marginBottom">0.0dip</item>
+    </style>
+</resources>

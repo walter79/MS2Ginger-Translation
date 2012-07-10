@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+    <string-array name="INTRO_USB_CONNECTED_TEXT">
+        <item>当前已通过USB连接</item>
+        <item>按\"菜单键\"以查看连接帮助</item>
+    </string-array>
+    <string-array name="INTRO_USB_NOT_CONNECTED_TEXT">
+        <item>插入 USB 启用\n（仅 Windows）</item>
+        <item>按\"菜单键\"以查看连接帮助</item>
+    </string-array>
+    <string-array name="INTRO_WIFI_CONNECTED_TEXT">
+        <item>当前已通过WLAN连接</item>
+        <item>连接设置</item>
+    </string-array>
+    <string-array name="INTRO_WIFI_NOT_CONNECTED_TEXT">
+        <item>点按按钮访问\n摩托罗拉手机门户</item>
+        <item>连接 WLAN</item>
+    </string-array>
+    <string-array name="INTRO_USB_WIFI_NOT_CONNECTED_TEXT">
+        <item>插入USB 启用</item>
+        <item>连接 WLAN</item>
+    </string-array>
+    <string-array name="INTRO_USB_WIFI_CONNECTED_TEXT">
+        <item>插入 USB 启用</item>
+        <item>连接设置</item>
+    </string-array>
+    <string-array name="INTRO_USB_CONNECTED_WIFI_TEXT">
+        <item>将此地址输入您的计算机浏览器</item>
+        <item></item>
+    </string-array>
+    <string-array name="HELP_LIST">
+        <item>正在通过USB连接</item>
+        <item>正在通过 WLAN 连接</item>
+    </string-array>
+    <string-array name="HELP_LIST_SUM">
+        <item>仅 Windows</item>
+        <item>Windows, Mac 或 Linux</item>
+    </string-array>
+</resources>

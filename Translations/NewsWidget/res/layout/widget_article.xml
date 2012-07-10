@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<merge
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:id="@id/widget_headline" android:layout_width="fill_parent" android:layout_height="wrap_content" android:singleLine="false" style="@blur.res:style/Widget.Text.Headline.Small" />
+    <TextView android:id="@id/widget_article_content" android:layout_width="fill_parent" android:layout_height="wrap_content" style="@blur.res:style/Widget.Text.Body.Multiline" />
+    <ImageView android:layout_width="1.0px" android:layout_height="1.0px" android:layout_weight="1.0" />
+    <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <TextView android:id="@id/widget_time" android:includeFontPadding="true" android:layout_weight="1.0" style="@blur.res:style/Widget.Text.Timestamp" />
+        <ImageView android:id="@id/widget_feed_icon" android:layout_marginLeft="@dimen/widget_time_icon_padding_left" android:scaleType="centerInside" style="@blur.res:style/Widget.SourceIcon" />
+    </LinearLayout>
+</merge>

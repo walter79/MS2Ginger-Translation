@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<com.motorola.dlauncher.CellLayout android:layout_width="fill_parent" android:layout_height="fill_parent" launcher:cellWidth="106.0dip" launcher:cellHeight="73.0dip" launcher:longAxisStartPadding="25.0dip" launcher:longAxisEndPadding="25.0dip" launcher:shortAxisStartPadding="215.0dip" launcher:shortAxisEndPadding="0.0dip" launcher:shortAxisCells="1" launcher:longAxisCells="4"
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:launcher="http://schemas.android.com/apk/res/com.motorola.dlauncher" />

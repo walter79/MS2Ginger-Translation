@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+    <public type="drawable" name="alert_dialog_icon" id="0x7f020000" />
+    <public type="drawable" name="icon" id="0x7f020001" />
+    <public type="layout" name="textinput_dialog" id="0x7f030000" />
+    <public type="string" name="app_name" id="0x7f040000" />
+    <public type="string" name="PMF_RESOURCE_ID_TITLE_SYSTEM_UPDATE" id="0x7f040001" />
+    <public type="string" name="PMF_RESOURCE_ID_TITLE_UPDATE_CANCEL" id="0x7f040002" />
+    <public type="string" name="PMF_RESOURCE_ID_CONTEXT_SYSTEM_UPDATE1" id="0x7f040003" />
+    <public type="string" name="PMF_RESOURCE_ID_CONTEXT_SYSTEM_UPDATE2" id="0x7f040004" />
+    <public type="string" name="PMF_RESOURCE_ID_CONTEXT_SYSTEM_UPDATE_NOTICE" id="0x7f040005" />
+    <public type="string" name="PMF_RESOURCE_ID_CONTEXT_SYSTEM_UPDATE_CANCEL" id="0x7f040006" />
+    <public type="string" name="dm_alert_dlg_ok_text" id="0x7f040007" />
+    <public type="string" name="dm_alert_dlg_cancel_text" id="0x7f040008" />
+    <public type="string" name="DM_SERVICE_ALERT_TITLE_DEVICE_MGMT" id="0x7f040009" />
+    <public type="string" name="DM_SERVICE_ALERT_TITLE_SYSTEM_MESSAGE" id="0x7f04000a" />
+    <public type="string" name="DM_SERVICE_ALERT_BUTTON_YES" id="0x7f04000b" />
+    <public type="string" name="DM_SERVICE_ALERT_BUTTON_NO" id="0x7f04000c" />
+    <public type="string" name="dm_session_button_confirm" id="0x7f04000d" />
+    <public type="string" name="dm_session_button_reject" id="0x7f04000e" />
+    <public type="string" name="dm_session_confirmation_title" id="0x7f04000f" />
+    <public type="string" name="dm_session_confirmation_message" id="0x7f040010" />
+    <public type="string" name="dm_session_confirmation_notification_label" id="0x7f040011" />
+    <public type="string" name="dm_session_confirmation_notification_message" id="0x7f040012" />
+    <public type="string" name="dm_session_information_notification_label" id="0x7f040013" />
+    <public type="string" name="dm_session_information_notification_message1" id="0x7f040014" />
+    <public type="string" name="dm_session_information_notification_message2_success" id="0x7f040015" />
+    <public type="string" name="dm_session_information_notification_message2_fail" id="0x7f040016" />
+    <public type="id" name="textinput_content" id="0x7f050000" />
+</resources>

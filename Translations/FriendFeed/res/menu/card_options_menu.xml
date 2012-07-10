@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<menu
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:icon="@blur.res:drawable/ic_menu_view_profile" android:id="@id/view_profile_menu_item" android:visible="false" android:title="@string/view_profile" />
+    <item android:icon="@blur.res:drawable/ic_menu_reply" android:id="@id/reply_menu_item" android:visible="false" android:title="@string/reply" />
+</menu>

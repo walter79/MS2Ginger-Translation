@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+    <string name="enable_inpocket">InPocket inschakelen</string>
+    <string name="disable_inpocket">InPocket uitschakelen</string>
+    <string name="app_name">InPocket</string>
+    <string name="force_lock">Vergrendeling forceren</string>
+</resources>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+    <dimen name="compose_button_width">90.0dip</dimen>
+    <dimen name="compose_button_height">30.0dip</dimen>
+    <dimen name="sender_photo_size">50.0dip</dimen>
+    <dimen name="read_senderimg_size">60.0dip</dimen>
+    <dimen name="cnvs_detailheader_height_min">58.0dip</dimen>
+    <dimen name="cnvs_detailheader_height_max">75.0dip</dimen>
+    <dimen name="common_header_height">40.0dip</dimen>
+    <dimen name="compose_header_height">30.0dip</dimen>
+    <dimen name="main_list_senderimg_size">50.0dip</dimen>
+    <dimen name="main_list_statusimg_size">18.0dip</dimen>
+    <dimen name="title_source_image_size">18.0dip</dimen>
+    <dimen name="sender_timestamp_text_size">14.0sp</dimen>
+    <dimen name="read_header_left_padding">10.0dip</dimen>
+</resources>

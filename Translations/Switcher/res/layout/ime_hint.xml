@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LinearLayout android:orientation="vertical" android:background="@android:color/background_light" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="25.0dip" android:textColor="#ff000000" android:gravity="center" android:layout_gravity="center" android:id="@id/settext" android:background="#ffb0b8b0" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/hint_header" />
+    <ScrollView android:id="@id/scrollview" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_weight="1.0">
+        <TextView android:textSize="20.0dip" android:textColor="#ff333333" android:id="@id/settext" android:paddingLeft="10.0dip" android:paddingTop="5.0dip" android:paddingRight="10.0dip" android:paddingBottom="5.0dip" android:scrollbars="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/hint_msg" android:layout_weight="1.0" />
+    </ScrollView>
+    <CheckBox android:textSize="20.0dip" android:textColor="#ff333333" android:layout_gravity="center_vertical" android:id="@id/checkbox" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/hint_chkbox_msg" />
+    <Button android:textSize="16.0dip" android:layout_gravity="center" android:id="@id/button" android:clickable="true" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="4.0dip" android:layout_marginBottom="4.0dip" android:text="@string/hint_ok" />
+</LinearLayout>

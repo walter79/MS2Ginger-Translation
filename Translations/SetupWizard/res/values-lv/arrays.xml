@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+    <string-array name="security_questions">
+        <item>Mīļākais ēdiens</item>
+        <item>Dzimtā pilsēta</item>
+        <item>Labākā bērnības drauga vārds</item>
+        <item>Vidusskolas nosaukums</item>
+    </string-array>
+    <string-array name="passwordStrength">
+        <item>vājš</item>
+        <item>vidējs</item>
+        <item>labs</item>
+        <item>spēcīgs</item>
+    </string-array>
+</resources>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<FrameLayout android:id="@id/sticky_widget_frame" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/sticky_widget_bckgrn_img" android:layout_width="fill_parent" android:layout_height="fill_parent" android:scaleType="fitXY" />
+    <LinearLayout android:orientation="vertical" android:paddingLeft="@dimen/widget_padding" android:paddingTop="@dimen/widget_padding_top" android:paddingRight="@dimen/widget_padding" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <TextView android:textSize="@dimen/widget_title_textsize" android:textStyle="bold" android:textColor="@color/tripletwoone" android:textColorHint="@color/tripletwoone" android:id="@id/sticky_widget_title" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/widget_title_margin_top" android:hint="@string/sticky_note" android:singleLine="true" style="@blur.res:style/Widget.Content.Vert" />
+        <TextView android:textSize="@dimen/widget_body_textsize" android:textColor="@color/tripletwoone" android:textColorLink="@color/link_color" android:autoLink="all" android:linksClickable="false" android:id="@id/sticky_widget_body" android:paddingTop="@dimen/widget_body_paddingTop" android:fadingEdge="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:hint="@string/widget_body_hint" android:layout_weight="1.0" style="@blur.res:style/Widget.Content.Vert" />
+    </LinearLayout>
+</FrameLayout>

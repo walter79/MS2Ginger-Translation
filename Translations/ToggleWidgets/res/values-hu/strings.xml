@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+    <string name="app_name">Kapcsoló Widgetek</string>
+    <string name="gps_app_name">GPS kapcsoló</string>
+    <string name="airplane_app_name">Repülő üzemmód kapcsoló</string>
+    <string name="wifi_app_name">Wi-Fi kapcsoló</string>
+    <string name="bluetooth_app_name">Bluetooth kapcsoló</string>
+    <string name="widget_description">Repülő üzemmód státusz megtekintése és kezelése</string>
+    <string name="widget_description_bt">Bluetooth státusz megtekintése és kezelése</string>
+    <string name="widget_description_wifi">Wi-Fi státusz megtekintése és kezelése</string>
+    <string name="widget_description_gps">GPS státusz megtekintése és kezelése</string>
+    <string name="StatusOn">BE</string>
+    <string name="StatusOff">KI</string>
+    <string name="StatusIntermediate" />
+    <string name="AirplanetoastText">A Repülő üzemmód nem elérhető</string>
+    <string name="BluetoothtoastText">A Bluetooth nem elérhető</string>
+    <string name="GPStoastText">A GPS nem elérhető</string>
+    <string name="WifitoastText">A Wi-Fi nem elérhető</string>
+    <string name="location_restriction_enabled">Tartózkodási hely korlátozása bekapcsolva.</string>
+</resources>

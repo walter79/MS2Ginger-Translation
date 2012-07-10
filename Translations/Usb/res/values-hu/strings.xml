@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+    <string name="usb_period">.</string>
+    <string name="usb_ok">OK</string>
+    <string name="usb_cancel">Mégsem</string>
+    <string name="usb_3_periods">...</string>
+    <string name="usb_configure">Konfigurálás</string>
+    <string name="usb_toast_connecting_to">Kapcsolódás USB-vel</string>
+    <string name="usb_toast_phone_data_disabled">Telefonos adatkapcsolat inaktív.</string>
+    <string name="usb_no_memory_card_notification_title">Nincs behelyezve memóriakártya</string>
+    <string name="usb_no_memory_card_notification_message_title">Nem található memóriakártya</string>
+    <string name="usb_no_memory_card_notification_message">Kérem helyezzen be memóriakártyát</string>
+    <string name="usb_selection_notification_title">USB Kapcsolat</string>
+    <string name="usb_selection_notification_message">Az USB kapcsolat típusa</string>
+    <string name="usb_selection_notification_message_for_modem">Érintésre újratölti a telefon memóriát.</string>
+    <string name="usb_connection">USB kapcsolat</string>
+    <string name="usb_tethering_title">Internet megosztás aktív</string>
+    <string name="usb_tethering_message">Amig az USB kapcsolatot internetkapcsolatra használják, nem kapcsolható más USB módra</string>
+    <string name="usb_mode_ngp">Motorola Phone Portal</string>
+    <string name="usb_mode_mtp">Windows Media Sync</string>
+    <string name="usb_mode_msc">USB Mass Storage</string>
+    <string name="usb_mode_modem">Telefon mint Modem</string>
+    <string name="usb_mode_none">Üres</string>
+    <string name="usb_toast_insert_card">Helyezzen be memóriakártyát a telefon tartalmaihoz.</string>
+    <string name="usb_progress_message">Kapcsolódás mint</string>
+    <string name="usb_error_message">USB kapcsolat nem módosítható</string>
+    <string name="default_usb_disk_name">Flash meghajtó</string>
+    <string name="usb_device_plug_title">%1$s csatlakoztatva</string>
+    <string name="usb_device_plug_title_no_name">USB tárolóeszköz csatlakoztatva</string>
+    <string name="usb_device_plug_message">Kiválasztott tartalmat másol az eszközröl</string>
+    <string name="usb_device_checking_title">USB eszköz előkészítése</string>
+    <string name="usb_device_checking_message">Hibák ellenőrzése...</string>
+    <string name="usb_device_unmountable_title">USB tároló leválasztva</string>
+    <string name="usb_device_unmountable_message">Ellenőrizd az USB tároló eszközt.</string>
+    <string name="usb_device_nofs_title">USB tároló eszközön nincs file rendszer</string>
+    <string name="usb_device_nofs_message">Ellenőrizze az USB tárolóeszközt.</string>
+    <string name="usb_device_bad_removal_dialog_title">Megszakítás</string>
+    <string name="usb_device_bad_removal_dialog_message">Az USB tárolóeszközt %1$s helytelenül szétkapcsolták.\n\n Mindig ellenőrizze a helyes szétkapcsolást!</string>
+    <string name="usb_device_format_dialog_title">USB Eszköz formázása</string>
+    <string name="usb_device_format_dialog_message">Nyomja meg az OK gombot a tároló formázásához. Minden adat TÖRLŐDNI fog!</string>
+    <string name="usb_device_host_title">USB Tárolóeszköz</string>
+    <string name="usb_device_host_message">Az USB tárolóeszköz %1$s jelenleg kapcsolódik. Fájlok másolhatók az eszközre/röl\n\nMindig ellenőrizze a helyes szétkapcsolást!</string>
+    <string name="file_manager">File Manager</string>
+    <string name="eject">Kilépés</string>
+</resources>

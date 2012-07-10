@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+    <item type="id" name="fm_card_freq" />
+    <item type="id" name="fm_card_preset" />
+    <item type="id" name="fm_card_stereo" />
+    <item type="id" name="fm_card_rds_rt" />
+    <item type="id" name="fm_card_rds_ps" />
+    <item type="id" name="fm_card_rds_pi" />
+    <item type="id" name="stub_preset_small">false</item>
+    <item type="id" name="stub_preset_large">false</item>
+    <item type="id" name="fm_station_nickname">false</item>
+    <item type="id" name="contacts_edit_actionbar">false</item>
+    <item type="id" name="fm_edit_save_btn">false</item>
+    <item type="id" name="fm_edit_discard_btn">false</item>
+    <item type="id" name="fav_edit_title">false</item>
+    <item type="id" name="sv">false</item>
+    <item type="id" name="favorite_stations">false</item>
+    <item type="id" name="abwidget">false</item>
+    <item type="id" name="playback_bg">false</item>
+    <item type="id" name="fm_motoflowview">false</item>
+    <item type="id" name="dial_small">false</item>
+    <item type="id" name="fm_favorites_container">false</item>
+    <item type="id" name="touch_switch_mode">false</item>
+    <item type="id" name="fm_favorites">false</item>
+    <item type="id" name="stub_fm_tuner">false</item>
+    <item type="id" name="button_seek_minus">false</item>
+    <item type="id" name="fm_mute_unmute">false</item>
+    <item type="id" name="fm_on_off">false</item>
+    <item type="id" name="button_seek_plus">false</item>
+    <item type="id" name="fm_favorite_list">false</item>
+    <item type="id" name="play_control_sheen">false</item>
+    <item type="id" name="dial_tuner">false</item>
+    <item type="id" name="dial_tuner_cover">false</item>
+    <item type="id" name="card_tuned">false</item>
+    <item type="id" name="fm_tune_point">false</item>
+    <item type="id" name="fm_favorite_icon_container">false</item>
+    <item type="id" name="fm_fav_icon">false</item>
+    <item type="id" name="fm_card_bkground">false</item>
+    <item type="id" name="fm_seek_container">false</item>
+    <item type="id" name="fm_seek_icon">false</item>
+    <item type="id" name="other_stream_icon">false</item>
+    <item type="id" name="message">false</item>
+    <item type="id" name="additional_message">false</item>
+    <item type="id" name="ringer_stream_icon">false</item>
+    <item type="id" name="level">false</item>
+</resources>

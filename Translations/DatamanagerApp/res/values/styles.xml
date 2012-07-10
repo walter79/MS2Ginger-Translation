@@ -1,0 +1,182 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+    <style name="DataMeter">
+        <item name="android:background">@drawable/meter_data_bkg</item>
+        <item name="android:padding">2.0dip</item>
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginTop">10.0dip</item>
+        <item name="android:layout_marginRight">10.0dip</item>
+        <item name="android:maxHeight">22.0dip</item>
+        <item name="android:max">100</item>
+        <item name="android:progress">50</item>
+        <item name="android:indeterminateOnly">false</item>
+        <item name="android:minHeight">22.0dip</item>
+    </style>
+    <style name="DataMeter.Green" parent="@style/DataMeter">
+        <item name="android:progressDrawable">@drawable/meter_data_green</item>
+    </style>
+    <style name="DataMeter.Yellow" parent="@style/DataMeter">
+        <item name="android:progressDrawable">@drawable/meter_data_yellow</item>
+    </style>
+    <style name="DataMeter.Red" parent="@style/DataMeter">
+        <item name="android:progressDrawable">@drawable/meter_data_red</item>
+    </style>
+    <style name="DataUsedTodayImage">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginLeft">10.0dip</item>
+        <item name="android:adjustViewBounds">true</item>
+        <item name="android:maxWidth">24.0sp</item>
+        <item name="android:maxHeight">24.0sp</item>
+        <item name="android:layout_alignParentLeft">true</item>
+        <item name="android:layout_alignParentTop">true</item>
+    </style>
+    <style name="DataUsedTodayText">
+        <item name="android:textColor">@color/text_color_primary</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginLeft">10.0dip</item>
+        <item name="android:text">@string/data_used_today_label</item>
+    </style>
+    <style name="BarGraph">
+        <item name="android:background">@drawable/grid_data</item>
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+    <style name="DataUsageText">
+        <item name="android:textColor">@color/text_color_primary</item>
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginLeft">10.0dip</item>
+        <item name="android:text">@string/usage_details_by_days_title</item>
+        <item name="android:layout_below">@id/bar_layout</item>
+    </style>
+    <style name="ShowActivityButton">
+        <item name="android:textSize">16.0sp</item>
+        <item name="android:textColor">@color/text_color_primary</item>
+        <item name="android:gravity">left</item>
+        <item name="android:paddingTop">10.0sp</item>
+        <item name="android:paddingBottom">10.0sp</item>
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:text">@string/show_data_by_activity_link</item>
+        <item name="android:layout_alignParentBottom">true</item>
+    </style>
+    <style name="DataUsageTitleText">
+        <item name="android:textSize">18.0sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">@color/text_color_primary</item>
+        <item name="android:paddingTop">10.0sp</item>
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginLeft">10.0dip</item>
+        <item name="android:text">@string/usage_details_by_app_title</item>
+        <item name="android:layout_alignParentLeft">true</item>
+    </style>
+    <style name="LastSevenDaysText">
+        <item name="android:textSize">18.0sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">@color/text_color_primary</item>
+        <item name="android:paddingBottom">20.0sp</item>
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginLeft">10.0dip</item>
+        <item name="android:text">@string/last_seven_days</item>
+        <item name="android:layout_below">@id/data_usage_title</item>
+    </style>
+    <style name="AppImage">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginLeft">10.0dip</item>
+        <item name="android:layout_marginTop">5.0dip</item>
+        <item name="android:adjustViewBounds">true</item>
+        <item name="android:maxWidth">24.0sp</item>
+        <item name="android:maxHeight">24.0sp</item>
+    </style>
+    <style name="AppText">
+        <item name="android:textSize">16.0dip</item>
+        <item name="android:textColor">@color/text_color_primary</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginLeft">10.0dip</item>
+        <item name="android:singleLine">true</item>
+    </style>
+    <style name="AppText.Landscape" parent="@style/AppText">
+        <item name="android:ellipsize">end</item>
+        <item name="android:maxEms">8</item>
+        <item name="android:minEms">8</item>
+    </style>
+    <style name="DividerImage">
+        <item name="android:background">@drawable/widget_calendar_divider</item>
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+    <style name="WidgetDataUsageText">
+        <item name="android:textColor">#ff212121</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+    <style name="WidgetDataUsageText.QVGA" parent="@style/WidgetDataUsageText">
+        <item name="android:textSize">24.0sp</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+    <style name="WidgetDataUsageText.HVGA" parent="@style/WidgetDataUsageText">
+        <item name="android:textSize">26.0sp</item>
+    </style>
+    <style name="WidgetDataUsageText.WVGA" parent="@style/WidgetDataUsageText">
+        <item name="android:textSize">21.0sp</item>
+    </style>
+    <style name="WidgetSizeMatrixText">
+        <item name="android:textColor">#ff4e4e50</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+    <style name="WidgetSizeMatrixText.QVGA" parent="@style/WidgetSizeMatrixText">
+        <item name="android:textSize">19.0sp</item>
+    </style>
+    <style name="WidgetSizeMatrixText.HVGA" parent="@style/WidgetSizeMatrixText">
+        <item name="android:textSize">14.0sp</item>
+    </style>
+    <style name="WidgetSizeMatrixText.WVGA" parent="@style/WidgetSizeMatrixText">
+        <item name="android:textSize">13.0sp</item>
+    </style>
+    <style name="WidgetLastCheckedText">
+        <item name="android:textColor">#ff858585</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+    <style name="WidgetLastCheckedText.QVGA" parent="@style/WidgetLastCheckedText">
+        <item name="android:textSize">16.0sp</item>
+    </style>
+    <style name="WidgetLastCheckedText.HVGA" parent="@style/WidgetLastCheckedText">
+        <item name="android:textSize">14.0sp</item>
+    </style>
+    <style name="WidgetLastCheckedText.WVGA" parent="@style/WidgetLastCheckedText">
+        <item name="android:textSize">13.0sp</item>
+    </style>
+    <style name="WidgetDataText">
+        <item name="android:textColor">#ff212121</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:text">@string/data</item>
+    </style>
+    <style name="WidgetDataText.HVGA" parent="@style/WidgetDataText">
+        <item name="android:textSize">18.0sp</item>
+    </style>
+    <style name="WidgetDataText.WVGA" parent="@style/WidgetDataText">
+        <item name="android:textSize">16.0sp</item>
+    </style>
+    <style name="WidgetMeterText">
+        <item name="android:textColor">#ff212121</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:text">@string/meter</item>
+    </style>
+    <style name="WidgetMeterText.HVGA" parent="@style/WidgetMeterText">
+        <item name="android:textSize">18.0sp</item>
+    </style>
+    <style name="WidgetMeterText.WVGA" parent="@style/WidgetMeterText">
+        <item name="android:textSize">16.0sp</item>
+    </style>
+</resources>

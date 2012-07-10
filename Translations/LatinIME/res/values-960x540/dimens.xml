@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+    <dimen name="key_text_size">23.0sp</dimen>
+    <dimen name="key_label_text_size">17.0sp</dimen>
+    <dimen name="key_label_text_size_small">13.0sp</dimen>
+    <dimen name="candidate_text_size">17.0sp</dimen>
+</resources>

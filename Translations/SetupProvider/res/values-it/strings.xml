@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+    <string name="app_name">Archivio account</string>
+    <string name="blur_accounts">Account servizio Motorola</string>
+    <string name="as_pretty_name">Sincr. aziendale</string>
+    <string name="blur_pretty_name">Servizio Motorola</string>
+    <string name="yahoo_pretty_name">Yahoo! Mail</string>
+    <string name="email_login_label">E-mail|indirizzo@dominio.it</string>
+    <string name="as_login_label">Dominio\\Nomeutente|Dominio\\Nomeutente</string>
+    <string name="blur_login_label">E-mail|indirizzo@dominio.it</string>
+    <string name="yahoo_login_label">E-mail|indirizzo@yahoo.com</string>
+</resources>

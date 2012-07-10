@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+    <bool name="show_setas_wallpaper_ringtone_for_downloaded_files">true</bool>
+</resources>

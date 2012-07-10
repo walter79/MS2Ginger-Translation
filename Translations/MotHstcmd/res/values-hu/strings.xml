@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+    <string name="app_name">HSTcmd</string>
+    <string name="send">Végrehajtás</string>
+    <string name="request">Lekérés</string>
+    <string name="response">Válasz</string>
+    <string name="menu_item_setting">Beállítások</string>
+    <string name="set_path">Beállít</string>
+    <string name="set_default_path">Alap beállítás vissza</string>
+    <string name="setting_notice">Megjegyzés: \n1. Csak az alap mappa és egy mappa az SD kártyán az engedélyezett. Érvénytelen könyvtár nem lesz beállítva és tiasztást okoz.</string>
+    <string name="log_response">Napló válaszok</string>
+    <string name="log_error">Napló hibák (a hibaválaszokkal együtt)</string>
+    <string name="log_command">Napló parancsok</string>
+</resources>

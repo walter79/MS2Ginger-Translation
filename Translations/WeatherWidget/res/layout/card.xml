@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<FrameLayout android:paddingLeft="@dimen/weather_card_padding_left" android:paddingTop="@dimen/weather_card_padding_top" android:paddingRight="@dimen/weather_card_padding_right" android:paddingBottom="@dimen/weather_card_padding_bottom" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:layout_width="fill_parent" android:layout_height="@dimen/weather_card_condition_image_height" android:layout_marginLeft="@dimen/weather_card_condition_image_margin_left" android:layout_marginTop="@dimen/weather_card_condition_image_margin_top">
+        <ImageView android:id="@id/card_background_image" android:layout_width="@dimen/weather_card_condition_image_scaled" android:layout_height="@dimen/weather_card_condition_image_scaled" android:layout_marginLeft="@dimen/weather_card_condition_image_margin_left" android:layout_marginTop="@dimen/weather_card_condition_image_margin_top" android:scaleType="fitXY" />
+    </LinearLayout>
+    <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <LinearLayout android:orientation="vertical" android:paddingLeft="@blur.res:dimen/card_badge_padding" android:paddingTop="@blur.res:dimen/card_badge_padding" android:paddingRight="@blur.res:dimen/card_badge_padding" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_weight="1.0">
+            <TextView android:ellipsize="end" android:id="@id/card_location" android:layout_width="fill_parent" android:layout_height="wrap_content" style="@style/WeatherTxt.bold" />
+            <TextView android:id="@id/card_currentday" android:layout_width="fill_parent" android:layout_height="wrap_content" style="@style/WeatherTxt.reg" />
+            <View android:layout_width="1.0dip" android:layout_height="1.0dip" android:layout_weight="1.0" />
+            <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <TextView android:id="@id/card_temp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="-15.0dip" android:layout_marginBottom="-15.0dip" />
+                <LinearLayout android:layout_gravity="center" android:orientation="vertical" android:paddingLeft="24.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content">
+                    <TextView android:id="@id/card_high" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/WeatherTxt.bold" />
+                    <TextView android:id="@id/card_low" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/WeatherTxt.bold" />
+                </LinearLayout>
+            </LinearLayout>
+            <TextView android:id="@id/card_description" android:layout_width="fill_parent" android:layout_height="wrap_content" style="@style/WeatherTxt.reg" />
+            <TextView android:id="@id/card_realfeel" android:paddingBottom="@blur.res:dimen/card_vgap1" android:layout_width="fill_parent" android:layout_height="wrap_content" style="@style/WeatherTxt.reg" />
+        </LinearLayout>
+        <FrameLayout android:background="#66cccccc" android:layout_width="fill_parent" android:layout_height="@dimen/weather_card_base_height">
+            <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <include layout="@layout/forecast_type_banner_horiz" />
+                <ImageView android:paddingLeft="12.0dip" android:paddingRight="12.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:src="@drawable/card_weather_divider_h" android:scaleType="centerCrop" />
+                <LinearLayout android:orientation="horizontal" android:id="@id/card_forecast" android:paddingTop="4.0dip" android:focusable="true" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+                <TextView android:gravity="center_horizontal" android:id="@id/card_updated" android:layout_width="fill_parent" android:layout_height="wrap_content" style="@style/WeatherDateTimeStampTxt" />
+            </LinearLayout>
+        </FrameLayout>
+    </LinearLayout>
+</FrameLayout>

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+    <string name="notification_download_not_acceptable">Pobranie jest niemożliwe. Zawartość nie jest obsługiwana w tym telefonie.</string>
+    <string name="notification_dwonload_wait_network">Pobieranie wymaga połączenia z siecią</string>
+    <string name="app_label">Menedżer pobierania</string>
+    <string name="permlab_downloadManager">Dostęp do menedżera pobierania.</string>
+    <string name="permdesc_downloadManager">Umożliwia programowi dostęp do menedżera pobierania i pobieranie plików przy jego użyciu. Szkodliwe programy mogą w ten sposób zakłócić pobieranie i uzyskać dostęp do prywatnych informacji.</string>
+    <string name="permlab_downloadManagerAdvanced">Zaawansowane funkcje menedżera pobierania.</string>
+    <string name="permdesc_downloadManagerAdvanced">Zezwala aplikacji na uzyskiwanie dostępu do zaawansowanych funkcji menedżera pobierania. Złośliwe aplikacje mogą wykorzystać tę możliwość w celu zakłócenia pobierania i uzyskania dostępu do informacji prywatnych.</string>
+    <string name="permlab_downloadCompletedIntent">Wysyłanie powiadomień o pobraniu.</string>
+    <string name="permdesc_downloadCompletedIntent">Umożliwia programowi wysyłanie powiadomień o ukończeniu pobierania. Szkodliwe programy mogą korzystać z tego uprawnienia, aby zakłócić działanie innych programów pobierających pliki.</string>
+    <string name="permlab_seeAllExternal">Zobacz wszystkie pobierania na kartę SD</string>
+    <string name="permdesc_seeAllExternal">Pozwala aplikacji na widzenie wszystkich pobierań na kartę SD, niezależnie od tego, która aplikacja je pobrała.</string>
+    <string name="permlab_downloadCacheNonPurgeable">Rezerwowanie miejsca w pamięci pobierania</string>
+    <string name="permdesc_downloadCacheNonPurgeable">Pozwala aplikacji na pobieranie plików, które nie mogą zostać automatycznie usunięte, gdy menadżer pobierania potrzebuje więcej przestrzeni do pamięci pobierania.</string>
+    <string name="permlab_downloadWithoutNotification">pobieraj pliki bez powiadomienia</string>
+    <string name="permdesc_downloadWithoutNotification">Pozwala aplikacji na pobieranie plików przez menadżera pobierania bez pokazywania powiadomień użytkownikowi.</string>
+    <string name="permlab_accessAllDownloads">Dostęp do wszystkich pobierań systemowych</string>
+    <string name="permdesc_accessAllDownloads">Pozwala aplikacji na podgląd i modyfikację wszystkich pobierań zainicjowanych przez dowolną aplikację w systemie.</string>
+    <string name="download_unknown_title">&lt;Bez nazwy></string>
+    <string name="notification_filename_separator">,\u0020</string>
+    <string name="notification_filename_extras">\u0020i inne (%d)</string>
+    <string name="notification_download_complete">Pobieranie zakończone</string>
+    <string name="notification_download_failed">Pobieranie nie powiodło się</string>
+    <string name="notification_need_wifi_for_size">Pobieranie tego rozmiaru wymaga połączenia Wi-Fi</string>
+    <string name="wifi_required_title">Pobieranie jest zbyt duże dla sieci operatora</string>
+    <string name="wifi_required_body">Musisz skorzystać z połączenia Wi-Fi, by ukończyć pobieranie %s. \n\nKliknij %s, aby rozpocząć pobieranie przy następnym połączeniu z siecią Wi-Fi.</string>
+    <string name="wifi_recommended_title">Zaplanować pobieranie na później?</string>
+    <string name="wifi_recommended_body">Uruchomienie pobierania %s może skrócić czas pracy baterii i spowodować nadmierne wykorzystanie przesyłu danych przez sieć komórkową, co może wiązać się z dodatkowymi kosztami w zależności od planu taryfowego.\n\n Kliknij %s poniżej, by uruchomić pobieranie przy następnym połączeniu z siecią Wi-Fi.</string>
+    <string name="button_queue_for_wifi">Kolejka</string>
+    <string name="button_cancel_download">Anuluj</string>
+    <string name="button_start_now">Uruchom teraz</string>
+</resources>

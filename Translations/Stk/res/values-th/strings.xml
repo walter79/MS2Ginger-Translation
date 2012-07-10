@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+    <string name="app_name">SIM Toolkit</string>
+    <string name="menu_end_session">จบเซสชัน</string>
+    <string name="help">ความช่วยเหลือ</string>
+    <string name="menu_back">ย้อนกลับ</string>
+    <string name="service_name">ชื่อบริการ</string>
+    <string name="stk_no_service">บริการไม่พร้อมใช้งาน</string>
+    <string name="button_ok">ตกลง</string>
+    <string name="button_cancel">ยกเลิก</string>
+    <string name="button_yes">ใช่</string>
+    <string name="button_no">ไม่</string>
+    <string name="alphabet">ตัวอักษร</string>
+    <string name="digits">เลข (0-9, *, #, +)</string>
+    <string name="default_call_setup_msg">กำลังใช้สาย...</string>
+    <string name="stk_app_state">สถานะแอปพลิเคชัน</string>
+    <string name="enable_app">เปิดใช้งานแล้ว</string>
+    <string name="disable_app">ปิดใช้งานแล้ว</string>
+</resources>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:id="@blur.res:id/badge_photo_parent" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@blur.res:dimen/card_cap_top_icon_padding_top">
+        <ImageView style="@blur.res:style/CardCapPhoto" />
+        <ImageView android:layout_alignTop="@blur.res:id/badge_photo" android:layout_alignRight="@blur.res:id/badge_photo" android:layout_alignBottom="@blur.res:id/badge_photo" style="@blur.res:style/CardCapPhotoShadow" />
+    </RelativeLayout>
+    <LinearLayout android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="@blur.res:dimen/card_cap_photo_size" android:layout_marginTop="@blur.res:dimen/card_cap_top_icon_padding_top" android:layout_weight="1.0">
+        <TextView android:id="@blur.res:id/badge_primary" style="@blur.res:style/CardCapTextPrimary" />
+        <View style="@blur.res:style/CardSpacer" />
+        <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="@blur.res:dimen/card_cap_padding_bottom">
+            <TextView android:id="@blur.res:id/badge_tertiary" style="@blur.res:style/CardCapTextTertiary" />
+            <View style="@blur.res:style/CardSpacer" />
+            <ImageView android:id="@blur.res:id/badge_source_icon" style="@blur.res:style/CardCapSmallIcon" />
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

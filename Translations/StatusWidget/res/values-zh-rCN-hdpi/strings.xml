@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+    <string name="skip_blur_title_2x1">设置帐户</string>
+    <string name="skip_blur_title_3x1">设置 MOTOBLUR 帐户</string>
+    <string name="skip_blur_title_3x2">设置 MOTOBLUR 帐户</string>
+    <string name="skip_blur_title">设置 MOTOBLUR 帐户</string>
+    <string name="skip_blur_subtitle">点按此处以完成设备设置</string>
+</resources>

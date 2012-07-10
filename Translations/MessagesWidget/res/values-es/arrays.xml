@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+    <string-array name="default_smiley_texts">
+        <item>:-)</item>
+        <item>:-(</item>
+        <item>;-)</item>
+        <item>:-P</item>
+        <item>=-O</item>
+        <item>:-*</item>
+        <item>:O</item>
+        <item>B-)</item>
+        <item>:-$</item>
+        <item>:-!</item>
+        <item>:-[</item>
+        <item>O:-)</item>
+        <item>:-\\</item>
+        <item>:\'(</item>
+        <item>:-X</item>
+        <item>:-D</item>
+        <item>o_O</item>
+    </string-array>
+    <string-array name="default_smiley_names">
+        <item>Feliz</item>
+        <item>Triste</item>
+        <item>Guiño</item>
+        <item>Sacando la lengua</item>
+        <item>Sorprendido</item>
+        <item>Beso</item>
+        <item>Gritando</item>
+        <item>Guay</item>
+        <item>Aplícate el cuento</item>
+        <item>Metedura de pata</item>
+        <item>Ruborizado</item>
+        <item>Santo</item>
+        <item>Inseguro</item>
+        <item>Llorando</item>
+        <item>Labios sellados</item>
+        <item>Riéndose</item>
+        <item>Confundido</item>
+    </string-array>
+    <string-array name="show_items">
+        <item>1 día</item>
+        <item>2 días</item>
+        <item>3 días</item>
+        <item>1 semana</item>
+        <item>1 mes</item>
+        <item>Hasta que se agote la memoria</item>
+    </string-array>
+</resources>

@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+    <style name="WeatherCardText">
+        <item name="android:textSize">18.0sp</item>
+        <item name="android:typeface">sans</item>
+        <item name="android:textColor">#ffffffff</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:shadowColor">#c0000000</item>
+        <item name="android:shadowDx">1.0</item>
+        <item name="android:shadowDy">1.0</item>
+        <item name="android:shadowRadius">2.0</item>
+    </style>
+    <style name="WeatherCardText.City" parent="@style/WeatherCardText">
+        <item name="android:textStyle">bold</item>
+    </style>
+    <style name="WeatherCardText.Day" parent="@style/WeatherCardText">
+        <item name="android:textSize">14.0sp</item>
+        <item name="android:textStyle">normal</item>
+    </style>
+    <style name="WeatherCardText.Updated" parent="@style/WeatherCardText">
+        <item name="android:textSize">14.0sp</item>
+        <item name="android:textStyle">normal</item>
+    </style>
+    <style name="WeatherCardText.Temperature" parent="@style/WeatherCardText">
+        <item name="android:textSize">64.0sp</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+    <style name="WeatherCardText.Temperature_HiLo" parent="@style/WeatherCardText">
+        <item name="android:textSize">20.0sp</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+    <style name="WeatherCardText.Description" parent="@style/WeatherCardText">
+        <item name="android:textSize">18.0sp</item>
+        <item name="android:textStyle">normal</item>
+    </style>
+</resources>

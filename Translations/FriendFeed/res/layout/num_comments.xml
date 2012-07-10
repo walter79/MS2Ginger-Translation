@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TextView android:id="@id/num_comments" android:background="@android:drawable/list_selector_background" android:paddingLeft="44.0dip" android:paddingTop="@blur.res:dimen/content_area_top_padding" android:paddingBottom="@blur.res:dimen/content_area_bottom_padding" android:focusable="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:minHeight="?android:listPreferredItemHeight" android:text="@string/comments_zero" style="@style/StatusTxt"
+  xmlns:android="http://schemas.android.com/apk/res/android" />

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+    <string name="app_name">Nota</string>
+    <string name="widget_body_hint">Toca para editar...</string>
+    <string name="sticky_note">Nota</string>
+    <string name="widget_description">Guarda una nota rápida en la pantalla principal</string>
+    <string name="title">Título</string>
+    <string name="note">Nota</string>
+    <string name="menu_discard">Descartar cambios</string>
+    <string name="menu_save">Guardar</string>
+    <string name="menu_edit">Modificar</string>
+    <string name="menu_share">Compartir</string>
+    <string name="select">Seleccionar</string>
+    <string name="widget_load_error">Problema con la nota. Por favor elimínala.</string>
+    <string name="widget_body_elipse">...</string>
+    <string name="share_note">Compartir nota</string>
+    <string name="cannot_share">Error al compartir la nota</string>
+</resources>

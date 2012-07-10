@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+    <string name="wallpapers">Fondos animados de Android</string>
+    <string name="wallpaper_walkaround">Ver a través de la cámara</string>
+    <string name="wallpaper_walkaround_author">Google</string>
+    <string name="wallpaper_walkaround_desc">El fondo muestra lo que ve la cámara. Así podrás caminar tranquilamente.</string>
+    <string name="wallpaper_grass">Hierba</string>
+    <string name="wallpaper_grass_author">Google</string>
+    <string name="wallpaper_grass_desc">Las briznas de hierba ondean suavemente bajo el cielo de día y de noche.</string>
+    <string name="wallpaper_galaxy">Galaxia</string>
+    <string name="wallpaper_galaxy_author">Google</string>
+    <string name="wallpaper_galaxy_desc">Una galaxia formada por estrellas que giran lentamente.</string>
+    <string name="wallpaper_fall">Agua</string>
+    <string name="wallpaper_fall_author">Google</string>
+    <string name="wallpaper_fall_desc">Caen las hojas otoñales al estanque ondulado Fondo líquido Zen.</string>
+    <string name="wallpaper_clock">Reloj polar</string>
+    <string name="wallpaper_clock_author">Google</string>
+    <string name="wallpaper_clock_desc">Fecha y hora en forma de arcos en sentido de agujas del reloj: mes, día, hora, minuto y segundo.</string>
+    <string name="wallpaper_nexus">Conexión</string>
+    <string name="wallpaper_nexus_author">Google</string>
+    <string name="wallpaper_nexus_desc">Sumérgete en la red neuronal.</string>
+    <string name="clock_settings">Ajustes del reloj polar</string>
+    <string name="show_seconds">Mostrar segundos</string>
+    <string name="variable_line_width">Variar ancho de anillos</string>
+    <string name="palette">Paleta de color</string>
+    <string name="palette_gray">Gris metálico</string>
+    <string name="palette_violet">Medianoche</string>
+    <string name="palette_matrix">Pantalla verde</string>
+    <string name="palette_white_c">Oso polar (dinámico)</string>
+    <string name="palette_black_c">Agujero negro (dinámico)</string>
+    <string name="palette_halloween">Pastel de calabaza</string>
+    <string name="palette_zenburn">Ensalada de frutas alienígena</string>
+    <string name="palette_oceanic">Láser azul</string>
+</resources>

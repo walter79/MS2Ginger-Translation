@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+    <color name="username_text">#ffffffff</color>
+    <color name="username_edit">#ff000000</color>
+    <color name="password_text">#ffffffff</color>
+    <color name="password_edit">#ff000000</color>
+    <color name="ssl_text_label">#ffffffff</color>
+    <color name="ssl_text_value">#ffffffff</color>
+    <color name="white">#ffffffff</color>
+    <color name="black">#ff000000</color>
+    <color name="gray">#ffbbbbbb</color>
+    <color name="dark_gray">#ff777777</color>
+    <color name="blue">#ff0000ff</color>
+    <color name="translucent_white">#11ffffff</color>
+    <color name="permission_border">#fff1cc1d</color>
+    <color name="permission_background">#fffaefb8</color>
+    <color name="shortcut_border">#ffe8e8e8</color>
+    <color name="shortcut_background">#fff8f8f8</color>
+    <color name="icon_selection">#ffff7a00</color>
+    <color name="dialog_link">#ff0000ff</color>
+</resources>

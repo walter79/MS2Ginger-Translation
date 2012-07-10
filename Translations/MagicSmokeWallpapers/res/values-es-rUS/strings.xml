@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+    <string name="wallpapers">Fondos de pantalla humo mágico</string>
+    <string name="wallpaper_magicsmoke">Humo mágico</string>
+    <string name="author">Google</string>
+    <string name="magicsmoke_desc">Dibuja humo, nubes, agua y plasmas.</string>
+    <string name="ok">Aceptar</string>
+    <string name="taptochange">Tocar para cambiar</string>
+</resources>

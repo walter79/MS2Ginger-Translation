@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+    <string name="skip_blur_title_2x1">設定帳戶</string>
+    <string name="skip_blur_title_3x1">設定 MOTOBLUR 帳戶</string>
+    <string name="skip_blur_title_3x2">設定 MOTOBLUR 帳戶</string>
+    <string name="skip_blur_title">設定 MOTOBLUR 帳戶</string>
+    <string name="skip_blur_subtitle">輕觸此處即可完成裝置設定</string>
+</resources>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LinearLayout android:orientation="horizontal" android:id="@id/widget_root" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/widget_icon" style="@blur.res:style/Blur.WidgetIcon.A" />
+    <LinearLayout android:orientation="vertical" android:background="@blur.res:drawable/widget_bubble_left" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <TextView android:gravity="top|left|center" android:id="@id/widget_status" android:layout_width="fill_parent" android:layout_height="wrap_content" android:lines="3" android:layout_weight="1.0" style="@blur.res:style/Blur.WidgetTxt.B" />
+        <include layout="@layout/widget_time_parent" />
+    </LinearLayout>
+</LinearLayout>

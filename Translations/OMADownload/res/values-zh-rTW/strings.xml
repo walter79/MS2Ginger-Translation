@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+    <string name="app_name">OMA 下載</string>
+    <string name="confirmation">下載檔案？</string>
+    <string name="filename">名稱：</string>
+    <string name="vendor">廠商：</string>
+    <string name="size">大小：</string>
+    <string name="type">類型：</string>
+    <string name="description">說明：</string>
+    <string name="vendor_unknown">（未知）</string>
+    <string name="filename_unknown">（未知）</string>
+    <string name="description_not_available">（無可用說明）</string>
+    <string name="download_not_acceptable">無法下載。 您的手機不支援此內容。</string>
+    <string name="download_file_error">無法下載。 空間不足。</string>
+    <string name="download_invalid_dd">無法下載。 下載的描述元檔案無效。</string>
+    <string name="download_error">下載失敗。</string>
+    <string name="download_failed_generic_dlg_title">下載失敗</string>
+    <string name="yes_button">是</string>
+    <string name="no_button">取消</string>
+    <string name="ok_button">確定</string>
+</resources>

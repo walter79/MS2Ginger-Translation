@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+    <string-array name="temp_units">
+        <item>Celsius</item>
+        <item>Fahrenheit</item>
+    </string-array>
+    <string-array name="days_of_week">
+        <item>Maandag</item>
+        <item>Dinsdag</item>
+        <item>Woensdag</item>
+        <item>Donderdag</item>
+        <item>Vrijdag</item>
+        <item>Zaterdag</item>
+        <item>Zondag</item>
+    </string-array>
+    <string-array name="days_of_week_abbreviated">
+        <item>ma</item>
+        <item>di</item>
+        <item>wo</item>
+        <item>do</item>
+        <item>vr</item>
+        <item>za</item>
+        <item>zo</item>
+    </string-array>
+</resources>

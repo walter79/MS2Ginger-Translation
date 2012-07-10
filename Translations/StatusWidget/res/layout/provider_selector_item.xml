@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RelativeLayout android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <CheckBox android:id="@id/provider_selector_checkbox" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignParentRight="true" android:layout_centerVertical="true" />
+    <ImageView android:id="@id/provider_selector_icon" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignParentLeft="true" android:layout_centerVertical="true" />
+    <TextView android:ellipsize="marquee" android:id="@id/provider_selector_name" android:layout_width="fill_parent" android:layout_height="?android:listPreferredItemHeight" android:singleLine="true" android:layout_toLeftOf="@id/provider_selector_checkbox" android:layout_toRightOf="@id/provider_selector_icon" android:layout_centerVertical="true" style="\?android:attr/dropDownItemStyle"
+      xmlns:android="http://schemas.android.com/apk/res/android" />
+</RelativeLayout>

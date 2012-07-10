@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+    <string name="app_name">视频播放器</string>
+    <string name="Share_menu">共享</string>
+    <string name="Tags_menu">标签</string>
+    <string name="Delete_menu">删除</string>
+    <string name="FullScreen_menu">适合屏幕</string>
+    <string name="ActualSize_menu">实际大小</string>
+    <string name="Camera_menu">相机</string>
+    <string name="Edit_menu">编辑</string>
+    <string name="AdvancedEdit_menu">高级编辑</string>
+    <string name="info_menu">视频信息</string>
+    <string name="TV_menu">在电视上显示</string>
+    <string name="Settings_menu">设置</string>
+    <string name="hdmi_waiting_message">正在连接 HDMI</string>
+    <string name="loading_video">正在加载视频…</string>
+    <string name="sendVideo">视频共享方式</string>
+    <string name="no_way_to_share_video">无法共享此视频。</string>
+    <string name="no_way_to_edit_video">未找到视频编辑器.</string>
+    <string name="resume_playing_title">继续播放视频</string>
+    <string name="resume_playing_message">从 %1$s 开始继续播放？</string>
+    <string name="resume_playing_resume">继续播放</string>
+    <string name="resume_playing_restart">重新开始</string>
+    <string name="details_ms">%1$02d:%2$02d</string>
+    <string name="details_hms">%1$d:%2$02d:%3$02d</string>
+    <string name="Error_msg">无法显示或播放此文件。</string>
+    <string name="Error_title">错误</string>
+    <string name="Delete_title">删除</string>
+    <string name="confirm_delete_1_video">删除 1 个视频？</string>
+    <string name="VIDEO">视频</string>
+    <string name="OK_button">确定</string>
+    <string name="CANCEL_button">取消</string>
+    <string name="connecting">正在连接,请稍候…</string>
+    <string name="cable_is_not_connected">未连接 HDMI 线。</string>
+    <string name="incoming_call_setting_title">来电设置</string>
+    <string name="always_check_incoming_call">总是检查来电</string>
+    <string name="always_ignore_incoming_call">总是忽略来电</string>
+    <string name="ok">确定</string>
+    <string name="discard">舍弃</string>
+    <string name="hdmi_blocked_toast">限制从 HDMI 播放该内容</string>
+</resources>

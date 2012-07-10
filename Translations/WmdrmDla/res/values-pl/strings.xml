@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+    <string name="txt_pb_reqlic">Usuwanie blokady pliku...</string>
+    <string name="txt_pb_uploadmet">W tle będą wysyłane statystyki dotyczące użycia.</string>
+    <string name="txt_content_type_video">Wideo</string>
+    <string name="txt_content_type_music">muzyka</string>
+    <string name="title_lic_expired">Wygasła licencja</string>
+    <string name="title_song_expired">Wygasłe utwory</string>
+    <string name="title_video_expired">Wygasłe filmy</string>
+    <string name="title_ringtone_expired">Wygasłe dzwonki</string>
+    <string name="title_file_expired">Wygasłe pliki</string>
+    <string name="txt_lic_expired_mpart1">Licencja na plik\u0020</string>
+    <string name="txt_lic_expired_mpart2" />
+    <string name="txt_lic_expired_mpart3">. Możesz kupić nową licencję, aby móc nadal odtwarzać ten plik.</string>
+    <string name="txt_lic_expired_listview">Wybierz jeden z poniższych plików, aby kupić licencję.</string>
+    <string name="txt_nt_multi_lic_expired">Do odtwarzania tych plików są wymagane dodatkowe licencje.</string>
+    <string name="txt_nt_single_lic_expired">\u0020wymaga licencji, aby można było go odtworzyć.</string>
+    <string name="title_delete_file">Usuń</string>
+    <string name="txt_delete_file">Czy chcesz teraz usunąć ten plik?</string>
+    <string name="txt_lic_status">wygasł</string>
+    <string name="title_lic_received">Otrzymano licencję</string>
+    <string name="txt_dlg_lic_received1">Otrzymano licencję na plik\u0020</string>
+    <string name="txt_dlg_lic_received2">\u0020. Teraz można go odtworzyć.</string>
+    <string name="txt_nt_single_lic_received">\u0020można teraz zostać odtworzony</string>
+    <string name="title_lic_error">Błąd licencji</string>
+    <string name="txt_lic_error">Nie pobrano licencji. Spróbuj ponownie ją pobrać.</string>
+    <string name="title_lic_trigger">Synchronizuj licencje</string>
+    <string name="txt_lic_trigger">Aby odtwarzanie na tym urządzeniu było nadal możliwe, licencje muszą zostać zaktualizowane. Czy chcesz teraz zaktualizować licencje?</string>
+    <string name="title_met_trigger">Wymagana zgoda na użycie</string>
+    <string name="txt_met_trigger">Dostawca treści musi poprosić o zgodę na rejestrowanie użycia tej treści na potrzeby rozliczenia zykonawcami. Czy zezwalasz na to?</string>
+    <string name="title_sync_pc_license">Synchronizuj licencje</string>
+    <string name="txt_sync_pc_license">Aby pliki mogły być nadal odtwarzane na tym urządzeniu, licencje muszą zostać zaktualizowane. Podłącz telefon do komputera, aby zaktualizować licencje.</string>
+    <string name="alert_dialog_yes">TAK</string>
+    <string name="alert_dialog_no">Nie</string>
+    <string name="alert_dialog_ok">Ok</string>
+    <string name="alert_dialog_play">Odtwórz</string>
+    <string name="alert_dialog_cancel">Anuluj</string>
+    <string name="alert_dialog_buy">Kup</string>
+    <string name="alert_dialog_close">Zamknij</string>
+</resources>

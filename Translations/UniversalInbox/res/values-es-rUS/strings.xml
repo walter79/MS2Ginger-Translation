@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+    <string name="app_name">B. entrada</string>
+    <string name="edit_activity_name">Editar</string>
+    <string name="no_messages">No hay mensajes</string>
+    <string name="loading_list">Cargando...</string>
+    <string name="multi_media_message">Mensaje multimedia</string>
+    <string name="menu_edit_accounts">Editar</string>
+    <string name="menu_settings">Configuración</string>
+    <string name="delete_threads_confirm_title">Borrar conversaciones</string>
+    <string name="delete_threads_confirm_message">Tu selección contiene conversaciones. ¿Deseas borrarlas también?</string>
+    <string name="move_error_title">No es posible mover elementos</string>
+    <string name="move_error_message">Sólo los elementos de correo de la misma cuenta se pueden mover a una carpeta.</string>
+</resources>

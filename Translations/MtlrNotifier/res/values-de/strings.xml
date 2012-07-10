@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+    <string name="app_name">MtlrDialog</string>
+    <string name="location_mtlr_notification">fordert Ihren Standort an.</string>
+    <string name="location_mtlr_ver_prefix">Status der Anforderung</string>
+    <string name="location_mtlr_ver_postfix">bei Nichtbeantwortung:</string>
+    <string name="location_mtlr_default_allow">Zulässig: Positionsanfrage</string>
+    <string name="location_mtlr_default_deny">Abgelehnt: Positionsanfrage</string>
+    <string name="location_mtlr_network_fail">Anforderung vom Netz beendet</string>
+    <string name="notification_msg_content">Positionsanfrage</string>
+    <string name="notification_msg_type_notification">Positionsanfrage</string>
+    <string name="notification_msg_type_missed">Entgangene Positionsanfrage</string>
+    <string name="notification_msg_type_title">Positionsanfrage</string>
+    <string name="notification_request_postfix">hat Ihren Standort angefragt.</string>
+    <string name="notification_dialog_middlefix">hat Ihren Standort angefragt. Ihr Standort</string>
+    <string name="verification_dialog_middlefix">hat Ihren Standort angefragt. Nach Annahme dieser Positionsanfrage</string>
+    <string name="notification_dialog_postfix">kann Ihr Standort ermittelt werden.</string>
+    <string name="missed_verification_dialog_prefix">Eine Standortanfrage wurde</string>
+    <string name="missed_verification_dialog_middlefix">verpasst. Ihr Standort</string>
+    <string name="share_status_yes">wurde</string>
+    <string name="share_status_no">wurde nicht</string>
+    <string name="share_string">weitergegeben an</string>
+    <string name="toast_accept">kann jetzt Ihren Standort ermitteln.</string>
+    <string name="toast_deny">kann Ihren Standort jetzt nicht ermitteln.</string>
+    <string name="connect_terminate_msg">Die Positionsanfrage wurde vom Netz beendet.</string>
+    <string name="accept_ok">OK</string>
+    <string name="button_allow">Zulassen</string>
+    <string name="button_deny">Ablehnen</string>
+</resources>

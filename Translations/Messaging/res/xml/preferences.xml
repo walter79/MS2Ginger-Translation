@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<PreferenceScreen
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <PreferenceCategory android:layout="@blur.res:layout/preference_title" android:title="@string/pref_accounts_settings_title" android:key="pref_msg_settings">
+        <PreferenceScreen android:title="@string/text_messaging_settings_label" android:key="pref_msg_settings_item">
+            <intent android:targetPackage="com.motorola.blur.conversations" android:action="android.intent.action.VIEW" android:targetClass="com.motorola.blur.conversations.ui.MessagingPreferenceActivity" />
+        </PreferenceScreen>
+        <PreferenceScreen android:title="@string/email_settings_label" android:key="pref_email_settings">
+            <intent android:targetPackage="com.motorola.blur.email" android:targetClass="com.motorola.blur.email.view.SettingsActivity" />
+        </PreferenceScreen>
+        <PreferenceScreen android:title="@string/sn_messaging_settings_label" android:key="pref_sn_settings">
+            <intent android:targetPackage="com.motorola.blur.socialmessaging" android:targetClass="com.motorola.blur.socialmessaging.activity.SNPreferenceActivity" />
+        </PreferenceScreen>
+    </PreferenceCategory>
+</PreferenceScreen>

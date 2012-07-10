@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="8.0dip" android:layout_marginRight="12.0dip" android:minHeight="?android:listPreferredItemHeight"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:layout_gravity="center" android:layout_width="72.0dip" android:layout_height="72.0dip">
+        <ImageView android:id="@id/icon" android:layout_width="64.0dip" android:layout_height="64.0dip" android:scaleType="centerInside" />
+        <ImageView android:id="@id/item_ticker" android:visibility="gone" android:layout_width="22.0dip" android:layout_height="22.0dip" android:scaleType="centerCrop" android:layout_alignParentTop="true" android:layout_alignParentRight="true" android:layout_alignWithParentIfMissing="true" />
+    </RelativeLayout>
+    <TextView android:textAppearance="?android:textAppearanceMedium" android:ellipsize="end" android:gravity="center" android:id="@id/text" android:layout_width="fill_parent" android:layout_height="wrap_content" android:lines="1" android:singleLine="true" />
+    <TextView android:textAppearance="?android:textAppearanceMedium" android:ellipsize="end" android:id="@id/info" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:singleLine="true" android:layout_centerInParent="true" android:layout_alignWithParentIfMissing="true" />
+    <TextView android:textAppearance="?android:textAppearanceSmall" android:ellipsize="end" android:id="@id/info_time" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:singleLine="true" android:layout_alignParentRight="true" android:layout_alignParentBottom="true" />
+</LinearLayout>

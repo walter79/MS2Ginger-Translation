@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+    <string-array name="security_questions">
+        <item>Favourite food?</item>
+        <item>Place of birth?</item>
+        <item>Best childhood friend\'s name?</item>
+        <item>Secondary school name?</item>
+    </string-array>
+    <string-array name="passwordStrength">
+        <item>poor</item>
+        <item>fair</item>
+        <item>good</item>
+        <item>strong</item>
+    </string-array>
+</resources>

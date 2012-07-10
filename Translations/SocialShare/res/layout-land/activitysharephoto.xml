@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="horizontal" style="@blur.res:style/Blur.TitleBar">
+        <TextView android:id="@id/titlebar_title" android:text="@string/social_network_photo_sharing" android:layout_weight="1.0" style="@blur.res:style/Blur.TxtTitleBar" />
+    </LinearLayout>
+    <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_weight="1.0">
+        <LinearLayout android:gravity="center" android:orientation="vertical" android:id="@id/WaitingUI" android:layout_width="@dimen/SOCIALSHARING_SharePhoto_ImgPreviewWidth" android:layout_height="fill_parent" android:layout_marginLeft="@dimen/SOCIALSHARING_SharePhoto_PadLeft" android:layout_marginTop="@dimen/SOCIALSHARING_SharePhoto_PadTop" android:layout_marginRight="@dimen/SOCIALSHARING_SharePhoto_PadRight" android:layout_marginBottom="@dimen/SOCIALSHARING_SharePhoto_PadBottom">
+            <ProgressBar android:layout_gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:indeterminate="true" />
+        </LinearLayout>
+        <FrameLayout android:gravity="center_horizontal" android:id="@id/SinglePreviewUI" android:paddingLeft="@dimen/SOCIALSHARING_SharePhoto_PadLeft" android:paddingTop="@dimen/SOCIALSHARING_SharePhoto_PadTop" android:paddingBottom="@dimen/SOCIALSHARING_SharePhoto_PadBottom" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="fill_parent">
+            <LinearLayout android:gravity="center_horizontal" android:layout_width="wrap_content" android:layout_height="fill_parent">
+                <ImageView android:id="@id/SharePhotoPreview" android:layout_width="@dimen/SOCIALSHARING_SharePhoto_ImgPreviewWidth" android:layout_height="@dimen/SOCIALSHARING_SharePhoto_ImgPreviewHeight" android:layout_marginLeft="@dimen/SOCIALSHARING_SharePhoto_ImgPreview_PadLeft_l" android:layout_marginTop="@dimen/SOCIALSHARING_SharePhoto_ImgPreview_PadTop" android:scaleType="centerCrop" />
+            </LinearLayout>
+            <LinearLayout android:gravity="center_horizontal" android:layout_width="wrap_content" android:layout_height="fill_parent">
+                <TextView android:textAppearance="?android:textAppearanceLargeInverse" android:gravity="center" android:id="@id/SharePhotoPreviewOverlay" android:visibility="gone" android:layout_width="@dimen/SOCIALSHARING_SharePhoto_ImgPreviewWidth" android:layout_height="@dimen/SOCIALSHARING_SharePhoto_ImgPreviewHeight" android:layout_marginLeft="@dimen/SOCIALSHARING_SharePhoto_ImgPreview_PadLeft_l" android:layout_marginTop="@dimen/SOCIALSHARING_SharePhoto_ImgPreview_PadTop" android:text="@string/touch_to_edit" />
+            </LinearLayout>
+            <ImageView android:layout_width="fill_parent" android:layout_height="wrap_content" android:src="@drawable/polaroid_single_bg" />
+        </FrameLayout>
+        <FrameLayout android:id="@id/MultiPreviewUI" android:paddingLeft="@dimen/SOCIALSHARING_SharePhoto_PadLeft" android:paddingTop="@dimen/SOCIALSHARING_SharePhoto_PadTop" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="fill_parent">
+            <LinearLayout android:layout_width="wrap_content" android:layout_height="fill_parent">
+                <ImageView android:id="@id/ShareAlbumPreview" android:layout_width="@dimen/SOCIALSHARING_ShareAlbum_ImgPreviewWidth" android:layout_height="@dimen/SOCIALSHARING_ShareAlbum_ImgPreviewHeight" android:layout_marginLeft="@dimen/SOCIALSHARING_ShareAlbum_ImgPreview_PadLeft_l" android:layout_marginTop="@dimen/SOCIALSHARING_ShareAlbum_ImgPreview_PadTop" android:scaleType="centerCrop" />
+            </LinearLayout>
+            <ImageView android:layout_width="fill_parent" android:layout_height="wrap_content" android:src="@drawable/polaroid_album_bg" />
+        </FrameLayout>
+        <LinearLayout android:orientation="vertical" android:paddingLeft="@dimen/SOCIALSHARING_SharePhoto_PadLeft" android:paddingTop="@dimen/SOCIALSHARING_SharePhoto_PadTop" android:paddingRight="@dimen/SOCIALSHARING_SharePhoto_PadRight" android:paddingBottom="@dimen/SOCIALSHARING_SharePhoto_PadBottom" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_weight="1.0">
+            <TextView android:textAppearance="?android:textAppearanceLarge" android:id="@id/pictures_selected" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/SOCIALSHARING_SharePhoto_PadLeft" android:layout_marginBottom="@dimen/SOCIALSHARING_SharePhoto_PadBottom" />
+            <TextView android:textAppearance="?android:textAppearanceLarge" android:id="@id/videos_selected" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/SOCIALSHARING_SharePhoto_PadLeft" android:layout_marginBottom="@dimen/SOCIALSHARING_SharePhoto_PadBottom" />
+            <TextView android:textAppearance="?android:textAppearanceLarge" android:id="@id/albums_selected" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/SOCIALSHARING_SharePhoto_PadLeft" android:layout_marginBottom="@dimen/SOCIALSHARING_SharePhoto_PadBottom" />
+            <FrameLayout android:id="@id/title_with_counter" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_weight="1.0">
+                <com.motorola.blur.util.widgets.CharLimitEditText android:id="@id/SharePhotoTitle" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/SOCIALSHARING_WidgetGroupPad" android:singleLine="true" />
+                <TextView android:id="@id/title_counter" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/SOCIALSHARING_TextCounter" />
+            </FrameLayout>
+            <FrameLayout android:id="@id/caption_with_counter" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_weight="1.0">
+                <com.motorola.blur.util.widgets.CharLimitEditText android:id="@id/SharePhotoCaption" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/SOCIALSHARING_LabelWidgetPad" android:hint="@string/enter_caption" android:maxLines="3" android:minLines="1" />
+                <TextView android:id="@id/caption_counter" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/SOCIALSHARING_TextCounter" />
+            </FrameLayout>
+            <include layout="@layout/provider_panel" />
+        </LinearLayout>
+    </LinearLayout>
+    <com.motorola.android.widget.ActionBar android:id="@id/abwidget" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+</LinearLayout>

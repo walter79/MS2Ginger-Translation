@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+    <dimen name="candidate_view_padding_left">8.0px</dimen>
+    <dimen name="candidate_view_padding_right">8.0px</dimen>
+    <dimen name="candidate_view_padding_top">9.0px</dimen>
+    <dimen name="candidate_view_padding_bottom">10.0px</dimen>
+    <dimen name="min_candidate_item_width">32.0px</dimen>
+    <dimen name="candidate_arrow_width">30.0px</dimen>
+    <dimen name="candidate_margin_left_right">0.0px</dimen>
+    <dimen name="composing_height">18.0px</dimen>
+    <dimen name="indicator_margin_top_bottom">0.0px</dimen>
+    <dimen name="indicator_height">150.0px</dimen>
+    <dimen name="indicator_width">55.0px</dimen>
+    <dimen name="indicator_btn_height">35.0px</dimen>
+    <dimen name="indicator_btn_width">55.0px</dimen>
+    <dimen name="indicator_balloon_height">70.0px</dimen>
+    <dimen name="indicator_balloon_width">85.0px</dimen>
+    <dimen name="indicator_balloon_x_offset">0.0px</dimen>
+    <dimen name="indicator_balloon_y_offset">67.0px</dimen>
+    <dimen name="font_size">16.0px</dimen>
+    <dimen name="indicator_total_height">220.0px</dimen>
+    <dimen name="indicator_text_margin">30.0px</dimen>
+    <dimen name="candidate_margin_symbol">1.0px</dimen>
+    <dimen name="balloon_width_symbol">44.0px</dimen>
+    <dimen name="candidate_balloon_width">70.0px</dimen>
+    <dimen name="candidate_balloon_hieght">50.0px</dimen>
+    <dimen name="candidate_balloon_text_size">32.0px</dimen>
+    <dimen name="max_symbol_item_width">34.0px</dimen>
+    <dimen name="land_ballon_x_offset">0.0px</dimen>
+    <dimen name="candidate_text_size_ratio_1">0.9px</dimen>
+    <dimen name="candidate_text_size_ratio_2">0.95000005px</dimen>
+    <dimen name="bell_offset">0.0px</dimen>
+</resources>

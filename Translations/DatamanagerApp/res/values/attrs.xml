@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+    <attr name="height" format="integer" />
+    <attr name="width" format="integer" />
+    <attr name="padding" format="integer" />
+    <attr name="spacing" format="integer" />
+</resources>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+    <dimen name="key_height">51.0dip</dimen>
+    <dimen name="candidate_strip_height">38.0dip</dimen>
+    <dimen name="spacebar_vertical_correction">2.0dip</dimen>
+    <dimen name="voice_keyboard_height">189.29999dip</dimen>
+    <dimen name="google_voice_button_height">42.0dip</dimen>
+    <dimen name="vlingo_voice_button_height">36.0dip</dimen>
+    <dimen name="key_preview_mini_width">86.0dip</dimen>
+    <dimen name="key_preview_height">84.0dip</dimen>
+</resources>

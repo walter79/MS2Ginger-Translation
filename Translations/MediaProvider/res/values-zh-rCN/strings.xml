@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+    <string name="uid_label">介质</string>
+    <string name="app_label">介质存储</string>
+    <string name="artist_label">艺术家</string>
+</resources>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+    <string name="app_label">नेटवर्क स्‍थान</string>
+    <string name="location_warning_title">स्‍थान सहमति</string>
+    <string name="location_warning_message">Google की स्‍थान सेवा को अज्ञात स्‍थान डेटा एकत्र करने की अनुमति दें. जब कोई एप्‍लिकेशन ना चल रही हो तब भी संकलन होगा!</string>
+    <string name="agree">सहमत</string>
+    <string name="disagree">असहमत</string>
+</resources>

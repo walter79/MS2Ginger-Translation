@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include layout="@layout/custom_title" />
+    <LinearLayout android:orientation="horizontal" android:paddingTop="1.0dip" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginBottom="-3.0dip"
+      xmlns:android="http://schemas.android.com/apk/res/android">
+        <FrameLayout android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginLeft="-3.0dip" android:layout_marginRight="-4.0dip" android:layout_weight="1.0">
+            <ImageButton android:id="@id/play_button" android:layout_width="fill_parent" android:layout_height="fill_parent" android:src="@drawable/ic_btn_play" android:layout_weight="1.0" />
+            <TextView android:textAppearance="?android:textAppearanceMediumInverse" android:textStyle="bold" android:textColor="?android:textColorPrimaryDisableOnly" android:ellipsize="marquee" android:gravity="bottom|center" android:id="@id/artists_label" android:background="#00000000" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginBottom="42.0px" android:text="@string/play_media_btn" android:singleLine="false" />
+        </FrameLayout>
+        <FrameLayout android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginLeft="-4.0dip" android:layout_marginRight="-4.0dip" android:layout_weight="1.0">
+            <ImageButton android:id="@id/download_button" android:layout_width="fill_parent" android:layout_height="fill_parent" android:src="@drawable/ic_btn_download" android:layout_weight="1.0" />
+            <TextView android:textAppearance="?android:textAppearanceMediumInverse" android:textStyle="bold" android:textColor="?android:textColorPrimaryDisableOnly" android:ellipsize="marquee" android:gravity="bottom|center" android:id="@id/tracks_label" android:background="#00000000" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginBottom="42.0px" android:text="@string/download_media_btn" android:singleLine="false" />
+        </FrameLayout>
+        <FrameLayout android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginLeft="-4.0dip" android:layout_marginRight="-4.0dip" android:layout_weight="1.0">
+            <ImageButton android:id="@id/upload_button" android:layout_width="fill_parent" android:layout_height="fill_parent" android:src="@drawable/ic_btn_upload" android:layout_weight="1.0" />
+            <TextView android:textAppearance="?android:textAppearanceMediumInverse" android:textStyle="bold" android:textColor="?android:textColorPrimaryDisableOnly" android:ellipsize="marquee" android:gravity="bottom|center" android:id="@id/albums_label" android:background="#00000000" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginBottom="42.0px" android:text="@string/upload_media_btn" android:singleLine="false" />
+        </FrameLayout>
+        <FrameLayout android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginLeft="-4.0dip" android:layout_marginRight="-4.0dip" android:layout_weight="1.0">
+            <ImageButton android:id="@id/share_button" android:layout_width="fill_parent" android:layout_height="fill_parent" android:src="@drawable/ic_btn_share" android:layout_weight="1.0" />
+            <RelativeLayout android:layout_gravity="bottom|center" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <ImageView android:layout_gravity="bottom|center" android:id="@id/share_indicator" android:paddingLeft="20.0dip" android:paddingRight="20.0dip" android:paddingBottom="3.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:src="@android:drawable/button_onoff_indicator_on" android:scaleType="fitXY" />
+                <TextView android:textAppearance="?android:textAppearanceMediumInverse" android:textStyle="bold" android:textColor="?android:textColorPrimaryDisableOnly" android:ellipsize="end" android:gravity="bottom|center" android:id="@id/playlists_label" android:background="#00000000" android:paddingLeft="22.0dip" android:paddingBottom="5.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/media_server_title_btn" android:layout_below="@id/share_indicator" />
+            </RelativeLayout>
+        </FrameLayout>
+    </LinearLayout>
+</LinearLayout>

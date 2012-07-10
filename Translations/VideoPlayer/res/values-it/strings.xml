@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+    <string name="app_name">Lettore video</string>
+    <string name="Share_menu">Condividi</string>
+    <string name="Tags_menu">Tag</string>
+    <string name="Delete_menu">Elimina</string>
+    <string name="FullScreen_menu">Adatta allo schermo</string>
+    <string name="ActualSize_menu">Dimensioni reali</string>
+    <string name="Camera_menu">Fotocamera</string>
+    <string name="Edit_menu">Modifica</string>
+    <string name="AdvancedEdit_menu">Avanzate</string>
+    <string name="info_menu">Info video</string>
+    <string name="TV_menu">Visualizza su TV</string>
+    <string name="Settings_menu">Impostazioni</string>
+    <string name="hdmi_waiting_message">Connessione ad HDMI</string>
+    <string name="loading_video">Caricamento video...</string>
+    <string name="sendVideo">Condividi video via</string>
+    <string name="no_way_to_share_video">Impossibile condividere il video.</string>
+    <string name="no_way_to_edit_video">Nessun editor video trovato.</string>
+    <string name="resume_playing_title">Riprendi video</string>
+    <string name="resume_playing_message">Riprendere la riproduzione da %1$s ?</string>
+    <string name="resume_playing_resume">Riprendi la riproduzione</string>
+    <string name="resume_playing_restart">Riavvia</string>
+    <string name="details_ms">%1$02d:%2$02d</string>
+    <string name="details_hms">%1$d:%2$02d:%3$02d</string>
+    <string name="Error_msg">Impossibile visualizzare o riprodurre il file.</string>
+    <string name="Error_title">Errore</string>
+    <string name="Delete_title">Elimina</string>
+    <string name="confirm_delete_1_video">Eliminare 1 video?</string>
+    <string name="VIDEO">video</string>
+    <string name="OK_button">OK</string>
+    <string name="CANCEL_button">Annulla</string>
+    <string name="connecting">Attendi la connessione.</string>
+    <string name="cable_is_not_connected">Il cavo HDMI non è collegato.</string>
+    <string name="incoming_call_setting_title">Impostazione chiamate in arrivo</string>
+    <string name="always_check_incoming_call">Controlla sempre</string>
+    <string name="always_ignore_incoming_call">Ignora sempre</string>
+    <string name="ok">OK</string>
+    <string name="discard">Annulla</string>
+    <string name="hdmi_blocked_toast">Questo contenuto è limitato dalla riproduzione HDMI</string>
+</resources>

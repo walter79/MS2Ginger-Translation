@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+    <string name="app_label">Місцезн. в мережі</string>
+    <string name="location_warning_title">Згода щодо місцезн.</string>
+    <string name="location_warning_message">Дозвол. службі визнач. місцезн. Google збирати анонімні дані місцезн. Дані будуть збиратися, навіть якщо не запущ. жодної програми!</string>
+    <string name="agree">Приймаю</string>
+    <string name="disagree">Не приймаю</string>
+</resources>

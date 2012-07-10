@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RelativeLayout android:id="@blur.res:id/widget_root" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:id="@id/widget_photo_parent" android:background="@drawable/sleeve_vert" android:layout_width="fill_parent" android:layout_height="@blur.res:dimen/widget_sleeve_height">
+        <ImageView android:id="@id/widget_app_icon" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ic_happ_small" android:layout_alignParentRight="true" android:layout_alignParentBottom="true" />
+        <TextView android:id="@id/widget_name" android:layout_toLeftOf="@id/widget_app_icon" android:layout_alignParentLeft="true" android:layout_alignParentBottom="true" style="@blur.res:style/Widget.GenContent.Text.Name" />
+        <ImageView android:id="@blur.res:id/widget_photo" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="fill_parent" />
+    </RelativeLayout>
+    <FrameLayout android:id="@blur.res:id/content_layout" android:background="@blur.res:drawable/base_vert" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_below="@id/widget_photo_parent" />
+</RelativeLayout>

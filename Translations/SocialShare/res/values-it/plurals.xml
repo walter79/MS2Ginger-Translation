@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+    <plurals name="media_files_deleted">
+        <item quantity="other">Gli elementi nell\'elenco di caricamento sono stati eliminati.</item>
+        <item quantity="one">Un elemento dell\'elenco di caricamento è stato eliminato.</item>
+    </plurals>
+</resources>

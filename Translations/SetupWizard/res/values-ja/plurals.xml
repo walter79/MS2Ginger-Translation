@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+    <plurals name="error_missing_apps_plurals">
+        <item quantity="other">このアカウントは^1アプリケーションにアクセスできないので携帯電話では使用できません。&lt;b>^2&lt;/b>のドメイン管理者に問い合わせるか別のアカウントでログインしてください。</item>
+        <item quantity="one">このアカウントは^1アプリケーションにアクセスできないので携帯電話では使用できません。&lt;b>^2&lt;/b>のドメイン管理者に問い合わせるか別のアカウントでログインしてください。</item>
+    </plurals>
+</resources>

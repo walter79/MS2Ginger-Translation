@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RelativeLayout android:id="@blur.res:id/widget_root" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:id="@id/sleeve_layout" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <include layout="@layout/image_vert" />
+    </RelativeLayout>
+    <FrameLayout android:id="@blur.res:id/content_layout" android:background="@blur.res:drawable/base_vert" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_below="@id/sleeve_layout">
+        <RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <include layout="@blur.res:layout/provider_icons" />
+            <TextView android:gravity="center" android:id="@blur.res:id/widget_body_text" android:maxLines="3" android:layout_above="@blur.res:id/provider_icon1" android:layout_centerVertical="true" android:lineSpacingExtra="1.0dip" style="@style/EmptyMessage.Horizontal" />
+            <include layout="@layout/edit_icon" />
+        </RelativeLayout>
+    </FrameLayout>
+    <ImageView android:id="@id/widget_karat_icon" android:layout_below="@id/sleeve_layout" style="@style/Karat.V" />
+</RelativeLayout>

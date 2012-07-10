@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+    <string name="txt_pb_reqlic">Unlocking file...</string>
+    <string name="txt_pb_uploadmet">Usage statistics will be sent in the background.</string>
+    <string name="txt_content_type_video">video</string>
+    <string name="txt_content_type_music">music</string>
+    <string name="title_lic_expired">License Expired</string>
+    <string name="title_song_expired">Expired Songs</string>
+    <string name="title_video_expired">Expired Videos</string>
+    <string name="title_ringtone_expired">Expired Ringtones</string>
+    <string name="title_file_expired">Expired Files</string>
+    <string name="txt_lic_expired_mpart1">A license for the\u0020</string>
+    <string name="txt_lic_expired_mpart2">\u0020file\u0020</string>
+    <string name="txt_lic_expired_mpart3">. You may buy a new license to continue playing this file.</string>
+    <string name="txt_lic_expired_listview">Select a file below to buy license.</string>
+    <string name="txt_nt_multi_lic_expired">Additional licenses are required to play these files.</string>
+    <string name="txt_nt_single_lic_expired">\u0020requires a license to be played.</string>
+    <string name="title_delete_file">Delete</string>
+    <string name="txt_delete_file">Would you like to delete this file now?</string>
+    <string name="txt_lic_status">has expired</string>
+    <string name="title_lic_received">License Received</string>
+    <string name="txt_dlg_lic_received1">A license for the file\u0020</string>
+    <string name="txt_dlg_lic_received2">\u0020has been received. You are now able to play the file.</string>
+    <string name="txt_nt_single_lic_received">\u0020is now able to be played</string>
+    <string name="title_lic_error">License Error</string>
+    <string name="txt_lic_error">The license download has failed.Please retry the download.</string>
+    <string name="title_lic_trigger">Sync licenses</string>
+    <string name="txt_lic_trigger">Licenses must be updated to continus playback on this device. Would you like to update licenses now?</string>
+    <string name="title_met_trigger">Usage consent required</string>
+    <string name="txt_met_trigger">The content provider is required to ask for consent to record the usage of this content for the artists\' billing purposes. Do you agree to allow this?</string>
+    <string name="title_sync_pc_license">Sync licenses</string>
+    <string name="txt_sync_pc_license">Licenses must be updated to continue playback of files on this device. Please connect your phone to a PC to update licenses.</string>
+    <string name="alert_dialog_yes">YES</string>
+    <string name="alert_dialog_no">No</string>
+    <string name="alert_dialog_ok">OK</string>
+    <string name="alert_dialog_play">Play</string>
+    <string name="alert_dialog_cancel">Cancel</string>
+    <string name="alert_dialog_buy">Buy</string>
+    <string name="alert_dialog_close">Close</string>
+</resources>

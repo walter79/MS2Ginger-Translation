@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RelativeLayout style="@blur.res:style/Blur.ListItem"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <android.widget.QuickContactBadge android:id="@id/friendfeed_list_item_image" android:layout_marginLeft="@dimen/listitem_hspacing" android:layout_marginRight="@dimen/listitem_photo_hspacing" android:layout_alignParentLeft="true" style="@android:style/Widget.QuickContactBadge.WindowSmall" />
+    <LinearLayout android:orientation="horizontal" android:id="@id/friendfeed_name_date_parent" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_toRightOf="@id/friendfeed_list_item_image" android:layout_alignWithParentIfMissing="true">
+        <TextView android:id="@id/friendfeed_list_item_name" android:layout_width="fill_parent" android:layout_weight="1.0" style="@blur.res:style/Blur.TxtListItemA" />
+        <TextView android:id="@id/friendfeed_list_item_date" android:layout_width="wrap_content" android:layout_marginLeft="@dimen/listitem_hspacing" style="@blur.res:style/Blur.TxtListItemD" />
+    </LinearLayout>
+    <RelativeLayout android:id="@id/friendfeed_list_item_details" android:paddingTop="@dimen/listitem_vspacing" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_toRightOf="@id/friendfeed_list_item_image" android:layout_below="@id/friendfeed_name_date_parent" android:layout_alignWithParentIfMissing="true">
+        <LinearLayout android:orientation="vertical" android:id="@id/content" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_toLeftOf="@id/media_preview">
+            <TextView android:id="@id/friendfeed_list_item_text" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/listitem_vspacing" style="@style/TitleTxt" />
+            <TextView android:id="@id/friendfeed_list_item_mood" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/listitem_vspacing" android:drawablePadding="@dimen/listitem_photo_hspacing" style="@blur.res:style/Blur.TxtListItemE" />
+            <TextView android:id="@id/friendfeed_list_item_content" android:layout_width="fill_parent" android:layout_height="wrap_content" android:maxLines="4" style="@blur.res:style/Blur.TxtListItemE" />
+        </LinearLayout>
+        <FrameLayout android:id="@id/media_preview" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignTop="@id/content" android:layout_alignParentRight="true">
+            <ImageView android:id="@id/thumbnail" android:paddingTop="@dimen/thumbnail_offset" android:layout_width="@dimen/thumbnail" android:layout_height="@dimen/thumbnail" android:scaleType="center" android:cropToPadding="true" />
+            <ImageView android:id="@id/thumbnail_frame" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@blur.res:drawable/polaroid_album_list_view" />
+        </FrameLayout>
+    </RelativeLayout>
+    <RelativeLayout android:paddingTop="4.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_toRightOf="@id/friendfeed_list_item_image" android:layout_below="@id/friendfeed_list_item_details">
+        <TextView android:id="@id/friendfeed_list_item_retweet" android:layout_width="wrap_content" android:layout_height="wrap_content" android:drawableLeft="@drawable/ic_list_retweet" android:drawablePadding="@dimen/listitem_photo_hspacing" style="@blur.res:style/Blur.TxtListItemD" />
+        <ImageView android:id="@id/friendfeed_list_item_comment_count_icon" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="@dimen/listitem_photo_hspacing" android:src="@blur.res:drawable/ic_list_comment" />
+        <TextView android:id="@id/friendfeed_list_item_comment_count" android:paddingRight="15.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_toRightOf="@id/friendfeed_list_item_comment_count_icon" style="@blur.res:style/Blur.TxtListItemD" />
+        <ImageView android:id="@id/friendfeed_list_item_like_count_icon" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="@dimen/listitem_photo_hspacing" android:src="@blur.res:drawable/ic_list_like" android:layout_toRightOf="@id/friendfeed_list_item_comment_count" android:layout_alignWithParentIfMissing="true" />
+        <TextView android:id="@id/friendfeed_list_item_like_count" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_toRightOf="@id/friendfeed_list_item_like_count_icon" style="@blur.res:style/Blur.TxtListItemD" />
+        <ImageView android:id="@id/friendfeed_list_item_provider_image" android:layout_marginRight="0.0dip" android:layout_alignParentRight="true" style="@blur.res:style/Blur.IconSource" />
+    </RelativeLayout>
+</RelativeLayout>

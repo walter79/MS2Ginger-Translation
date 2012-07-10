@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+    <string-array name="preload_messages">
+        <item>Ti richiamo tra qualche minuto.</item>
+        <item>Richiamami tra qualche minuto.</item>
+        <item>Scusami, non potevo rispondere.</item>
+    </string-array>
+</resources>

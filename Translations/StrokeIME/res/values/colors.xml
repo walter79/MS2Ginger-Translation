@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+    <color name="candidate_activate">#ffffffff</color>
+    <color name="candidate_normal">#ff333333</color>
+    <color name="candidate_recommended">#ffe35900</color>
+    <color name="candidate_other">#ff808080</color>
+    <color name="def_shadowColor">#bb000000</color>
+    <color name="def_keyTextColor">#ff333333</color>
+    <color name="candidate_white">#ffffffff</color>
+    <color name="composing_color">#ff000000</color>
+    <color name="composing_color_hl">#ffffffff</color>
+    <color name="composing_color_idle">#ff777777</color>
+</resources>

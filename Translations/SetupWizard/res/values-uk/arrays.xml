@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+    <string-array name="security_questions">
+        <item>Улюблена їжа?</item>
+        <item>Місто народження?</item>
+        <item>Ім\'я найкращого друга дитинства?</item>
+        <item>Назва школи?</item>
+    </string-array>
+    <string-array name="passwordStrength">
+        <item>поганий</item>
+        <item>задов.</item>
+        <item>хороший</item>
+        <item>надійний</item>
+    </string-array>
+</resources>

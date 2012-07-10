@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<com.motorola.inputmethod.gpinyin.SkbContainer android:orientation="horizontal" android:background="@drawable/cands_container_bg_vertical" android:layout_width="0.0px" android:layout_height="0.0px"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:id="@id/PinyinIndicatorContainer" android:background="@drawable/cands_container_bg_vertical" android:clickable="true" android:layout_width="@dimen/indicator_width" android:layout_height="fill_parent" android:layout_alignParentLeft="true" android:layout_centerVertical="true">
+        <ImageButton android:id="@id/arrow_up_btn" android:background="@drawable/indicator_arrow_bg" android:clickable="true" android:layout_width="fill_parent" android:layout_height="@dimen/indicator_btn_height" android:src="@drawable/moto_page_backward" android:layout_alignParentTop="true" />
+        <ViewFlipper android:id="@id/indicator_flipper" android:background="@drawable/cands_container_bg_vertical" android:clickable="true" android:layout_width="fill_parent" android:layout_height="@dimen/indicator_height">
+            <view android:id="@id/PinyinIndicator_1" android:background="@drawable/cands_container_bg_vertical" android:clickable="true" android:layout_width="fill_parent" android:layout_height="@dimen/indicator_height" class="com.motorola.inputmethod.gpinyin.PinyinIndicatorView" />
+            <view android:id="@id/PinyinIndicator_2" android:background="@drawable/cands_container_bg_vertical" android:clickable="true" android:layout_width="fill_parent" android:layout_height="@dimen/indicator_height" class="com.motorola.inputmethod.gpinyin.PinyinIndicatorView" />
+        </ViewFlipper>
+        <ImageButton android:id="@id/arrow_down_btn" android:background="@drawable/indicator_arrow_bg" android:clickable="true" android:layout_width="fill_parent" android:layout_height="@dimen/indicator_btn_height" android:src="@drawable/moto_page_forward" android:layout_alignParentBottom="true" />
+    </LinearLayout>
+    <ViewFlipper android:id="@id/alpha_floatable" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_toRightOf="@id/PinyinIndicatorContainer" android:layout_alignParentRight="true" android:layout_alignParentBottom="true">
+        <com.motorola.inputmethod.gpinyin.SoftKeyboardView android:id="@id/alpha_view1" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+        <com.motorola.inputmethod.gpinyin.SoftKeyboardView android:id="@id/alpha_view2" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+    </ViewFlipper>
+</com.motorola.inputmethod.gpinyin.SkbContainer>

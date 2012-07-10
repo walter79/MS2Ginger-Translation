@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<merge
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:layout_gravity="top" android:id="@id/friend_feed_item_provider_image" android:background="@android:drawable/list_selector_background" android:focusable="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip" android:layout_alignParentRight="true" />
+    <RelativeLayout android:id="@id/title_and_mood" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_toLeftOf="@id/friend_feed_item_provider_image" android:layout_alignWithParentIfMissing="true">
+        <TextView android:ellipsize="none" android:id="@id/title_text" android:layout_width="fill_parent" android:layout_height="wrap_content" android:singleLine="false" android:selectAllOnFocus="true" style="@style/StatusTxt" />
+        <TextView android:id="@id/mood_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:drawablePadding="5.0dip" android:layout_below="@id/title_text" style="@blur.res:style/Blur.TxtListItemE" />
+    </RelativeLayout>
+</merge>

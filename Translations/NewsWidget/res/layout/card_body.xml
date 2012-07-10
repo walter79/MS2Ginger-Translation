@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/card_body_image" android:visibility="gone" android:adjustViewBounds="true" style="@blur.res:style/CardBodyImage" />
+    <TextView android:id="@id/card_body_headline" style="@blur.res:style/CardBodyTextTitle" />
+    <com.motorola.blur.home.widget.CardTextView android:id="@id/card_body_copy" style="@blur.res:style/CardBodyTextContent" />
+</LinearLayout>

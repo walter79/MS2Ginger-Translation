@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+    <string name="app_name">OMA-download</string>
+    <string name="confirmation">Bestand downloaden?</string>
+    <string name="filename">Naam:</string>
+    <string name="vendor">Leverancier:</string>
+    <string name="size">Volume:</string>
+    <string name="type">Type:</string>
+    <string name="description">Beschrijving:</string>
+    <string name="vendor_unknown">(onbekend)</string>
+    <string name="filename_unknown">(onbekend)</string>
+    <string name="description_not_available">(geen beschrijving beschikbaar)</string>
+    <string name="download_not_acceptable">Kan niet downloaden. De telefoon ondersteunt deze inhoud niet.</string>
+    <string name="download_file_error">Kan niet downloaden. Er is niet genoeg ruimte.</string>
+    <string name="download_invalid_dd">Kan niet downloaden. Beschrijvingsbestand voor download is ongeldig.</string>
+    <string name="download_error">Downloaden is mislukt.</string>
+    <string name="download_failed_generic_dlg_title">Downloaden is mislukt.</string>
+</resources>

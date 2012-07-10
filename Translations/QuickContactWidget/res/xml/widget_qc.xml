@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<appwidget-provider android:minWidth="146.0dip" android:minHeight="146.0dip" android:initialLayout="@layout/widget_2x2" android:configure="com.motorola.blur.quickcontact.ConfigurationActivity" blur:description="@string/widget_description"
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:blur="http://schemas.android.com/apk/res/blur.res">
+    <appwidget-layout blur:minSpanX="1" blur:maxSpanX="4" blur:minSpanY="1" blur:maxSpanY="4" />
+</appwidget-provider>

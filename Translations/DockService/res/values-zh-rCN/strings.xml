@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+    <string name="app_name">摩托罗拉底座服务</string>
+    <string name="mot_dock_apps">摩托罗拉底座应用程序</string>
+    <string name="TitleForWebtop">Webtop</string>
+    <string name="TitleForEASport">EASport</string>
+    <string name="TitleWidgetClock">时钟小部件</string>
+    <string name="TitleForEntertainmentCenter">娱乐中心</string>
+    <string name="TitleForBigClock">大时钟</string>
+    <string name="TitleForHome">关闭选择程序</string>
+    <string name="description">标题描述放在此处</string>
+    <string name="detailed_description">详细描述放在此处</string>
+    <string name="dock_notification_title">已连接到多媒体中心</string>
+    <string name="hall_effect_dock_only">当前已连接到多媒体中心</string>
+    <string name="dock_notification_message">选择切换应用程序</string>
+    <string name="hdmi_notification_title">HDMI 连接</string>
+    <string name="hdmi_notification_message">选择管理您的 HDMI 连接</string>
+    <string name="hdmi_only_message">当前已连接 HDMI</string>
+    <string name="dock_hdmi_notification_title">已连接到 HD 底座</string>
+    <string name="hall_effect_dock_notification">当前已连接 HD 底座</string>
+    <string name="dock_hdmi_notification_message">选择切换应用程序</string>
+    <string name="descrip_webtop">将手机转换为计算机使用</string>
+    <string name="descrip_entertainmentcenter">通过 HDTV 播放音乐、图片和视频</string>
+    <string name="descrip_bigclock">精美时钟和闹钟</string>
+    <string name="descrip_widgetdock">将自定义底座体验设置为类似于手机主屏幕</string>
+    <string name="descrip_home">手机插入车载底座时，继续运行当前应用程序</string>
+    <string name="descrip_easport">游戏说明</string>
+    <string name="str_ok">确定</string>
+    <string name="detail_descrip_webtop">描述放在此处。待添加</string>
+    <string name="detail_descrip_entertainmentcenter">电视媒体中心允许您在手机上浏览所有多媒体内容。在媒体中心，手机成为一个万能控制器，您能够轻松播放音乐、查看照片和观看视频</string>
+    <string name="detail_descrip_bigclock">将手机屏幕转换为大时钟模式。这种模式有很多额外功能：远距离查看时间、设置闹钟、播放音乐、查看照片以及获取最新天气信息。这种模式是为了便于放在床头而专门设计的，但是也可以放在厨房内或者作为座钟使用。</string>
+    <string name="detail_descrip_widgetdock">您同样可以在手机主屏幕上访问 Android 窗口小部件、应用程序和快捷方式。您也可以对他们进行排列并根据自己的喜好更改壁纸。所有更改将被保存并在下次将手机插入底座后应用。</string>
+    <string name="detail_descrip_home">选择此模式后，手机将记住总是显示当前应用程序。您可以通过在通知幕帘上进行选择，轻松访问其他底座应用程序。</string>
+    <string name="detail_descrip_easport">娱乐详细信息描述放在此处。待稍后添加。</string>
+    <string name="prompt_RememberMySelection">记住我的选择</string>
+    <string name="title">选择一个应用程序启用</string>
+    <string name="detecting">正在检测...</string>
+    <string name="TitleForMirrorMode">在显示屏上镜像显示手机内容</string>
+    <string name="descrip_mirrormode">在较大的显示屏上访问和显示所有手机应用程序</string>
+    <string name="TitleForOther">其他</string>
+    <string name="descrip_other">显示非智能模式底座应用程序</string>
+    <string name="TitleForGallery">图库</string>
+    <string name="descrip_gallery">查看照片和视频</string>
+    <string name="TitleForMusicPlayer">音乐</string>
+    <string name="descrip_musicplayer">访问、收听和共享音乐</string>
+</resources>

@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+    <string name="app_name">Video Player</string>
+    <string name="Share_menu">Share</string>
+    <string name="Tags_menu">Tags</string>
+    <string name="Delete_menu">Delete</string>
+    <string name="FullScreen_menu">Fit to screen</string>
+    <string name="ActualSize_menu">Actual size</string>
+    <string name="Camera_menu">Camera</string>
+    <string name="Edit_menu">Edit</string>
+    <string name="AdvancedEdit_menu">Advanced editing</string>
+    <string name="info_menu">Video info</string>
+    <string name="TV_menu">Display on TV</string>
+    <string name="Settings_menu">Settings</string>
+    <string name="hdmi_waiting_message">Connecting to HDMI</string>
+    <string name="loading_video">Loading video…</string>
+    <string name="sendVideo">Share video via</string>
+    <string name="no_way_to_share_video">This video cannot be shared.</string>
+    <string name="no_way_to_edit_video">No video editor found.</string>
+    <string name="resume_playing_title">Resume video</string>
+    <string name="resume_playing_message">Resume playing from %1$s ?</string>
+    <string name="resume_playing_resume">Resume playing</string>
+    <string name="resume_playing_restart">Start over</string>
+    <string name="details_ms">%1$02d:%2$02d</string>
+    <string name="details_hms">%1$d:%2$02d:%3$02d</string>
+    <string name="Error_msg">File cannot be displayed or played.</string>
+    <string name="Error_title">Error</string>
+    <string name="Delete_title">Delete</string>
+    <string name="confirm_delete_1_video">Delete 1 video?</string>
+    <string name="VIDEO">video</string>
+    <string name="OK_button">OK</string>
+    <string name="CANCEL_button">Cancel</string>
+    <string name="connecting">Please wait while connecting..</string>
+    <string name="cable_is_not_connected">HDMI cable is not connected.</string>
+    <string name="incoming_call_setting_title">Incoming Call Setting</string>
+    <string name="always_check_incoming_call">Always check incoming call</string>
+    <string name="always_ignore_incoming_call">Always ignore incoming call</string>
+    <string name="ok">Ok</string>
+    <string name="discard">Discard</string>
+    <string name="hdmi_blocked_toast">This content is restricted from HDMI playback</string>
+    <item type="string" name="APKTOOL_DUMMY_0026">false</item>
+</resources>

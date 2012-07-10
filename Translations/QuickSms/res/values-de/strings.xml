@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+    <string name="qsms_app_name">QuickSms</string>
+    <string name="qsms_manage_title">Nachrichten bearbeiten</string>
+    <string name="qsms_add_msg">Nachrichten</string>
+    <string name="qsms_label_add">Nachricht hinzufügen</string>
+    <string name="qsms_label_edit">Nachricht bearbeiten</string>
+    <string name="qsms_add">Hinzufügen</string>
+    <string name="qsms_ok">OK</string>
+    <string name="qsms_cancel">Abbrechen</string>
+    <string name="qsms_save">Speichern</string>
+    <string name="qsms_yes">Ja</string>
+    <string name="qsms_no">Nein</string>
+    <string name="text_message_reply">SMS-Antwort</string>
+    <string name="write_new">Neue Nachricht erstellen</string>
+    <string name="no_messages">Keine Nachrichten</string>
+    <string name="sms_sent">Nachricht gesendet</string>
+    <string name="message_deleted">Nachricht gelöscht</string>
+    <string name="phone_locked">Telefon gesperrt</string>
+    <string name="phone_locked_message">Telefon entsperren, um eine Textnachricht zu erstellen</string>
+    <string name="message_overflow">Mehr als 20 gespeicherte SMS können nicht überschritten werden</string>
+    <string name="turn_off_quicksms">SMS-Antwort ausschalten</string>
+</resources>

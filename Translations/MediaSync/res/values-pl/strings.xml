@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+    <string name="hello">Witaj świecie, MediaSyncAct</string>
+    <string name="app_name">Synchronizacja multimediów</string>
+    <string name="mtpconnecting">Połączenie z synchronizacją plików multimedialnych</string>
+    <string name="unmount_ticker">BRAK karty SD</string>
+    <string name="unmount_notify_title">Powiadomienie MTP</string>
+    <string name="unmount_notify_detail">Włóż kartę pamięci na multimedia.</string>
+    <string name="unmount_notify">unmount_notify</string>
+    <string name="notification_sent">Otrzymano MTP: %1$s</string>
+    <string name="notification_sent_complete">Ukończono w 100%</string>
+    <string name="mtp_connected_title">MTP podłączone</string>
+    <string name="mtp_connected_body">MTP jest podłączone</string>
+    <string name="unmount_notify_detail_external">Nie można zsynchronizować plików. Nie można uzyskać dostępu do karty SD</string>
+    <string name="unmount_notify_detail_internal">Nie można zsynchronizować plików. Nie można uzyskać dostępu do wewnętrznej pamięci telefonu</string>
+    <string name="unmount_notify_detail_auto">Nie można zsynchronizować plików. Nie można uzyskać dostępu do karty SD i wewnętrznej pamięci telefonu</string>
+</resources>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<PreferenceScreen
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <PreferenceCategory android:title="@string/text_preferences">
+        <ListPreference android:entries="@array/entries_fontsize_preference" android:title="@string/title_fontsize_preference" android:key="fontsize" android:summary="@string/summary_fontsize_preference" android:defaultValue="@string/default_value_fontsize_preference" android:dialogTitle="@string/dialog_title_fontsize_preference" android:entryValues="@array/entryvalues_fontsize_preference" />
+        <ListPreference android:entries="@array/entries_color_preference" android:title="@string/title_color_preference" android:key="color" android:summary="@string/summary_color_preference" android:defaultValue="@string/default_value_color_preference" android:dialogTitle="@string/dialog_title_color_preference" android:entryValues="@array/entryvalues_color_preference" />
+    </PreferenceCategory>
+    <PreferenceCategory android:title="@string/keyboard_preferences">
+        <ListPreference android:entries="@array/entries_controlkey_preference" android:title="@string/title_controlkey_preference" android:key="controlkey" android:summary="@string/summary_controlkey_preference" android:defaultValue="@string/default_value_controlkey_preference" android:dialogTitle="@string/dialog_title_controlkey_preference" android:entryValues="@array/entryvalues_controlkey_preference" />
+    </PreferenceCategory>
+    <PreferenceCategory android:title="@string/shell_preferences">
+        <EditTextPreference android:title="@string/title_shell_preference" android:key="shell" android:summary="@string/summary_shell_preference" android:defaultValue="@string/default_value_shell_preference" android:dialogTitle="@string/dialog_title_shell_preference" />
+        <EditTextPreference android:title="@string/title_initialcommand_preference" android:key="initialcommand" android:summary="@string/summary_initialcommand_preference" android:defaultValue="@string/default_value_initialcommand_preference" android:dialogTitle="@string/dialog_title_initialcommand_preference" />
+    </PreferenceCategory>
+</PreferenceScreen>

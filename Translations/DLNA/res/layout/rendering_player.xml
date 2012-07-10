@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include layout="@layout/player_title" />
+    <LinearLayout android:orientation="horizontal" android:id="@id/top_linearlayout" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_marginTop="5.0dip" android:layout_marginBottom="5.0dip" android:layout_weight="1.0">
+        <LinearLayout android:gravity="center" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="fill_parent" android:weightSum="1.1">
+            <com.motorola.Dlna.Dmc.AlbumView android:id="@id/album" android:layout_width="0.0dip" android:layout_height="fill_parent" android:adjustViewBounds="true" android:layout_weight="0.8" />
+            <LinearLayout android:orientation="vertical" android:id="@id/button_holder" android:paddingRight="10.0dip" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_marginLeft="5.0dip" android:layout_weight="0.3">
+                <ImageButton android:id="@id/shuffle" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="20.0dip" android:src="@drawable/ic_control_shuffle" android:scaleType="center" />
+                <ImageButton android:id="@id/repeat" android:layout_width="fill_parent" android:layout_height="wrap_content" android:src="@drawable/ic_control_repeat" android:scaleType="center" />
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+    <LinearLayout android:orientation="vertical" android:paddingLeft="10.0dip" android:paddingRight="10.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="0.0dip" android:layout_marginBottom="5.0dip">
+        <TextView android:textSize="18.0sp" android:typeface="normal" android:textStyle="bold" android:ellipsize="end" android:layout_gravity="left" android:id="@id/artistname" android:layout_width="wrap_content" android:layout_height="wrap_content" style="\?android:attr/textAppearanceMedium" />
+        <TextView android:textSize="16.0sp" android:typeface="normal" android:ellipsize="end" android:layout_gravity="left" android:id="@id/albumname" android:layout_width="wrap_content" android:layout_height="wrap_content" style="\?android:attr/textAppearanceMedium" />
+        <TextView android:textSize="16.0sp" android:typeface="normal" android:ellipsize="end" android:layout_gravity="left" android:id="@id/trackname" android:layout_width="wrap_content" android:layout_height="wrap_content" style="\?android:attr/textAppearanceMedium" />
+    </LinearLayout>
+    <include layout="@layout/rendering_player_common" />
+</LinearLayout>

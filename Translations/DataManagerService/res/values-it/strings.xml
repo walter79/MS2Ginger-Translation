@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+    <string name="hello">Hello World!</string>
+    <string name="app_name">Servizio gestione dati</string>
+    <string name="perm_label">Attiva impostazione piano dati</string>
+    <string name="perm_desc">Consente all\'applicazione di impostare il proprio piano dati nel Servizio gestione dati</string>
+    <string name="backgrounddata_warning_message">Per proteggere il piano dati, l\'amministratore ha disattivato i dati in background durante il roaming.\n\nSe necessario, puoi sincronizzare manualmente i dati durante il roaming.</string>
+    <string name="backgrounddata_notification_title">Dati in background disattivati</string>
+    <string name="backgrounddata_dialog_title">Avviso dati in background</string>
+    <string name="backgrounddata_dialog_message">L\'amministratore ha disattivato i dati in background durante il roaming.\nSe necessario, puoi sincronizzare i dati manualmente durante il roaming.</string>
+    <string name="ok">OK</string>
+</resources>

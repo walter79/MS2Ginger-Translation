@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RelativeLayout android:id="@blur.res:id/widget_root" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:id="@id/widget_photo_parent" android:background="@drawable/sleeve_horiz" android:layout_width="@blur.res:dimen/widget_sleeve_width" android:layout_height="fill_parent">
+        <ImageView android:id="@id/widget_app_icon" android:layout_width="fill_parent" android:layout_height="fill_parent" android:src="@drawable/ic_happ_large" android:layout_alignParentRight="true" />
+        <ImageView android:id="@blur.res:id/widget_photo" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="fill_parent" />
+    </RelativeLayout>
+    <FrameLayout android:id="@blur.res:id/content_layout" android:background="@blur.res:drawable/base_horiz" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_toRightOf="@id/widget_photo_parent">
+        <RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <include layout="@blur.res:layout/provider_icons" />
+            <TextView android:id="@blur.res:id/widget_body_text" android:layout_above="@blur.res:id/provider_icon1" style="@style/EmptyMessage.Vertical" />
+        </RelativeLayout>
+    </FrameLayout>
+</RelativeLayout>

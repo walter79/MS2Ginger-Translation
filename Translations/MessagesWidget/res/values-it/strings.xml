@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+    <string name="app_name">Messaggi</string>
+    <string name="loading_widget_name">MESSAGGI</string>
+    <string name="settings_title">Widget Messaggi</string>
+    <string name="checking">Verifica nuovi messaggi...</string>
+    <string name="checking_short">Controllo...</string>
+    <string name="delete">Elim.</string>
+    <string name="go_to_messages">Vai a Messaggi</string>
+    <string name="go_to_inbox">Vai a Posta in arrivo</string>
+    <string name="no_messages">Nessun nuovo messaggio recente</string>
+    <string name="no_messages_short">Nessun nuovo messaggio</string>
+    <string name="select_account">Seleziona account</string>
+    <string name="no_subject">(Nessun oggetto)</string>
+    <string name="reply">Rispondi</string>
+    <string name="reply_all">Rispondi a tutti</string>
+    <string name="show_items">Mostra elementi per</string>
+    <string name="services">Servizi</string>
+    <string name="all_services">Tutti i servizi</string>
+    <string name="subject_re_prefix">R:</string>
+    <string name="text_message">SMS/MMS</string>
+    <string name="widget_name">Nome widget</string>
+    <string name="widget_description">Recupera gli ultimi messaggi di amici, familiari e colleghi</string>
+    <string name="msg_did_you_know_title">Widget Messaggi</string>
+    <string name="msg_did_you_know_info">I widget Messaggi visualizzano le e-mail, i messaggi di testo e i messaggi di social network più recenti in un unico widget \n\nPer modificare il contenuto di ogni widget, premi il tasto Menu e seleziona \"Impostazioni\".</string>
+    <string name="message_download_failed_body">Seleziona il messaggio e riprova.</string>
+    <string name="message_widget_touch_to_view">Tocca per leggere il messaggio.</string>
+    <string name="message_not_available_touch_to_read">Anteprima del messaggio non disponibile.\nTocca qui per leggere il messaggio.</string>
+    <string name="message_thread_information">%1$d di %2$d non letti</string>
+    <string name="view_message">Visualizza messaggio</string>
+    <string name="mark_read">Già letto</string>
+    <string name="mark_unread">Da leggere</string>
+    <string name="contact_info">Recapiti</string>
+    <string name="inbox">Posta in arrivo</string>
+    <string name="compose">Componi</string>
+    <string name="more">Altro</string>
+    <string name="hide">Nascondi</string>
+</resources>

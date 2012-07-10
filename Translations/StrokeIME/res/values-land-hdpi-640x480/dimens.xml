@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+    <dimen name="key_height">65.0px</dimen>
+    <item type="dimen" name="symbol_key_height">@dimen/key_height</item>
+    <item type="dimen" name="key_height_bottom_line">@dimen/key_height</item>
+    <dimen name="candidate_bar_height">69.0px</dimen>
+    <item type="dimen" name="key_height_symbol">@dimen/key_height</item>
+    <item type="dimen" name="key_height_symbol_function">@dimen/key_height</item>
+    <dimen name="expandable_view_height">195.0px</dimen>
+</resources>

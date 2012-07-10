@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+    <string-array name="identity_types">
+        <item>域名</item>
+        <item>全域名</item>
+        <item>ID</item>
+        <item>IPv4 地址</item>
+        <item>用户全域名</item>
+    </string-array>
+</resources>

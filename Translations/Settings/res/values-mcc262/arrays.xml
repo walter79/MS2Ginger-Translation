@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+    <string-array name="double_tap_entries">
+        <item>Browser</item>
+        <item>Kamera</item>
+        <item>Kontakte</item>
+        <item>Telefon</item>
+        <item>Google Mail</item>
+        <item>Maps</item>
+        <item>Nachrichten</item>
+        <item>Musik</item>
+        <item>News</item>
+        <item>Soziale Netzwerke</item>
+        <item>SMS/MMS</item>
+        <item>Sprachbefehle</item>
+        <item>Sprachsuche</item>
+        <item>Keine</item>
+    </string-array>
+    <string-array name="double_tap_deblur_entries">
+        <item>Browser</item>
+        <item>Kamera</item>
+        <item>Kontakte</item>
+        <item>Dialer</item>
+        <item>Google Mail</item>
+        <item>Maps</item>
+        <item>Nachrichten</item>
+        <item>Musik</item>
+        <item>SMS/MMS</item>
+        <item>Sprachbefehle</item>
+        <item>Spracherkennung</item>
+        <item>Keine</item>
+    </string-array>
+    <string-array name="double_tap_entries_german_region">
+        <item>Browser</item>
+        <item>Kamera</item>
+        <item>Kontakte</item>
+        <item>Telefon</item>
+        <item>Google Mail</item>
+        <item>Maps</item>
+        <item>Messaging</item>
+        <item>Musik</item>
+        <item>News</item>
+        <item>Soziale Netzwerke</item>
+        <item>SMS/MMS</item>
+        <item>Sprachbefehle</item>
+        <item>Sprachsuche</item>
+        <item>None</item>
+    </string-array>
+</resources>

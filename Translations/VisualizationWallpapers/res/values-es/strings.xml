@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+    <string name="wallpaper_vis1">Visualizador</string>
+    <string name="wallpaper_vis2">Forma de onda</string>
+    <string name="wallpaper_vis3">Espectro</string>
+    <string name="wallpaper_vis4">Vúmetro</string>
+    <string name="wallpaper_vis5">Varios</string>
+    <string name="wallpapers">Fondos de visualización musical</string>
+    <string name="author">Google</string>
+    <string name="vis2_desc">Representa la onda sonora durante la reproducción de cualquier pista musical.</string>
+    <string name="vis3_desc">Muestra el espectro de frecuencia durante la reproducción de cualquier pista musical.</string>
+    <string name="vis4_desc">Simula un medidor de sonido analógico.</string>
+    <string name="vis5_desc">Todas las visualizaciones musicales juntas girando lentamente en 3D.</string>
+</resources>

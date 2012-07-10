@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+    <string name="app_name">Service Dock Motorola</string>
+    <string name="mot_dock_apps">Applications Dock Motorola</string>
+    <string name="TitleForWebtop">Webtop</string>
+    <string name="TitleForEASport">EASport</string>
+    <string name="TitleWidgetClock">Horloge du widget</string>
+    <string name="TitleForEntertainmentCenter">Centre de divertissements</string>
+    <string name="TitleForBigClock">Horloge géante</string>
+    <string name="TitleForHome">Ignorer le sélecteur</string>
+    <string name="description">la description située sous le titre se place ici et ici</string>
+    <string name="detailed_description">la description détaillée se place ici et ici</string>
+    <string name="dock_notification_title">Connecté à la station multimédia</string>
+    <string name="hall_effect_dock_only">Station multimédia actuellement connectée</string>
+    <string name="dock_notification_message">Sélectionner pour changer d\'application</string>
+    <string name="hdmi_notification_title">Connexion HDMI</string>
+    <string name="hdmi_notification_message">Sélectionnez cette option pour gérer votre connexion HDMI</string>
+    <string name="hdmi_only_message">HDMI actuellement connecté</string>
+    <string name="dock_hdmi_notification_title">Connecté au socle HD</string>
+    <string name="hall_effect_dock_notification">Socle HD actuellement connecté</string>
+    <string name="dock_hdmi_notification_message">Sélectionner pour changer d\'application</string>
+    <string name="descrip_webtop">Transformez votre téléphone en PC</string>
+    <string name="descrip_entertainmentcenter">Profitez de votre musique, de vos photos et de vos vidéos sur un téléviseur HD</string>
+    <string name="descrip_bigclock">Une horloge et un réveil élégants</string>
+    <string name="descrip_widgetdock">Configurez votre écran de socle personnalisé (ressemble à l\'écran d\'accueil)</string>
+    <string name="descrip_home">Maintenez l\'application actuelle active lorsque votre téléphone est dans le socle</string>
+    <string name="descrip_easport">Description du jeu</string>
+    <string name="str_ok">OK</string>
+    <string name="detail_descrip_webtop">La description se place ici. À ajouter</string>
+    <string name="detail_descrip_entertainmentcenter">Le centre multimédia du téléviseur vous permet de parcourir l\'ensemble du contenu multimédia de votre téléphone. Celui-ci, lorsqu\'il utilise le centre multimédia, se transforme en un contrôleur vous permettant d\'écouter de la musique et de regarder des photos ou des vidéos.</string>
+    <string name="detail_descrip_bigclock">Transformez l\'écran de votre téléphone en une horloge géante qui présente également d\'autres avantages. Consultez l\'heure de loin, réglez des alarmes, écoutez de la musique, regardez des photos et recevez en direct des informations météo. Ce mode est conçu pour votre table de chevet mais peut également être utilisé dans la cuisine et en tant que pendulette de bureau.</string>
+    <string name="detail_descrip_widgetdock">Accédez aux mêmes widgets, applications et raccourcis Android que sur l\'écran d\'accueil de votre téléphone. Disposez-les et modifiez le fond d\'écran à votre gré. Toutes vos modifications seront enregistrées et appliquées la prochaine fois que vous placerez le téléphone dans le socle.</string>
+    <string name="detail_descrip_home">Lorsque vous sélectionnez ce mode, le téléphone affiche l\'application actuelle. Vous pouvez facilement accéder aux autres applications du socle en les sélectionnant sur le rideau de notification.</string>
+    <string name="detail_descrip_easport">La description détaillée des fonctions de divertissement se place ici. À ajouter ultérieurement.</string>
+    <string name="prompt_RememberMySelection">Mémoriser ma sélection</string>
+    <string name="title">Sélectionner une application à lancer</string>
+    <string name="detecting">Détection en cours...</string>
+    <string name="TitleForMirrorMode">Téléphone miroir affiché</string>
+    <string name="descrip_mirrormode">Profitez de toutes les applications de votre téléphone sur un écran plus grand</string>
+    <string name="TitleForOther">Autre</string>
+    <string name="descrip_other">Affiche les applications de station d\'accueil hors mode intelligent</string>
+    <string name="TitleForGallery">Galerie</string>
+    <string name="descrip_gallery">Afficher les photos et les vidéos</string>
+    <string name="TitleForMusicPlayer">Musique</string>
+    <string name="descrip_musicplayer">Accédez à la musique, écoutez et partagez-la</string>
+</resources>

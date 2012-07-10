@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+    <string-array name="INTRO_USB_CONNECTED_TEXT">
+        <item>U bent momenteel verbonden via USB</item>
+        <item>Druk op \"Menu\" om verbindingshulp weer te geven</item>
+    </string-array>
+    <string-array name="INTRO_USB_NOT_CONNECTED_TEXT">
+        <item>Aansluiten op USB om te starten\n(uitsluitend Windows)</item>
+        <item>Druk op \"Menu\" om verbindingshulp weer te geven</item>
+    </string-array>
+    <string-array name="INTRO_WIFI_CONNECTED_TEXT">
+        <item>U bent momenteel verbonden via Wi-Fi</item>
+        <item>Verbindingsinstellingen</item>
+    </string-array>
+    <string-array name="INTRO_WIFI_NOT_CONNECTED_TEXT">
+        <item>Raak de knop aan om toegang te krijgen tot\nMoto Phone Portal</item>
+        <item>Verbinden met Wi-Fi</item>
+    </string-array>
+    <string-array name="INTRO_USB_WIFI_NOT_CONNECTED_TEXT">
+        <item>Aansluiten op USB om te starten</item>
+        <item>Verbinden met Wi-Fi</item>
+    </string-array>
+    <string-array name="INTRO_USB_WIFI_CONNECTED_TEXT">
+        <item>Aansluiten op USB om te starten</item>
+        <item>Verbindingsinstellingen</item>
+    </string-array>
+    <string-array name="INTRO_USB_CONNECTED_WIFI_TEXT">
+        <item>Typ dit adres in uw pc-browser</item>
+        <item></item>
+    </string-array>
+    <string-array name="HELP_LIST">
+        <item>Verbinding maken via USB</item>
+        <item>Verbinding maken via Wi-Fi</item>
+    </string-array>
+    <string-array name="HELP_LIST_SUM">
+        <item>Alleen Windows</item>
+        <item>Windows, Mac of Linux</item>
+    </string-array>
+</resources>

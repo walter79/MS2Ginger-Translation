@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+    <dimen name="statusTextSize">16.0sp</dimen>
+    <dimen name="sleeveTopPadding">12.0dip</dimen>
+    <dimen name="progressBarSize">19.0dip</dimen>
+</resources>

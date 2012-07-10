@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GridView android:gravity="center" android:id="@id/color_picker_grid" android:layout_width="fill_parent" android:layout_height="wrap_content" android:horizontalSpacing="@dimen/gridView_HorizontalSpacing" android:verticalSpacing="@dimen/gridView_VerticalSpacing" android:stretchMode="columnWidth" android:numColumns="4"
+  xmlns:android="http://schemas.android.com/apk/res/android" />

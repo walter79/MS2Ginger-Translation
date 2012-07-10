@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+    <string name="google_login_txt">Wenn Sie E-Mail über Google Mail senden und empfangen, Ihre Google-Kontakte synchronisieren oder Anwendungen von Android Market herunterladen möchten, müssen Sie sich bei Ihrem Google-Konto anmelden.</string>
+    <string name="google_login_txt_german_region">Wenn Sie E-Mail über Google Mail senden und empfangen, Ihre Google-Kontakte synchronisieren oder Anwendungen von Android Market herunterladen möchten,müssen Sie sich bei Ihrem Google-Konto anmelden.</string>
+    <string name="emailaccount_info_text">Verwenden Sie diesen Kontotyp, um Ihrem universellen Posteingang Ihre Hotmail-, Google Mail-, Yahoo!-, POP3-, IMAP- oder andere E-Mail-Konten hinzuzufügen.</string>
+    <string name="googleacount_info_text">Melden Sie sich mit Ihren Google-Anmeldeinformationen an, um auf Google-Mail, Google-Kontakte, Google-Kalender, den Market, PicasaWeb und andere Google-Services zuzugreifen.</string>
+</resources>

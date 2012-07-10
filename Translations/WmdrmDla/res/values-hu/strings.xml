@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+    <string name="txt_pb_reqlic">Fájl feloldása...</string>
+    <string name="txt_pb_uploadmet">A használati statisztika a háttérben lesz elküldve.</string>
+    <string name="txt_content_type_video">videó</string>
+    <string name="txt_content_type_music">Zene</string>
+    <string name="title_lic_expired">Lejárt a licensz</string>
+    <string name="title_song_expired">Lejárt Zenék</string>
+    <string name="title_video_expired">Lejárt Videók</string>
+    <string name="title_ringtone_expired">Lejárt Csengőhangok</string>
+    <string name="title_file_expired">Lejárt fájlok</string>
+    <string name="txt_lic_expired_mpart1">Licensz a\u0020</string>
+    <string name="txt_lic_expired_mpart2">\u0020fájlhoz\u0020</string>
+    <string name="txt_lic_expired_mpart3">. A lejátszás folytatásához új licenszet vásárolhat.</string>
+    <string name="txt_lic_expired_listview">Válassza ki a fájlt licensz vásárlásához.</string>
+    <string name="txt_nt_multi_lic_expired">További licenszek szükségesek a fájlok lejátszásához.</string>
+    <string name="txt_nt_single_lic_expired">\u0020lejátszásához licensz szükséges.</string>
+    <string name="title_delete_file">Törlés</string>
+    <string name="txt_delete_file">Szeretné törölni ezt a fájlt??</string>
+    <string name="txt_lic_status">lejárt</string>
+    <string name="title_lic_received">Licensz érkezett</string>
+    <string name="txt_dlg_lic_received1">A licensz a\u0020</string>
+    <string name="txt_dlg_lic_received2">\u0020fájlhoz megérkezett. Most már lejátszhatja a fájlt.</string>
+    <string name="txt_nt_single_lic_received">\u0020most már lejátszható</string>
+    <string name="title_lic_error">Licensz Hiba</string>
+    <string name="txt_lic_error">The licensz letöltése sikertelen.Kérem próbálja újra.</string>
+    <string name="title_lic_trigger">Licenszek szinkronizálása</string>
+    <string name="txt_lic_trigger">A lejátszás folytatásához ezen a készüléken frissíteni kell a licenszeket. Szeretné most frissíteni a licenszeket?</string>
+    <string name="title_met_trigger">Használati hozzájárulás szükséges</string>
+    <string name="txt_met_trigger">A tartalomszolgáltató engedélyt kér a jogvédett tartalom felhasnálásának rögzítésére. Engedélyezi?</string>
+    <string name="title_sync_pc_license">Licenszek szinkronizálása</string>
+    <string name="txt_sync_pc_license">A lejátszás folytatásához frissítse a licenszet.Csatlakoztassa telefonját egy PC-hez a licenszek frissítéséhez.</string>
+    <string name="alert_dialog_yes">IGEN</string>
+    <string name="alert_dialog_no">Nem</string>
+    <string name="alert_dialog_ok">OK</string>
+    <string name="alert_dialog_play">Lejátszás</string>
+    <string name="alert_dialog_cancel">Mégse</string>
+    <string name="alert_dialog_buy">Vásárlás</string>
+    <string name="alert_dialog_close">Kilépés</string>
+</resources>

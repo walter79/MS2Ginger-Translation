@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+    <string name="app_label">บริการ VPN</string>
+    <string name="vpn_notification_title_connected">%s เชื่อมต่อ VPN แล้ว</string>
+    <string name="vpn_notification_title_disconnected">%s ตัดการเชื่อมต่อ VPN แล้ว</string>
+    <string name="vpn_notification_hint_disconnected">แตะเพื่อเชื่อมต่อกับ VPN อีกครั้ง</string>
+</resources>

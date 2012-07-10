@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+    <dimen name="content_pad_top">8.0dip</dimen>
+    <dimen name="content_pad_left">8.0dip</dimen>
+    <dimen name="content_pad_right">8.0dip</dimen>
+    <dimen name="content_pad_bottom">8.0dip</dimen>
+    <dimen name="shadow_offset">-6.0dip</dimen>
+    <dimen name="add_icon_right_margin">6.0dip</dimen>
+    <dimen name="add_icon_bottom_margin">6.0dip</dimen>
+    <dimen name="vertical_img_pad_left">4.0dip</dimen>
+    <dimen name="vertical_img_pad_top">4.0dip</dimen>
+    <dimen name="vertical_img_pad_right">4.0dip</dimen>
+    <dimen name="horizontal_img_pad_left">4.0dip</dimen>
+    <dimen name="horizontal_img_pad_right">8.0dip</dimen>
+    <dimen name="horizontal_img_pad_top">4.0dip</dimen>
+    <dimen name="horizontal_img_pad_bottom">4.0dip</dimen>
+    <dimen name="img_height_2x2">147.0dip</dimen>
+    <dimen name="img_height_2x3">118.0dip</dimen>
+    <dimen name="img_height_3x1">74.0dip</dimen>
+    <dimen name="img_height_3x2">93.0dip</dimen>
+    <dimen name="img_height_3x3">221.0dip</dimen>
+    <dimen name="img_height_4x2">201.0dip</dimen>
+    <dimen name="img_height_3x4">142.0dip</dimen>
+    <dimen name="img_width_2x2">111.0dip</dimen>
+    <dimen name="img_width_3x2">140.0dip</dimen>
+</resources>

@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+    <dimen name="indicator_height">220.0px</dimen>
+    <dimen name="indicator_btn_height">50.0px</dimen>
+</resources>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<PreferenceScreen
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <PreferenceCategory android:title="@string/prefrence_screen_title">
+        <CheckBoxPreference android:persistent="false" android:title="@string/prefrence_hide_system_apps" android:key="pref_settings_hidesystemapps" android:summary="@string/prefrence_hide_system_apps_summary" android:defaultValue="false" />
+        <CheckBoxPreference android:persistent="false" android:title="@string/prefrence_settings_title" android:key="pref_settings_showicon" android:summary="@string/prefrence_settings_summary" android:defaultValue="ƒalse" />
+    </PreferenceCategory>
+</PreferenceScreen>

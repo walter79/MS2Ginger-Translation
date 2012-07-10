@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<FrameLayout android:id="@id/widget_root" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <FrameLayout android:layout_gravity="bottom|left|center" android:background="@blur.res:drawable/widget_name_bottom_right" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+    <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <LinearLayout android:orientation="vertical" android:background="@blur.res:drawable/widget_bubble_bottom" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_weight="1.0">
+            <TextView android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/checking" android:layout_weight="1.0" style="@blur.res:style/Blur.WidgetTxt.C" />
+            <ProgressBar style="@blur.res:style/Blur.WidgetProgress" />
+        </LinearLayout>
+        <include layout="@layout/widget_name_parent" />
+    </LinearLayout>
+</FrameLayout>

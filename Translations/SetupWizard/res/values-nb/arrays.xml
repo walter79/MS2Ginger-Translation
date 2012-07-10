@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+    <string-array name="security_questions">
+        <item>Favorittmat?</item>
+        <item>Fødested?</item>
+        <item>Navnet på bestevennen fra barndommen?</item>
+        <item>Navn på videregående skole?</item>
+    </string-array>
+    <string-array name="passwordStrength">
+        <item>dårlig</item>
+        <item>akseptabel</item>
+        <item>god</item>
+        <item>sterk</item>
+    </string-array>
+</resources>

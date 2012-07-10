@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+    <string name="app_name">刪除全部外掛程式</string>
+    <string name="global_unplug_t">已中斷連線</string>
+    <string name="global_unplug">請將充電器從插座上拔出以節約能源。</string>
+</resources>

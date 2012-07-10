@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+    <string name="skip_setup_text">Se você pular a configuração do MOTOBLUR algumas das funções do telefone não estarão disponíveis.\n\n O telefone exibirá um lembrete para você concluir a configuração quando uma conexão de dados estiver disponível ou se você tentar usar um aplicativo que requer uma conta do MOTOBLUR.\n\n Se clicar em Concluído, a configuração será encerrada e você será levado à Tela inicial.</string>
+</resources>

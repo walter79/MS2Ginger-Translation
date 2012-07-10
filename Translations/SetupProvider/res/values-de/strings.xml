@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+    <string name="app_name">Konten – Speicher</string>
+    <string name="blur_accounts">Motorola Service-Konten</string>
+    <string name="as_pretty_name">Corporate Sync</string>
+    <string name="blur_pretty_name">Motorola Service</string>
+    <string name="yahoo_pretty_name">Yahoo! Mail</string>
+    <string name="email_login_label">E-Mail|myemail@domain.com</string>
+    <string name="as_login_label">Domäne\\Benutzername|Domäne\\Benutzername</string>
+    <string name="blur_login_label">E-Mail|myemail@domain.com</string>
+    <string name="yahoo_login_label">E-Mail|myemail@yahoo.com</string>
+</resources>

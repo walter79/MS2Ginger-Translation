@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Keyboard android:keyWidth="22.000004%p" android:keyHeight="@dimen/key_height" android:horizontalGap="0.0px"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <Row>
+        <Key android:keyWidth="16.999996%p" android:codes="-31" android:keyEdgeFlags="left" android:keyIcon="@drawable/moto_chinese_icon" />
+        <Key android:codes="49" android:keyLabel="一" />
+        <Key android:codes="50" android:keyLabel="丨" />
+        <Key android:codes="51" android:keyLabel="丿" />
+        <Key android:keyWidth="16.999996%p" android:codes="-5" android:keyEdgeFlags="right" android:isRepeatable="true" android:iconPreview="@drawable/moto_delete_popup_icon" android:keyIcon="@drawable/moto_delete_icon" />
+    </Row>
+    <Row>
+        <Key android:keyWidth="16.999996%p" android:codes="-32" android:keyEdgeFlags="left" android:iconPreview="@drawable/moto_itap_icon_blk" android:keyIcon="@drawable/moto_itap_icon" />
+        <Key android:codes="52" android:keyLabel="丶" />
+        <Key android:codes="53" android:keyLabel="乛" />
+        <Key android:codes="54" android:keyLabel="@string/wild_char" />
+        <Key android:keyWidth="16.999996%p" android:codes="10" android:keyEdgeFlags="right" android:iconPreview="@drawable/moto_enter_icon_blk" android:keyIcon="@drawable/moto_enter_icon" />
+    </Row>
+    <Row>
+        <Key android:keyWidth="16.999996%p" android:codes="-33" android:keyEdgeFlags="left" android:iconPreview="@drawable/moto_tap_icon_blk" android:keyIcon="@drawable/moto_tap_icon" />
+        <Key android:codes="65292" android:keyLabel="，" />
+        <Key android:codes="12290" android:keyLabel="。" />
+        <Key android:codes="39" android:keyLabel="@string/HanZi_separator" />
+        <Key android:keyWidth="16.999996%p" android:codes="32" android:keyEdgeFlags="right" android:isRepeatable="true" android:iconPreview="@drawable/moto_space_popup_icon" android:keyIcon="@drawable/moto_space_icon" />
+    </Row>
+    <Row android:keyHeight="@dimen/key_height_bottom_line" android:rowEdgeFlags="bottom">
+        <Key android:keyWidth="16.999996%p" android:codes="-34" android:keyEdgeFlags="left" android:keyIcon="@drawable/moto_number_icon" />
+        <Key android:codes="-2" android:iconPreview="@drawable/moto_symbol_popup_icon" android:keyIcon="@drawable/moto_symbol_icon" />
+        <Key android:codes="65311" android:keyLabel="？" />
+        <Key android:codes="-2005" android:iconPreview="@drawable/moto_smiley_popup_icon" android:keyIcon="@drawable/moto_smiley_icon" />
+        <Key android:keyWidth="16.999996%p" android:codes="-102" android:keyEdgeFlags="right" android:iconPreview="@drawable/moto_switch_popup_icon" android:keyIcon="@drawable/moto_switch_icon" />
+    </Row>
+</Keyboard>

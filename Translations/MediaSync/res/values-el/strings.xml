@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+    <string name="hello">Καλησπέρα, MediaSyncAct</string>
+    <string name="app_name">MediaSync</string>
+    <string name="mtpconnecting">Το Media Sync συνδέθηκε</string>
+    <string name="unmount_ticker">Δεν υπάρχει κάρτα SD</string>
+    <string name="unmount_notify_title">Ειδοποίηση MTP</string>
+    <string name="unmount_notify_detail">Εισαγάγετε κάρτα μνήμης για τα πολυμέσα σας.</string>
+    <string name="unmount_notify">unmount_notify</string>
+    <string name="notification_sent">Λήψη MTP: %1$s</string>
+    <string name="notification_sent_complete">Ολοκληρώθηκε το 100%</string>
+    <string name="mtp_connected_title">Το MTP συνδέθηκε</string>
+    <string name="mtp_connected_body">Το MTP είναι συνδεδεμένο</string>
+    <string name="unmount_notify_detail_external">Δεν είναι δυνατός ο συγχρονισμός των αρχείων. Δεν είναι εφικτή η πρόσβαση στην κάρτα SD</string>
+    <string name="unmount_notify_detail_internal">Δεν είναι δυνατός ο συγχρονισμός των αρχείων. Δεν είναι εφικτή η πρόσβαση στην εσωτερική μνήμη του τηλεφώνου</string>
+    <string name="unmount_notify_detail_auto">Δεν είναι δυνατός ο συγχρονισμός των αρχείων. Δεν είναι εφικτή η πρόσβαση στην κάρτα SD και στην εσωτερική μνήμη του τηλεφώνου</string>
+</resources>

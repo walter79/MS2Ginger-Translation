@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+    <item type="id" name="user_new_prof_name_caption">false</item>
+    <item type="id" name="user_new_prof_name_entry">false</item>
+    <item type="id" name="screen">false</item>
+    <item type="id" name="text">false</item>
+    <item type="id" name="test_button_5">false</item>
+    <item type="id" name="test_button_6">false</item>
+    <item type="id" name="user_pin_caption">false</item>
+    <item type="id" name="user_pin_entry">false</item>
+</resources>
