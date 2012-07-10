@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+    <bool name="ftr_32631_hide_callerid_setting">true</bool>
+</resources>

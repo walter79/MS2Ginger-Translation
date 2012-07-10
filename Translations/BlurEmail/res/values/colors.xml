@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+    <color name="header_background">#ffb9b9b9</color>
+    <color name="message_header">#ffe5edfa</color>
+    <color name="secondary">#ff888888</color>
+    <color name="date">#ff4884a8</color>
+    <color name="focus">#ffb5b717</color>
+    <color name="light_blue">#ffe5edfa</color>
+    <color name="sky_blue">#ffb3c0e3</color>
+    <color name="light_gray">#ffb0b0b0</color>
+    <color name="med_gray">#ff9c9e9c</color>
+    <color name="dark_gray">#ff444444</color>
+    <color name="dark_green">#ff696901</color>
+    <color name="med_green">#ffb5b717</color>
+    <color name="light_green">#ffa09c17</color>
+    <color name="light_purple">#ff9999ff</color>
+    <color name="hidden_header_gray">#ffd8d8d8</color>
+    <color name="attachments_area">#ffebebeb</color>
+    <color name="dialog_background">#cc444444</color>
+    <color name="edit_focus_color">#ff5bcde4</color>
+    <color name="transparent">#00000000</color>
+    <color name="white">#ffffffff</color>
+    <color name="black">#ff000000</color>
+    <color name="att_label_color">#ff000000</color>
+    <color name="red">#ffff0000</color>
+    <color name="green">#ff00c000</color>
+    <color name="yellow">#ffffff00</color>
+    <color name="light_yellow">#fffef1a9</color>
+    <color name="conv_msg_counter">#ff96714b</color>
+    <item type="color" name="conv_details_title_text_color">@color/yellow</item>
+    <color name="read_msg_separator">#ffc6c6c6</color>
+    <color name="addresses_summary_color">#ff555555</color>
+    <color name="undo_bar_background">#ff45b0c7</color>
+</resources>

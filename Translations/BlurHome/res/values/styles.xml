@@ -1,0 +1,414 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+    <style name="AppsTrayTheme" parent="@android:style/Theme.NoTitleBar">
+        <item name="android:windowBackground">@null</item>
+        <item name="android:windowContentOverlay">@null</item>
+    </style>
+    <style name="AppsParent">
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+    <style name="AppsParent.Horz" parent="@style/AppsParent">
+        <item name="android:orientation">horizontal</item>
+    </style>
+    <style name="AppsParent.Vert" parent="@style/AppsParent">
+        <item name="android:orientation">vertical</item>
+    </style>
+    <style name="AppsTitleParent" parent="@style/AppsParent.Horz">
+        <item name="android:background">@com.motorola.android.widget:drawable/header_top</item>
+    </style>
+    <style name="AppsText">
+        <item name="android:gravity">left|center</item>
+        <item name="android:layout_gravity">center_vertical</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:selectAllOnFocus">true</item>
+        <item name="android:drawablePadding">5.0dip</item>
+    </style>
+    <style name="AppsText.Title" parent="@style/AppsText">
+        <item name="android:textSize">16.0sp</item>
+        <item name="android:textColor">#ffffffff</item>
+        <item name="android:layout_height">fill_parent</item>
+        <item name="android:singleLine">true</item>
+        <item name="android:layout_weight">1.0</item>
+    </style>
+    <style name="AppsText.Small" parent="@style/AppsText">
+        <item name="android:textSize">14.0sp</item>
+    </style>
+    <style name="AppsText.Message" parent="@style/AppsText">
+        <item name="android:textSize">16.0sp</item>
+        <item name="android:textStyle">italic</item>
+        <item name="android:textColor">#ffffffff</item>
+    </style>
+    <style name="AppsTitleIcon">
+        <item name="android:layout_gravity">center_vertical</item>
+        <item name="android:background">@drawable/apps_selector</item>
+        <item name="android:focusable">true</item>
+        <item name="android:clickable">true</item>
+        <item name="android:layout_width">@dimen/apps_icon_width</item>
+        <item name="android:layout_height">@dimen/apps_icon_height</item>
+        <item name="android:scaleType">center</item>
+        <item name="android:adjustViewBounds">true</item>
+    </style>
+    <style name="AppsGridIcon">
+        <item name="android:textSize">@dimen/appicon_text_size</item>
+        <item name="android:textColor">#ffffffff</item>
+        <item name="android:ellipsize">marquee</item>
+        <item name="android:gravity">top|center</item>
+        <item name="android:paddingLeft">2.0dip</item>
+        <item name="android:paddingTop">3.0dip</item>
+        <item name="android:paddingRight">2.0dip</item>
+        <item name="android:paddingBottom">2.0dip</item>
+        <item name="android:fadingEdge">horizontal</item>
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">@dimen/appicon_item_height</item>
+        <item name="android:maxLines">2</item>
+        <item name="android:drawablePadding">0.0dip</item>
+    </style>
+    <style name="AppsFolderGridIcon" parent="@style/AppsGridIcon">
+        <item name="android:textSize">12.299988dip</item>
+        <item name="android:textColor">#ff000000</item>
+        <item name="android:ellipsize">none</item>
+        <item name="android:layout_height">88.0dip</item>
+    </style>
+    <style name="AppsGrid">
+        <item name="android:paddingTop">12.0dip</item>
+        <item name="android:nextFocusLeft">@null</item>
+        <item name="android:nextFocusRight">@null</item>
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:listSelector">@drawable/apps_selector</item>
+        <item name="android:drawSelectorOnTop">false</item>
+        <item name="android:textFilterEnabled">false</item>
+        <item name="android:verticalSpacing">10.0dip</item>
+    </style>
+    <style name="AppsDividerHorz">
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">2.0px</item>
+    </style>
+    <style name="AppsDividerHorz.Bright" parent="@style/AppsDividerHorz">
+        <item name="android:background">@drawable/apps_divider_horz_bright</item>
+    </style>
+    <style name="AppsDividerVert">
+        <item name="android:layout_width">2.0px</item>
+        <item name="android:layout_height">fill_parent</item>
+    </style>
+    <style name="AppsDividerVert.Dark" parent="@style/AppsDividerVert">
+        <item name="android:background">@drawable/apps_divider_vert_dark</item>
+    </style>
+    <style name="AppsTitleBg">
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:src">@com.motorola.android.widget:drawable/header_bkg</item>
+        <item name="android:adjustViewBounds">true</item>
+    </style>
+    <style name="AppsNormalGroup" parent="@style/AppsText.Title">
+        <item name="android:textSize">20.0sp</item>
+        <item name="android:background">@drawable/apps_selector</item>
+        <item name="android:paddingLeft">9.0dip</item>
+        <item name="android:focusable">true</item>
+        <item name="android:clickable">true</item>
+        <item name="android:shadowColor">#ff000000</item>
+        <item name="android:shadowDx">0.0</item>
+        <item name="android:shadowDy">-2.0</item>
+        <item name="android:shadowRadius">2.0</item>
+    </style>
+    <style name="AppsNormalMarket" parent="@style/AppsTitleIcon">
+        <item name="android:src">@drawable/ic_titlebar_marketplace</item>
+    </style>
+    <style name="AppsNormalSelect" parent="@style/AppsTitleIcon">
+        <item name="android:src">@blur.res:drawable/ic_control_add</item>
+    </style>
+    <style name="AppsEditParent" parent="@style/AppsParent.Vert">
+        <item name="android:visibility">gone</item>
+    </style>
+    <style name="AppsEditIcon" parent="@style/AppsTitleIcon" />
+    <style name="AppsEditGroup" parent="@style/AppsText.Title">
+        <item name="android:textColor">#ff000000</item>
+        <item name="android:layout_gravity">center_vertical</item>
+        <item name="android:layout_marginLeft">5.0dip</item>
+        <item name="android:layout_marginTop">3.0dip</item>
+        <item name="android:hint">@string/group_name</item>
+        <item name="android:selectAllOnFocus">false</item>
+        <item name="android:inputType">textCapWords|textNoSuggestions</item>
+        <item name="android:imeOptions">actionDone</item>
+        <item name="android:imeActionLabel">@string/save</item>
+    </style>
+    <style name="AppsEditSave" parent="@style/AppsTitleIcon">
+        <item name="android:src">@drawable/ic_titlebar_save</item>
+    </style>
+    <style name="AppsEditCancel" parent="@style/AppsTitleIcon">
+        <item name="android:src">@drawable/ic_titlebar_cancel</item>
+    </style>
+    <style name="AppsEditHome" parent="@style/AppsText.Title">
+        <item name="android:background">@drawable/apps_selector</item>
+        <item name="android:focusable">true</item>
+        <item name="android:nextFocusDown">@null</item>
+        <item name="android:clickable">true</item>
+        <item name="android:text">@string/add_to_home</item>
+        <item name="android:drawableLeft">@drawable/ic_titlebar_add_to_homescreen</item>
+        <item name="android:layout_weight">1.0</item>
+    </style>
+    <style name="AppsEditRemove" parent="@style/AppsTitleIcon">
+        <item name="android:nextFocusDown">@null</item>
+        <item name="android:src">@drawable/ic_titlebar_trash</item>
+    </style>
+    <style name="AppsGridParent">
+        <item name="android:background">@color/apps_main_grid_bg</item>
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">fill_parent</item>
+        <item name="android:layout_weight">1.0</item>
+    </style>
+    <style name="AppsMainGrid" parent="@style/AppsGrid">
+        <item name="android:paddingTop">5.0dip</item>
+        <item name="android:scrollbars">none</item>
+        <item name="android:layout_height">fill_parent</item>
+        <item name="android:cacheColorHint">@null</item>
+        <item name="android:numColumns">@integer/apps_columns</item>
+    </style>
+    <style name="AppsEmptyGrid" parent="@style/AppsText.Message">
+        <item name="android:gravity">top|center</item>
+        <item name="android:nextFocusLeft">@null</item>
+        <item name="android:nextFocusRight">@null</item>
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">fill_parent</item>
+        <item name="android:text">@string/empty_group</item>
+    </style>
+    <style name="AppsGridOverlay">
+        <item name="android:background">@color/apps_grid_overlay_bg</item>
+        <item name="android:visibility">gone</item>
+        <item name="android:clickable">true</item>
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">fill_parent</item>
+    </style>
+    <style name="AppsNoGrid">
+        <item name="android:visibility">gone</item>
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">fill_parent</item>
+    </style>
+    <style name="AppsPickerRoot" parent="@style/AppsParent">
+        <item name="android:layout_gravity">top</item>
+        <item name="android:visibility">gone</item>
+        <item name="android:layout_marginTop">@dimen/apps_picker_margin_top</item>
+    </style>
+    <style name="AppsPickerParent" parent="@style/AppsParent.Vert">
+        <item name="android:background">@drawable/apps_picker_bg</item>
+        <item name="android:paddingTop">20.0dip</item>
+        <item name="android:paddingBottom">20.0dip</item>
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_below">@id/apps_picker_arrow</item>
+        <item name="android:layout_alignParentLeft">true</item>
+        <item name="android:layout_alignParentRight">true</item>
+    </style>
+    <style name="AppsPickerArrow">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginLeft">6.5dip</item>
+        <item name="android:layout_marginBottom">-8.5dip</item>
+        <item name="android:src">@drawable/apps_picker_arrow</item>
+        <item name="android:layout_alignParentLeft">true</item>
+        <item name="android:layout_alignParentTop">true</item>
+    </style>
+    <style name="AppsPickerAddGroup" parent="@style/AppsText">
+        <item name="android:textColor">#ff000000</item>
+        <item name="android:background">@drawable/apps_selector</item>
+        <item name="android:paddingLeft">5.0dip</item>
+        <item name="android:paddingBottom">5.0dip</item>
+        <item name="android:focusable">true</item>
+        <item name="android:clickable">true</item>
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:text">@string/new_group</item>
+        <item name="android:drawableLeft">@android:drawable/zz_moto_badge_pressed</item>
+    </style>
+    <style name="AppsPickerGrid" parent="@style/AppsGrid">
+        <item name="android:background">#ffffffff</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:cacheColorHint">#ffffffff</item>
+        <item name="android:numColumns">@integer/apps_group_columns</item>
+    </style>
+    <style name="AppsGroupIconGrid" parent="@style/AppsGrid">
+        <item name="android:paddingLeft">10.0dip</item>
+        <item name="android:paddingTop">20.0dip</item>
+        <item name="android:paddingRight">10.0dip</item>
+        <item name="android:paddingBottom">20.0dip</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:numColumns">@integer/apps_group_icon_columns</item>
+    </style>
+    <style name="AppsGroupIcon" parent="@style/AppsText">
+        <item name="android:textSize">0.0px</item>
+        <item name="android:background">@drawable/apps_group_selector</item>
+        <item name="android:layout_width">@dimen/apps_icon_size</item>
+        <item name="android:layout_height">@dimen/apps_icon_size</item>
+    </style>
+    <style name="AppsDialogTheme" parent="@android:style/Theme.Dialog">
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowIsFloating">true</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:layout_height">fill_parent</item>
+    </style>
+    <style name="AppsDialogRoot" parent="@style/AppsParent.Vert">
+        <item name="android:paddingLeft">3.0dip</item>
+        <item name="android:paddingTop">9.0dip</item>
+        <item name="android:paddingRight">1.0dip</item>
+        <item name="android:paddingBottom">3.0dip</item>
+        <item name="android:layout_height">fill_parent</item>
+    </style>
+    <style name="AppsDialogTitleParent" parent="@style/AppsParent">
+        <item name="android:background">@drawable/popup_top_dark</item>
+        <item name="android:paddingLeft">30.0dip</item>
+        <item name="android:paddingRight">20.0dip</item>
+    </style>
+    <style name="AppsDialogTitle" parent="@style/AppsText">
+        <item name="android:textAppearance">?android:textAppearanceLarge</item>
+        <item name="android:ellipsize">end</item>
+        <item name="android:layout_height">fill_parent</item>
+        <item name="android:singleLine">true</item>
+        <item name="android:drawablePadding">10.0dip</item>
+    </style>
+    <style name="AppsDialogListParent" parent="@style/AppsParent">
+        <item name="android:paddingLeft">16.0dip</item>
+        <item name="android:paddingRight">16.0dip</item>
+        <item name="android:layout_weight">1.0</item>
+    </style>
+    <style name="AppsDialogList">
+        <item name="android:background">#ffffffff</item>
+        <item name="android:scrollbars">vertical</item>
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:cacheColorHint">@null</item>
+        <item name="android:divider">@android:drawable/divider_horizontal_bright</item>
+        <item name="android:footerDividersEnabled">false</item>
+    </style>
+    <style name="AppsDialogListItem">
+        <item name="android:textSize">18.0sp</item>
+        <item name="android:textColor">#ff000000</item>
+        <item name="android:ellipsize">marquee</item>
+        <item name="android:gravity">center_vertical</item>
+        <item name="android:paddingLeft">12.0dip</item>
+        <item name="android:paddingRight">7.0dip</item>
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:minHeight">?android:listPreferredItemHeight</item>
+        <item name="android:drawablePadding">5.0dip</item>
+    </style>
+    <style name="AppsDialogButtonBackground">
+        <item name="android:orientation">vertical</item>
+        <item name="android:background">@drawable/popup_bottom_medium</item>
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+    <style name="AppsDialogButtonParent">
+        <item name="android:orientation">horizontal</item>
+        <item name="android:background">@android:drawable/timepicker_up_disabled_focused</item>
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">fill_parent</item>
+        <item name="android:minHeight">54.0dip</item>
+    </style>
+    <style name="AppsDialogButton">
+        <item name="android:textSize">16.0sp</item>
+        <item name="android:textColor">#ff000000</item>
+        <item name="android:gravity">center</item>
+        <item name="android:layout_width">0.0dip</item>
+        <item name="android:layout_height">fill_parent</item>
+        <item name="android:maxLines">2</item>
+        <item name="android:layout_weight">1.0</item>
+    </style>
+    <style name="AppsDialogButton.Ok" parent="@style/AppsDialogButton">
+        <item name="android:layout_gravity">left</item>
+        <item name="android:background">@android:drawable/zz_moto_actionbar_bkg</item>
+        <item name="android:text">@android:string/ok</item>
+    </style>
+    <style name="AppsDialogButton.Cancel" parent="@style/AppsDialogButton">
+        <item name="android:layout_gravity">right</item>
+        <item name="android:background">@android:drawable/zz_moto_actionbar_bkg_2_left</item>
+        <item name="android:text">@android:string/cancel</item>
+    </style>
+    <style name="AppsDialogButtonDivider">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">fill_parent</item>
+        <item name="android:src">@android:drawable/zz_moto_actionbar_bkg_middle_repeat</item>
+        <item name="android:scaleType">fitXY</item>
+    </style>
+    <style name="AppsDialogTitle.Select" parent="@style/AppsDialogTitle">
+        <item name="android:text">@string/select_apps</item>
+        <item name="android:drawableLeft">@blur.res:drawable/ic_dialog_menu_generic</item>
+    </style>
+    <style name="Theme" parent="@android:style/Theme.Wallpaper">
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowContentOverlay">@null</item>
+    </style>
+    <style name="AnimationPreview">
+        <item name="android:windowEnterAnimation">@anim/fade_in_fast</item>
+        <item name="android:windowExitAnimation">@anim/fade_out_fast</item>
+    </style>
+    <style name="WorkspaceIcon">
+        <item name="android:textSize">@dimen/appicon_text_size</item>
+        <item name="android:textColor">#ffffffff</item>
+        <item name="android:ellipsize">marquee</item>
+        <item name="android:gravity">center_horizontal</item>
+        <item name="android:background">@drawable/apps_selector</item>
+        <item name="android:paddingLeft">5.0dip</item>
+        <item name="android:paddingTop">@dimen/appicon_paddingTop</item>
+        <item name="android:paddingRight">5.0dip</item>
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">fill_parent</item>
+        <item name="android:layout_marginLeft">@dimen/appicon_marginLeft</item>
+        <item name="android:layout_marginTop">@dimen/appicon_marginTop</item>
+        <item name="android:layout_marginRight">@dimen/appicon_marginRight</item>
+        <item name="android:layout_marginBottom">@dimen/appicon_marginBottom</item>
+        <item name="android:maxLines">1</item>
+        <item name="android:shadowColor">#ff000000</item>
+        <item name="android:shadowRadius">2.0</item>
+        <item name="android:drawablePadding">@dimen/appicon_drawablePadding</item>
+    </style>
+    <style name="WorkspaceIcon.Portrait" parent="@style/WorkspaceIcon" />
+    <style name="WorkspaceIcon.Landscape" parent="@style/WorkspaceIcon" />
+    <style name="SearchButton" parent="@android:style/Widget.Button.Small">
+        <item name="android:paddingLeft">10.0dip</item>
+        <item name="android:paddingTop">7.0dip</item>
+        <item name="android:paddingRight">10.0dip</item>
+        <item name="android:paddingBottom">9.0dip</item>
+    </style>
+    <style name="HotseatButton">
+        <item name="android:focusable">true</item>
+        <item name="android:clickable">true</item>
+        <item name="android:scaleType">center</item>
+        <item name="android:adjustViewBounds">false</item>
+        <item name="android:layout_weight">1.0</item>
+    </style>
+    <style name="HotseatButton.Portrait" parent="@style/HotseatButton">
+        <item name="android:layout_gravity">top</item>
+        <item name="android:background">@drawable/hs_button_drop_shadow_bg</item>
+        <item name="android:paddingBottom">@dimen/hotseat_button_padding_bottom</item>
+        <item name="android:layout_width">0.0dip</item>
+        <item name="android:layout_height">fill_parent</item>
+    </style>
+    <style name="HotseatButton.Landscape" parent="@style/HotseatButton">
+        <item name="android:layout_gravity">left</item>
+        <item name="android:background">@drawable/hs_button_bg</item>
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">0.0dip</item>
+    </style>
+    <style name="HotSeatDrop.Portrait" parent="@style/HotseatButton.Portrait">
+        <item name="android:background">@null</item>
+        <item name="android:paddingBottom">0.0dip</item>
+        <item name="android:focusable">false</item>
+        <item name="android:clickable">false</item>
+    </style>
+    <style name="HotSeatDrop.Landscape" parent="@style/HotseatButton.Landscape">
+        <item name="android:background">@null</item>
+        <item name="android:focusable">false</item>
+        <item name="android:clickable">false</item>
+    </style>
+    <style name="HotseatNavIcon">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">@dimen/hotseat_nav_height</item>
+        <item name="android:layout_marginLeft">@dimen/hotseat_nav_hlt_margin</item>
+        <item name="android:layout_marginRight">@dimen/hotseat_nav_hlt_margin</item>
+    </style>
+    <style name="ProfileSwitcherTheme" parent="@android:style/Theme">
+        <item name="android:windowBackground">@drawable/profile_switcher_bkg</item>
+        <item name="android:windowNoTitle">true</item>
+    </style>
+</resources>

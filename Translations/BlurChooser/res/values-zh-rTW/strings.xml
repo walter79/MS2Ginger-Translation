@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+    <string name="app_name">選擇程式</string>
+    <string name="separator">,</string>
+    <string name="downloaded_apps">已下載的應用程式</string>
+    <string name="social_network_photo_sharing">照片分享</string>
+    <string name="social_network_video_sharing">影片分享</string>
+    <string name="social_network_mixed_sharing">照片與影片分享</string>
+</resources>

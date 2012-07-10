@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LinearLayout android:orientation="horizontal" style="@style/EmailAttachmentListItem"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:src="@blur.res:drawable/ic_thb_attachment" style="@style/EmailAttachmentListImg" />
+    <TextView android:id="@id/att_view_multiple_label" android:paddingLeft="@blur.res:dimen/listitem_hspacing" android:layout_weight="1.0" style="@style/TxtViewAttachments" />
+</LinearLayout>

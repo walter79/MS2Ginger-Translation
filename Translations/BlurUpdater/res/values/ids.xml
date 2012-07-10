@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+    <item type="id" name="download_flavor">false</item>
+    <item type="id" name="download_desc">false</item>
+    <item type="id" name="download_releasenotes">false</item>
+    <item type="id" name="download_help">false</item>
+    <item type="id" name="download_warning">false</item>
+    <item type="id" name="download_padding">false</item>
+    <item type="id" name="download_now">false</item>
+    <item type="id" name="download_later">false</item>
+    <item type="id" name="download_no">false</item>
+    <item type="id" name="error_text">false</item>
+    <item type="id" name="ok_button">false</item>
+    <item type="id" name="install_desc">false</item>
+    <item type="id" name="install_help">false</item>
+    <item type="id" name="install_now">false</item>
+    <item type="id" name="install_later">false</item>
+    <item type="id" name="picker_cell_radio">false</item>
+    <item type="id" name="picker_offpeaktime">false</item>
+    <item type="id" name="picker_wifi_only_radio">false</item>
+    <item type="id" name="layout_icon">false</item>
+    <item type="id" name="download_appIcon">false</item>
+    <item type="id" name="suspended_appIcon">false</item>
+    <item type="id" name="progress_text">false</item>
+    <item type="id" name="title">false</item>
+    <item type="id" name="progress_bar">false</item>
+    <item type="id" name="update_status_result">false</item>
+    <item type="id" name="update_status_desc">false</item>
+    <item type="id" name="update_status_ok">false</item>
+</resources>

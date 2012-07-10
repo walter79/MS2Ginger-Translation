@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+    <string name="unobtainable_number">DIALING NOT AVAILABLE -%1$02d-</string>
+    <string name="no_route_destination">USER NOT AVAILABLE -%1$02d-</string>
+    <string name="op_determined_barring">USER NOT AVAILABLE -%1$02d-</string>
+    <string name="user_busy">USER BUSY</string>
+    <string name="no_user_responding">USER NOT RESPONSE -%1$02d-</string>
+    <string name="no_answer">USER NOT RESPONSE -%1$02d-</string>
+    <string name="call_rejected">USER NOT AVAILABLE -%1$02d-</string>
+    <string name="number_changed">DIALING NOT AVAILABLE -%1$02d-</string>
+    <string name="destination_out">USER NOT AVAILABLE -%1$02d-</string>
+    <string name="facility_rejected">CALL ENDED -%1$02d-</string>
+    <string name="normal_unspecified">CALL ENDED -%1$02d-</string>
+    <string name="no_circuit_avail">CALL ENDED -%1$02d-</string>
+    <string name="network_out">CALL ENDED -%1$02d-</string>
+    <string name="temporary_failure">CALL ENDED -%1$02d-</string>
+    <string name="switching_congestion">CALL ENDED -%1$02d-</string>
+    <string name="access_discarded">CALL ENDED -%1$02d-</string>
+    <string name="channel_not_avail">CALL ENDED -%1$02d-</string>
+    <string name="resources_unavailable">CALL ENDED -%1$02d-</string>
+    <string name="incoming_barred_cug">CALL ENDED -%1$02d-</string>
+    <string name="bearer_not_authorized">CALL ENDED -%1$02d-</string>
+    <string name="bearer_not_available">CALL ENDED -%1$02d-</string>
+    <string name="service_not_available">CALL ENDED -%1$02d-</string>
+    <string name="bearer_not_implemented">CALL ENDED -%1$02d-</string>
+    <string name="requested_not_implemented">CALL ENDED -%1$02d-</string>
+    <string name="user_not_cug">CALL ENDED -%1$02d-</string>
+    <string name="incompatible_destination">CALL ENDED -%1$02d-</string>
+    <string name="incorrect_message">CALL ENDED -%1$02d-</string>
+    <string name="protocol_error">CALL ENDED -%1$02d-</string>
+    <string name="interworking">CALL ENDED -%1$02d-</string>
+</resources>

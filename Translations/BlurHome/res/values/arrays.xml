@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+    <string-array name="apps_group_sort_options">
+        <item>Alphabetically</item>
+        <item>Frequently used</item>
+        <item>Recently used</item>
+    </string-array>
+    <string-array name="apps_group_name">
+        <item>AT&amp;amp;amp;T apps</item>
+        <item>Communicate</item>
+        <item>Favorites</item>
+        <item>Games</item>
+        <item>Music</item>
+        <item>Navigate</item>
+        <item>Pictures &amp;amp;amp; Video</item>
+        <item>Productivity</item>
+        <item>Social</item>
+        <item>T-Mobile apps</item>
+        <item>Utilities</item>
+        <item>Verizon apps</item>
+    </string-array>
+    <string-array name="apps_group_name_key">
+        <item>localize_key_AT&amp;amp;amp;T apps</item>
+        <item>localize_key_Communicate</item>
+        <item>localize_key_Favorites</item>
+        <item>localize_key_Games</item>
+        <item>localize_key_Music</item>
+        <item>localize_key_Navigate</item>
+        <item>localize_key_Pictures &amp;amp;amp; Video</item>
+        <item>localize_key_Productivity</item>
+        <item>localize_key_Social</item>
+        <item>localize_key_T-Mobile apps</item>
+        <item>localize_key_Utilities</item>
+        <item>localize_key_Verizon apps</item>
+    </string-array>
+    <array name="extra_wallpapers" />
+</resources>

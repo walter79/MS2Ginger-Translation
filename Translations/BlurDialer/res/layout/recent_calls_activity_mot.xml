@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.motorola.dialer.TitleBar android:id="@id/recent_call_titlebar" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+    <Spinner android:id="@id/recent_calls_filter_spinner" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="5.0dip" android:drawSelectorOnTop="true" android:prompt="@string/recent_calls_filter_prompt" />
+    <FrameLayout android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <ListView android:scrollbarStyle="outsideOverlay" android:id="@android:id/list" android:layout_width="fill_parent" android:layout_height="fill_parent" android:cacheColorHint="#00000000" android:divider="@android:drawable/divider_horizontal_bright" />
+        <TextView android:textSize="18.0sp" android:gravity="center" android:layout_gravity="center" android:id="@android:id/empty" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/recentCalls_empty" />
+    </FrameLayout>
+</LinearLayout>

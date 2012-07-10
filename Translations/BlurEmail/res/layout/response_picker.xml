@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView android:id="@android:id/list" android:layout_height="wrap_content" android:cacheColorHint="#e6223848" android:divider="@blur.res:drawable/popup_bubble_divider_horz" style="@blur.res:style/Blur.ScrollingList"
+  xmlns:android="http://schemas.android.com/apk/res/android" />

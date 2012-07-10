@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LinearLayout android:gravity="center" android:layout_gravity="center" android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_marginLeft="3.0dip" android:layout_marginRight="3.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.motorola.blur.alarmclock.TimePickerButton android:layout_gravity="center_horizontal" android:id="@id/increment" android:background="@drawable/timepicker_up_btn" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_weight="1.0" />
+    <TextView android:gravity="center" android:layout_gravity="center_horizontal" android:id="@id/label" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_weight="1.0" style="\?android:attr/textAppearanceMedium" />
+    <com.motorola.blur.alarmclock.TimePickerButton android:layout_gravity="center_horizontal" android:id="@id/decrement" android:background="@drawable/timepicker_down_btn" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_weight="1.0" />
+</LinearLayout>

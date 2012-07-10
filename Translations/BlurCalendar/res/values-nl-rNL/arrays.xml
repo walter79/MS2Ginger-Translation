@@ -1,0 +1,361 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+    <string-array name="reminder_minutes_labels">
+        <item>0 minuten</item>
+        <item>5 minuten</item>
+        <item>10 minuten</item>
+        <item>15 minuten</item>
+        <item>20 minuten</item>
+        <item>25 minuten</item>
+        <item>30 minuten</item>
+        <item>45 minuten</item>
+        <item>1 uur</item>
+        <item>2 uur</item>
+        <item>3 uur</item>
+        <item>4 uur</item>
+        <item>5 uur</item>
+        <item>6 uur</item>
+        <item>7 uur</item>
+        <item>8 uur</item>
+        <item>9 uur</item>
+        <item>10 uur</item>
+        <item>11 uur</item>
+        <item>12 uur</item>
+        <item>18 uur</item>
+        <item>24 uur</item>
+        <item>2 dagen</item>
+        <item>3 dagen</item>
+        <item>4 dagen</item>
+        <item>1 week</item>
+        <item>2 weken</item>
+    </string-array>
+    <string-array name="reminder_minutes_values">
+        <item>0</item>
+        <item>5</item>
+        <item>10</item>
+        <item>15</item>
+        <item>20</item>
+        <item>25</item>
+        <item>30</item>
+        <item>45</item>
+        <item>60</item>
+        <item>120</item>
+        <item>180</item>
+        <item>240</item>
+        <item>300</item>
+        <item>360</item>
+        <item>420</item>
+        <item>480</item>
+        <item>540</item>
+        <item>600</item>
+        <item>660</item>
+        <item>720</item>
+        <item>1080</item>
+        <item>1440</item>
+        <item>2880</item>
+        <item>4320</item>
+        <item>5760</item>
+        <item>10080</item>
+        <item>20160</item>
+    </string-array>
+    <string-array name="reminder_minutes_labels_activesync">
+        <item>0 minuten</item>
+        <item>5 minuten</item>
+        <item>10 minuten</item>
+        <item>15 minuten</item>
+        <item>20 minuten</item>
+        <item>25 minuten</item>
+        <item>30 minuten</item>
+        <item>45 minuten</item>
+        <item>1 uur</item>
+        <item>2 uur</item>
+        <item>3 uur</item>
+        <item>4 uur</item>
+        <item>5 uur</item>
+        <item>6 uur</item>
+        <item>7 uur</item>
+        <item>8 uur</item>
+        <item>9 uur</item>
+        <item>10 uur</item>
+        <item>11 uur</item>
+        <item>12 uur</item>
+        <item>18 uur</item>
+        <item>24 uur</item>
+        <item>2 dagen</item>
+        <item>3 dagen</item>
+        <item>4 dagen</item>
+        <item>1 week</item>
+        <item>2 weken</item>
+    </string-array>
+    <string-array name="reminder_minutes_values_activesync">
+        <item>0</item>
+        <item>5</item>
+        <item>10</item>
+        <item>15</item>
+        <item>20</item>
+        <item>25</item>
+        <item>30</item>
+        <item>45</item>
+        <item>60</item>
+        <item>120</item>
+        <item>180</item>
+        <item>240</item>
+        <item>300</item>
+        <item>360</item>
+        <item>420</item>
+        <item>480</item>
+        <item>540</item>
+        <item>600</item>
+        <item>660</item>
+        <item>720</item>
+        <item>1080</item>
+        <item>1440</item>
+        <item>2880</item>
+        <item>4320</item>
+        <item>5760</item>
+        <item>10080</item>
+        <item>20160</item>
+    </string-array>
+    <string-array name="timezone_labels">
+        <item>Marshalleilanden</item>
+        <item>Midwayeiland</item>
+        <item>Hawaï</item>
+        <item>Alaska</item>
+        <item>Pacific Time</item>
+        <item>Tijuana</item>
+        <item>Arizona</item>
+        <item>Chihuahua</item>
+        <item>Mountain Time</item>
+        <item>Midden-Amerika</item>
+        <item>Central Time</item>
+        <item>Mexico-Stad</item>
+        <item>Saskatchewan</item>
+        <item>Bogota</item>
+        <item>Eastern Time</item>
+        <item>Venezuela</item>
+        <item>Atlantic Time</item>
+        <item>Manaus</item>
+        <item>Santiago</item>
+        <item>Newfoundland</item>
+        <item>Brasilia</item>
+        <item>Buenos Aires</item>
+        <item>Groenland</item>
+        <item>Montevideo</item>
+        <item>Mid-Atlantic</item>
+        <item>Azoren</item>
+        <item>Kaapverdische eilanden</item>
+        <item>Casablanca</item>
+        <item>Londen, Dublin</item>
+        <item>Amsterdam, Berlijn</item>
+        <item>Belgrado</item>
+        <item>Brussel</item>
+        <item>Sarajevo</item>
+        <item>Parijs</item>
+        <item>Windhoek</item>
+        <item>West Africa Time</item>
+        <item>Amman/Jordanië</item>
+        <item>Athene, Istanboel</item>
+        <item>Beiroet/Libanon</item>
+        <item>Caïro</item>
+        <item>Helsinki</item>
+        <item>Jeruzalem</item>
+        <item>Minsk</item>
+        <item>Harare</item>
+        <item>Bagdad</item>
+        <item>Moskou</item>
+        <item>Koeweit</item>
+        <item>Nairobi</item>
+        <item>Teheran</item>
+        <item>Bakoe</item>
+        <item>Tbilisi</item>
+        <item>Jerevan</item>
+        <item>Dubai</item>
+        <item>Kaboel</item>
+        <item>Islamabad, Karachi</item>
+        <item>Ural\'sk</item>
+        <item>Jekaterinburg</item>
+        <item>Kolkata</item>
+        <item>Sri Lanka</item>
+        <item>Kathmandu</item>
+        <item>Astana</item>
+        <item>Yangon</item>
+        <item>Krasnojarsk</item>
+        <item>Bangkok</item>
+        <item>Peking</item>
+        <item>Hongkong</item>
+        <item>Irkoetsk</item>
+        <item>Kuala Lumpur</item>
+        <item>Perth</item>
+        <item>Taipei</item>
+        <item>Seoul</item>
+        <item>Tokio, Osaka</item>
+        <item>Jakoetsk</item>
+        <item>Adelaide</item>
+        <item>Darwin</item>
+        <item>Brisbane</item>
+        <item>Hobart</item>
+        <item>Sydney, Canberra</item>
+        <item>Vladivostok</item>
+        <item>Guam</item>
+        <item>Magadan</item>
+        <item>Auckland</item>
+        <item>Fiji</item>
+        <item>Tonga</item>
+    </string-array>
+    <string-array name="preferences_week_view_labels">
+        <item>Weergave werkweek</item>
+        <item>Weergave gehele week</item>
+    </string-array>
+    <string-array name="preferences_week_view_values">
+        <item>5</item>
+        <item>7</item>
+    </string-array>
+    <string-array name="preferences_default_reminder_labels">
+        <item>Geen</item>
+        <item>0 minuten</item>
+        <item>5 minuten</item>
+        <item>10 minuten</item>
+        <item>15 minuten</item>
+        <item>20 minuten</item>
+        <item>25 minuten</item>
+        <item>30 minuten</item>
+        <item>45 minuten</item>
+        <item>1 uur</item>
+        <item>2 uur</item>
+        <item>3 uur</item>
+        <item>4 uur</item>
+        <item>5 uur</item>
+        <item>6 uur</item>
+        <item>7 uur</item>
+        <item>8 uur</item>
+        <item>9 uur</item>
+        <item>10 uur</item>
+        <item>11 uur</item>
+        <item>12 uur</item>
+        <item>18 uur</item>
+        <item>24 uur</item>
+        <item>2 dagen</item>
+        <item>3 dagen</item>
+        <item>4 dagen</item>
+        <item>1 week</item>
+        <item>2 weken</item>
+    </string-array>
+    <string-array name="preferences_default_reminder_values">
+        <item>-1</item>
+        <item>0</item>
+        <item>5</item>
+        <item>10</item>
+        <item>15</item>
+        <item>20</item>
+        <item>25</item>
+        <item>30</item>
+        <item>45</item>
+        <item>60</item>
+        <item>120</item>
+        <item>180</item>
+        <item>240</item>
+        <item>300</item>
+        <item>360</item>
+        <item>420</item>
+        <item>480</item>
+        <item>540</item>
+        <item>600</item>
+        <item>660</item>
+        <item>720</item>
+        <item>1080</item>
+        <item>1440</item>
+        <item>2880</item>
+        <item>4320</item>
+        <item>5760</item>
+        <item>10080</item>
+        <item>20160</item>
+    </string-array>
+    <string-array name="preferences_alert_type_labels">
+        <item>Melding</item>
+        <item>Statusbalkbericht</item>
+        <item>Uit</item>
+    </string-array>
+    <string-array name="repeat_strings">
+        <item>Geen herhaling</item>
+        <item>Dagelijks</item>
+        <item>Wekelijks</item>
+        <item>Maandelijks</item>
+        <item>Jaarlijks</item>
+    </string-array>
+    <string-array name="availability_outlook">
+        <item>Als bezet weergeven</item>
+        <item>Als beschikbaar weergeven</item>
+        <item>Als voorlopig weergeven</item>
+        <item>Als afwezig weergeven</item>
+    </string-array>
+    <string-array name="availability_google">
+        <item>Als bezet weergeven</item>
+        <item>Als beschikbaar weergeven</item>
+    </string-array>
+    <string-array name="visibility_google">
+        <item>Standaard</item>
+        <item>Privé</item>
+        <item>Openbaar</item>
+    </string-array>
+    <string-array name="visibility_outlook">
+        <item>Privé</item>
+        <item>Openbaar</item>
+    </string-array>
+    <string-array name="ordinal_labels">
+        <item>eerste</item>
+        <item>tweede</item>
+        <item>derde</item>
+        <item>vierde</item>
+        <item>laatste</item>
+    </string-array>
+    <string-array name="response_labels1">
+        <item>(Geen antwoord)</item>
+        <item>Accepteren</item>
+        <item>Voorlopig accepteren</item>
+        <item>Weigeren</item>
+        <item>Ander tijdstip voorstellen</item>
+    </string-array>
+    <string-array name="response_labels2">
+        <item>Accepteren</item>
+        <item>Voorlopig accepteren</item>
+        <item>Weigeren</item>
+        <item>Ander tijdstip voorstellen</item>
+    </string-array>
+    <string-array name="response_decision">
+        <item>Reactie bewerken vóór verzenden</item>
+        <item>Reactie verzenden</item>
+        <item>Geen reactie verzenden</item>
+    </string-array>
+    <string-array name="response_title">
+        <item>Vergadering geaccepteerd</item>
+        <item>Vergadering onder voorbehoud</item>
+        <item>Vergadering geweigerd</item>
+    </string-array>
+    <string-array name="response_text">
+        <item>Geaccepteerd:</item>
+        <item>Voorlopig:</item>
+        <item>Geweigerd:</item>
+    </string-array>
+    <string-array name="delete_repeating_labels">
+        <item>Alleen deze afspraak</item>
+        <item>Deze en toekomstige afspraken</item>
+        <item>Alle afspraken</item>
+    </string-array>
+    <string-array name="delete_repeating_labels_no_selected">
+        <item>Deze en toekomstige afspraken</item>
+        <item>Alle afspraken</item>
+    </string-array>
+    <string-array name="delete_repeating_labels_no_future_events">
+        <item>Alleen deze afspraak</item>
+        <item>Alle afspraken</item>
+    </string-array>
+    <string-array name="change_response_labels">
+        <item>Alleen deze keer</item>
+        <item>Alle gebeurtenissen in de reeks</item>
+    </string-array>
+    <string-array name="prefEntries_alerts_vibrateWhen">
+        <item>Altijd</item>
+        <item>Alleen in stille modus</item>
+        <item>Nooit</item>
+    </string-array>
+</resources>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+    <attr name="textViewStyle" format="integer" />
+    <attr name="textHint" format="integer" />
+    <attr name="widgetBackgroundNormal" format="integer" />
+    <attr name="widgetBackgroundFocused" format="integer" />
+</resources>

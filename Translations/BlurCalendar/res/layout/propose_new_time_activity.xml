@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textAppearance="@android:style/TextAppearance.WindowTitle" android:id="@id/title_description" android:fadingEdge="horizontal" android:layout_width="fill_parent" android:layout_height="?android:windowTitleSize" android:text="@string/propose_new_time_title" android:layout_alignParentLeft="true" android:layout_alignParentTop="true" style="\?android:attr/windowTitleBackgroundStyle" />
+    <RelativeLayout android:id="@id/title_layout" android:layout_width="fill_parent" android:layout_height="?android:windowTitleSize" android:layout_below="@id/title_description" style="\?android:attr/windowTitleBackgroundStyle">
+        <TextView android:gravity="center" android:id="@id/title" android:background="@null" android:fadingEdge="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_alignParentLeft="true" android:layout_alignParentTop="true" android:layout_alignParentRight="true" style="\?android:attr/windowTitleStyle" />
+        <ProgressBar android:id="@id/progress_circular" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="6.0dip" android:max="10000" android:layout_alignParentRight="true" android:layout_centerVertical="true" style="\?android:attr/progressBarStyleSmall" />
+    </RelativeLayout>
+    <com.motorola.android.widget.ActionBar android:id="@id/action_bar" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_alignParentBottom="true" />
+    <ViewSwitcher android:id="@id/switcher" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_above="@id/action_bar" android:layout_below="@id/title_layout" />
+</RelativeLayout>

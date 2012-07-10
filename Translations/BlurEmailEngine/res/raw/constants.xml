@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE properties SYSTEM "http://java.sun.com/dtd/properties.dtd">
+<properties>
+  <comment>Default Constants</comment>
+  <entry key="max_attachment_size">8388608</entry>
+  <entry key="default_data_push">false</entry>
+  <entry key="max_message_size">31457280</entry><!-- 30MB -->
+  <entry key="max_html_body_size">1048576</entry><!-- 1MB -->
+  <entry key="max_text_body_size">524288</entry><!-- 512KB -->
+  <entry key="default_pref_email_polling_interval">15</entry><!-- 15 minutes -->
+</properties>

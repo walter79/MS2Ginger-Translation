@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LinearLayout android:orientation="horizontal" android:layout_height="wrap_content" style="@blur.res:style/Blur.ListItem"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <CheckBox android:layout_gravity="center" android:id="@id/picker_identity_item_checkbox" android:focusable="false" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+    <LinearLayout style="@blur.res:style/Blur.ListItemCol2">
+        <ImageView android:id="@id/picker_identity_item_photo" android:layout_width="@blur.res:dimen/listitem_contact_photo_size" android:layout_height="@blur.res:dimen/listitem_contact_photo_size" android:layout_marginRight="@blur.res:dimen/listitem_photo_hspacing" android:src="@blur.res:drawable/ic_thb_contact_photo" />
+    </LinearLayout>
+    <LinearLayout android:gravity="center_vertical" android:orientation="vertical" android:layout_weight="1.0" style="@blur.res:style/Blur.ListItemCol3">
+        <TextView android:id="@id/picker_identity_item_name" android:layout_marginRight="7.0dip" style="@blur.res:style/Blur.TxtListItemA" />
+        <TextView android:id="@id/picker_identity_item_comment" android:visibility="gone" android:layout_marginRight="7.0dip" style="@blur.res:style/Blur.TxtListItemB" />
+    </LinearLayout>
+</LinearLayout>

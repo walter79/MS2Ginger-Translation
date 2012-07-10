@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<PreferenceScreen
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <PreferenceCategory android:title="@string/preferences_calendar_settings_title">
+        <PreferenceScreen android:title="@string/preference_manage_calendars_title" android:key="preference_manage_calendars" android:summary="@string/preference_manage_calendars_summary" />
+        <CheckBoxPreference android:title="@string/preferences_display_suggestions_title" android:key="preferences_display_suggestions" android:summary="@string/preferences_display_suggestions_summary" android:defaultValue="true" />
+    </PreferenceCategory>
+    <PreferenceCategory android:title="@string/preference_conference_call_settings_title">
+        <CheckBoxPreference android:title="@string/preference_enable_quick_conference_dialing_title" android:key="preferences_enable_quick_conference_dialing" android:summary="@string/preference_enable_quick_conference_dialing_summary" android:defaultValue="true" />
+        <com.android.calendar.ConferenceCallDialogPreference android:title="@string/preference_conference_call_info_title" android:key="preference_conference_call_info" android:summary="@string/preference_conference_call_info_summary" />
+    </PreferenceCategory>
+    <PreferenceCategory android:title="@string/preferences_general_title">
+        <CheckBoxPreference android:title="@string/preferences_hide_declined_title" android:key="preferences_hide_declined" android:summary="@string/preferences_hide_declined_events_summary" android:defaultValue="false" />
+        <CheckBoxPreference android:title="@string/preferences_use_home_tz_title" android:key="preferences_home_tz_enabled" android:summary="@string/preferences_use_home_tz_descrip" android:defaultValue="false" />
+        <ListPreference android:entries="@array/timezone_labels" android:title="@string/preferences_home_tz_title" android:key="preferences_home_tz" android:dependency="preferences_home_tz_enabled" android:defaultValue="@string/preferences_home_tz_default" android:dialogTitle="@string/preferences_home_tz_title" android:entryValues="@array/timezone_values" />
+        <ListPreference android:entries="@array/preferences_week_view_labels" android:title="@string/preferences_week_view" android:key="preference_week_view" android:defaultValue="@string/preferences_default_week_view" android:entryValues="@array/preferences_week_view_values" />
+    </PreferenceCategory>
+    <PreferenceCategory android:title="@string/preferences_alerts_title">
+        <ListPreference android:entries="@array/preferences_alert_type_labels" android:title="@string/preferences_alerts_type_title" android:key="preferences_alerts_type" android:defaultValue="@string/preferences_alerts_type_default" android:dialogTitle="@string/preferences_alerts_type_dialog" android:entryValues="@array/preferences_alert_type_values" />
+        <RingtonePreference android:layout="?android:preferenceLayoutChild" android:title="@string/preferences_alerts_ringtone_title" android:key="preferences_alerts_ringtone" android:defaultValue="content://settings/system/notification_sound" android:ringtoneType="notification" />
+        <ListPreference android:entries="@array/prefEntries_alerts_vibrateWhen" android:layout="?android:preferenceLayoutChild" android:title="@string/preferences_alerts_vibrateWhen_title" android:key="preferences_alerts_vibrateWhen" android:summary="@string/preferences_alerts_vibrateWhen_summary" android:defaultValue="@string/prefDefault_alerts_vibrateWhen" android:dialogTitle="@string/prefDialogTitle_vibrateWhen" android:entryValues="@array/prefValues_alerts_vibrateWhen" />
+        <ListPreference android:entries="@array/preferences_default_reminder_labels" android:title="@string/preferences_default_reminder_title" android:key="preferences_default_reminder" android:defaultValue="@string/preferences_default_reminder_default" android:dialogTitle="@string/preferences_default_reminder_dialog" android:entryValues="@array/preferences_default_reminder_values" />
+    </PreferenceCategory>
+    <PreferenceCategory android:title="@string/preferences_about_title">
+        <Preference android:title="@string/preferences_build_version" android:key="build_version" />
+    </PreferenceCategory>
+</PreferenceScreen>

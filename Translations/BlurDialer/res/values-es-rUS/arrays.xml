@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+    <string-array name="recent_call_types">
+        <item>Todas las llamadas</item>
+        <item>Llamadas perdidas</item>
+        <item>Llamadas recibidas</item>
+        <item>Llamadas salientes</item>
+    </string-array>
+    <string-array name="restriction_recent_call_types">
+        <item>Todas las llamadas</item>
+        <item>Llamadas perdidas</item>
+        <item>Llamadas recibidas</item>
+        <item>Llamadas salientes</item>
+        <item>Llamadas bloqueadas</item>
+    </string-array>
+</resources>

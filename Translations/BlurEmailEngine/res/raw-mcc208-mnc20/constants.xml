@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE properties SYSTEM "http://java.sun.com/dtd/properties.dtd">
+<properties>
+  <comment>Default Constants</comment>
+  <entry key="default_pref_email_polling_interval">60</entry><!-- 1 hour -->
+</properties>

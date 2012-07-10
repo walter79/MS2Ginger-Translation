@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+    <string name="app_name">Calendar storage</string>
+    <string name="gadget_title">Calendar</string>
+    <string name="no_title_label">(No subject)</string>
+    <string name="calendar_default_name">Default</string>
+    <string name="gadget_no_events">No forthcoming calendar events</string>
+    <string name="calendar_widget_label">Calendar widget</string>
+    <string name="setting_description">Choose which calendars display events in the widget</string>
+    <string name="no_calendars_selected">Select calendars</string>
+    <string name="settings_all_calendars">All calendars</string>
+    <string name="loading_agenda">Loading diary...</string>
+    <string name="no_meeting_this_week">No upcoming meetings</string>
+    <string name="no_meeting_today">No meetings today.</string>
+    <string name="no_calendars_synchronized">Add a \n calendar account</string>
+    <string name="provider_label">Calendar</string>
+    <string name="widget_description">Upcoming calendar events</string>
+    <string name="account_type_name">Calendar local account</string>
+    <string name="local_calendar_display_name">Default calendar</string>
+    <string name="scratch_calendar_display_name">Scratch calendar</string>
+    <string name="settings_local_calendar">Phone calendar</string>
+</resources>

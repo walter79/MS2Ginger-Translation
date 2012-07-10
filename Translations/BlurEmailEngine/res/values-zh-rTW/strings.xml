@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+    <string name="app_name">電子郵件引擎</string>
+    <string name="truncated_mime_headers_body">-- 已截斷訊息。 --</string>
+    <string name="no_default_account">無預設電子郵件帳戶</string>
+    <string name="email_send_failure">電子郵件發送失敗</string>
+    <string name="new_single_email_ticker_text">%1$s %2$s</string>
+    <string name="new_multi_email_ticker_text">%1$d 條新訊息</string>
+    <string name="new_single_email_title_text">%1$s (%2$s)</string>
+    <string name="new_single_email_details_text">%1$s</string>
+    <string name="new_multi_email_title_text">%1$s</string>
+    <string name="new_multi_email_details_text">%1$d 條新訊息</string>
+    <string name="new_email_unknown_sender">未知寄件者</string>
+    <string name="email_error_send_ticker_text">%1$s 訊息發送錯誤</string>
+    <string name="email_error_sync_ticker_text">%1$s 帳戶錯誤</string>
+    <string name="out_of_office_error_ticker_text">%1$s 郵件答錄機錯誤</string>
+    <string name="email_error_sending_title_text">%1$s 訊息發送錯誤</string>
+    <string name="email_error_sync_title_text">%1$s</string>
+    <string name="email_error_cert_title_text">無效的伺服器憑證</string>
+    <string name="email_error_auth_not_provisionable_title_text">%1$s 自動配置錯誤</string>
+    <string name="out_of_office_title_text">%1$s</string>
+    <string name="email_error_server_error_details_text">伺服器錯誤</string>
+    <string name="email_error_over_quota_details_text">伺服器空間不足</string>
+    <string name="email_error_config_details_text">伺服器帳戶設定錯誤</string>
+    <string name="email_error_auth_details_text">驗證錯誤</string>
+    <string name="email_error_auth_send_details_text">驗證發送錯誤</string>
+    <string name="email_error_auth_rcv_details_text">驗證接收錯誤</string>
+    <string name="email_error_auth_not_provisionable_details_text">請聯絡伺服器管理員</string>
+    <string name="email_error_cert_details_text">輕觸以取得更多資訊</string>
+    <string name="email_error_sending_details_text">輕觸即可檢視訊息</string>
+    <string name="email_error_connection_details_text">連線錯誤</string>
+    <string name="out_of_office_error_details_text">郵件答錄機出錯</string>
+    <string name="eas_device_admin_label">Corporate Sync</string>
+    <string name="eas_device_admin_description">啟用伺服器專用安全性原則</string>
+</resources>

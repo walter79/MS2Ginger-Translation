@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ScrollView android:id="@id/scroll_view" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_weight="1.0">
+        <LinearLayout android:orientation="vertical" android:id="@id/task" android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <LinearLayout android:orientation="horizontal" android:padding="5.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <EditText android:id="@id/title" android:layout_width="wrap_content" android:layout_height="fill_parent" android:hint="@string/hint_subject" android:singleLine="true" android:capitalize="sentences" android:autoText="true" android:layout_weight="1.0">
+                    <requestFocus />
+                </EditText>
+                <CheckBox android:id="@id/starred" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_marginLeft="10.0dip" android:layout_marginRight="5.0dip" style="\?android:attr/starStyle" />
+            </LinearLayout>
+            <View android:id="@id/date_separator" android:background="@android:drawable/divider_horizontal_bright" android:layout_width="fill_parent" android:layout_height="2.0dip" android:layout_marginLeft="5.0dip" android:layout_marginRight="5.0dip" />
+            <LinearLayout android:orientation="vertical" android:id="@id/start_container" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="5.0dip" android:layout_marginRight="5.0dip">
+                <TextView android:id="@id/start_label" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/start_date_label" style="@style/TextAppearance.EditEvent_Label" />
+                <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                    <Button android:enabled="true" android:gravity="left|center" android:id="@id/start_date" android:layout_width="0.0dip" android:layout_height="wrap_content" android:text="@string/none_label" android:layout_weight="7.0" />
+                    <Button android:enabled="true" android:gravity="left|center" android:id="@id/start_time" android:layout_width="0.0dip" android:layout_height="wrap_content" android:text="@string/none_label" android:layout_weight="4.0" />
+                    <ImageButton android:gravity="center_vertical" android:id="@id/start_minus" android:visibility="invisible" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignParentRight="true" style="@style/MinusButton" />
+                </LinearLayout>
+            </LinearLayout>
+            <LinearLayout android:orientation="vertical" android:id="@id/end_container" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="5.0dip" android:layout_marginRight="5.0dip">
+                <TextView android:id="@id/end_label" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/end_date_label" style="@style/TextAppearance.EditEvent_Label" />
+                <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                    <Button android:enabled="true" android:gravity="left|center" android:id="@id/end_date" android:layout_width="0.0dip" android:layout_height="wrap_content" android:text="@string/none_label" android:layout_weight="7.0" />
+                    <Button android:enabled="true" android:gravity="left|center" android:id="@id/end_time" android:layout_width="0.0dip" android:layout_height="wrap_content" android:text="@string/none_label" android:layout_weight="4.0" />
+                    <ImageButton android:id="@id/end_minus" android:visibility="invisible" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignParentRight="true" style="@style/MinusButton" />
+                </LinearLayout>
+            </LinearLayout>
+            <LinearLayout android:orientation="vertical" android:id="@id/extra_container" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="5.0dip" android:layout_marginRight="5.0dip" android:layout_marginBottom="5.0dip">
+                    <View android:background="@android:drawable/divider_horizontal_bright" android:layout_width="fill_parent" android:layout_height="2.0dip" />
+                    <TextView android:id="@id/priority_label" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/priority_label" style="@style/TextAppearance.EditEvent_Label" />
+                    <Spinner android:entries="@array/priority_value_labels" android:id="@id/priority_spinner" android:layout_width="fill_parent" android:layout_height="wrap_content" android:prompt="@string/priority_label" />
+                </LinearLayout>
+                <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="5.0dip" android:layout_marginRight="5.0dip" android:layout_marginBottom="5.0dip">
+                    <View android:background="@android:drawable/divider_horizontal_bright" android:layout_width="fill_parent" android:layout_height="2.0dip" />
+                    <TextView android:id="@id/complete_label" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/complete_label" style="@style/TextAppearance.EditEvent_Label" />
+                    <Spinner android:entries="@array/completed_percentage_labels" android:id="@id/complete_spinner" android:layout_width="fill_parent" android:layout_height="wrap_content" android:prompt="@string/complete_label" /> /> </LinearLayout>
+                <View android:id="@id/tag_separator" android:background="@android:drawable/divider_horizontal_bright" android:layout_width="fill_parent" android:layout_height="2.0dip" android:layout_marginLeft="5.0dip" android:layout_marginRight="5.0dip" />
+                <RelativeLayout android:id="@id/tag_container" android:background="@android:drawable/list_selector_background" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="5.0dip" android:layout_marginRight="5.0dip">
+                    <TextView android:id="@id/tag_label" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/tags_label" style="@style/TextAppearance.EditEvent_Label" />
+                    <ImageView android:id="@id/TagButton" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip" android:layout_marginRight="5.0dip" android:src="@android:drawable/ic_btn_round_more_normal" android:layout_alignParentRight="true" />
+                    <TextView android:id="@id/tag_names" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/no_tag_label" android:layout_toLeftOf="@id/TagButton" android:layout_below="@id/tag_label" android:layout_alignParentLeft="true" />
+                </RelativeLayout>
+            </LinearLayout>
+            <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_margin="5.0dip">
+                <View android:id="@id/description_separator" android:background="@android:drawable/divider_horizontal_bright" android:layout_width="fill_parent" android:layout_height="2.0dip" />
+                <EditText android:id="@id/description" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="5.0dip" android:hint="@string/hint_description" android:maxLines="@integer/edit_event_description_maxline" android:minLines="2" android:capitalize="sentences" />
+            </LinearLayout>
+            <LinearLayout android:enabled="false" android:orientation="vertical" android:id="@id/reminder_container" android:paddingLeft="5.0dip" android:paddingRight="5.0dip" android:paddingBottom="5.0dip" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <View android:background="@android:drawable/divider_horizontal_bright" android:layout_width="fill_parent" android:layout_height="2.0dip" />
+                <LinearLayout android:gravity="right|center" android:id="@id/add_reminder_container" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                    <TextView android:id="@id/add_reminder_lable" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="2.0dip" android:text="@string/add_reminder_label" />
+                    <ImageButton android:id="@id/reminder_add" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/PlusButton" />
+                </LinearLayout>
+                <RelativeLayout android:id="@id/select_reminder_container" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                    <TextView android:id="@id/reminder_label" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/reminder_label" style="@style/TextAppearance.EditEvent_Label" />
+                    <ImageButton android:gravity="center_vertical" android:id="@id/reminder_remove" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_below="@id/reminder_label" android:layout_alignParentRight="true" style="@style/MinusButton" />
+                    <Spinner android:entries="@array/reminder_minutes_labels" android:id="@id/reminder_spinner" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginRight="2.0dip" android:layout_toLeftOf="@id/reminder_remove" android:layout_alignTop="@id/reminder_remove" style="\?android:attr/textAppearanceMedium" />
+                </RelativeLayout>
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+    <com.motorola.android.widget.ActionBar android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_alignParentBottom="true">
+        <Button android:id="@id/save" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/save_label" android:layout_weight="1.0" />
+        <Button android:id="@id/discard" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/discard_label" android:layout_weight="1.0" />
+        <Button android:id="@id/delete" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/delete_label" android:layout_weight="1.0" />
+    </com.motorola.android.widget.ActionBar>
+</LinearLayout>

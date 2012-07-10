@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+    <string-array name="recent_call_types">
+        <item>Alle oproepen</item>
+        <item>Gemiste oproepen</item>
+        <item>Ontvangen oproepen</item>
+        <item>Uitgaande oproepen</item>
+    </string-array>
+    <string-array name="restriction_recent_call_types">
+        <item>Alle oproepen</item>
+        <item>Gemiste oproepen</item>
+        <item>Ontvangen oproepen</item>
+        <item>Uitgaande oproepen</item>
+        <item>Geblokkeerde oproepen</item>
+    </string-array>
+</resources>

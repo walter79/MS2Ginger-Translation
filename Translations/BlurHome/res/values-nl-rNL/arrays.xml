@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+    <string-array name="apps_group_sort_options">
+        <item>Alfabetisch</item>
+        <item>Veelgebruikt</item>
+        <item>Onlangs gebruikt</item>
+    </string-array>
+    <string-array name="apps_group_name">
+        <item>AT&amp;amp;amp;T-toepassingen</item>
+        <item>Communiceren</item>
+        <item>Favoriet</item>
+        <item>Games</item>
+        <item>Muziek</item>
+        <item>Navigeren</item>
+        <item>Foto\'s en video\'s</item>
+        <item>Productiviteit</item>
+        <item>Sociaal</item>
+        <item>T-Mobile-toepassingen</item>
+        <item>Hulpprogramma\'s</item>
+        <item>Verizon-toepassingen</item>
+    </string-array>
+</resources>

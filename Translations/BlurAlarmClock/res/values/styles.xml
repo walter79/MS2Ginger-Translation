@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+    <style name="clock">
+        <item name="android:layout_gravity">center_horizontal</item>
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">fill_parent</item>
+    </style>
+    <style name="progressBarTxt">
+        <item name="android:textSize">18.0sp</item>
+        <item name="android:typeface">sans</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:gravity">center</item>
+        <item name="android:singleLine">true</item>
+    </style>
+    <style name="AlarmEvent">
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">fill_parent</item>
+        <item name="android:verticalSpacing">@dimen/AlarmEventVspacing</item>
+    </style>
+    <style name="BigTimeTxt">
+        <item name="android:textSize">@dimen/ReadScreenTxtBig</item>
+        <item name="android:typeface">sans</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:gravity">bottom|center</item>
+        <item name="android:singleLine">true</item>
+    </style>
+    <style name="MediumTimeTxt">
+        <item name="android:textSize">@dimen/ReadScreenTxtMedium</item>
+        <item name="android:typeface">sans</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:gravity">bottom|center</item>
+        <item name="android:singleLine">true</item>
+    </style>
+    <style name="BigTitleTxt">
+        <item name="android:textSize">48.0sp</item>
+        <item name="android:typeface">sans</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:gravity">bottom|center</item>
+        <item name="android:singleLine">true</item>
+    </style>
+    <style name="AmPmTxt">
+        <item name="android:textSize">40.0sp</item>
+        <item name="android:typeface">sans</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:gravity">bottom|left|center</item>
+        <item name="android:singleLine">true</item>
+    </style>
+    <style name="AlertPromptTxt">
+        <item name="android:textSize">18.0sp</item>
+        <item name="android:typeface">sans</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:gravity">bottom|left|center</item>
+        <item name="android:singleLine">true</item>
+    </style>
+    <style name="SlideButton">
+        <item name="android:textSize">@dimen/SliderTxt</item>
+        <item name="android:typeface">sans</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:background">@drawable/red_actionbar_slide_bg</item>
+    </style>
+    <style name="TimePicker">
+        <item name="android:gravity">center</item>
+        <item name="android:layout_gravity">center</item>
+        <item name="android:focusable">true</item>
+        <item name="android:focusableInTouchMode">true</item>
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_margin">3.0dip</item>
+    </style>
+</resources>

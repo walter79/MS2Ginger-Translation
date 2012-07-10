@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+    <bool name="tty_enabled">true</bool>
+    <bool name="ftr_32631_hide_callerid_setting">true</bool>
+    <bool name="hide_fdn">true</bool>
+</resources>

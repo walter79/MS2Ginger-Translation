@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+    <string name="app_name">选择程序</string>
+    <string name="separator">,</string>
+    <string name="downloaded_apps">已装应用程序</string>
+    <string name="social_network_photo_sharing">照片共享</string>
+    <string name="social_network_video_sharing">视频共享</string>
+    <string name="social_network_mixed_sharing">照片和视频共享</string>
+</resources>

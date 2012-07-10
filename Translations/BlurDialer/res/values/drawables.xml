@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+    <item type="drawable" name="APKTOOL_DUMMY_0099">false</item>
+    <item type="drawable" name="grayBg">#ff888888</item>
+    <item type="drawable" name="blackBg">#ff000000</item>
+    <item type="drawable" name="transparentBg">#ffefefef</item>
+</resources>

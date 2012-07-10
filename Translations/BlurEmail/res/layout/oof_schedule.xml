@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ScrollView android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:gravity="center_vertical" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:minHeight="?android:listPreferredItemHeight"
+      xmlns:android="http://schemas.android.com/apk/res/android">
+        <LinearLayout android:layout_width="fill_parent" style="@blur.res:style/Blur.TitleBar">
+            <TextView android:text="@string/schedule" style="@blur.res:style/Blur.TxtTitleBar" />
+        </LinearLayout>
+        <View android:background="@android:drawable/title_bar_shadow" android:layout_width="fill_parent" android:layout_height="6.0dip" />
+        <LinearLayout style="@style/OOFLinearLayout">
+            <RelativeLayout style="@style/OOFRelativeLayout">
+                <TextView android:id="@android:attr/label" android:text="@string/enable_schedule_title" style="@style/OOFListItemTitle" />
+                <TextView android:id="@android:attr/icon" android:text="@string/enable_schedule_summary" android:layout_below="@android:attr/label" android:layout_alignLeft="@android:attr/label" style="@style/OOFListItemSummary" />
+            </RelativeLayout>
+            <CheckBox android:id="@android:attr/name" style="@style/OOFCheckBox" />
+        </LinearLayout>
+        <View style="@style/OOFSeparator" />
+        <TextView android:id="@id/start_label" android:text="@string/start_label" style="@style/OOFListItem" />
+        <LinearLayout android:gravity="center" android:layout_gravity="center" android:orientation="horizontal" android:id="@id/start_date_time" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <TextView android:id="@id/start_date" android:background="@android:drawable/edit_text" android:focusable="true" android:layout_weight="0.35" style="@style/OOFEditText" />
+            <TextView android:id="@id/start_time" android:background="@android:drawable/edit_text" android:focusable="true" android:layout_weight="0.65" style="@style/OOFEditText" />
+        </LinearLayout>
+        <TextView android:id="@id/end_label" android:text="@string/end_label" style="@style/OOFListItem" />
+        <LinearLayout android:gravity="center" android:layout_gravity="center" android:orientation="horizontal" android:id="@id/end_date_time" android:focusable="true" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <TextView android:id="@id/end_date" android:background="@android:drawable/edit_text" android:focusable="true" android:layout_weight="0.35" style="@style/OOFEditText" />
+            <TextView android:id="@id/end_time" android:background="@android:drawable/edit_text" android:focusable="true" android:layout_weight="0.65" style="@style/OOFEditText" />
+        </LinearLayout>
+    </LinearLayout>
+</ScrollView>

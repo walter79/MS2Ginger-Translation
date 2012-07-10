@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include android:id="@id/list_header" android:layout_width="fill_parent" android:layout_height="wrap_content" layout="@layout/moto_titlebar_header" />
+    <TextView android:gravity="top" android:id="@id/moto_empty_group_indicator" android:paddingLeft="8.0px" android:paddingRight="8.0px" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" android:text="@string/moto_group_empty_info_msg" style="@blur.res:style/Blur.WidgetTxt.Message" />
+    <ListView android:orientation="vertical" android:id="@id/groups_list_view" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+</LinearLayout>

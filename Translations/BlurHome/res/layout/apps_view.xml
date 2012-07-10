@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<com.motorola.blur.apps.AppsView android:id="@id/apps_view" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <FrameLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <FrameLayout style="@style/AppsGridParent">
+            <GridView android:id="@id/apps_main_grid" style="@style/AppsMainGrid" />
+            <TextView android:id="@id/apps_empty_grid" style="@style/AppsEmptyGrid" />
+            <View android:id="@id/apps_grid_overlay" style="@style/AppsGridOverlay" />
+            <View android:id="@id/apps_no_grid" style="@style/AppsNoGrid" />
+        </FrameLayout>
+        <FrameLayout style="@style/AppsParent">
+            <LinearLayout android:id="@id/apps_normal_parent" style="@style/AppsTitleParent">
+                <TextView android:id="@id/apps_normal_group" android:nextFocusDown="@id/apps_main_grid" style="@style/AppsNormalGroup" />
+                <View style="@style/AppsDividerVert.Dark" />
+                <ImageView android:id="@id/apps_normal_market" android:nextFocusDown="@id/apps_main_grid" style="@style/AppsNormalMarket" />
+                <View android:id="@id/apps_normal_select_divider" style="@style/AppsDividerVert.Dark" />
+                <ImageView android:id="@id/apps_normal_select" android:nextFocusDown="@id/apps_main_grid" style="@style/AppsNormalSelect" />
+            </LinearLayout>
+            <LinearLayout android:id="@id/apps_edit_parent" style="@style/AppsEditParent">
+                <LinearLayout android:id="@id/apps_edit_firstrow" style="@style/AppsTitleParent">
+                    <ImageView android:id="@id/apps_edit_icon" style="@style/AppsEditIcon" />
+                    <View style="@style/AppsDividerVert.Dark" />
+                    <EditText android:id="@id/apps_edit_group" android:nextFocusDown="@id/apps_edit_home" style="@style/AppsEditGroup" />
+                    <ImageView android:id="@id/apps_edit_save" android:nextFocusDown="@id/apps_edit_home" style="@style/AppsEditSave" />
+                    <View style="@style/AppsDividerVert.Dark" />
+                    <ImageView android:id="@id/apps_edit_cancel" style="@style/AppsEditCancel" />
+                </LinearLayout>
+                <LinearLayout android:id="@id/apps_edit_remove_parent" style="@style/AppsTitleParent">
+                    <TextView android:id="@id/apps_edit_home" style="@style/AppsEditHome" />
+                    <View style="@style/AppsDividerVert.Dark" />
+                    <ImageView android:id="@id/apps_edit_remove" style="@style/AppsEditRemove" />
+                </LinearLayout>
+            </LinearLayout>
+        </FrameLayout>
+    </FrameLayout>
+    <RelativeLayout android:id="@id/apps_picker_root" style="@style/AppsPickerRoot">
+        <LinearLayout android:id="@id/apps_picker_parent" style="@style/AppsPickerParent">
+            <TextView android:id="@id/apps_picker_add_group" style="@style/AppsPickerAddGroup" />
+            <View android:id="@id/apps_picker_add_group_divider" style="@style/AppsDividerHorz.Bright" />
+            <GridView android:id="@id/apps_picker_grid" style="@style/AppsPickerGrid" />
+        </LinearLayout>
+        <ImageView android:id="@id/apps_picker_arrow" style="@style/AppsPickerArrow" />
+    </RelativeLayout>
+</com.motorola.blur.apps.AppsView>

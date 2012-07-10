@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+    <string name="app_name">Email Kezelő</string>
+    <string name="possible_imap_sent_folders">Elküldve, Üzenet elküldve, Tételek elküldve</string>
+    <string name="possible_imap_trash_folders">Lomtár, Törölt üzenetek, Törölt tételek</string>
+    <string name="gmail_imap_sent_folder">Elküldött üzenet</string>
+    <string name="gmail_imap_trash_folder">Lomtár</string>
+    <string name="truncated_mime_headers_body">-- Megcsonkított üzenet. --</string>
+    <string name="no_default_account">Nincs alapértelmezett email fiók</string>
+    <string name="email_send_failure">Hiba az email elküldésében</string>
+    <string name="new_single_email_ticker_text">%1$s %2$s</string>
+    <string name="new_multi_email_ticker_text">%1$d új üzenet</string>
+    <string name="new_single_email_title_text">%1$s (%2$s)</string>
+    <string name="new_single_email_details_text">%1$s</string>
+    <string name="new_multi_email_title_text">%1$s</string>
+    <string name="new_multi_email_details_text">%1$d új üzenet</string>
+    <string name="new_email_unknown_sender">Ismeretlen feladó</string>
+    <string name="email_error_send_ticker_text">%1$s elküldetlen üzenet</string>
+    <string name="email_error_sync_ticker_text">%1$s fiók hiba</string>
+    <string name="out_of_office_error_ticker_text">%1$s Házon kívül hiba</string>
+    <string name="email_error_sending_title_text">%1$s elküldetlen üzenet</string>
+    <string name="email_error_sync_title_text">%1$s</string>
+    <string name="email_error_cert_title_text">Érvénytelen szerver tanúsítvány</string>
+    <string name="email_error_auth_not_provisionable_title_text">%1$s szolgáltatásaktivációs hiba</string>
+    <string name="out_of_office_title_text">%1$s</string>
+    <string name="email_error_server_error_details_text">Szerver hiba</string>
+    <string name="email_error_over_quota_details_text">Adatkvóta-túllépés a szerveren</string>
+    <string name="email_error_config_details_text">Szerverfiók konfigurációs hiba</string>
+    <string name="email_error_auth_details_text">Hitelesítési hiba</string>
+    <string name="email_error_auth_send_details_text">Hitelesítési hiba elküldése</string>
+    <string name="email_error_auth_rcv_details_text">Hitelesítési hiba fogadása</string>
+    <string name="email_error_auth_not_provisionable_details_text">Kérjük, vegye fel a kapcsolatot a szerver adminisztrációval!</string>
+    <string name="email_error_cert_details_text">Érintse meg további információért!</string>
+    <string name="email_error_sending_details_text">Érintse meg az üzenet megtekintéséhez!</string>
+    <string name="email_error_connection_details_text">Kapcsolódási hiba</string>
+    <string name="out_of_office_error_details_text">Házon kívül hiba</string>
+    <string name="conversation_subject_strip_prefixes">re:|fw:|fwd:</string>
+    <string name="eas_device_admin_label">Szinkronizáció a munkahelyi Exchange szerverrel</string>
+    <string name="eas_device_admin_description">Szerverspecifikus titkosítási beállítások engedélyezése</string>
+</resources>

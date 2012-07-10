@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LinearLayout android:orientation="vertical" android:id="@id/picker_identity_root" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:id="@id/picker_body" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_weight="1.0">
+        <ProgressBar android:id="@id/picker_identity_progressbar" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerInParent="true" />
+        <com.motorola.contacts.widget.ListAccelerator android:id="@id/picker_identity_fastscroll" android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <ListView android:id="@android:id/list" android:layout_width="fill_parent" android:layout_height="fill_parent" style="@blur.res:style/Blur.List" />
+        </com.motorola.contacts.widget.ListAccelerator>
+        <LinearLayout android:gravity="center" android:orientation="horizontal" android:id="@id/picker_identity_list_empty" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_centerHorizontal="true" android:layout_centerVertical="true">
+            <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" style="@blur.res:style/Blur.PaneAreaTxt" />
+        </LinearLayout>
+    </RelativeLayout>
+    <com.motorola.android.widget.ActionBar android:id="@id/abwidget" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_alignParentBottom="true" />
+</LinearLayout>

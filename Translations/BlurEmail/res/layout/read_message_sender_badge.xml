@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<com.motorola.blur.util.widgets.IdentityBadge android:id="@id/read_message_sender_badge" android:focusable="true" android:layout_width="wrap_content" android:layout_height="fill_parent" style="@blur.res:style/Blur.Badge.Email"
+  xmlns:android="http://schemas.android.com/apk/res/android" />

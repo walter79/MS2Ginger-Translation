@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LinearLayout android:gravity="right|center" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <Spinner android:entries="@array/reminder_minutes_labels" android:id="@id/reminder_value" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_marginRight="2.0dip" android:layout_weight="1.0" android:contentDescription="@string/content_description_edit_event_reminders" style="\?android:attr/textAppearanceMedium" />
+    <ImageButton android:id="@id/reminder_remove" android:layout_width="wrap_content" android:layout_height="wrap_content" android:contentDescription="@string/content_description_edit_event_remove_reminder" style="@style/MinusButton" />
+</LinearLayout>

@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+    <array name="account_settings_check_frequency_entries">
+        <item>@string/account_setup_options_mail_check_frequency_never</item>
+        <item>@string/account_setup_options_mail_check_frequency_15min</item>
+        <item>@string/account_setup_options_mail_check_frequency_30min</item>
+        <item>@string/account_setup_options_mail_check_frequency_1hour</item>
+        <item>@string/account_setup_options_mail_check_frequency_4hour</item>
+    </array>
+    <string-array name="account_settings_check_frequency_values">
+        <item>-1</item>
+        <item>15</item>
+        <item>30</item>
+        <item>60</item>
+        <item>240</item>
+    </string-array>
+    <array name="pref_sync_amount_entries">
+        <item>@string/pref_sync_amount_default</item>
+        <item>@string/pref_sync_amount_1_day</item>
+        <item>@string/pref_sync_amount_3_days</item>
+        <item>@string/pref_sync_amount_7_days</item>
+        <item>@string/pref_sync_amount_14_days</item>
+        <item>@string/pref_sync_amount_30_days</item>
+        <item>@string/pref_sync_amount_unlimited</item>
+    </array>
+    <string-array name="pref_sync_amount_values">
+        <item>7</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>0</item>
+    </string-array>
+    <array name="account_settings_number_of_lines_entries">
+        <item>@string/two_lines</item>
+        <item>@string/three_lines</item>
+        <item>@string/four_lines</item>
+    </array>
+    <string-array name="account_settings_number_of_lines_values">
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+    </string-array>
+</resources>

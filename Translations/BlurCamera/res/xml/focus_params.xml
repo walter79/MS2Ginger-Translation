@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ROOT>
+    <DISENGAGE id="disengage" x="1.0" y="1.0" z="1.0" time="250" />
+    <ENGAGE id="engage" x="0.2" y="0.2" z="0.2" time="250" />
+    <MODE id="mode" value="2" />
+</ROOT>

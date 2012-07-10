@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LinearLayout android:id="@id/read_calendar_container" android:background="@color/attachments_area" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="horizontal" android:id="@id/read_calendar_inside_container" android:focusable="true" style="@style/EmailAttachmentListItem">
+        <ImageView android:id="@id/att_view_calendar_icon" android:src="@blur.res:drawable/ic_thb_mtg_invite" style="@style/EmailAttachmentListImg" />
+        <TextView android:id="@id/att_view_calendar_label" android:paddingLeft="@blur.res:dimen/listitem_hspacing" android:text="@string/view_meeting" android:layout_weight="1.0" style="@style/TxtViewAttachments" />
+    </LinearLayout>
+</LinearLayout>

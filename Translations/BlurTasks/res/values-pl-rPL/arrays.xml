@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+    <string-array name="preferences_alert_type_labels">
+        <item>Alarm</item>
+        <item>Powiadomienie na pasku statusu</item>
+        <item>Wyłączony</item>
+    </string-array>
+    <string-array name="reminder_minutes_labels">
+        <item>0 minut</item>
+        <item>5 minut</item>
+        <item>10 minut</item>
+        <item>15 minut</item>
+        <item>20 minut</item>
+        <item>25 minut</item>
+        <item>30 minut</item>
+        <item>45 minut</item>
+        <item>1 godzina</item>
+        <item>2 godziny</item>
+        <item>3 godziny</item>
+        <item>4 godziny</item>
+        <item>5 godzin</item>
+        <item>6 godzin</item>
+        <item>7 godzin</item>
+        <item>8 godzin</item>
+        <item>9 godzin</item>
+        <item>10 godzin</item>
+        <item>11 godzin</item>
+        <item>12 godzin</item>
+        <item>18 godzin</item>
+        <item>24 godziny</item>
+        <item>2 dni</item>
+        <item>3 dni</item>
+        <item>4 dni</item>
+        <item>1 tydzień</item>
+        <item>2 tygodnie</item>
+    </string-array>
+    <string-array name="preferences_default_reminder_labels">
+        <item>Brak</item>
+        <item>0 minut</item>
+        <item>5 minut</item>
+        <item>10 minut</item>
+        <item>15 minut</item>
+        <item>20 minut</item>
+        <item>25 minut</item>
+        <item>30 minut</item>
+        <item>45 minut</item>
+        <item>1 godzina</item>
+        <item>2 godziny</item>
+        <item>3 godziny</item>
+        <item>4 godziny</item>
+        <item>5 godzin</item>
+        <item>6 godzin</item>
+        <item>7 godzin</item>
+        <item>8 godzin</item>
+        <item>9 godzin</item>
+        <item>10 godzin</item>
+        <item>11 godzin</item>
+        <item>12 godzin</item>
+        <item>18 godzin</item>
+        <item>24 godziny</item>
+        <item>2 dni</item>
+        <item>3 dni</item>
+        <item>4 dni</item>
+        <item>1 tydzień</item>
+        <item>2 tygodnie</item>
+    </string-array>
+    <string-array name="preferences_default_reminder_values">
+        <item>-1</item>
+        <item>0</item>
+        <item>5</item>
+        <item>10</item>
+        <item>15</item>
+        <item>20</item>
+        <item>25</item>
+        <item>30</item>
+        <item>45</item>
+        <item>60</item>
+        <item>120</item>
+        <item>180</item>
+        <item>240</item>
+        <item>300</item>
+        <item>360</item>
+        <item>420</item>
+        <item>480</item>
+        <item>540</item>
+        <item>600</item>
+        <item>660</item>
+        <item>720</item>
+        <item>1080</item>
+        <item>1440</item>
+        <item>2880</item>
+        <item>4320</item>
+        <item>5760</item>
+        <item>10080</item>
+        <item>20160</item>
+    </string-array>
+    <string-array name="priority_value_labels">
+        <item>Wysoki</item>
+        <item>Normalny</item>
+        <item>Niski</item>
+    </string-array>
+    <string-array name="preferences_key_days_to_delete_tasks_labels">
+        <item>5 dni</item>
+        <item>10 dni</item>
+        <item>15 dni</item>
+        <item>20 dni</item>
+        <item>25 dni</item>
+        <item>30 dni</item>
+        <item>35 dni</item>
+        <item>40 dni</item>
+    </string-array>
+    <string-array name="preferences_key_days_to_delete_tasks_values">
+        <item>5</item>
+        <item>10</item>
+        <item>15</item>
+        <item>20</item>
+        <item>25</item>
+        <item>30</item>
+        <item>35</item>
+        <item>40</item>
+    </string-array>
+    <string-array name="completed_percentage_labels">
+        <item>W toku</item>
+        <item>10%</item>
+        <item>20%</item>
+        <item>30%</item>
+        <item>40%</item>
+        <item>50%</item>
+        <item>60%</item>
+        <item>70%</item>
+        <item>80%</item>
+        <item>90%</item>
+        <item>100%</item>
+    </string-array>
+    <string-array name="prefEntries_alerts_vibrateWhen">
+        <item>Zawsze</item>
+        <item>Tylko po wyciszeniu</item>
+        <item>Nigdy</item>
+    </string-array>
+</resources>

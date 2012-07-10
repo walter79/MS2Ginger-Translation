@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+    <string name="app_name">Stockage de l\'agenda</string>
+    <string name="gadget_title">Agenda</string>
+    <string name="no_title_label">(Aucun objet)</string>
+    <string name="calendar_default_name">Par défaut</string>
+    <string name="gadget_no_events">Aucun événement de l\'agenda à venir</string>
+    <string name="calendar_widget_label">Widget Agenda</string>
+    <string name="setting_description">Choisissez les agendas dont les événements doivent être affichés dans le widget</string>
+    <string name="no_calendars_selected">Sélectionner des agendas</string>
+    <string name="settings_all_calendars">Tous les agendas</string>
+    <string name="loading_agenda">Chargement de l\'agenda...</string>
+    <string name="no_meeting_this_week">Aucune réunion à venir</string>
+    <string name="no_meeting_today">Aucune réunion aujourd\'hui.</string>
+    <string name="no_calendars_synchronized">Ajouter un \n compte agenda</string>
+    <string name="provider_label">Agenda</string>
+    <string name="widget_description">Événements à venir</string>
+    <string name="account_type_name">Compte local de calendrier</string>
+    <string name="local_calendar_display_name">Calendrier par défaut</string>
+    <string name="scratch_calendar_display_name">Calendrier personnalisé</string>
+    <string name="settings_local_calendar">Agenda du téléphone</string>
+</resources>

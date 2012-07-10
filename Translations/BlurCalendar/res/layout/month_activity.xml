@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LinearLayout android:orientation="vertical" android:id="@id/month_container" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.android.calendar.FilterTitleBar android:id="@id/filter_title_bar" android:layout_width="fill_parent" android:layout_height="wrap_content" layout="@layout/interactive_title_bar" />
+    <View android:id="@id/title_divider" android:background="@android:drawable/divider_horizontal_dark" android:layout_width="fill_parent" android:layout_height="1.0dip" />
+    <RelativeLayout android:id="@id/title_container" android:layout_width="fill_parent" android:layout_height="?android:windowTitleSize" style="\?android:attr/windowTitleBackgroundStyle">
+        <TextView android:gravity="center" android:id="@id/title" android:background="@null" android:fadingEdge="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" style="\?android:attr/windowTitleStyle" />
+        <ProgressBar android:id="@id/progress_circular" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="6.0dip" android:max="10000" android:layout_alignParentRight="true" android:layout_centerVertical="true" style="\?android:attr/progressBarStyleSmall" />
+    </RelativeLayout>
+    <View android:background="@android:drawable/divider_horizontal_dark" android:layout_width="fill_parent" android:layout_height="1.0dip" />
+    <LinearLayout android:orientation="horizontal" android:id="@id/day_names" android:background="@color/daynames_background" android:layout_width="fill_parent" android:layout_height="23.0dip">
+        <TextView android:id="@id/day0" style="@style/MonthView_DayLabel" />
+        <TextView android:id="@id/day1" style="@style/MonthView_DayLabel" />
+        <TextView android:id="@id/day2" style="@style/MonthView_DayLabel" />
+        <TextView android:id="@id/day3" style="@style/MonthView_DayLabel" />
+        <TextView android:id="@id/day4" style="@style/MonthView_DayLabel" />
+        <TextView android:id="@id/day5" style="@style/MonthView_DayLabel" />
+        <TextView android:id="@id/day6" style="@style/MonthView_DayLabel" />
+    </LinearLayout>
+    <ViewSwitcher android:id="@id/switcher" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+</LinearLayout>

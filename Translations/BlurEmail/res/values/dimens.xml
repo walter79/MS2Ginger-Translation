@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+    <dimen name="toolbar_height">50.0dip</dimen>
+    <dimen name="toolbar_icon_height">32.0dip</dimen>
+    <dimen name="toolbar_icon_width">32.0dip</dimen>
+    <dimen name="toolbar_icon_padding">3.0dip</dimen>
+    <dimen name="sidebar_width">130.0dip</dimen>
+    <dimen name="sidebar_height">125.0dip</dimen>
+    <dimen name="compose_button_width">90.0dip</dimen>
+    <dimen name="compose_button_height">30.0dip</dimen>
+    <dimen name="text_button_height">40.0dip</dimen>
+    <dimen name="read_subject_size">18.0dip</dimen>
+    <dimen name="sender_photo_size">60.0dip</dimen>
+    <dimen name="button_text_size">18.0sp</dimen>
+    <dimen name="ic_list_thumb_size">45.0dip</dimen>
+    <dimen name="expander_size">31.0dip</dimen>
+    <dimen name="sender_bottom_padding">3.0dip</dimen>
+    <dimen name="unified_left_spacing">10.0dip</dimen>
+    <dimen name="buttonbar_height">50.0dip</dimen>
+    <dimen name="buttonbar_button_spacing">3.0dip</dimen>
+    <dimen name="button_margin">5.0dip</dimen>
+    <dimen name="sender_timestamp_text_size">14.0sp</dimen>
+    <dimen name="default_show_toolbar">1.0dip</dimen>
+    <dimen name="eml_left_margin">5.0dip</dimen>
+    <dimen name="eml_top_padding">5.0dip</dimen>
+    <dimen name="address_history_height">55.0dip</dimen>
+    <dimen name="two_line_preview_vspacing">3.0dip</dimen>
+    <dimen name="saved_to_drafts_hint_max_height">100.0dip</dimen>
+    <dimen name="undo_message_text_size">16.0sp</dimen>
+</resources>

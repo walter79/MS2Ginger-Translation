@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.motorola.blur.tasks.InteractiveTitleBar android:id="@id/task_list_titlebar" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+    <LinearLayout android:orientation="horizontal" android:id="@id/tag_container" android:background="#ff162634" android:paddingLeft="5.0dip" android:paddingTop="5.0dip" android:paddingRight="5.0dip" android:paddingBottom="5.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ic_control_title_tag" />
+        <TextView android:textSize="18.0sp" android:textColor="#ffffffff" android:layout_gravity="center_vertical" android:id="@id/tasks_list_tag_name" android:padding="1.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:lines="1" android:maxLength="30" />
+    </LinearLayout>
+    <ListView android:id="@android:id/list" android:drawSelectorOnTop="false" android:layout_weight="1.0" style="@blur.res:style/Blur.ScrollingList.Long" />
+    <TextView android:textSize="24.0dip" android:textStyle="bold" android:gravity="center" android:id="@android:id/empty" android:padding="6.0dip" android:layout_width="fill_parent" android:layout_height="fill_parent" android:text="@string/no_tasks" />
+</LinearLayout>

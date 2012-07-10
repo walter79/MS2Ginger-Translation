@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LinearLayout android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/title_divider" android:background="@com.motorola.android.widget:drawable/header_divider" android:layout_width="4.0dip" android:layout_height="@dimen/interactive_title_bar_height" />
+</LinearLayout>

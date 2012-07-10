@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+    <string name="app_name">Μηχανή ηλεκτρονικού ταχυδρομείου</string>
+    <string name="truncated_mime_headers_body">-- Έγινε περικοπή του μηνύματος. --</string>
+    <string name="no_default_account">Δεν υπάρχει προεπιλεγμένος λογαριασμός ηλεκτρονικού ταχυδρομείου</string>
+    <string name="email_send_failure">Αποτυχία αποστολής μηνύματος</string>
+    <string name="new_single_email_ticker_text">%1$s %2$s</string>
+    <string name="new_multi_email_ticker_text">%1$d νέα μηνύματα</string>
+    <string name="new_single_email_title_text">%1$s (%2$s)</string>
+    <string name="new_single_email_details_text">%1$s</string>
+    <string name="new_multi_email_title_text">%1$s</string>
+    <string name="new_multi_email_details_text">%1$d νέα μηνύματα</string>
+    <string name="new_email_unknown_sender">Άγνωστος αποστολέας</string>
+    <string name="email_error_send_ticker_text">%1$s μη απεσταλμένο μήνυμα</string>
+    <string name="email_error_sync_ticker_text">%1$s σφάλμα λογαριασμού</string>
+    <string name="out_of_office_error_ticker_text">%1$s σφάλμα εκτός γραφείου</string>
+    <string name="email_error_sending_title_text">%1$s μη απεσταλμένο μήνυμα</string>
+    <string name="email_error_sync_title_text">%1$s</string>
+    <string name="email_error_cert_title_text">Μη έγκυρο πιστοποιητικό διακομιστή</string>
+    <string name="email_error_auth_not_provisionable_title_text">%1$s σφάλμα προετοιμασίας</string>
+    <string name="out_of_office_title_text">%1$s</string>
+    <string name="email_error_server_error_details_text">Σφάλμα διακομιστή</string>
+    <string name="email_error_over_quota_details_text">Δεν υπάρχει χώρος στο διακομιστή</string>
+    <string name="email_error_config_details_text">Σφάλμα διαμόρφωσης λογαριασμού διακομιστή</string>
+    <string name="email_error_auth_details_text">Σφάλμα ελέγχου ταυτότητας</string>
+    <string name="email_error_auth_send_details_text">Σφάλμα ελέγχου ταυτότητας κατά την αποστολή</string>
+    <string name="email_error_auth_rcv_details_text">Σφάλμα ελέγχου ταυτότητας κατά τη λήψη</string>
+    <string name="email_error_auth_not_provisionable_details_text">Επικοινωνήστε με το διαχειριστή του διακομιστή</string>
+    <string name="email_error_cert_details_text">Πατήστε για περισσότερες πληροφορίες</string>
+    <string name="email_error_sending_details_text">Πατήστε για να προβάλετε το μήνυμα.</string>
+    <string name="email_error_connection_details_text">Σφάλμα σύνδεσης</string>
+    <string name="out_of_office_error_details_text">Σφάλμα εκτός γραφείου</string>
+    <string name="eas_device_admin_label">Εταιρικός συγχρονισμός</string>
+    <string name="eas_device_admin_description">Ενεργοποιεί τις πολιτικές ασφαλείας του διακομιστή</string>
+</resources>

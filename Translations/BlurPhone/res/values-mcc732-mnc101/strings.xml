@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+    <string name="unobtainable_number">Number is not in use</string>
+    <string name="no_route_destination">User not available</string>
+    <string name="op_determined_barring">User not available</string>
+    <string name="user_busy">Number busy</string>
+    <string name="no_user_responding">No response</string>
+    <string name="no_answer">User not responding</string>
+    <string name="call_rejected">User not available</string>
+    <string name="number_changed">Unavailable number</string>
+    <string name="destination_out">User not available</string>
+    <string name="facility_rejected">Call ended</string>
+    <string name="normal_unspecified">Call ended</string>
+    <string name="no_circuit_avail">Network busy</string>
+    <string name="network_out">Call ended</string>
+    <string name="temporary_failure">Call ended</string>
+    <string name="switching_congestion">Call ended</string>
+    <string name="access_discarded">Call ended</string>
+    <string name="channel_not_avail">Network busy</string>
+    <string name="resources_unavailable">Call ended</string>
+    <string name="incoming_barred_cug">Call ended</string>
+    <string name="bearer_not_authorized">Call ended</string>
+    <string name="bearer_not_available">Call ended</string>
+    <string name="service_not_available">Call ended</string>
+    <string name="bearer_not_implemented">Call ended</string>
+    <string name="requested_not_implemented">Call ended</string>
+    <string name="user_not_cug">Call ended</string>
+    <string name="incompatible_destination">Call ended</string>
+    <string name="incorrect_message">Call ended</string>
+    <string name="protocol_error">Call ended</string>
+    <string name="interworking">Call ended</string>
+</resources>

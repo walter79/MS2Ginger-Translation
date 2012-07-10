@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LinearLayout android:layout_gravity="center_horizontal" android:orientation="horizontal" android:paddingBottom="2.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="0.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:gravity="center_vertical" android:orientation="vertical" android:id="@id/contactAddButton" android:background="@drawable/btn_dial" android:layout_width="90.0dip" android:layout_height="60.0dip">
+        <ImageView android:gravity="center" android:id="@id/contactAdd" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="20.0dip" android:layout_marginTop="10.0dip" android:layout_marginBottom="10.0dip" android:src="@drawable/ic_control_contact_add" />
+    </LinearLayout>
+    <LinearLayout android:gravity="center_vertical" android:orientation="vertical" android:id="@id/dial" android:background="@drawable/btn_dial" android:layout_width="140.0dip" android:layout_height="60.0dip">
+        <ImageView android:gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="40.0dip" android:layout_marginTop="10.0dip" android:layout_marginBottom="10.0dip" android:src="@drawable/ic_dial_action_call" />
+    </LinearLayout>
+    <LinearLayout android:gravity="center_vertical" android:orientation="vertical" android:id="@id/voicedial" android:background="@drawable/btn_dial" android:layout_width="90.0dip" android:layout_height="60.0dip">
+        <ImageView android:gravity="center" android:id="@id/vm" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="15.0dip" android:layout_marginTop="10.0dip" android:layout_marginBottom="10.0dip" android:src="@drawable/ic_control_contact_add" />
+    </LinearLayout>
+</LinearLayout>

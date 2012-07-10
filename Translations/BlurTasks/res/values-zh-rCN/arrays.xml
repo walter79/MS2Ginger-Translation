@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+    <string-array name="preferences_alert_type_labels">
+        <item>提示</item>
+        <item>状态栏通知</item>
+        <item>关闭</item>
+    </string-array>
+    <string-array name="reminder_minutes_labels">
+        <item>0 分钟</item>
+        <item>5 分钟</item>
+        <item>10 分钟</item>
+        <item>15 分钟</item>
+        <item>20 分钟</item>
+        <item>25 分钟</item>
+        <item>30 分钟</item>
+        <item>45 分钟</item>
+        <item>1 小时</item>
+        <item>2 小时</item>
+        <item>3 小时</item>
+        <item>4 小时</item>
+        <item>5 小时</item>
+        <item>6 小时</item>
+        <item>7 小时</item>
+        <item>8 小时</item>
+        <item>9 小时</item>
+        <item>10 小时</item>
+        <item>11 小时</item>
+        <item>12 小时</item>
+        <item>18 小时</item>
+        <item>24 小时</item>
+        <item>2 天</item>
+        <item>3 天</item>
+        <item>4 天</item>
+        <item>1 周</item>
+        <item>2 周</item>
+    </string-array>
+    <string-array name="preferences_default_reminder_labels">
+        <item>无</item>
+        <item>0 分钟</item>
+        <item>5 分钟</item>
+        <item>10 分钟</item>
+        <item>15 分钟</item>
+        <item>20 分钟</item>
+        <item>25 分钟</item>
+        <item>30 分钟</item>
+        <item>45 分钟</item>
+        <item>1 小时</item>
+        <item>2 小时</item>
+        <item>3 小时</item>
+        <item>4 小时</item>
+        <item>5 小时</item>
+        <item>6 小时</item>
+        <item>7 小时</item>
+        <item>8 小时</item>
+        <item>9 小时</item>
+        <item>10 小时</item>
+        <item>11 小时</item>
+        <item>12 小时</item>
+        <item>18 小时</item>
+        <item>24 小时</item>
+        <item>2 天</item>
+        <item>3 天</item>
+        <item>4 天</item>
+        <item>1 周</item>
+        <item>2 周</item>
+    </string-array>
+    <string-array name="preferences_default_reminder_values">
+        <item>-1</item>
+        <item>0</item>
+        <item>5</item>
+        <item>10</item>
+        <item>15</item>
+        <item>20</item>
+        <item>25</item>
+        <item>30</item>
+        <item>45</item>
+        <item>60</item>
+        <item>120</item>
+        <item>180</item>
+        <item>240</item>
+        <item>300</item>
+        <item>360</item>
+        <item>420</item>
+        <item>480</item>
+        <item>540</item>
+        <item>600</item>
+        <item>660</item>
+        <item>720</item>
+        <item>1080</item>
+        <item>1440</item>
+        <item>2880</item>
+        <item>4320</item>
+        <item>5760</item>
+        <item>10080</item>
+        <item>20160</item>
+    </string-array>
+    <string-array name="priority_value_labels">
+        <item>高</item>
+        <item>普通</item>
+        <item>低</item>
+    </string-array>
+    <string-array name="preferences_key_days_to_delete_tasks_labels">
+        <item>5 天</item>
+        <item>10 天</item>
+        <item>15 天</item>
+        <item>20 天</item>
+        <item>25 天</item>
+        <item>30 天</item>
+        <item>35 天</item>
+        <item>40 天</item>
+    </string-array>
+    <string-array name="preferences_key_days_to_delete_tasks_values">
+        <item>5</item>
+        <item>10</item>
+        <item>15</item>
+        <item>20</item>
+        <item>25</item>
+        <item>30</item>
+        <item>35</item>
+        <item>40</item>
+    </string-array>
+    <string-array name="completed_percentage_labels">
+        <item>进行中</item>
+        <item>10%</item>
+        <item>20%</item>
+        <item>30%</item>
+        <item>40%</item>
+        <item>50%</item>
+        <item>60%</item>
+        <item>70%</item>
+        <item>80%</item>
+        <item>90%</item>
+        <item>100%</item>
+    </string-array>
+    <string-array name="prefEntries_alerts_vibrateWhen">
+        <item>始终</item>
+        <item>仅在静音时</item>
+        <item>一律不</item>
+    </string-array>
+</resources>

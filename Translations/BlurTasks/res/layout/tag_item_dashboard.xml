@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LinearLayout android:layout_gravity="center_vertical" android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/icon" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ic_control_tag" />
+    <TextView android:gravity="center_vertical" android:id="@id/name" android:paddingLeft="5.0dip" android:layout_width="wrap_content" android:layout_height="fill_parent" android:singleLine="true" style="@style/TextAppearance.TagDialog_item" />
+</LinearLayout>

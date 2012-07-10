@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+    <dimen name="view_event_padding">4.0dip</dimen>
+    <dimen name="view_event_attendees_padding">12.0dip</dimen>
+    <dimen name="interactive_title_bar_height">60.0dip</dimen>
+    <dimen name="interactive_title_bar_button_width">48.0dip</dimen>
+    <dimen name="arrow_icon_top_margin">60.0dip</dimen>
+    <dimen name="arrow_icon_right_margin">52.0dip</dimen>
+    <dimen name="arrow_icon_bottom_margin">-8.5dip</dimen>
+    <dimen name="arrow_icon_right_margin_short">2.0dip</dimen>
+    <dimen name="dialog_selection_frame_top_padding">20.0dip</dimen>
+    <dimen name="dialog_selection_frame_bottom_padding">20.0dip</dimen>
+</resources>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+    <dimen name="workspace_cell_width">159.0px</dimen>
+    <dimen name="workspace_cell_height">110.0px</dimen>
+    <dimen name="workspace_padding">83.0px</dimen>
+    <dimen name="profile_switcher_thumbnail_width">140.0px</dimen>
+    <dimen name="profile_switcher_thumbnail_height">251.0px</dimen>
+    <dimen name="profile_switcher_row_width">263.0px</dimen>
+    <dimen name="workspace_height">295.0dip</dimen>
+</resources>

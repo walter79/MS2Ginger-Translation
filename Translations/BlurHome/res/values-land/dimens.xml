@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+    <dimen name="workspace_cell_width">106.0dip</dimen>
+    <dimen name="workspace_cell_height">73.0dip</dimen>
+    <dimen name="workspace_padding">52.0dip</dimen>
+    <dimen name="appicon_drawablePadding">3.0dip</dimen>
+    <dimen name="appicon_paddingTop">2.0dip</dimen>
+    <dimen name="appicon_marginLeft">10.0dip</dimen>
+    <dimen name="appicon_marginRight">10.0dip</dimen>
+    <dimen name="appicon_marginTop">0.0dip</dimen>
+    <dimen name="appicon_marginBottom">0.0dip</dimen>
+    <dimen name="panel_preview_label_size">21.0sp</dimen>
+    <dimen name="panel_preview_normal_border_thickness">1.0dip</dimen>
+    <dimen name="panel_preview_selected_border_thickness">2.0dip</dimen>
+    <dimen name="panel_preview_horiz_spacing">10.0dip</dimen>
+    <dimen name="panel_preview_vert_spacing">10.0dip</dimen>
+    <dimen name="panel_preview_padding_top">20.0dip</dimen>
+    <dimen name="label_panel_preview_padding_top">251.0dip</dimen>
+    <dimen name="panel_preview_width">120.0dip</dimen>
+    <dimen name="panel_preview_height">67.0dip</dimen>
+</resources>

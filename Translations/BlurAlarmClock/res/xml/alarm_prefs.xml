@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<PreferenceScreen android:title="@string/set_alarm"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <CheckBoxPreference android:persistent="false" android:title="@string/enable" android:key="enable" />
+    <EditTextPreference android:persistent="false" android:title="@string/alarm_name" android:key="label" android:dialogTitle="@string/alarm_name" />
+    <Preference android:persistent="false" android:title="@string/time" android:key="time" />
+    <com.motorola.blur.alarmclock.SoundPreference android:persistent="false" android:title="@string/alert" android:key="alarm" />
+    <CheckBoxPreference android:persistent="false" android:title="@string/alarm_vibrate" android:key="vibrate" />
+    <com.motorola.blur.alarmclock.RepeatPreference android:persistent="false" android:title="@string/alarm_repeat" android:key="setRepeat" />
+    <CheckBoxPreference android:persistent="false" android:title="@string/alarm_volume" android:key="volume" android:summary="@string/pref_volume_summary" />
+    <CheckBoxPreference android:persistent="false" android:title="@string/pref_backup_title" android:key="backup" android:summary="@string/backup_alarm_summary" />
+</PreferenceScreen>

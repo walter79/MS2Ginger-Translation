@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LinearLayout android:id="@id/interactive_title_bar" android:background="@com.motorola.android.widget:drawable/header_bkg" android:layout_width="fill_parent" android:layout_height="55.0dip" android:stretchColumns="0" style="@com.motorola.android.widget:style/Interactive_Titlebar"
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:moto.res="http://schemas.android.com/apk/res/com.motorola.android.widget">
+    <TextView android:textAppearance="?android:textAppearanceMediumInverse" android:gravity="left" android:layout_gravity="center_vertical" android:id="@id/interactive_title_bar_label" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip" android:singleLine="true" android:layout_weight="1.0" />
+    <ImageView android:layout_gravity="center_vertical" android:background="@com.motorola.android.widget:drawable/header_divider" android:layout_width="wrap_content" android:layout_height="fill_parent" />
+    <ImageButton android:layout_gravity="center_vertical" android:id="@id/list_header_groups" android:background="@com.motorola.android.widget:drawable/int_titlebar_btn_bkg" android:layout_width="48.0dip" android:layout_height="fill_parent" android:src="@drawable/ic_control_title_groups" />
+    <ImageView android:layout_gravity="center_vertical" android:background="@com.motorola.android.widget:drawable/header_divider" android:layout_width="wrap_content" android:layout_height="fill_parent" />
+    <ImageButton android:layout_gravity="center_vertical" android:id="@id/list_header_search" android:background="@com.motorola.android.widget:drawable/int_titlebar_btn_bkg" android:layout_width="48.0dip" android:layout_height="fill_parent" android:src="@drawable/ic_control_title_search" />
+    <ImageView android:layout_gravity="center_vertical" android:background="@com.motorola.android.widget:drawable/header_divider" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_centerVertical="true" />
+    <ImageButton android:layout_gravity="center_vertical" android:id="@id/list_header_add_contact" android:background="@com.motorola.android.widget:drawable/int_titlebar_btn_bkg" android:layout_width="48.0dip" android:layout_height="fill_parent" android:src="@blur.res:drawable/ic_control_add" />
+</LinearLayout>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<PreferenceScreen android:title="@string/settings"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <CheckBoxPreference android:title="@string/alarm_in_silent_mode_title" android:key="alarm_in_silent_mode" android:summary="@string/alarm_in_silent_mode_summary" />
+    <VolumePreference android:persistent="false" android:title="@string/alarm_volume_title" android:key="alarm_setting_volume" android:summary="@string/alarm_volume_summary" android:dialogTitle="@string/alarm_volume_title" android:streamType="alarm" />
+    <ListPreference android:entries="@array/snooze_duration_entries" android:title="@string/snooze_duration_title" android:key="snooze_duration" android:defaultValue="5" android:dialogTitle="@string/snooze_duration_title" android:entryValues="@array/snooze_duration_values" />
+    <ListPreference android:entries="@array/volume_button_setting_entries" android:title="@string/volume_button_setting_title" android:key="volume_button_setting" android:summary="@string/volume_button_setting_summary" android:defaultValue="2" android:entryValues="@array/volume_button_setting_values" />
+</PreferenceScreen>

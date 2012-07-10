@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LinearLayout style="@blur.res:style/Blur.TitleBar"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:id="@id/read_message_account" android:paddingLeft="5.0dip" android:layout_weight="1.0" style="@blur.res:style/Blur.TxtTitleBar" />
+    <TextView android:gravity="right|center" android:id="@id/read_message_num_recipients" android:paddingLeft="5.0dip" android:layout_weight="0.0" style="@blur.res:style/Blur.TxtTitleBar" />
+</LinearLayout>

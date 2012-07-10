@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+    <plurals name="gadget_more_events">
+        <item quantity="other">Nog %1$d afspraken</item>
+        <item quantity="one">Nog 1 gebeurtenis</item>
+    </plurals>
+</resources>

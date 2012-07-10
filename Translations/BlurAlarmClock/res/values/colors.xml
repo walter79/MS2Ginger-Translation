@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+    <color name="ampm_off">#ffe0e0e0</color>
+    <color name="ampm_on">#ff000000</color>
+    <color name="white">#ffffffff</color>
+    <color name="red">#ffee0000</color>
+    <color name="ltgrey">#ffe0e0e0</color>
+    <color name="dkgrey">#ff444444</color>
+</resources>

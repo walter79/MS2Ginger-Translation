@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+    <string-array name="wallpapers">
+        <item>wallpaper_fast</item>
+        <item>wallpaper_fast_small</item>
+        <item>wallpaper_flower</item>
+        <item>wallpaper_flower_small</item>
+        <item>wallpaper_forest</item>
+        <item>wallpaper_forest_small</item>
+        <item>wallpaper_grass</item>
+        <item>wallpaper_grass_small</item>
+        <item>wallpaper_lava</item>
+        <item>wallpaper_lava_small</item>
+        <item>wallpaper_liquid</item>
+        <item>wallpaper_liquid_small</item>
+        <item>wallpaper_neon</item>
+        <item>wallpaper_neon_small</item>
+        <item>wallpaper_optic</item>
+        <item>wallpaper_optic_small</item>
+        <item>wallpaper_patio</item>
+        <item>wallpaper_patio_small</item>
+        <item>wallpaper_raw</item>
+        <item>wallpaper_raw_small</item>
+    </string-array>
+</resources>

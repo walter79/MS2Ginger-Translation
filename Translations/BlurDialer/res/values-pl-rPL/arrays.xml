@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+    <string-array name="recent_call_types">
+        <item>Wszystkie połączenia</item>
+        <item>Połączenia nieodebrane</item>
+        <item>Połączenia odebrane</item>
+        <item>Połączenia wychodzące</item>
+    </string-array>
+    <string-array name="restriction_recent_call_types">
+        <item>Wszystkie połączenia</item>
+        <item>Połączenia nieodebrane</item>
+        <item>Połączenia odebrane</item>
+        <item>Połączenia wychodzące</item>
+        <item>Zablokowane połączenia</item>
+    </string-array>
+</resources>

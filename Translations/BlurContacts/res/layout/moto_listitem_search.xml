@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:minHeight="?android:listPreferredItemHeight" style="@blur.res:style/Blur.ListItem"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ProgressBar android:id="@id/listitem_search_progress" android:visibility="gone" android:layout_width="@blur.res:dimen/listitem_contact_photo_size" android:layout_height="@blur.res:dimen/listitem_contact_photo_size" android:layout_marginRight="@blur.res:dimen/listitem_photo_hspacing" />
+    <ImageView android:layout_gravity="center_horizontal" android:id="@id/listitem_search_photo" android:layout_width="@blur.res:dimen/listitem_contact_photo_size" android:layout_height="@blur.res:dimen/listitem_contact_photo_size" android:layout_marginRight="@blur.res:dimen/listitem_photo_hspacing" android:layout_alignParentLeft="true" />
+    <android.widget.QuickContactBadge android:layout_gravity="center_horizontal" android:id="@id/listitem_search_quickcontact" android:visibility="gone" android:layout_marginRight="@blur.res:dimen/listitem_photo_hspacing" android:layout_alignParentLeft="true" style="\?android:attr/quickContactBadgeStyleWindowMedium" />
+    <LinearLayout android:layout_gravity="center_vertical" android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_weight="1.0">
+        <TextView android:id="@id/listitem_search_name" android:layout_marginRight="3.0dip" style="@blur.res:style/Blur.TxtListItemA" />
+        <TextView android:ellipsize="marquee" android:id="@id/listitem_search_body" android:layout_height="fill_parent" android:singleLine="true" style="@blur.res:style/Blur.TxtListItemB" />
+    </LinearLayout>
+    <ImageView android:id="@id/listitem_search_icon" android:layout_width="@blur.res:dimen/listitem_contact_photo_size" android:layout_height="@blur.res:dimen/listitem_contact_photo_size" android:layout_marginLeft="@blur.res:dimen/listitem_photo_hspacing" style="@blur.res:style/Blur.IconSource" />
+</LinearLayout>

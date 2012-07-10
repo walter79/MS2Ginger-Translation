@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+    <string name="app_name">Messaggi social network</string>
+    <string name="new_single_snmessage_ticker_text">%1$s %2$s</string>
+    <string name="new_multi_snmessage_ticker_text">%1$d nuovi messaggi</string>
+    <string name="new_single_snmessage_title_text">%1$s (%2$s)</string>
+    <string name="new_single_snmessage_details_text">%1$s</string>
+    <string name="new_multi_snmessage_title_text">%1$s</string>
+    <string name="new_multi_snmessage_details_text">%1$d nuovi messaggi</string>
+    <string name="snmessage_sync_error_ticker_text">Errore account %1$s</string>
+    <string name="snmessage_send_error_ticker_text">Messaggio %1$s non inviato</string>
+    <string name="snmessage_sync_error_title_text">%1$s</string>
+    <string name="snmessage_send_error_title_text">Messaggio %1$s non inviato</string>
+    <string name="snmessage_sync_auth_error_details_text">Errore di autenticazione</string>
+    <string name="snmessage_sync_connection_error_details_text">Errore di connessione</string>
+    <string name="snmessage_send_error_details_text">Tocca per visualizzare il messaggio</string>
+</resources>

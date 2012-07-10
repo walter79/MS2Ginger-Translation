@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+    <string name="app_label">Despertador</string>
+    <string name="add_alarm">Adicionar alarme</string>
+    <string name="delete_alarm">Excluir alarme</string>
+    <string name="delete_alarm_confirm">Este alarme será excluído.</string>
+    <string name="show_clock">Mostrar relógio</string>
+    <string name="hide_clock">Ocultar relógio</string>
+    <string name="label">Marcador</string>
+    <string name="default_label">Alarme</string>
+    <string name="set_alarm">Definir alarme</string>
+    <string name="alarm_vibrate">Vibrar</string>
+    <string name="alarm_repeat">Repetir</string>
+    <string name="alert">Toque</string>
+    <string name="time">Horário</string>
+    <string name="alarm_alert_alert_silenced">Alarme silenciado após %1$d minutos</string>
+    <string name="alarm_alert_snooze_set">Em espera por %1$d minutos.</string>
+    <string name="day">1 dia</string>
+    <string name="days">%1$s dias</string>
+    <string name="hour">1 hora</string>
+    <string name="hours">%1$s horas</string>
+    <string name="minute">1 minuto</string>
+    <string name="minutes">%1$s minutos</string>
+    <string name="every_day">todos os dias</string>
+    <string name="never">Nunca</string>
+    <string name="day_concat">,\u0020</string>
+    <string name="clock_instructions">Selecione um relógio para exibir.</string>
+    <string name="error">Alarme não definido</string>
+    <string name="dberror">Desculpe, não foi possível definir o alarme.</string>
+    <string name="analog_gadget">Relógio analógico</string>
+    <string name="settings">Configurações</string>
+    <string name="alarm_in_silent_mode_title">Alarme no modo silencioso</string>
+    <string name="alarm_in_silent_mode_summary">Tocar o alarme mesmo quando o telefone estiver no modo silencioso</string>
+    <string name="alarm_alert_snooze_text">Colocar em modo de espera</string>
+</resources>

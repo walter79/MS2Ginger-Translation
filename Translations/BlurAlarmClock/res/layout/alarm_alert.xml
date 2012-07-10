@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LinearLayout android:id="@id/root" style="@style/AlarmEvent"
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:moto.res="http://schemas.android.com/apk/res/com.motorola.android.widget"
+  xmlns:slide_button="http://schemas.android.com/apk/res/com.motorola.blur.alarmclock">
+    <FrameLayout android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <SurfaceView android:id="@id/videoRegion" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+        <LinearLayout android:orientation="vertical" android:id="@id/animateClockRegion" android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <LinearLayout android:gravity="center" android:orientation="vertical" android:id="@id/snooze" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_weight="6.0">
+                <View android:layout_width="fill_parent" android:layout_height="1.0dip" android:layout_weight="1.0" />
+                <TextView android:id="@id/alarmAlertName" android:layout_width="fill_parent" android:layout_height="wrap_content" android:verticalSpacing="@dimen/AlarmEventVspacing" android:maxLines="2" android:layout_weight="1.0" style="@style/BigTitleTxt" />
+                <com.motorola.blur.alarmclock.DigitalClock android:gravity="bottom|center" android:orientation="horizontal" android:id="@id/digitalClock" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_weight="1.0"
+                  xmlns:android="http://schemas.android.com/apk/res/android">
+                    <TextView android:id="@id/timeDisplay" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/BigTimeTxt" />
+                    <TextView android:id="@id/am_pm" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/AmPmTxt" />
+                </com.motorola.blur.alarmclock.DigitalClock>
+                <View android:layout_width="fill_parent" android:layout_height="1.0dip" android:layout_weight="1.0" />
+                <TextView android:gravity="bottom|center" android:id="@id/snoozePrompt" android:layout_width="wrap_content" android:layout_height="wrap_content" android:verticalSpacing="@dimen/AlarmEventVspacing" android:text="@string/alarm_alert_snooze_text" android:layout_weight="1.0" style="@style/AlertPromptTxt" />
+                <View android:layout_width="fill_parent" android:layout_height="1.0dip" android:layout_weight="1.0" />
+            </LinearLayout>
+            <com.motorola.android.widget.SlideButton android:id="@id/dismissSlider" android:layout_width="fill_parent" android:layout_height="wrap_content" moto.res:buttonImage="@drawable/btn_action_red_slide_normal" moto.res:animateIcon="@drawable/slider_anim_arrow" moto.res:buttonText="@string/button_dismiss" style="@style/SlideButton" />
+        </LinearLayout>
+    </FrameLayout>
+</LinearLayout>

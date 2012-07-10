@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+    <color name="textColorIconOverlay">#ffffffff</color>
+    <color name="textColorIconOverlayShadow">#ff000000</color>
+    <color name="sect_secondary">#44ffffff</color>
+    <color name="quickcontact_disambig">#fff2f2f2</color>
+    <color name="quickcontact_disambig_divider">#ffafafaf</color>
+    <color name="edit_divider">#ff666666</color>
+    <color name="background_secondary">#ff202020</color>
+    <color name="pinned_header_background">#ff202020</color>
+    <color name="pinned_header_foreground">#ffbfbfbf</color>
+    <color name="pinned_header_textcolor">#ccffffff</color>
+    <color name="translucent_search_background">#cc000000</color>
+    <color name="buttonStyleLinearLayout_background">#64dddddd</color>
+    <color name="iceListDividerColor">#ffefefef</color>
+</resources>

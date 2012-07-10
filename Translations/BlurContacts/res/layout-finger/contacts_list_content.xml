@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LinearLayout android:orientation="vertical" android:id="@id/pinned_header_list_layout" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.android.contacts.ui.widget.InteractiveTitleBarView android:id="@id/contacts_list_interactive_title_bar" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" style="@com.motorola.android.widget:style/Interactive_Titlebar" />
+    <com.motorola.contacts.widget.ListAccelerator android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <ListView android:id="@android:id/list" android:layout_width="fill_parent" android:layout_height="fill_parent" class="com.android.contacts.PinnedHeaderListView" />
+    </com.motorola.contacts.widget.ListAccelerator>
+    <include layout="@layout/contacts_list_empty" />
+</LinearLayout>

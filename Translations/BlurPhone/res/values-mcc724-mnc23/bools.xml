@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+    <bool name="ftr_16919_quicksms">false</bool>
+    <bool name="display_networks_without_number">true</bool>
+    <bool name="ftr_32180_clearcode">true</bool>
+</resources>

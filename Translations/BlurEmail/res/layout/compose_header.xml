@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TableLayout android:id="@id/compose_header_tb" android:background="@blur.res:color/msg_background" android:layout_width="fill_parent" android:layout_height="wrap_content" android:stretchColumns="1" android:shrinkColumns="1" style="@blur.res:style/Blur.ComposeAddressingWidget">
+        <TableRow android:id="@id/to_container" android:paddingTop="6.0dip" android:paddingBottom="3.0dip">
+            <TextView android:id="@id/to_label" android:text="@blur.res:string/to_label" style="@blur.res:style/Blur.ComposeHeader.TxtLabel" />
+            <com.motorola.blur.email.view.address.compose.EmailComposeAddressingWidget android:id="@id/to_field" style="@blur.res:style/Blur.ComposeHeader.AwRecipient" />
+        </TableRow>
+        <TableRow android:id="@id/cc_container" android:paddingTop="3.0dip" android:paddingBottom="3.0dip" android:visibility="gone">
+            <TextView android:id="@id/cc_label" android:text="@string/cc_label" style="@blur.res:style/Blur.ComposeHeader.TxtLabel" />
+            <com.motorola.blur.email.view.address.compose.EmailComposeAddressingWidget android:id="@id/cc_field" android:visibility="gone" style="@blur.res:style/Blur.ComposeHeader.AwRecipient" />
+        </TableRow>
+        <TableRow android:id="@id/bcc_container" android:paddingTop="3.0dip" android:paddingBottom="3.0dip" android:visibility="gone">
+            <TextView android:id="@id/bcc_label" android:text="@string/bcc_label" style="@blur.res:style/Blur.ComposeHeader.TxtLabel" />
+            <com.motorola.blur.email.view.address.compose.EmailComposeAddressingWidget android:id="@id/bcc_field" android:visibility="gone" style="@blur.res:style/Blur.ComposeHeader.AwRecipient" />
+        </TableRow>
+        <TableRow android:id="@id/sub_container" android:paddingTop="3.0dip">
+            <TextView android:id="@id/sub_label" android:text="@string/sub_label" style="@blur.res:style/Blur.ComposeHeader.TxtLabel" />
+            <com.motorola.blur.messaging.common.view.scroll.MessagingEditText android:id="@id/subject_field" style="@blur.res:style/Blur.ComposeHeader.EdSubject" />
+        </TableRow>
+    </TableLayout>
+    <LinearLayout android:orientation="vertical" android:id="@id/smart_forwarding_banner" android:background="@blur.res:color/msg_background" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <include layout="@layout/att_item" />
+    </LinearLayout>
+    <LinearLayout android:orientation="vertical" android:id="@id/compose_screen_attachments_container" android:background="@blur.res:color/msg_background" android:paddingTop="4.0dip" android:paddingBottom="4.0dip" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+</LinearLayout>

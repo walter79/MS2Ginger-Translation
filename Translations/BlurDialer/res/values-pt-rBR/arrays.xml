@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+    <string-array name="recent_call_types">
+        <item>Todas as ligações</item>
+        <item>Ligações perdidas</item>
+        <item>Ligações recebidas</item>
+        <item>Ligações feitas</item>
+    </string-array>
+    <string-array name="restriction_recent_call_types">
+        <item>Todas as ligações</item>
+        <item>Ligações perdidas</item>
+        <item>Ligações recebidas</item>
+        <item>Ligações feitas</item>
+        <item>Ligações bloqueadas</item>
+    </string-array>
+</resources>

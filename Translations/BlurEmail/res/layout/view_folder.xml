@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LinearLayout android:orientation="vertical" android:id="@id/screen" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:background="@blur.res:color/msg_background" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0">
+        <com.motorola.blur.email.mailbox.MailListView android:id="@android:id/list" android:layout_width="fill_parent" android:layout_height="fill_parent" android:cacheColorHint="@blur.res:color/msg_background" android:divider="@android:drawable/divider_horizontal_bright" android:layout_alignParentTop="true" style="@blur.res:style/Blur.ScrollingList.Long" />
+        <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_alignParentTop="true">
+            <include android:id="@id/list_header" layout="@blur.res:layout/titlebar_list_mode_header" />
+            <ViewStub android:id="@id/view_type_title_stub" android:layout="@layout/view_type_title" android:inflatedId="@id/view_type_title" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+            <View android:id="@id/title_shadow" android:background="@android:drawable/title_bar_shadow" android:layout_width="fill_parent" android:layout_height="6.0dip" />
+        </LinearLayout>
+        <TextView android:textColor="@color/black" android:id="@id/empty" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/empty_folder" android:layout_centerVertical="true" style="@blur.res:style/Blur.PaneAreaTxt" />
+    </RelativeLayout>
+    <ViewStub android:id="@id/undo_bar_stub" android:layout="@layout/undo_button_bar" android:inflatedId="@id/undo_bar" android:layout_width="fill_parent" android:layout_height="48.0dip" android:layout_alignParentBottom="true" />
+    <ViewStub android:id="@id/button_bar_stub" android:nextFocusUp="@android:id/list" android:layout="@blur.res:layout/multi_select_list_button_bar" android:inflatedId="@id/button_bar" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_alignParentBottom="true" />
+</LinearLayout>

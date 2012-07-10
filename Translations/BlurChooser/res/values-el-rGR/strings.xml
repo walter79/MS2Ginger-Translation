@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+    <string name="app_name">Πρόγραμμα επιλογής</string>
+    <string name="separator">,</string>
+    <string name="downloaded_apps">Αποθηκευμένες εφαρμογές από το Διαδίκτυο</string>
+    <string name="social_network_photo_sharing">Κοινοποίηση φωτογραφιών</string>
+    <string name="social_network_video_sharing">Κοινοποίηση βίντεο</string>
+    <string name="social_network_mixed_sharing">Κοινοποίηση φωτογραφιών και βίντεο</string>
+</resources>

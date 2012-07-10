@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+    <string name="app_name">Motor de correo electrónico</string>
+    <string name="truncated_mime_headers_body">-- El mensaje se ha truncado. --</string>
+    <string name="no_default_account">No hay ninguna cuenta de correo predeterminada.</string>
+    <string name="email_send_failure">Error al enviar correo electrónico</string>
+    <string name="new_single_email_ticker_text">%1$s %2$s</string>
+    <string name="new_multi_email_ticker_text">%1$d mensajes nuevos</string>
+    <string name="new_single_email_title_text">%1$s (%2$s)</string>
+    <string name="new_single_email_details_text">%1$s</string>
+    <string name="new_multi_email_title_text">%1$s</string>
+    <string name="new_multi_email_details_text">%1$d mensajes nuevos</string>
+    <string name="new_email_unknown_sender">Destinatario desconocido</string>
+    <string name="email_error_send_ticker_text">Mensaje %1$s no enviado</string>
+    <string name="email_error_sync_ticker_text">Error de cuenta %1$s</string>
+    <string name="out_of_office_error_ticker_text">Error de fuera de la oficina de %1$s</string>
+    <string name="email_error_sending_title_text">Mensaje %1$s no enviado</string>
+    <string name="email_error_sync_title_text">%1$s</string>
+    <string name="email_error_cert_title_text">Certificado de servidor no válido</string>
+    <string name="email_error_auth_not_provisionable_title_text">Error de aprovisionamiento de %1$s</string>
+    <string name="out_of_office_title_text">%1$s</string>
+    <string name="email_error_server_error_details_text">Error del servidor</string>
+    <string name="email_error_over_quota_details_text">Servidor sin espacio</string>
+    <string name="email_error_config_details_text">Error en configuración de cuenta de servidor</string>
+    <string name="email_error_auth_details_text">Error de autenticación</string>
+    <string name="email_error_auth_send_details_text">Error de autenticación al enviar</string>
+    <string name="email_error_auth_rcv_details_text">Error de autenticación al recibir</string>
+    <string name="email_error_auth_not_provisionable_details_text">Ponte en contacto con el administrador del servidor</string>
+    <string name="email_error_cert_details_text">Toca para obtener más información</string>
+    <string name="email_error_sending_details_text">Toca para ver el mensaje</string>
+    <string name="email_error_connection_details_text">Error de conexión</string>
+    <string name="out_of_office_error_details_text">Error de fuera de la oficina</string>
+    <string name="eas_device_admin_label">Sincr. empresa</string>
+    <string name="eas_device_admin_description">Habilita las políticas de seguridad especificadas por el servidor</string>
+</resources>

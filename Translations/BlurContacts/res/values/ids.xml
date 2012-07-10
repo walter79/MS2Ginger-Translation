@@ -1,0 +1,295 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+    <item type="id" name="contact_preferences_done" />
+    <item type="id" name="contact_preferences_revert" />
+    <item type="id" name="edit_contact_done" />
+    <item type="id" name="edit_contact_revert" />
+    <item type="id" name="share_ok" />
+    <item type="id" name="share_cancel" />
+    <item type="id" name="pick_contact_done" />
+    <item type="id" name="pick_group_done" />
+    <item type="id" name="edit_group_save" />
+    <item type="id" name="edit_group_cancel" />
+    <item type="id" name="confirm_group_done" />
+    <item type="id" name="confirm_group_discard" />
+    <item type="id" name="ice_edit_save" />
+    <item type="id" name="ice_edit_discard" />
+    <item type="id" name="ice_notes_edit_btn_save" />
+    <item type="id" name="ice_notes_edit_btn_discard" />
+    <item type="id" name="ice_notes_edit_btn_edit" />
+    <item type="id" name="ice_notes_edit_btn_delete" />
+    <item type="id" name="data" />
+    <item type="id" name="header_phones" />
+    <item type="id" name="dialog_sync_add" />
+    <item type="id" name="dialog_import_export" />
+    <item type="id" name="dialog_searching_vcard" />
+    <item type="id" name="dialog_sdcard_not_found" />
+    <item type="id" name="dialog_vcard_not_found" />
+    <item type="id" name="dialog_select_import_type" />
+    <item type="id" name="dialog_select_one_vcard" />
+    <item type="id" name="dialog_select_multiple_vcard" />
+    <item type="id" name="dialog_reading_vcard" />
+    <item type="id" name="dialog_io_exception" />
+    <item type="id" name="dialog_error_with_message" />
+    <item type="id" name="dialog_delete_contact_confirmation" />
+    <item type="id" name="dialog_readonly_contact_hide_confirmation" />
+    <item type="id" name="dialog_multiple_contact_delete_confirmation" />
+    <item type="id" name="dialog_readonly_contact_delete_confirmation" />
+    <item type="id" name="dialog_export_confirmation" />
+    <item type="id" name="dialog_exporting_vcard" />
+    <item type="id" name="dialog_fail_to_export_with_reason" />
+    <item type="id" name="moto_import_wizard" />
+    <item type="id" name="editors">false</item>
+    <item type="id" name="abwidget">false</item>
+    <item type="id" name="icon">false</item>
+    <item type="id" name="type">false</item>
+    <item type="id" name="time">false</item>
+    <item type="id" name="duration">false</item>
+    <item type="id" name="emptyText">false</item>
+    <item type="id" name="line2">false</item>
+    <item type="id" name="label">false</item>
+    <item type="id" name="number">false</item>
+    <item type="id" name="card_root_view">false</item>
+    <item type="id" name="contact_header_widget">false</item>
+    <item type="id" name="contact_data">false</item>
+    <item type="id" name="ringtone">false</item>
+    <item type="id" name="voicemail">false</item>
+    <item type="id" name="pinned_header_list_layout">false</item>
+    <item type="id" name="contacts_list_interactive_title_bar">false</item>
+    <item type="id" name="join_contact_blurb">false</item>
+    <item type="id" name="picker_identity_fastscroll">false</item>
+    <item type="id" name="import_failure">false</item>
+    <item type="id" name="import_failure_uninstall_apps">false</item>
+    <item type="id" name="import_failure_retry_upgrade">false</item>
+    <item type="id" name="list_divider">false</item>
+    <item type="id" name="search_results_for">false</item>
+    <item type="id" name="search_results_found">false</item>
+    <item type="id" name="searchView">false</item>
+    <item type="id" name="addicon">false</item>
+    <item type="id" name="title">false</item>
+    <item type="id" name="dialog_name_group_msg">false</item>
+    <item type="id" name="dialog_name_group_edit">false</item>
+    <item type="id" name="dialpad">false</item>
+    <item type="id" name="one">false</item>
+    <item type="id" name="two">false</item>
+    <item type="id" name="three">false</item>
+    <item type="id" name="four">false</item>
+    <item type="id" name="five">false</item>
+    <item type="id" name="six">false</item>
+    <item type="id" name="seven">false</item>
+    <item type="id" name="eight">false</item>
+    <item type="id" name="nine">false</item>
+    <item type="id" name="star">false</item>
+    <item type="id" name="zero">false</item>
+    <item type="id" name="pound">false</item>
+    <item type="id" name="text">false</item>
+    <item type="id" name="checkable">false</item>
+    <item type="id" name="checkbox">false</item>
+    <item type="id" name="phonetic_name">false</item>
+    <item type="id" name="interactive_title_bar">false</item>
+    <item type="id" name="interactive_title_bar_label">false</item>
+    <item type="id" name="list_header_groups">false</item>
+    <item type="id" name="list_header_search">false</item>
+    <item type="id" name="list_header_add_contact">false</item>
+    <item type="id" name="color_bar">false</item>
+    <item type="id" name="header">false</item>
+    <item type="id" name="header_color_bar">false</item>
+    <item type="id" name="header_icon">false</item>
+    <item type="id" name="header_account_type">false</item>
+    <item type="id" name="header_account_name">false</item>
+    <item type="id" name="stub_photo">false</item>
+    <item type="id" name="edit_photo">false</item>
+    <item type="id" name="edit_name">false</item>
+    <item type="id" name="read_only_name">false</item>
+    <item type="id" name="sect_general">false</item>
+    <item type="id" name="head_secondary_divider">false</item>
+    <item type="id" name="head_secondary">false</item>
+    <item type="id" name="sect_secondary">false</item>
+    <item type="id" name="edit_read_only">false</item>
+    <item type="id" name="edit_label">false</item>
+    <item type="id" name="edit_delete">false</item>
+    <item type="id" name="edit_fields">false</item>
+    <item type="id" name="edit_more">false</item>
+    <item type="id" name="edit_less">false</item>
+    <item type="id" name="kind_header">false</item>
+    <item type="id" name="kind_title">false</item>
+    <item type="id" name="kind_plus">false</item>
+    <item type="id" name="kind_editors">false</item>
+    <item type="id" name="read_only_warning">false</item>
+    <item type="id" name="primary_icon">false</item>
+    <item type="id" name="footer">false</item>
+    <item type="id" name="presence_icon">false</item>
+    <item type="id" name="action_icon">false</item>
+    <item type="id" name="divider">false</item>
+    <item type="id" name="secondary_action_button">false</item>
+    <item type="id" name="header_text">false</item>
+    <item type="id" name="radio">false</item>
+    <item type="id" name="action_bar">false</item>
+    <item type="id" name="btn_save">false</item>
+    <item type="id" name="btn_share">false</item>
+    <item type="id" name="btn_cancel">false</item>
+    <item type="id" name="recent_listitem_isread">false</item>
+    <item type="id" name="recent_listitem_priority">false</item>
+    <item type="id" name="recent_listitem_attachment">false</item>
+    <item type="id" name="recent_listitem_subject">false</item>
+    <item type="id" name="recent_listitem_flagged">false</item>
+    <item type="id" name="recent_listitem_time">false</item>
+    <item type="id" name="recent_listitem_body">false</item>
+    <item type="id" name="recent_listitem_icon">false</item>
+    <item type="id" name="dialog_address_books_text">false</item>
+    <item type="id" name="dialog_delete_msg">false</item>
+    <item type="id" name="dialog_delete_list">false</item>
+    <item type="id" name="dialog_deletemixed_writable">false</item>
+    <item type="id" name="dialog_deletemixed_readonly">false</item>
+    <item type="id" name="group_confirm_root_view">false</item>
+    <item type="id" name="group_confirm_progressbar">false</item>
+    <item type="id" name="group_confirm_listview">false</item>
+    <item type="id" name="group_confirm_list_item_imageview">false</item>
+    <item type="id" name="group_confirm_list_item_text_primary">false</item>
+    <item type="id" name="group_confirm_list_item_text_secondary">false</item>
+    <item type="id" name="group_confirm_list_item_icon_secondary">false</item>
+    <item type="id" name="group_edit_root_view">false</item>
+    <item type="id" name="group_header">false</item>
+    <item type="id" name="group_header_imageview">false</item>
+    <item type="id" name="group_header_name_edit">false</item>
+    <item type="id" name="group_members_list">false</item>
+    <item type="id" name="group_header_container">false</item>
+    <item type="id" name="group_header_quickgroupbadge">false</item>
+    <item type="id" name="group_header_text_primary">false</item>
+    <item type="id" name="group_header_text_secondary">false</item>
+    <item type="id" name="tb_sync_divider">false</item>
+    <item type="id" name="view_group_add_members">false</item>
+    <item type="id" name="list_item_checkbox">false</item>
+    <item type="id" name="list_item_imageview">false</item>
+    <item type="id" name="list_item_labels">false</item>
+    <item type="id" name="list_item_text_primary">false</item>
+    <item type="id" name="list_item_text_secondary">false</item>
+    <item type="id" name="list_item_divider">false</item>
+    <item type="id" name="list_item_icon_secondary">false</item>
+    <item type="id" name="smart_group_grid">false</item>
+    <item type="id" name="list_header">false</item>
+    <item type="id" name="moto_empty_group_indicator">false</item>
+    <item type="id" name="groups_list_view">false</item>
+    <item type="id" name="list_item_quickgroupbadge">false</item>
+    <item type="id" name="ice_contact_title">false</item>
+    <item type="id" name="ice_contact_displayname">false</item>
+    <item type="id" name="ice_edit_minus">false</item>
+    <item type="id" name="ice_edit_minus_confirm">false</item>
+    <item type="id" name="titlebar_title">false</item>
+    <item type="id" name="ScrollView01">false</item>
+    <item type="id" name="ice_edit_list_table">false</item>
+    <item type="id" name="edit_notes_listitem">false</item>
+    <item type="id" name="ice_notes_displayname">false</item>
+    <item type="id" name="ice_notes">false</item>
+    <item type="id" name="moto_import_help_text">false</item>
+    <item type="id" name="check_box">false</item>
+    <item type="id" name="listitem_search_progress">false</item>
+    <item type="id" name="listitem_search_photo">false</item>
+    <item type="id" name="listitem_search_quickcontact">false</item>
+    <item type="id" name="listitem_search_name">false</item>
+    <item type="id" name="listitem_search_body">false</item>
+    <item type="id" name="listitem_search_icon">false</item>
+    <item type="id" name="picker_group_root">false</item>
+    <item type="id" name="picker_group_body">false</item>
+    <item type="id" name="picker_identity_root">false</item>
+    <item type="id" name="picker_body">false</item>
+    <item type="id" name="picker_identity_progressbar">false</item>
+    <item type="id" name="picker_identity_list_empty">false</item>
+    <item type="id" name="picker_identity_item_checkbox">false</item>
+    <item type="id" name="picker_identity_item_photo">false</item>
+    <item type="id" name="picker_identity_item_name">false</item>
+    <item type="id" name="picker_identity_item_comment">false</item>
+    <item type="id" name="remember">false</item>
+    <item type="id" name="changeDefaultAccountSetting">false</item>
+    <item type="id" name="speeddial1">false</item>
+    <item type="id" name="speeddial2">false</item>
+    <item type="id" name="speeddial3">false</item>
+    <item type="id" name="speeddial4">false</item>
+    <item type="id" name="speeddial5">false</item>
+    <item type="id" name="suggestion_layout">false</item>
+    <item type="id" name="suggestions_header_label">false</item>
+    <item type="id" name="suggestions">false</item>
+    <item type="id" name="suggestion1">false</item>
+    <item type="id" name="suggestion_photo1">false</item>
+    <item type="id" name="suggestion_name1">false</item>
+    <item type="id" name="suggestion2">false</item>
+    <item type="id" name="suggestion_photo2">false</item>
+    <item type="id" name="suggestion_name2">false</item>
+    <item type="id" name="suggestion3">false</item>
+    <item type="id" name="suggestion_photo3">false</item>
+    <item type="id" name="suggestion_name3">false</item>
+    <item type="id" name="favs_header_label">false</item>
+    <item type="id" name="tb_single_select_container">false</item>
+    <item type="id" name="tb_title">false</item>
+    <item type="id" name="tb_add_button">false</item>
+    <item type="id" name="preference">false</item>
+    <item type="id" name="root">false</item>
+    <item type="id" name="header_small">false</item>
+    <item type="id" name="header_medium">false</item>
+    <item type="id" name="header_large">false</item>
+    <item type="id" name="scroll">false</item>
+    <item type="id" name="quickcontact">false</item>
+    <item type="id" name="footer_disambig">false</item>
+    <item type="id" name="arrow_up">false</item>
+    <item type="id" name="arrow_down">false</item>
+    <item type="id" name="arrow_down_stub">false</item>
+    <item type="id" name="photo">false</item>
+    <item type="id" name="name">false</item>
+    <item type="id" name="status">false</item>
+    <item type="id" name="timestamp">false</item>
+    <item type="id" name="presence">false</item>
+    <item type="id" name="call_icon">false</item>
+    <item type="id" name="date">false</item>
+    <item type="id" name="groupSize">false</item>
+    <item type="id" name="line1">false</item>
+    <item type="id" name="groupIndicator">false</item>
+    <item type="id" name="call_type_icon">false</item>
+    <item type="id" name="search_bar">false</item>
+    <item type="id" name="search_plate">false</item>
+    <item type="id" name="search_edit_frame">false</item>
+    <item type="id" name="search_src_text">false</item>
+    <item type="id" name="setPrimary">false</item>
+    <item type="id" name="sg_badge_group_icon">false</item>
+    <item type="id" name="sg_badge_group_name">false</item>
+    <item type="id" name="sourceIcon">false</item>
+    <item type="id" name="additionalData">false</item>
+    <item type="id" name="account_name">false</item>
+    <item type="id" name="tab_scroll_view">false</item>
+    <item type="id" name="tab_icon">false</item>
+    <item type="id" name="tab_title">false</item>
+    <item type="id" name="arrow">false</item>
+    <item type="id" name="totalContactsText">false</item>
+    <item type="id" name="top">false</item>
+    <item type="id" name="digits">false</item>
+    <item type="id" name="dialpadChooser">false</item>
+    <item type="id" name="voicemailAndDialAndDelete">false</item>
+    <item type="id" name="voicemailButton">false</item>
+    <item type="id" name="dialButton">false</item>
+    <item type="id" name="deleteButton">false</item>
+    <item type="id" name="menu_done">false</item>
+    <item type="id" name="menu_discard">false</item>
+    <item type="id" name="menu_add">false</item>
+    <item type="id" name="menu_delete">false</item>
+    <item type="id" name="menu_display_groups">false</item>
+    <item type="id" name="menu_accounts">false</item>
+    <item type="id" name="menu_import_export">false</item>
+    <item type="id" name="moto_menu_share_name_cards">false</item>
+    <item type="id" name="moto_menu_my_info">false</item>
+    <item type="id" name="moto_menu_additonal">false</item>
+    <item type="id" name="moto_menu_settings">false</item>
+    <item type="id" name="moto_menu_group_edit_add_member">false</item>
+    <item type="id" name="moto_menu_group_edit_edit_email_list">false</item>
+    <item type="id" name="moto_menu_group_edit_edit_texting_list">false</item>
+    <item type="id" name="moto_menu_group_send_edit_delete_group">false</item>
+    <item type="id" name="moto_menu_group_edit">false</item>
+    <item type="id" name="moto_menu_group_send_message">false</item>
+    <item type="id" name="moto_menu_group_send_email">false</item>
+    <item type="id" name="moto_menu_group_create_event">false</item>
+    <item type="id" name="menu_edit">false</item>
+    <item type="id" name="menu_share">false</item>
+    <item type="id" name="menu_options">false</item>
+    <item type="id" name="moto_menu_invite">false</item>
+    <item type="id" name="moto_menu_unhide">false</item>
+    <item type="id" name="menu_split">false</item>
+    <item type="id" name="menu_join">false</item>
+</resources>

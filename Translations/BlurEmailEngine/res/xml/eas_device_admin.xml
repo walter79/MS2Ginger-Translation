@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<device-admin android:visible="false"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <uses-policies>
+        <limit-password />
+        <watch-login />
+        <force-lock />
+        <wipe-data />
+        <data-sync />
+        <encryption-device-sd />
+    </uses-policies>
+</device-admin>

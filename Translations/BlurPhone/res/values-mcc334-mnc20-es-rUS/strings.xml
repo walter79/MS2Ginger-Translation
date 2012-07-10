@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+    <string name="unobtainable_number">MARCACION NO DISPONIBLE -%1$02d-</string>
+    <string name="no_route_destination">USUARIO NO DISPONIBLE -%1$02d-</string>
+    <string name="op_determined_barring">USUARIO NO DISPONIBLE -%1$02d-</string>
+    <string name="user_busy">USUARIO OCUPADO</string>
+    <string name="no_user_responding">USUARIO NO RESPONDE -%1$02d-</string>
+    <string name="no_answer">USUARIO NO RESPONDE -%1$02d-</string>
+    <string name="call_rejected">USUARIO NO DISPONIBLE -%1$02d-</string>
+    <string name="number_changed">MARCACION NO DISPONIBLE -%1$02d-</string>
+    <string name="destination_out">USUARIO NO DISPONIBLE -%1$02d-</string>
+    <string name="facility_rejected">LLAMADA TERMINADA -%1$02d-</string>
+    <string name="normal_unspecified">LLAMADA TERMINADA -%1$02d-</string>
+    <string name="no_circuit_avail">LLAMADA TERMINADA -%1$02d-</string>
+    <string name="network_out">LLAMADA TERMINADA -%1$02d-</string>
+    <string name="temporary_failure">LLAMADA TERMINADA -%1$02d-</string>
+    <string name="switching_congestion">LLAMADA TERMINADA -%1$02d-</string>
+    <string name="access_discarded">LLAMADA TERMINADA -%1$02d-</string>
+    <string name="channel_not_avail">LLAMADA TERMINADA -%1$02d-</string>
+    <string name="resources_unavailable">LLAMADA TERMINADA -%1$02d-</string>
+    <string name="incoming_barred_cug">LLAMADA TERMINADA -%1$02d-</string>
+    <string name="bearer_not_authorized">LLAMADA TERMINADA -%1$02d-</string>
+    <string name="bearer_not_available">LLAMADA TERMINADA -%1$02d-</string>
+    <string name="service_not_available">LLAMADA TERMINADA -%1$02d-</string>
+    <string name="bearer_not_implemented">LLAMADA TERMINADA -%1$02d-</string>
+    <string name="requested_not_implemented">LLAMADA TERMINADA -%1$02d-</string>
+    <string name="user_not_cug">LLAMADA TERMINADA -%1$02d-</string>
+    <string name="incompatible_destination">LLAMADA TERMINADA -%1$02d-</string>
+    <string name="incorrect_message">LLAMADA TERMINADA -%1$02d-</string>
+    <string name="protocol_error">LLAMADA TERMINADA -%1$02d-</string>
+    <string name="interworking">LLAMADA TERMINADA -%1$02d-</string>
+</resources>

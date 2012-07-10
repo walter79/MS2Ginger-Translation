@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<menu
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:icon="@blur.res:drawable/ic_menu_edit" android:id="@id/moto_menu_group_edit" android:title="@string/moto_menu_group_edit" />
+    <item android:icon="@blur.res:drawable/ic_menu_add" android:id="@id/moto_menu_group_edit_add_member" android:title="@string/moto_menu_group_edit_add_member" />
+    <item android:icon="@blur.res:drawable/ic_menu_message" android:id="@id/moto_menu_group_send_message" android:title="@string/moto_menu_group_send_message" />
+    <item android:icon="@blur.res:drawable/ic_menu_email" android:id="@id/moto_menu_group_send_email" android:title="@string/moto_menu_group_send_email" />
+    <item android:icon="@blur.res:drawable/ic_menu_calendar" android:id="@id/moto_menu_group_create_event" android:title="@string/moto_menu_group_create_event" />
+    <item android:icon="@blur.res:drawable/ic_menu_cancel" android:id="@id/moto_menu_group_send_edit_delete_group" android:title="@string/moto_menu_group_send_edit_delete_group" />
+</menu>

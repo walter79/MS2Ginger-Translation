@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+    <string name="app_name">Armazenamento do calendário</string>
+    <string name="gadget_title">Calendário</string>
+    <string name="no_title_label">(Sem assunto)</string>
+    <string name="calendar_default_name">Padrão</string>
+    <string name="gadget_no_events">Não há eventos futuros no calendário.</string>
+    <string name="calendar_widget_label">Widget de calendário</string>
+    <string name="setting_description">Escolha quais calendários exibirão eventos no widget</string>
+    <string name="no_calendars_selected">Selecionar calendários</string>
+    <string name="settings_all_calendars">Todos</string>
+    <string name="loading_agenda">Carregando agenda...</string>
+    <string name="no_meeting_this_week">Sem reuniões futuras.</string>
+    <string name="no_meeting_today">Não há reuniões hoje.</string>
+    <string name="no_calendars_synchronized">Adic. uma \n conta de calend.</string>
+    <string name="provider_label">Calendário</string>
+    <string name="widget_description">Exibir eventos futuros do calendário</string>
+    <string name="account_type_name">Conta local do calendário</string>
+    <string name="local_calendar_display_name">Calendário padrão</string>
+    <string name="scratch_calendar_display_name">Calendário rascunho</string>
+    <string name="settings_local_calendar">Calendário do telefone</string>
+    <string name="settings_local_cal_type">Armazenamento do telefone</string>
+</resources>

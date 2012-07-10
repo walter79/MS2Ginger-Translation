@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+    <string name="app_name">Pamięć kalendarza</string>
+    <string name="gadget_title">Kalendarz</string>
+    <string name="no_title_label">(Brak tematu)</string>
+    <string name="calendar_default_name">Domyślna</string>
+    <string name="gadget_no_events">W kalendarzu nie ma nadchodzących wydarzeń</string>
+    <string name="calendar_widget_label">Widżet Kalendarz</string>
+    <string name="setting_description">Wybierz, które kalendarze mają wyświetlać wydarzenia w widżecie</string>
+    <string name="no_calendars_selected">Wybierz kalendarze</string>
+    <string name="settings_all_calendars">Wszystkie kalendarze</string>
+    <string name="loading_agenda">Trwa ładowanie planu dnia...</string>
+    <string name="no_meeting_this_week">Brak nadchodzących spotkań</string>
+    <string name="no_meeting_today">Brak spotkań dzisiaj</string>
+    <string name="no_calendars_synchronized">Dodaj \n konto kalendarza</string>
+    <string name="provider_label">Kalendarz</string>
+    <string name="widget_description">Nadchodzące wydarzenia w kalendarzu</string>
+    <string name="account_type_name">Lokalne konto kalendarza</string>
+    <string name="local_calendar_display_name">Kalendarz domyślny</string>
+    <string name="scratch_calendar_display_name">Kalendarz początkowy</string>
+    <string name="settings_local_calendar">Kalendarz w telefonie</string>
+</resources>

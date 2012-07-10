@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+    <string name="InCallEndHoldAnswerIncomingButtonLabel">Oproep in wachtstand beëindigen + Beantwoorden</string>
+    <string name="InCallEndCallAndAnswer">Oproep beëindigen\n+ Beantwoorden</string>
+</resources>

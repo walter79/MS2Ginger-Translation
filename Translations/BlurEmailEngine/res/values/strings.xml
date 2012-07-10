@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+    <string name="app_name">Email Engine</string>
+    <string name="possible_imap_sent_folders">Sent, Sent Messages, Sent Items</string>
+    <string name="possible_imap_trash_folders">Trash, Deleted Messages, Deleted Items</string>
+    <string name="gmail_imap_sent_folder">Sent Mail</string>
+    <string name="gmail_imap_trash_folder">Trash</string>
+    <string name="truncated_mime_headers_body">-- Message was truncated. --</string>
+    <string name="no_default_account">No default email account</string>
+    <string name="email_send_failure">Email send failure</string>
+    <string name="new_single_email_ticker_text">%1$s %2$s</string>
+    <string name="new_multi_email_ticker_text">%1$d new messages</string>
+    <string name="new_single_email_title_text">%1$s (%2$s)</string>
+    <string name="new_single_email_details_text">%1$s</string>
+    <string name="new_multi_email_title_text">%1$s</string>
+    <string name="new_multi_email_details_text">%1$d new messages</string>
+    <string name="new_email_unknown_sender">Unknown sender</string>
+    <string name="email_error_send_ticker_text">%1$s message not sent</string>
+    <string name="email_error_sync_ticker_text">%1$s account error</string>
+    <string name="out_of_office_error_ticker_text">%1$s out of office error</string>
+    <string name="email_error_sending_title_text">%1$s message not sent</string>
+    <string name="email_error_sync_title_text">%1$s</string>
+    <string name="email_error_cert_title_text">Invalid Server Certificate</string>
+    <string name="email_error_auth_not_provisionable_title_text">%1$s provisioning error</string>
+    <string name="out_of_office_title_text">%1$s</string>
+    <string name="email_error_server_error_details_text">Server error</string>
+    <string name="email_error_over_quota_details_text">Out of space on server</string>
+    <string name="email_error_config_details_text">Server account configuration error</string>
+    <string name="email_error_auth_details_text">Authentication error</string>
+    <string name="email_error_auth_send_details_text">Authentication error sending</string>
+    <string name="email_error_auth_rcv_details_text">Authentication error receiving</string>
+    <string name="email_error_auth_not_provisionable_details_text">Please contact server admin</string>
+    <string name="email_error_cert_details_text">Tap for more information</string>
+    <string name="email_error_sending_details_text">Tap to view message</string>
+    <string name="email_error_connection_details_text">Connection error</string>
+    <string name="out_of_office_error_details_text">Out of office error</string>
+    <string name="conversation_subject_strip_prefixes">re:|fw:|fwd:</string>
+    <string name="eas_device_admin_label">Corporate Sync</string>
+    <string name="eas_device_admin_description">Enables server-specified security policies</string>
+</resources>

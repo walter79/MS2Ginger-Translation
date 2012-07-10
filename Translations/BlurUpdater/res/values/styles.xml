@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+    <style name="UpdateDialog" parent="@android:style/Theme.Dialog">
+        <item name="android:windowTitleStyle">@style/UpdateWindowTitle</item>
+    </style>
+    <style name="UpdateWindowTitle" parent="@android:style/DialogWindowTitle">
+        <item name="android:textAppearance">@style/TextAppearance.UpdateWindowTitle</item>
+    </style>
+    <style name="TextAppearance.UpdateWindowTitle" parent="@android:style/TextAppearance.DialogWindowTitle">
+        <item name="android:textSize">17.0sp</item>
+    </style>
+</resources>

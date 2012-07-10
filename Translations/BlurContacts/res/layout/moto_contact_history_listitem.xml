@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LinearLayout android:orientation="horizontal" android:background="@android:drawable/list_selector_background" style="@blur.res:style/Blur.ListItem"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:orientation="vertical" android:layout_width="20.0dip" android:layout_height="fill_parent" android:layout_marginRight="@blur.res:dimen/listitem_hspacing" style="@blur.res:style/Blur.ListItemCol1">
+        <ImageView android:id="@id/recent_listitem_isread" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="5.0dip" android:layout_alignParentTop="true" />
+        <ImageView android:id="@id/recent_listitem_priority" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="28.0dip" />
+        <ImageView android:id="@id/recent_listitem_attachment" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="2.0dip" android:layout_alignParentBottom="true" />
+    </RelativeLayout>
+    <LinearLayout android:orientation="vertical" android:layout_weight="1.0" style="@blur.res:style/Blur.ListItemCol3">
+        <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <TextView android:textColor="#ff000000" android:ellipsize="end" android:id="@id/recent_listitem_subject" android:layout_marginRight="@blur.res:dimen/listitem_hspacing" android:singleLine="true" android:layout_weight="1.0" style="@blur.res:style/Blur.TxtListItemA" />
+            <ImageView android:layout_gravity="top" android:id="@id/recent_listitem_flagged" android:layout_marginRight="@blur.res:dimen/listitem_hspacing" style="@blur.res:style/Blur.ListItemIcon" />
+            <TextView android:textColor="#ff000000" android:layout_gravity="top|right|center" android:id="@id/recent_listitem_time" style="@blur.res:style/Blur.TxtListItemD" />
+        </LinearLayout>
+        <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <TextView android:textColor="#ff000000" android:id="@id/recent_listitem_body" android:layout_weight="1.0" style="@blur.res:style/Blur.TxtListItemB" />
+            <ImageView android:layout_gravity="bottom|right|center" android:id="@id/recent_listitem_icon" android:layout_width="18.0dip" android:layout_height="18.0dip" style="@blur.res:style/Blur.ListItemIcon" />
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

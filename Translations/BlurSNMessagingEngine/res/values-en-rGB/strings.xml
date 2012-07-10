@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+    <string name="app_name">Social messaging service</string>
+    <string name="new_single_snmessage_ticker_text">%1$s %2$s</string>
+    <string name="new_multi_snmessage_ticker_text">%1$d new messages</string>
+    <string name="new_single_snmessage_title_text">%1$s (%2$s)</string>
+    <string name="new_single_snmessage_details_text">%1$s</string>
+    <string name="new_multi_snmessage_title_text">%1$s</string>
+    <string name="new_multi_snmessage_details_text">%1$d new messages</string>
+    <string name="snmessage_sync_error_ticker_text">%1$s account error</string>
+    <string name="snmessage_send_error_ticker_text">%1$s message not sent</string>
+    <string name="snmessage_sync_error_title_text">%1$s</string>
+    <string name="snmessage_send_error_title_text">%1$s message not sent</string>
+    <string name="snmessage_sync_auth_error_details_text">Authentication error</string>
+    <string name="snmessage_sync_connection_error_details_text">Connection error</string>
+    <string name="snmessage_send_error_details_text">Tap to view message</string>
+</resources>

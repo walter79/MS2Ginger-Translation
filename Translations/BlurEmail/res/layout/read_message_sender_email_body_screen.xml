@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TableLayout android:id="@id/read_sender_no_contact_box" android:paddingBottom="0.0dip" android:layout_width="fill_parent" android:layout_height="fill_parent" android:stretchColumns="1" android:shrinkColumns="1" style="@style/EmailReadAddressingSection"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TableRow>
+        <TextView android:id="@id/read_sender_label" android:text="@blur.res:string/from_label" style="@style/TxtReadMessageSenderLabel" />
+        <LinearLayout android:orientation="horizontal" android:id="@id/read_message_hidden_bottom" android:layout_width="fill_parent" android:layout_height="30.0dip">
+            <com.motorola.blur.email.view.address.read.EmailReadAddressingWidget android:orientation="vertical" android:id="@id/read_sender_address" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+        </LinearLayout>
+    </TableRow>
+    <TableRow>
+        <TextView android:textColor="@color/black" android:id="@id/readmsg_sent_date" android:layout_column="1" style="@style/TxtReadMessageTimestamp" />
+    </TableRow>
+</TableLayout>

@@ -1,0 +1,366 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+    <string-array name="reminder_minutes_labels">
+        <item>0 分钟</item>
+        <item>5 分钟</item>
+        <item>10 分钟</item>
+        <item>15 分钟</item>
+        <item>20 分钟</item>
+        <item>25 分钟</item>
+        <item>30 分钟</item>
+        <item>45 分钟</item>
+        <item>1 小时</item>
+        <item>2 小时</item>
+        <item>3 小时</item>
+        <item>4 小时</item>
+        <item>5 小时</item>
+        <item>6 小时</item>
+        <item>7 小时</item>
+        <item>8 小时</item>
+        <item>9 小时</item>
+        <item>10 小时</item>
+        <item>11 小时</item>
+        <item>12 小时</item>
+        <item>18 小时</item>
+        <item>24 小时</item>
+        <item>2 天</item>
+        <item>3 天</item>
+        <item>4 天</item>
+        <item>1 周</item>
+        <item>2 周</item>
+    </string-array>
+    <string-array name="reminder_minutes_values">
+        <item>0</item>
+        <item>5</item>
+        <item>10</item>
+        <item>15</item>
+        <item>20</item>
+        <item>25</item>
+        <item>30</item>
+        <item>45</item>
+        <item>60</item>
+        <item>120</item>
+        <item>180</item>
+        <item>240</item>
+        <item>300</item>
+        <item>360</item>
+        <item>420</item>
+        <item>480</item>
+        <item>540</item>
+        <item>600</item>
+        <item>660</item>
+        <item>720</item>
+        <item>1080</item>
+        <item>1440</item>
+        <item>2880</item>
+        <item>4320</item>
+        <item>5760</item>
+        <item>10080</item>
+        <item>20160</item>
+    </string-array>
+    <string-array name="reminder_minutes_labels_activesync">
+        <item>0 分钟</item>
+        <item>5 分钟</item>
+        <item>10 分钟</item>
+        <item>15 分钟</item>
+        <item>20 分钟</item>
+        <item>25 分钟</item>
+        <item>30 分钟</item>
+        <item>45 分钟</item>
+        <item>1 小时</item>
+        <item>2 小时</item>
+        <item>3 小时</item>
+        <item>4 小时</item>
+        <item>5 小时</item>
+        <item>6 小时</item>
+        <item>7 小时</item>
+        <item>8 小时</item>
+        <item>9 小时</item>
+        <item>10 小时</item>
+        <item>11 小时</item>
+        <item>12 小时</item>
+        <item>18 小时</item>
+        <item>24 小时</item>
+        <item>2 天</item>
+        <item>3 天</item>
+        <item>4 天</item>
+        <item>1 周</item>
+        <item>2 周</item>
+    </string-array>
+    <string-array name="reminder_minutes_values_activesync">
+        <item>0</item>
+        <item>5</item>
+        <item>10</item>
+        <item>15</item>
+        <item>20</item>
+        <item>25</item>
+        <item>30</item>
+        <item>45</item>
+        <item>60</item>
+        <item>120</item>
+        <item>180</item>
+        <item>240</item>
+        <item>300</item>
+        <item>360</item>
+        <item>420</item>
+        <item>480</item>
+        <item>540</item>
+        <item>600</item>
+        <item>660</item>
+        <item>720</item>
+        <item>1080</item>
+        <item>1440</item>
+        <item>2880</item>
+        <item>4320</item>
+        <item>5760</item>
+        <item>10080</item>
+        <item>20160</item>
+    </string-array>
+    <string-array name="timezone_labels">
+        <item>马绍尔群岛</item>
+        <item>中途岛</item>
+        <item>夏威夷</item>
+        <item>阿拉斯加州</item>
+        <item>太平洋时间</item>
+        <item>蒂华纳</item>
+        <item>亚利桑那州</item>
+        <item>奇瓦瓦州</item>
+        <item>山区时间</item>
+        <item>中美洲</item>
+        <item>中部时间</item>
+        <item>墨西哥城</item>
+        <item>萨斯喀彻温省</item>
+        <item>波哥大</item>
+        <item>东部时间</item>
+        <item>委内瑞拉</item>
+        <item>大西洋时间</item>
+        <item>马瑙斯</item>
+        <item>圣地亚哥</item>
+        <item>纽芬兰省</item>
+        <item>巴西利亚</item>
+        <item>布宜诺斯艾利斯</item>
+        <item>格陵兰</item>
+        <item>蒙得维的亚</item>
+        <item>大西洋中部地区</item>
+        <item>亚速尔</item>
+        <item>佛得角群岛</item>
+        <item>卡萨布兰卡</item>
+        <item>伦敦，都柏林</item>
+        <item>阿姆斯特丹，柏林</item>
+        <item>贝尔格莱德</item>
+        <item>布鲁塞尔</item>
+        <item>萨拉热窝</item>
+        <item>巴黎</item>
+        <item>温得和克</item>
+        <item>西非时间</item>
+        <item>安曼，约旦</item>
+        <item>雅典，伊斯坦布尔</item>
+        <item>贝鲁特，黎巴嫩</item>
+        <item>开罗</item>
+        <item>赫尔辛基</item>
+        <item>耶路撒冷</item>
+        <item>明斯克</item>
+        <item>哈拉雷</item>
+        <item>巴格达</item>
+        <item>莫斯科</item>
+        <item>科威特</item>
+        <item>内罗毕</item>
+        <item>德黑兰</item>
+        <item>巴库</item>
+        <item>第比利斯</item>
+        <item>埃里温</item>
+        <item>迪拜</item>
+        <item>喀布尔</item>
+        <item>伊斯兰堡，卡拉奇</item>
+        <item>乌拉尔斯克</item>
+        <item>叶卡捷琳堡</item>
+        <item>加尔各答</item>
+        <item>斯里兰卡</item>
+        <item>加德满都</item>
+        <item>阿斯塔纳</item>
+        <item>仰光</item>
+        <item>克拉斯诺亚尔斯克</item>
+        <item>曼谷</item>
+        <item>北京</item>
+        <item>香港</item>
+        <item>伊尔库茨克</item>
+        <item>吉隆坡</item>
+        <item>珀斯</item>
+        <item>台北</item>
+        <item>首尔</item>
+        <item>东京，大阪府</item>
+        <item>雅库茨克</item>
+        <item>阿德莱德</item>
+        <item>达尔文</item>
+        <item>布里斯班</item>
+        <item>霍巴特</item>
+        <item>悉尼，堪培拉</item>
+        <item>海参崴</item>
+        <item>关岛</item>
+        <item>马加丹</item>
+        <item>奥克兰</item>
+        <item>斐济</item>
+        <item>汤加</item>
+    </string-array>
+    <string-array name="preferences_week_view_labels">
+        <item>工作周查看</item>
+        <item>整周查看</item>
+    </string-array>
+    <string-array name="preferences_week_view_values">
+        <item>5</item>
+        <item>7</item>
+    </string-array>
+    <string-array name="preferences_default_reminder_labels">
+        <item>无</item>
+        <item>0 分钟</item>
+        <item>5 分钟</item>
+        <item>10 分钟</item>
+        <item>15 分钟</item>
+        <item>20 分钟</item>
+        <item>25 分钟</item>
+        <item>30 分钟</item>
+        <item>45 分钟</item>
+        <item>1 小时</item>
+        <item>2 小时</item>
+        <item>3 小时</item>
+        <item>4 小时</item>
+        <item>5 小时</item>
+        <item>6 小时</item>
+        <item>7 小时</item>
+        <item>8 小时</item>
+        <item>9 小时</item>
+        <item>10 小时</item>
+        <item>11 小时</item>
+        <item>12 小时</item>
+        <item>18 小时</item>
+        <item>24 小时</item>
+        <item>2 天</item>
+        <item>3 天</item>
+        <item>4 天</item>
+        <item>1 周</item>
+        <item>2 周</item>
+    </string-array>
+    <string-array name="preferences_default_reminder_values">
+        <item>-1</item>
+        <item>0</item>
+        <item>5</item>
+        <item>10</item>
+        <item>15</item>
+        <item>20</item>
+        <item>25</item>
+        <item>30</item>
+        <item>45</item>
+        <item>60</item>
+        <item>120</item>
+        <item>180</item>
+        <item>240</item>
+        <item>300</item>
+        <item>360</item>
+        <item>420</item>
+        <item>480</item>
+        <item>540</item>
+        <item>600</item>
+        <item>660</item>
+        <item>720</item>
+        <item>1080</item>
+        <item>1440</item>
+        <item>2880</item>
+        <item>4320</item>
+        <item>5760</item>
+        <item>10080</item>
+        <item>20160</item>
+    </string-array>
+    <string-array name="preferences_alert_type_labels">
+        <item>提示</item>
+        <item>状态栏通知</item>
+        <item>关闭</item>
+    </string-array>
+    <string-array name="preferences_alert_type_values">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+    </string-array>
+    <string-array name="repeat_strings">
+        <item>不重复</item>
+        <item>每天</item>
+        <item>每周</item>
+        <item>每月</item>
+        <item>每年</item>
+    </string-array>
+    <string-array name="availability_outlook">
+        <item>显示为忙碌</item>
+        <item>显示为有空</item>
+        <item>显示为不确定</item>
+        <item>显示为离开</item>
+    </string-array>
+    <string-array name="availability_google">
+        <item>显示为忙碌</item>
+        <item>显示为有空</item>
+    </string-array>
+    <string-array name="visibility_google">
+        <item>默认</item>
+        <item>私人</item>
+        <item>公共</item>
+    </string-array>
+    <string-array name="visibility_outlook">
+        <item>私人号码</item>
+        <item>公共</item>
+    </string-array>
+    <string-array name="ordinal_labels">
+        <item>第一个</item>
+        <item>第二个</item>
+        <item>第三个</item>
+        <item>第四个</item>
+        <item>最后一个</item>
+    </string-array>
+    <string-array name="response_labels1">
+        <item>（无响应）</item>
+        <item>接受</item>
+        <item>不确定</item>
+        <item>拒绝</item>
+        <item>提议新的时间</item>
+    </string-array>
+    <string-array name="response_labels2">
+        <item>接受</item>
+        <item>不确定</item>
+        <item>拒绝</item>
+        <item>提议新的时间</item>
+    </string-array>
+    <string-array name="response_decision">
+        <item>发送前编辑响应</item>
+        <item>发送响应</item>
+        <item>不发送响应</item>
+    </string-array>
+    <string-array name="response_title">
+        <item>已接受的会议</item>
+        <item>不确定的会议</item>
+        <item>取消的会议</item>
+    </string-array>
+    <string-array name="response_text">
+        <item>已接受：</item>
+        <item>不确定:</item>
+        <item>已取消：</item>
+    </string-array>
+    <string-array name="delete_repeating_labels">
+        <item>仅限此活动</item>
+        <item>此活动和将来的活动</item>
+        <item>所有活动</item>
+    </string-array>
+    <string-array name="delete_repeating_labels_no_selected">
+        <item>此活动和将来的活动</item>
+        <item>所有活动</item>
+    </string-array>
+    <string-array name="delete_repeating_labels_no_future_events">
+        <item>仅限此活动</item>
+        <item>所有活动</item>
+    </string-array>
+    <string-array name="change_response_labels">
+        <item>仅限此次活动</item>
+        <item>所有重复的活动</item>
+    </string-array>
+    <string-array name="prefEntries_alerts_vibrateWhen">
+        <item>始终</item>
+        <item>仅在静音时</item>
+        <item>一律不</item>
+    </string-array>
+</resources>

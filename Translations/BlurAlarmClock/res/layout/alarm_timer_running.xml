@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LinearLayout android:id="@id/timerRunningView" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:id="@id/bgview" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <TextView android:id="@id/digitalClock" android:paddingTop="32.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_weight="1.0" style="@style/BigTimeTxt" />
+        <View android:layout_width="fill_parent" android:layout_height="1.0dip" android:layout_weight="1.0" />
+        <com.motorola.android.widget.ActionBar android:id="@id/abwidget" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_alignParentBottom="true" />
+    </LinearLayout>
+</LinearLayout>

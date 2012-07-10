@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LinearLayout android:orientation="vertical" android:id="@id/toolbar_side" android:background="@drawable/dropdown_menu_fontstyle_bg" android:layout_width="@dimen/sidebar_width" android:layout_height="@dimen/sidebar_height" android:layout_marginRight="5.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/sidebar_row1" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0">
+        <ImageView android:id="@id/toolbar_txtfonts" android:layout_width="@dimen/toolbar_icon_width" android:layout_height="@dimen/toolbar_icon_height" android:src="@drawable/ic_control_font_kind" android:layout_weight="1.0" />
+        <View android:background="@drawable/msg_toolbar_divider_v" android:layout_width="2.0dip" android:layout_height="@dimen/toolbar_icon_height" android:layout_marginLeft="6.0dip" android:layout_marginRight="6.0dip" />
+        <ImageView android:id="@id/toolbar_txtsize" android:layout_width="@dimen/toolbar_icon_width" android:layout_height="@dimen/toolbar_icon_height" android:src="@drawable/ic_control_text_size" android:layout_weight="1.0" />
+    </LinearLayout>
+    <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <View android:background="@drawable/msg_toolbar_divider_h" android:layout_width="@dimen/toolbar_icon_width" android:layout_height="2.0dip" android:layout_weight="1.0" />
+        <View android:layout_width="0.0dip" android:layout_height="2.0dip" android:layout_weight="1.0" />
+        <View android:background="@drawable/msg_toolbar_divider_h" android:layout_width="@dimen/toolbar_icon_width" android:layout_height="2.0dip" android:layout_weight="1.0" />
+    </LinearLayout>
+    <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/sidebar_row2" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0">
+        <ImageView android:id="@id/toolbar_fgcolor" android:layout_width="@dimen/toolbar_icon_width" android:layout_height="@dimen/toolbar_icon_height" android:src="@drawable/ic_control_text_color" android:layout_weight="1.0" />
+        <View android:background="@drawable/msg_toolbar_divider_v" android:layout_width="2.0dip" android:layout_height="@dimen/toolbar_icon_height" android:layout_marginLeft="6.0dip" android:layout_marginRight="6.0dip" />
+        <ImageView android:id="@id/toolbar_bgcolor" android:layout_width="@dimen/toolbar_icon_width" android:layout_height="@dimen/toolbar_icon_height" android:src="@drawable/ic_control_text_bgcolor" android:layout_weight="1.0" />
+    </LinearLayout>
+</LinearLayout>

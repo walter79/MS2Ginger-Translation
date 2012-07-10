@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<com.motorola.blur.home.HotseatPanelIndicator android:orientation="horizontal" android:id="@id/hs_pnl_indicator" android:paddingLeft="@dimen/hotseat_nav_padding" android:paddingRight="@dimen/hotseat_nav_padding" android:layout_width="wrap_content" android:layout_height="@dimen/hotseat_nav_height" android:layout_alignParentBottom="true" android:layout_centerHorizontal="true"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/hs_pnl_highlight_3l" android:visibility="visible" android:src="@drawable/hs_pnl_bkgnd" style="@style/HotseatNavIcon" />
+    <ImageView android:id="@id/hs_pnl_highlight_2l" android:visibility="visible" android:src="@drawable/hs_pnl_bkgnd" style="@style/HotseatNavIcon" />
+    <ImageView android:id="@id/hs_pnl_highlight_1l" android:visibility="visible" android:src="@drawable/hs_pnl_bkgnd" style="@style/HotseatNavIcon" />
+    <ImageView android:id="@id/hs_pnl_highlight_0" android:visibility="visible" android:src="@drawable/hs_pnl_bkgnd" style="@style/HotseatNavIcon" />
+    <ImageView android:id="@id/hs_pnl_highlight_1r" android:visibility="visible" android:src="@drawable/hs_pnl_bkgnd" style="@style/HotseatNavIcon" />
+    <ImageView android:id="@id/hs_pnl_highlight_2r" android:visibility="visible" android:src="@drawable/hs_pnl_bkgnd" style="@style/HotseatNavIcon" />
+    <ImageView android:id="@id/hs_pnl_highlight_3r" android:visibility="visible" android:src="@drawable/hs_pnl_bkgnd" style="@style/HotseatNavIcon" />
+</com.motorola.blur.home.HotseatPanelIndicator>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+    <string name="app_name">Seletor</string>
+    <string name="separator">,</string>
+    <string name="downloaded_apps">Aplicativos baixados</string>
+    <string name="social_network_photo_sharing">Compartilhar foto</string>
+    <string name="social_network_video_sharing">Compartilhar vídeo</string>
+    <string name="social_network_mixed_sharing">Compartilhar foto e vídeo</string>
+</resources>

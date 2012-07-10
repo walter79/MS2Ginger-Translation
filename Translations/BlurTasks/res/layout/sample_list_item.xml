@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RelativeLayout android:layout_width="fill_parent" android:layout_height="80.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textStyle="bold" android:id="@id/title" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+    <TextView android:id="@id/due_date" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_below="@id/title" />
+    <TextView android:textColor="#ff00ff00" android:id="@id/tags" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_below="@id/due_date" />
+    <TextView android:id="@id/priority" android:layout_width="100.0dip" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip" android:layout_below="@id/tags" />
+    <TextView android:id="@id/is_complete" android:layout_width="100.0dip" android:layout_height="wrap_content" android:layout_toRightOf="@id/priority" android:layout_alignTop="@id/priority" />
+    <TextView android:id="@id/starred" android:layout_width="100.0dip" android:layout_height="wrap_content" android:layout_toRightOf="@id/is_complete" android:layout_alignTop="@id/priority" />
+</RelativeLayout>

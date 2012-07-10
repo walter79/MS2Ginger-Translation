@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+    <string name="app_name">Naptár Tároló</string>
+    <string name="gadget_title">Naptár</string>
+    <string name="no_title_label">(Nincs Tárgy)</string>
+    <string name="calendar_default_name">Alapméretezett</string>
+    <string name="gadget_no_events">Nincsenek jövőbeni naptári bejegyzések</string>
+    <string name="calendar_widget_label">Naptár widget</string>
+    <string name="setting_description">Válaszd ki, hogy melyik naptárak jelenjenek meg a widgeten</string>
+    <string name="no_calendars_selected">Naptárak kiválasztása</string>
+    <string name="settings_all_calendars">Összes naptár</string>
+    <string name="loading_agenda">Agenda betöltése...</string>
+    <string name="no_meeting_this_week">Nincsenek elkövetkező találkozók</string>
+    <string name="no_meeting_today">Nincs találkozó ma.</string>
+    <string name="no_calendars_synchronized">Adj hozzá egy \n naptári fiókot</string>
+    <string name="provider_label">Naptár</string>
+    <string name="widget_description">Elkövetkező naptári események</string>
+    <string name="account_type_name">Helyi naptár fiók</string>
+    <string name="local_calendar_display_name">Alapméretezett Naptár</string>
+    <string name="scratch_calendar_display_name">Lekaparható naptár</string>
+    <string name="settings_local_calendar">Telefon naptár</string>
+    <string name="APKTOOL_DUMMY_0013">hamis</string>
+    <string name="APKTOOL_DUMMY_0014">hamis</string>
+    <string name="APKTOOL_DUMMY_0015">hamis</string>
+    <string name="APKTOOL_DUMMY_0016">hamis</string>
+</resources>

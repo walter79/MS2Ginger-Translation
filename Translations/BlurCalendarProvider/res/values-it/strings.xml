@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+    <string name="app_name">Archivio calendario</string>
+    <string name="gadget_title">Calendario</string>
+    <string name="no_title_label">(Nessun oggetto)</string>
+    <string name="calendar_default_name">Predefinito</string>
+    <string name="gadget_no_events">Nessun evento programmato sul calendario</string>
+    <string name="calendar_widget_label">Widget Calendario</string>
+    <string name="setting_description">Scegli da quali calendari visualizzare gli eventi nel widget</string>
+    <string name="no_calendars_selected">Seleziona calendari</string>
+    <string name="settings_all_calendars">Tutti i calendari</string>
+    <string name="loading_agenda">Caricamento agenda...</string>
+    <string name="no_meeting_this_week">Nessuna riunione programmata</string>
+    <string name="no_meeting_today">Nessuna riunione oggi.</string>
+    <string name="no_calendars_synchronized">Aggiungi \n account calendario</string>
+    <string name="provider_label">Calendario</string>
+    <string name="widget_description">Prossimi eventi</string>
+    <string name="account_type_name">Account locale calendario</string>
+    <string name="local_calendar_display_name">Calendario predefinito</string>
+    <string name="scratch_calendar_display_name">Calendario personalizzato</string>
+    <string name="settings_local_calendar">Calendario telefono</string>
+</resources>

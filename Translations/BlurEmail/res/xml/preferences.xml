@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<PreferenceScreen android:key="blur.email.preferences"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <PreferenceCategory android:layout="@blur.res:layout/preference_title" android:title="@string/pref_email_settings_title" />
+    <PreferenceScreen android:title="@string/pref_title_notification_enabled">
+        <CheckBoxPreference android:persistent="false" android:title="@string/pref_title_notification_enabled" android:key="com.motorola.blur.email.pref_enable_notifications" android:summary="@string/pref_summary_notification_enabled" android:defaultValue="true" />
+        <com.motorola.blur.util.pref.BlurRingtonePreference android:persistent="false" android:layout="?android:preferenceLayoutChild" android:title="@string/pref_title_notification_ringtone" android:key="com.motorola.blur.email.pref_email_ringtone" android:dependency="com.motorola.blur.email.pref_enable_notifications" android:ringtoneType="notification" />
+        <com.motorola.blur.util.pref.VibratePreference android:persistent="false" android:layout="?android:preferenceLayoutChild" android:title="@string/pref_title_notification_vibrate" android:key="com.motorola.blur.email.pref_email_vibrate" android:dependency="com.motorola.blur.email.pref_enable_notifications" android:defaultValue="false" />
+    </PreferenceScreen>
+    <PreferenceScreen android:title="@string/pref_title_email_delivery" android:summary="@string/pref_summary_email_delivery">
+        <intent android:targetPackage="com.motorola.blur.email" android:targetClass="com.motorola.blur.email.view.SettingsEmailDeliveryActivity" />
+    </PreferenceScreen>
+    <PreferenceScreen android:title="@string/pref_read_settings_label">
+        <ListPreference android:persistent="true" android:title="@string/pref_title_read_text_size" android:key="com.motorola.blur.email.pref_read_text_size" android:dialogTitle="@string/account_settings_read_text_size_dialog_title" />
+    </PreferenceScreen>
+    <PreferenceScreen android:title="@string/pref_title_list_view_settings">
+        <ListPreference android:persistent="false" android:entries="@array/account_settings_number_of_lines_entries" android:title="@string/pref_adjustable_line_title" android:key="com.motorola.blur.email.pref_number_of_lines" android:dialogTitle="@string/pref_adjustable_line_title" android:entryValues="@array/account_settings_number_of_lines_values" />
+        <CheckBoxPreference android:persistent="false" android:title="@string/pref_title_multi_select" android:key="com.motorola.blur.email.pref_multi_select" android:summary="@string/pref_summary_multi_select" android:defaultValue="true" />
+    </PreferenceScreen>
+    <PreferenceScreen android:title="@string/pref_compose_settings_label">
+        <intent android:targetPackage="com.motorola.blur.email" android:action="com.motorola.blur.email.SHOW_COMPOSE_PREFS" android:targetClass="com.motorola.blur.email.compose.ComposeSettingsActivity" />
+    </PreferenceScreen>
+    <CheckBoxPreference android:persistent="false" android:title="@string/pref_title_suggestions" android:key="com.motorola.blur.email.pref_display_suggestions" android:summary="@string/pref_summary_suggestions" android:defaultValue="true" />
+    <ListPreference android:persistent="false" android:title="@string/pref_title_default_email_account" android:key="com.motorola.blur.email.pref_default_email_account" android:dialogTitle="@string/pref_dialog_title_default_email_account" />
+    <PreferenceScreen android:title="@string/oof_settings_label" android:key="com.motorola.blur.email.pref_out_of_office" android:summary="@string/oof_settings_summary" />
+    <PreferenceScreen android:title="@blur.res:string/pref_manage_address_history">
+        <intent android:targetPackage="com.motorola.blur.email" android:action="com.motorola.blur.email.SHOW_ADDRESS_HISTORY" android:targetClass="com.motorola.blur.email.view.address.compose.ManageHistoryActivity" />
+    </PreferenceScreen>
+    <PreferenceScreen android:title="@string/pref_smart_forwarding" android:key="com.motorola.blur.email.pref_smart_forwarding" android:summary="@string/pref_smart_forwarding_summary">
+        <intent android:targetPackage="com.motorola.blur.email" android:action="com.motorola.blur.email.SHOW_SMART_FORWARDING" android:targetClass="com.motorola.blur.email.compose.SmartForwardingActivity" />
+    </PreferenceScreen>
+</PreferenceScreen>

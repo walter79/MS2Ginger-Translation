@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LinearLayout android:orientation="vertical" android:id="@id/read_header_linear" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ViewStub android:id="@id/eml_viewer_titlebar_stub" android:layout="@layout/eml_titlebar" android:inflatedId="@id/eml_viewer_titlebar" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+    <ViewStub android:id="@id/read_sender_contact_box_stub" android:layout="@layout/read_message_sender_badge" android:inflatedId="@id/read_message_sender_badge" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <ViewStub android:id="@id/read_sender_no_contact_box_email_body_screen_stub" android:layout="@layout/read_message_sender_email_body_screen" android:inflatedId="@id/read_sender_no_contact_box" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <TableLayout android:layout_width="fill_parent" android:layout_height="wrap_content" android:stretchColumns="1" android:shrinkColumns="1" style="@style/EmailReadAddressingSection.SendTo"
+      xmlns:android="http://schemas.android.com/apk/res/android">
+        <TableRow>
+            <TextView android:id="@id/addresses_summary" android:layout_column="0" android:layout_span="2" android:layout_weight="1.0" style="@style/AddressesSummaryStyle" />
+            <ImageButton android:id="@id/read_msg_addresses_details_arrow" android:src="@drawable/ic_btn_round_more_normal" style="@style/ReadExpandItem" />
+        </TableRow>
+    </TableLayout>
+    <ImageView android:id="@id/sub_separator_sender" style="@style/SubjectSeparatorStyle" />
+    <LinearLayout android:orientation="horizontal" android:id="@id/read_message_header_subject_area" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="7.0dip" android:layout_marginTop="4.0dip" android:layout_marginRight="5.0dip" android:layout_marginBottom="4.0dip">
+        <TextView android:ellipsize="none" android:id="@id/read_subject" android:layout_weight="1.0" style="@blur.res:style/Blur.TxtReadScreenSubject.Light" />
+        <ImageView android:id="@id/read_message_priority" android:padding="0.0dip" android:visibility="gone" android:src="@drawable/ic_list_importance_high_thin" style="@style/ReadMsgStatusImg" />
+        <ImageView android:id="@id/read_message_flag" android:padding="0.0dip" android:visibility="gone" android:src="@blur.res:drawable/ic_list_flag" style="@blur.res:style/Blur.ListItemIconA" />
+    </LinearLayout>
+    <ImageView android:id="@id/sub_separator_body" style="@style/SubjectSeparatorStyle" />
+    <LinearLayout android:orientation="vertical" android:id="@id/read_message_header_content_group" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="7.0dip" android:layout_marginTop="4.0dip" android:layout_marginRight="5.0dip">
+        <LinearLayout android:orientation="horizontal" android:id="@id/read_message_show_all_body" android:background="@color/attachments_area" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="4.0dip">
+            <TextView android:textSize="14.0sp" android:textColor="@color/black" android:ellipsize="none" android:gravity="center_vertical" android:layout_gravity="center_vertical" android:id="@id/read_message_show_all_body_text" android:paddingLeft="4.0dip" android:paddingRight="4.0dip" android:layout_width="0.0dip" android:layout_height="wrap_content" android:text="@string/show_all_body_text" android:layout_weight="2.0" />
+            <Button android:layout_gravity="center" android:id="@id/read_message_show_all_body_button" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_marginTop="1.0dip" android:text="@string/show_all_body_button" android:layout_weight="1.0" />
+        </LinearLayout>
+        <ViewStub android:id="@id/loading_msg_body_progress_stub" android:layout="@blur.res:layout/msg_load_progress" android:inflatedId="@id/loading_msg_body_progress_container" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+        <LinearLayout android:orientation="vertical" android:id="@id/read_message_attachments_container" android:background="@color/attachments_area" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="0.0dip" />
+        <ImageView android:gravity="fill_horizontal" android:id="@id/sub_separator" android:background="@color/attachments_area" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="2.0dip" android:src="@blur.res:drawable/dialog_divider_horizontal_light" />
+        <ViewStub android:id="@id/read_calendar_container_stub" android:layout="@layout/read_message_calendar_box" android:inflatedId="@id/read_calendar_container" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="5.0dip" />
+    </LinearLayout>
+</LinearLayout>

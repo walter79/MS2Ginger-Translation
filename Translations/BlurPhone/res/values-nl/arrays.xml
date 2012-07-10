@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+    <string-array name="select_network_display_values">
+        <item>Uitsluitend 2G</item>
+        <item>Uitsluitend 3G\nbetere prestaties</item>
+        <item>Automatisch\nStandaard</item>
+    </string-array>
+</resources>

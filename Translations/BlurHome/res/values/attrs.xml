@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+    <attr name="direction">
+        <enum name="vertical" value="0" />
+        <enum name="horizontal" value="1" />
+    </attr>
+    <attr name="defaultScreen" format="integer" />
+    <attr name="cellWidth" format="dimension" />
+    <attr name="cellHeight" format="dimension" />
+    <attr name="longAxisStartPadding" format="dimension" />
+    <attr name="longAxisEndPadding" format="dimension" />
+    <attr name="shortAxisStartPadding" format="dimension" />
+    <attr name="shortAxisEndPadding" format="dimension" />
+    <attr name="shortAxisCells" format="integer" />
+    <attr name="longAxisCells" format="integer" />
+    <attr name="longAxisCellSpacing" format="dimension" />
+    <attr name="texture" format="reference" />
+    <attr name="className" format="string" />
+    <attr name="packageName" format="string" />
+    <attr name="screen" format="string" />
+    <attr name="x" format="string" />
+    <attr name="y" format="string" />
+    <attr name="spanX" format="string" />
+    <attr name="spanY" format="string" />
+    <attr name="icon" format="reference" />
+    <attr name="title" format="reference" />
+    <attr name="uri" format="string" />
+    <attr name="thumbnailBorderColor" format="color" />
+    <attr name="thumbnailBorderThickness" format="dimension" />
+    <attr name="position" format="integer" />
+    <attr name="normalThumbnailBorderColor" format="color" />
+    <attr name="normalThumbnailBorderThickness" format="dimension" />
+    <attr name="selectedThumbnailBorderColor" format="color" />
+    <attr name="selectedThumbnailBorderThickness" format="dimension" />
+    <attr name="verticalSpacing" format="dimension" />
+    <attr name="horizontalSpacing" format="dimension" />
+    <attr name="paddingTop" format="dimension" />
+    <attr name="promptPaddingBottom" format="dimension" />
+    <attr name="previewWidth" format="dimension" />
+    <attr name="previewHeight" format="dimension" />
+</resources>

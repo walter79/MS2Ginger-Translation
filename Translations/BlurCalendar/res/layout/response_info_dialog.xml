@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content"
+      xmlns:android="http://schemas.android.com/apk/res/android">
+        <TextView android:textColor="@color/response_dialog_text" android:id="@id/respond_to_label" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="5.0dip" android:text="@string/respond_to_label" style="\?android:attr/textAppearanceMedium" />
+        <TextView android:textColor="@color/response_dialog_text" android:id="@id/respond_to_name" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="5.0dip" android:text="@string/respond_to_name" style="\?android:attr/textAppearanceMedium" />
+    </LinearLayout>
+    <LinearLayout android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content"
+      xmlns:android="http://schemas.android.com/apk/res/android">
+        <TextView android:textColor="@color/response_dialog_text" android:id="@id/respond_to_accepted_label" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="5.0dip" android:text="@string/respond_to_accepted_label" style="\?android:attr/textAppearanceMedium" />
+        <TextView android:textColor="@color/response_dialog_text" android:id="@id/respond_to_face_to_face_label" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="5.0dip" android:text="@string/respond_to_face_to_face_label" style="\?android:attr/textAppearanceMedium" />
+    </LinearLayout>
+    <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="5.0dip" android:layout_marginRight="5.0dip"
+      xmlns:android="http://schemas.android.com/apk/res/android">
+        <EditText android:id="@id/respond_text" android:scrollbars="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent" android:lines="4" android:singleLine="false" android:capitalize="sentences" android:autoText="true" />
+    </LinearLayout>
+</LinearLayout>

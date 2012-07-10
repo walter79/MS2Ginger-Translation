@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LinearLayout android:gravity="center_vertical" android:id="@id/base_layout" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <FrameLayout android:id="@id/clock_layout" android:layout_width="208.0dip" android:layout_height="fill_parent" />
+    <ListView android:id="@id/alarms_list" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+</LinearLayout>

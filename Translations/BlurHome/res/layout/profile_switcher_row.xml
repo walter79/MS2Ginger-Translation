@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LinearLayout android:orientation="vertical" android:id="@id/profile_switcher_row" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:launcher="http://schemas.android.com/apk/res/com.motorola.blur.home">
+    <FrameLayout android:layout_gravity="center_horizontal" android:id="@id/switcher_row_image_group" android:background="@drawable/profile_switcher_row_bkg" android:layout_width="@dimen/profile_switcher_row_width" android:layout_height="wrap_content">
+        <ImageView android:layout_gravity="center" android:id="@id/switcher_row_image" android:padding="2.0dip" android:layout_width="@dimen/profile_switcher_thumbnail_width" android:layout_height="@dimen/profile_switcher_thumbnail_height" android:scaleType="fitXY" />
+    </FrameLayout>
+    <TextView android:textAppearance="?android:textAppearanceMedium" android:textStyle="bold" android:textColor="@color/profile_switcher_label" android:gravity="center" android:layout_gravity="center_horizontal" android:id="@id/switcher_row_label" android:padding="4.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:lines="@integer/profile_switcher_label_lines" />
+</LinearLayout>

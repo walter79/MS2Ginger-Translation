@@ -1,0 +1,361 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+    <string-array name="reminder_minutes_labels">
+        <item>0 minute</item>
+        <item>5 minutes</item>
+        <item>10 minutes</item>
+        <item>15 minutes</item>
+        <item>20 minutes</item>
+        <item>25 minutes</item>
+        <item>30 minutes</item>
+        <item>45 minutes</item>
+        <item>1 heure</item>
+        <item>2 heures</item>
+        <item>3 heures</item>
+        <item>4 heures</item>
+        <item>5 heures</item>
+        <item>6 heures</item>
+        <item>7 heures</item>
+        <item>8 heures</item>
+        <item>9 heures</item>
+        <item>10 heures</item>
+        <item>11 heures</item>
+        <item>12 heures</item>
+        <item>18 heures</item>
+        <item>24 heures</item>
+        <item>2 jours</item>
+        <item>3 jours</item>
+        <item>4 jours</item>
+        <item>1 semaine</item>
+        <item>2 semaines</item>
+    </string-array>
+    <string-array name="reminder_minutes_values">
+        <item>0</item>
+        <item>5</item>
+        <item>10</item>
+        <item>15</item>
+        <item>20</item>
+        <item>25</item>
+        <item>30</item>
+        <item>45</item>
+        <item>60</item>
+        <item>120</item>
+        <item>180</item>
+        <item>240</item>
+        <item>300</item>
+        <item>360</item>
+        <item>420</item>
+        <item>480</item>
+        <item>540</item>
+        <item>600</item>
+        <item>660</item>
+        <item>720</item>
+        <item>1080</item>
+        <item>1440</item>
+        <item>2880</item>
+        <item>4320</item>
+        <item>5760</item>
+        <item>10080</item>
+        <item>20160</item>
+    </string-array>
+    <string-array name="reminder_minutes_labels_activesync">
+        <item>0 minute</item>
+        <item>5 minutes</item>
+        <item>10 minutes</item>
+        <item>15 minutes</item>
+        <item>20 minutes</item>
+        <item>25 minutes</item>
+        <item>30 minutes</item>
+        <item>45 minutes</item>
+        <item>1 heure</item>
+        <item>2 heures</item>
+        <item>3 heures</item>
+        <item>4 heures</item>
+        <item>5 heures</item>
+        <item>6 heures</item>
+        <item>7 heures</item>
+        <item>8 heures</item>
+        <item>9 heures</item>
+        <item>10 heures</item>
+        <item>11 heures</item>
+        <item>12 heures</item>
+        <item>18 heures</item>
+        <item>24 heures</item>
+        <item>2 jours</item>
+        <item>3 jours</item>
+        <item>4 jours</item>
+        <item>1 semaine</item>
+        <item>2 semaines</item>
+    </string-array>
+    <string-array name="reminder_minutes_values_activesync">
+        <item>0</item>
+        <item>5</item>
+        <item>10</item>
+        <item>15</item>
+        <item>20</item>
+        <item>25</item>
+        <item>30</item>
+        <item>45</item>
+        <item>60</item>
+        <item>120</item>
+        <item>180</item>
+        <item>240</item>
+        <item>300</item>
+        <item>360</item>
+        <item>420</item>
+        <item>480</item>
+        <item>540</item>
+        <item>600</item>
+        <item>660</item>
+        <item>720</item>
+        <item>1080</item>
+        <item>1440</item>
+        <item>2880</item>
+        <item>4320</item>
+        <item>5760</item>
+        <item>10080</item>
+        <item>20160</item>
+    </string-array>
+    <string-array name="timezone_labels">
+        <item>Îles Marshall</item>
+        <item>Îles Midway</item>
+        <item>Hawaii</item>
+        <item>Alaska</item>
+        <item>Heure du Pacifique</item>
+        <item>Tijuana</item>
+        <item>Arizona</item>
+        <item>Chihuahua</item>
+        <item>Heure des Rocheuses</item>
+        <item>Amérique centrale</item>
+        <item>Heure du centre</item>
+        <item>Ville de Mexico</item>
+        <item>Saskatchewan</item>
+        <item>Bogota</item>
+        <item>Heure de l\'Est</item>
+        <item>Venezuela</item>
+        <item>Heure de l\'Atlantique</item>
+        <item>Manaus</item>
+        <item>Santiago</item>
+        <item>Terre-Neuve</item>
+        <item>Brasilia</item>
+        <item>Buenos Aires</item>
+        <item>Groenland</item>
+        <item>Montevideo</item>
+        <item>Centre-Atlantique</item>
+        <item>Açores</item>
+        <item>Îles du Cap-Vert</item>
+        <item>Casablanca</item>
+        <item>Londres, Dublin</item>
+        <item>Amsterdam, Berlin</item>
+        <item>Belgrade</item>
+        <item>Bruxelles</item>
+        <item>Sarajevo</item>
+        <item>Paris</item>
+        <item>Windhoek</item>
+        <item>Heure d\'Afrique occidentale</item>
+        <item>Amman, Jordanie</item>
+        <item>Athènes, Istanbul</item>
+        <item>Beyrouth, Liban</item>
+        <item>Le Caire</item>
+        <item>Helsinki</item>
+        <item>Jérusalem</item>
+        <item>Minsk</item>
+        <item>Harare</item>
+        <item>Bagdad</item>
+        <item>Moscou</item>
+        <item>Koweït</item>
+        <item>Nairobi</item>
+        <item>Téhéran</item>
+        <item>Bakou</item>
+        <item>Tbilissi</item>
+        <item>Erevan</item>
+        <item>Dubaï</item>
+        <item>Kaboul</item>
+        <item>Islamabad, Karachi</item>
+        <item>Oral</item>
+        <item>Ekaterinbourg</item>
+        <item>Kolkata</item>
+        <item>Sri Lanka</item>
+        <item>Katmandou</item>
+        <item>Astana</item>
+        <item>Rangoon</item>
+        <item>Krasnoïarsk\u0020</item>
+        <item>Bangkok</item>
+        <item>Beijing</item>
+        <item>Hong Kong</item>
+        <item>Irkoutsk</item>
+        <item>Kuala Lumpur</item>
+        <item>Perth</item>
+        <item>Taipei</item>
+        <item>Séoul</item>
+        <item>Tokyo, Osaka</item>
+        <item>Iakoutsk</item>
+        <item>Adelaïde</item>
+        <item>Darwin</item>
+        <item>Brisbane</item>
+        <item>Hobart</item>
+        <item>Sydney, Canberra</item>
+        <item>Vladivostok</item>
+        <item>Guam</item>
+        <item>Magadan</item>
+        <item>Auckland</item>
+        <item>Fidji</item>
+        <item>Tonga</item>
+    </string-array>
+    <string-array name="preferences_week_view_labels">
+        <item>Affichage semaine de travail</item>
+        <item>Affichage semaine complète</item>
+    </string-array>
+    <string-array name="preferences_week_view_values">
+        <item>5</item>
+        <item>7</item>
+    </string-array>
+    <string-array name="preferences_default_reminder_labels">
+        <item>Aucun</item>
+        <item>0 minute</item>
+        <item>5 minutes</item>
+        <item>10 minutes</item>
+        <item>15 minutes</item>
+        <item>20 minutes</item>
+        <item>25 minutes</item>
+        <item>30 minutes</item>
+        <item>45 minutes</item>
+        <item>1 heure</item>
+        <item>2 heures</item>
+        <item>3 heures</item>
+        <item>4 heures</item>
+        <item>5 heures</item>
+        <item>6 heures</item>
+        <item>7 heures</item>
+        <item>8 heures</item>
+        <item>9 heures</item>
+        <item>10 heures</item>
+        <item>11 heures</item>
+        <item>12 heures</item>
+        <item>18 heures</item>
+        <item>24 heures</item>
+        <item>2 jours</item>
+        <item>3 jours</item>
+        <item>4 jours</item>
+        <item>1 semaine</item>
+        <item>2 semaines</item>
+    </string-array>
+    <string-array name="preferences_default_reminder_values">
+        <item>-1</item>
+        <item>0</item>
+        <item>5</item>
+        <item>10</item>
+        <item>15</item>
+        <item>20</item>
+        <item>25</item>
+        <item>30</item>
+        <item>45</item>
+        <item>60</item>
+        <item>120</item>
+        <item>180</item>
+        <item>240</item>
+        <item>300</item>
+        <item>360</item>
+        <item>420</item>
+        <item>480</item>
+        <item>540</item>
+        <item>600</item>
+        <item>660</item>
+        <item>720</item>
+        <item>1080</item>
+        <item>1440</item>
+        <item>2880</item>
+        <item>4320</item>
+        <item>5760</item>
+        <item>10080</item>
+        <item>20160</item>
+    </string-array>
+    <string-array name="preferences_alert_type_labels">
+        <item>Alerte</item>
+        <item>Notification de barre d\'état</item>
+        <item>Désactivé</item>
+    </string-array>
+    <string-array name="repeat_strings">
+        <item>Ne pas répéter</item>
+        <item>Tous les jours</item>
+        <item>Toutes les semaines</item>
+        <item>Tous les mois</item>
+        <item>Tous les ans</item>
+    </string-array>
+    <string-array name="availability_outlook">
+        <item>Occupé(e)</item>
+        <item>Disponible</item>
+        <item>Provisoire</item>
+        <item>Absent(e) du bureau</item>
+    </string-array>
+    <string-array name="availability_google">
+        <item>Occupé(e)</item>
+        <item>Disponible</item>
+    </string-array>
+    <string-array name="visibility_google">
+        <item>Par défaut</item>
+        <item>Privé</item>
+        <item>Public</item>
+    </string-array>
+    <string-array name="visibility_outlook">
+        <item>Privé</item>
+        <item>Public</item>
+    </string-array>
+    <string-array name="ordinal_labels">
+        <item>premier</item>
+        <item>deuxième</item>
+        <item>troisième</item>
+        <item>quatrième</item>
+        <item>dernier</item>
+    </string-array>
+    <string-array name="response_labels1">
+        <item>(Aucune réponse)</item>
+        <item>Accepter</item>
+        <item>Provisoire</item>
+        <item>Refuser</item>
+        <item>Proposer une autre heure</item>
+    </string-array>
+    <string-array name="response_labels2">
+        <item>Accepter</item>
+        <item>Provisoire</item>
+        <item>Refuser</item>
+        <item>Proposer une autre heure</item>
+    </string-array>
+    <string-array name="response_decision">
+        <item>Modifier la réponse avant l\'envoi</item>
+        <item>Envoyer la réponse</item>
+        <item>Ne pas envoyer de réponse</item>
+    </string-array>
+    <string-array name="response_title">
+        <item>Réunion acceptée</item>
+        <item>Réponse provisoire</item>
+        <item>Réunion refusée</item>
+    </string-array>
+    <string-array name="response_text">
+        <item>Accepté :</item>
+        <item>Provisoire :</item>
+        <item>Refusé :</item>
+    </string-array>
+    <string-array name="delete_repeating_labels">
+        <item>Uniquement cet événement</item>
+        <item>Cet événement et les suivants</item>
+        <item>Tous les événements</item>
+    </string-array>
+    <string-array name="delete_repeating_labels_no_selected">
+        <item>Cet événement et les suivants</item>
+        <item>Tous les événements</item>
+    </string-array>
+    <string-array name="delete_repeating_labels_no_future_events">
+        <item>Uniquement cet événement</item>
+        <item>Tous les événements</item>
+    </string-array>
+    <string-array name="change_response_labels">
+        <item>Uniquement cette instance</item>
+        <item>Tous les événements de la série</item>
+    </string-array>
+    <string-array name="prefEntries_alerts_vibrateWhen">
+        <item>Toujours</item>
+        <item>Uniquement en mode silencieux</item>
+        <item>Jamais</item>
+    </string-array>
+</resources>

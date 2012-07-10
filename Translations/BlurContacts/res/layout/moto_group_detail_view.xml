@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LinearLayout android:orientation="vertical" android:id="@id/card_root_view" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:layout_gravity="center_vertical" android:orientation="horizontal" android:id="@id/group_header_container" android:background="@android:drawable/title_bar" android:layout_width="fill_parent" android:layout_height="wrap_content" android:minHeight="@blur.res:dimen/title_bar_control_size">
+        <com.motorola.contacts.widget.QuickGroupBadge android:layout_gravity="center_vertical" android:id="@id/group_header_quickgroupbadge" android:layout_width="42.0dip" android:layout_height="48.0dip" android:scaleType="fitXY" style="@style/QuicktaskGroupBadge" />
+        <LinearLayout android:layout_gravity="center_vertical" android:orientation="vertical" android:id="@id/contact_header_widget" android:background="@blur.res:drawable/title_bar_control" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="5.0dip" android:layout_weight="1.0">
+            <TextView android:ellipsize="end" android:id="@id/group_header_text_primary" android:layout_width="fill_parent" android:layout_height="wrap_content" android:lines="1" style="@blur.res:style/Blur.TxtTitleBar" />
+            <TextView android:ellipsize="end" android:id="@id/group_header_text_secondary" android:layout_width="fill_parent" android:layout_height="wrap_content" android:lines="1" style="@blur.res:style/Blur.TxtTitleBar.Small" />
+        </LinearLayout>
+        <ImageView android:id="@id/tb_sync_divider" android:background="@com.motorola.android.widget:drawable/header_divider" style="@blur.res:style/Blur.TitleDivider" />
+        <ImageView android:layout_gravity="center_vertical" android:id="@id/view_group_add_members" android:clickable="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@blur.res:drawable/ic_control_add" />
+    </LinearLayout>
+    <ListView android:id="@android:id/list" android:background="@drawable/title_bar_shadow" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_weight="1.0" />
+</LinearLayout>

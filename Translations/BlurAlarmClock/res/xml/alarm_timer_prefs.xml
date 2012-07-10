@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<PreferenceScreen android:title="@string/set_alarm_timer"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.motorola.blur.alarmclock.SoundPreference android:persistent="false" android:title="@string/alert" android:key="timer_setting_sound" />
+    <CheckBoxPreference android:persistent="false" android:title="@string/alarm_vibrate" android:key="timer_setting_vibrate" />
+    <VolumePreference android:persistent="false" android:title="@string/alarm_volume" android:key="timer_setting_volume" android:dialogTitle="@string/alarm_volume" android:streamType="alarm" />
+    <CheckBoxPreference android:persistent="false" android:title="@string/backup_alarm_title" android:key="timer_setting_backupalarm" android:summary="@string/backup_alarm_summary" />
+</PreferenceScreen>

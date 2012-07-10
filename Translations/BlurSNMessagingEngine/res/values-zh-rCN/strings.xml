@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+    <string name="app_name">社交信息服务</string>
+    <string name="new_single_snmessage_ticker_text">%1$s %2$s</string>
+    <string name="new_multi_snmessage_ticker_text">%1$d 条新信息</string>
+    <string name="new_single_snmessage_title_text">%1$s（%2$s）</string>
+    <string name="new_single_snmessage_details_text">%1$s</string>
+    <string name="new_multi_snmessage_title_text">%1$s</string>
+    <string name="new_multi_snmessage_details_text">%1$d 条新信息</string>
+    <string name="snmessage_sync_error_ticker_text">%1$s 帐户错误</string>
+    <string name="snmessage_send_error_ticker_text">%1$s 信息未发送</string>
+    <string name="snmessage_sync_error_title_text">%1$s</string>
+    <string name="snmessage_send_error_title_text">%1$s 信息未发送</string>
+    <string name="snmessage_sync_auth_error_details_text">验证错误</string>
+    <string name="snmessage_sync_connection_error_details_text">连接错误</string>
+    <string name="snmessage_send_error_details_text">点按以查看信息</string>
+</resources>

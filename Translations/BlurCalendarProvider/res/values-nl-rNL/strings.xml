@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+    <string name="app_name">Agenda-opslag</string>
+    <string name="gadget_title">Agenda</string>
+    <string name="no_title_label">(Geen onderwerp)</string>
+    <string name="calendar_default_name">Standaard</string>
+    <string name="gadget_no_events">Er zijn geen lopende agenda-afspraken</string>
+    <string name="calendar_widget_label">Agendawidget</string>
+    <string name="setting_description">Kies voor welke agenda\'s afspraken worden weergegeven in de widget</string>
+    <string name="no_calendars_selected">Agenda\'s selecteren</string>
+    <string name="settings_all_calendars">Alle agenda\'s</string>
+    <string name="loading_agenda">Agenda laden...</string>
+    <string name="no_meeting_this_week">Geen komende vergaderingen</string>
+    <string name="no_meeting_today">Geen vergaderingen vandaag.</string>
+    <string name="no_calendars_synchronized">Agenda-account \n toevoegen</string>
+    <string name="provider_label">Agenda</string>
+    <string name="widget_description">Lopende agenda-afspraken</string>
+    <string name="account_type_name">Lokaal agenda-account</string>
+    <string name="local_calendar_display_name">Standaardagenda</string>
+    <string name="scratch_calendar_display_name">Aangepaste agenda</string>
+    <string name="settings_local_calendar">Telefoonagenda</string>
+</resources>

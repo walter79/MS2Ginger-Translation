@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<FrameLayout android:layout_gravity="center" android:background="@android:drawable/title_bar" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:layout_gravity="center_vertical" android:orientation="horizontal" android:id="@id/tb_single_select_container" android:layout_width="fill_parent" android:layout_height="wrap_content" android:minHeight="@blur.res:dimen/title_bar_control_size">
+        <TextView android:textSize="20.0sp" android:textStyle="normal" android:ellipsize="middle" android:id="@id/tb_title" android:background="@blur.res:drawable/title_bar_control" android:paddingLeft="10.0dip" android:paddingTop="@blur.res:dimen/title_bar_padding" android:paddingRight="0.0dip" android:paddingBottom="@blur.res:dimen/title_bar_padding" android:layout_height="fill_parent" android:layout_weight="1.0" style="@blur.res:style/Blur.TxtTitleBar" />
+        <ImageView android:id="@id/tb_sync_divider" android:background="@com.motorola.android.widget:drawable/header_divider" style="@blur.res:style/Blur.TitleDivider" />
+        <ImageButton android:id="@id/tb_add_button" android:layout_width="wrap_content" android:layout_height="fill_parent" style="@blur.res:style/Blur.Btn.TitleBar.AddContact" />
+    </LinearLayout>
+</FrameLayout>

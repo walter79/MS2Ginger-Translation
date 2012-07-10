@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+    <string name="app_name">Moteur de messagerie</string>
+    <string name="truncated_mime_headers_body">-- Le message était tronqué. --</string>
+    <string name="no_default_account">Aucun compte e-mail par défaut</string>
+    <string name="email_send_failure">Échec de l\'envoi de l\'e-mail</string>
+    <string name="new_single_email_ticker_text">%1$s %2$s</string>
+    <string name="new_multi_email_ticker_text">%1$d nouveaux messages</string>
+    <string name="new_single_email_title_text">%1$s (%2$s)</string>
+    <string name="new_single_email_details_text">%1$s</string>
+    <string name="new_multi_email_title_text">%1$s</string>
+    <string name="new_multi_email_details_text">%1$d nouveaux messages</string>
+    <string name="new_email_unknown_sender">Expéditeur inconnu</string>
+    <string name="email_error_send_ticker_text">%1$s message non envoyé</string>
+    <string name="email_error_sync_ticker_text">Erreur de compte %1$s</string>
+    <string name="out_of_office_error_ticker_text">Erreur Absence du bureau %1$s</string>
+    <string name="email_error_sending_title_text">%1$s message non envoyé</string>
+    <string name="email_error_sync_title_text">%1$s</string>
+    <string name="email_error_cert_title_text">Certificat de serveur non valide</string>
+    <string name="email_error_auth_not_provisionable_title_text">Erreur de prise en charge %1$s</string>
+    <string name="out_of_office_title_text">%1$s</string>
+    <string name="email_error_server_error_details_text">Erreur du serveur</string>
+    <string name="email_error_over_quota_details_text">Espace insuffisant sur le serveur</string>
+    <string name="email_error_config_details_text">Erreur de configuration du compte de serveur</string>
+    <string name="email_error_auth_details_text">Erreur d\'authentification</string>
+    <string name="email_error_auth_send_details_text">Envoi de l\'erreur d\'authentification</string>
+    <string name="email_error_auth_rcv_details_text">Réception de l\'erreur d\'authentification</string>
+    <string name="email_error_auth_not_provisionable_details_text">Contactez l\'administrateur du serveur</string>
+    <string name="email_error_cert_details_text">Appuyez pour en savoir plus</string>
+    <string name="email_error_sending_details_text">Appuyez pour afficher le message</string>
+    <string name="email_error_connection_details_text">Erreur de connexion</string>
+    <string name="out_of_office_error_details_text">Erreur Absence du bureau</string>
+    <string name="eas_device_admin_label">Corporate Sync</string>
+    <string name="eas_device_admin_description">Active les procédures de sécurité spécifiées par le serveur</string>
+</resources>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<menu
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:icon="@android:drawable/ic_menu_save" android:id="@id/menu_done" android:title="@string/menu_done" android:alphabeticShortcut="\n" />
+    <item android:icon="@android:drawable/ic_menu_close_clear_cancel" android:id="@id/menu_discard" android:title="@string/menu_doNotSave" android:alphabeticShortcut="q" />
+    <item android:icon="@android:drawable/ic_menu_add" android:id="@id/menu_add" android:title="@string/menu_newContact" />
+    <item android:icon="@android:drawable/ic_menu_delete" android:id="@id/menu_delete" android:title="@string/menu_deleteContact" />
+</menu>

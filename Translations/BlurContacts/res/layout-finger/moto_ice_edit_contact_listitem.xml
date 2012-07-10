@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LinearLayout android:orientation="horizontal" android:paddingLeft="2.0dip" android:paddingRight="2.0dip" android:paddingBottom="8.0dip" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.motorola.contacts.widget.ButtonStyleLinearLayout android:layout_gravity="fill" android:orientation="horizontal" android:id="@android:id/button1" android:background="@drawable/ice_edit_contacts_list_selector" android:focusable="true" android:clickable="true" android:layout_width="fill_parent" android:layout_height="44.0dip" android:layout_weight="1.0">
+        <LinearLayout android:layout_gravity="center_vertical" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_weight="1.0">
+            <TextView android:gravity="center_vertical" android:id="@id/ice_contact_displayname" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginLeft="20.0dip" style="@blur.res:style/Blur.TxtListItemA" />
+        </LinearLayout>
+    </com.motorola.contacts.widget.ButtonStyleLinearLayout>
+    <Button android:layout_gravity="center_vertical" android:id="@id/ice_edit_minus" android:background="@drawable/moto_minus_selector" android:focusable="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_margin="3.0dip" />
+    <Button android:layout_gravity="center_vertical" android:id="@id/ice_edit_minus_confirm" android:background="@android:drawable/btn_default" android:focusable="true" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_margin="3.0dip" android:text="@string/deleteConfirmation_title" />
+</LinearLayout>

@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TextView android:textColor="?android:textColorSecondary" android:id="@id/name" style="@style/AppsFolderGridIcon"
+  xmlns:android="http://schemas.android.com/apk/res/android" />

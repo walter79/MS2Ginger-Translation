@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<PreferenceScreen
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <PreferenceCategory android:layout="@blur.res:layout/preference_title" android:title="@string/pref_email_activesync">
+        <PreferenceScreen android:persistent="false" android:title="@string/title_email_sync_over_wifi_only" android:key="com.motorola.blur.email.pref_email_sync_over_wifi_only" android:summary="@string/summary_email_sync_over_wifi_only">
+            <PreferenceScreen android:persistent="false" android:enabled="false" android:title="@string/title_email_no_email_accounts" android:key="com.motorola.blur.email.pref_email_no_email_accounts" />
+        </PreferenceScreen>
+        <CheckBoxPreference android:persistent="false" android:title="@string/pref_title_data_push" android:key="com.motorola.blur.email.pref_data_push" android:summary="@string/pref_summary_data_push" android:defaultValue="true" />
+        <ListPreference android:persistent="false" android:entries="@array/account_settings_check_frequency_entries" android:title="@string/account_settings_mail_check_frequency_label" android:key="com.motorola.blur.email.pref_email_frequency" android:dialogTitle="@string/account_settings_mail_check_frequency_dialog_label" android:entryValues="@array/account_settings_check_frequency_values" />
+        <PreferenceScreen android:title="@string/pref_title_attachment_auto_download_settings" android:key="attAutoDl_settings" android:summary="@string/pref_summary_attachment_auto_download_settings_off">
+            <intent android:targetPackage="com.motorola.blur.email" android:action="com.motorola.blur.email.SHOW_ATTACHMENT_AUTO_DOWNLOAD" android:targetClass="com.motorola.blur.email.view.SettingsAttachmentAutoDownload" />
+        </PreferenceScreen>
+        <PreferenceScreen android:title="@string/pref_folder_sync_label">
+            <intent android:targetPackage="com.motorola.blur.email" android:action="com.motorola.blur.email.SHOW_FOLDER_SYNC_PREFS" android:targetClass="com.motorola.blur.email.util.FolderSyncSettingsActivity" />
+        </PreferenceScreen>
+    </PreferenceCategory>
+</PreferenceScreen>

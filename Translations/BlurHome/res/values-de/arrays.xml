@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+    <string-array name="apps_group_sort_options">
+        <item>Alphabetisch</item>
+        <item>Häufig verwendet</item>
+        <item>Kürzlich verwendet</item>
+    </string-array>
+    <string-array name="apps_group_name">
+        <item>AT&amp;amp;amp;T-Anwendungen</item>
+        <item>Kommunikation</item>
+        <item>Favoriten</item>
+        <item>Spiele</item>
+        <item>Musik</item>
+        <item>Navigation</item>
+        <item>Bilder und Video</item>
+        <item>Produktivität</item>
+        <item>Soziale Netzwerke</item>
+        <item>T-Mobile-Anwendungen</item>
+        <item>Dienstprogramme</item>
+        <item>Verizon-Anwendungen</item>
+    </string-array>
+</resources>

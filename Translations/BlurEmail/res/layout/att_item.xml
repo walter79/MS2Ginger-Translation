@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LinearLayout android:orientation="horizontal" android:id="@id/att_main_layout" android:background="@blur.res:color/msg_background" style="@style/EmailAttachmentListItem"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="horizontal" android:id="@id/att_item_content" android:focusable="true" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_weight="1.0">
+        <FrameLayout android:paddingRight="@blur.res:dimen/listitem_hspacing" android:layout_width="wrap_content" android:layout_height="wrap_content">
+            <ImageView android:id="@id/att_item_icon" style="@style/EmailAttachmentListImg" />
+            <ImageView android:id="@id/att_item_thumb" style="@style/EmailAttachmentListImg" />
+            <com.motorola.blur.email.attachment.view.AttachmentProgressBar android:id="@id/att_item_progress" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:keepScreenOn="true" />
+        </FrameLayout>
+        <LinearLayout android:layout_gravity="center_vertical" android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_weight="1.0">
+            <TextView android:textSize="16.0sp" android:textColor="@color/black" android:id="@id/att_item_label" style="@blur.res:style/Blur.TxtListItemC" />
+            <TextView android:textColor="@color/black" android:id="@id/att_item_label2" android:visibility="gone" style="@blur.res:style/Blur.TxtListItemC" />
+            <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <TextView android:textColor="@color/black" android:id="@id/att_item_op_prefix_label" android:paddingRight="@blur.res:dimen/listitem_hspacing" android:visibility="gone" style="@blur.res:style/Blur.TxtListItemC" />
+                <TextView android:textColor="@color/black" android:id="@id/att_item_size_label" android:paddingRight="@blur.res:dimen/listitem_hspacing" style="@blur.res:style/Blur.TxtListItemC" />
+                <TextView android:textColor="@color/black" android:gravity="right|center" android:layout_gravity="right|center" android:id="@id/att_item_error_label" style="@blur.res:style/Blur.TxtListItemC" />
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+    <FrameLayout android:layout_gravity="center_vertical" android:id="@id/att_item_savecancel_frame" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content">
+        <ImageButton android:id="@id/att_item_save_button" android:focusable="true" style="@style/EmailAttachmentSaveCancelImg" />
+        <ImageButton android:id="@id/att_item_cancel_button" android:focusable="true" android:visibility="gone" style="@style/EmailAttachmentSaveCancelImg" />
+    </FrameLayout>
+</LinearLayout>

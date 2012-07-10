@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LinearLayout android:orientation="vertical" android:id="@id/suggestion_layout" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:id="@id/suggestions_header_label" android:layout_width="fill_parent" android:layout_height="28.0dip" android:text="@string/moto_favs_header_label" style="\?android:attr/listSeparatorTextViewStyle" />
+    <LinearLayout android:orientation="horizontal" android:id="@id/suggestions" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <LinearLayout android:orientation="vertical" android:id="@id/suggestion1" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_margin="10.0dip" android:layout_weight="1.0">
+            <android.widget.QuickContactBadge android:layout_gravity="center_horizontal" android:id="@id/suggestion_photo1" android:src="@drawable/ic_contact_picture" style="@style/QuicktaskContactBadge" />
+            <TextView android:ellipsize="end" android:gravity="center_horizontal" android:layout_gravity="center_horizontal" android:id="@id/suggestion_name1" android:layout_width="80.0dip" android:layout_height="wrap_content" android:text="@string/starredList" android:singleLine="true" />
+        </LinearLayout>
+        <LinearLayout android:orientation="vertical" android:id="@id/suggestion2" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_margin="10.0dip" android:layout_weight="1.0">
+            <android.widget.QuickContactBadge android:layout_gravity="center_horizontal" android:id="@id/suggestion_photo2" android:src="@drawable/ic_contact_picture" style="@style/QuicktaskContactBadge" />
+            <TextView android:ellipsize="end" android:gravity="center_horizontal" android:layout_gravity="center_horizontal" android:id="@id/suggestion_name2" android:layout_width="80.0dip" android:layout_height="wrap_content" android:text="@string/starredList" android:singleLine="true" />
+        </LinearLayout>
+        <LinearLayout android:orientation="vertical" android:id="@id/suggestion3" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_margin="10.0dip" android:layout_weight="1.0">
+            <android.widget.QuickContactBadge android:layout_gravity="center_horizontal" android:id="@id/suggestion_photo3" android:src="@drawable/ic_contact_picture" style="@style/QuicktaskContactBadge" />
+            <TextView android:ellipsize="end" android:gravity="center_horizontal" android:layout_gravity="center_horizontal" android:id="@id/suggestion_name3" android:layout_width="80.0dip" android:layout_height="wrap_content" android:text="@string/starredList" android:singleLine="true" />
+        </LinearLayout>
+    </LinearLayout>
+    <TextView android:id="@id/favs_header_label" android:layout_width="fill_parent" android:layout_height="28.0dip" android:text="@string/strequentList" style="\?android:attr/listSeparatorTextViewStyle" />
+</LinearLayout>

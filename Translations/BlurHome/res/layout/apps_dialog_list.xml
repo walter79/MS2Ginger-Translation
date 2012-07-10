@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LinearLayout android:id="@id/apps_dialog_root" style="@style/AppsDialogRoot"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <FrameLayout style="@style/AppsDialogTitleParent">
+        <TextView android:id="@id/apps_dialog_title" style="@style/AppsDialogTitle" />
+    </FrameLayout>
+    <FrameLayout style="@style/AppsDialogListParent">
+        <ListView android:id="@id/apps_dialog_list" style="@style/AppsDialogList" />
+    </FrameLayout>
+    <LinearLayout android:id="@id/apps_dialog_button_background" style="@style/AppsDialogButtonBackground">
+        <LinearLayout android:id="@id/apps_dialog_button_parent" style="@style/AppsDialogButtonParent">
+            <Button android:id="@id/apps_dialog_ok" style="@style/AppsDialogButton.Ok" />
+            <ImageView android:id="@id/apps_dialog_button_divider" style="@style/AppsDialogButtonDivider" />
+            <Button android:id="@id/apps_dialog_cancel" style="@style/AppsDialogButton.Cancel" />
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

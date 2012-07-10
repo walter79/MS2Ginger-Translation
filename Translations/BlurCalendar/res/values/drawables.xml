@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+    <item type="drawable" name="APKTOOL_DUMMY_0006">false</item>
+    <item type="drawable" name="APKTOOL_DUMMY_0007">false</item>
+    <item type="drawable" name="APKTOOL_DUMMY_0008">false</item>
+    <item type="drawable" name="APKTOOL_DUMMY_0009">false</item>
+    <item type="drawable" name="APKTOOL_DUMMY_000a">false</item>
+    <item type="drawable" name="APKTOOL_DUMMY_0017">false</item>
+    <item type="drawable" name="APKTOOL_DUMMY_0018">false</item>
+    <item type="drawable" name="APKTOOL_DUMMY_0019">false</item>
+    <item type="drawable" name="APKTOOL_DUMMY_001a">false</item>
+    <item type="drawable" name="APKTOOL_DUMMY_001c">false</item>
+    <item type="drawable" name="APKTOOL_DUMMY_001f">false</item>
+    <item type="drawable" name="APKTOOL_DUMMY_0020">false</item>
+    <item type="drawable" name="APKTOOL_DUMMY_0021">false</item>
+    <item type="drawable" name="APKTOOL_DUMMY_0022">false</item>
+    <item type="drawable" name="APKTOOL_DUMMY_0023">false</item>
+    <item type="drawable" name="APKTOOL_DUMMY_003f">false</item>
+    <item type="drawable" name="APKTOOL_DUMMY_0051">false</item>
+    <item type="drawable" name="APKTOOL_DUMMY_0055">false</item>
+    <item type="drawable" name="APKTOOL_DUMMY_0056">false</item>
+    <item type="drawable" name="APKTOOL_DUMMY_0057">false</item>
+    <item type="drawable" name="APKTOOL_DUMMY_0058">false</item>
+    <item type="drawable" name="APKTOOL_DUMMY_005a">false</item>
+    <item type="drawable" name="APKTOOL_DUMMY_0060">false</item>
+    <item type="drawable" name="APKTOOL_DUMMY_0061">false</item>
+    <item type="drawable" name="agenda_item_declined">#88ffffff</item>
+    <item type="drawable" name="light_gray">#ffb0b0b0</item>
+    <item type="drawable" name="summary_blue">#ff6495ed</item>
+    <item type="drawable" name="availability_list_selected">@color/selection</item>
+    <item type="drawable" name="availability_list_pressed">#ffff0000</item>
+    <item type="drawable" name="availability_list">#ffffffff</item>
+    <item type="drawable" name="black">#ff000000</item>
+    <item type="drawable" name="white">#ffffffff</item>
+    <item type="drawable" name="event_background">@color/event_background</item>
+    <item type="drawable" name="scheduled_meeting_background">#ffb0b0b0</item>
+</resources>

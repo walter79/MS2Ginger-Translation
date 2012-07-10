@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RelativeLayout android:orientation="horizontal" android:background="@com.motorola.android.widget:drawable/header_bkg" android:layout_width="fill_parent" android:layout_height="wrap_content" style="@com.motorola.android.widget:style/Interactive_Titlebar"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/leftIcon" android:visibility="gone" android:layout_width="@dimen/interactive_title_bar_button_width" android:layout_height="@dimen/interactive_title_bar_height" android:src="@blur.res:drawable/ic_dialog_menu_generic" android:layout_alignParentLeft="true" />
+    <Button android:gravity="left|center" android:id="@id/leftButton" android:background="@com.motorola.android.widget:drawable/int_titlebar_btn_bkg" android:paddingLeft="7.0dip" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="@dimen/interactive_title_bar_height" android:singleLine="true" android:drawablePadding="7.0dip" android:layout_weight="1.0" android:layout_toLeftOf="@id/buttonArea3" android:layout_toRightOf="@id/leftIcon" android:layout_alignWithParentIfMissing="true" style="@com.motorola.android.widget:style/Interactive_Titlebar.Button" />
+    <TextView android:textStyle="bold" android:textColor="@android:color/white" android:gravity="center_vertical" android:autoLink="all" android:id="@id/titleDetails" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="@dimen/interactive_title_bar_height" android:layout_marginLeft="10.0dip" style="\?android:attr/textAppearanceMedium" />
+    <LinearLayout android:layout_gravity="right" android:orientation="horizontal" android:id="@id/buttonArea3" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_toLeftOf="@id/buttonArea2">
+        <include android:id="@id/divider3" layout="@layout/title_bar_divider" />
+        <ImageButton android:layout_gravity="center_vertical" android:id="@id/imageButton3" android:background="@com.motorola.android.widget:drawable/int_titlebar_btn_bkg" android:layout_width="@dimen/interactive_title_bar_button_width" android:layout_height="@dimen/interactive_title_bar_height" android:scaleType="centerInside" />
+    </LinearLayout>
+    <LinearLayout android:layout_gravity="right" android:orientation="horizontal" android:id="@id/buttonArea2" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_toLeftOf="@id/buttonArea1">
+        <include android:id="@id/divider2" layout="@layout/title_bar_divider" />
+        <ImageButton android:layout_gravity="center_vertical" android:id="@id/imageButton2" android:background="@com.motorola.android.widget:drawable/int_titlebar_btn_bkg" android:layout_width="@dimen/interactive_title_bar_button_width" android:layout_height="@dimen/interactive_title_bar_height" android:scaleType="centerInside" />
+    </LinearLayout>
+    <LinearLayout android:layout_gravity="right" android:orientation="horizontal" android:id="@id/buttonArea1" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_toLeftOf="@id/edge_right">
+        <include android:id="@id/divider1" layout="@layout/title_bar_divider" />
+        <ImageButton android:layout_gravity="center_vertical" android:id="@id/imageButton1" android:background="@com.motorola.android.widget:drawable/int_titlebar_btn_bkg" android:layout_width="@dimen/interactive_title_bar_button_width" android:layout_height="@dimen/interactive_title_bar_height" android:scaleType="centerInside" />
+    </LinearLayout>
+    <View android:id="@id/edge_right" android:background="@color/divider_left" android:layout_width="1.0px" android:layout_height="@dimen/interactive_title_bar_height" android:layout_alignParentRight="true" />
+</RelativeLayout>

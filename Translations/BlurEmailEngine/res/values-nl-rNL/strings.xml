@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+    <string name="app_name">E-mailengine</string>
+    <string name="truncated_mime_headers_body">-- Bericht is afgekapt. --</string>
+    <string name="no_default_account">Geen standaardaccount voor e-mail</string>
+    <string name="email_send_failure">E-mail verzenden mislukt</string>
+    <string name="new_single_email_ticker_text">%1$s %2$s</string>
+    <string name="new_multi_email_ticker_text">%1$d nieuwe berichten</string>
+    <string name="new_single_email_title_text">%1$s (%2$s)</string>
+    <string name="new_single_email_details_text">%1$s</string>
+    <string name="new_multi_email_title_text">%1$s</string>
+    <string name="new_multi_email_details_text">%1$d nieuwe berichten</string>
+    <string name="new_email_unknown_sender">Onbekende afzender</string>
+    <string name="email_error_send_ticker_text">%1$s bericht niet verzonden</string>
+    <string name="email_error_sync_ticker_text">%1$s accountfout</string>
+    <string name="out_of_office_error_ticker_text">Afwezigheidsfout %1$s</string>
+    <string name="email_error_sending_title_text">%1$s bericht niet verzonden</string>
+    <string name="email_error_sync_title_text">%1$s</string>
+    <string name="email_error_cert_title_text">Ongeldig servercertificaat</string>
+    <string name="email_error_auth_not_provisionable_title_text">Provisioningfout %1$s</string>
+    <string name="out_of_office_title_text">%1$s</string>
+    <string name="email_error_server_error_details_text">Serverfout</string>
+    <string name="email_error_over_quota_details_text">Geen ruimte meer op server</string>
+    <string name="email_error_config_details_text">Configuratiefout serveraccount</string>
+    <string name="email_error_auth_details_text">Verificatiefout</string>
+    <string name="email_error_auth_send_details_text">Verificatiefout bij verzenden</string>
+    <string name="email_error_auth_rcv_details_text">Verificatiefout bij ontvangen</string>
+    <string name="email_error_auth_not_provisionable_details_text">Neem contact op met de serverbeheerder</string>
+    <string name="email_error_cert_details_text">Tikken voor meer informatie</string>
+    <string name="email_error_sending_details_text">Tikken om bericht weer te geven</string>
+    <string name="email_error_connection_details_text">Verbindingsfout</string>
+    <string name="out_of_office_error_details_text">Afwezigheidsfout</string>
+    <string name="eas_device_admin_label">Zakelijke synchronisatie</string>
+    <string name="eas_device_admin_description">Schakelt een serverspecifiek beveiligingsbeleid in</string>
+</resources>

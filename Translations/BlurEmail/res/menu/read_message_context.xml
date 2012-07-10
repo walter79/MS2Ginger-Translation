@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<menu
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:id="@id/READ_MESSAGE_PHONE_MENU">
+        <item android:id="@id/read_message_dial_context_menu_id" android:title="@string/read_message_contextmenu_dial_dot" />
+        <item android:id="@id/read_message_text_context_menu_id" android:title="@string/read_message_contextmenu_text" />
+        <item android:id="@id/read_message_copy_phone_context_menu_id" android:title="@string/read_message_contextmenu_copy_phone_number" />
+        <item android:id="@id/read_message_share_phone_context_menu_id" android:title="@string/read_message_contextmenu_share_phone" />
+        <item android:id="@id/read_message_add_phone_to_contact_context_menu_id" android:title="@blur.res:string/msg_aw_add_to_contacts_menu" />
+        <item android:id="@id/read_message_add_phone_to_existing_contact_context_menu_id" android:title="@blur.res:string/msg_aw_add_to_existing_contacts_menu" />
+    </group>
+    <group android:id="@id/READ_MESSAGE_EMAIL_MENU">
+        <item android:id="@id/read_message_email_context_menu_id" android:title="@string/read_message_contextmenu_send_mail" />
+        <item android:id="@id/read_message_send_text_message_context_menu_id" android:title="@string/read_message_contextmenu_text" />
+        <item android:id="@id/read_message_copy_mail_context_menu_id" android:title="@string/read_message_contextmenu_copy_email" />
+        <item android:id="@id/read_message_share_email_context_menu_id" android:title="@string/read_message_contextmenu_share_email" />
+        <item android:id="@id/read_message_add_email_to_contact_context_menu_id" android:title="@blur.res:string/msg_aw_add_to_contacts_menu" />
+        <item android:id="@id/read_message_add_email_to_existing_contact_context_menu_id" android:title="@blur.res:string/msg_aw_add_to_existing_contacts_menu" />
+    </group>
+    <group android:id="@id/READ_MESSAGE_GEO_MENU">
+        <item android:id="@id/read_message_map_context_menu_id" android:title="@string/read_message_contextmenu_map" />
+        <item android:id="@id/read_message_copy_geo_context_menu_id" android:title="@string/read_message_contextmenu_copy" />
+        <item android:id="@id/read_message_add_geo_to_contact_context_menu_id" android:title="@blur.res:string/msg_aw_add_to_contacts_menu" />
+        <item android:id="@id/read_message_add_geo_to_existing_contact_context_menu_id" android:title="@blur.res:string/msg_aw_add_to_existing_contacts_menu" />
+    </group>
+    <group android:id="@id/READ_MESSAGE_ANCHOR_MENU">
+        <item android:id="@id/read_message_share_link_context_menu_id" android:title="@string/read_message_contextmenu_sharelink" />
+        <item android:id="@id/read_message_copy_link_context_menu_id" android:title="@string/read_message_contextmenu_copylink" />
+    </group>
+    <group android:id="@id/READ_MESSAGE_IMAGE_MENU">
+        <item android:id="@id/read_message_download_context_menu_id" android:title="@string/read_message_contextmenu_download_image" />
+        <item android:id="@id/read_message_view_image_context_menu_id" android:title="@string/read_message_contextmenu_view_image" />
+    </group>
+</menu>

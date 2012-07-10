@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<com.motorola.blur.home.ProfileView android:layout_gravity="center" android:id="@id/profile_view" android:visibility="visible" android:layout_width="fill_parent" android:layout_height="fill_parent" launcher:normalThumbnailBorderColor="@color/panel_preview_normal_border_color" launcher:normalThumbnailBorderThickness="@dimen/panel_preview_normal_border_thickness" launcher:selectedThumbnailBorderColor="@color/panel_preview_current_border_color" launcher:selectedThumbnailBorderThickness="@dimen/panel_preview_selected_border_thickness" launcher:verticalSpacing="@dimen/panel_preview_vert_spacing" launcher:horizontalSpacing="@dimen/panel_preview_horiz_spacing" launcher:paddingTop="@dimen/panel_preview_padding_top" launcher:previewWidth="@dimen/panel_preview_width" launcher:previewHeight="@dimen/panel_preview_height"
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:launcher="http://schemas.android.com/apk/res/com.motorola.blur.home">
+    <com.motorola.blur.home.util.FacetNavView android:layout_gravity="right" android:id="@id/facet_nav_view" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+</com.motorola.blur.home.ProfileView>

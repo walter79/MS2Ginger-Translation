@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<view android:background="@drawable/availability_list_item" android:layout_width="fill_parent" android:layout_height="50.0dip" class="com.android.calendar.availability.MeetingSummaryView"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageButton android:id="@id/details_button" android:background="@drawable/availability_list_item" android:layout_width="60.0dip" android:layout_height="50.0dip" android:src="@drawable/ic_control_info" android:layout_alignParentRight="true" />
+    <View android:id="@id/button_divider" android:background="@drawable/black" android:layout_width="1.0dip" android:layout_height="40.0dip" android:layout_marginTop="6.0dip" android:layout_toLeftOf="@id/details_button" />
+    <ImageButton android:id="@id/ideal_icon" android:background="@null" android:visibility="gone" android:clickable="false" android:layout_width="30.0dip" android:layout_height="45.0dip" android:layout_marginRight="10.0dip" android:src="@blur.res:drawable/button_indicator_finish" android:layout_toLeftOf="@id/button_divider" />
+    <TextView android:textStyle="bold" android:id="@id/line1" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignParentLeft="true" android:layout_alignParentTop="true" style="\?android:attr/textAppearanceMedium" />
+    <TextView android:id="@id/line2" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="-3.0dip" android:layout_below="@id/line1" android:layout_alignParentLeft="true" style="\?android:attr/textAppearanceMedium" />
+    <View android:id="@id/bottom_divider" android:background="@color/calendar_grid_line_horizontal_color" android:layout_width="fill_parent" android:layout_height="1.0dip" android:layout_marginTop="3.0dip" android:layout_marginBottom="3.0dip" android:layout_below="@id/line2" android:layout_alignParentBottom="true" />
+</view>

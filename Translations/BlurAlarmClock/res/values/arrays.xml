@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+    <array name="alarm_set">
+        <item>@string/set_for_less_than_1min</item>
+        <item>@string/set_for_days</item>
+        <item>@string/set_for_hours</item>
+        <item>@string/set_for_days_and_hours</item>
+        <item>@string/set_for_mins</item>
+        <item>@string/set_for_days_and_mins</item>
+        <item>@string/set_for_hours_and_mins</item>
+        <item>@string/set_for_days_and_hours_and_mins</item>
+    </array>
+    <array name="snooze_duration_entries">
+        <item>@string/snooze_duration_5mins</item>
+        <item>@string/snooze_duration_10mins</item>
+        <item>@string/snooze_duration_15mins</item>
+        <item>@string/snooze_duration_20mins</item>
+        <item>@string/snooze_duration_25mins</item>
+        <item>@string/snooze_duration_30mins</item>
+    </array>
+    <string-array name="snooze_duration_values">
+        <item>5</item>
+        <item>10</item>
+        <item>15</item>
+        <item>20</item>
+        <item>25</item>
+        <item>30</item>
+    </string-array>
+    <array name="volume_button_setting_entries">
+        <item>@string/volume_btn_none</item>
+        <item>@string/volume_btn_snooze</item>
+        <item>@string/volume_btn_dismiss</item>
+    </array>
+    <string-array name="volume_button_setting_values">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+    </string-array>
+</resources>

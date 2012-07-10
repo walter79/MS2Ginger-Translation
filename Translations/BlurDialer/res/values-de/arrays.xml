@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+    <string-array name="recent_call_types">
+        <item>Alle Anrufe</item>
+        <item>Verpasste Anrufe</item>
+        <item>Empfangene Anrufe</item>
+        <item>Ausgehende Anrufe</item>
+    </string-array>
+    <string-array name="restriction_recent_call_types">
+        <item>Alle Anrufe</item>
+        <item>Verpasste Anrufe</item>
+        <item>Empfangene Anrufe</item>
+        <item>Ausgehende Anrufe</item>
+        <item>Gesperrte Anrufe</item>
+    </string-array>
+</resources>

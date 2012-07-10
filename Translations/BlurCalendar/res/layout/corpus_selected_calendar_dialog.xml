@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RelativeLayout android:paddingLeft="10.0dip" android:paddingRight="10.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="1.0dip" android:layout_alignParentTop="true"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:id="@id/corpus_selector_frame" android:background="@drawable/corpus_selector_bg" android:paddingLeft="0.0dip" android:paddingTop="20.0dip" android:paddingRight="0.0dip" android:paddingBottom="0.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_below="@id/arrowIconPanel" android:layout_alignParentLeft="true" android:layout_alignParentRight="true">
+        <LinearLayout android:orientation="vertical" android:id="@id/contentPanel" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_weight="1.0">
+            <ListView android:id="@id/calendar_filter_item_list" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+        </LinearLayout>
+        <Button android:id="@id/done_button" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="-4.0dip" android:layout_marginRight="-4.0dip" android:text="@string/done_label" />
+    </LinearLayout>
+    <LinearLayout android:id="@id/arrowIconPanel" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip" android:layout_marginTop="@dimen/interactive_title_bar_height" android:layout_marginBottom="-8.5dip">
+        <ImageView android:id="@id/corpus_selector_arrow" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/corpus_selector_arrow_up" android:layout_alignParentLeft="true" android:layout_alignParentTop="true" />
+    </LinearLayout>
+</RelativeLayout>

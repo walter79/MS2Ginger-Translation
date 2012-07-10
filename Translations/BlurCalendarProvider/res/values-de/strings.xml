@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+    <string name="app_name">Kalender – Speicher</string>
+    <string name="gadget_title">Kalender</string>
+    <string name="no_title_label">(Kein Betreff)</string>
+    <string name="calendar_default_name">Standard</string>
+    <string name="gadget_no_events">Keine Termine in naher Zukunft</string>
+    <string name="calendar_widget_label">Kalender-Widget</string>
+    <string name="setting_description">Wählen Sie aus, aus welchen Kalendern Termine im Widget angezeigt werden</string>
+    <string name="no_calendars_selected">Kalender auswählen</string>
+    <string name="settings_all_calendars">Alle Kalender</string>
+    <string name="loading_agenda">Terminplan wird geladen...</string>
+    <string name="no_meeting_this_week">Keine anstehenden Besprechungen</string>
+    <string name="no_meeting_today">Heute keine Besprechungen</string>
+    <string name="no_calendars_synchronized">Ein \nKalenderkonto hinzufügen</string>
+    <string name="provider_label">Kalender</string>
+    <string name="widget_description">Anstehende Termine</string>
+    <string name="account_type_name">Lokales Kaldenderkonto</string>
+    <string name="local_calendar_display_name">Standardkalender</string>
+    <string name="scratch_calendar_display_name">Neuen Kalender erstellen</string>
+    <string name="settings_local_calendar">Telefonkalender</string>
+</resources>

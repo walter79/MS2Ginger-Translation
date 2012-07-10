@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+    <string-array name="preferences_alert_type_labels">
+        <item>Avviso acustico</item>
+        <item>Notifica in barra di stato</item>
+        <item>Disattivati</item>
+    </string-array>
+    <string-array name="reminder_minutes_labels">
+        <item>0 minuti</item>
+        <item>5 minuti</item>
+        <item>10 minuti</item>
+        <item>15 minuti</item>
+        <item>20 minuti</item>
+        <item>25 minuti</item>
+        <item>30 minuti</item>
+        <item>45 minuti</item>
+        <item>1 ora</item>
+        <item>2 ore</item>
+        <item>3 ore</item>
+        <item>4 ore</item>
+        <item>5 ore</item>
+        <item>6 ore</item>
+        <item>7 ore</item>
+        <item>8 ore</item>
+        <item>9 ore</item>
+        <item>10 ore</item>
+        <item>11 ore</item>
+        <item>12 ore</item>
+        <item>18 ore</item>
+        <item>24 ore</item>
+        <item>2 giorni</item>
+        <item>3 giorni</item>
+        <item>4 giorni</item>
+        <item>1 settimana</item>
+        <item>2 settimane</item>
+    </string-array>
+    <string-array name="preferences_default_reminder_labels">
+        <item>Nessuno</item>
+        <item>0 minuti</item>
+        <item>5 minuti</item>
+        <item>10 minuti</item>
+        <item>15 minuti</item>
+        <item>20 minuti</item>
+        <item>25 minuti</item>
+        <item>30 minuti</item>
+        <item>45 minuti</item>
+        <item>1 ora</item>
+        <item>2 ore</item>
+        <item>3 ore</item>
+        <item>4 ore</item>
+        <item>5 ore</item>
+        <item>6 ore</item>
+        <item>7 ore</item>
+        <item>8 ore</item>
+        <item>9 ore</item>
+        <item>10 ore</item>
+        <item>11 ore</item>
+        <item>12 ore</item>
+        <item>18 ore</item>
+        <item>24 ore</item>
+        <item>2 giorni</item>
+        <item>3 giorni</item>
+        <item>4 giorni</item>
+        <item>1 settimana</item>
+        <item>2 settimane</item>
+    </string-array>
+    <string-array name="preferences_default_reminder_values">
+        <item>-1</item>
+        <item>0</item>
+        <item>5</item>
+        <item>10</item>
+        <item>15</item>
+        <item>20</item>
+        <item>25</item>
+        <item>30</item>
+        <item>45</item>
+        <item>60</item>
+        <item>120</item>
+        <item>180</item>
+        <item>240</item>
+        <item>300</item>
+        <item>360</item>
+        <item>420</item>
+        <item>480</item>
+        <item>540</item>
+        <item>600</item>
+        <item>660</item>
+        <item>720</item>
+        <item>1080</item>
+        <item>1440</item>
+        <item>2880</item>
+        <item>4320</item>
+        <item>5760</item>
+        <item>10080</item>
+        <item>20160</item>
+    </string-array>
+    <string-array name="priority_value_labels">
+        <item>Elevata</item>
+        <item>Normale</item>
+        <item>Bassa</item>
+    </string-array>
+    <string-array name="preferences_key_days_to_delete_tasks_labels">
+        <item>5 giorni</item>
+        <item>10 giorni</item>
+        <item>15 giorni</item>
+        <item>20 giorni</item>
+        <item>25 giorni</item>
+        <item>30 giorni</item>
+        <item>35 giorni</item>
+        <item>40 giorni</item>
+    </string-array>
+    <string-array name="preferences_key_days_to_delete_tasks_values">
+        <item>5</item>
+        <item>10</item>
+        <item>15</item>
+        <item>20</item>
+        <item>25</item>
+        <item>30</item>
+        <item>35</item>
+        <item>40</item>
+    </string-array>
+    <string-array name="completed_percentage_labels">
+        <item>In corso</item>
+        <item>10%</item>
+        <item>20%</item>
+        <item>30%</item>
+        <item>40%</item>
+        <item>50%</item>
+        <item>60%</item>
+        <item>70%</item>
+        <item>80%</item>
+        <item>90%</item>
+        <item>100%</item>
+    </string-array>
+    <string-array name="prefEntries_alerts_vibrateWhen">
+        <item>Sempre</item>
+        <item>Solo se silenzioso</item>
+        <item>Mai</item>
+    </string-array>
+</resources>

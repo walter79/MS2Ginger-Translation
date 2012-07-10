@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+    <dimen name="sizeEditTextDialPad">30.0sp</dimen>
+    <dimen name="sizeTxtKeyPadBtnA">20.0sp</dimen>
+    <dimen name="sizeTxtKeyPadBtnB">9.0sp</dimen>
+    <dimen name="sizeTxtKeyPadBtnB.Symbol">9.0sp</dimen>
+</resources>

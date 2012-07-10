@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout style="@blur.res:style/Blur.TitleBar">
+        <TextView android:id="@id/att_list_title" android:text="@string/attachments" style="@blur.res:style/Blur.TxtTitleBar" />
+    </LinearLayout>
+    <View android:id="@id/header_shadow" android:background="@android:drawable/title_bar_shadow" android:layout_width="fill_parent" android:layout_height="6.0dip" />
+    <ListView android:id="@android:id/list" style="@blur.res:style/Blur.ScrollingList" />
+</LinearLayout>

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+    <string name="unobtainable_number">Numero no está en uso</string>
+    <string name="no_route_destination">Usuario no disponible</string>
+    <string name="op_determined_barring">Usuario no disponible</string>
+    <string name="user_busy">Numero ocupado</string>
+    <string name="no_user_responding">No hay respuesta</string>
+    <string name="no_answer">Usuario no contesta</string>
+    <string name="call_rejected">Usuario no disponible</string>
+    <string name="number_changed">Marcación no disponible</string>
+    <string name="destination_out">Usuario no disponible</string>
+    <string name="facility_rejected">Llamada terminada</string>
+    <string name="normal_unspecified">Llamada terminada</string>
+    <string name="no_circuit_avail">Red ocupada</string>
+    <string name="network_out">Llamada terminada</string>
+    <string name="temporary_failure">Llamada terminada</string>
+    <string name="switching_congestion">Llamada terminada</string>
+    <string name="access_discarded">Llamada terminada</string>
+    <string name="channel_not_avail">Red ocupada</string>
+    <string name="resources_unavailable">Llamada terminada</string>
+    <string name="incoming_barred_cug">Llamada terminada</string>
+    <string name="bearer_not_authorized">Llamada terminada</string>
+    <string name="bearer_not_available">Llamada terminada</string>
+    <string name="service_not_available">Llamada terminada</string>
+    <string name="bearer_not_implemented">Llamada terminada</string>
+    <string name="requested_not_implemented">Llamada terminada</string>
+    <string name="user_not_cug">Llamada terminada</string>
+    <string name="incompatible_destination">Llamada terminada</string>
+    <string name="incorrect_message">Llamada terminada</string>
+    <string name="protocol_error">Llamada terminada</string>
+    <string name="interworking">Llamada terminada</string>
+</resources>

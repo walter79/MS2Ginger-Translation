@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<PreferenceScreen
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <PreferenceCategory android:title="@string/reminder_settings_title">
+        <CheckBoxPreference android:title="@string/preference_persistent_reminders_title" android:key="alarm_in_persistent_mode" android:summary="@string/preference_persistent_reminders_summary" />
+        <ListPreference android:entries="@array/preferences_alert_type_labels" android:title="@string/preferences_alerts_type_title" android:key="preferences_alerts_type" android:defaultValue="@string/preferences_alerts_type_default" android:dialogTitle="@string/preferences_alerts_type_dialog" android:entryValues="@array/preferences_alert_type_values" />
+        <RingtonePreference android:layout="?android:preferenceLayoutChild" android:title="@string/preferences_alerts_ringtone_title" android:key="preferences_alerts_ringtone" android:defaultValue="content://settings/system/notification_sound" android:ringtoneType="notification" />
+        <ListPreference android:entries="@array/prefEntries_alerts_vibrateWhen" android:layout="?android:preferenceLayoutChild" android:title="@string/preferences_alerts_vibrateWhen_title" android:key="preferences_alerts_vibrateWhen" android:summary="@string/preferences_alerts_vibrateWhen_summary" android:defaultValue="@string/prefDefault_alerts_vibrateWhen" android:dialogTitle="@string/prefDialogTitle_vibrateWhen" android:entryValues="@array/prefValues_alerts_vibrateWhen" />
+        <ListPreference android:entries="@array/preferences_default_reminder_labels" android:title="@string/preferences_default_reminder_title" android:key="preferences_default_reminder" android:defaultValue="@string/preferences_default_reminder_default" android:dialogTitle="@string/preferences_default_reminder_dialog" android:entryValues="@array/preferences_default_reminder_values" />
+    </PreferenceCategory>
+    <PreferenceCategory android:title="@string/manage_completed_task_title" />
+    <CheckBoxPreference android:title="@string/preferences_delete_complete_tasks" android:key="preference_auto_delete" android:summary="@string/preferences_delete_complete_tasks_summary" />
+    <ListPreference android:entries="@array/preferences_key_days_to_delete_tasks_labels" android:title="@string/preference_key_days_to_delete_tasks_title" android:key="preference_key_days_to_delete_tasks" android:summary="@string/preference_key_days_to_delete_tasks_summary" android:defaultValue="@string/preference_default_key_days_to_delete_tasks" android:dialogTitle="@string/select_celanup_days" android:entryValues="@array/preferences_key_days_to_delete_tasks_values" />
+</PreferenceScreen>

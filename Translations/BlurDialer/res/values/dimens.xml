@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+    <dimen name="CallControl_vspacing">10.0dip</dimen>
+    <dimen name="sizeEditTextDialPad">30.0sp</dimen>
+    <dimen name="sizeTxtKeyPadBtnA">30.0sp</dimen>
+    <dimen name="sizeTxtKeyPadBtnB">16.0sp</dimen>
+    <dimen name="sizeTxtKeyPadBtnB.Symbol">20.0sp</dimen>
+    <dimen name="CallingButtonHeight">56.0dip</dimen>
+    <dimen name="CallingButtonPadding">14.0dip</dimen>
+</resources>

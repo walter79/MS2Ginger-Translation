@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<view android:padding="10.0dip" android:layout_width="100.0dip" android:layout_height="90.0dip" android:layout_centerVertical="true" class="com.android.calendar.CorpusView"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/source_icon" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="8.0dip" android:layout_marginBottom="2.0dip" android:scaleType="centerInside" android:layout_alignParentLeft="true" android:layout_alignParentTop="true" android:layout_alignParentRight="true" />
+    <TextView android:textSize="13.0dip" android:textColor="@android:color/primary_text_light" android:ellipsize="marquee" android:id="@id/source_label" android:layout_width="wrap_content" android:layout_height="wrap_content" android:singleLine="true" android:layout_below="@id/source_icon" android:layout_alignParentBottom="true" android:layout_centerHorizontal="true" />
+</view>

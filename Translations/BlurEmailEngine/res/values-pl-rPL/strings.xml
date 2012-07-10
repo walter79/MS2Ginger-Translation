@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+    <string name="app_name">Silnik poczty e-mail</string>
+    <string name="truncated_mime_headers_body">-- Wiadomość została skrócona. --</string>
+    <string name="no_default_account">Brak domyślnego konta e-mail</string>
+    <string name="email_send_failure">Wysłanie e-maila nie powiodło się</string>
+    <string name="new_single_email_ticker_text">%1$s %2$s</string>
+    <string name="new_multi_email_ticker_text">%1$d nowych wiadomości</string>
+    <string name="new_single_email_title_text">%1$s (%2$s)</string>
+    <string name="new_single_email_details_text">%1$s</string>
+    <string name="new_multi_email_title_text">%1$s</string>
+    <string name="new_multi_email_details_text">%1$d nowych wiadomości</string>
+    <string name="new_email_unknown_sender">Nadawca nieznany</string>
+    <string name="email_error_send_ticker_text">%1$s wiadomość niewysłana</string>
+    <string name="email_error_sync_ticker_text">%1$s błąd konta</string>
+    <string name="out_of_office_error_ticker_text">%1$s błąd funkcji Poza biurem</string>
+    <string name="email_error_sending_title_text">%1$s wiadomość niewysłana</string>
+    <string name="email_error_sync_title_text">%1$s</string>
+    <string name="email_error_cert_title_text">Niepoprawny certyfikat serwera</string>
+    <string name="email_error_auth_not_provisionable_title_text">%1$s błąd ustawienia uprawnień</string>
+    <string name="out_of_office_title_text">%1$s</string>
+    <string name="email_error_server_error_details_text">Błąd serwera</string>
+    <string name="email_error_over_quota_details_text">Brak miejsca na serwerze</string>
+    <string name="email_error_config_details_text">Błąd konfiguracji konta na serwerze</string>
+    <string name="email_error_auth_details_text">Błąd autoryzacji</string>
+    <string name="email_error_auth_send_details_text">Błąd autoryzacji podczas wysyłania</string>
+    <string name="email_error_auth_rcv_details_text">Błąd autoryzacji podczas odbierania</string>
+    <string name="email_error_auth_not_provisionable_details_text">Skontaktuj się z administratorem serwera</string>
+    <string name="email_error_cert_details_text">Dotknij, aby uzyskać więcej informacji</string>
+    <string name="email_error_sending_details_text">Dotknij, by pokazać wiadomość</string>
+    <string name="email_error_connection_details_text">Błąd połączenia</string>
+    <string name="out_of_office_error_details_text">Błąd funkcji Poza biurem</string>
+    <string name="eas_device_admin_label">Poczta firmowa</string>
+    <string name="eas_device_admin_description">Włącza reguły bezpieczeństwa dla konkretnego serwera</string>
+</resources>

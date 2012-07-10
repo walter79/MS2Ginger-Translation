@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout style="@blur.res:style/Blur.TitleBar">
+        <TextView android:id="@id/msg_title" style="@blur.res:style/Blur.TxtTitleBar" />
+    </LinearLayout>
+    <View android:background="@android:drawable/title_bar_shadow" android:layout_width="fill_parent" android:layout_height="6.0dip" />
+    <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_weight="1.0">
+        <EditText android:gravity="top|left|center" android:id="@id/msg" android:background="@android:drawable/edit_text" android:scrollbars="vertical" android:nextFocusDown="@id/savebutton" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip" android:layout_marginTop="5.0dip" android:layout_marginRight="10.0dip" android:layout_marginBottom="5.0dip" android:minLines="3" android:layout_weight="1.0" android:inputType="textCapSentences|textAutoCorrect|textMultiLine" android:imeOptions="actionDone|flagNoEnterAction" />
+    </LinearLayout>
+    <com.motorola.android.widget.ActionBar android:id="@id/button_bar" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_alignParentBottom="true">
+        <Button android:id="@id/savebutton" android:layout_width="wrap_content" android:layout_height="fill_parent" android:text="@string/save" />
+        <Button android:id="@id/cancelbutton" android:layout_width="wrap_content" android:layout_height="fill_parent" android:text="@string/cancel" />
+    </com.motorola.android.widget.ActionBar>
+</LinearLayout>

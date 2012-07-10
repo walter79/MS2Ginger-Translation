@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.android.calendar.EventAttendeeTitleBar android:id="@id/event_attendee_title_bar" android:layout_width="fill_parent" android:layout_height="wrap_content" layout="@layout/interactive_title_bar" />
+    <ScrollView android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_weight="1.0"
+      xmlns:android="http://schemas.android.com/apk/res/android">
+        <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_alignParentTop="true">
+            <LinearLayout android:orientation="vertical" android:id="@id/event" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="5.0dip" android:layout_weight="1.0">
+                <TextView android:textStyle="bold" android:autoLink="all" android:id="@id/title" android:paddingLeft="3.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" style="\?android:attr/textAppearanceMedium" />
+                <TextView android:textStyle="bold" android:id="@id/when" android:paddingLeft="3.0dip" android:paddingTop="5.0dip" android:paddingBottom="5.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" style="\?android:attr/textAppearanceSmall" />
+                <LinearLayout android:orientation="vertical" android:id="@id/organizer_table" android:layout_width="fill_parent" android:layout_height="fill_parent">
+                    <LinearLayout android:gravity="left|center" android:orientation="vertical" android:background="@android:drawable/dark_header" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                        <TextView android:id="@id/organizer_label_btn" android:layout_marginLeft="10.0dip" android:layout_marginTop="4.0dip" android:layout_marginRight="10.0dip" android:layout_marginBottom="4.0dip" android:text="@string/event_attendee_organizer_label" android:layout_weight="1.0" style="@blur.res:style/Blur.TxtDividerItemA" />
+                    </LinearLayout>
+                    <LinearLayout android:orientation="vertical" android:id="@id/organizer_list" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+                </LinearLayout>
+                <LinearLayout android:orientation="vertical" android:id="@id/all_attendees_expander_container" android:background="@android:drawable/list_selector_background" android:focusable="true" android:clickable="true" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                    <LinearLayout android:orientation="horizontal" android:paddingRight="?android:scrollbarSize" android:layout_width="fill_parent" android:layout_height="wrap_content" android:minHeight="?android:listPreferredItemHeight">
+                        <ImageView android:gravity="center_vertical" android:id="@id/all_attendees_expander_icon" android:paddingLeft="3.0dip" android:layout_width="wrap_content" android:layout_height="fill_parent" android:src="@blur.res:drawable/expander_ic_maximized" />
+                        <TextView android:gravity="center_vertical" android:id="@id/all_attendees_expander_label" android:paddingLeft="4.0dip" android:layout_width="wrap_content" android:layout_height="fill_parent" android:text="@string/event_attendee_details_all_attendees_label" style="\?android:attr/textAppearanceLarge" />
+                    </LinearLayout>
+                    <View android:background="@android:drawable/divider_horizontal_bright" android:layout_width="fill_parent" android:layout_height="1.0dip" />
+                    <TextView android:textSize="16.0sp" android:textColor="#ff498ecc" android:autoLink="all" android:id="@id/all_attendees_list_visible" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="5.0dip" android:text="@string/show_attendee_details" />
+                </LinearLayout>
+                <LinearLayout android:orientation="vertical" android:id="@id/all_attendees_list" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                    <LinearLayout android:orientation="vertical" android:id="@id/attendee_yes_expander_container" android:background="@android:drawable/list_selector_background" android:focusable="true" android:clickable="true" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                        <LinearLayout android:orientation="horizontal" android:paddingRight="?android:scrollbarSize" android:layout_width="fill_parent" android:layout_height="wrap_content" android:minHeight="?android:listPreferredItemHeight">
+                            <ImageView android:gravity="center_vertical" android:id="@id/attendee_yes_expander_icon" android:paddingLeft="3.0dip" android:layout_width="wrap_content" android:layout_height="fill_parent" android:src="@blur.res:drawable/expander_ic_maximized" />
+                            <TextView android:gravity="center_vertical" android:id="@id/attendee_yes_expander_label" android:paddingLeft="4.0dip" android:layout_width="wrap_content" android:layout_height="fill_parent" android:text="@string/event_attendee_details_yes_label" style="\?android:attr/textAppearanceLarge" />
+                        </LinearLayout>
+                        <View android:background="@android:drawable/divider_horizontal_bright" android:layout_width="fill_parent" android:layout_height="1.0dip" />
+                        <TextView android:textSize="16.0sp" android:textColor="#ff498ecc" android:autoLink="all" android:id="@id/attendee_details_yes_visible" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="5.0dip" android:text="@string/show_attendee_details" />
+                    </LinearLayout>
+                    <LinearLayout android:orientation="vertical" android:id="@id/attendee_details_yes_table" android:layout_width="fill_parent" android:layout_height="fill_parent">
+                        <LinearLayout android:orientation="vertical" android:id="@id/required_yes_list" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+                        <LinearLayout android:orientation="vertical" android:id="@id/optional_yes_row_label" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                            <include layout="@layout/event_attendee_section" />
+                        </LinearLayout>
+                        <LinearLayout android:orientation="vertical" android:id="@id/optional_yes_list" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+                    </LinearLayout>
+                    <LinearLayout android:orientation="vertical" android:id="@id/attendee_maybe_expander_container" android:background="@android:drawable/list_selector_background" android:focusable="true" android:clickable="true" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                        <LinearLayout android:orientation="horizontal" android:paddingRight="?android:scrollbarSize" android:layout_width="fill_parent" android:layout_height="wrap_content" android:minHeight="?android:listPreferredItemHeight">
+                            <ImageView android:gravity="center_vertical" android:id="@id/attendee_maybe_expander_icon" android:paddingLeft="3.0dip" android:layout_width="wrap_content" android:layout_height="fill_parent" android:src="@blur.res:drawable/expander_ic_maximized" />
+                            <TextView android:gravity="center_vertical" android:id="@id/attendee_maybe_expander_label" android:paddingLeft="4.0dip" android:layout_width="wrap_content" android:layout_height="fill_parent" android:text="@string/event_attendee_details_maybe_label" style="\?android:attr/textAppearanceLarge" />
+                        </LinearLayout>
+                        <View android:background="@android:drawable/divider_horizontal_bright" android:layout_width="fill_parent" android:layout_height="1.0dip" />
+                        <TextView android:textSize="16.0sp" android:textColor="#ff498ecc" android:autoLink="all" android:id="@id/attendee_details_maybe_visible" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="5.0dip" android:text="@string/show_attendee_details" />
+                    </LinearLayout>
+                    <LinearLayout android:orientation="vertical" android:id="@id/attendee_details_maybe_table" android:layout_width="fill_parent" android:layout_height="fill_parent">
+                        <LinearLayout android:orientation="vertical" android:id="@id/required_maybe_list" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+                        <LinearLayout android:orientation="vertical" android:id="@id/optional_maybe_row_label" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                            <include layout="@layout/event_attendee_section" />
+                        </LinearLayout>
+                        <LinearLayout android:orientation="vertical" android:id="@id/optional_maybe_list" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+                    </LinearLayout>
+                    <LinearLayout android:orientation="vertical" android:id="@id/attendee_no_expander_container" android:background="@android:drawable/list_selector_background" android:focusable="true" android:clickable="true" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                        <LinearLayout android:orientation="horizontal" android:paddingRight="?android:scrollbarSize" android:layout_width="fill_parent" android:layout_height="wrap_content" android:minHeight="?android:listPreferredItemHeight">
+                            <ImageView android:gravity="center_vertical" android:id="@id/attendee_no_expander_icon" android:paddingLeft="3.0dip" android:layout_width="wrap_content" android:layout_height="fill_parent" android:src="@blur.res:drawable/expander_ic_maximized" />
+                            <TextView android:gravity="center_vertical" android:id="@id/attendee_no_expander_label" android:paddingLeft="4.0dip" android:layout_width="wrap_content" android:layout_height="fill_parent" android:text="@string/event_attendee_details_no_label" style="\?android:attr/textAppearanceLarge" />
+                        </LinearLayout>
+                        <View android:background="@android:drawable/divider_horizontal_bright" android:layout_width="fill_parent" android:layout_height="1.0dip" />
+                        <TextView android:textSize="16.0sp" android:textColor="#ff498ecc" android:autoLink="all" android:id="@id/attendee_details_no_visible" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="5.0dip" android:text="@string/show_attendee_details" />
+                    </LinearLayout>
+                    <LinearLayout android:orientation="vertical" android:id="@id/attendee_details_no_table" android:layout_width="fill_parent" android:layout_height="fill_parent">
+                        <LinearLayout android:orientation="vertical" android:id="@id/required_no_list" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+                        <LinearLayout android:orientation="vertical" android:id="@id/optional_no_row_label" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                            <include layout="@layout/event_attendee_section" />
+                        </LinearLayout>
+                        <LinearLayout android:orientation="vertical" android:id="@id/optional_no_list" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+                    </LinearLayout>
+                </LinearLayout>
+                <LinearLayout android:orientation="vertical" android:id="@id/attendee_resource_expander_container" android:background="@android:drawable/list_selector_background" android:focusable="true" android:clickable="true" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                    <LinearLayout android:orientation="horizontal" android:paddingRight="?android:scrollbarSize" android:layout_width="fill_parent" android:layout_height="wrap_content" android:minHeight="?android:listPreferredItemHeight">
+                        <ImageView android:gravity="center_vertical" android:id="@id/attendee_resource_expander_icon" android:paddingLeft="3.0dip" android:layout_width="wrap_content" android:layout_height="fill_parent" android:src="@blur.res:drawable/expander_ic_maximized" />
+                        <TextView android:gravity="center_vertical" android:id="@id/attendee_resource_expander_label" android:paddingLeft="4.0dip" android:layout_width="wrap_content" android:layout_height="fill_parent" android:text="@string/event_attendee_details_resource_label" style="\?android:attr/textAppearanceLarge" />
+                    </LinearLayout>
+                    <View android:background="@android:drawable/divider_horizontal_bright" android:layout_width="fill_parent" android:layout_height="1.0dip" />
+                    <TextView android:textSize="16.0sp" android:textColor="#ff498ecc" android:autoLink="all" android:id="@id/attendee_details_resource_visible" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="5.0dip" android:text="@string/show_attendee_details" />
+                </LinearLayout>
+                <LinearLayout android:orientation="vertical" android:id="@id/attendee_details_resource_table" android:layout_width="fill_parent" android:layout_height="fill_parent">
+                    <LinearLayout android:gravity="left|center" android:orientation="vertical" android:id="@id/resource_no_row_label" android:background="@android:drawable/dark_header" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                        <TextView android:id="@id/organizer_label_btn" android:layout_marginLeft="10.0dip" android:layout_marginTop="4.0dip" android:layout_marginRight="10.0dip" android:layout_marginBottom="4.0dip" android:text="@string/resource_no_label" android:layout_weight="1.0" style="@blur.res:style/Blur.TxtDividerItemA" />
+                    </LinearLayout>
+                    <LinearLayout android:orientation="vertical" android:id="@id/resource_no_list" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+                    <LinearLayout android:gravity="left|center" android:orientation="vertical" android:id="@id/resource_yes_row_label" android:background="@android:drawable/dark_header" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                        <TextView android:id="@id/organizer_label_btn" android:layout_marginLeft="10.0dip" android:layout_marginTop="4.0dip" android:layout_marginRight="10.0dip" android:layout_marginBottom="4.0dip" android:text="@string/resource_yes_label" android:layout_weight="1.0" style="@blur.res:style/Blur.TxtDividerItemA" />
+                    </LinearLayout>
+                    <LinearLayout android:orientation="vertical" android:id="@id/resource_yes_list" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+                    <LinearLayout android:gravity="left|center" android:orientation="vertical" android:id="@id/resource_maybe_row_label" android:background="@android:drawable/dark_header" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                        <TextView android:id="@id/organizer_label_btn" android:layout_marginLeft="10.0dip" android:layout_marginTop="4.0dip" android:layout_marginRight="10.0dip" android:layout_marginBottom="4.0dip" android:text="@string/resource_maybe_label" android:layout_weight="1.0" style="@blur.res:style/Blur.TxtDividerItemA" />
+                    </LinearLayout>
+                    <LinearLayout android:orientation="vertical" android:id="@id/resource_maybe_list" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+                </LinearLayout>
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

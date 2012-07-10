@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+    <style name="QuicktaskContactBadge" parent="@android:style/Widget.QuickContactBadge.WindowSmall">
+        <item name="android:scaleType">centerCrop</item>
+        <item name="android:adjustViewBounds">true</item>
+        <item name="android:cropToPadding">true</item>
+    </style>
+    <style name="QuicktaskGroupBadge" parent="@android:style/Widget.QuickContactBadge.WindowSmall">
+        <item name="android:scaleType">centerCrop</item>
+        <item name="android:adjustViewBounds">true</item>
+        <item name="android:cropToPadding">true</item>
+    </style>
+    <style name="DialtactsTheme" parent="@android:style/Theme.Light">
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowContentOverlay">@null</item>
+    </style>
+    <style name="ContactsSearchTheme" parent="@android:style/Theme.Light.NoTitleBar">
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:windowAnimationStyle">@style/ContactsSearchAnimation</item>
+    </style>
+    <style name="MinusButton">
+        <item name="android:background">@blur.res:drawable/zz_moto_btn_remove_selector</item>
+        <item name="android:contentDescription">@string/description_minus_button</item>
+    </style>
+    <style name="PlusButton">
+        <item name="android:background">@blur.res:drawable/zz_moto_btn_add_selector</item>
+        <item name="android:contentDescription">@string/description_plus_button</item>
+    </style>
+    <style name="MoreButton">
+        <item name="android:background">@null</item>
+        <item name="android:src">@android:drawable/expander_ic_minimized</item>
+    </style>
+    <style name="LessButton">
+        <item name="android:background">@null</item>
+        <item name="android:src">@android:drawable/expander_ic_maximized</item>
+    </style>
+    <style name="TallTitleBarTheme" parent="@android:style/Theme.Light.NoTitleBar">
+        <item name="android:windowContentOverlay">@null</item>
+    </style>
+    <style name="BackgroundOnly">
+        <item name="android:windowBackground">@null</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowIsFloating">true</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:windowAnimationStyle">@null</item>
+        <item name="android:windowNoDisplay">true</item>
+    </style>
+    <style name="FullyTranslucent" parent="@android:style/Theme.Translucent.NoTitleBar">
+        <item name="android:windowContentOverlay">@null</item>
+    </style>
+    <style name="FullyTranslucent.QuickContact" parent="@style/FullyTranslucent">
+        <item name="android:windowAnimationStyle">@style/DummyAnimation</item>
+    </style>
+    <style name="QuickContact">
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:windowFrame">@null</item>
+        <item name="android:windowIsFloating">true</item>
+        <item name="android:windowContentOverlay">@null</item>
+    </style>
+    <style name="QuickContactAboveAnimation">
+        <item name="android:windowEnterAnimation">@anim/quickcontact_above_enter</item>
+        <item name="android:windowExitAnimation">@anim/quickcontact_above_exit</item>
+    </style>
+    <style name="QuickContactBelowAnimation">
+        <item name="android:windowEnterAnimation">@anim/quickcontact_below_enter</item>
+        <item name="android:windowExitAnimation">@anim/quickcontact_below_exit</item>
+    </style>
+    <style name="ContactsSearchAnimation">
+        <item name="android:windowEnterAnimation">@anim/search_bar_enter</item>
+        <item name="android:windowExitAnimation">@anim/search_bar_exit</item>
+    </style>
+    <style name="DummyAnimation">
+        <item name="android:windowExitAnimation">@anim/dummy_animation</item>
+    </style>
+</resources>

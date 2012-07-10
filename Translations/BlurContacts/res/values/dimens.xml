@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+    <dimen name="quickcontact_shadow_horiz">30.0dip</dimen>
+    <dimen name="quickcontact_shadow_vert">37.0dip</dimen>
+    <dimen name="quickcontact_shadow_touch">20.0dip</dimen>
+    <dimen name="edit_photo_size">76.0dip</dimen>
+    <dimen name="tab_height">40.0dip</dimen>
+    <dimen name="account_name_height">25.0dip</dimen>
+    <dimen name="contact_shortcut_frame_width">50.0dip</dimen>
+    <dimen name="contact_shortcut_frame_height">56.0dip</dimen>
+    <dimen name="list_item_padding_top">4.0dip</dimen>
+    <dimen name="list_item_padding_right">11.0dip</dimen>
+    <dimen name="list_item_padding_right_accelerator">7.0dip</dimen>
+    <dimen name="list_item_padding_bottom">4.0dip</dimen>
+    <dimen name="list_item_padding_left">4.0dip</dimen>
+    <dimen name="list_item_gap_between_image_and_text">8.0dip</dimen>
+    <dimen name="list_item_gap_between_label_and_data">5.0dip</dimen>
+    <dimen name="list_item_call_button_padding">14.0dip</dimen>
+    <dimen name="list_item_vertical_divider_margin">5.0dip</dimen>
+    <dimen name="list_item_presence_icon_margin">5.0dip</dimen>
+    <dimen name="list_item_accelerator_presence_icon_margin">10.0dip</dimen>
+    <dimen name="list_item_header_text_width">56.0dip</dimen>
+    <dimen name="moto_list_accelerator_thumb_height">23.0px</dimen>
+    <dimen name="moto_list_accelerator_thumb_width">36.0px</dimen>
+    <dimen name="moto_list_accelerator_highlighter_width">76.0px</dimen>
+    <dimen name="provider_icon_length">40.0dip</dimen>
+    <dimen name="speeddial_bottom_margin">2.0dip</dimen>
+    <dimen name="ice_divider_height">5.0dip</dimen>
+</resources>

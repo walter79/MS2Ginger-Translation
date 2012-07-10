@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+    <string-array name="focus_values">
+        <item>持續</item>
+        <item>自動</item>
+    </string-array>
+    <string-array name="front_focus_values">
+        <item>固定</item>
+    </string-array>
+</resources>

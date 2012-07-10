@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+    <bool name="display_networks_without_number">true</bool>
+</resources>

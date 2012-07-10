@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+    <string name="app_name">行事曆儲存</string>
+    <string name="gadget_title">行事曆</string>
+    <string name="no_title_label">（無主旨）</string>
+    <string name="calendar_default_name">預設值</string>
+    <string name="gadget_no_events">近期沒有行事曆活動</string>
+    <string name="calendar_widget_label">行事曆小工具</string>
+    <string name="setting_description">選擇在小工具中顯示活動的行事曆</string>
+    <string name="no_calendars_selected">選擇行事曆</string>
+    <string name="settings_all_calendars">所有行事曆</string>
+    <string name="loading_agenda">正在載入日程...</string>
+    <string name="no_meeting_this_week">沒有即將舉行的會議</string>
+    <string name="no_meeting_today">今天沒有會議。</string>
+    <string name="no_calendars_synchronized">「新增\n行事曆帳戶」</string>
+    <string name="provider_label">行事曆</string>
+    <string name="widget_description">近期行事曆活動</string>
+    <string name="account_type_name">行事曆本機帳戶</string>
+    <string name="local_calendar_display_name">預設行事曆</string>
+    <string name="scratch_calendar_display_name">臨時行事曆</string>
+    <string name="settings_local_calendar">手機行事曆</string>
+</resources>

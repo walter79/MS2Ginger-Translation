@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+    <string name="unobtainable_number">Número não está em uso</string>
+    <string name="no_route_destination">Usuário indisponível</string>
+    <string name="op_determined_barring">Usuário indisponível</string>
+    <string name="user_busy">Número ocupado</string>
+    <string name="no_user_responding">Não há resposta</string>
+    <string name="no_answer">Usuário não responde</string>
+    <string name="call_rejected">Usuário indisponível</string>
+    <string name="number_changed">Número indisponível</string>
+    <string name="destination_out">Usuário indisponível</string>
+    <string name="facility_rejected">Ligação finalizada</string>
+    <string name="normal_unspecified">Ligação finalizada</string>
+    <string name="no_circuit_avail">Rede ocupada</string>
+    <string name="network_out">Ligação finalizada</string>
+    <string name="temporary_failure">Ligação finalizada</string>
+    <string name="switching_congestion">Ligação finalizada</string>
+    <string name="access_discarded">Ligação finalizada</string>
+    <string name="channel_not_avail">Rede ocupada</string>
+    <string name="resources_unavailable">Ligação finalizada</string>
+    <string name="incoming_barred_cug">Ligação finalizada</string>
+    <string name="bearer_not_authorized">Ligação finalizada</string>
+    <string name="bearer_not_available">Ligação finalizada</string>
+    <string name="service_not_available">Ligação finalizada</string>
+    <string name="bearer_not_implemented">Ligação finalizada</string>
+    <string name="requested_not_implemented">Ligação finalizada</string>
+    <string name="user_not_cug">Ligação finalizada</string>
+    <string name="incompatible_destination">Ligação finalizada</string>
+    <string name="incorrect_message">Ligação finalizada</string>
+    <string name="protocol_error">Ligação finalizada</string>
+    <string name="interworking">Ligação finalizada</string>
+</resources>

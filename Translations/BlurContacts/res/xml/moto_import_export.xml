@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<PreferenceScreen
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <Preference android:title="@string/moto_help_importing_contacts" android:key="moto_import_help" />
+    <PreferenceCategory android:title="@string/moto_import_contacts_from" android:key="moto_import_pre" />
+    <PreferenceCategory android:title="@string/moto_export_contacts_to" android:key="moto_export_pre" />
+</PreferenceScreen>

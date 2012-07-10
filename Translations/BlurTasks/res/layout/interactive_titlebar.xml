@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LinearLayout android:orientation="horizontal" android:background="@com.motorola.android.widget:drawable/header_bkg" android:layout_width="fill_parent" android:layout_height="wrap_content" style="@com.motorola.android.widget:style/Interactive_Titlebar"
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:moto.res="http://schemas.android.com/apk/res/com.motorola.android.widget">
+    <Button android:gravity="left|center" android:id="@id/int_titlebar_label" android:background="@com.motorola.android.widget:drawable/int_titlebar_btn_bkg" android:paddingLeft="10.0dip" android:clickable="false" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_weight="1.0" style="@com.motorola.android.widget:style/Interactive_Titlebar.Button" />
+    <ImageView android:id="@id/int_titlebar_divider1" android:background="@com.motorola.android.widget:drawable/header_divider" android:visibility="gone" android:layout_width="4.0dip" android:layout_height="fill_parent" />
+    <ImageButton android:id="@id/int_titlebar_button1" android:background="@com.motorola.android.widget:drawable/int_titlebar_btn_bkg" android:visibility="gone" android:layout_width="@dimen/interative_title_button_space" android:layout_height="fill_parent" />
+    <ImageView android:id="@id/int_titlebar_divider2" android:background="@com.motorola.android.widget:drawable/header_divider" android:visibility="gone" android:layout_width="4.0dip" android:layout_height="fill_parent" />
+    <ImageButton android:id="@id/int_titlebar_button2" android:background="@com.motorola.android.widget:drawable/int_titlebar_btn_bkg" android:visibility="gone" android:layout_width="@dimen/interative_title_button_space" android:layout_height="fill_parent" />
+    <ImageView android:id="@id/int_titlebar_divider3" android:background="@com.motorola.android.widget:drawable/header_divider" android:visibility="gone" android:layout_width="4.0dip" android:layout_height="fill_parent" />
+    <CheckBox android:id="@id/int_titlebar_checkbox" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_marginLeft="10.0dip" android:layout_marginRight="10.0dip" style="\?android:attr/starStyle" />
+</LinearLayout>

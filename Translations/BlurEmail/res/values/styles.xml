@@ -1,0 +1,297 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+    <style name="Theme" parent="@android:style/Theme.Light" />
+    <style name="Theme.BlurEmail" parent="@style/Theme">
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:textColor">#ff000000</item>
+    </style>
+    <style name="Theme.BlurEmail.WithTitle" parent="@style/Theme.BlurEmail">
+        <item name="android:windowNoTitle">false</item>
+        <item name="android:textColor">#ff000000</item>
+    </style>
+    <style name="Theme.BlurEmailFloat" parent="@style/Theme.BlurEmail">
+        <item name="android:windowIsFloating">true</item>
+    </style>
+    <style name="Theme.UnreadSender" parent="@style/Theme">
+        <item name="android:textSize">18.0sp</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+    <style name="Theme.ReadSender" parent="@style/Theme">
+        <item name="android:textSize">18.0sp</item>
+    </style>
+    <style name="Theme.MessagePreview" parent="@style/Theme">
+        <item name="android:textSize">12.0sp</item>
+    </style>
+    <style name="Theme.BlurEmail.Dialog" parent="@android:style/Theme.Dialog">
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:textColor">#ff000000</item>
+    </style>
+    <style name="Theme.BlurEmail.DialogTitle" parent="@style/Theme.BlurEmail.Dialog">
+        <item name="android:windowNoTitle">false</item>
+        <item name="android:windowTitleStyle">@style/Theme.BlurEmailDialogTitle</item>
+    </style>
+    <style name="Theme.BlurEmailDialogTitle" parent="@style/Theme">
+        <item name="android:textSize">18.0sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">#ffffffff</item>
+    </style>
+    <style name="ComposeScreenAttachmentsContainer">
+        <item name="android:orientation">vertical</item>
+        <item name="android:background">@color/black</item>
+        <item name="android:paddingTop">4.0dip</item>
+        <item name="android:paddingBottom">4.0dip</item>
+        <item name="android:visibility">gone</item>
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+    <style name="ComposeScrollView">
+        <item name="android:fadingEdge">none</item>
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">fill_parent</item>
+        <item name="android:fillViewport">true</item>
+        <item name="android:layout_weight">1.0</item>
+    </style>
+    <style name="ReadScrollView">
+        <item name="android:fadingEdge">none</item>
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">fill_parent</item>
+        <item name="android:fillViewport">true</item>
+        <item name="android:layout_weight">1.0</item>
+    </style>
+    <style name="EMLViewerTextView">
+        <item name="android:textColor">@color/black</item>
+        <item name="android:layout_marginLeft">@dimen/eml_left_margin</item>
+    </style>
+    <style name="ReadExpandItem">
+        <item name="android:gravity">center</item>
+        <item name="android:layout_gravity">center</item>
+        <item name="android:background">@color/white</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">@dimen/expander_size</item>
+    </style>
+    <style name="ReadExpandItem.Badge" parent="@style/ReadExpandItem">
+        <item name="android:gravity">center</item>
+        <item name="android:layout_gravity">center</item>
+        <item name="android:paddingRight">10.0dip</item>
+        <item name="android:layout_height">fill_parent</item>
+        <item name="android:layout_marginTop">0.0dip</item>
+    </style>
+    <style name="TxtViewAttachments">
+        <item name="android:textSize">16.0sp</item>
+        <item name="android:textColor">@color/black</item>
+        <item name="android:layout_gravity">left|center</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+    <style name="TxtReadMessageHeaderLabel" parent="@blur.res:style/Blur.TxtFormItemA">
+        <item name="android:textColor">@color/black</item>
+        <item name="android:gravity">right</item>
+        <item name="android:layout_gravity">right</item>
+        <item name="android:paddingLeft">5.0dip</item>
+        <item name="android:paddingRight">3.0dip</item>
+    </style>
+    <style name="TxtReadMessageSenderLabel" parent="@blur.res:style/Blur.TxtFormItemA">
+        <item name="android:textColor">@color/black</item>
+        <item name="android:gravity">left</item>
+        <item name="android:layout_gravity">left</item>
+        <item name="android:paddingRight">3.0dip</item>
+    </style>
+    <style name="TxtReadMessageTimestamp" parent="@blur.res:style/Blur.TxtTimestampFull">
+        <item name="android:textSize">@dimen/sender_timestamp_text_size</item>
+    </style>
+    <style name="ReadSectionHPadding">
+        <item name="android:paddingLeft">@dimen/unified_left_spacing</item>
+        <item name="android:paddingRight">5.0dip</item>
+    </style>
+    <style name="ReadBodySectionHPadding">
+        <item name="android:paddingLeft">7.0dip</item>
+        <item name="android:paddingRight">5.0dip</item>
+    </style>
+    <style name="ReadMsgStatusImg">
+        <item name="android:gravity">top</item>
+        <item name="android:layout_gravity">top</item>
+        <item name="android:layout_width">@dimen/unified_left_spacing</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+    <style name="EmailReadAddressingSection">
+        <item name="android:gravity">center_vertical</item>
+        <item name="android:paddingLeft">@dimen/unified_left_spacing</item>
+        <item name="android:paddingTop">5.0dip</item>
+        <item name="android:paddingRight">7.0dip</item>
+        <item name="android:paddingBottom">5.0dip</item>
+    </style>
+    <style name="EmailReadAddressingSection.NoExtraPadding" parent="@style/EmailReadAddressingSection">
+        <item name="android:paddingLeft">0.0dip</item>
+        <item name="android:paddingTop">0.0dip</item>
+        <item name="android:paddingRight">0.0dip</item>
+        <item name="android:paddingBottom">0.0dip</item>
+    </style>
+    <style name="EmailReadAddressingSection.GravityTop" parent="@style/EmailReadAddressingSection">
+        <item name="android:gravity">top</item>
+    </style>
+    <style name="EmailReadAddressingSection.SendTo" parent="@style/EmailReadAddressingSection">
+        <item name="android:paddingTop">0.0dip</item>
+        <item name="android:paddingBottom">2.0dip</item>
+    </style>
+    <style name="EmailReadBadgeSection">
+        <item name="android:gravity">center_vertical</item>
+        <item name="android:paddingLeft">0.0dip</item>
+        <item name="android:paddingTop">0.0dip</item>
+        <item name="android:paddingRight">3.0dip</item>
+    </style>
+    <style name="EmailAttachmentListItem">
+        <item name="android:paddingTop">3.0dip</item>
+        <item name="android:paddingRight">3.0dip</item>
+        <item name="android:paddingBottom">3.0dip</item>
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+    <style name="EmailAttachmentListImg">
+        <item name="android:gravity">left|center</item>
+        <item name="android:layout_gravity">left|center</item>
+        <item name="android:layout_width">@dimen/ic_list_thumb_size</item>
+        <item name="android:layout_height">@dimen/ic_list_thumb_size</item>
+        <item name="android:scaleType">centerCrop</item>
+    </style>
+    <style name="EmailAttachmentSaveCancelImg" parent="@blur.res:style/Blur.Btn">
+        <item name="android:gravity">right|center</item>
+        <item name="android:layout_gravity">right|center</item>
+        <item name="android:layout_width">@dimen/ic_list_thumb_size</item>
+        <item name="android:layout_height">@dimen/ic_list_thumb_size</item>
+        <item name="android:scaleType">centerCrop</item>
+    </style>
+    <style name="Theme.WhiteScreen" parent="@blur.res:style/Theme.Blur.Light.NoGradientRid">
+        <item name="android:windowBackground">@color/white</item>
+    </style>
+    <style name="OOFLinearLayout">
+        <item name="android:gravity">center_vertical</item>
+        <item name="android:background">@android:drawable/list_selector_background</item>
+        <item name="android:paddingRight">?android:scrollbarSize</item>
+        <item name="android:focusable">true</item>
+        <item name="android:clickable">true</item>
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:minHeight">?android:listPreferredItemHeight</item>
+    </style>
+    <style name="OOFEditLinearLayout">
+        <item name="android:gravity">center_vertical</item>
+        <item name="android:background">@android:drawable/edit_text</item>
+        <item name="android:focusable">true</item>
+        <item name="android:fadingEdge">none</item>
+        <item name="android:clickable">true</item>
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">fill_parent</item>
+        <item name="android:minHeight">?android:listPreferredItemHeight</item>
+        <item name="android:fillViewport">true</item>
+    </style>
+    <style name="OOFRelativeLayout">
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginLeft">10.0dip</item>
+        <item name="android:layout_marginTop">6.0dip</item>
+        <item name="android:layout_marginRight">0.0dip</item>
+        <item name="android:layout_marginBottom">6.0dip</item>
+        <item name="android:layout_weight">1.0</item>
+    </style>
+    <style name="OOFListItemTitle">
+        <item name="android:textAppearance">?android:textAppearanceLarge</item>
+        <item name="android:ellipsize">marquee</item>
+        <item name="android:gravity">top|left|center</item>
+        <item name="android:layout_gravity">left|center</item>
+        <item name="android:fadingEdge">horizontal</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:singleLine">true</item>
+    </style>
+    <style name="OOFListItemSummary">
+        <item name="android:textAppearance">?android:textAppearanceSmall</item>
+        <item name="android:gravity">top|left|center</item>
+        <item name="android:layout_gravity">left|center</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:maxLines">3</item>
+    </style>
+    <style name="OOFListItem">
+        <item name="android:textAppearance">?android:textAppearanceMedium</item>
+        <item name="android:ellipsize">marquee</item>
+        <item name="android:gravity">top|left|center</item>
+        <item name="android:layout_gravity">left|center</item>
+        <item name="android:fadingEdge">horizontal</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginLeft">15.0dip</item>
+        <item name="android:layout_marginTop">6.0dip</item>
+        <item name="android:layout_marginRight">0.0dip</item>
+        <item name="android:layout_marginBottom">6.0dip</item>
+        <item name="android:singleLine">true</item>
+    </style>
+    <style name="OOFEditText">
+        <item name="android:textColor">@color/black</item>
+        <item name="android:gravity">center</item>
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginLeft">15.0dip</item>
+        <item name="android:layout_marginRight">0.0dip</item>
+    </style>
+    <style name="OOFCheckBox">
+        <item name="android:layout_gravity">center_vertical</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+    <style name="OOFSeparator">
+        <item name="android:layout_gravity">center_vertical</item>
+        <item name="android:background">@blur.res:drawable/dialog_divider_horizontal_light</item>
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">2.0dip</item>
+    </style>
+    <style name="ConversationDetailsTitleText">
+        <item name="android:textColor">@color/light_yellow</item>
+        <item name="android:ellipsize">end</item>
+        <item name="android:maxLines">2</item>
+    </style>
+    <style name="ViewTypeTitleText">
+        <item name="android:textSize">14.0sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:gravity">center_vertical</item>
+        <item name="android:background">@drawable/arrange_unread_header</item>
+        <item name="android:paddingLeft">5.0dip</item>
+        <item name="android:singleLine">true</item>
+    </style>
+    <style name="AddressCardStyle">
+        <item name="android:windowEnterAnimation">@anim/address_card_enter</item>
+        <item name="android:windowExitAnimation">@anim/address_card_exit</item>
+    </style>
+    <style name="DialogFullScreen">
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowFullscreen">true</item>
+    </style>
+    <style name="SubjectSeparatorStyle">
+        <item name="android:background">@android:drawable/divider_horizontal_bright</item>
+        <item name="android:visibility">visible</item>
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">1.0dip</item>
+    </style>
+    <style name="AddressesSummaryStyle">
+        <item name="android:textSize">14.0sp</item>
+        <item name="android:textColor">@color/addresses_summary_color</item>
+        <item name="android:ellipsize">end</item>
+        <item name="android:gravity">center_vertical</item>
+        <item name="android:layout_gravity">center_vertical</item>
+        <item name="android:paddingLeft">0.0dip</item>
+        <item name="android:paddingRight">5.0dip</item>
+        <item name="android:paddingBottom">0.0dip</item>
+        <item name="android:visibility">visible</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:singleLine">true</item>
+        <item name="android:layout_weight">1.0</item>
+    </style>
+    <style name="UndoBarStyle">
+        <item name="android:textSize">@dimen/undo_message_text_size</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:layout_marginRight">10.0dip</item>
+    </style>
+</resources>

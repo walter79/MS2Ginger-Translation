@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<menu
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:icon="@drawable/ic_menu_move_msg" android:id="@id/read_message_menu_move" android:title="@string/menu_move" android:alphabeticShortcut="m" />
+    <item android:icon="@blur.res:drawable/ic_menu_unread" android:id="@id/read_message_menu_mark_unread" android:title="@string/mark_unread" android:alphabeticShortcut="r" />
+    <item android:icon="@blur.res:drawable/ic_menu_read" android:id="@id/read_message_menu_mark_read" android:title="@string/mark_read" android:alphabeticShortcut="r" />
+    <item android:icon="@blur.res:drawable/ic_menu_flag" android:id="@id/read_message_menu_flag" android:title="@blur.res:string/menu_flag" android:alphabeticShortcut="f" />
+    <item android:icon="@blur.res:drawable/ic_menu_unflag" android:id="@id/read_message_menu_unflag" android:title="@blur.res:string/menu_unflag" android:alphabeticShortcut="f" />
+    <item android:icon="@drawable/ic_menu_save" android:id="@id/read_message_menu_save" android:title="@string/save_email" android:alphabeticShortcut="s" />
+</menu>

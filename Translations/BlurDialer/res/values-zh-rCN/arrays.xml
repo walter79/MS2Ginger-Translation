@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+    <string-array name="recent_call_types">
+        <item>所有通话</item>
+        <item>未接电话</item>
+        <item>已接来电</item>
+        <item>外拨电话</item>
+    </string-array>
+    <string-array name="restriction_recent_call_types">
+        <item>所有通话</item>
+        <item>未接电话</item>
+        <item>已接来电</item>
+        <item>外拨电话</item>
+        <item>拦截电话</item>
+    </string-array>
+</resources>

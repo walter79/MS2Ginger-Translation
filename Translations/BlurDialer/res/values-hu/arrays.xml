@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+    <string-array name="recent_call_types">
+        <item>Összes hívások</item>
+        <item>Nem fogadott hívások</item>
+        <item>Bejövő hívások</item>
+        <item>Kimenő hívások</item>
+    </string-array>
+    <string-array name="restriction_recent_call_types">
+        <item>Összes hívások</item>
+        <item>Nem fogadott hívások</item>
+        <item>Bejövő hívások</item>
+        <item>Kimenő hívások</item>
+        <item>Blokkolt hívások</item>
+    </string-array>
+    <string-array name="voice_quality_ui_values">
+        <item>Normal</item>
+        <item>Tiszta</item>
+        <item>Recsegő</item>
+        <item>Éles</item>
+    </string-array>
+</resources>

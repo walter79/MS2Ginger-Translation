@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+    <public type="drawable" name="empty" id="0x7f020000" />
+    <public type="layout" name="email_status_bar_1" id="0x7f030000" />
+    <public type="layout" name="main" id="0x7f030001" />
+    <public type="xml" name="eas_device_admin" id="0x7f040000" />
+    <public type="raw" name="constants" id="0x7f050000" />
+    <public type="string" name="app_name" id="0x7f060000" />
+    <public type="string" name="possible_imap_sent_folders" id="0x7f060001" />
+    <public type="string" name="possible_imap_trash_folders" id="0x7f060002" />
+    <public type="string" name="gmail_imap_sent_folder" id="0x7f060003" />
+    <public type="string" name="gmail_imap_trash_folder" id="0x7f060004" />
+    <public type="string" name="truncated_mime_headers_body" id="0x7f060005" />
+    <public type="string" name="no_default_account" id="0x7f060006" />
+    <public type="string" name="email_send_failure" id="0x7f060007" />
+    <public type="string" name="new_single_email_ticker_text" id="0x7f060008" />
+    <public type="string" name="new_multi_email_ticker_text" id="0x7f060009" />
+    <public type="string" name="new_single_email_title_text" id="0x7f06000a" />
+    <public type="string" name="new_single_email_details_text" id="0x7f06000b" />
+    <public type="string" name="new_multi_email_title_text" id="0x7f06000c" />
+    <public type="string" name="new_multi_email_details_text" id="0x7f06000d" />
+    <public type="string" name="new_email_unknown_sender" id="0x7f06000e" />
+    <public type="string" name="email_error_send_ticker_text" id="0x7f06000f" />
+    <public type="string" name="email_error_sync_ticker_text" id="0x7f060010" />
+    <public type="string" name="out_of_office_error_ticker_text" id="0x7f060011" />
+    <public type="string" name="email_error_sending_title_text" id="0x7f060012" />
+    <public type="string" name="email_error_sync_title_text" id="0x7f060013" />
+    <public type="string" name="email_error_cert_title_text" id="0x7f060014" />
+    <public type="string" name="email_error_auth_not_provisionable_title_text" id="0x7f060015" />
+    <public type="string" name="out_of_office_title_text" id="0x7f060016" />
+    <public type="string" name="email_error_server_error_details_text" id="0x7f060017" />
+    <public type="string" name="email_error_over_quota_details_text" id="0x7f060018" />
+    <public type="string" name="email_error_config_details_text" id="0x7f060019" />
+    <public type="string" name="email_error_auth_details_text" id="0x7f06001a" />
+    <public type="string" name="email_error_auth_send_details_text" id="0x7f06001b" />
+    <public type="string" name="email_error_auth_rcv_details_text" id="0x7f06001c" />
+    <public type="string" name="email_error_auth_not_provisionable_details_text" id="0x7f06001d" />
+    <public type="string" name="email_error_cert_details_text" id="0x7f06001e" />
+    <public type="string" name="email_error_sending_details_text" id="0x7f06001f" />
+    <public type="string" name="email_error_connection_details_text" id="0x7f060020" />
+    <public type="string" name="out_of_office_error_details_text" id="0x7f060021" />
+    <public type="string" name="conversation_subject_strip_prefixes" id="0x7f060022" />
+    <public type="string" name="eas_device_admin_label" id="0x7f060023" />
+    <public type="string" name="eas_device_admin_description" id="0x7f060024" />
+    <public type="id" name="email_status" id="0x7f070000" />
+    <public type="id" name="time" id="0x7f070001" />
+</resources>

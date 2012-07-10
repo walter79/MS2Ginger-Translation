@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<PreferenceScreen android:title="@string/pref_folder_sync_screen_label"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <PreferenceCategory android:layout="@blur.res:layout/preference_title" android:title="@string/pref_folder_sync_screen_label" android:key="com.motorola.blur.email.pref_default_sync_account" />
+    <PreferenceCategory android:layout="@blur.res:layout/preference_title" android:title="@string/pref_folder_sync_synchronization_title" android:key="com.motorola.blur.email.pref_default_sync_title" />
+    <ListPreference android:persistent="false" android:entries="@array/pref_sync_amount_entries" android:title="@string/pref_default_sync_amount_label" android:key="com.motorola.blur.email.pref_default_sync_amount" android:dialogTitle="@string/pref_default_sync_amount_dialog_label" android:entryValues="@array/pref_sync_amount_values" />
+    <PreferenceCategory android:layout="@blur.res:layout/preference_title" android:title="@string/pref_folder_sync_folders_title" />
+    <com.motorola.blur.email.util.FolderSyncDialogPreference android:persistent="false" android:title="@string/pref_folder_sync_prefs_label" android:key="com.motorola.blur.email.pref_inbox_sync_prefs" android:dialogTitle="@string/pref_folder_sync_prefs_dialog_label" android:dialogLayout="@layout/folder_sync_pref_dialog" />
+</PreferenceScreen>

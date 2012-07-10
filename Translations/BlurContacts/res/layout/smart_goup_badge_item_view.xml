@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="100.0dip" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.motorola.contacts.widget.QuickGroupBadge android:layout_gravity="center" android:id="@id/sg_badge_group_icon" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="5.0dip" android:src="@blur.res:drawable/ic_thb_smart_group" android:scaleType="fitXY" style="@style/QuicktaskGroupBadge" />
+    <TextView android:gravity="center" android:layout_gravity="center" android:id="@id/sg_badge_group_name" android:layout_width="wrap_content" android:layout_height="wrap_content" android:singleLine="true" />
+</LinearLayout>

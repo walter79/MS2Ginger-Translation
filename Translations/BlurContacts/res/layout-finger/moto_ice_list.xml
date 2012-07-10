@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="horizontal" style="@blur.res:style/Blur.TitleBar"
+      xmlns:android="http://schemas.android.com/apk/res/android">
+        <TextView android:textSize="14.0sp" android:textStyle="bold" android:textColor="?android:textColorPrimaryInverse" android:gravity="left|center" android:layout_gravity="left|center" android:id="@id/titlebar_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/ice_home_title" />
+    </LinearLayout>
+    <ListView android:id="@android:id/list" android:layout_width="fill_parent" android:layout_height="wrap_content" android:divider="@color/iceListDividerColor" android:dividerHeight="@dimen/ice_divider_height" />
+</LinearLayout>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+    <string-array name="recent_call_types">
+        <item>Όλες οι κλήσεις</item>
+        <item>Αναπάντητες κλήσεις</item>
+        <item>Εισερχόμενες κλήσεις</item>
+        <item>Εξερχόμενες κλήσεις</item>
+    </string-array>
+    <string-array name="restriction_recent_call_types">
+        <item>Όλες οι κλήσεις</item>
+        <item>Αναπάντητες κλήσεις</item>
+        <item>Εισερχόμενες κλήσεις</item>
+        <item>Εξερχόμενες κλήσεις</item>
+        <item>Φραγή κλήσεων</item>
+    </string-array>
+</resources>

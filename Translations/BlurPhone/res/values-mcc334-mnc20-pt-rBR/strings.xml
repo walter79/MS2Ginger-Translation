@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+    <string name="unobtainable_number">Número indisponível (%1$02d)</string>
+    <string name="no_route_destination">Usuário indisponível (%1$02d)</string>
+    <string name="op_determined_barring">Usuário indisponível (%1$02d)</string>
+    <string name="user_busy">Usuário ocupado</string>
+    <string name="no_user_responding">Usuário não responde (%1$02d)</string>
+    <string name="no_answer">Usuário não responde (%1$02d)</string>
+    <string name="call_rejected">Usuário indisponível (%1$02d)</string>
+    <string name="number_changed">Número indisponível (%1$02d)</string>
+    <string name="destination_out">Usuário indisponível (%1$02d)</string>
+    <string name="facility_rejected">Ligação finalizada (%1$02d)</string>
+    <string name="normal_unspecified">Ligação finalizada (%1$02d)</string>
+    <string name="no_circuit_avail">Ligação finalizada (%1$02d)</string>
+    <string name="network_out">Ligação finalizada (%1$02d)</string>
+    <string name="temporary_failure">Ligação finalizada (%1$02d)</string>
+    <string name="switching_congestion">Ligação finalizada (%1$02d)</string>
+    <string name="access_discarded">Ligação finalizada (%1$02d)</string>
+    <string name="channel_not_avail">Ligação finalizada (%1$02d)</string>
+    <string name="resources_unavailable">Ligação finalizada (%1$02d)</string>
+    <string name="incoming_barred_cug">Ligação finalizada (%1$02d)</string>
+    <string name="bearer_not_authorized">Ligação finalizada (%1$02d)</string>
+    <string name="bearer_not_available">Ligação finalizada (%1$02d)</string>
+    <string name="service_not_available">Ligação finalizada (%1$02d)</string>
+    <string name="bearer_not_implemented">Ligação finalizada (%1$02d)</string>
+    <string name="requested_not_implemented">Ligação finalizada (%1$02d)</string>
+    <string name="user_not_cug">Ligação finalizada (%1$02d)</string>
+    <string name="incompatible_destination">Ligação finalizada (%1$02d)</string>
+    <string name="incorrect_message">Ligação finalizada (%1$02d)</string>
+    <string name="protocol_error">Ligação finalizada (%1$02d)</string>
+    <string name="interworking">Ligação finalizada (%1$02d)</string>
+</resources>

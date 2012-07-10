@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+    <string name="app_name">Választó</string>
+    <string name="separator">,</string>
+    <string name="downloaded_apps">Letöltött alkalmazások</string>
+    <string name="social_network_photo_sharing">Fénykép megosztás</string>
+    <string name="social_network_video_sharing">Videó megosztás</string>
+    <string name="social_network_mixed_sharing">Fénykép &amp; Videó megosztás</string>
+</resources>

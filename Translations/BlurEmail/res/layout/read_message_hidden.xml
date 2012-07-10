@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LinearLayout android:orientation="vertical" android:id="@id/read_message_hidden" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ScrollView android:id="@id/read_hidden_scroller" android:scrollbarFadeDuration="0" style="@style/ReadScrollView"
+      xmlns:android="http://schemas.android.com/apk/res/android">
+        <LinearLayout android:orientation="vertical" android:id="@id/address_view_container" android:visibility="visible" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_weight="1.0">
+            <ViewStub android:id="@id/read_hidden_header_box_stub" android:layout="@layout/read_message_hidden_header" android:inflatedId="@id/read_hidden_header_box" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+        </LinearLayout>
+    </ScrollView>
+    <com.motorola.android.widget.ActionBar android:id="@id/read_message_hidden_bottom" android:focusable="true" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <Button android:id="@id/save_group_btn" android:layout_width="wrap_content" android:layout_height="fill_parent" android:text="@string/save_group" style="@blur.res:style/Blur.Btn" />
+        <Button android:id="@id/done_btn" android:visibility="visible" android:layout_width="wrap_content" android:layout_height="fill_parent" android:text="@string/done_label" style="@blur.res:style/Blur.Btn" />
+    </com.motorola.android.widget.ActionBar>
+</LinearLayout>

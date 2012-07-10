@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<menu
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:icon="@blur.res:drawable/sym_action_add" android:id="@id/moto_menu_group_edit_add_member" android:title="@string/moto_menu_group_edit_add_member" />
+    <item android:icon="@blur.res:drawable/sym_action_email" android:id="@id/moto_menu_group_edit_edit_email_list" android:title="@string/moto_menu_group_edit_edit_email_list" />
+    <item android:icon="@blur.res:drawable/sym_action_message" android:id="@id/moto_menu_group_edit_edit_texting_list" android:title="@string/moto_menu_group_edit_edit_texting_list" />
+    <item android:icon="@blur.res:drawable/sym_action_remove" android:id="@id/moto_menu_group_send_edit_delete_group" android:title="@string/moto_menu_group_send_edit_delete_group" />
+</menu>

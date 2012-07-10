@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+    <string name="app_name">Wybór</string>
+    <string name="separator">,</string>
+    <string name="downloaded_apps">Pobrane aplikacje</string>
+    <string name="social_network_photo_sharing">Udostępnianie zdjęć</string>
+    <string name="social_network_video_sharing">Udostępnianie filmów</string>
+    <string name="social_network_mixed_sharing">Udostępnianie zdjęć i filmów</string>
+</resources>

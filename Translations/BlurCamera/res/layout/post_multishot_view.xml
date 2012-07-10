@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RelativeLayout android:id="@id/rootLayout" android:background="@drawable/menu_cam_popup_bg" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <GridView android:gravity="center" android:id="@id/postmultishotGrid" android:padding="10.0dip" android:layoutAnimation="@anim/layout_grid_fade" android:layout_width="fill_parent" android:layout_height="fill_parent" android:horizontalSpacing="20.0dip" android:verticalSpacing="20.0dip" android:stretchMode="columnWidth" android:columnWidth="60.0dip" android:numColumns="3"
+      xmlns:android="http://schemas.android.com/apk/res/android" />
+    <TextView android:textSize="17.0sp" android:textColor="#ffffffff" android:gravity="center_horizontal" android:id="@id/mpost_toast" android:padding="5.0px" android:visibility="visible" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/postTouch" android:layout_alignParentBottom="true" android:layout_centerInParent="true" android:layout_centerHorizontal="true" />
+</RelativeLayout>

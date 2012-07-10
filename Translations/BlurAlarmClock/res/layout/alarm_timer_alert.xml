@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LinearLayout android:id="@id/timerRunningView" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <FrameLayout android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <SurfaceView android:id="@id/video" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+        <LinearLayout android:orientation="vertical" android:id="@id/bgview" android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <LinearLayout android:gravity="center" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_weight="1.0">
+                <View android:layout_width="fill_parent" android:layout_height="1.0dip" android:layout_weight="2.0" />
+                <TextView android:id="@id/alarm_timer_label" android:layout_width="wrap_content" android:layout_height="wrap_content" android:verticalSpacing="@dimen/AlarmEventVspacing" style="@style/BigTitleTxt" />
+                <TextView android:id="@id/digitalClock" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/BigTimeTxt" />
+                <View android:layout_width="fill_parent" android:layout_height="1.0dip" android:layout_weight="3.0" />
+            </LinearLayout>
+            <com.motorola.android.widget.ActionBar android:id="@id/abwidget" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_alignParentBottom="true" />
+        </LinearLayout>
+    </FrameLayout>
+</LinearLayout>

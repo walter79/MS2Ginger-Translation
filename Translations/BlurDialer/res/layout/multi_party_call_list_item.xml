@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LinearLayout android:orientation="horizontal" android:id="@id/multiPartyCallAdapterHandle" android:background="@drawable/transparentBg" android:layout_width="fill_parent" android:layout_height="wrap_content" android:minHeight="?android:listPreferredItemHeight"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="horizontal" android:id="@id/callerDetail" android:background="@android:drawable/list_selector_background" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_weight="0.9">
+        <com.motorola.dialer.DontPressWithParentQuickContactBadge android:layout_gravity="center_vertical" android:id="@id/multiPartyCallerPhoto" android:layout_marginLeft="5.0dip" android:layout_marginTop="5.0dip" android:layout_marginBottom="5.0dip" android:layout_alignParentLeft="true" style="@android:style/Widget.QuickContactBadge.WindowSmall" />
+        <LinearLayout android:gravity="center_vertical" android:orientation="vertical" android:layout_width="1.0dip" android:layout_height="fill_parent" android:layout_marginLeft="5.0dip" android:layout_weight="1.0">
+            <TextView android:gravity="top" android:id="@id/multiPartyCallerName" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="5.0dip" android:layout_marginRight="2.0dip" style="@style/Contacts.TxtListItemA.SingleLine" />
+            <TextView android:gravity="bottom" android:id="@id/multiPartyCallerNumber" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_marginRight="2.0dip" android:layout_marginBottom="5.0dip" style="@style/Contacts.TxtListItemB.SingleLine" />
+        </LinearLayout>
+    </LinearLayout>
+    <ImageView android:layout_width="2.0px" android:layout_height="55.0dip" android:layout_marginTop="5.0dip" android:layout_marginBottom="5.0dip" android:src="@blur.res:drawable/divider_vertical_list_item" android:scaleType="fitXY" />
+    <com.motorola.dialer.DontPressWithParentImageView android:gravity="center_vertical" android:id="@id/call_icon" android:background="@android:drawable/list_selector_background" android:paddingLeft="@dimen/CallingButtonPadding" android:paddingRight="@dimen/CallingButtonPadding" android:layout_width="wrap_content" android:layout_height="fill_parent" android:src="@android:drawable/sym_action_call" />
+</LinearLayout>

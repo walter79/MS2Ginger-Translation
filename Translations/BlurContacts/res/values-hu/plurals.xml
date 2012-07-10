@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+    <plurals name="groupDescrip">
+        <item quantity="other">%0$d kapcsolat</item>
+    </plurals>
+    <plurals name="groupDescripPhones">
+        <item quantity="other">%1$d kapcsolat, %2$d a telefonon</item>
+    </plurals>
+    <plurals name="listTotalPhoneContacts">
+        <item quantity="other">Megmutat %1$d kapcsolatot a telefonszámukkal</item>
+        <item quantity="one">Megmutat 1 kapcsolatot a telefonszámával</item>
+    </plurals>
+    <plurals name="listTotalAllContacts">
+        <item quantity="other">Megmutat %1$d kapcsolatot</item>
+        <item quantity="one">Megmutat 1 kapcsolatot</item>
+    </plurals>
+    <plurals name="listFoundAllContacts">
+        <item quantity="other">Találtam %1$d kapcsolatot</item>
+        <item quantity="one">Találtam 1 kapcsolatot</item>
+    </plurals>
+    <plurals name="searchFoundContacts">
+        <item quantity="other">%1$d kapcsolatot</item>
+        <item quantity="one">1 kapcsolatot</item>
+    </plurals>
+</resources>

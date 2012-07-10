@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:background="@android:drawable/list_selector_background" android:layout_width="fill_parent" android:layout_height="?android:listPreferredItemHeight"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <View android:id="@id/color" android:layout_width="10.0dip" android:layout_height="fill_parent" />
+    <CheckBox android:id="@id/checkbox" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="4.0dip" android:layout_marginRight="4.0dip" />
+    <LinearLayout android:gravity="center_vertical" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginLeft="4.0dip"
+      xmlns:android="http://schemas.android.com/apk/res/android">
+        <TextView android:textColor="#ff000000" android:id="@id/calendar" android:layout_width="fill_parent" android:layout_height="wrap_content" style="\?android:attr/textAppearanceMedium" />
+        <TextView android:textAppearance="?android:textAppearanceSmall" android:textColor="#ff000000" android:id="@id/account" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+    </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,218 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+    <string-array name="voice_quality_ui_values">
+        <item>Normal</item>
+        <item>Limpar</item>
+        <item>Nítido</item>
+        <item>Brilho</item>
+    </string-array>
+    <string-array name="recent_call_types">
+        <item>Todas as ligações</item>
+        <item>Ligações perdidas</item>
+        <item>Ligações recebidas</item>
+        <item>Ligações feitas</item>
+    </string-array>
+    <string-array name="vq_list_items">
+        <item>Padrão</item>
+        <item>Balanceado</item>
+        <item>Brilho</item>
+        <item>Extra brilho</item>
+    </string-array>
+    <string-array name="vq_list_substrings">
+        <item>Confortável e nítida. Sintonização tradicional.</item>
+        <item>Nítida e clara. Mais usado.</item>
+        <item>A voz parece mais alta.</item>
+        <item>A voz chega até você. Menos usado.</item>
+    </string-array>
+    <string-array name="caller_id_display_values">
+        <item>Somente tocar</item>
+        <item>Identificar chamada e depois tocar</item>
+        <item>Repetir identificação de chamada</item>
+    </string-array>
+    <string-array name="caller_id_values">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+    </string-array>
+    <string-array name="equal_Service_Number">
+        <item>*86</item>
+        <item>611</item>
+        <item>*611</item>
+        <item>\#611</item>
+        <item>411</item>
+        <item>*411</item>
+        <item>\#411</item>
+    </string-array>
+    <string-array name="clir_display_values">
+        <item>Rede padrão</item>
+        <item>Ocultar número</item>
+        <item>Exibir número</item>
+    </string-array>
+    <string-array name="clir_values">
+        <item>PADRÃO</item>
+        <item>OCULTAR</item>
+        <item>EXIBIR</item>
+    </string-array>
+    <string-array name="tty_display_values">
+        <item>TTY completo</item>
+        <item>TTY + falar (VCO)</item>
+        <item>TTY + ouvir (HCO)</item>
+        <item>TTY desligado (Padrão)</item>
+    </string-array>
+    <string-array name="tty_values">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+    </string-array>
+    <string-array name="select_network_display_values">
+        <item>Somente 2G\neconomizar bateria</item>
+        <item>Somente 3G\nmelhor desempenho</item>
+        <item>Automático\nPadrão</item>
+    </string-array>
+    <string-array name="select_network_values">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+    </string-array>
+    <string-array name="preferred_network_mode_choices">
+        <item>Global</item>
+        <item>Somente EvDo</item>
+        <item>CDMA sem EvDo</item>
+        <item>CDMA / EvDo automático</item>
+        <item>GSM / WCDMA automático</item>
+        <item>Somente WCDMA</item>
+        <item>Somente GSM</item>
+        <item>GSM / WCDMA favorito</item>
+    </string-array>
+    <string-array name="preferred_network_mode_values">
+        <item>7</item>
+        <item>6</item>
+        <item>5</item>
+        <item>4</item>
+        <item>3</item>
+        <item>2</item>
+        <item>1</item>
+        <item>0</item>
+    </string-array>
+    <string-array name="preferred_network_mode_choices_d2we_34387">
+        <item>Global</item>
+        <item>CDMA</item>
+        <item>GSM/UMTS</item>
+    </string-array>
+    <string-array name="preferred_network_mode_values_d2we_34387">
+        <item>7</item>
+        <item>4</item>
+        <item>0</item>
+    </string-array>
+    <string-array name="preferred_network_mode_choices_lte">
+        <item>Global</item>
+        <item>CDMA</item>
+    </string-array>
+    <string-array name="preferred_network_mode_values_lte">
+        <item>7</item>
+        <item>4</item>
+    </string-array>
+    <string-array name="select_network_display_values_34387">
+        <item>Somente GSM\nEconomiza bateria</item>
+        <item>Somente UMTS\nMelhor desempenho</item>
+        <item>Automático\nPadrão</item>
+    </string-array>
+    <string-array name="list_language_entries">
+        <item>Inglês</item>
+        <item>Francês</item>
+        <item>Espanhol</item>
+        <item>Japonês</item>
+        <item>Coreano</item>
+        <item>Chinês</item>
+        <item>Hebraico</item>
+    </string-array>
+    <string-array name="list_language_values">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+    </string-array>
+    <string-array name="gsm_umts_network_preferences_choices">
+        <item>GSM/WCDMA (modo automático)</item>
+        <item>Somente WCDMA</item>
+        <item>Somente GSM</item>
+        <item>GSM/WCDA (preferencialmente WCDMA)</item>
+    </string-array>
+    <string-array name="gsm_umts_network_preferences_values">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+    </string-array>
+    <string-array name="cdma_system_select_choices">
+        <item>Somente local</item>
+        <item>Automático</item>
+    </string-array>
+    <string-array name="cdma_rm_system_select_choices">
+        <item>Somente local</item>
+        <item>Automático A</item>
+        <item>Automático B</item>
+    </string-array>
+    <string-array name="cdma_roaming_mode_choices">
+        <item>Somente redes locais</item>
+        <item>Redes afiliadas</item>
+        <item>Qualquer rede</item>
+    </string-array>
+    <string-array name="cdma_roaming_mode_values">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+    </string-array>
+    <string-array name="cdma_network_preferences_choices">
+        <item>CDMA/EvDo</item>
+        <item>Somente CDMA</item>
+        <item>Somente EvDo</item>
+    </string-array>
+    <string-array name="cdma_network_preferences_values">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+    </string-array>
+    <string-array name="cdma_subscription_choices">
+        <item>RUIM/SIM</item>
+        <item>NV</item>
+    </string-array>
+    <string-array name="cdma_subscription_values">
+        <item>0</item>
+        <item>1</item>
+    </string-array>
+    <string-array name="tty_mode_entries">
+        <item>TTY Desligado</item>
+        <item>TTY Cheio</item>
+        <item>HCO de TTY</item>
+        <item>VCO de TTY</item>
+    </string-array>
+    <string-array name="dtmf_tone_entries">
+        <item>Normal</item>
+        <item>Longo</item>
+    </string-array>
+    <string-array name="entries_voicemail_choose_vmvvm">
+        <item>Correio de voz</item>
+        <item>Correio de voz visual</item>
+        <item>Sempre perguntar</item>
+    </string-array>
+    <string-array name="entry_values_voicemail_choose_vmvvm">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+    </string-array>
+    <string-array name="entries_vvm_roaming_prompt">
+        <item>Correio de voz</item>
+        <item>Correio de voz visual</item>
+        <item>Sempre perguntar</item>
+    </string-array>
+    <string-array name="entry_values_vvm_roaming_prompt">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+    </string-array>
+</resources>

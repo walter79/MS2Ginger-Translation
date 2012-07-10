@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TextView android:textStyle="bold" android:textColor="?android:textColorSecondary" android:id="@id/date" android:background="@color/agenda_day_bar_color" android:padding="4.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" />

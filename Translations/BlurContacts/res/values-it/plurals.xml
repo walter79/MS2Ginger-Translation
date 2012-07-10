@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+    <plurals name="groupDescrip">
+        <item quantity="other">%0$d contatti</item>
+    </plurals>
+    <plurals name="groupDescripPhones">
+        <item quantity="other">%1$d contatti, %2$d con numeri di telefono</item>
+    </plurals>
+    <plurals name="listTotalPhoneContacts">
+        <item quantity="other">Visualizzazione di %1$d contatti con numeri di telefono</item>
+        <item quantity="one">1 contatto con numero di telefono visualizzato</item>
+    </plurals>
+    <plurals name="listTotalAllContacts">
+        <item quantity="other">Visualizzazione di %1$d contatti</item>
+        <item quantity="one">1 contatto visualizzato</item>
+    </plurals>
+    <plurals name="listFoundAllContacts">
+        <item quantity="other">Trovati %1$d contatti</item>
+        <item quantity="one">1 contatto trovato</item>
+    </plurals>
+    <plurals name="searchFoundContacts">
+        <item quantity="other">%1$d contatti</item>
+        <item quantity="one">1 contatto</item>
+    </plurals>
+</resources>

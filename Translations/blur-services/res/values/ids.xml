@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+    <item type="id" name="CurrentCloud">false</item>
+    <item type="id" name="CloudListScrollView">false</item>
+    <item type="id" name="CloudList">false</item>
+    <item type="id" name="CancelButton">false</item>
+    <item type="id" name="result">false</item>
+</resources>

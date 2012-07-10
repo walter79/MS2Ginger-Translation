@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+    <string name="app_name">Motor de correo</string>
+    <string name="truncated_mime_headers_body">-- El mensaje fue truncado. --</string>
+    <string name="no_default_account">No hay cuenta de correo predeterminada</string>
+    <string name="email_send_failure">Envío de correo fallido</string>
+    <string name="new_single_email_ticker_text">%1$s %2$s</string>
+    <string name="new_multi_email_ticker_text">%1$d mensajes nuevos</string>
+    <string name="new_single_email_title_text">%1$s (%2$s)</string>
+    <string name="new_single_email_details_text">%1$s</string>
+    <string name="new_multi_email_title_text">%1$s</string>
+    <string name="new_multi_email_details_text">%1$d mensajes nuevos</string>
+    <string name="new_email_unknown_sender">Remitente desconocido</string>
+    <string name="email_error_send_ticker_text">%1$s mensaje no enviado</string>
+    <string name="email_error_sync_ticker_text">%1$s error de cuenta</string>
+    <string name="out_of_office_error_ticker_text">%1$s error de fuera de la oficina</string>
+    <string name="email_error_sending_title_text">%1$s mensaje no enviado</string>
+    <string name="email_error_sync_title_text">%1$s</string>
+    <string name="email_error_cert_title_text">Certificado de servidor inválido</string>
+    <string name="email_error_auth_not_provisionable_title_text">%1$s error de aprovisionamiento</string>
+    <string name="out_of_office_title_text">%1$s</string>
+    <string name="email_error_server_error_details_text">Error de servidor</string>
+    <string name="email_error_over_quota_details_text">Sin espacio en servidor</string>
+    <string name="email_error_config_details_text">Error de configuración de cuenta de servidor</string>
+    <string name="email_error_auth_details_text">Error de autenticación</string>
+    <string name="email_error_auth_send_details_text">Error de autenticación de envío</string>
+    <string name="email_error_auth_rcv_details_text">Error de autenticación de recepción</string>
+    <string name="email_error_auth_not_provisionable_details_text">Contacta al admin. del servidor</string>
+    <string name="email_error_cert_details_text">Presiona para más información</string>
+    <string name="email_error_sending_details_text">Toca para ver mensaje</string>
+    <string name="email_error_connection_details_text">Error de conexión</string>
+    <string name="out_of_office_error_details_text">Error de fuera de la oficina</string>
+    <string name="eas_device_admin_label">Sincr. empresa</string>
+    <string name="eas_device_admin_description">Habilita las políticas de seguridad especificadas por el servidor</string>
+</resources>

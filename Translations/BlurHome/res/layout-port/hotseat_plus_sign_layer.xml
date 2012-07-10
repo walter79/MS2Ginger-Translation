@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LinearLayout android:orientation="horizontal" android:paddingBottom="@dimen/hotseat_nav_height" android:visibility="gone"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:src="@drawable/ic_homescreen_hotseat_drop_spot" style="@style/HotSeatDrop.Portrait" />
+    <ImageView android:src="@drawable/ic_homescreen_hotseat_drop_spot" style="@style/HotSeatDrop.Portrait" />
+    <ImageView android:src="@drawable/ic_homescreen_hotseat_drop_spot" style="@style/HotSeatDrop.Portrait" />
+    <ImageView style="@style/HotSeatDrop.Portrait" />
+</LinearLayout>

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RelativeLayout android:id="@id/compose_root" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ScrollView android:id="@id/scrolling_area" android:background="@color/white" android:fadingEdge="none" android:layout_width="fill_parent" android:layout_height="fill_parent" android:fillViewport="true" android:layout_above="@id/bottom_area">
+        <LinearLayout android:orientation="vertical" android:id="@id/scrollable_widgets" android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <LinearLayout android:orientation="vertical" android:id="@id/title_bar" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <LinearLayout style="@blur.res:style/Blur.TitleBar">
+                    <TextView android:id="@id/account_label" android:layout_weight="1.0" style="@blur.res:style/Blur.TxtTitleBar" />
+                </LinearLayout>
+                <View android:id="@id/title_shadow" android:background="@android:drawable/title_bar_shadow" android:layout_width="fill_parent" android:layout_height="6.0dip" />
+            </LinearLayout>
+            <view android:id="@id/compose_header" android:layout_width="fill_parent" android:layout_height="wrap_content" class="com.motorola.blur.email.compose.ComposeHeader" />
+            <com.motorola.blur.email.view.richtext.edit.RichTextBackground android:layout_width="fill_parent" android:layout_height="fill_parent">
+                <view android:id="@id/body_field" android:layout_width="fill_parent" android:layout_height="fill_parent" android:capitalize="sentences" android:autoText="true" class="com.motorola.blur.email.view.richtext.edit.BlurRichTextEdit" />
+            </com.motorola.blur.email.view.richtext.edit.RichTextBackground>
+            <include android:id="@id/loading_original_body_progress" layout="@blur.res:layout/msg_load_progress_bottom" />
+            <WebView android:autoLink="all" android:id="@id/original_body_field" android:focusable="true" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+        </LinearLayout>
+    </ScrollView>
+    <LinearLayout android:orientation="vertical" android:id="@id/bottom_area" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_alignParentBottom="true">
+        <view android:id="@id/format_toolbar" android:layout_width="fill_parent" android:layout_height="wrap_content" class="com.motorola.blur.email.view.richtext.toolbar.ToolbarMainView" />
+        <com.motorola.android.widget.ActionBar android:id="@id/buttons_row" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_alignParentBottom="true">
+            <Button android:id="@id/send_button" android:layout_width="wrap_content" android:layout_height="fill_parent" android:text="@string/send_label" />
+            <Button android:id="@id/save_to_drafts_button" android:layout_width="wrap_content" android:layout_height="fill_parent" android:text="@string/save_to_drafts_label" />
+            <Button android:id="@id/discard_button" android:layout_width="wrap_content" android:layout_height="fill_parent" android:text="@string/discard_label" />
+        </com.motorola.android.widget.ActionBar>
+    </LinearLayout>
+</RelativeLayout>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LinearLayout android:orientation="horizontal" android:background="@android:drawable/list_selector_background" android:focusable="false" android:layout_width="fill_parent" android:layout_height="wrap_content" style="@blur.res:style/Blur.ListItem"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:layout_gravity="center_vertical" android:id="@id/group_confirm_list_item_imageview" android:layout_width="60.0dip" android:layout_height="60.0dip" />
+    <LinearLayout android:layout_gravity="center_vertical" android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="5.0dip" android:layout_weight="1.0">
+        <TextView android:textAppearance="?android:textAppearanceMedium" android:textStyle="bold" android:id="@id/group_confirm_list_item_text_primary" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+        <TextView android:textAppearance="?android:textAppearanceSmall" android:ellipsize="end" android:id="@id/group_confirm_list_item_text_secondary" android:layout_width="fill_parent" android:layout_height="wrap_content" android:lines="1" style="\?android:style/TextAppearance.Medium" />
+    </LinearLayout>
+    <ImageView android:layout_gravity="center_vertical" android:id="@id/group_confirm_list_item_icon_secondary" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+</LinearLayout>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+    <string name="app_name">Social Messaging-Dienst</string>
+    <string name="new_single_snmessage_ticker_text">%1$s %2$s</string>
+    <string name="new_multi_snmessage_ticker_text">%1$d neue Nachrichten</string>
+    <string name="new_single_snmessage_title_text">%1$s (%2$s)</string>
+    <string name="new_single_snmessage_details_text">%1$s</string>
+    <string name="new_multi_snmessage_title_text">%1$s</string>
+    <string name="new_multi_snmessage_details_text">%1$d neue Nachrichten</string>
+    <string name="snmessage_sync_error_ticker_text">%1$s Kontofehler</string>
+    <string name="snmessage_send_error_ticker_text">%1$s Nachricht nicht gesendet</string>
+    <string name="snmessage_sync_error_title_text">%1$s</string>
+    <string name="snmessage_send_error_title_text">%1$s Nachricht nicht gesendet</string>
+    <string name="snmessage_sync_auth_error_details_text">Authentifizierungsfehler</string>
+    <string name="snmessage_sync_connection_error_details_text">Verbindungsfehler</string>
+    <string name="snmessage_send_error_details_text">Zum Anzeigen der Nachricht antippen</string>
+</resources>
