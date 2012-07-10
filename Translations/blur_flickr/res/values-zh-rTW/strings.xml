@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+    <string name="app_name">Flickr 驗證器</string>
+    <string name="display_name">Flickr</string>
+    <string name="options_display_name">Flickr 選項</string>
+</resources>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+    <string name="app_name">Εφέ ήχου πολυμέσων</string>
+    <string name="pref_wired_stereo_device_title">Ενσύρματες στερεοφωνικές συσκευές</string>
+    <string name="pref_stereo_speaker_title">Ηχεία τηλεφώνου</string>
+    <string name="pref_mono_speaker_title">Ηχείο τηλεφώνου</string>
+    <string name="pref_device_connected">Συνδέθηκε</string>
+    <string name="pref_effect_enable_title">Ενεργοποίηση ηχητικών εφέ</string>
+    <string name="pref_effect_category">Ρυθμίσεις εφέ</string>
+    <string name="pref_headset_effect_title">Προφίλ εφέ</string>
+    <string name="pref_speaker_effect_title">Προφίλ εφέ</string>
+    <string name="pref_mono_effect_title">Προφίλ εφέ</string>
+    <string name="pref_effect_dialog_title">Προφίλ εφέ</string>
+    <string name="pref_surround_title">Περιφερειακός ήχος</string>
+    <string name="pref_surround_dialog_title">Περιφερειακός ήχος</string>
+    <string name="pref_equalizer_title">Ισοσταθμιστής</string>
+    <string name="pref_equalizer_dialog_title">Ισοσταθμιστής</string>
+    <string name="pref_effect_custom_item">Προσαρμοσμένο</string>
+</resources>

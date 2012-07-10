@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+    <string name="app_name">BluetoothDun</string>
+    <string name="hide_button_label">Nascondi</string>
+    <string name="disconnect_button_label">Disconnetti</string>
+    <string name="status_title_label">Condivisione Internet</string>
+    <string name="status_device_label">Dispositivo:</string>
+    <string name="status_time_elapsed_label">Tempo trascorso:</string>
+    <string name="status_status_label">Stato:</string>
+    <string name="status_active_label">Attivo</string>
+    <string name="notification_dun_label">Condivisione Internet</string>
+    <string name="notification_dun_description">Seleziona per disconnettere</string>
+    <string name="dun_acceptance_dialog_label">Accettazione connessione DUN in entrata</string>
+    <string name="dun_acceptance_dialog_title">Richiesta condivisione Internet</string>
+    <string name="dun_acceptance_dialog_content">Consenti a %s di accedere al servizio di condivisione Internet?</string>
+    <string name="dun_acceptance_dialog_checkbox">Consenti sempre?</string>
+    <string name="alert_dialog_yes">Sì</string>
+    <string name="alert_dialog_no">No</string>
+    <string name="dun_reject">Modem occupato. Altra sessione DUN attiva.</string>
+    <string name="map_app_name">Mappa Bluetooth</string>
+    <string name="map_acceptance_dialog_title">%1$s vuole accedere ai Messaggi. Consenti l\'accesso a %2$s?</string>
+    <string name="map_acceptance_dialog_header">Profilo accesso messaggi</string>
+    <string name="map_acceptance_timeout_message">Timeout dell\'accettazione della connessione con %1$s</string>
+    <string name="map_bluetooth_transfer_text">Impossibile impostare la condivisione messaggi con</string>
+    <string name="map_toast_connected">%1$s può ora accedere ai messaggi</string>
+    <string name="map_toast_disconnected">%1$s ha perso l\'accesso ai messaggio</string>
+    <string name="alwaysallowed">Sempre consentito?</string>
+    <string name="defaultname">Kit auto</string>
+    <string name="map_notif_ticker">Richiesta accesso ai messaggi</string>
+    <string name="map_notif_title">Richiesta MAP</string>
+    <string name="map_notif_message">Consenti a %1$s di accedere ai messaggi</string>
+</resources>

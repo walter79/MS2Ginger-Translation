@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+    <string name="app_name">Effets audio des médias</string>
+    <string name="pref_wired_stereo_device_title">Appareils stéréo filaires</string>
+    <string name="pref_stereo_speaker_title">Haut-parleurs du téléphone</string>
+    <string name="pref_mono_speaker_title">Haut-parleur du téléphone</string>
+    <string name="pref_device_connected">Connecté</string>
+    <string name="pref_effect_enable_title">Activer les effets audio</string>
+    <string name="pref_effect_category">Paramètres d\'effet</string>
+    <string name="pref_headset_effect_title">Profil des effets</string>
+    <string name="pref_speaker_effect_title">Profil des effets</string>
+    <string name="pref_mono_effect_title">Profil des effets</string>
+    <string name="pref_effect_dialog_title">Profils des effets</string>
+    <string name="pref_surround_title">Surround</string>
+    <string name="pref_surround_dialog_title">Surround</string>
+    <string name="pref_equalizer_title">Égaliseur</string>
+    <string name="pref_equalizer_dialog_title">Égaliseur</string>
+    <string name="pref_effect_custom_item">Personnalisé</string>
+</resources>

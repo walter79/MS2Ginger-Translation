@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+    <string name="perm_desc">允許經由外掛程式提供更多的廠商專用 atcmd。</string>
+    <string name="perm_label">啟用 atcmd 外掛程式</string>
+</resources>

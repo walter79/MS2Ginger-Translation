@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+    <string name="app_label">การตั้งค่าบัญชีและการซิงค์ข้อมูล</string>
+    <string name="sync_settings">การตั้งค่าบัญชีและการซิงค์</string>
+    <string name="sync_too_many_deletes">เกินจำนวนการลบสูงสุด</string>
+    <string name="background_data">ข้อมูลพื้นหลัง</string>
+    <string name="background_data_summary">แอปพลิเคชันสามารถซิงค์ ส่ง และรับข้อมูลได้ทุกเวลา</string>
+    <string name="background_data_dialog_title">โปรดทราบ</string>
+    <string name="background_data_dialog_message">การปิดใช้งานข้อมูลพื้นหลังจะช่วยยืดอายุแบตเตอรี่และลดการใช้ข้อมูล แอปพลิเคชันบางอย่างยังอาจใช้การเชื่อมต่อข้อมูลพื้นหลังต่อไป</string>
+    <string name="sync_automatically">ซิงค์อัตโนมัติ</string>
+    <string name="sync_automatically_summary">แอปพลิเคชันซิงค์ข้อมูลอัตโนมัติ</string>
+    <string name="settings_backup">สำรองข้อมูลการตั้งค่า</string>
+    <string name="settings_backup_summary">สำรองข้อมูลการตั้งค่า</string>
+    <string name="sync_menu_sync_now">ซิงค์เดี๋ยวนี้</string>
+    <string name="sync_menu_sync_cancel">ยกเลิกการซิงค์</string>
+    <string name="sync_one_time_sync">แตะเพื่อซิงค์เดี๋ยวนี้\n%1$s</string>
+    <string name="sync_gmail">Gmail</string>
+    <string name="sync_calendar">ปฏิทิน</string>
+    <string name="sync_contacts">ที่อยู่ติดต่อ</string>
+    <string name="sync_too_many_deletes_desc">พบรายการที่ถูกลบ %1$d รายการสำหรับ %2$s บัญชี %3$s คุณต้องการทำอะไร</string>
+    <string name="sync_really_delete">ลบรายการ</string>
+    <string name="sync_undo_deletes">เลิกทำการลบ</string>
+    <string name="sync_do_nothing">ไม่ทำอะไรในขณะนี้</string>
+    <string name="sync_is_failing">ขณะนี้ พบปัญหาในการซิงค์ อีกสักครู่จึงจะกลับมาดำเนินการต่อ</string>
+    <string name="sync_plug"><font fgcolor="#ffffffff">ยินดีต้อนรับสู่ Google sync!</font>\nวิธีการของ Google ในการซิงค์ข้อมูลเพื่อให้คุณเข้าถึงสมุดโทรศัพท์ นัดหมาย และข้อมูลอื่นๆ ของคุณได้จากทุกที่</string>
+    <string name="header_application_sync_settings">การตั้งค่าการซิงค์แอปพลิเคชัน</string>
+    <string name="header_manage_accounts">จัดการบัญชี</string>
+    <string name="header_general_sync_settings">การตั้งค่าการซิงค์</string>
+    <string name="sync_enabled">เปิดการซิงค์</string>
+    <string name="sync_disabled">ปิดการซิงค์</string>
+    <string name="sync_error">ข้อผิดพลาดในการซิงค์</string>
+    <string name="add_account_label">เพิ่มบัญชี</string>
+    <string name="header_data_and_synchronization">ข้อมูลและการซิงค์</string>
+    <string name="preference_change_password_title">เปลี่ยนรหัสผ่าน</string>
+    <string name="header_account_settings">การตั้งค่าบัญชี</string>
+    <string name="remove_account_label">ลบบัญชี</string>
+    <string name="header_add_an_account">เพิ่มบัญชี</string>
+    <string name="finish_button_label">เสร็จสิ้น</string>
+    <string name="really_remove_account_title">ลบบัญชี</string>
+    <string name="really_remove_account_message">คุณแน่ใจหรือไม่ว่าต้องการนำบัญชีนี้ออก การนำบัญชีออกจะลบข้อความ ที่อยู่ติดต่อ และข้อมูลอื่นทั้งหมดออกจากโทรศัพท์ \nทำต่อหรือไม่</string>
+    <string name="remove_account_failed">บัญชีนี้ยังจำเป็นต้องใช้สำหรับบางแอปพลิเคชัน คุณสามารถนำบัญชีออกได้โดยการรีเซ็ตโทรศัพท์เป็นค่าจากโรงงานเท่านั้น (การทำเช่นนี้จะลบข้อมูลส่วนบุคคลของคุณทั้งหมด) ซึ่งคุณทำได้ในแอปพลิเคชันการตั้งค่า ภายใต้ ความเป็นส่วนตัว</string>
+    <string name="provider_label">การสมัครรับข้อมูลแบบ Push</string>
+    <string name="sync_item_title">ซิงค์ %s</string>
+    <string name="cant_sync_dialog_title">ซิงค์ด้วยตนเองไม่ได้</string>
+    <string name="cant_sync_dialog_message">การซิงค์สำหรับรายการนี้ถูกปิดใช้งานในขณะนี้ หากต้องการเปลี่ยนค่ากำหนดของคุณ ให้เปิดการใช้งานข้อมูลพื้นหลังและการซิงค์อัตโนมัติชั่วคราว</string>
+</resources>

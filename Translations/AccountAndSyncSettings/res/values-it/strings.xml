@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+    <string name="app_label">Impostazioni sincronizzazione</string>
+    <string name="sync_settings">Impostazioni account e sincronizzazione</string>
+    <string name="sync_too_many_deletes">Limite eliminazioni superato</string>
+    <string name="background_data">Dati in background</string>
+    <string name="background_data_summary">Le applicazioni possono sempre sincronizzare, inviare e ricevere dati</string>
+    <string name="background_data_dialog_title">Attenzione</string>
+    <string name="background_data_dialog_message">La disattivazione dei dati in background estende la durata della batteria e riduce l\'utilizzo dei dati. Alcune applicazioni potrebbero utilizzare comunque la connessione dati in background.</string>
+    <string name="sync_automatically">Sincronizz. automatica</string>
+    <string name="sync_automatically_summary">Le applicazioni sincronizzano i dati automaticamente</string>
+    <string name="settings_backup">Backup impostazioni</string>
+    <string name="settings_backup_summary">Backup mie impostazioni</string>
+    <string name="sync_menu_sync_now">Sincronizza ora</string>
+    <string name="sync_menu_sync_cancel">Annulla sincronizzazione</string>
+    <string name="sync_one_time_sync">Tocca per sincronizzare ora\n%1$s</string>
+    <string name="sync_gmail">Gmail</string>
+    <string name="sync_calendar">Calendario</string>
+    <string name="sync_contacts">Contatti</string>
+    <string name="sync_too_many_deletes_desc">Esistono %1$d elementi eliminati per %2$s, account %3$s. Specifica l\'operazione da eseguire.</string>
+    <string name="sync_really_delete">Elimina gli elementi</string>
+    <string name="sync_undo_deletes">Annulla le eliminazioni</string>
+    <string name="sync_do_nothing">Nessuna operazione</string>
+    <string name="sync_is_failing">La sincronizzazione presenta dei problemi. L\'operazione verrà ripristinata a breve.</string>
+    <string name="sync_plug"><font fgcolor="#ffffffff">Benvenuto in Google Sync.</font> \nL\'approccio di Google alla sincronizzazione di dati per consentirti l\'accesso ai tuoi contatti, appuntamenti e altro ancora, ovunque tu sia.</string>
+    <string name="header_application_sync_settings">Impostazioni sincronizzazione applicazioni</string>
+    <string name="header_manage_accounts">Gestisci account</string>
+    <string name="header_general_sync_settings">Impostazioni generali sincronizzazione</string>
+    <string name="sync_enabled">La sincronizzazione è attiva</string>
+    <string name="sync_disabled">La sincronizzazione non è attiva</string>
+    <string name="sync_error">Errore di sincronizzazione</string>
+    <string name="add_account_label">Aggiungi account</string>
+    <string name="header_data_and_synchronization">Dati e sincronizzazione</string>
+    <string name="preference_change_password_title">Cambia password</string>
+    <string name="header_account_settings">Impostazioni account</string>
+    <string name="remove_account_label">Rimuovi account</string>
+    <string name="header_add_an_account">Aggiungi un account</string>
+    <string name="finish_button_label">Fine</string>
+    <string name="really_remove_account_title">Rimuovi account</string>
+    <string name="really_remove_account_message">Rimuovere questo account? Verranno eliminati anche tutti i relativi messaggi, contatti e altri dati. \nContinuare?</string>
+    <string name="remove_account_failed">L\'account è richiesto da alcune applicazioni. Puoi rimuoverlo solo ripristinando il telefono alle impostazioni predefinite (questa operazione elimina tutti i dati personali). Per procedere vai a Impostazioni, Privacy.</string>
+    <string name="provider_label">Sottoscrizioni push</string>
+    <string name="sync_item_title">Sincronizza %s</string>
+    <string name="cant_sync_dialog_title">Impossibile sincronizzare manualmente</string>
+    <string name="cant_sync_dialog_message">La sincronizzazione di questo elemento è disabilitata. Per modificare la preferenza, attiva temporaneamente i dati in background e la sincronizzazione automatica.</string>
+</resources>

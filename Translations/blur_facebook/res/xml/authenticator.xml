@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<account-authenticator android:label="@string/display_name" android:icon="@drawable/facebook" android:accountType="com.motorola.blur.provider.facebook"
+  xmlns:android="http://schemas.android.com/apk/res/android" />

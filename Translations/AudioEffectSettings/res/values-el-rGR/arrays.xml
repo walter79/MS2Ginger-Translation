@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+    <string-array name="audio_device_list">
+        <item>Στερεοφωνικά ακουστικά</item>
+        <item>Στερεοφωνικό ηχείο</item>
+        <item>Μονοφωνικά ακουστικά ή μονοφωνικό ηχείο</item>
+    </string-array>
+    <array name="pref_headset_effect_entries">
+        <item>Τρισδιάστατος στερεοφωνικός ήχος</item>
+        <item>Οικιακός κινηματογράφος</item>
+        <item>Ζωντανή μουσική</item>
+        <item>@string/pref_effect_custom_item</item>
+    </array>
+    <string-array name="pref_headset_effect_sumarries">
+        <item>Διεύρυνση στερεοφωνικού ήχου σε περιφερειακό ήχο</item>
+        <item>Αναπαραγωγή του εφέ ενός συστήματος οικιακού κινηματογράφου πολλών ηχείων</item>
+        <item>Αναπαραγωγή της ατμόσφαιρας ενός μουσικού κλαμπ</item>
+        <item>Μεμονωμένη προσαρμογή των ρυθμίσεων περιφερειακού ήχου και ισοσταθμιστή</item>
+    </string-array>
+    <array name="pref_speaker_effect_entries">
+        <item>Τρισδ. στερ. ήχος</item>
+        <item>Οικιακός κιν/φος</item>
+        <item>Ζωντανή μουσική</item>
+        <item>@string/pref_effect_custom_item</item>
+    </array>
+    <string-array name="pref_speaker_effect_sumarries">
+        <item>Διεύρυνση στερεοφωνικού ήχου σε περιφερειακό ήχο</item>
+        <item>Αναπαράγει το εφέ ενός συστήματος οικιακού κινηματογράφου πολλών ηχείων</item>
+        <item>Αναπαράγει την ατμόσφαιρα ενός μουσικού κλαμπ</item>
+        <item>Μεμονωμένη προσαρμογή των ρυθμίσεων περιφερειακού ήχου και ισοσταθμιστή</item>
+    </string-array>
+    <string-array name="pref_headset_surround_entries">
+        <item>Live</item>
+        <item>Wide</item>
+        <item>Ambient</item>
+        <item>Απενεργοποιημένο</item>
+    </string-array>
+    <string-array name="pref_headset_surround_summarries">
+        <item>Αναπαράγει την ατμόσφαιρα αναπαραγωγής σε μεγαλύτερο χώρο</item>
+        <item>Διευρύνει το στερεοφωνικό ήχο</item>
+        <item>Αναπαράγει την ηχητική εμπειρία των ακουστικών με εξωτερική απόδοση ήχου</item>
+        <item></item>
+    </string-array>
+    <string-array name="pref_speaker_surround_entries">
+        <item>Live</item>
+        <item>Wide</item>
+        <item>Ambient</item>
+        <item>Απενεργοποιημένο</item>
+    </string-array>
+    <string-array name="pref_speaker_surround_summarries">
+        <item>Αναπαράγει την ατμόσφαιρα αναπαραγωγής σε μεγαλύτερο χώρο</item>
+        <item>Διευρύνει το στερεοφωνικό ήχο</item>
+        <item>Αναπαράγει την ηχητική εμπειρία των ακουστικών με εξωτερική απόδοση ήχου</item>
+        <item></item>
+    </string-array>
+    <string-array name="pref_headset_equalizer_entries">
+        <item>Ψηλά μπάσα</item>
+        <item>Ενίσχυση μπάσων</item>
+        <item>Ισορροπία</item>
+        <item>Εξαιρετικά πρίμα</item>
+        <item>Vocalizer</item>
+        <item>Απενεργοποιημένο</item>
+    </string-array>
+    <string-array name="pref_headset_equalizer_summaries">
+        <item>Υπερενισχυμένα μπάσα</item>
+        <item>Σφιχτά μπάσα, ενίσχυση με ακριβή έλεγχο των μπάσων</item>
+        <item>Δίνει έμφαση στα όργανα μεσαίας συχνότητας</item>
+        <item>Αυξάνει τα πρίμα</item>
+        <item>Δίνει έμφαση σε φωνή και ομιλία</item>
+        <item></item>
+    </string-array>
+    <string-array name="pref_speaker_equalizer_entries">
+        <item>Ψηλά μπάσα</item>
+        <item>Ενίσχυση μπάσων</item>
+        <item>Ισορροπία</item>
+        <item>Εξαιρετικά πρίμα</item>
+        <item>Vocalizer</item>
+        <item>Απενεργοποιημένο</item>
+    </string-array>
+    <string-array name="pref_speaker_equalizer_summaries">
+        <item>Υπερενισχυμένα μπάσα</item>
+        <item>Σφιχτά μπάσα, ενίσχυση με ακριβή έλεγχο των μπάσων</item>
+        <item>Δίνει έμφαση στα όργανα μεσαίας συχνότητας</item>
+        <item>Αυξάνει τα πρίμα</item>
+        <item>Δίνει έμφαση σε φωνή και ομιλία</item>
+        <item></item>
+    </string-array>
+    <string-array name="pref_mono_equalizer_entries">
+        <item>Ψηλά μπάσα</item>
+        <item>Ενίσχυση μπάσων</item>
+        <item>Ισορροπία</item>
+        <item>Εξαιρετικά πρίμα</item>
+        <item>Vocalizer</item>
+        <item>Απενεργοποιημένο</item>
+    </string-array>
+    <string-array name="pref_mono_equalizer_summaries">
+        <item>Υπερενισχυμένα μπάσα</item>
+        <item>Σφιχτά μπάσα, ενίσχυση με ακριβή έλεγχο των μπάσων</item>
+        <item>Δίνει έμφαση στα όργανα μεσαίας συχνότητας</item>
+        <item>Αυξάνει τα πρίμα</item>
+        <item>Δίνει έμφαση σε φωνή και ομιλία</item>
+        <item></item>
+    </string-array>
+</resources>

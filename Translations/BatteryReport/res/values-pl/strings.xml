@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+    <string name="app_name">Tryb chłodzenia</string>
+    <string name="batt_temp_cooldown_title">Tryb chłodzenia</string>
+    <string name="batt_temp_cooldown_msg">Telefon działa w trybie chłodzenia. Można wykonywać tylko połączenia alarmowe.</string>
+    <string name="lockscreen_emergency_call">Połączenie alarmowe</string>
+</resources>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+    <string name="app_name">Adminisztrátori Értesítések</string>
+    <string name="hard_reset_failed">Nem sikerült a készülék gyári állapotra való állítása.</string>
+    <string name="needUpgradeNoneFound">A telefonod szoftvere túl régi az automatikus frissítéshez. Lépj kapcsolatba a szolgáltatóddal az esetleges frissítések beszerzése miatt.</string>
+    <string name="hard_reset_on_ok">Ez egy fejlesztői telefon, és hard reset fog történni. A nem fejlesztői telefonokon csak sima reset történik.</string>
+    <string name="accountDisabled">Hiba történt a bejelentkezés közben. \n \n A MOTOBLUR fiókod deaktiválva lett. Lépj kapcsolatba az ügyfélszolgálattal.</string>
+    <string name="blurPasswordMismatch">A jelszavad nem egyezik meg a nálunk tárolttal. Ha mostanában változtattad meg a jelszavad kérlek próbálkozz újra.</string>
+    <string name="notificationTitle">Hálózati Riasztás</string>
+    <string name="accountDeleted">A fiókodat töröltük, kérlek reseteld a készülékedet, hogy új fiókot hozhass létre. Kérlek menj a Beállítások menü Gyári adatok visszaállítása menüpontra.</string>
+    <string name="wrongDevice">Az általad használt fiók már egy másik készülékkel használatba lett véve. Kérlek lépj kapcsolatba az ügyfélszolgálattal a készülék visszaállítása érdekében.</string>
+    <string name="wrong_password_subject">{0} felhasználónév vagy a jelszó hibás.</string>
+    <string name="blur_password_incorrect">MOTOBLUR jelszó helytelen</string>
+    <string name="wrong_password_title">Fiókok</string>
+    <string name="more_info">További információ</string>
+    <string name="error">Hiba</string>
+    <string name="google_privacy_summary">Google privacy megjegyzések</string>
+    <string name="google_privacy_body">A Google által használt privacy rendelkezések megtekinthetőek a Beállítások/Telefon Információk/Jogi információk/Google legal.</string>
+    <string name="view_terms">Engedélyek megtekintése</string>
+    <string name="blur_account_error">Blur fiók hiba.</string>
+    <string name="unverified_motoblur_acnt">Meg nem erősített MOTOBLUR account</string>
+</resources>

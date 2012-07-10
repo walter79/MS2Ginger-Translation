@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+    <string name="app_name">Admin-Hinweis</string>
+    <string name="hard_reset_failed">Vollrückstellung des Geräts fehlgeschlagen.</string>
+    <string name="needUpgradeNoneFound">Die Software auf Ihrem Telefon ist für eine automatische Aktualisierung zu alt. Wenden Sie sich an Ihren Mobilfunkanbieter, um die Software auf Ihrem Telefon zu aktualisieren.</string>
+    <string name="hard_reset_on_ok">Dieses Gerät befindet sich in der Entwicklung und lässt sich nur schwer zurücksetzen, wenn Sie einmal auf \"OK\" gedrückt haben. Fertig entwickelte Geräte werden einfach zurückgesetzt.</string>
+    <string name="accountDisabled">Bei der Kontoanmeldung ist ein Fehler aufgetreten. \n \n Ihr MOTOBLUR-Konto wurde deaktiviert. Setzen Sie sich mit dem Kundendienst in Verbindung.</string>
+    <string name="blurPasswordMismatch">Das Passwort in Ihrem Konto stimmt nicht mit dem von uns gespeicherten Passwort überein. Wenn Sie kürzlich Ihr Passwort geändert haben, geben Sie Ihr neues Passwort jetzt erneut ein.</string>
+    <string name="notificationTitle">Netzwerkalarm</string>
+    <string name="accountDeleted">Ihr Konto wurde gelöscht. Setzen Sie Ihr Gerät zurück, um ein neues Konto zu erstellen. Gehen Sie zu \"Einstellungen\", dann zu \"SD-Karte und Speicher\" und wählen Sie \"Auf Werkszustand zurück\".</string>
+    <string name="wrongDevice">Das von Ihnen verwendete Konto ist einem anderen Gerät zugeordnet. Wenden Sie sich an den Kundendienst, um das Gerät zurückzusetzen.</string>
+    <string name="wrong_password_subject">{0} Benutzername oder Passwort falsch.</string>
+    <string name="blur_password_incorrect">MOTOBLUR-Passwort falsch</string>
+    <string name="wrong_password_title">Konten</string>
+    <string name="more_info">Weitere Informationen</string>
+    <string name="error">Fehler</string>
+    <string name="google_privacy_summary">Google Datenschutzhinweis</string>
+    <string name="google_privacy_body">Datenschutzrichtlinien für Google- und Android-Services finden Sie unter \"Einstellungen\" > \"Telefoninfo\" > \"Rechtliche Hinweise \" > \"Google Legal\"</string>
+    <string name="view_terms">Richtlinien anzeigen</string>
+    <string name="blur_account_error">Blur-Kontofehler</string>
+    <string name="unverified_motoblur_acnt">Unbestätigtes MOTOBLUR-Konto</string>
+</resources>

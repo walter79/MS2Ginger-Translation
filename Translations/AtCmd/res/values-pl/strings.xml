@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+    <string name="perm_desc">Poprzez wtyczkę pozwala zapewnić atcmd ukierunkowany na dostawcę.</string>
+    <string name="perm_label">Włącz wtyczkę atcmd</string>
+</resources>

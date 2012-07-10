@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+    <string name="app_name">Mode de refroidissement</string>
+    <string name="batt_temp_cooldown_title">Mode de refroidissement</string>
+    <string name="batt_temp_cooldown_msg">Votre appareil s\'est trouvé en surchauffe ; il est maintenant en cours de refroidissement.\n\nPour effectuer des appels d\'urgence, appuyez sur le bouton ci-dessous.\n\nTous les autres services reprendront lorsqu\'une température de fonctionnement sécurisée sera rétablie.</string>
+    <string name="lockscreen_emergency_call">Appel d\'urgence</string>
+</resources>

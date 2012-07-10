@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+    <string name="app_label">Fiókok és szinkronizálás</string>
+    <string name="sync_settings">Fiókok &amp; Szinkronizálás beállításai</string>
+    <string name="sync_too_many_deletes">A törlések száma túllépte a limitet</string>
+    <string name="background_data">Háttéradatok</string>
+    <string name="background_data_summary">Az alkalmazások bármikor szinkronizálhatnak, küldhetnek és fogadhatnak adatokat</string>
+    <string name="background_data_dialog_title">Figyelem</string>
+    <string name="background_data_dialog_message">A háttéradatok letiltásával növeli az akkumulátor használat idejét és csökkentheti az adathasználatot. De egyes alkalmazások továbbra is használhatják a háttérben az adatkapcsolatot.</string>
+    <string name="sync_automatically">Auto-szinkron</string>
+    <string name="sync_automatically_summary">Az alkalmazások automatikusan szinkronizálhatnak</string>
+    <string name="settings_backup">Beállítások mentése</string>
+    <string name="settings_backup_summary">Beállításaim mentése</string>
+    <string name="sync_menu_sync_now">Szinkronizálás most</string>
+    <string name="sync_menu_sync_cancel">Szinkronizálás megszakítása</string>
+    <string name="sync_one_time_sync">Érintse meg az azonnali szinkronizáláshoz\n%1$</string>
+    <string name="sync_gmail">Gmail</string>
+    <string name="sync_calendar">Naptár</string>
+    <string name="sync_contacts">Kapcsolatok</string>
+    <string name="sync_too_many_deletes_desc">%1$d darab törölve lett a %2$s elemből a %3$s fiókban. Mit szeretne csinálni?</string>
+    <string name="sync_really_delete">Elemek törlése.</string>
+    <string name="sync_undo_deletes">Törlés visszavonása.</string>
+    <string name="sync_do_nothing">Most semmit.</string>
+    <string name="sync_is_failing">A szinkronizálás problémába ütközött. Hamarosan újra működni fog.</string>
+    <string name="sync_plug"><font fgcolor="#ffffffff">Üdvözli a Google szinkronizálás!</font> \nAz adatok szinkronizálása a Googlelal lehetővé teszi, hogy bárhonnan hozzáférjen a címtárához, találkozóihoz stb.\u0020</string>
+    <string name="header_application_sync_settings">Alkalmazások szinkronizálása</string>
+    <string name="header_manage_accounts">Fiókok kezelése</string>
+    <string name="header_general_sync_settings">Általános szinkronizálás beállítások</string>
+    <string name="sync_enabled">Szinkronizálás állapota: BE</string>
+    <string name="sync_disabled">Szinkronizálás állapota: KI</string>
+    <string name="sync_error">Szinkronizálási hiba</string>
+    <string name="add_account_label">Fiók hozzáadása</string>
+    <string name="header_data_and_synchronization">Adatok &amp; Szinkronizálás</string>
+    <string name="preference_change_password_title">Jelszóváltoztatás</string>
+    <string name="header_account_settings">Fiók beállításai</string>
+    <string name="remove_account_label">Fiók eltávolítása</string>
+    <string name="header_add_an_account">Fiók hozzáadása</string>
+    <string name="finish_button_label">Befejezés</string>
+    <string name="really_remove_account_title">Fiók eltávolítása</string>
+    <string name="really_remove_account_message">Biztosan törölni akarja ezt a fiókot? Ha ezt a fiókot eltávolítja, törlődni fognak a hozzá kapcsolódó üzenetek, kapcsolatok, és egyéb adatok is a telefonról. \nTovább?</string>
+    <string name="remove_account_failed">Néhány alkalmazásnak szüksége van erre a fiókra. Ezt a fiókot csak a telefon gyári állapotú visszaállításával tudja törölni( ami törölni fog minden személyes adatát). Ezt a funkciót a Beállítások között az Adatvédelem menüben találja.</string>
+    <string name="provider_label">Push feliratkozás</string>
+    <string name="sync_item_title">%s szinkronizálása</string>
+    <string name="cant_sync_dialog_title">Nem lehet kézi vezérléssel szinkronizálni</string>
+    <string name="cant_sync_dialog_message">Ennek az elemnek a szinkronizálása ki van kapcsolva. Változtassa meg a beállításokat, átmenetileg engedélyezze a háttéradatokat és az automatikus szinkronizálást.</string>
+</resources>

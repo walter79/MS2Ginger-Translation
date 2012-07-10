@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="horizontal" android:id="@id/pselector" android:background="@android:drawable/menuitem_background" android:focusable="true" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_weight="1.0">
+        <RadioButton android:gravity="center" android:id="@id/radio" android:paddingLeft="10.0dip" android:paddingTop="5.0dip" android:paddingRight="10.0dip" android:paddingBottom="5.0dip" android:focusable="false" android:clickable="false" android:layout_width="50.0dip" android:layout_height="fill_parent" android:checked="false" />
+        <LinearLayout android:orientation="vertical" android:id="@id/ptext" android:paddingTop="5.0dip" android:paddingRight="10.0dip" android:paddingBottom="5.0dip" android:focusable="false" android:layout_width="wrap_content" android:layout_height="fill_parent">
+            <TextView android:textAppearance="@android:style/TextAppearance.Large" android:id="@id/ptitle" android:focusable="false" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/preset_maxbatt_title" />
+            <TextView android:id="@id/pdesc" android:focusable="false" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/preset_maxbatt_shortdesc" />
+        </LinearLayout>
+    </LinearLayout>
+    <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_weight="5.0">
+        <View android:gravity="center" android:id="@id/infoline" android:background="@android:drawable/divider_horizontal_dark" android:layout_width="1.0px" android:layout_height="fill_parent" android:layout_marginTop="5.0dip" android:layout_marginBottom="5.0dip" />
+        <LinearLayout android:gravity="center" android:orientation="vertical" android:id="@id/imglayout" android:background="@android:drawable/menuitem_background" android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <ImageView android:layout_gravity="center" android:id="@id/infoimg" android:padding="2.0dip" android:focusable="false" android:clickable="false" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/zz_moto_ic_control_info" />
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+    <string-array name="audio_device_list">
+        <item>Auricolare stereo</item>
+        <item>Altoparlante stereo</item>
+        <item>Auricolare o altoparlante mono</item>
+    </string-array>
+    <array name="pref_headset_effect_entries">
+        <item>Stereo 3D</item>
+        <item>Home theater</item>
+        <item>Musica live</item>
+        <item>@string/pref_effect_custom_item</item>
+    </array>
+    <string-array name="pref_headset_effect_sumarries">
+        <item>Da stereo a surround</item>
+        <item>Ricrea gli effetti di un sistema home theater</item>
+        <item>Ricrea l\'atmosfera di musica live in un locale</item>
+        <item>Regola le singole impostazioni surround/equalizzatore</item>
+    </string-array>
+    <array name="pref_speaker_effect_entries">
+        <item>Stereo 3D</item>
+        <item>Home theater</item>
+        <item>Musica live</item>
+        <item>@string/pref_effect_custom_item</item>
+    </array>
+    <string-array name="pref_speaker_effect_sumarries">
+        <item>Da stereo a surround</item>
+        <item>Ricrea gli effetti di un sistema home theater</item>
+        <item>Ricrea l\'atmosfera di musica live in un locale</item>
+        <item>Regola le singole impostazioni surround/equalizzatore</item>
+    </string-array>
+    <string-array name="pref_headset_surround_entries">
+        <item>Live</item>
+        <item>Esteso</item>
+        <item>Ambiente</item>
+        <item>Disattivato</item>
+    </string-array>
+    <string-array name="pref_headset_surround_summarries">
+        <item>Crea l\'atmosfera di un ambiente molto ampio</item>
+        <item>Estende l\'effetto stereo</item>
+        <item>Esternalizza il suono con un effetto di grande impatto</item>
+        <item></item>
+    </string-array>
+    <string-array name="pref_speaker_surround_entries">
+        <item>Live</item>
+        <item>Esteso</item>
+        <item>Ambiente</item>
+        <item>Disattivato</item>
+    </string-array>
+    <string-array name="pref_speaker_surround_summarries">
+        <item>Crea l\'atmosfera di un ambiente molto ampio</item>
+        <item>Estende l\'effetto stereo</item>
+        <item>Esternalizza il suono con un effetto di grande impatto</item>
+        <item></item>
+    </string-array>
+    <string-array name="pref_headset_equalizer_entries">
+        <item>Bassi estremi</item>
+        <item>Bassi enfatizzati</item>
+        <item>Alti/bassi bilanciati</item>
+        <item>Alti brillanti</item>
+        <item>Enfasi voce</item>
+        <item>Disattivato</item>
+    </string-array>
+    <string-array name="pref_headset_equalizer_summaries">
+        <item>Bassi al livello massimo</item>
+        <item>Bassi profondi, amplificazione con controllo preciso dei bassi</item>
+        <item>Enfatizza gli strumenti in banda media</item>
+        <item>Alti al livello massimo</item>
+        <item>Enfatizza cantato e parlato</item>
+        <item></item>
+    </string-array>
+    <string-array name="pref_speaker_equalizer_entries">
+        <item>Bassi estremi</item>
+        <item>Bassi enfatizzati</item>
+        <item>Alti/bassi bilanciati</item>
+        <item>Alti brillanti</item>
+        <item>Enfasi voce</item>
+        <item>Disattivato</item>
+    </string-array>
+    <string-array name="pref_speaker_equalizer_summaries">
+        <item>Bassi al livello massimo</item>
+        <item>Bassi profondi, amplificazione con controllo preciso dei bassi</item>
+        <item>Enfatizza gli strumenti in banda media</item>
+        <item>Alti al livello massimo</item>
+        <item>Enfatizza cantato e parlato</item>
+        <item></item>
+    </string-array>
+    <string-array name="pref_mono_equalizer_entries">
+        <item>Bassi estremi</item>
+        <item>Bassi enfatizzati</item>
+        <item>Alti/bassi bilanciati</item>
+        <item>Alti brillanti</item>
+        <item>Enfasi voce</item>
+        <item>Disattivato</item>
+    </string-array>
+    <string-array name="pref_mono_equalizer_summaries">
+        <item>Bassi al livello massimo</item>
+        <item>Bassi profondi, amplificazione con controllo preciso dei bassi</item>
+        <item>Enfatizza gli strumenti in banda media</item>
+        <item>Alti al livello massimo</item>
+        <item>Enfatizza cantato e parlato</item>
+        <item></item>
+    </string-array>
+</resources>

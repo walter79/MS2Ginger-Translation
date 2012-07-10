@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RelativeLayout android:gravity="center_vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:gravity="left|center" android:id="@id/bt_left" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <ImageButton android:id="@id/btn_zoomout" android:background="@drawable/zoomoutbtn" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+    </RelativeLayout>
+    <RelativeLayout android:gravity="right|center" android:id="@id/bt_right" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <ImageButton android:id="@id/btn_zoomin" android:background="@drawable/zoominbtn" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+    </RelativeLayout>
+</RelativeLayout>

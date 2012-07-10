@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+    <string-array name="audio_device_list">
+        <item>Auriculares estéreo</item>
+        <item>Altavoz estéreo</item>
+        <item>Auriculares o altavoz mono</item>
+    </string-array>
+    <array name="pref_headset_effect_entries">
+        <item>Estéreo en 3D</item>
+        <item>Cine en casa</item>
+        <item>Actuación en directo</item>
+        <item>@string/pref_effect_custom_item</item>
+    </array>
+    <string-array name="pref_headset_effect_sumarries">
+        <item>Expansión de sonido estéreo a envolvente</item>
+        <item>Recrea el efecto Cine en casa con varios altavoces</item>
+        <item>Recrea el ambiente de un concierto en un bar musical</item>
+        <item>Configurar Envolvente y Ecualizador individualmente</item>
+    </string-array>
+    <array name="pref_speaker_effect_entries">
+        <item>Estéreo en 3D</item>
+        <item>Cine en casa</item>
+        <item>Actuación en directo</item>
+        <item>@string/pref_effect_custom_item</item>
+    </array>
+    <string-array name="pref_speaker_effect_sumarries">
+        <item>Expansión de sonido estéreo a envolvente</item>
+        <item>Recrea el efecto Cine en casa con varios altavoces</item>
+        <item>Recrea el ambiente de un concierto en un bar musical</item>
+        <item>Configurar Envolvente y Ecualizador individualmente</item>
+    </string-array>
+    <string-array name="pref_headset_surround_entries">
+        <item>En vivo</item>
+        <item>Amplio</item>
+        <item>Ambiental</item>
+        <item>Desactivado</item>
+    </string-array>
+    <string-array name="pref_headset_surround_summarries">
+        <item>Recrea ambiente de reproducción en una sala grande</item>
+        <item>Expande la imagen estéreo</item>
+        <item>Recrea una experiencia de sonido \"magnífica\", exterioriza el sonido</item>
+        <item></item>
+    </string-array>
+    <string-array name="pref_speaker_surround_entries">
+        <item>En vivo</item>
+        <item>Amplio</item>
+        <item>Ambiental</item>
+        <item>Desactivado</item>
+    </string-array>
+    <string-array name="pref_speaker_surround_summarries">
+        <item>Recrea ambiente de reproducción en una sala grande</item>
+        <item>Expande la imagen estéreo</item>
+        <item>Exterioriza el sonido con un efecto realmente increíble</item>
+        <item></item>
+    </string-array>
+    <string-array name="pref_headset_equalizer_entries">
+        <item>Graves extremos</item>
+        <item>Graves potentes</item>
+        <item>Equilibrado</item>
+        <item>Agudos brillantes</item>
+        <item>Vocalizador</item>
+        <item>Desactivado</item>
+    </string-array>
+    <string-array name="pref_headset_equalizer_summaries">
+        <item>Máxima acentuación de graves</item>
+        <item>Graves secos, amplificación con control preciso de graves</item>
+        <item>Realza los instrumentos de frecuencias medias</item>
+        <item>Acentúa los agudos</item>
+        <item>Realza voz cantada y voz hablada</item>
+        <item></item>
+    </string-array>
+    <string-array name="pref_speaker_equalizer_entries">
+        <item>Graves extremos</item>
+        <item>Graves potentes</item>
+        <item>Equilibrado</item>
+        <item>Agudos brillantes</item>
+        <item>Vocalizador</item>
+        <item>Desactivado</item>
+    </string-array>
+    <string-array name="pref_speaker_equalizer_summaries">
+        <item>Máxima acentuación de graves</item>
+        <item>Graves secos, amplificación con control preciso de graves</item>
+        <item>Realza los instrumentos de frecuencias medias</item>
+        <item>Acentúa los agudos</item>
+        <item>Realza voz cantada y voz hablada</item>
+        <item></item>
+    </string-array>
+    <string-array name="pref_mono_equalizer_entries">
+        <item>Graves extremos</item>
+        <item>Graves potentes</item>
+        <item>Equilibrado</item>
+        <item>Agudos brillantes</item>
+        <item>Vocalizador</item>
+        <item>Desactivado</item>
+    </string-array>
+    <string-array name="pref_mono_equalizer_summaries">
+        <item>Máxima acentuación de graves</item>
+        <item>Graves secos, amplificación con control preciso de graves</item>
+        <item>Realza los instrumentos de frecuencias medias</item>
+        <item>Acentúa los agudos</item>
+        <item>Realza voz cantada y voz hablada</item>
+        <item></item>
+    </string-array>
+</resources>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+    <string name="app_name">降温模式</string>
+    <string name="batt_temp_cooldown_title">降温模式</string>
+    <string name="batt_temp_cooldown_msg">手机现在正处于降温模式。只能拨打紧急电话。</string>
+    <string name="lockscreen_emergency_call">紧急呼叫</string>
+</resources>

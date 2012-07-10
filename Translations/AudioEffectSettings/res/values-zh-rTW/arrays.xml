@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+    <string-array name="audio_device_list">
+        <item>立體聲耳機</item>
+        <item>立體聲揚聲器</item>
+        <item>單聲道耳機或揚聲器</item>
+    </string-array>
+    <array name="pref_headset_effect_entries">
+        <item>3D 立體聲</item>
+        <item>家庭劇院</item>
+        <item>現場舞臺</item>
+        <item>@string/pref_effect_custom_item</item>
+    </array>
+    <string-array name="pref_headset_effect_sumarries">
+        <item>立體聲擴展到環繞音效</item>
+        <item>重現多揚聲器家庭劇院系統的效果</item>
+        <item>重現音樂俱樂部的舞台氛圍</item>
+        <item>分別調整環繞和等化器設定</item>
+    </string-array>
+    <array name="pref_speaker_effect_entries">
+        <item>3D 立體聲</item>
+        <item>家庭劇院</item>
+        <item>現場舞臺</item>
+        <item>@string/pref_effect_custom_item</item>
+    </array>
+    <string-array name="pref_speaker_effect_sumarries">
+        <item>立體聲擴展到環繞音效</item>
+        <item>重現多揚聲器家庭劇院系統的效果</item>
+        <item>重現音樂俱樂部的舞台氛圍</item>
+        <item>分別調整環繞和等化器設定</item>
+    </string-array>
+    <string-array name="pref_headset_surround_entries">
+        <item>現場</item>
+        <item>全音域</item>
+        <item>環繞</item>
+        <item>關閉</item>
+    </string-array>
+    <string-array name="pref_headset_surround_summarries">
+        <item>重現在大型室內空間播放的氛圍</item>
+        <item>加寬立體影像</item>
+        <item>重現「耳不暇給」的音訊體驗，讓聲音更加逼真</item>
+        <item></item>
+    </string-array>
+    <string-array name="pref_speaker_surround_entries">
+        <item>現場</item>
+        <item>全音域</item>
+        <item>環繞</item>
+        <item>關閉</item>
+    </string-array>
+    <string-array name="pref_speaker_surround_summarries">
+        <item>重現在大型室內空間播放的氛圍</item>
+        <item>加寬立體影像</item>
+        <item>重現「耳不暇給」的音訊體驗，讓聲音更加逼真</item>
+        <item></item>
+    </string-array>
+    <string-array name="pref_headset_equalizer_entries">
+        <item>超低音</item>
+        <item>重低音</item>
+        <item>平衡</item>
+        <item>明亮高音</item>
+        <item>發聲</item>
+        <item>關閉</item>
+    </string-array>
+    <string-array name="pref_headset_equalizer_summaries">
+        <item>最大低音加強</item>
+        <item>讓低音更為緊實，透過精確控制低音來調整增幅</item>
+        <item>強調中頻樂器</item>
+        <item>加強高音</item>
+        <item>強調人聲和語音</item>
+        <item></item>
+    </string-array>
+    <string-array name="pref_speaker_equalizer_entries">
+        <item>超低音</item>
+        <item>重低音</item>
+        <item>平衡</item>
+        <item>明亮高音</item>
+        <item>發聲</item>
+        <item>關閉</item>
+    </string-array>
+    <string-array name="pref_speaker_equalizer_summaries">
+        <item>最大低音加強</item>
+        <item>讓低音更為緊實，透過精確控制低音來調整增幅</item>
+        <item>強調中頻樂器</item>
+        <item>加強高音</item>
+        <item>強調人聲和語音</item>
+        <item></item>
+    </string-array>
+    <string-array name="pref_mono_equalizer_entries">
+        <item>超低音</item>
+        <item>重低音</item>
+        <item>平衡</item>
+        <item>明亮高音</item>
+        <item>發聲</item>
+        <item>關閉</item>
+    </string-array>
+    <string-array name="pref_mono_equalizer_summaries">
+        <item>最大低音加強</item>
+        <item>讓低音更為緊實，透過精確控制低音來調整增幅</item>
+        <item>強調中頻樂器</item>
+        <item>加強高音</item>
+        <item>強調人聲和語音</item>
+        <item></item>
+    </string-array>
+</resources>

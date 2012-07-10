@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+    <string name="app_name">Notificateur d\'admin.</string>
+    <string name="hard_reset_failed">Nous n\'avons pas été en mesure de redémarrer le périphérique à froid.</string>
+    <string name="needUpgradeNoneFound">Le logiciel de votre téléphone est trop ancien pour une mise à jour automatique. Contactez votre opérateur mobile pour mettre à jour le logiciel.</string>
+    <string name="hard_reset_on_ok">Il s\'agit d\'un périphérique de développement qui sera redémarré à froid si vous appuyez sur OK. Les autres périphériques seront seulement réinitialisés.</string>
+    <string name="accountDisabled">Erreur lors de la connexion à votre compte. \n \n Votre compte MOTOBLUR a été désactivé. Veuillez contacter le service client.</string>
+    <string name="blurPasswordMismatch">Le mot de passe saisi pour votre compte ne correspond pas à celui que nous avons enregistré. Si vous avez récemment modifié votre mot de passe, veuillez re-entrer le nouveau mot de passe maintenant.</string>
+    <string name="notificationTitle">Alerte réseau</string>
+    <string name="accountDeleted">Votre compte a été supprimé. Réinitialisez votre périphérique pour créer un compte. Accédez à \"Paramètres\", puis appuyez sur \"Carte SD et stockage\" et sélectionnez \"Réinitialiser aux paramètres d\'usine\"</string>
+    <string name="wrongDevice">Le compte que vous utilisez est associé à un autre périphérique. Veuillez contacter le service client pour réinitialiser le périphérique.</string>
+    <string name="wrong_password_subject">Le nom d\'utilisateur ou le mot de passe {0} est incorrect.</string>
+    <string name="blur_password_incorrect">Erreur mot passe MOTOBLUR</string>
+    <string name="wrong_password_title">Comptes</string>
+    <string name="more_info">Plus d\'infos</string>
+    <string name="error">Erreur</string>
+    <string name="google_privacy_summary">Déclaration de confidentialité de Google</string>
+    <string name="google_privacy_body">Les politiques de confidentialité permettant l\'utilisation des services Google et Android se trouvent sous Paramètres > À propos du téléphone > Informations légales > Infos légales Google.</string>
+    <string name="view_terms">Afficher les politiques</string>
+    <string name="blur_account_error">Erreur de compte Blur</string>
+    <string name="unverified_motoblur_acnt">Compte MOTOBLUR non vérifié</string>
+</resources>

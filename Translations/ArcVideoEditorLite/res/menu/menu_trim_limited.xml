@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<menu
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:icon="@drawable/toolbar_save" android:id="@id/limited_trim_menu_done" android:title="@string/menu_trim_done" />
+    <item android:icon="@drawable/toolbar_resize" android:id="@id/limited_trim_menu_resize" android:title="@string/menu_trim_resize" />
+    <item android:icon="@drawable/toolbar_cancel" android:id="@id/limited_trim_menu_cancel" android:title="@string/menu_trim_cancel" />
+</menu>

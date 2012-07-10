@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+    <string name="app_label">Konto- u. Synchr.einstellungen</string>
+    <string name="sync_settings">Einstellungen für Konten u. Synchronisierung</string>
+    <string name="sync_too_many_deletes">Löschbegrenzung überschritten</string>
+    <string name="background_data">Hintergrunddaten</string>
+    <string name="background_data_summary">Daten können synchronisiert, gesendet und empfangen werden.</string>
+    <string name="background_data_dialog_title">Achtung</string>
+    <string name="background_data_dialog_message">Die Deaktivierung von Hintergrunddaten senkt den Datendurchsatz und verlängert die Akkulaufzeit. Einige Anwendungen verwenden u. U. weiterhin Datenverbindungen im Hintergrund.</string>
+    <string name="sync_automatically">Autom. synchronisieren</string>
+    <string name="sync_automatically_summary">Anwendungen synchronisieren Daten automatisch.</string>
+    <string name="settings_backup">Einstellungen sichern</string>
+    <string name="settings_backup_summary">Einstellungen sichern</string>
+    <string name="sync_menu_sync_now">Jetzt synchronisieren</string>
+    <string name="sync_menu_sync_cancel">Synchronisierung abbrechen</string>
+    <string name="sync_one_time_sync">Zum sofortigen Synchronisieren antippen %1$s</string>
+    <string name="sync_gmail">Google Mail</string>
+    <string name="sync_calendar">Google Kalender</string>
+    <string name="sync_contacts">Kontakte</string>
+    <string name="sync_too_many_deletes_desc">Für %2$s, Konto %3$s, liegen %1$d gelöschte Elemente vor. Was möchten Sie tun?</string>
+    <string name="sync_really_delete">Elemente löschen</string>
+    <string name="sync_undo_deletes">Löschen rückgängig machen</string>
+    <string name="sync_do_nothing">Im Moment nichts unternehmen</string>
+    <string name="sync_is_failing">Bei der Synchronisierung treten zurzeit Probleme auf. Sie wird in Kürze fortgesetzt.</string>
+    <string name="sync_plug"><font fgcolor="#ffffffff">Willkommen bei Google Sync!</font>\nMit dieser Funktion von Google können Sie Ihre Daten synchronisieren, um auf Ihre Kontakte, Termine und vieles mehr zuzugreifen - wo immer Sie auch sind!</string>
+    <string name="header_application_sync_settings">Anwendungssynchronisierung</string>
+    <string name="header_manage_accounts">Konten verwalten</string>
+    <string name="header_general_sync_settings">Allgemeine Synchronisierungseinstellungen</string>
+    <string name="sync_enabled">Synchronisierung aktiviert</string>
+    <string name="sync_disabled">Synchronisierung deaktiviert</string>
+    <string name="sync_error">Synchronisierungsfehler</string>
+    <string name="add_account_label">Konto hinzufügen</string>
+    <string name="header_data_and_synchronization">Daten und Synchronisierung</string>
+    <string name="preference_change_password_title">Passwort ändern</string>
+    <string name="header_account_settings">Kontoeinstellungen</string>
+    <string name="remove_account_label">Konto entfernen</string>
+    <string name="header_add_an_account">Konto hinzufügen</string>
+    <string name="finish_button_label">Fertigstellen</string>
+    <string name="really_remove_account_title">Konto entfernen</string>
+    <string name="really_remove_account_message">Möchten Sie dieses Konto wirklich entfernen? Hierdurch werden auch die zugehörigen Nachrichten, Kontakte und anderen Daten auf dem Telefon gelöscht. \nVorgang fortsetzen?</string>
+    <string name="remove_account_failed">Dieses Konto wird von einigen Anwendungen benötigt. Sie können es nur entfernen, indem Sie das Telefon auf die Werkseinstellungen zurücksetzen und so alle persönlichen Daten löschen. Wählen Sie hierfür unter \"Einstellungen\" die Option \"Datenschutz\".</string>
+    <string name="provider_label">Push-Abos</string>
+    <string name="sync_item_title">%s synchr.</string>
+    <string name="cant_sync_dialog_title">Manuelle Synchronisierung kann nicht durchgeführt werden</string>
+    <string name="cant_sync_dialog_message">Die Synchronisierung ist für dieses Element zurzeit deaktiviert. Zur Änderung Ihrer Voreinstellungen aktivieren Sie vorübergehend Hintergrunddaten und automatische Synchronisierung.</string>
+</resources>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+    <item type="epro" name="epro1">false</item>
+    <item type="epro" name="epro2">false</item>
+    <item type="epro" name="epro3">false</item>
+    <item type="epro" name="epro4">false</item>
+    <item type="epro" name="epro5">false</item>
+    <item type="epro" name="epro6">false</item>
+    <item type="epro" name="epro7">false</item>
+    <item type="epro" name="epro8">false</item>
+    <item type="epro" name="epro9">false</item>
+</resources>

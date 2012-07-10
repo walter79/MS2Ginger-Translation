@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+    <string-array name="options_list">
+        <item>电池预置</item>
+        <item>自定义设置</item>
+    </string-array>
+    <string-array name="smart_batt_timeout_entries">
+        <item>15 分钟</item>
+        <item>30 分钟</item>
+        <item>45 分钟</item>
+        <item>60 分钟</item>
+        <item>总是开启</item>
+    </string-array>
+    <string-array name="smart_batt_offpeak_timeout_entries">
+        <item>15 分钟</item>
+        <item>30 分钟</item>
+        <item>45 分钟</item>
+        <item>60 分钟</item>
+    </string-array>
+</resources>

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+    <string name="Value_HeadsetDefaultEffect">3DStereoHS</string>
+    <string name="Value_SpeakerDefaultEffect">3DStereoSP</string>
+    <string name="Value_HeadsetDefaultSurround">LiveHS</string>
+    <string name="Value_SpeakerDefaultSurround">LiveSP</string>
+    <string name="Value_HeadsetDefaultEqualizer">ExtremeBassHS</string>
+    <string name="Value_SpeakerDefaultEqualizer">ExtremeBassSP</string>
+    <string name="Value_MonoDefaultEqualizer">ExtremeBassMONO</string>
+    <string name="Value_OffHS">OffHS</string>
+    <string name="Value_OffSP">OffSP</string>
+    <string name="Value_OffMONO">OffMONO</string>
+    <string name="StereoSpeaker">Off</string>
+    <string name="app_name">Media audio effects</string>
+    <string name="pref_wired_stereo_device_title">Wired stereo devices</string>
+    <string name="pref_stereo_speaker_title">Phone Speakers</string>
+    <string name="pref_mono_speaker_title">Phone Speaker</string>
+    <string name="pref_device_connected">Connected</string>
+    <string name="pref_effect_enable_title">Enable audio effects</string>
+    <string name="pref_effect_category">Effect settings</string>
+    <string name="pref_headset_effect_title">Effects profile</string>
+    <string name="pref_speaker_effect_title">Effects profile</string>
+    <string name="pref_mono_effect_title">Effects profile</string>
+    <string name="pref_effect_dialog_title">Effects profiles</string>
+    <string name="pref_surround_title">Surround</string>
+    <string name="pref_surround_dialog_title">Surround</string>
+    <string name="pref_equalizer_title">Equalizer</string>
+    <string name="pref_equalizer_dialog_title">Equalizer</string>
+    <string name="pref_effect_custom_item">Custom</string>
+</resources>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+    <string name="app_name">冷卻模式</string>
+    <string name="batt_temp_cooldown_title">冷卻模式</string>
+    <string name="batt_temp_cooldown_msg">手機正處於冷卻模式。 僅可撥打緊急電話。</string>
+    <string name="lockscreen_emergency_call">緊急通話</string>
+</resources>

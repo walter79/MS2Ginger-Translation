@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TableLayout android:background="@drawable/search_plate" android:layout_width="fill_parent" android:layout_height="wrap_content" android:stretchColumns="*">
+        <LinearLayout android:background="@drawable/search_plate" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <RelativeLayout android:layout_width="fill_parent" android:layout_height="64.0dip" android:layout_weight="1.0">
+                <Button android:id="@id/btn_select_svg" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+                <ImageView android:id="@id/img_svgicon" android:background="@drawable/text_icon" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerHorizontal="true" />
+            </RelativeLayout>
+            <RelativeLayout android:layout_width="fill_parent" android:layout_height="64.0dip" android:layout_weight="1.0">
+                <Button android:id="@id/btn_text_color" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+                <ImageView android:id="@id/textclricon" android:background="@drawable/text_colour_icon" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerHorizontal="true" />
+            </RelativeLayout>
+        </LinearLayout>
+        <EditText android:textAppearance="?android:textAppearanceMedium" android:id="@id/edittext" android:layout_width="fill_parent" android:layout_height="wrap_content" android:maxEms="10" android:minEms="10" android:singleLine="true" android:selectAllOnFocus="true" android:capitalize="none" android:autoText="true" />
+    </TableLayout>
+    <LinearLayout android:background="@drawable/btn_panel" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_alignParentBottom="true">
+        <Button android:id="@id/btnok" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/IDS_OK" android:layout_weight="1.0" />
+        <Button android:id="@id/btncancel" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/IDS_CANCEL" android:layout_weight="1.0" />
+    </LinearLayout>
+</RelativeLayout>

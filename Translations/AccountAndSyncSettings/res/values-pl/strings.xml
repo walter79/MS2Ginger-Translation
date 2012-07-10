@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+    <string name="app_label">Ustawienia konta i synchronizacji</string>
+    <string name="sync_settings">Ustawienia kont i synchronizacji</string>
+    <string name="sync_too_many_deletes">Przekroczono limit usuwania</string>
+    <string name="background_data">Dane w tle</string>
+    <string name="background_data_summary">Aplikacje mogą synchronizować, wysyłać i odbierać dane w dowolnym momencie</string>
+    <string name="background_data_dialog_title">Uwaga</string>
+    <string name="background_data_dialog_message">Wyłączenie obsługi danych w tle wydłuża czas pracy baterii i zmniejsza użycie danych. Niektóre aplikacje mogą nadal korzystać z połączenia transmisji danych w tle.</string>
+    <string name="sync_automatically">Autosynchronizacja</string>
+    <string name="sync_automatically_summary">Aplikacje automatycznie synchronizują dane</string>
+    <string name="settings_backup">Ustawienia tworzenia kopii zapasowej</string>
+    <string name="settings_backup_summary">Utwórz kopię zapasową moich ustawień</string>
+    <string name="sync_menu_sync_now">Synchronizuj teraz</string>
+    <string name="sync_menu_sync_cancel">Anuluj synchronizację</string>
+    <string name="sync_one_time_sync">Dotknij, aby teraz zsynchronizować%1$s</string>
+    <string name="sync_gmail">Gmail</string>
+    <string name="sync_calendar">Kalendarz</string>
+    <string name="sync_contacts">Kontakty</string>
+    <string name="sync_too_many_deletes_desc">Liczba usuniętych elementów: %1$d dla %2$s na koncie %3$s. Co chcesz zrobić?</string>
+    <string name="sync_really_delete">Usuń elementy.</string>
+    <string name="sync_undo_deletes">Cofnij usunięcie.</string>
+    <string name="sync_do_nothing">Nie wykonuj teraz żadnych czynności.</string>
+    <string name="sync_is_failing">Podczas synchronizacji wystąpiły problemy. Synchronizacja zostanie wkrótce wznowiona.</string>
+    <string name="sync_plug"><font fgcolor="#ffffffff">Google Sync – witamy!</font> \nSynchronizacja danych w stylu Google zapewniająca dostęp do kontaktów, terminów oraz innych informacji z dowolnego miejsca.</string>
+    <string name="header_application_sync_settings">Ustawienia synchronizacji aplikacji</string>
+    <string name="header_manage_accounts">Zarządzaj kontami</string>
+    <string name="header_general_sync_settings">Ogólne ustawienia synchronizacji</string>
+    <string name="sync_enabled">Synchronizacja jest włączona</string>
+    <string name="sync_disabled">Synchronizacja jest wyłączona</string>
+    <string name="sync_error">Błąd synchronizacji</string>
+    <string name="add_account_label">Dodaj konto</string>
+    <string name="header_data_and_synchronization">Dane i synchronizacja</string>
+    <string name="preference_change_password_title">Zmień hasło</string>
+    <string name="header_account_settings">Ustawienia konta</string>
+    <string name="remove_account_label">Usuń konto</string>
+    <string name="header_add_an_account">Dodaj konto</string>
+    <string name="finish_button_label">Zakończ</string>
+    <string name="really_remove_account_title">Usuń konto</string>
+    <string name="really_remove_account_message">Czy na pewno chcesz usunąć to konto? Jego usunięcie spowoduje również usunięcie z telefonu wszystkich jego wiadomości, kontaktów i innych danych. \nCzy kontynuować?</string>
+    <string name="remove_account_failed">To konto jest wymagane przez niektóre aplikacje. Można je usunąć jedynie przez przywrócenie fabrycznych wartości domyślnych telefonu (co spowoduje usunięcie wszystkich danych osobistych). W tym celu należy przejść do sekcji Prywatność w aplikacji Ustawienia.</string>
+    <string name="provider_label">Subskrypcje w trybie push</string>
+    <string name="sync_item_title">Synchronizuj %s</string>
+    <string name="cant_sync_dialog_title">Nie można ręcznie zsynchronizować</string>
+    <string name="cant_sync_dialog_message">Synchronizacja tego elementu jest obecnie wyłączona. Aby zmienić ustawienie, tymczasowo włącz obsługę danych w tle i automatyczną synchronizację.</string>
+</resources>

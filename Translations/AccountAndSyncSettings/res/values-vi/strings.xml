@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+    <string name="app_label">Tài khoản và Cài đặt Đồng bộ hoá</string>
+    <string name="sync_settings">Tài khoản &amp; cài đặt đồng bộ hoá</string>
+    <string name="sync_too_many_deletes">Đã vượt quá giới hạn xoá</string>
+    <string name="background_data">Dữ liệu nền</string>
+    <string name="background_data_summary">Ứng dụng có thể đồng bộ hoá, gửi và nhận dữ liệu bất kỳ lúc nào</string>
+    <string name="background_data_dialog_title">Chú ý</string>
+    <string name="background_data_dialog_message">Vô hiệu hoá dữ liệu nền sẽ kéo dài tuổi thọ pin và giảm việc sử dụng dữ liệu. Một số ứng dụng vẫn có thể sử dụng kết nối dữ liệu nền.</string>
+    <string name="sync_automatically">Tự động đồng bộ hóa</string>
+    <string name="sync_automatically_summary">Ứng dụng tự động đồng bộ hoá dữ liệu</string>
+    <string name="settings_backup">Sao lưu cài đặt</string>
+    <string name="settings_backup_summary">Sao lưu cài đặt của tôi</string>
+    <string name="sync_menu_sync_now">Đồng bộ hoá ngay bây giờ</string>
+    <string name="sync_menu_sync_cancel">Huỷ đồng bộ hoá</string>
+    <string name="sync_one_time_sync">Chạm để đồng bộ hoá ngay bây giờ\n%1$s</string>
+    <string name="sync_gmail">Gmail</string>
+    <string name="sync_calendar">Lịch</string>
+    <string name="sync_contacts">Danh bạ</string>
+    <string name="sync_too_many_deletes_desc">Có %1$d mục bị xoá cho %2$s, tài khoản %3$s. Bạn muốn làm gì?</string>
+    <string name="sync_really_delete">Xoá mục.</string>
+    <string name="sync_undo_deletes">Hoàn tác việc xoá.</string>
+    <string name="sync_do_nothing">Ngay bây giờ bạn không cần làm gì cả.</string>
+    <string name="sync_is_failing">Đồng bộ hoá hiện đang gặp sự cố. Đồng bộ hoá sẽ sớm hoạt động trở lại.</string>
+    <string name="sync_plug"><font fgcolor="#ffffffff">Chào mừng bạn đến với Google sync!</font> \nMột giải pháp đồng bộ hoá dữ liệu của Google cho phép quyền truy cập vào danh bạ, các cuộc hẹn và hơn thế nữa cho dù bạn ở đâu.</string>
+    <string name="header_application_sync_settings">Cài đặt đồng bộ hoá ứng dụng</string>
+    <string name="header_manage_accounts">Quản lý tài khoản</string>
+    <string name="header_general_sync_settings">Cài đặt đồng bộ hoá chung</string>
+    <string name="sync_enabled">Đồng bộ hoá BẬT</string>
+    <string name="sync_disabled">Đồng bộ hoá TẮT</string>
+    <string name="sync_error">Lỗi đồng bộ hoá</string>
+    <string name="add_account_label">Thêm tài khoản</string>
+    <string name="header_data_and_synchronization">Dữ liệu &amp; đồng bộ hoá</string>
+    <string name="preference_change_password_title">Thay đổi mật khẩu</string>
+    <string name="header_account_settings">Cài đặt tài khoản</string>
+    <string name="remove_account_label">Xoá tài khoản</string>
+    <string name="header_add_an_account">Thêm tài khoản</string>
+    <string name="finish_button_label">Hoàn tất</string>
+    <string name="really_remove_account_title">Xoá tài khoản</string>
+    <string name="really_remove_account_message">Bạn có thực sự muốn xoá tài khoản này không? Việc xoá tài khoản cũng sẽ xoá tất cả các tin nhắn, danh bạ và dữ liệu khác của tài khoản đó khỏi điện thoại của bạn. \nTiếp tục?</string>
+    <string name="remove_account_failed">Tài khoản này được một số ứng dụng yêu cầu. Bạn chỉ có thể xoá tài khoản này bằng cách đặt lại điện thoại về mặc định ban đầu (thao tác này sẽ xoá tất cả dữ liệu cá nhân của bạn). Bạn thực hiện thao tác này trong ứng dụng Cài đặt trong mục Bảo mật.</string>
+    <string name="provider_label">Đăng ký dịch vụ đẩy</string>
+    <string name="sync_item_title">Đồng bộ hoá %s</string>
+    <string name="cant_sync_dialog_title">Không thể đồng bộ hoá theo cách thủ công</string>
+    <string name="cant_sync_dialog_message">Đồng bộ hoá cho mục này hiện đã bị vô hiệu hoá. Để thay đổi tuỳ chọn của bạn, hãy tạm thời bật dữ liệu nền và đồng bộ hoá tự động.</string>
+</resources>

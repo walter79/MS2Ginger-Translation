@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+    <string name="app_label">帳戶與同步處理設定</string>
+    <string name="sync_settings">帳戶與同步處理設定</string>
+    <string name="sync_too_many_deletes">達到刪除上限</string>
+    <string name="background_data">背景資料</string>
+    <string name="background_data_summary">應用程式隨時可以同步處理、傳送和接收資料</string>
+    <string name="background_data_dialog_title">注意事項</string>
+    <string name="background_data_dialog_message">停用背景資料可延長電池使用時間並降低資料使用量。 不過，部分應用程式可能仍然會使用背景資料連線。</string>
+    <string name="sync_automatically">自動同步處理</string>
+    <string name="sync_automatically_summary">應用程式會自動同步處理資料</string>
+    <string name="settings_backup">備份設定</string>
+    <string name="settings_backup_summary">備份我的設定</string>
+    <string name="sync_menu_sync_now">立即同步處理</string>
+    <string name="sync_menu_sync_cancel">取消同步</string>
+    <string name="sync_one_time_sync">輕觸此處立即開始同步 \n%1$s</string>
+    <string name="sync_gmail">Gmail</string>
+    <string name="sync_calendar">行事曆</string>
+    <string name="sync_contacts">聯絡人</string>
+    <string name="sync_too_many_deletes_desc">%2$s，帳戶 %3$s 共有 %1$d 個刪除項目。 您想要怎麼做？</string>
+    <string name="sync_really_delete">刪除這些項目。</string>
+    <string name="sync_undo_deletes">復原刪除。</string>
+    <string name="sync_do_nothing">暫停執行。</string>
+    <string name="sync_is_failing">同步處理時遇到問題。 稍後將繼續處理。</string>
+    <string name="sync_plug"><font fgcolor="#ffffffff">歡迎使用 Google 同步處理！</font>\n這是 Google 所提供的資料同步處理工具，可讓您隨時隨地存取通訊錄、會面約定等資料。</string>
+    <string name="header_application_sync_settings">應用程式同步處理設定</string>
+    <string name="header_manage_accounts">管理帳戶</string>
+    <string name="header_general_sync_settings">一般同步處理設定</string>
+    <string name="sync_enabled">已開啟同步處理功能</string>
+    <string name="sync_disabled">已關閉同步處理功能</string>
+    <string name="sync_error">同步處理錯誤</string>
+    <string name="add_account_label">新增帳戶</string>
+    <string name="header_data_and_synchronization">資料及同步處理</string>
+    <string name="preference_change_password_title">變更密碼</string>
+    <string name="header_account_settings">帳戶設定</string>
+    <string name="remove_account_label">移除帳戶</string>
+    <string name="header_add_an_account">新增帳戶</string>
+    <string name="finish_button_label">完成</string>
+    <string name="really_remove_account_title">移除帳戶</string>
+    <string name="really_remove_account_message">確定要移除帳戶？ 移除帳戶時，也會一併從手機中刪除其訊息、聯絡人及其他資料。 \n確定要繼續？</string>
+    <string name="remove_account_failed">部分應用程式需要此帳戶。 您必須將手機重設回出廠設定（即刪除所有個人資料）才能移除它。 您可在 [隱私] 下的 [設定] 進行設定。</string>
+    <string name="provider_label">預先載入訂閱</string>
+    <string name="sync_item_title">同步 %s</string>
+    <string name="cant_sync_dialog_title">無法手動同步處理</string>
+    <string name="cant_sync_dialog_message">目前已停用此項目的同步處理。 若要變更偏好設定，請暫時開啟背景資料及自動同步功能。</string>
+</resources>

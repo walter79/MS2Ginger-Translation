@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LinearLayout android:id="@id/btn_panel" android:background="@drawable/btn_panel" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_alignParentBottom="true"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <Button android:id="@id/btn_apply" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/IDS_APPLY" android:layout_weight="1.0" />
+    <Button android:id="@id/btn_discard" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/IDS_DISCARD" android:layout_weight="1.0" />
+</LinearLayout>

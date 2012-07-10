@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+    <string name="app_name">BluetoothDun</string>
+    <string name="hide_button_label">Ukryj</string>
+    <string name="disconnect_button_label">Rozłącz</string>
+    <string name="status_title_label">Współużytkowanie Internetu</string>
+    <string name="status_device_label">Urządzenie:</string>
+    <string name="status_time_elapsed_label">Upływ czasu:</string>
+    <string name="status_status_label">Status:</string>
+    <string name="status_active_label">Aktywny</string>
+    <string name="notification_dun_label">Współużytkowanie Internetu</string>
+    <string name="notification_dun_description">Wybierz, aby rozłączyć</string>
+    <string name="dun_acceptance_dialog_label">Zaakceptowanie przychodzącego połączenia DUN</string>
+    <string name="dun_acceptance_dialog_title">Żądanie współużytkowania Internetu</string>
+    <string name="dun_acceptance_dialog_content">Czy zezwolić %s na dostęp do usługi udostępniania Internetu?</string>
+    <string name="dun_acceptance_dialog_checkbox">Zawsze zezwalać?</string>
+    <string name="alert_dialog_yes">Tak</string>
+    <string name="alert_dialog_no">Nie</string>
+    <string name="dun_reject">Modem zajęty. Jest aktywna inna sesja DUN.</string>
+    <string name="map_app_name">Mapa Bluetooth</string>
+    <string name="map_acceptance_dialog_title">%1$s chce uzyskać dostęp do Twoich wiadomości. Czy zezwolić %2$s na dostęp?</string>
+    <string name="map_acceptance_dialog_header">Profil dostępu do wiadomości</string>
+    <string name="map_acceptance_timeout_message">Nastąpiło przekroczenie limitu czasu na akceptację połączenia z %1$s</string>
+    <string name="map_bluetooth_transfer_text">Nie udało się udostępnić wiadomości dla</string>
+    <string name="map_toast_connected">%1$s ma teraz dostęp do Twoich wiadomości</string>
+    <string name="map_toast_disconnected">%1$s utracił dostęp do Twoich wiadomości</string>
+    <string name="alwaysallowed">Zawsze zezwalać?</string>
+    <string name="defaultname">Zestaw samochodowy</string>
+    <string name="map_notif_ticker">Żądanie dostępu do wiadomości</string>
+    <string name="map_notif_title">Żądanie MAP</string>
+    <string name="map_notif_message">Zezwól na dostęp przez %1$s</string>
+</resources>

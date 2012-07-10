@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+    <string name="app_name">媒體音效</string>
+    <string name="pref_wired_stereo_device_title">有線立體聲裝置</string>
+    <string name="pref_stereo_speaker_title">手機揚聲器</string>
+    <string name="pref_mono_speaker_title">手機揚聲器</string>
+    <string name="pref_device_connected">已連線</string>
+    <string name="pref_effect_enable_title">啟用音效</string>
+    <string name="pref_effect_category">效果設定</string>
+    <string name="pref_headset_effect_title">效果設定檔</string>
+    <string name="pref_speaker_effect_title">效果設定檔</string>
+    <string name="pref_mono_effect_title">效果設定檔</string>
+    <string name="pref_effect_dialog_title">效果設定檔</string>
+    <string name="pref_surround_title">環繞</string>
+    <string name="pref_surround_dialog_title">環繞</string>
+    <string name="pref_equalizer_title">等化器</string>
+    <string name="pref_equalizer_dialog_title">等化器</string>
+    <string name="pref_effect_custom_item">自訂</string>
+</resources>

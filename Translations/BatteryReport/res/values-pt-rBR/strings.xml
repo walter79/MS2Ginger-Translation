@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+    <string name="app_name">Modo de resfriamento</string>
+    <string name="batt_temp_cooldown_title">Modo de resfriamento</string>
+    <string name="batt_temp_cooldown_msg">O telefone está no modo de resfriamento. Somente ligações de emergência.</string>
+    <string name="lockscreen_emergency_call">Emergência</string>
+</resources>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+    <string name="app_name">Powiadomienia admina</string>
+    <string name="hard_reset_failed">Nie udało się wykonać twardego resetu urządzenia.</string>
+    <string name="needUpgradeNoneFound">Oprogramowanie telefonu jest zbyt stare, by dokonać automatycznej aktualizacji. Prosimy o kontakt z operatorem sieci komórkowej w celu aktualizacji oprogramowania telefonu.</string>
+    <string name="hard_reset_on_ok">To narzędzie rozwojowe, które po naciśnięciu ok wykona twardy reset. Narzędzia nierozwojowe wykonają zwykły reset.</string>
+    <string name="accountDisabled">Podczas logowania na konto wystąpił błąd. \n \n Twoje konto MOTOBLUR zostało zdezaktywowane. Prosimy o kontakt z obsługą klienta.</string>
+    <string name="blurPasswordMismatch">Hasło konta nie zgadza się z przechowywanym. Jeśli niedawno dokonano zmiany hasła, prosimy o ponowne wprowadzenie nowego hasła.</string>
+    <string name="notificationTitle">Alert Sieciowy</string>
+    <string name="accountDeleted">Konto zostało usunięte, prosimy o zresetowanie urządzenia i założenie nowego konta. Należy przejść do Ustawień, następnie do Kart SD i Pamięci i wybrać Przywrócenie ustawień fabrycznych</string>
+    <string name="wrongDevice">Wykorzystywane konto jest powiązane z innym urządzeniem. Prosimy o kontakt z obsługą klienta w celu zresetowania urządzenia.</string>
+    <string name="wrong_password_subject">{0} nieprawidłowa nazwa użytkownika lub hasło.</string>
+    <string name="blur_password_incorrect">nieprawidłowe hasło MOTOBLUR</string>
+    <string name="wrong_password_title">Konta</string>
+    <string name="more_info">Więcej informacji</string>
+    <string name="error">Błąd</string>
+    <string name="google_privacy_summary">Informacje o prywatności Google</string>
+    <string name="google_privacy_body">Zasady ochrony prywatności, odnoszące się do usług Google i Android, można znaleźć, wybierając kolejno ustawienia/Informacje o telefonie/Informacje prawne/Informacje prawne o Google.</string>
+    <string name="view_terms">Przeczytaj zasady</string>
+    <string name="blur_account_error">Błąd konta Blur</string>
+    <string name="unverified_motoblur_acnt">Niezweryfikowane konto MOTOBLUR</string>
+</resources>

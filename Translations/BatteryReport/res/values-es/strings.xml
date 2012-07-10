@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+    <string name="app_name">Modo de refrigeración</string>
+    <string name="batt_temp_cooldown_title">Modo de refrigeración</string>
+    <string name="batt_temp_cooldown_msg">El dispositivo se ha sobrecalentado y ahora se está refrigerando.\n\nPara realizar llamadas de emergencia, pulsa el botón que aparece abajo. \n\nEl resto de servicios se reanudará cuando se restablezca una temperatura de funcionamiento segura.</string>
+    <string name="lockscreen_emergency_call">Emergencia</string>
+</resources>

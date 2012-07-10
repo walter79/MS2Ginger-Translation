@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+    <color name="et_dialog_background">#ffffffff</color>
+    <color name="et_dialog_text">#ff000000</color>
+    <color name="rs_dialog_text_enable">#ff000000</color>
+    <color name="rs_dialog_text_disable">#ffa0a0a0</color>
+    <color name="half_trans_color">#7f000000</color>
+</resources>

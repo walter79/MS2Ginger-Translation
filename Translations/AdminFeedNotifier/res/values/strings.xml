@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+    <string name="app_name">Admin Notifier</string>
+    <string name="hard_reset_failed">We were unable to hard reset the device.</string>
+    <string name="needUpgradeNoneFound">The software on your phone is too old for an automatic update. Please contact your mobile operator to update the software on your phone.</string>
+    <string name="hard_reset_on_ok">This is a development device and will hard reset when you press ok. Non development devices will just reset.</string>
+    <string name="accountDisabled">There was an error signing into your account. \n \n Your MOTOBLUR account has been disabled. Please contact customer service.</string>
+    <string name="blurPasswordMismatch">The password on your account does not match the one we have stored. If you recently changed your password please re-enter the new password now.</string>
+    <string name="notificationTitle">Network Alert</string>
+    <string name="accountDeleted">Your account has been deleted, please reset your device to create a new account. Please go to Settings then Privacy and select Factory data reset</string>
+    <string name="wrongDevice">The account you are using is associated with another device. Please contact customer service to reset the device.</string>
+    <string name="wrong_password_subject">{0} username or password incorrect.</string>
+    <string name="blur_password_incorrect">MOTOBLUR password incorrect</string>
+    <string name="wrong_password_title">Accounts</string>
+    <string name="more_info">More Info</string>
+    <string name="error">Error</string>
+    <string name="google_privacy_summary">Google privacy notice</string>
+    <string name="google_privacy_body">Privacy policies for use of Google and Android services can be found under Settings/About Phone/Legal Information/Google legal.</string>
+    <string name="view_terms">View policies</string>
+    <string name="blur_account_error">Blur account error</string>
+    <string name="unverified_motoblur_acnt">Unverified MOTOBLUR account</string>
+</resources>

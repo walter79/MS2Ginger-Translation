@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<PreferenceScreen android:title="@string/pref_wired_stereo_device_title"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <CheckBoxPreference android:title="@string/pref_effect_enable_title" android:key="pref_headset_effect_enable" android:defaultValue="false" />
+    <PreferenceCategory android:title="@string/pref_effect_category">
+        <com.motorola.android.AudioEffectSettings.AudioListPreference android:entries="@array/pref_headset_effect_entries" android:title="@string/pref_headset_effect_title" android:key="pref_headset_effect" android:dependency="pref_headset_effect_enable" android:defaultValue="@string/Value_HeadsetDefaultEffect" android:dialogTitle="@string/pref_effect_dialog_title" android:entryValues="@array/pref_headset_effect_values" />
+        <com.motorola.android.AudioEffectSettings.AudioListPreference android:enabled="false" android:entries="@array/pref_headset_surround_entries" android:title="@string/pref_surround_title" android:key="pref_headset_surround" android:defaultValue="@string/Value_HeadsetDefaultSurround" android:dialogTitle="@string/pref_surround_dialog_title" android:entryValues="@array/pref_headset_surround_values" />
+        <com.motorola.android.AudioEffectSettings.AudioListPreference android:enabled="false" android:entries="@array/pref_headset_equalizer_entries" android:title="@string/pref_equalizer_title" android:key="pref_headset_equalizer" android:defaultValue="@string/Value_HeadsetDefaultEqualizer" android:dialogTitle="@string/pref_equalizer_dialog_title" android:entryValues="@array/pref_headset_equalizer_values" />
+    </PreferenceCategory>
+</PreferenceScreen>

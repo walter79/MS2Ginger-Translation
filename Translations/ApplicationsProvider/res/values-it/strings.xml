@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+    <string name="app_label">Provider applicazioni ricerca</string>
+    <string name="search_label">Applicaz.</string>
+    <string name="application_desc">Applicazione</string>
+    <string name="settings_description">Nomi delle applicazioni installate</string>
+</resources>

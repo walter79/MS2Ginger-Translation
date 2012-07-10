@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+    <string name="perm_desc">Consente di fornire atcmd più specifici in base al fornitore tramite plugin.</string>
+    <string name="perm_label">Attiva plugin atcmd</string>
+</resources>

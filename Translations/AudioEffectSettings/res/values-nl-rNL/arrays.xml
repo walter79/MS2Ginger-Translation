@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+    <string-array name="audio_device_list">
+        <item>Stereoheadset</item>
+        <item>Stereoluidspreker</item>
+        <item>Monoheadset of -luidspreker</item>
+    </string-array>
+    <array name="pref_headset_effect_entries">
+        <item>3D-stereo</item>
+        <item>Thuisbioscoop</item>
+        <item>Livepodium</item>
+        <item>@string/pref_effect_custom_item</item>
+    </array>
+    <string-array name="pref_headset_effect_sumarries">
+        <item>Uitbreiding van stereo- naar surround-geluid</item>
+        <item>Hiermee wordt het effect nagebootst van een uit meerdere luidsprekers bestaand thuisbioscoopsysteem</item>
+        <item>Hiermee wordt de sfeer op het podium in een muziekclub nagebootst</item>
+        <item>Surround- en equalizerinstellingen afzonderlijk aanpassen</item>
+    </string-array>
+    <array name="pref_speaker_effect_entries">
+        <item>3D-stereo</item>
+        <item>Thuisbioscoop</item>
+        <item>Livepodium</item>
+        <item>@string/pref_effect_custom_item</item>
+    </array>
+    <string-array name="pref_speaker_effect_sumarries">
+        <item>Uitbreiding van stereo- naar surround-geluid</item>
+        <item>Hiermee wordt het effect nagebootst van een uit meerdere luidsprekers bestaand thuisbioscoopsysteem</item>
+        <item>Hiermee wordt de sfeer op het podium in een muziekclub nagebootst</item>
+        <item>Surround- en equalizerinstellingen afzonderlijk aanpassen</item>
+    </string-array>
+    <string-array name="pref_headset_surround_entries">
+        <item>Live</item>
+        <item>Breed</item>
+        <item>Ambient</item>
+        <item>Uit</item>
+    </string-array>
+    <string-array name="pref_headset_surround_summarries">
+        <item>Hiermee wordt de sfeer van weergave in een grotere ruimte nagebootst</item>
+        <item>Hiermee wordt het stereobeeld verbreed</item>
+        <item>Hiermee wordt een \'out-of-head\' audio-ervaring nagebootst en wordt geluid geëxternaliseerd</item>
+        <item></item>
+    </string-array>
+    <string-array name="pref_speaker_surround_entries">
+        <item>Live</item>
+        <item>Breed</item>
+        <item>Ambient</item>
+        <item>Uit</item>
+    </string-array>
+    <string-array name="pref_speaker_surround_summarries">
+        <item>Hiermee wordt de sfeer van weergave in een grotere ruimte nagebootst</item>
+        <item>Hiermee wordt het stereobeeld verbreed</item>
+        <item>Hiermee wordt een \'out-of-head\' audio-ervaring nagebootst en wordt geluid geëxternaliseerd</item>
+        <item></item>
+    </string-array>
+    <string-array name="pref_headset_equalizer_entries">
+        <item>Extreme bas</item>
+        <item>Pittige bas</item>
+        <item>Gebalanceerd</item>
+        <item>Veel hoge tonen</item>
+        <item>Vocalizer</item>
+        <item>Uit</item>
+    </string-array>
+    <string-array name="pref_headset_equalizer_summaries">
+        <item>Maximale basversterking</item>
+        <item>Strakke bas, versterking met nauwkeurige basregeling</item>
+        <item>Benadrukt instrumenten in de middenband</item>
+        <item>Versterkt hoge tonen</item>
+        <item>Benadrukt vocalen en spraak</item>
+        <item></item>
+    </string-array>
+    <string-array name="pref_speaker_equalizer_entries">
+        <item>Extreme bas</item>
+        <item>Pittige bas</item>
+        <item>Gebalanceerd</item>
+        <item>Veel hoge tonen</item>
+        <item>Vocalizer</item>
+        <item>Uit</item>
+    </string-array>
+    <string-array name="pref_speaker_equalizer_summaries">
+        <item>Maximale basversterking</item>
+        <item>Strakke bas, versterking met nauwkeurige basregeling</item>
+        <item>Benadrukt instrumenten in de middenband</item>
+        <item>Versterkt hoge tonen</item>
+        <item>Benadrukt vocalen en spraak</item>
+        <item></item>
+    </string-array>
+    <string-array name="pref_mono_equalizer_entries">
+        <item>Extreme bas</item>
+        <item>Pittige bas</item>
+        <item>Gebalanceerd</item>
+        <item>Veel hoge tonen</item>
+        <item>Vocalizer</item>
+        <item>Uit</item>
+    </string-array>
+    <string-array name="pref_mono_equalizer_summaries">
+        <item>Maximale basversterking</item>
+        <item>Strakke bas, versterking met nauwkeurige basregeling</item>
+        <item>Benadrukt instrumenten in de middenband</item>
+        <item>Versterkt hoge tonen</item>
+        <item>Benadrukt vocalen en spraak</item>
+        <item></item>
+    </string-array>
+</resources>

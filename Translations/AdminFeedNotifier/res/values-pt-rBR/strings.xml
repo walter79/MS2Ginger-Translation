@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+    <string name="app_name">Notificação do admin</string>
+    <string name="hard_reset_failed">Não foi possível reiniciar o telefone.</string>
+    <string name="needUpgradeNoneFound">O software no seu telefone é muito antigo para uma atualização automática. Por favor, contacte sua operadora para atualizá-lo.</string>
+    <string name="hard_reset_on_ok">Este é um dispositivo de desenvolvimento e será reformado quando você pressionar ok. Dispositivos que não sejam de desenvolvimento serão somente zerados.</string>
+    <string name="accountDisabled">Ocorreu um erro ao conectar-se à sua conta. \n \n Sua conta do MOTOBLUR foi desativada. Por favor, contacte o atendimento ao consumidor.</string>
+    <string name="blurPasswordMismatch">A senha na sua conta não coincide com a que você armazenou. Se você alterou-a recentemente, por favor, reinsira uma nova senha agora.</string>
+    <string name="notificationTitle">Alerta de rede</string>
+    <string name="accountDeleted">Sua conta foi excluída. Por favor, reconfigure seu telefone para criar uma nova conta. Por favor, vá para \"Configurações\", \"Memória e cartão SD\" e selecione \"Restaurar configuração original\"</string>
+    <string name="wrongDevice">A conta que você está usando está associada a outro telefone. Por favor, contacte a operadora para reiniciar este telefone.</string>
+    <string name="wrong_password_subject">Nome de usuário ou senha do {0} incorretos.</string>
+    <string name="blur_password_incorrect">Senha do MOTOBLUR incorreta</string>
+    <string name="wrong_password_title">Contas</string>
+    <string name="more_info">Mais informações</string>
+    <string name="error">Erro</string>
+    <string name="google_privacy_summary">Notificação de privacidade da Google</string>
+    <string name="google_privacy_body">As políticas de privacidade para o uso dos serviços Google e Android podem ser encontradas em Configurações > Sobre o telefone > Informações legais > Informações legais do Google.</string>
+    <string name="view_terms">Ver políticas</string>
+    <string name="blur_account_error">Erro na conta do Blur</string>
+    <string name="unverified_motoblur_acnt">Conta do MOTOBLUR não verificada</string>
+</resources>

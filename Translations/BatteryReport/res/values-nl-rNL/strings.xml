@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+    <string name="app_name">Afkoelmodus</string>
+    <string name="batt_temp_cooldown_title">Afkoelmodus</string>
+    <string name="batt_temp_cooldown_msg">Afkoelmodus is ingeschakeld. Alleen noodoproepen.</string>
+    <string name="lockscreen_emergency_call">Noodoproep</string>
+</resources>

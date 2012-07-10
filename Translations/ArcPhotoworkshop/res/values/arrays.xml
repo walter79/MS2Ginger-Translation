@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+    <array name="main_edit_tools">
+        <item>@string/IDS_ET_BRIGHTNESS</item>
+        <item>@string/IDS_ET_COLOR</item>
+        <item>@string/IDS_ET_EFFECT</item>
+        <item>@string/IDS_ET_RESIZE</item>
+        <item>@string/IDS_ET_CROP</item>
+        <item>@string/IDS_ET_TEXT</item>
+        <item>@string/IDS_ET_CLIPART</item>
+        <item>@string/IDS_ET_STAMP</item>
+        <item>@string/IDS_ET_FRAME</item>
+        <item>@string/IDS_ET_FLIP</item>
+    </array>
+</resources>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+    <string name="app_name">管理通知器</string>
+    <string name="hard_reset_failed">我们无法对设备进行硬重置.</string>
+    <string name="needUpgradeNoneFound">手机软件版本太旧，无法自动更新。 请联系您的移动运营商获得帮助，更新手机软件。</string>
+    <string name="hard_reset_on_ok">这是一个开发设备，按确定将进行硬重置。 而对于非开发设备，将只会重置。</string>
+    <string name="accountDisabled">登录帐户时出错。 \n \n您的 MOTOBLUR 帐户已禁用。请与客服中心联系。</string>
+    <string name="blurPasswordMismatch">帐户密码与存储的密码不匹配。如果您最近更改了密码，请重新输入新密码。</string>
+    <string name="notificationTitle">网络提示</string>
+    <string name="accountDeleted">您的帐户已被删除，请重置手机以创建新帐户。 请转到“设置”中的“隐私权”，选择“恢复出厂设置”</string>
+    <string name="wrongDevice">您正在使用的帐户与另一设备相关联。 请联系客服中心重置该设备。</string>
+    <string name="wrong_password_subject">{0} 用户名或密码错误。</string>
+    <string name="blur_password_incorrect">MOTOBLUR密码错误</string>
+    <string name="wrong_password_title">帐户</string>
+    <string name="more_info">更多信息</string>
+    <string name="error">错误</string>
+    <string name="google_privacy_summary">Google 隐私公告</string>
+    <string name="google_privacy_body">您可以通过设置/关于手机/法律信息/Google 法律找到关于 Google 和 Android 服务的隐私协议。</string>
+    <string name="view_terms">查看协议</string>
+    <string name="blur_account_error">Blur 帐户出错</string>
+    <string name="unverified_motoblur_acnt">尚未验证的 MOTOBLUR 帐户</string>
+</resources>

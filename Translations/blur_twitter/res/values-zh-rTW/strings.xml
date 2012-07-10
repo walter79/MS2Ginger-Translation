@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+    <string name="app_name">Twitter 驗證器</string>
+    <string name="display_name">Twitter</string>
+    <string name="options_display_name">Twitter 選項</string>
+</resources>

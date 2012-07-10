@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+    <item type="id" name="zz_moto_batt_temp_bar">false</item>
+    <item type="id" name="emergencyCallAlone">false</item>
+</resources>

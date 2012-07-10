@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+    <string name="perm_desc">允许通过插件提供更多的供应商专用atcmd.</string>
+    <string name="perm_label">启用atcmd插件</string>
+</resources>

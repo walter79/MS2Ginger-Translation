@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+    <string name="app_name">Cool down mode</string>
+    <string name="batt_temp_cooldown_title">Cool down mode</string>
+    <string name="batt_temp_cooldown_msg">Phone is now in cool down mode. Emergency calls only.</string>
+    <string name="lockscreen_emergency_call">Emergency call</string>
+</resources>

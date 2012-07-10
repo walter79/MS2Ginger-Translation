@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+    <string name="app_label">帐户与同步设置</string>
+    <string name="sync_settings">帐户与同步设置</string>
+    <string name="sync_too_many_deletes">超出删除限制</string>
+    <string name="background_data">后台数据</string>
+    <string name="background_data_summary">应用程序随时可以同步、发送和接收数据</string>
+    <string name="background_data_dialog_title">注意</string>
+    <string name="background_data_dialog_message">禁用后台数据可延长电池使用时间并减少数据使用量。但某些应用程序可能仍会使用后台数据连接。</string>
+    <string name="sync_automatically">自动同步</string>
+    <string name="sync_automatically_summary">应用程序自动同步数据</string>
+    <string name="settings_backup">备份设置</string>
+    <string name="settings_backup_summary">备份我的设置</string>
+    <string name="sync_menu_sync_now">立即同步</string>
+    <string name="sync_menu_sync_cancel">取消同步</string>
+    <string name="sync_one_time_sync">点按可立即同步 \n%1$s</string>
+    <string name="sync_gmail">Gmail</string>
+    <string name="sync_calendar">日历</string>
+    <string name="sync_contacts">通讯录</string>
+    <string name="sync_too_many_deletes_desc">帐户 %3$s 有 %1$d 个关于 %2$s 的删除项。您要如何操作？</string>
+    <string name="sync_really_delete">删除这些项。</string>
+    <string name="sync_undo_deletes">撤消删除。</string>
+    <string name="sync_do_nothing">目前不进行任何操作。</string>
+    <string name="sync_is_failing">同步目前发生问题。将在短时间内恢复。</string>
+    <string name="sync_plug"><font fgcolor="#ffffffff">欢迎使用 Google sync!</font>\nGoogle 的这款同步数据工具可以让您从任何地方访问您的联系人、约会以及更多信息。</string>
+    <string name="header_application_sync_settings">应用程序同步设置</string>
+    <string name="header_manage_accounts">管理帐户</string>
+    <string name="header_general_sync_settings">常规同步设置</string>
+    <string name="sync_enabled">同步功能已开启</string>
+    <string name="sync_disabled">同步功能已关闭</string>
+    <string name="sync_error">同步错误</string>
+    <string name="add_account_label">添加帐户</string>
+    <string name="header_data_and_synchronization">数据与同步</string>
+    <string name="preference_change_password_title">更改密码</string>
+    <string name="header_account_settings">帐户设置</string>
+    <string name="remove_account_label">删除帐户</string>
+    <string name="header_add_an_account">添加帐户</string>
+    <string name="finish_button_label">完成</string>
+    <string name="really_remove_account_title">删除帐户</string>
+    <string name="really_remove_account_message">确定删除该帐户？删除该帐户会同时从手机中删除其所有信息、联系人以及其他数据。 \n是否继续？</string>
+    <string name="remove_account_failed">某些应用程序需要使用此帐户。 您只有将手机重置为出厂默认设置（此操作会删除您所有的个人数据），才能删除此帐户。 您可以在设置中的隐私权项下执行此操作。</string>
+    <string name="provider_label">推送订阅</string>
+    <string name="sync_item_title">同步 %s</string>
+    <string name="cant_sync_dialog_title">无法手动同步</string>
+    <string name="cant_sync_dialog_message">当前已禁用同步此条目。 要更改您的偏好设置，请暂时启用后台数据和自动同步。</string>
+</resources>

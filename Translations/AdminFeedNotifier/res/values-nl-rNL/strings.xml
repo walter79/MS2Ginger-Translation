@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+    <string name="app_name">Beheerdersmelding</string>
+    <string name="hard_reset_failed">Er is geen harde reset van het apparaat uitgevoerd.</string>
+    <string name="needUpgradeNoneFound">De software op uw telefoon is te oud voor een automatische update. Neem contact op met uw mobiele operator om de software op uw telefoon te laten bijwerken.</string>
+    <string name="hard_reset_on_ok">Dit is een ontwikkelingsapparaat en er wordt een harde reset uitgevoerd als u op OK drukt. Bij niet-ontwikkelingsapparaten vindt een gewone reset plaats.</string>
+    <string name="accountDisabled">Er is een fout opgetreden bij het aanmelden met uw account. \n \n Uw MOTOBLUR-account is uitgeschakeld. Neem contact op met de klantenservice.</string>
+    <string name="blurPasswordMismatch">Het wachtwoord voor uw account komt niet overeen met het wachtwoord in onze administratie. Als u uw wachtwoord onlangs heeft gewijzigd, voert u nu het nieuwe wachtwoord opnieuw in.</string>
+    <string name="notificationTitle">Netwerkmelding</string>
+    <string name="accountDeleted">Uw account is verwijderd. Voer een reset van uw apparaat uit om een nieuw account te maken. Ga naar Instellingen en vervolgens naar SD-kaart en opslag en selecteer vervolgens Resetten naar fabriekswaarden.</string>
+    <string name="wrongDevice">Het account dat u gebruikt, is aan een ander apparaat gekoppeld. Neem contact op met de klantenservice om een reset van het apparaat te laten uitvoeren.</string>
+    <string name="wrong_password_subject">{0}-gebruikersnaam of -wachtwoord onjuist.</string>
+    <string name="blur_password_incorrect">MOTOBLUR-wachtwoord onjuist</string>
+    <string name="wrong_password_title">Accounts</string>
+    <string name="more_info">Meer informatie</string>
+    <string name="error">Fout</string>
+    <string name="google_privacy_summary">Google-privacymelding</string>
+    <string name="google_privacy_body">Het gehanteerde privacybeleid bij het gebruik van Google- en Android-services is te vinden onder Instellingen > Over de telefoon > Juridische informatie > Google juridisch.</string>
+    <string name="view_terms">Beleid weergeven</string>
+    <string name="blur_account_error">Blur-accountfout</string>
+    <string name="unverified_motoblur_acnt">Niet-geverifieerd MOTOBLUR-account</string>
+</resources>

@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+    <string-array name="audio_device_list">
+        <item>Stereo headset</item>
+        <item>Stereo speaker</item>
+        <item>Mono headset or speaker</item>
+    </string-array>
+    <array name="pref_headset_effect_entries">
+        <item>3D stereo</item>
+        <item>Home theatre</item>
+        <item>Live stage</item>
+        <item>@string/pref_effect_custom_item</item>
+    </array>
+    <string-array name="pref_headset_effect_sumarries">
+        <item>Expansion of stereo into surround sound</item>
+        <item>Recreates the effect of a multiple-speaker home theatre system</item>
+        <item>Recreates the stage atmosphere of a music club</item>
+        <item>Individually adjust surround and equaliser settings</item>
+    </string-array>
+    <array name="pref_speaker_effect_entries">
+        <item>3D stereo</item>
+        <item>Home theatre</item>
+        <item>Live stage</item>
+        <item>@string/pref_effect_custom_item</item>
+    </array>
+    <string-array name="pref_speaker_effect_sumarries">
+        <item>Expansion of stereo into surround sound</item>
+        <item>Recreates the effect of a multiple-speaker home theatre system</item>
+        <item>Recreates the stage atmosphere of a music club</item>
+        <item>Individually adjust surround and equaliser settings</item>
+    </string-array>
+    <string-array name="pref_headset_surround_entries">
+        <item>Live</item>
+        <item>Wide</item>
+        <item>Ambient</item>
+        <item>Off</item>
+    </string-array>
+    <string-array name="pref_headset_surround_summarries">
+        <item>Recreates the atmosphere of playback in a larger room</item>
+        <item>Widens stereo image</item>
+        <item>Recreates \'out-of-head\' audio experience; externalises sound</item>
+        <item></item>
+    </string-array>
+    <string-array name="pref_speaker_surround_entries">
+        <item>Live</item>
+        <item>Wide</item>
+        <item>Ambient</item>
+        <item>Off</item>
+    </string-array>
+    <string-array name="pref_speaker_surround_summarries">
+        <item>Recreates the atmosphere of playback in a larger room</item>
+        <item>Widens stereo image</item>
+        <item>Recreates \'out-of-head\' audio experience; externalises sound</item>
+        <item></item>
+    </string-array>
+    <string-array name="pref_headset_equalizer_entries">
+        <item>Extreme bass</item>
+        <item>Bass punch</item>
+        <item>Balanced</item>
+        <item>Brilliant treble</item>
+        <item>Vocaliser</item>
+        <item>Off</item>
+    </string-array>
+    <string-array name="pref_headset_equalizer_summaries">
+        <item>Maximum bass boost</item>
+        <item>Tight bass, amplification with accurate bass control</item>
+        <item>Emphasises mid-band instruments</item>
+        <item>Boosts trebles</item>
+        <item>Emphasises vocals and speech</item>
+        <item></item>
+    </string-array>
+    <string-array name="pref_speaker_equalizer_entries">
+        <item>Extreme bass</item>
+        <item>Bass punch</item>
+        <item>Balanced</item>
+        <item>Brilliant treble</item>
+        <item>Vocaliser</item>
+        <item>Off</item>
+    </string-array>
+    <string-array name="pref_speaker_equalizer_summaries">
+        <item>Maximum bass boost</item>
+        <item>Tight bass, amplification with accurate bass control</item>
+        <item>Emphasises mid-band instruments</item>
+        <item>Boosts trebles</item>
+        <item>Emphasises vocals and speech</item>
+        <item></item>
+    </string-array>
+    <string-array name="pref_mono_equalizer_entries">
+        <item>Extreme bass</item>
+        <item>Bass punch</item>
+        <item>Balanced</item>
+        <item>Brilliant treble</item>
+        <item>Vocaliser</item>
+        <item>Off</item>
+    </string-array>
+    <string-array name="pref_mono_equalizer_summaries">
+        <item>Maximum bass boost</item>
+        <item>Tight bass, amplification with accurate bass control</item>
+        <item>Emphasises mid-band instruments</item>
+        <item>Boosts trebles</item>
+        <item>Emphasises vocals and speech</item>
+        <item></item>
+    </string-array>
+</resources>

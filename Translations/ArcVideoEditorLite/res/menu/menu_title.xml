@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<menu
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:icon="@drawable/toolbar_save" android:id="@id/title_menu_save" android:title="@string/menu_title_save" />
+    <item android:icon="@drawable/toolbar_edit_title" android:id="@id/title_menu_edit_title" android:title="@string/menu_title_edit_text" />
+    <item android:icon="@drawable/toolbar_duration" android:id="@id/title_menu_duration" android:title="@string/menu_title_duration" />
+    <item android:icon="@drawable/toolbar_cancel" android:id="@id/title_menu_remove_title" android:title="@string/menu_title_cancel" />
+</menu>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+    <public type="drawable" name="qzone" id="0x7f020000" />
+    <public type="xml" name="authenticator" id="0x7f030000" />
+    <public type="xml" name="contacts" id="0x7f030001" />
+    <public type="xml" name="syncadapter" id="0x7f030002" />
+    <public type="string" name="app_name" id="0x7f040000" />
+    <public type="string" name="display_name" id="0x7f040001" />
+    <public type="style" name="FullyTranslucent" id="0x7f050000" />
+</resources>

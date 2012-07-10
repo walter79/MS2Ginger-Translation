@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+    <string name="app_name">LinkedIn 验证程序</string>
+    <string name="display_name">LinkedIn</string>
+    <string name="options_display_name">LinkedIn 选项</string>
+</resources>

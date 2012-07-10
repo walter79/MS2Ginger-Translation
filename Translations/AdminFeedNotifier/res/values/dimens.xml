@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+    <dimen name="topPadding">7.0dip</dimen>
+    <dimen name="bottomPadding">4.0dip</dimen>
+    <dimen name="leftPadding">7.0dip</dimen>
+    <dimen name="rightPadding">4.0dip</dimen>
+</resources>

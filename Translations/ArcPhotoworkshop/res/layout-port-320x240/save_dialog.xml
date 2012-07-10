@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RelativeLayout android:id="@id/enhanceLayout" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:id="@id/savename" android:paddingLeft="5.0dip" android:paddingRight="5.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip" android:layout_marginRight="10.0dip" android:text="@string/IDS_NAME" android:singleLine="true" />
+    <EditText android:textAppearance="?android:textAppearanceMedium" android:id="@id/edittext" android:paddingLeft="5.0dip" android:paddingRight="5.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip" android:layout_marginRight="10.0dip" android:singleLine="true" android:capitalize="none" android:autoText="false" android:layout_below="@id/savename"
+      xmlns:android="http://schemas.android.com/apk/res/android" />
+    <LinearLayout android:gravity="center" android:background="#ffc0c0c0" android:paddingLeft="5.0dip" android:paddingRight="5.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_below="@id/edittext" android:layout_alignParentTop="@id/btn_discard">
+        <Button android:id="@id/btn_save" android:layout_width="fill_parent" android:layout_height="48.0sp" android:layout_marginTop="6.0dip" android:layout_marginBottom="4.0dip" android:text="@string/IDS_SAVE" android:layout_weight="2.0" />
+        <Button android:id="@id/btn_cancel" android:layout_width="fill_parent" android:layout_height="48.0sp" android:layout_marginTop="6.0dip" android:layout_marginBottom="4.0dip" android:text="@string/IDS_CANCEL" android:layout_weight="2.0" />
+    </LinearLayout>
+</RelativeLayout>

@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<menu
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:icon="@drawable/toolbar_save" android:id="@id/preivew_menu_save" android:title="@string/menu_preview_save" />
+</menu>

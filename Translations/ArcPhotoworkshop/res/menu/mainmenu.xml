@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<menu
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:icon="@drawable/undo" android:id="@id/open" android:title="@string/IDS_OPEN" />
+    <item android:icon="@drawable/undo" android:id="@id/undo" android:title="@string/IDS_UNDO" />
+    <item android:icon="@drawable/redo" android:id="@id/redo" android:title="@string/IDS_REDO" />
+    <item android:icon="@drawable/save" android:id="@id/save" android:title="@string/IDS_SAVE" />
+    <item android:icon="@drawable/pe_about" android:id="@id/about" android:title="@string/about" />
+</menu>

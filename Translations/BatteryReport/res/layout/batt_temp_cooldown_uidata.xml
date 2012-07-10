@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="25.0sp" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/batt_temp_cooldown_title" />
+    <ImageView android:gravity="center" android:id="@id/zz_moto_batt_temp_bar" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="30.0dip" android:layout_marginRight="3.0dip" android:src="@drawable/zz_moto_batt_temp_bar" android:baselineAligned="true" />
+    <TextView android:textSize="20.0sp" android:gravity="fill_vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/batt_temp_cooldown_msg" android:layout_weight="1.0" />
+    <Button android:textSize="20.0sp" android:id="@id/emergencyCallAlone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/lockscreen_emergency_call" android:drawableLeft="@drawable/ic_emergency" android:drawablePadding="3.0dip" />
+</LinearLayout>

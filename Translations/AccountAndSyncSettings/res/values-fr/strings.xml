@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+    <string name="app_label">Paramètres compte et synchro</string>
+    <string name="sync_settings">Paramètres compte et synchro</string>
+    <string name="sync_too_many_deletes">Le nombre maximum de suppressions a été atteint.</string>
+    <string name="background_data">Données en arrière-plan</string>
+    <string name="background_data_summary">Synchronisation, envoi et réception des données à tout moment</string>
+    <string name="background_data_dialog_title">Avertissement</string>
+    <string name="background_data_dialog_message">La désactivation des données en arrière-plan permet d\'économiser la batterie et de réduire l\'utilisation des données. Certaines applications peuvent continuer à utiliser la connexion des données en arrière-plan.</string>
+    <string name="sync_automatically">Synchronisation auto</string>
+    <string name="sync_automatically_summary">Synchronisation automatique des données par les applications</string>
+    <string name="settings_backup">Sauvegarde des paramètres</string>
+    <string name="settings_backup_summary">Sauvegarder mes paramètres</string>
+    <string name="sync_menu_sync_now">Synchroniser maintenant</string>
+    <string name="sync_menu_sync_cancel">Annuler la synchronisation</string>
+    <string name="sync_one_time_sync">Touchez l\'écran pour lancer la synchronisation \u0020%1$s</string>
+    <string name="sync_gmail">Gmail</string>
+    <string name="sync_calendar">Agenda</string>
+    <string name="sync_contacts">Contacts</string>
+    <string name="sync_too_many_deletes_desc">Il y a %1$d éléments supprimés pour %2$s, pour le compte %3$s. Que souhaitez-vous faire ?</string>
+    <string name="sync_really_delete">Supprimer les éléments</string>
+    <string name="sync_undo_deletes">Annuler la suppression</string>
+    <string name="sync_do_nothing">Ne rien faire pour l\'instant</string>
+    <string name="sync_is_failing">La synchronisation rencontre actuellement des problèmes. Elle sera rétablie sous peu.</string>
+    <string name="sync_plug"><font fgcolor="#ffffffff">Bienvenue sur Google Sync !</font> \nUne solution Google pour synchroniser vos données et vous permettre d\'accéder à vos contacts, rendez-vous, etc. où que vous soyez.</string>
+    <string name="header_application_sync_settings">Paramètres des applications</string>
+    <string name="header_manage_accounts">Gestion des comptes</string>
+    <string name="header_general_sync_settings">Paramètres généraux</string>
+    <string name="sync_enabled">Synchronisation activée</string>
+    <string name="sync_disabled">Synchronisation désactivée</string>
+    <string name="sync_error">Erreur de synchronisation</string>
+    <string name="add_account_label">Ajouter un compte</string>
+    <string name="header_data_and_synchronization">Données et synchronisation</string>
+    <string name="preference_change_password_title">Modifier le mot de passe</string>
+    <string name="header_account_settings">Paramètres du compte</string>
+    <string name="remove_account_label">Supprimer le compte</string>
+    <string name="header_add_an_account">Ajouter un compte</string>
+    <string name="finish_button_label">Terminer</string>
+    <string name="really_remove_account_title">Supprimer le compte</string>
+    <string name="really_remove_account_message">Voulez-vous vraiment supprimer ce compte ? Cela entraînera également la suppression de tous ses messages, contacts et autres données du téléphone.\nVoulez-vous continuer ?</string>
+    <string name="remove_account_failed">Ce compte est utilisé par des applications. Pour le supprimer, vous devez rétablir les paramètres par défaut du téléphone (ce qui supprimera toutes vos données personnelles). Pour cela, allez à Paramètres, menu Confidentialité.</string>
+    <string name="provider_label">Abonnements Push</string>
+    <string name="sync_item_title">Synchroniser %s</string>
+    <string name="cant_sync_dialog_title">Synchronisation manuelle impossible</string>
+    <string name="cant_sync_dialog_message">La synchronisation de cet élément est actuellement désactivée. Pour modifier vos préférences, activez temporairement les données en arrière-plan et la synchronisation automatique.</string>
+</resources>

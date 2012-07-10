@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+    <public type="drawable" name="icon" id="0x7f020000" />
+    <public type="drawable" name="stat_notify_admin_alert" id="0x7f020001" />
+    <public type="layout" name="main" id="0x7f030000" />
+    <public type="xml" name="device_admin" id="0x7f040000" />
+    <public type="dimen" name="topPadding" id="0x7f050000" />
+    <public type="dimen" name="bottomPadding" id="0x7f050001" />
+    <public type="dimen" name="leftPadding" id="0x7f050002" />
+    <public type="dimen" name="rightPadding" id="0x7f050003" />
+    <public type="string" name="app_name" id="0x7f060000" />
+    <public type="string" name="hard_reset_failed" id="0x7f060001" />
+    <public type="string" name="needUpgradeNoneFound" id="0x7f060002" />
+    <public type="string" name="hard_reset_on_ok" id="0x7f060003" />
+    <public type="string" name="accountDisabled" id="0x7f060004" />
+    <public type="string" name="blurPasswordMismatch" id="0x7f060005" />
+    <public type="string" name="notificationTitle" id="0x7f060006" />
+    <public type="string" name="accountDeleted" id="0x7f060007" />
+    <public type="string" name="wrongDevice" id="0x7f060008" />
+    <public type="string" name="wrong_password_subject" id="0x7f060009" />
+    <public type="string" name="blur_password_incorrect" id="0x7f06000a" />
+    <public type="string" name="wrong_password_title" id="0x7f06000b" />
+    <public type="string" name="more_info" id="0x7f06000c" />
+    <public type="string" name="error" id="0x7f06000d" />
+    <public type="string" name="google_privacy_summary" id="0x7f06000e" />
+    <public type="string" name="google_privacy_body" id="0x7f06000f" />
+    <public type="string" name="view_terms" id="0x7f060010" />
+    <public type="string" name="blur_account_error" id="0x7f060011" />
+    <public type="string" name="unverified_motoblur_acnt" id="0x7f060012" />
+    <public type="id" name="parentPanel" id="0x7f070000" />
+    <public type="id" name="title_template" id="0x7f070001" />
+    <public type="id" name="icon" id="0x7f070002" />
+    <public type="id" name="alertTitle" id="0x7f070003" />
+    <public type="id" name="titleDivider" id="0x7f070004" />
+    <public type="id" name="button_panel" id="0x7f070005" />
+    <public type="id" name="leftSpacer" id="0x7f070006" />
+    <public type="id" name="button1" id="0x7f070007" />
+    <public type="id" name="button3" id="0x7f070008" />
+    <public type="id" name="button2" id="0x7f070009" />
+    <public type="id" name="rightSpacer" id="0x7f07000a" />
+    <public type="id" name="scrollView" id="0x7f07000b" />
+    <public type="id" name="message" id="0x7f07000c" />
+</resources>

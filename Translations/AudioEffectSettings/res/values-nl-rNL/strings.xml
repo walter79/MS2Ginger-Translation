@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+    <string name="app_name">Audio-effecten voor media</string>
+    <string name="pref_wired_stereo_device_title">Bedrade stereoapparaten</string>
+    <string name="pref_stereo_speaker_title">Telefoonluidsprekers</string>
+    <string name="pref_mono_speaker_title">Telefoonluidspreker</string>
+    <string name="pref_device_connected">Verbonden</string>
+    <string name="pref_effect_enable_title">Audio-effecten inschakelen</string>
+    <string name="pref_effect_category">Instellingen voor effecten</string>
+    <string name="pref_headset_effect_title">Effectenprofiel</string>
+    <string name="pref_speaker_effect_title">Effectenprofiel</string>
+    <string name="pref_mono_effect_title">Effectenprofiel</string>
+    <string name="pref_effect_dialog_title">Effectenprofielen</string>
+    <string name="pref_surround_title">Surround</string>
+    <string name="pref_surround_dialog_title">Surround</string>
+    <string name="pref_equalizer_title">Equalizer</string>
+    <string name="pref_equalizer_dialog_title">Equalizer</string>
+    <string name="pref_effect_custom_item">Aangepast</string>
+</resources>

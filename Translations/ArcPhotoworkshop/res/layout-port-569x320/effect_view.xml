@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RelativeLayout android:id="@id/flipLayout" android:background="@drawable/effectframe_portrait" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <Button android:id="@id/btn_left" android:background="@null" android:layout_width="50.0dip" android:layout_height="64.0dip" android:layout_marginTop="210.0dip" android:layout_alignParentLeft="true" />
+    <Button android:id="@id/btn_right" android:background="@null" android:layout_width="45.0dip" android:layout_height="64.0dip" android:layout_marginTop="210.0dip" android:layout_alignParentRight="true" />
+    <include layout="@layout/btn_panel" />
+    <LinearLayout android:orientation="vertical" android:paddingTop="15.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_alignParentTop="@id/btn_discard">
+        <TextView android:textAppearance="@style/LableTextStyle" android:textSize="20.0dip" android:textColor="@android:color/background_light" android:layout_gravity="center" android:id="@id/effecttitle" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/IDS_ET_EFFECT" />
+        <LinearLayout android:gravity="top|center" android:layout_gravity="center" android:id="@id/effect_pro_layout" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="10.0dip">
+            <ImageView android:id="@epro/epro1" android:background="@drawable/effectproicon" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+            <ImageView android:id="@epro/epro2" android:background="@drawable/effectproicon" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+            <ImageView android:id="@epro/epro3" android:background="@drawable/effectproicon" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+            <ImageView android:id="@epro/epro4" android:background="@drawable/effectproicon" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+            <ImageView android:id="@epro/epro5" android:background="@drawable/effectproicon" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+            <ImageView android:id="@epro/epro6" android:background="@drawable/effectproicon" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+            <ImageView android:id="@epro/epro7" android:background="@drawable/effectproicon" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+            <ImageView android:id="@epro/epro8" android:background="@drawable/effectproicon" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+            <ImageView android:id="@epro/epro9" android:background="@drawable/effectproicon" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+        </LinearLayout>
+    </LinearLayout>
+    <LinearLayout android:orientation="vertical" android:paddingTop="15.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_alignParentBottom="true">
+        <TextView android:textAppearance="@style/LableTextStyle" android:textSize="20.0dip" android:textColor="@android:color/background_light" android:layout_gravity="center" android:id="@id/effectname" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="70.0dip" android:text="None" />
+    </LinearLayout>
+</RelativeLayout>

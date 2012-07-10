@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+    <string-array name="audio_device_list">
+        <item>Casque stéréo</item>
+        <item>Haut-parleur stéréo</item>
+        <item>Casque ou haut-parleur mono</item>
+    </string-array>
+    <array name="pref_headset_effect_entries">
+        <item>Stéréo 3D</item>
+        <item>Home cinéma</item>
+        <item>Scène</item>
+        <item>@string/pref_effect_custom_item</item>
+    </array>
+    <string-array name="pref_headset_effect_sumarries">
+        <item>Développement du son stéréo en son Surround</item>
+        <item>Recrée l\'effet d\'un Home Cinéma avec plusieurs haut-parleurs</item>
+        <item>Recrée l\'ambiance de la scène d\'un club de musique</item>
+        <item>Personnaliser les paramètres Surround et Égaliseur</item>
+    </string-array>
+    <array name="pref_speaker_effect_entries">
+        <item>Stéréo 3D</item>
+        <item>Home cinéma</item>
+        <item>Scène</item>
+        <item>@string/pref_effect_custom_item</item>
+    </array>
+    <string-array name="pref_speaker_effect_sumarries">
+        <item>Développement du son stéréo en son Surround</item>
+        <item>Recrée l\'effet d\'un Home Cinéma avec plusieurs haut-parleurs</item>
+        <item>Recrée l\'ambiance de la scène d\'un club de musique</item>
+        <item>Personnaliser les paramètres Surround et Égaliseur</item>
+    </string-array>
+    <string-array name="pref_headset_surround_entries">
+        <item>Live</item>
+        <item>Large</item>
+        <item>Ambiant</item>
+        <item>Désactivé</item>
+    </string-array>
+    <string-array name="pref_headset_surround_summarries">
+        <item>Reproduit l\'ambiance d\'une grande salle</item>
+        <item>Élargit l\'image stéréo</item>
+        <item>Recrée une sensation d\'écoute naturelle, extériorise le son</item>
+        <item></item>
+    </string-array>
+    <string-array name="pref_speaker_surround_entries">
+        <item>Live</item>
+        <item>Large</item>
+        <item>Ambiant</item>
+        <item>Désactivé</item>
+    </string-array>
+    <string-array name="pref_speaker_surround_summarries">
+        <item>Reproduit l\'ambiance d\'une grande salle</item>
+        <item>Élargit l\'image stéréo</item>
+        <item>Recrée une sensation d\'écoute naturelle, extériorise le son</item>
+        <item></item>
+    </string-array>
+    <string-array name="pref_headset_equalizer_entries">
+        <item>Basses extrêmes</item>
+        <item>Basses dynamiques</item>
+        <item>Équilibré</item>
+        <item>Aigus époustouflants</item>
+        <item>Vocaliseur</item>
+        <item>Désactivé</item>
+    </string-array>
+    <string-array name="pref_headset_equalizer_summaries">
+        <item>Amplification maximale des graves</item>
+        <item>Amplification avec contrôle précis des graves</item>
+        <item>Met en valeur les médiums</item>
+        <item>Amplifie les aigus</item>
+        <item>Met en valeur la voix et la parole</item>
+        <item></item>
+    </string-array>
+    <string-array name="pref_speaker_equalizer_entries">
+        <item>Basses extrêmes</item>
+        <item>Basses dynamiques</item>
+        <item>Équilibré</item>
+        <item>Aigus époustouflants</item>
+        <item>Vocaliseur</item>
+        <item>Désactivé</item>
+    </string-array>
+    <string-array name="pref_speaker_equalizer_summaries">
+        <item>Amplification maximale des graves</item>
+        <item>Amplification avec contrôle précis des graves</item>
+        <item>Met en valeur les médiums</item>
+        <item>Amplifie les aigus</item>
+        <item>Met en valeur la voix et la parole</item>
+        <item></item>
+    </string-array>
+    <string-array name="pref_mono_equalizer_entries">
+        <item>Basses extrêmes</item>
+        <item>Basses dynamiques</item>
+        <item>Équilibré</item>
+        <item>Aigus époustouflants</item>
+        <item>Vocaliseur</item>
+        <item>Désactivé</item>
+    </string-array>
+    <string-array name="pref_mono_equalizer_summaries">
+        <item>Amplification maximale des graves</item>
+        <item>Amplification avec contrôle précis des graves</item>
+        <item>Met en valeur les médiums</item>
+        <item>Amplifie les aigus</item>
+        <item>Met en valeur la voix et la parole</item>
+        <item></item>
+    </string-array>
+</resources>

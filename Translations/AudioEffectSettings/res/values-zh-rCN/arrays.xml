@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+    <string-array name="audio_device_list">
+        <item>立体声耳机</item>
+        <item>立体声扬声器</item>
+        <item>单声道耳机或扬声器</item>
+    </string-array>
+    <array name="pref_headset_effect_entries">
+        <item>三维立体声</item>
+        <item>家庭影院</item>
+        <item>现场舞台</item>
+        <item>@string/pref_effect_custom_item</item>
+    </array>
+    <string-array name="pref_headset_effect_sumarries">
+        <item>立体声扩展到环绕声</item>
+        <item>重现了多扬声器家庭影院系统的效果</item>
+        <item>重现了音乐俱乐部的舞台氛围</item>
+        <item>分别调整环绕声和均衡器设置</item>
+    </string-array>
+    <array name="pref_speaker_effect_entries">
+        <item>三维立体声</item>
+        <item>家庭影院</item>
+        <item>现场舞台</item>
+        <item>@string/pref_effect_custom_item</item>
+    </array>
+    <string-array name="pref_speaker_effect_sumarries">
+        <item>立体声扩展到环绕声</item>
+        <item>重现了多扬声器家庭影院系统的效果</item>
+        <item>重现了音乐俱乐部的舞台氛围</item>
+        <item>分别调整环绕声和均衡器设置</item>
+    </string-array>
+    <string-array name="pref_headset_surround_entries">
+        <item>现场</item>
+        <item>全音域</item>
+        <item>环绕</item>
+        <item>关闭</item>
+    </string-array>
+    <string-array name="pref_headset_surround_summarries">
+        <item>重现了在大房间中播放的氛围</item>
+        <item>扩大立体图像</item>
+        <item>重现了\'头外定位\'的音频体验，生动表现了声音</item>
+        <item></item>
+    </string-array>
+    <string-array name="pref_speaker_surround_entries">
+        <item>现场</item>
+        <item>全音域</item>
+        <item>环绕</item>
+        <item>关闭</item>
+    </string-array>
+    <string-array name="pref_speaker_surround_summarries">
+        <item>重现了在大房间中播放的氛围</item>
+        <item>扩大立体图像</item>
+        <item>重现了\'头外定位\'的音频体验，生动表现了声音</item>
+        <item></item>
+    </string-array>
+    <string-array name="pref_headset_equalizer_entries">
+        <item>超低音</item>
+        <item>重低音</item>
+        <item>均衡</item>
+        <item>明亮高音</item>
+        <item>发声</item>
+        <item>关闭</item>
+    </string-array>
+    <string-array name="pref_headset_equalizer_summaries">
+        <item>最大低音增强</item>
+        <item>低音紧致，利用准确的低音控制放大</item>
+        <item>强调中频乐器</item>
+        <item>提升高音</item>
+        <item>强调发声和语音</item>
+        <item></item>
+    </string-array>
+    <string-array name="pref_speaker_equalizer_entries">
+        <item>超低音</item>
+        <item>重低音</item>
+        <item>均衡</item>
+        <item>明亮高音</item>
+        <item>发声</item>
+        <item>关闭</item>
+    </string-array>
+    <string-array name="pref_speaker_equalizer_summaries">
+        <item>最大低音增强</item>
+        <item>低音紧致，利用准确的低音控制放大</item>
+        <item>强调中频乐器</item>
+        <item>提升高音</item>
+        <item>强调发声和语音</item>
+        <item></item>
+    </string-array>
+    <string-array name="pref_mono_equalizer_entries">
+        <item>超低音</item>
+        <item>重低音</item>
+        <item>均衡</item>
+        <item>明亮高音</item>
+        <item>发声</item>
+        <item>关闭</item>
+    </string-array>
+    <string-array name="pref_mono_equalizer_summaries">
+        <item>最大低音增强</item>
+        <item>低音紧致，利用准确的低音控制放大</item>
+        <item>强调中频乐器</item>
+        <item>提升高音</item>
+        <item>强调发声和语音</item>
+        <item></item>
+    </string-array>
+</resources>

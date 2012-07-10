@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+    <public type="drawable" name="icon" id="0x7f020000" />
+    <public type="drawable" name="internet" id="0x7f020001" />
+    <public type="layout" name="access" id="0x7f030000" />
+    <public type="layout" name="connection" id="0x7f030001" />
+    <public type="layout" name="main" id="0x7f030002" />
+    <public type="string" name="app_name" id="0x7f040000" />
+    <public type="string" name="hide_button_label" id="0x7f040001" />
+    <public type="string" name="disconnect_button_label" id="0x7f040002" />
+    <public type="string" name="status_title_label" id="0x7f040003" />
+    <public type="string" name="status_device_label" id="0x7f040004" />
+    <public type="string" name="status_time_elapsed_label" id="0x7f040005" />
+    <public type="string" name="status_status_label" id="0x7f040006" />
+    <public type="string" name="status_active_label" id="0x7f040007" />
+    <public type="string" name="notification_dun_label" id="0x7f040008" />
+    <public type="string" name="notification_dun_description" id="0x7f040009" />
+    <public type="string" name="dun_acceptance_dialog_label" id="0x7f04000a" />
+    <public type="string" name="dun_acceptance_dialog_title" id="0x7f04000b" />
+    <public type="string" name="dun_acceptance_dialog_content" id="0x7f04000c" />
+    <public type="string" name="dun_acceptance_dialog_checkbox" id="0x7f04000d" />
+    <public type="string" name="alert_dialog_yes" id="0x7f04000e" />
+    <public type="string" name="alert_dialog_no" id="0x7f04000f" />
+    <public type="string" name="dun_reject" id="0x7f040010" />
+    <public type="string" name="map_app_name" id="0x7f040011" />
+    <public type="string" name="map_acceptance_dialog_title" id="0x7f040012" />
+    <public type="string" name="map_acceptance_dialog_header" id="0x7f040013" />
+    <public type="string" name="map_acceptance_timeout_message" id="0x7f040014" />
+    <public type="string" name="map_bluetooth_transfer_text" id="0x7f040015" />
+    <public type="string" name="map_toast_connected" id="0x7f040016" />
+    <public type="string" name="map_toast_disconnected" id="0x7f040017" />
+    <public type="string" name="alwaysallowed" id="0x7f040018" />
+    <public type="string" name="defaultname" id="0x7f040019" />
+    <public type="string" name="map_notif_ticker" id="0x7f04001a" />
+    <public type="string" name="map_notif_title" id="0x7f04001b" />
+    <public type="string" name="map_notif_message" id="0x7f04001c" />
+    <public type="id" name="message" id="0x7f050000" />
+    <public type="id" name="alwaysallowed" id="0x7f050001" />
+    <public type="id" name="alert_message" id="0x7f050002" />
+    <public type="id" name="always_allow_box" id="0x7f050003" />
+    <public type="id" name="device_name" id="0x7f050004" />
+    <public type="id" name="time_elapsed" id="0x7f050005" />
+</resources>

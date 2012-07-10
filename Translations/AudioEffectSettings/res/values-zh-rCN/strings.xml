@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+    <string name="app_name">媒体音频特效</string>
+    <string name="pref_wired_stereo_device_title">有线立体声设备</string>
+    <string name="pref_stereo_speaker_title">手机扬声器</string>
+    <string name="pref_mono_speaker_title">手机扬声器</string>
+    <string name="pref_device_connected">已连接</string>
+    <string name="pref_effect_enable_title">启用音频特效</string>
+    <string name="pref_effect_category">效果设置</string>
+    <string name="pref_headset_effect_title">效果配置文件</string>
+    <string name="pref_speaker_effect_title">效果配置文件</string>
+    <string name="pref_mono_effect_title">效果配置文件</string>
+    <string name="pref_effect_dialog_title">效果配置文件</string>
+    <string name="pref_surround_title">环绕声</string>
+    <string name="pref_surround_dialog_title">环绕声</string>
+    <string name="pref_equalizer_title">均衡器</string>
+    <string name="pref_equalizer_dialog_title">均衡器</string>
+    <string name="pref_effect_custom_item">自定义</string>
+</resources>

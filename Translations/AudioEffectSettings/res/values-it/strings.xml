@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+    <string name="app_name">Effetti audio multimediale</string>
+    <string name="pref_wired_stereo_device_title">Dispositivi stereo cablati</string>
+    <string name="pref_stereo_speaker_title">Vivavoce</string>
+    <string name="pref_mono_speaker_title">Vivavoce</string>
+    <string name="pref_device_connected">Connesso</string>
+    <string name="pref_effect_enable_title">Attiva effetti audio</string>
+    <string name="pref_effect_category">Imposta effetti</string>
+    <string name="pref_headset_effect_title">Profilo effetti</string>
+    <string name="pref_speaker_effect_title">Profilo effetti</string>
+    <string name="pref_mono_effect_title">Profilo effetti</string>
+    <string name="pref_effect_dialog_title">Profili effetti</string>
+    <string name="pref_surround_title">Surround</string>
+    <string name="pref_surround_dialog_title">Surround</string>
+    <string name="pref_equalizer_title">Equalizzatore</string>
+    <string name="pref_equalizer_dialog_title">Equalizzatore</string>
+    <string name="pref_effect_custom_item">Personalizzato</string>
+</resources>

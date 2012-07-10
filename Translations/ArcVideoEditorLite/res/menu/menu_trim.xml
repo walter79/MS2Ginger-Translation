@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<menu
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:icon="@drawable/toolbar_save" android:id="@id/trim_menu_save" android:title="@string/menu_trim_save" />
+    <item android:icon="@drawable/toolbar_grab" android:id="@id/menu_extract_frame" android:title="@string/menu_trim_extract_frame" />
+    <item android:icon="@drawable/toolbar_add_title" android:id="@id/menu_add_title" android:title="@string/menu_trim_add_title" />
+    <item android:icon="@drawable/toolbar_edit_title" android:id="@id/menu_edit_title" android:visible="false" android:title="@string/menu_trim_edit_title" />
+    <item android:icon="@drawable/toolbar_remove_title" android:id="@id/menu_remove_title" android:visible="false" android:title="@string/menu_trim_remove_title" />
+    <item android:icon="@drawable/toolbar_resize" android:id="@id/menu_resize" android:title="@string/menu_trim_resize" />
+    <item android:icon="@drawable/remove_audio_track" android:id="@id/menu_remove_audio" android:title="@string/menu_trim_remove_audio" />
+    <item android:icon="@drawable/restore_audio_track" android:id="@id/menu_restore_audio" android:visible="false" android:title="@string/menu_trim_replace_audio" />
+</menu>

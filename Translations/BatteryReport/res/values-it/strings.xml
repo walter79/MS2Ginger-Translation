@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+    <string name="app_name">Modalità raffreddamento</string>
+    <string name="batt_temp_cooldown_title">Modalità raffreddamento</string>
+    <string name="batt_temp_cooldown_msg">Il dispositivo è ora in modalità raffreddamento. Solo chiamate di emergenza.</string>
+    <string name="lockscreen_emergency_call">Emergenza</string>
+</resources>

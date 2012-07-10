@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<FrameLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:arcve="http://schemas.android.com/apk/res/com.arcsoft.videoeditorlite">
+    <LinearLayout android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <com.arcsoft.videoeditorlite.view.TextSurfaceView android:id="@id/title_surface_view_text" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    </LinearLayout>
+    <LinearLayout android:orientation="vertical" android:background="@drawable/transparent_background" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <LinearLayout android:orientation="horizontal" android:id="@id/title_container_control_view" android:background="@drawable/title_view_bg" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginBottom="245.0px">
+            <ImageButton android:gravity="top|center" android:layout_gravity="top|center" android:id="@id/title_btn_font_size" android:background="@drawable/toolbar_font_size" android:paddingLeft="0.0dip" android:paddingTop="0.0dip" android:paddingRight="0.0dip" android:paddingBottom="0.0dip" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginLeft="0.0dip" android:layout_marginTop="0.0dip" android:layout_marginRight="0.0dip" android:src="@drawable/transparent_background" android:scaleType="center" android:adjustViewBounds="true" android:layout_weight="1.0" />
+            <ImageButton android:gravity="top|center" android:layout_gravity="top|center" android:id="@id/title_btn_text_color" android:background="@drawable/toolbar_text_color" android:paddingLeft="0.0dip" android:paddingTop="0.0dip" android:paddingRight="0.0dip" android:paddingBottom="0.0dip" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginLeft="0.0dip" android:layout_marginTop="0.0dip" android:layout_marginRight="0.0dip" android:src="@drawable/transparent_background" android:scaleType="center" android:adjustViewBounds="true" android:layout_weight="1.0" />
+            <ImageButton android:gravity="top|center" android:layout_gravity="top|center" android:id="@id/title_btn_bg_color" android:background="@drawable/toolbar_bg_color" android:paddingLeft="0.0dip" android:paddingTop="0.0dip" android:paddingRight="0.0dip" android:paddingBottom="0.0dip" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginLeft="0.0dip" android:layout_marginTop="0.0dip" android:layout_marginRight="0.0dip" android:src="@drawable/transparent_background" android:scaleType="center" android:adjustViewBounds="true" android:layout_weight="1.0" />
+        </LinearLayout>
+    </LinearLayout>
+</FrameLayout>

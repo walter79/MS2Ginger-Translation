@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+    <string name="app_name">Cool Down Mód</string>
+    <string name="batt_temp_cooldown_title">Cool Down Mód</string>
+    <string name="batt_temp_cooldown_msg">A telefon most Cool Down módban van. Csak vészhívás lehetséges.</string>
+    <string name="lockscreen_emergency_call">Vészhívás</string>
+</resources>

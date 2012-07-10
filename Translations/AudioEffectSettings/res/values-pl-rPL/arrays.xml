@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+    <string-array name="audio_device_list">
+        <item>Zestaw słuchawkowy stereo</item>
+        <item>Głośnik stereo</item>
+        <item>Zestaw słuchawkowy lub głośnik mono</item>
+    </string-array>
+    <array name="pref_headset_effect_entries">
+        <item>Stereo 3D</item>
+        <item>Kino domowe</item>
+        <item>Koncert na żywo</item>
+        <item>@string/pref_effect_custom_item</item>
+    </array>
+    <string-array name="pref_headset_effect_sumarries">
+        <item>Zmiana dźwięku stereo na dźwięk przestrzenny</item>
+        <item>Odtwarza efekt systemu kina domowego z wieloma głośnikami</item>
+        <item>Odtwarza atmosferę sceny klubu muzycznego</item>
+        <item>Wybierz własne ustawienia dźwięku przestrzennego i korektora</item>
+    </string-array>
+    <array name="pref_speaker_effect_entries">
+        <item>Stereo 3D</item>
+        <item>Kino domowe</item>
+        <item>Koncert na żywo</item>
+        <item>@string/pref_effect_custom_item</item>
+    </array>
+    <string-array name="pref_speaker_effect_sumarries">
+        <item>Zmiana dźwięku stereo na dźwięk przestrzenny</item>
+        <item>Odtwarza efekt systemu kina domowego z wieloma głośnikami</item>
+        <item>Odtwarza atmosferę sceny klubu muzycznego</item>
+        <item>Wybierz własne ustawienia dźwięku przestrzennego i korektora</item>
+    </string-array>
+    <string-array name="pref_headset_surround_entries">
+        <item>Na żywo</item>
+        <item>Rozległy</item>
+        <item>Ambient</item>
+        <item>Wył.</item>
+    </string-array>
+    <string-array name="pref_headset_surround_summarries">
+        <item>Odtwarza atmosferę odsłuchu w większym pomieszczeniu</item>
+        <item>Rozszerza scenę stereofoniczną</item>
+        <item>Odtwarza efekt przestrzenny, tworząc \"zewnętrzny\" dźwięk</item>
+        <item></item>
+    </string-array>
+    <string-array name="pref_speaker_surround_entries">
+        <item>Na żywo</item>
+        <item>Rozległy</item>
+        <item>Ambient</item>
+        <item>Wył.</item>
+    </string-array>
+    <string-array name="pref_speaker_surround_summarries">
+        <item>Odtwarza atmosferę odsłuchu w większym pomieszczeniu</item>
+        <item>Rozszerza scenę stereofoniczną</item>
+        <item>Odtwarza efekt przestrzenny, tworząc \"zewnętrzny\" dźwięk</item>
+        <item></item>
+    </string-array>
+    <string-array name="pref_headset_equalizer_entries">
+        <item>Ekstremalny bas</item>
+        <item>Uderzenie basowe</item>
+        <item>Zrównoważony</item>
+        <item>Czysty wysoki ton</item>
+        <item>Wokalizer</item>
+        <item>Wył.</item>
+    </string-array>
+    <string-array name="pref_headset_equalizer_summaries">
+        <item>Maksymalne zwiększenie niskich tonów</item>
+        <item>Wysoki poziom niskich tonów, wzmocnienie z precyzyjną kontrolą niskich tonów</item>
+        <item>Wyróżnienie instrumentów w środkowym paśmie</item>
+        <item>Zwiększenie poziomu wysokich tonów</item>
+        <item>Wyróżnienie wokalu i głosu</item>
+        <item></item>
+    </string-array>
+    <string-array name="pref_speaker_equalizer_entries">
+        <item>Ekstremalny bas</item>
+        <item>Uderzenie basowe</item>
+        <item>Zrównoważony</item>
+        <item>Czysty wysoki ton</item>
+        <item>Wokalizer</item>
+        <item>Wył.</item>
+    </string-array>
+    <string-array name="pref_speaker_equalizer_summaries">
+        <item>Maksymalne zwiększenie niskich tonów</item>
+        <item>Wysoki poziom niskich tonów, wzmocnienie z precyzyjną kontrolą niskich tonów</item>
+        <item>Wyróżnienie instrumentów w środkowym paśmie</item>
+        <item>Zwiększenie poziomu wysokich tonów</item>
+        <item>Wyróżnienie wokalu i głosu</item>
+        <item></item>
+    </string-array>
+    <string-array name="pref_mono_equalizer_entries">
+        <item>Ekstremalny bas</item>
+        <item>Uderzenie basowe</item>
+        <item>Zrównoważony</item>
+        <item>Czysty wysoki ton</item>
+        <item>Wokalizer</item>
+        <item>Wył.</item>
+    </string-array>
+    <string-array name="pref_mono_equalizer_summaries">
+        <item>Maksymalne zwiększenie niskich tonów</item>
+        <item>Wysoki poziom niskich tonów, wzmocnienie z precyzyjną kontrolą niskich tonów</item>
+        <item>Wyróżnienie instrumentów w środkowym paśmie</item>
+        <item>Zwiększenie poziomu wysokich tonów</item>
+        <item>Wyróżnienie wokalu i głosu</item>
+        <item></item>
+    </string-array>
+</resources>

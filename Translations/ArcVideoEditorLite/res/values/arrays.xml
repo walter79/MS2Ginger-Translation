@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+    <array name="select_dialog_resize">
+        <item>@string/resize_settings_original</item>
+        <item>@string/resize_settings_qcif</item>
+        <item>@string/resize_settings_qvga</item>
+        <item>@string/resize_settings_vga</item>
+    </array>
+    <array name="select_dialog_font_size">
+        <item>@string/fontsize_settings_small</item>
+        <item>@string/fontsize_settings_medium</item>
+        <item>@string/fontsize_settings_large</item>
+    </array>
+    <array name="select_dialog_duration">
+        <item>@string/duration_settings_2s</item>
+        <item>@string/duration_settings_5s</item>
+        <item>@string/duration_settings_10s</item>
+    </array>
+</resources>

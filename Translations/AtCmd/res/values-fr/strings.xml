@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+    <string name="perm_desc">Permet de fournir davantage de données atcmd de fournisseur via un plug-in.</string>
+    <string name="perm_label">Activer plug-in atcmd</string>
+</resources>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+    <string name="app_name">Λειτουργία ψύξης</string>
+    <string name="batt_temp_cooldown_title">Λειτουργία ψύξης</string>
+    <string name="batt_temp_cooldown_msg">Το τηλέφωνο βρίσκεται σε λειτουργία ψύξης. Μόνο κλήσεις έκτακτης ανάγκης.</string>
+    <string name="lockscreen_emergency_call">Κλήση έκτακτης ανάγκης</string>
+</resources>

@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+    <string name="app_label">Ρυθμίσεις λογαριασμού και συγχρονισμού</string>
+    <string name="sync_settings">Ρυθμίσεις λογαριασμών &amp; συγχρονισμού</string>
+    <string name="sync_too_many_deletes">Έγινε υπέρβαση του ορίου διαγραφής.</string>
+    <string name="background_data">Δεδομένα φόντου</string>
+    <string name="background_data_summary">Οι εφαρμογές μπορούν να κάνουν συγχρονισμό, αποστολή και λήψη δεδομένων ανά πάσα στιγμή</string>
+    <string name="background_data_dialog_title">Προσοχή</string>
+    <string name="background_data_dialog_message">Η απενεργοποίηση δεδομένων παρασκηνίου αυξάνει το χρόνο ζωής της μπαταρίας και μειώνει τη χρήση δεδομένων. Ορισμένες εφαρμογές ενδέχεται να συνεχίσουν να χρησιμοποιούν τη σύνδεση δεδομένων παρασκηνίου.</string>
+    <string name="sync_automatically">Αυτόματος συγχρονισμός</string>
+    <string name="sync_automatically_summary">Οι εφαρμογές συγχρονίζουν αυτόματα τα δεδομένα</string>
+    <string name="settings_backup">Δημιουργία αντιγράφων ασφαλείας για τις ρυθμίσεις</string>
+    <string name="settings_backup_summary">Δημιουργία αντιγράφων ασφαλείας για τις ρυθμίσεις μου</string>
+    <string name="sync_menu_sync_now">Συγχρονισμός τώρα</string>
+    <string name="sync_menu_sync_cancel">Ακύρωση συγχρονισμού</string>
+    <string name="sync_one_time_sync">Πατήστε για συγχρονισμό τώρα\n%1$s</string>
+    <string name="sync_gmail">Gmail</string>
+    <string name="sync_calendar">Ημερ/γιο</string>
+    <string name="sync_contacts">Επαφές</string>
+    <string name="sync_too_many_deletes_desc">Υπάρχουν %1$d διαγραμμένα αντικείμενα για %2$s, λογαριασμός %3$s. Τι επιθυμείτε να κάνετε;</string>
+    <string name="sync_really_delete">Διαγραφή αντικειμένων.</string>
+    <string name="sync_undo_deletes">Αναίρεση των διαγραφών.</string>
+    <string name="sync_do_nothing">Να μην γίνει καμία ενέργεια τώρα.</string>
+    <string name="sync_is_failing">Το Sync αντιμετωπίζει προβλήματα αυτή τη στιγμή. Θα είναι διαθέσιμο ξανά σε λίγο.</string>
+    <string name="sync_plug"><font fgcolor="#ffffffff">Καλώς ορίσατε στο Google Sync!</font> \nΜια προσέγγιση της Google στον συγχρονισμό δεδομένων ώστε να επιτρέπεται η πρόσβαση στις επαφές σας, στις συναντήσεις σας και σε άλλα, οπουδήποτε κι αν είστε.</string>
+    <string name="header_application_sync_settings">Ρυθμίσεις συγχρονισμού εφαρμογής</string>
+    <string name="header_manage_accounts">Διαχείριση λογαριασμών</string>
+    <string name="header_general_sync_settings">Γενικές ρυθμίσεις συγχρονισμού</string>
+    <string name="sync_enabled">Ο συγχρονισμός είναι ενεργοποιημένος</string>
+    <string name="sync_disabled">Ο συγχρονισμός είναι απενεργοποιημένος</string>
+    <string name="sync_error">Σφάλμα συγχρονισμού</string>
+    <string name="add_account_label">Προσθήκη λογαριασμού</string>
+    <string name="header_data_and_synchronization">Δεδομένα και συγχρονισμός</string>
+    <string name="preference_change_password_title">Αλλαγή κωδικού πρόσβασης</string>
+    <string name="header_account_settings">Ρυθμίσεις λογαριασμού</string>
+    <string name="remove_account_label">Κατάργηση λογαριασμού</string>
+    <string name="header_add_an_account">Προσθήκη λογαριασμού</string>
+    <string name="finish_button_label">Τέλος</string>
+    <string name="really_remove_account_title">Κατάργηση λογαριασμού</string>
+    <string name="really_remove_account_message">Είστε βέβαιοι ότι θέλετε να καταργήσετε αυτόν το λογαριασμό; Η κατάργησή του θα έχει σαν αποτέλεσμα τη διαγραφή όλων των μηνυμάτων, των επαφών και άλλων δεδομένων του από το τηλέφωνο. \nΣυνέχεια;</string>
+    <string name="remove_account_failed">Αυτός ο λογαριασμός απαιτείται από ορισμένες εφαρμογές. Μπορείτε να τον καταργήσετε μόνο πραγματοποιώντας επαναφορά των εργοστασιακών ρυθμίσεων του τηλεφώνου (ενέργεια που διαγράφει όλα τα προσωπικά δεδομένα σας). Μπορείτε να επιλέξετε αυτήν την ενέργεια στην εφαρμογή \"Ρυθμίσεις\", στην καρτέλα \"Απόρρητο\".</string>
+    <string name="provider_label">Προώθηση συνδρομών</string>
+    <string name="sync_item_title">Συγχρονισμός: %s</string>
+    <string name="cant_sync_dialog_title">Δεν είναι δυνατός ο μη αυτόματος συγχρονισμός</string>
+    <string name="cant_sync_dialog_message">Ο συγχρονισμός για αυτό το στοιχείο είναι προς το παρόν απενεργοποιημένος. Για να αλλάξετε την προτίμησή σας, ενεργοποιήστε προσωρινά τα δεδομένα παρασκηνίου και τον αυτόματο συγχρονισμό.</string>
+</resources>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RelativeLayout android:id="@id/flipLayout" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:id="@id/btn_panel" android:background="@drawable/btn_panel" android:visibility="invisible" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_alignParentBottom="true">
+        <Button android:id="@id/btn_apply" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/IDS_APPLY" android:layout_weight="1.0" />
+        <Button android:id="@id/btn_discard" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/IDS_DISCARD" android:layout_weight="1.0" />
+    </LinearLayout>
+    <include layout="@layout/btn_zoom" />
+</RelativeLayout>

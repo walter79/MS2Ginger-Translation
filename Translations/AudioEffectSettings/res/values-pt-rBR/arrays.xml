@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+    <string-array name="audio_device_list">
+        <item>Fone de ouvido estéreo</item>
+        <item>Alto-falante estéreo</item>
+        <item>Fone de ouvido e alto-falante mono</item>
+    </string-array>
+    <array name="pref_headset_effect_entries">
+        <item>Estéreo 3D</item>
+        <item>Home Theater</item>
+        <item>Palco ao vivo</item>
+        <item>@string/pref_effect_custom_item</item>
+    </array>
+    <string-array name="pref_headset_effect_sumarries">
+        <item>Expansão do estéreo para som surround</item>
+        <item>Recria o efeito de múltiplos auto-falantes do sistema de home theater.</item>
+        <item>Recria a atmosfera de uma casa noturna</item>
+        <item>Ajusta config. de surround e equalizador individualmente</item>
+    </string-array>
+    <array name="pref_speaker_effect_entries">
+        <item>Estéreo 3D</item>
+        <item>Home Theater</item>
+        <item>Palco ao vivo</item>
+        <item>@string/pref_effect_custom_item</item>
+    </array>
+    <string-array name="pref_speaker_effect_sumarries">
+        <item>Expansão do estéreo para som surround</item>
+        <item>Recria o efeito de múltiplos auto-falantes do sistema de home theater.</item>
+        <item>Recria a atmosfera de uma casa noturna</item>
+        <item>Ajusta config. de surround e equalizador individualmente</item>
+    </string-array>
+    <string-array name="pref_headset_surround_entries">
+        <item>Ao vivo</item>
+        <item>Alto</item>
+        <item>Ambiente</item>
+        <item>Desligado</item>
+    </string-array>
+    <string-array name="pref_headset_surround_summarries">
+        <item>Recria a atmosfera de reprodução de uma sala mais ampla</item>
+        <item>Amplia o som estéreo</item>
+        <item>Recriar experiência ambiente de áudio, externaliza o som</item>
+        <item></item>
+    </string-array>
+    <string-array name="pref_speaker_surround_entries">
+        <item>Ao vivo</item>
+        <item>Alto</item>
+        <item>Ambiente</item>
+        <item>Desligado</item>
+    </string-array>
+    <string-array name="pref_speaker_surround_summarries">
+        <item>Recria a atmosfera de reprodução de uma sala mais ampla</item>
+        <item>Amplia o som estéreo</item>
+        <item>Recriar experiência ambiente de áudio, externaliza o som</item>
+        <item></item>
+    </string-array>
+    <string-array name="pref_headset_equalizer_entries">
+        <item>Graves máximos</item>
+        <item>Batida grave</item>
+        <item>Balanceado</item>
+        <item>Agudos brilhantes</item>
+        <item>Vocalizador</item>
+        <item>Desligado</item>
+    </string-array>
+    <string-array name="pref_headset_equalizer_summaries">
+        <item>Máximo volume dos graves</item>
+        <item>Grave reduzido, com controle preciso do grave</item>
+        <item>Enfatiza instrumentos medianos</item>
+        <item>Acentua os agudos</item>
+        <item>Enfatiza vocais e falas</item>
+        <item></item>
+    </string-array>
+    <string-array name="pref_speaker_equalizer_entries">
+        <item>Graves máximos</item>
+        <item>Batida grave</item>
+        <item>Balanceado</item>
+        <item>Agudos brilhantes</item>
+        <item>Vocalizador</item>
+        <item>Desligado</item>
+    </string-array>
+    <string-array name="pref_speaker_equalizer_summaries">
+        <item>Máximo volume dos graves</item>
+        <item>Grave reduzido, com controle preciso do grave</item>
+        <item>Enfatiza instrumentos medianos</item>
+        <item>Acentua os agudos</item>
+        <item>Enfatiza vocais e falas</item>
+        <item></item>
+    </string-array>
+    <string-array name="pref_mono_equalizer_entries">
+        <item>Graves máximos</item>
+        <item>Batida grave</item>
+        <item>Balanceado</item>
+        <item>Agudos brilhantes</item>
+        <item>Vocalizador</item>
+        <item>Desligado</item>
+    </string-array>
+    <string-array name="pref_mono_equalizer_summaries">
+        <item>Máximo volume dos graves</item>
+        <item>Grave reduzido, com controle preciso do grave</item>
+        <item>Enfatiza instrumentos medianos</item>
+        <item>Acentua os agudos</item>
+        <item>Enfatiza vocais e falas</item>
+        <item></item>
+    </string-array>
+</resources>

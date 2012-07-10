@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+    <string-array name="audio_device_list">
+        <item>Stereo-Headset</item>
+        <item>Stereo-Lautsprecher</item>
+        <item>Mono-Headset oder -Lautsprecher</item>
+    </string-array>
+    <array name="pref_headset_effect_entries">
+        <item>3D-Stereo</item>
+        <item>Heimkino</item>
+        <item>Live-Bühne</item>
+        <item>@string/pref_effect_custom_item</item>
+    </array>
+    <string-array name="pref_headset_effect_sumarries">
+        <item>Erweiterung von Stereo auf Surround-Sound</item>
+        <item>Erzeugt den Effekt eines Home-Entertainment-Systems mit mehreren Lautsprechern</item>
+        <item>Erzeugt den Effekt eines Liveauftritts in einem Musikclub</item>
+        <item>Surround-/Equalizer-Einstellungen individuell anpassen</item>
+    </string-array>
+    <array name="pref_speaker_effect_entries">
+        <item>3D-Stereo</item>
+        <item>Heimkino</item>
+        <item>Live-Bühne</item>
+        <item>@string/pref_effect_custom_item</item>
+    </array>
+    <string-array name="pref_speaker_effect_sumarries">
+        <item>Erweiterung von Stereo auf Surround-Sound</item>
+        <item>Erzeugt den Effekt eines Home-Entertainment-Systems mit mehreren Lautsprechern</item>
+        <item>Erzeugt den Effekt eines Liveauftritts in einem Musikclub</item>
+        <item>Surround- und Equalizer-Einstellungen individuell anpassen</item>
+    </string-array>
+    <string-array name="pref_headset_surround_entries">
+        <item>Live</item>
+        <item>Breit</item>
+        <item>Räumlich</item>
+        <item>Aus</item>
+    </string-array>
+    <string-array name="pref_headset_surround_summarries">
+        <item>Erzeugt den Effekt einer Wiedergabe in einem großen Raum</item>
+        <item>Verbreitert das Stereobild</item>
+        <item>Erzeugt ein natürliches, von außen einwirkendes Klangbild</item>
+        <item></item>
+    </string-array>
+    <string-array name="pref_speaker_surround_entries">
+        <item>Live</item>
+        <item>Breit</item>
+        <item>Umgebend</item>
+        <item>Aus</item>
+    </string-array>
+    <string-array name="pref_speaker_surround_summarries">
+        <item>Erzeugt den Effekt einer Wiedergabe in einem großen Raum</item>
+        <item>Verbreitert das Stereobild</item>
+        <item>Erzeugt ein natürliches, von außen einwirkendes Klangbild</item>
+        <item></item>
+    </string-array>
+    <string-array name="pref_headset_equalizer_entries">
+        <item>Extremer Bass</item>
+        <item>Bass-Schlag</item>
+        <item>Ausgeglichen</item>
+        <item>Strahlende Höhen</item>
+        <item>Vocalizer</item>
+        <item>Aus</item>
+    </string-array>
+    <string-array name="pref_headset_equalizer_summaries">
+        <item>Maximale Bassanhebung</item>
+        <item>Straffer Bass, Verstärkung mit genauer Basssteuerung</item>
+        <item>Betonung von Instrumenten im mittleren Frequenzbereich</item>
+        <item>Anhebung der Höhen</item>
+        <item>Betonung von Gesang und Sprache</item>
+        <item></item>
+    </string-array>
+    <string-array name="pref_speaker_equalizer_entries">
+        <item>Extremer Bass</item>
+        <item>Bass-Schlag</item>
+        <item>Ausgeglichen</item>
+        <item>Strahlende Höhen</item>
+        <item>Vocalizer</item>
+        <item>Aus</item>
+    </string-array>
+    <string-array name="pref_speaker_equalizer_summaries">
+        <item>Maximale Bassanhebung</item>
+        <item>Straffer Bass, Verstärkung mit genauer Basssteuerung</item>
+        <item>Betonung von Instrumenten im mittleren Frequenzbereich</item>
+        <item>Anhebung der hohen Töne</item>
+        <item>Hervorheben von Gesang und Sprache</item>
+        <item></item>
+    </string-array>
+    <string-array name="pref_mono_equalizer_entries">
+        <item>Extremer Bass</item>
+        <item>Bass-Schlag</item>
+        <item>Ausgeglichen</item>
+        <item>Strahlende Höhen</item>
+        <item>Vocalizer</item>
+        <item>Aus</item>
+    </string-array>
+    <string-array name="pref_mono_equalizer_summaries">
+        <item>Maximale Bassanhebung</item>
+        <item>Straffer Bass, Verstärkung mit genauer Basssteuerung</item>
+        <item>Betonung von Instrumenten im mittleren Frequenzbereich</item>
+        <item>Anhebung der hohen Töne</item>
+        <item>Hervorheben von Gesang und Sprache</item>
+        <item></item>
+    </string-array>
+</resources>

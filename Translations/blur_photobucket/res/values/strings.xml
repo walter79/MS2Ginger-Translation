@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+    <string name="app_name">Photobucket Authenticator</string>
+    <string name="display_name">Photobucket</string>
+    <string name="options_display_name">Photobucket options</string>
+</resources>

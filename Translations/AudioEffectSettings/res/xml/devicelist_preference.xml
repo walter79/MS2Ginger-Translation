@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<PreferenceScreen android:title="@string/app_name"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <PreferenceScreen android:title="@string/pref_wired_stereo_device_title" android:key="pref_device_wired_stereo_device" />
+    <PreferenceScreen android:title="@string/pref_mono_speaker_title" android:key="pref_device_speaker" />
+</PreferenceScreen>

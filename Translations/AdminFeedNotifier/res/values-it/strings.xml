@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+    <string name="app_name">Notifiche ammin.</string>
+    <string name="hard_reset_failed">Impossibile effettuare un hard reset del dispositivo.</string>
+    <string name="needUpgradeNoneFound">Software telefono troppo vecchio per aggiornamento automatico. Contatta l\'operatore del telefono cellulare per assistenza.</string>
+    <string name="hard_reset_on_ok">Questo è un dispositivo di sviluppo e quando premi ok esegue un hard reset. I dispositivi non di sviluppo, eseguono solo il ripristino.</string>
+    <string name="accountDisabled">Si è verificato un errore durante l\'accesso all\'account. \n \n L\'account MOTOBLUR è stato disattivato. Contatta il servizio clienti.</string>
+    <string name="blurPasswordMismatch">La password dell\'account non corrisponde a quella archiviata. Se hai modificato la password di recente, reinserisci la nuova password.</string>
+    <string name="notificationTitle">Avviso di rete</string>
+    <string name="accountDeleted">L\'account è stato eliminato; reimposta il dispositivo per creare un nuovo account. Vai a \"Impostazioni\", \"Memoria e scheda SD\", quindi seleziona \"Ripristino dati iniziali\"</string>
+    <string name="wrongDevice">L\'account utilizzato è associato a un altro dispositivo. Contatta il servizio clienti per ripristinare il dispositivo.</string>
+    <string name="wrong_password_subject">{0} errore nome utente o password.</string>
+    <string name="blur_password_incorrect">Password MOTOBLUR errata</string>
+    <string name="wrong_password_title">Account</string>
+    <string name="more_info">Altre info</string>
+    <string name="error">Errore</string>
+    <string name="google_privacy_summary">Avviso di Google sulla privacy</string>
+    <string name="google_privacy_body">I regolamenti sulla privacy per l\'uso dei servizi Google e Android possono essere consultati in Impostazioni/Info sul telefono/Informazioni legali/Note legali Google.</string>
+    <string name="view_terms">Leggi regolamenti</string>
+    <string name="blur_account_error">Errore account Blur</string>
+    <string name="unverified_motoblur_acnt">Account MOTOBLUR non verificato</string>
+</resources>

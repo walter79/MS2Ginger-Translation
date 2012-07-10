@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+    <string name="app_label">Ajustes de sincronización y de cuenta</string>
+    <string name="sync_settings">Ajustes sincroniz. y cuentas</string>
+    <string name="sync_too_many_deletes">Límite de eliminaciones superado</string>
+    <string name="background_data">Conex. automáticas</string>
+    <string name="background_data_summary">Las aplicaciones pueden sincronizar datos, enviarlos y recibirlos</string>
+    <string name="background_data_dialog_title">Atención</string>
+    <string name="background_data_dialog_message">Si inhabilitas las conexiones automáticas, aumentarás la duración de la batería y reducirás el uso de datos. Es posible que algunas aplicaciones sigan utilizando las conexiones automáticas.</string>
+    <string name="sync_automatically">Sincr. automática</string>
+    <string name="sync_automatically_summary">Las aplicaciones sincronizan los datos de forma automática</string>
+    <string name="settings_backup">Realizar copia de seguridad de configuración</string>
+    <string name="settings_backup_summary">Realizar copia de seguridad de mi configuración</string>
+    <string name="sync_menu_sync_now">Sincronizar ahora</string>
+    <string name="sync_menu_sync_cancel">Cancelar sincronización</string>
+    <string name="sync_one_time_sync">Tocar para realizar la sincronización ahora %1$s</string>
+    <string name="sync_gmail">Gmail</string>
+    <string name="sync_calendar">Calendario</string>
+    <string name="sync_contacts">Contactos</string>
+    <string name="sync_too_many_deletes_desc">Hay %1$d elementos eliminados para %2$s, cuenta %3$s. ¿Qué quieres hacer?</string>
+    <string name="sync_really_delete">Eliminar los elementos</string>
+    <string name="sync_undo_deletes">Deshacer las eliminaciones</string>
+    <string name="sync_do_nothing">No hacer nada por ahora</string>
+    <string name="sync_is_failing">En este momento hay problemas con la sincronización. Se restablecerá en breve.</string>
+    <string name="sync_plug"><font fgcolor="#ffffffff">Te damos la bienvenida a Google Sync,</font> \nun servicio de Google que te permite sincronizar datos para hacer posible el acceso a tus contactos, a tus citas, etc., desde cualquier ubicación.</string>
+    <string name="header_application_sync_settings">Ajustes de sincronización de aplicación</string>
+    <string name="header_manage_accounts">Administrar cuentas</string>
+    <string name="header_general_sync_settings">Ajustes de sincronización general</string>
+    <string name="sync_enabled">La sincronización está activada.</string>
+    <string name="sync_disabled">La sincronización está desactivada.</string>
+    <string name="sync_error">Error de sincronización</string>
+    <string name="add_account_label">Añadir cuenta</string>
+    <string name="header_data_and_synchronization">Datos y sincronización</string>
+    <string name="preference_change_password_title">Cambiar contraseña</string>
+    <string name="header_account_settings">Ajustes de la cuenta</string>
+    <string name="remove_account_label">Eliminar cuenta</string>
+    <string name="header_add_an_account">Añadir una cuenta</string>
+    <string name="finish_button_label">Finalizar</string>
+    <string name="really_remove_account_title">Eliminar cuenta</string>
+    <string name="really_remove_account_message">¿Deseas eliminar realmente esta cuenta? Si lo haces, se eliminarán también todos los mensajes, los contactos y otros datos del teléfono. ¿Quieres continuar?</string>
+    <string name="remove_account_failed">Algunas aplicaciones necesitan esta cuenta. Solo puedes eliminarla restableciendo los valores predeterminados de fábrica del teléfono (esta acción elimina todos tus datos personales). Para ello, accede a \"Ajustes\", \"Privacidad\".</string>
+    <string name="provider_label">Suscripciones \"Push\"</string>
+    <string name="sync_item_title">Sincronizar %s</string>
+    <string name="cant_sync_dialog_title">No se puede realizar la sincronización de forma manual.</string>
+    <string name="cant_sync_dialog_message">Sincronización de este elemento no disponible en este momento. Para modificar tu preferencia, activa temporalmente conexiones automáticas y sincronización automática.</string>
+</resources>

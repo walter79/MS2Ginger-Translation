@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+    <string name="app_name">Notificador admin.</string>
+    <string name="hard_reset_failed">No se ha podido realizar un restablecimiento completo del dispositivo.</string>
+    <string name="needUpgradeNoneFound">El software del teléfono es demasiado antiguo para una actualización automática. Ponte en contacto con tu operador móvil para actualizar el software del teléfono.</string>
+    <string name="hard_reset_on_ok">Es un dispositivo de desarrollo y se restablecerá por completo al pulsar Aceptar. Los dispositivos que no sean de desarrollo solo se restablecerán.</string>
+    <string name="accountDisabled">Se ha producido un error al acceder a la cuenta. \n \n Se ha inhabilitado tu cuenta de MOTOBLUR. Ponte en contacto con el servicio de atención al cliente.</string>
+    <string name="blurPasswordMismatch">La contraseña de tu cuenta no coincide con la que tenemos almacenada. Si has cambiado recientemente la contraseña, vuelve a introducirla.</string>
+    <string name="notificationTitle">Alerta de red</string>
+    <string name="accountDeleted">Se ha eliminado tu cuenta. Reinicia el dispositivo para crear una cuenta nueva. Ve a \"Ajustes\" y \"Tarjeta SD y almacen. y selecciona \"Restaurar datos predeterminados\"</string>
+    <string name="wrongDevice">La cuenta que estás usando está asociada a otro dispositivo. Ponte en contacto con el servicio de atención al cliente para restablecer el dispositivo.</string>
+    <string name="wrong_password_subject">{0} nombre de usuario o contraseña incorrecta.</string>
+    <string name="blur_password_incorrect">Contraseña MOTOBLUR incorrecta</string>
+    <string name="wrong_password_title">Cuentas</string>
+    <string name="more_info">Más información</string>
+    <string name="error">Error</string>
+    <string name="google_privacy_summary">Aviso de privacidad de Google</string>
+    <string name="google_privacy_body">Puedes encontrar la política de privacidad del uso de Google y los servicios Android en Ajustes/Acerca del teléfono/Información legal/Dpto. legal de Google.</string>
+    <string name="view_terms">Ver políticas</string>
+    <string name="blur_account_error">Error de cuenta Blur</string>
+    <string name="unverified_motoblur_acnt">Cuenta MOTOBLUR no verificada</string>
+</resources>

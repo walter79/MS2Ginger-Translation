@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+    <string name="app_name">Abkühlmodus</string>
+    <string name="batt_temp_cooldown_title">Abkühlmodus</string>
+    <string name="batt_temp_cooldown_msg">Das Telefon befindet sich im Abkühlmodus. Nur Notrufe möglich.</string>
+    <string name="lockscreen_emergency_call">Notruf</string>
+</resources>

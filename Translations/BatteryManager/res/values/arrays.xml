@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+    <string-array name="options_list">
+        <item>Battery presets</item>
+        <item>Custom settings</item>
+    </string-array>
+    <string-array name="smart_batt_timeout_entries">
+        <item>15 minutes</item>
+        <item>30 minutes</item>
+        <item>45 minutes</item>
+        <item>60 minutes</item>
+        <item>Keep Always On</item>
+    </string-array>
+    <integer-array name="batt_timeout_values">
+        <item>15</item>
+        <item>30</item>
+        <item>45</item>
+        <item>60</item>
+        <item>-1</item>
+    </integer-array>
+    <string-array name="smart_batt_offpeak_timeout_entries">
+        <item>15 minutes</item>
+        <item>30 minutes</item>
+        <item>45 minutes</item>
+        <item>60 minutes</item>
+    </string-array>
+</resources>

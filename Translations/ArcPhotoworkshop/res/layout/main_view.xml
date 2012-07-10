@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RelativeLayout android:id="@id/mainLayout" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textAppearance="@style/LableTextStyle" android:textColor="@android:color/background_light" android:gravity="center" android:id="@id/main_prompt" android:background="@android:drawable/toast_frame" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/IDS_CLICK_FOR_EDIT_TOOL" android:shadowColor="#bb000000" android:shadowRadius="2.75" android:layout_alignParentBottom="true" />
+    <include layout="@layout/btn_zoom" />
+</RelativeLayout>

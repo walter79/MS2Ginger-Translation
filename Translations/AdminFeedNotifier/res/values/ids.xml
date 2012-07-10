@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+    <item type="id" name="parentPanel">false</item>
+    <item type="id" name="title_template">false</item>
+    <item type="id" name="icon">false</item>
+    <item type="id" name="alertTitle">false</item>
+    <item type="id" name="titleDivider">false</item>
+    <item type="id" name="button_panel">false</item>
+    <item type="id" name="leftSpacer">false</item>
+    <item type="id" name="button1">false</item>
+    <item type="id" name="button3">false</item>
+    <item type="id" name="button2">false</item>
+    <item type="id" name="rightSpacer">false</item>
+    <item type="id" name="scrollView">false</item>
+    <item type="id" name="message">false</item>
+</resources>

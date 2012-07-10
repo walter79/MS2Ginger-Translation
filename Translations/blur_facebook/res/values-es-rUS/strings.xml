@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+    <string name="app_name">Autenticador de Facebook</string>
+    <string name="display_name">Facebook</string>
+    <string name="options_display_name">Opciones de Facebook</string>
+</resources>

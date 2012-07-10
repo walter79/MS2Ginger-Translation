@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TableLayout android:layout_width="fill_parent" android:layout_height="fill_parent" android:stretchColumns="1"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TableRow>
+        <TextView android:gravity="right" android:padding="3.0dip" android:text="@string/status_device_label" />
+        <TextView android:id="@id/device_name" android:padding="3.0dip" android:scrollHorizontally="true" />
+    </TableRow>
+    <TableRow>
+        <TextView android:gravity="right" android:padding="3.0dip" android:text="@string/status_time_elapsed_label" />
+        <TextView android:id="@id/time_elapsed" android:padding="3.0dip" android:scrollHorizontally="true" />
+    </TableRow>
+    <TableRow>
+        <TextView android:gravity="right" android:padding="3.0dip" android:text="@string/status_status_label" />
+        <TextView android:padding="3.0dip" android:text="@string/status_active_label" android:scrollHorizontally="true" />
+    </TableRow>
+</TableLayout>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+    <style name="Theme.roundDlg" parent="@android:style/Theme.Dialog">
+        <item name="android:windowBackground">@drawable/round_dlg</item>
+        <item name="android:windowNoTitle">true</item>
+    </style>
+</resources>

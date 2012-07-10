@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+    <attr name="max" format="integer" />
+    <attr name="progress" format="integer" />
+    <attr name="secondaryProgress" format="integer" />
+    <attr name="indeterminate" format="boolean" />
+    <attr name="indeterminateOnly" format="boolean" />
+    <attr name="indeterminateDrawable" format="reference" />
+    <attr name="progressDrawable" format="reference" />
+    <attr name="indeterminateDuration" format="integer" min="1" />
+    <attr name="indeterminateBehavior">
+        <enum name="repeat" value="1" />
+        <enum name="cycle" value="2" />
+    </attr>
+    <attr name="minWidth" format="dimension" />
+    <attr name="maxWidth" format="dimension" />
+    <attr name="minHeight" format="dimension" />
+    <attr name="maxHeight" format="dimension" />
+    <attr name="offsetTop" format="dimension" />
+    <attr name="offsetBottom" format="dimension" />
+    <attr name="interpolator" format="reference" />
+    <attr name="thumb" format="reference" />
+    <attr name="thumbOffset" format="dimension" />
+    <attr name="leftThumb" format="reference" />
+    <attr name="rightThumb" format="reference" />
+    <attr name="limitedThumb" format="reference" />
+    <attr name="leftLimitedThumb" format="reference" />
+    <attr name="leftThumbOffsetX" format="dimension" />
+    <attr name="leftThumbOffsetY" format="dimension" />
+    <attr name="rightThumbOffsetX" format="dimension" />
+    <attr name="rightThumbOffsetY" format="dimension" />
+    <attr name="mutexRadius" format="dimension" />
+    <attr name="sensingRadius" format="dimension" />
+    <attr name="disabledAlpha" format="float" />
+    <attr name="progressBarStyle" format="reference" />
+    <attr name="progressBarStyleHorizontal" format="reference" />
+    <attr name="progressBarStyleSmall" format="reference" />
+    <attr name="progressBarStyleSmallTitle" format="reference" />
+    <attr name="progressBarStyleLarge" format="reference" />
+    <attr name="seekBarStyle" format="reference" />
+    <attr name="trimBarStyle" format="reference" />
+</resources>

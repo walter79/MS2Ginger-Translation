@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+    <string name="perm_desc">Lehetővé tesz több gyártó specifikus atcmd-t pluginen keresztül.</string>
+    <string name="perm_label">Az atcmd plugin engedélyezése</string>
+</resources>

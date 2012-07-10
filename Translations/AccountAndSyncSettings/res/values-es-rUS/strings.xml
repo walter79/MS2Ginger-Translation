@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+    <string name="app_label">Config. cuenta y sincr.</string>
+    <string name="sync_settings">Configuración de cuentas y sincronización</string>
+    <string name="sync_too_many_deletes">Límite de eliminaciones excedido</string>
+    <string name="background_data">Datos de fondo</string>
+    <string name="background_data_summary">Las aplicaciones pueden sincronizar, enviar y \u0020recibir datos en cualquier momento</string>
+    <string name="background_data_dialog_title">Atención</string>
+    <string name="background_data_dialog_message">Al desactivar los datos de fondo, se prolonga la vida útil de la batería y se reduce el uso de datos. Algunas aplicaciones pueden seguir utilizando una conexión de datos de fondo.</string>
+    <string name="sync_automatically">Sincroniz. automática</string>
+    <string name="sync_automatically_summary">Las aplicaciones sincronizan los datos automáticamente.</string>
+    <string name="settings_backup">Copia de seguridad de configuración</string>
+    <string name="settings_backup_summary">Hacer una copia de seguridad de mi configuración</string>
+    <string name="sync_menu_sync_now">Sincronizar ahora</string>
+    <string name="sync_menu_sync_cancel">Cancelar sincronización</string>
+    <string name="sync_one_time_sync">Tocar para sincronizar ahora %1$s</string>
+    <string name="sync_gmail">Gmail</string>
+    <string name="sync_calendar">Calendario</string>
+    <string name="sync_contacts">Contactos</string>
+    <string name="sync_too_many_deletes_desc">Hay %1$d elementos eliminados para %2$s, cuenta %3$s. ¿Qué te gustaría hacer?</string>
+    <string name="sync_really_delete">Eliminar los elememtos.</string>
+    <string name="sync_undo_deletes">Deshacer las eliminaciones.</string>
+    <string name="sync_do_nothing">No hacer nada por ahora.</string>
+    <string name="sync_is_failing">En este momento la sincronización experimenta problemas. Volverá en breve.</string>
+    <string name="sync_plug"><font fgcolor="#ffffffff">¡Bienvenido a Google sync!</font> \nUn método de Google que sincroniza datos para permitir el acceso a tus contactos, citas y mucho más desde cualquier lugar en donde estés.</string>
+    <string name="header_application_sync_settings">Config. sincronización aplicaciones</string>
+    <string name="header_manage_accounts">Administrar cuentas</string>
+    <string name="header_general_sync_settings">Configuración general de sincronización</string>
+    <string name="sync_enabled">Sincronización activada</string>
+    <string name="sync_disabled">Sincronización desactivada</string>
+    <string name="sync_error">Error de sincronización</string>
+    <string name="add_account_label">Agregar cuenta</string>
+    <string name="header_data_and_synchronization">Sincronización y datos</string>
+    <string name="preference_change_password_title">Cambiar contraseña</string>
+    <string name="header_account_settings">Configuración de cuenta</string>
+    <string name="remove_account_label">Remover cuenta</string>
+    <string name="header_add_an_account">Agregar una cuenta</string>
+    <string name="finish_button_label">Finalizar</string>
+    <string name="really_remove_account_title">Remover cuenta</string>
+    <string name="really_remove_account_message">¿Realmente deseas remover esta cuenta? Si lo haces, también borrarás todos sus mensajes, contactos y otros datos del teléfono. \n¿Deseas continuar?</string>
+    <string name="remove_account_failed">Algunas aplicaciones requieren esta cuenta. Sólo puedes removerla si restableces la configuración de fábrica del teléfono (lo cual borra todos tus datos personales). Puedes hacerlo en Configuración, bajo Privacidad.</string>
+    <string name="provider_label">Suscripciones de inserción</string>
+    <string name="sync_item_title">Sincronizar %s</string>
+    <string name="cant_sync_dialog_title">No se puede realizar una sincronización manual</string>
+    <string name="cant_sync_dialog_message">La sincronización de este elemento está actualmente desactivada. Para cambiar tus preferencias, activa momentáneamente los datos de fondo y la sincronización automática.</string>
+</resources>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+    <string name="app_name">Autoryzacja LastFM</string>
+    <string name="display_name">LastFM</string>
+    <string name="options_display_name">Opcje LastFM</string>
+</resources>

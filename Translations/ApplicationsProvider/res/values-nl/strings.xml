@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+    <string name="app_label">Provider zoektoepassingen</string>
+    <string name="search_label">Toepassingen</string>
+    <string name="application_desc">Toepassing</string>
+    <string name="settings_description">Namen van geïnstalleerde toepassingen</string>
+</resources>

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+    <string name="app_name">BluetoothDun</string>
+    <string name="hide_button_label">Απόκρυψη</string>
+    <string name="disconnect_button_label">Αποσύνδεση</string>
+    <string name="status_title_label">Κοινή χρήση Internet</string>
+    <string name="status_device_label">Συσκευή:</string>
+    <string name="status_time_elapsed_label">Χρόνος που παρήλθε:</string>
+    <string name="status_status_label">Κατάσταση:</string>
+    <string name="status_active_label">Ενεργή</string>
+    <string name="notification_dun_label">Κοινή χρήση Internet</string>
+    <string name="notification_dun_description">Επιλογή για αποσύνδεση</string>
+    <string name="dun_acceptance_dialog_label">Αποδοχή εισερχόμενης σύνδεσης DUN</string>
+    <string name="dun_acceptance_dialog_title">Αίτημα κοινής χρήσης Internet</string>
+    <string name="dun_acceptance_dialog_content">Να επιτρέπεται στη συσκευή %s η πρόσβαση στην υπηρεσία κοινής χρήσης στο διαδίκτυο;</string>
+    <string name="dun_acceptance_dialog_checkbox">Να επιτρέπεται πάντα;</string>
+    <string name="alert_dialog_yes">Ναι</string>
+    <string name="alert_dialog_no">Όχι</string>
+    <string name="dun_reject">Το μόντεμ είναι απασχολημένο. Είναι ενεργή μια άλλη περίοδος σύνδεσης DUN.</string>
+    <string name="map_app_name">Χάρτης Bluetooth</string>
+    <string name="map_acceptance_dialog_title">Η συσκευή %1$s θέλει να αποκτήσει πρόσβαση στα μηνύματά σας. Να επιτραπεί η πρόσβαση στη συσκευή %2$s;</string>
+    <string name="map_acceptance_dialog_header">Προφίλ πρόσβασης μηνυμάτων</string>
+    <string name="map_acceptance_timeout_message">Το χρονικό όριο για την αποδοχή της σύνδεσης με τη συσκευή %1$s έληξε</string>
+    <string name="map_bluetooth_transfer_text">Δεν ήταν δυνατή η δημιουργία σύνδεσης κοινής χρήσης μηνυμάτων με</string>
+    <string name="map_toast_connected">Η συσκευή %1$s μπορεί τώρα να αποκτήσει πρόσβαση στα μηνύματά σας</string>
+    <string name="map_toast_disconnected">Η συσκευή %1$s δεν έχει πλέον πρόσβαση στα μηνύματά σας</string>
+    <string name="alwaysallowed">Να επιτρέπεται πάντα;</string>
+    <string name="defaultname">Κιτ αυτοκινήτου</string>
+    <string name="map_notif_ticker">Αίτημα πρόσβασης στα μηνύματα</string>
+    <string name="map_notif_title">Αίτημα ΑΝΤΙΣΤΟΙΧΙΣΗΣ</string>
+    <string name="map_notif_message">Να επιτρέπεται η πρόσβαση στα μηνύματα στη συσκευή %1$s</string>
+</resources>

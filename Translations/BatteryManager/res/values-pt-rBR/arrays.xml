@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+    <string-array name="options_list">
+        <item>Pré-definições da bateria</item>
+        <item>Personalizar configurações</item>
+    </string-array>
+    <string-array name="smart_batt_timeout_entries">
+        <item>15 minutos</item>
+        <item>30 minutos</item>
+        <item>45 minutos</item>
+        <item>60 minutos</item>
+        <item>Manter sempre ligado</item>
+    </string-array>
+    <string-array name="smart_batt_offpeak_timeout_entries">
+        <item>15 minutos</item>
+        <item>30 minutos</item>
+        <item>45 minutos</item>
+        <item>60 minutos</item>
+    </string-array>
+</resources>

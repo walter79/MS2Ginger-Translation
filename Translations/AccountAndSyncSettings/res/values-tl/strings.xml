@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+    <string name="app_label">Mga Setting ng Account at Sync</string>
+    <string name="sync_settings">Mga setting ng account at pag-sync</string>
+    <string name="sync_too_many_deletes">Nalagpasan na ang limitasyon sa pagtanggal</string>
+    <string name="background_data">Data ng background</string>
+    <string name="background_data_summary">Maaaring mag-sync, magpadala, at tumanggap ng data ang mga application sa anumang oras</string>
+    <string name="background_data_dialog_title">Bigyang pansin</string>
+    <string name="background_data_dialog_message">Ang hindi pagpapagana sa background na data ay nagpapahaba sa buhay ng baterya at nagpapababa sa paggamit ng data. Maaari pa ring gamitin ng ilang application ang koneksyon sa data ng background.</string>
+    <string name="sync_automatically">Awtomatikong pag-sync</string>
+    <string name="sync_automatically_summary">Awtomatikong sini-sync ng mga application ang data</string>
+    <string name="settings_backup">I-back up ang mga setting</string>
+    <string name="settings_backup_summary">I-back up ang aking mga setting</string>
+    <string name="sync_menu_sync_now">Mag-sync ngayon</string>
+    <string name="sync_menu_sync_cancel">Kanselahin ang pag-sync</string>
+    <string name="sync_one_time_sync">Galawin upang mag-sync ngayon\n%1$s</string>
+    <string name="sync_gmail">Gmail</string>
+    <string name="sync_calendar">Kalendaryo</string>
+    <string name="sync_contacts">Mga Contact</string>
+    <string name="sync_too_many_deletes_desc">Mayroong %1$d (na) natanggal na item para sa %2$s, account na %3$s. Ano ang gusto mong gawin?</string>
+    <string name="sync_really_delete">Tanggalin ang mga item.</string>
+    <string name="sync_undo_deletes">I-undo ang mga pagtanggal.</string>
+    <string name="sync_do_nothing">Walang gawin sa ngayon.</string>
+    <string name="sync_is_failing">Kasalukuyang nakakaranas ng mga problema ang pag-sync. Babalik ito sa ilang saglit.</string>
+    <string name="sync_plug"><font fgcolor="#ffffffff">Maligayang pagdating sa Google sync!</font> \nIsang diskarte ng Google sa pag-synchronize ng data upang payagan ang access sa iyong mga contact, appointment, at higit pa kahit nasaan ka man.</string>
+    <string name="header_application_sync_settings">Mga setting ng pag-sync ng application</string>
+    <string name="header_manage_accounts">Pamahalaan ang mga account</string>
+    <string name="header_general_sync_settings">Mga pangkalahatang setting ng pag-sync</string>
+    <string name="sync_enabled">Naka-ON ang pag-sync</string>
+    <string name="sync_disabled">Naka-OFF ang pag-sync</string>
+    <string name="sync_error">Error sa pag-sync</string>
+    <string name="add_account_label">Magdagdag ng account</string>
+    <string name="header_data_and_synchronization">Data at pag-synchronize</string>
+    <string name="preference_change_password_title">Palitan ang password</string>
+    <string name="header_account_settings">Mga setting ng account</string>
+    <string name="remove_account_label">Alisin ang account</string>
+    <string name="header_add_an_account">Magdagdag ng account</string>
+    <string name="finish_button_label">Tapusin</string>
+    <string name="really_remove_account_title">Alisin ang account</string>
+    <string name="really_remove_account_message">Gusto mo ba talagang alisin ang account na ito? Ang pag-alis nito ay magtatanggal din sa lahat ng mga mensahe, contact, at ibang data nito mula sa telepono. \nMagpatuloy?</string>
+    <string name="remove_account_failed">Kinakailangan ang account na ito ng ilang application. Maaari mo lang itong alisin sa pamamagitan ng pag-reset sa telepono sa mga default ng factory (na nagtatanggal sa lahat ng iyong personal na data). Ginagawa mo iyon sa application ng Mga Setting, sa ilalim ng Privacy.</string>
+    <string name="provider_label">I-push ang mga subscription</string>
+    <string name="sync_item_title">I-sync ang %s</string>
+    <string name="cant_sync_dialog_title">Hindi makapag-sync nang manu-mano</string>
+    <string name="cant_sync_dialog_message">Kasalukuyang hindi pinagana ang pag-sync para sa item na ito. Upang palitan ang iyong kagustuhan, pansamantalang i-on ang data ng background at awtomatikong sync.</string>
+</resources>
