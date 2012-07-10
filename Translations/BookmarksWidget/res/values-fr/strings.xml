@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+    <string name="app_name">Widget Favoris</string>
+    <string name="bookmark">Favori</string>
+    <string name="widget_desc">Favoris visuels</string>
+    <string name="url">url</string>
+    <string name="setup">Configurer</string>
+    <string name="listscreen">Widget Favoris</string>
+    <string name="listtext">Sélectionner les favoris pour ce widget</string>
+</resources>

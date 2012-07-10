@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+    <string name="app_name">Widget voor bladwijzers</string>
+    <string name="bookmark">Bladwijzer</string>
+    <string name="widget_desc">Visuele bladwijzers</string>
+    <string name="url">url</string>
+    <string name="setup">Instellen</string>
+    <string name="listscreen">Bladwijzers instellen</string>
+    <string name="listtext">Bladwijzers selecteren voor deze widget</string>
+</resources>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+    <string name="app_name">Widget de marcadores</string>
+    <string name="bookmark">Marcador</string>
+    <string name="widget_desc">Marcadores visuales</string>
+    <string name="url">URL</string>
+    <string name="setup">Configuración</string>
+    <string name="listscreen">Widget de marcadores</string>
+    <string name="listtext">Seleccionar marcadores para este widget</string>
+</resources>

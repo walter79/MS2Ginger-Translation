@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+    <plurals name="matches_found">
+        <item quantity="other">%d kết quả phù hợp</item>
+        <item quantity="zero">Không có kết quả nào phù hợp</item>
+        <item quantity="one">1 kết quả phù hợp</item>
+        <item quantity="few">%d kết quả phù hợp</item>
+    </plurals>
+</resources>

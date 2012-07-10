@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+    <string-array name="pref_content_plugins_choices">
+        <item>Luôn bật</item>
+        <item>Theo yêu cầu</item>
+        <item>Tắt</item>
+    </string-array>
+    <string-array name="pref_text_size_choices">
+        <item>Rất nhỏ</item>
+        <item>Nhỏ</item>
+        <item>Thường</item>
+        <item>Lớn</item>
+        <item>Rất lớn</item>
+    </string-array>
+    <string-array name="pref_default_zoom_choices">
+        <item>Xa</item>
+        <item>Trung bình</item>
+        <item>Đóng</item>
+    </string-array>
+    <string-array name="pref_default_text_encoding_choices">
+        <item>Latin-1 (ISO-8859-1)</item>
+        <item>Unicode (UTF-8)</item>
+        <item>Tiếng Trung (GBK)</item>
+        <item>Tiếng Trung (Big5)</item>
+        <item>Tiếng Nhật (ISO-2022-JP)</item>
+        <item>Tiếng Nhật (SHIFT_JIS)</item>
+        <item>Tiếng Nhật (EUC-JP)</item>
+    </string-array>
+</resources>

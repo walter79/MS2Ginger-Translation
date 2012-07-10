@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+    <plurals name="matches_found">
+        <item quantity="other">%d a %d -ból</item>
+        <item quantity="one">1 találat</item>
+    </plurals>
+</resources>

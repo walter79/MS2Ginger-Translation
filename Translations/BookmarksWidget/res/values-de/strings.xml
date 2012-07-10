@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+    <string name="app_name">Lesezeichen-Widget</string>
+    <string name="bookmark">Lesezeichen</string>
+    <string name="widget_desc">Visuelle Lesezeichen</string>
+    <string name="url">URL</string>
+    <string name="setup">Einrichten</string>
+    <string name="listscreen">Lesezeichen-Widget</string>
+    <string name="listtext">Lesezeichen für dieses Widget auswählen</string>
+</resources>

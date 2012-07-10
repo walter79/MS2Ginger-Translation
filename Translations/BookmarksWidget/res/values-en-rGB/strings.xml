@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+    <string name="app_name">Bookmarks widget</string>
+    <string name="bookmark">Bookmark</string>
+    <string name="widget_desc">Visual bookmarks</string>
+    <string name="url">url</string>
+    <string name="setup">Setup</string>
+    <string name="listscreen">Bookmarks widget</string>
+    <string name="listtext">Select bookmarks for this widget</string>
+</resources>

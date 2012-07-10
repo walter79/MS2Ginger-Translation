@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+    <plurals name="matches_found">
+        <item quantity="other">%d (na) tugma</item>
+        <item quantity="zero">Walang mga tugma</item>
+        <item quantity="one">1 tugma</item>
+        <item quantity="few">%d (na) tugma</item>
+    </plurals>
+</resources>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RelativeLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:moto.res="http://schemas.android.com/apk/res/com.motorola.android.widget">
+    <com.motorola.android.widget.MotoFlowView android:id="@id/flow" android:layout_width="fill_parent" android:layout_height="fill_parent" moto.res:mainItemOffsetX="0.0dip" moto.res:mainItemOffsetY="24.0dip" moto.res:backgroundImage="@drawable/zz_moto_browser_gallery_wall" moto.res:shadowImage="@drawable/zz_moto_browser_gallery_shadow" moto.res:lightX="0.0dip" moto.res:lightY="350.0dip" moto.res:lightZ="1000.0dip" moto.res:itemSpacing="12.0dip" moto.res:shadowOffset="2.0dip" />
+    <LinearLayout android:orientation="vertical" android:paddingLeft="64.0dip" android:paddingRight="64.0dip" android:paddingBottom="10.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_alignParentBottom="true">
+        <TextView android:textAppearance="?android:textAppearanceMedium" android:textColor="@color/white" android:ellipsize="end" android:gravity="center_horizontal" android:id="@id/label" android:focusable="false" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:singleLine="true" android:shadowColor="#c0000000" android:shadowDx="0.0" android:shadowDy="0.0" android:shadowRadius="3.0" />
+        <TextView android:textAppearance="?android:textAppearanceSmall" android:textColor="@color/white" android:ellipsize="end" android:gravity="center_horizontal" android:id="@id/title" android:focusable="false" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:singleLine="true" android:shadowColor="#c0000000" android:shadowDx="0.0" android:shadowDy="0.0" android:shadowRadius="3.0" />
+    </LinearLayout>
+</RelativeLayout>

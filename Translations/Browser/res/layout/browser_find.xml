@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LinearLayout android:id="@id/findControls" android:background="@android:drawable/bottom_bar" android:paddingLeft="4.0dip" android:paddingTop="5.0dip" android:paddingRight="4.0dip" android:paddingBottom="1.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageButton android:id="@id/previous" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ic_btn_find_prev" />
+    <ImageButton android:id="@id/next" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ic_btn_find_next" />
+    <LinearLayout android:orientation="vertical" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_marginRight="6.0dip" android:layout_weight="1.0">
+        <EditText android:id="@id/edit" android:layout_width="fill_parent" android:layout_height="wrap_content" android:hint="@string/find_dot" android:scrollHorizontally="true" android:inputType="text" />
+        <LinearLayout android:layout_gravity="right" android:orientation="horizontal" android:id="@id/matches_view" android:visibility="invisible" android:layout_width="wrap_content" android:layout_height="wrap_content">
+            <TextView android:textAppearance="?android:textAppearanceSmall" android:textColor="@color/white" android:layout_gravity="right" android:id="@id/matches" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+        </LinearLayout>
+    </LinearLayout>
+    <ImageButton android:id="@id/done" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ic_btn_close_panel" />
+</LinearLayout>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+    <string name="app_name">书签小部件</string>
+    <string name="bookmark">书签</string>
+    <string name="widget_desc">可视书签</string>
+    <string name="url">网址</string>
+    <string name="setup">设置</string>
+    <string name="listscreen">书签小部件</string>
+    <string name="listtext">选择此小部件的书签</string>
+</resources>

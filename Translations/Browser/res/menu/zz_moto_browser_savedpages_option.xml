@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<menu
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@id/save_last_page_menu_id" android:title="@string/save_last_page" />
+    <item android:id="@id/sort_menu_id" android:title="@string/sort_savedpage" />
+</menu>

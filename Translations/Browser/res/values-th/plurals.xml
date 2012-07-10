@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+    <plurals name="matches_found">
+        <item quantity="other">%d รายการที่ตรงกัน</item>
+        <item quantity="zero">ไม่พบรายการที่ตรงกัน</item>
+        <item quantity="one">1 รายการที่ตรงกัน</item>
+        <item quantity="few">%d รายการที่ตรงกัน</item>
+    </plurals>
+</resources>

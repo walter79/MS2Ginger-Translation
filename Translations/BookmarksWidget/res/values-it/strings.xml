@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+    <string name="app_name">Segnalibri</string>
+    <string name="bookmark">Segnalibro</string>
+    <string name="widget_desc">Segnalibri visivi</string>
+    <string name="url">url</string>
+    <string name="setup">Configura</string>
+    <string name="listscreen">Widget Segnalibri</string>
+    <string name="listtext">Seleziona segnalibri per questo widget</string>
+</resources>

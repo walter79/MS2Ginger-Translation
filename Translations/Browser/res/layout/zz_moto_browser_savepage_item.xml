@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<com.motorola.android.browser.SavedPageItem android:orientation="horizontal" android:fitsSystemWindows="true" android:layout_width="fill_parent" android:layout_height="45.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:layout_gravity="center_vertical" android:id="@id/favicon" android:layout_width="20.0dip" android:layout_height="20.0dip" android:layout_marginLeft="6.0dip" android:layout_marginRight="6.0dip" />
+    <LinearLayout android:orientation="vertical" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0">
+        <RelativeLayout android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="3.0dip">
+            <TextView android:textSize="14.0dip" android:textStyle="bold" android:id="@id/pagename" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="6.0dip" android:layout_marginTop="4.0dip" android:singleLine="true" />
+            <TextView android:textSize="12.0dip" android:id="@id/saved_url" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="6.0dip" android:singleLine="true" android:layout_below="@id/pagename" />
+            <TextView android:textSize="12.0dip" android:id="@id/savetime" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="6.0dip" android:singleLine="true" android:layout_below="@id/saved_url" />
+        </RelativeLayout>
+    </LinearLayout>
+</com.motorola.android.browser.SavedPageItem>

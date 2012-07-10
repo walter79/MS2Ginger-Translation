@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+    <string-array name="pref_content_plugins_choices">
+        <item>Sempre attivati</item>
+        <item>Su richiesta</item>
+        <item>Disattivati</item>
+    </string-array>
+    <string-array name="pref_text_size_choices">
+        <item>Molto piccolo</item>
+        <item>Piccolo</item>
+        <item>Normale</item>
+        <item>Grande</item>
+        <item>Molto grande</item>
+    </string-array>
+    <string-array name="pref_default_zoom_choices">
+        <item>Lontano</item>
+        <item>Medio</item>
+        <item>Vicino</item>
+    </string-array>
+    <string-array name="pref_default_text_encoding_choices">
+        <item>Latin-1 (ISO-8859-1)</item>
+        <item>Unicode (UTF-8)</item>
+        <item>Cinese (GBK)</item>
+        <item>Cinese (Big5)</item>
+        <item>Giapponese (ISO-2022-JP)</item>
+        <item>Giapponese (SHIFT_JIS)</item>
+        <item>Giapponese (EUC-JP)</item>
+    </string-array>
+</resources>

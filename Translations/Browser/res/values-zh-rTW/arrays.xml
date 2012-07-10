@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+    <string-array name="search_engines">
+        <item>google</item>
+        <item>yahoo_tw</item>
+        <item>bing_zh_TW</item>
+    </string-array>
+    <string-array name="pref_content_plugins_choices">
+        <item>永遠開啟</item>
+        <item>隨選</item>
+        <item>關閉</item>
+    </string-array>
+    <string-array name="pref_text_size_choices">
+        <item>最小</item>
+        <item>小</item>
+        <item>一般</item>
+        <item>大</item>
+        <item>最大</item>
+    </string-array>
+    <string-array name="pref_default_zoom_choices">
+        <item>遠</item>
+        <item>中</item>
+        <item>關閉</item>
+    </string-array>
+    <string-array name="pref_default_text_encoding_choices">
+        <item>拉丁語-1 (ISO-8859-1)</item>
+        <item>Unicode (UTF-8)</item>
+        <item>中文 (GBK)</item>
+        <item>中文 (Big5)</item>
+        <item>日文 (ISO-2022-JP)</item>
+        <item>日文 (SHIFT_JIS)</item>
+        <item>日文 (EUC-JP)</item>
+    </string-array>
+</resources>

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+    <string-array name="pref_content_plugins_choices">
+        <item>Zawsze włączone</item>
+        <item>Na żądanie</item>
+        <item>Wył.</item>
+    </string-array>
+    <string-array name="pref_text_size_choices">
+        <item>Bardzo mały</item>
+        <item>Mały</item>
+        <item>Normalny</item>
+        <item>Duży</item>
+        <item>Bardzo duży</item>
+    </string-array>
+    <string-array name="pref_default_zoom_choices">
+        <item>Małe</item>
+        <item>Średnie</item>
+        <item>Duże</item>
+    </string-array>
+    <string-array name="pref_default_text_encoding_choices">
+        <item>Latin-1 (ISO-8859-1)</item>
+        <item>Unicode (UTF-8)</item>
+        <item>Chiński (GBK)</item>
+        <item>Chiński (Big5)</item>
+        <item>Japoński (ISO-2022-JP)</item>
+        <item>Japoński (SHIFT_JIS)</item>
+        <item>Japoński (EUC-JP)</item>
+    </string-array>
+</resources>

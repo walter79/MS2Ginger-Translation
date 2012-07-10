@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+    <string name="app_name">Widżet Zakładki</string>
+    <string name="bookmark">Utwórz zakładkę</string>
+    <string name="widget_desc">Wizualne zakładki</string>
+    <string name="url">Adres URL</string>
+    <string name="setup">Ustawienia</string>
+    <string name="listscreen">Widżet Zakładki</string>
+    <string name="listtext">Wybierz zakładki dla tego widżetu</string>
+</resources>

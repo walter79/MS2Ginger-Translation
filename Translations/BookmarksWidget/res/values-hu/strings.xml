@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+    <string name="app_name">Könyvjelzők Widget</string>
+    <string name="bookmark">Könyvjelző</string>
+    <string name="widget_desc">Látható könyvjelzők</string>
+    <string name="url">url</string>
+    <string name="setup">Beállítás</string>
+    <string name="listscreen">Könyvjelzők widget</string>
+    <string name="listtext">Válaszd ki a könyvjelzőket a widget számára</string>
+</resources>

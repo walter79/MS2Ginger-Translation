@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<menu
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@id/open_context_menu_id" android:title="@string/open_savedpage" />
+    <item android:id="@id/rename_context_menu_id" android:title="@string/rename_savedpage" />
+    <item android:id="@id/delete_context_menu_id" android:title="@string/remove_savedpage" />
+</menu>

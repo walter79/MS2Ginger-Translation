@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+    <string name="app_name">Γραφικό στοιχείο σελιδοδεικτών</string>
+    <string name="bookmark">Σελιδοδείκτης</string>
+    <string name="widget_desc">Οπτικοί σελιδοδείκτες</string>
+    <string name="url">Διεύθυνση URL</string>
+    <string name="setup">Ρύθμιση</string>
+    <string name="listscreen">Γραφικό στοιχείο σελιδοδεικτών</string>
+    <string name="listtext">Επιλογή σελιδ/κτών για το γραφ. στοιχείο</string>
+</resources>

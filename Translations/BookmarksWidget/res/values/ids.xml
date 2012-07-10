@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+    <item type="id" name="thumb">false</item>
+    <item type="id" name="label">false</item>
+    <item type="id" name="Check">false</item>
+    <item type="id" name="favicon">false</item>
+    <item type="id" name="title">false</item>
+    <item type="id" name="url">false</item>
+    <item type="id" name="contactlistmainLayout">false</item>
+    <item type="id" name="settings_title">false</item>
+    <item type="id" name="settings_done">false</item>
+    <item type="id" name="settings_add">false</item>
+    <item type="id" name="abwidget">false</item>
+    <item type="id" name="widget_main">false</item>
+    <item type="id" name="background_wrapper_bottom">false</item>
+    <item type="id" name="testGrid">false</item>
+</resources>
